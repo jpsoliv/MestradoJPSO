@@ -1,0 +1,209 @@
+%%% Exemplo de utilização da classe ITA
+%%%
+%%%   por        Fábio Fagundes Silveira   -  ffs [at] ita [dot] br
+%%%              Benedito C. O. Maciel     -  bcmaciel [at] ita [dot] br
+%%%              Giovani Volnei Meinertz   -  giovani [at] ita [dot] br
+%%%    	         Hudson Alberto Bode       -  bode [at] ita [dot]br
+%%%    	         P. I. Braga de Queiroz    -  pi [at] ita [dot] br
+%%%    	         Jorge A. B. Gripp         -  gripp [at] ita [dot] br
+%%%    	         
+%%%
+%%%  IMPORTANTE: O texto contido neste exemplo nao significa absolutamente nada.  :-)
+%%%              O intuito aqui eh demonstrar os comandos criados na classe e suas
+%%%              respectivas utilizacoes.
+%%%
+%%%  Tese.tex 17 2014-12-05
+%%%  $HeadURL: http://www.apgita.org.br/apgita/teses-e-latex.php $
+%%%
+%%% ITALUS
+%%% Instituto Tecnológico de Aeronáutica --- ITA, Sao Jose dos Campos, Brasil
+%%%                   http://groups.yahoo.com/group/italus/
+%%% Discussion list: italus {at} yahoogroups.com
+%%%
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+% Parametros da classe ITA para inserir em \documentclass[?]{?}
+%   msc   = Dissertacao de Mestrado
+%   dsc   = Tese de Doutorado
+%   quali = Exame de Qualificacao
+%   dv    = 'Draft Version'     --> imprime 'Versao Preliminar + data no rodape
+%   fem   = Doutora
+%   eng   = para teses em inglês
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%se fosse em inglês: \documentclass[dsc, eng]{ita}
+\documentclass[dv]{ita}    % ITA.cls based on standard book.cls
+\usepackage{ae}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{amssymb} 
+\usepackage{subfig}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{comment}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+% Identificacoes
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\course{Engenharia Aeronáutica e Elétrica}
+\dept{Engenharia Mecânica}
+\area{Sistemas Aeroespaciais e Mecatrônica}
+
+% Autor do trabalho: Nome Sobrenome
+\author{João Paulo}{de Souza Oliveira}
+\itaauthoraddress{Av. Cidade Jardim, 679}{12.233-066}{São José dos Campos--SP}
+
+% Titulo da Tese/Dissertação
+\title{Modelagem de um Controlador de Atuador Eletrohidráulico para Estimativa de Demanda de Potência Elétrica, Fator de Potência e \textit{Total Harmonic Distortion}}
+
+% Orientador
+\advisor{Prof.~Dr.}{Cairo Nascimento}
+
+% Co-orientador opcional
+\coadvisor{Eng.~MSc.}{Andre Domingues Rocha de Oliveira}{Embraer}
+
+% Pró-reitor da Pós-graduação
+\boss{Prof.~Dr.}{John von Neumann}
+
+% Palavras-Chaves informadas pela Biblioteca -> utilizada na CIP
+\kwcip{Cupim}
+\kwcip{Dilema}
+\kwcip{Construção}
+
+% membros da banca examinadora
+
+\examiner{Prof. Dr.}{Alan Turing}{Presidente}{ITA}
+\examiner{Prof. Dr.}{Linus Torwald}{}{UXXX}
+\examiner{Prof. Dr.}{Richard Stallman}{}{UYYY}
+\examiner{Prof. Dr.}{Donald Duck}{}{DYSNEY}
+\examiner{Prof. Dr.}{Mickey Mouse}{}{DISNEY}
+
+% Data da defesa
+\date{Março}{2015}
+
+% Glossario
+\makeglossary
+\frontmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% DOCUMENTO COMEÇA AQUI %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+% Folha de Rosto
+
+%\begin{comment}
+\maketitle
+
+% Dedicatoria: Nao esqueca essa secao ... :-)
+\begin{itadedication}
+Aos esforçados alunos de Pós-Graduação do ITA, por criarem este magnífico template \LaTeX, permitindo que eu ficasse ainda mais longe do Word :-)
+
+E a um cara do INPE, que apesar de já ser doutor, ainda se rebaixa a essas coisas de mexer com templates :O).....(Agradeça até ao seu animal de estimação, caso queira.) João
+\end{itadedication}
+
+% Agradecimentos
+\begin{itathanks}
+\input{Pre_Textuais/agradecimentos}
+\end{itathanks}
+
+% Epígrafe
+\thispagestyle{empty}
+\ifhyperref\pdfbookmark[0]{\nameepigraphe}{epigrafe}\fi
+\begin{flushright}
+\begin{spacing}{1}
+\mbox{}\vfill
+{\sffamily\itshape
+``The mind that opens to a new idea\\ never returns to its original size.''\\}
+--- \textsc{Albert Einstein}
+\end{spacing}
+\end{flushright}
+
+% Resumo
+\begin{abstract}
+\input{Pre_Textuais/resumo}
+\end{abstract}
+% Palavras Chave
+% No manual nao consta palavras-chaves
+%\keywords{Cupim, Cimento, Concreto Armado, Dilema}
+
+% Abstract
+\begin{englishabstract}
+\input{Pre_Textuais/abstract}
+\end{englishabstract}
+% Keywords
+%\englishkeywords{De, Buk, Is, On, de, Teibou}
+
+% Sumario
+\tableofcontents
+
+% Lista de figuras
+\listoffigures %opcional
+
+% Lista de tabelas
+\listoftables %opcional
+
+% Lista de abreviaturas
+\listofabbreviations
+\input{Pre_Textuais/listaabreviaturas} %opcional
+
+% Lista de simbolos
+\listofsymbols
+\input{Pre_Textuais/listasimbolos} %opcional
+%\end{comment}
+
+%obs
+%singlespacing Para um espaçamento simples
+%onehalfspacing Para um espaçamento de 1,5
+%doublespacing Para um espaçamento duplo
+
+\mainmatter
+% Os capitulos comecam aqui
+\begin{doublespacing}
+
+%%%%%%%%%%%%%%%%%%%%%%% Capítulo 1 %%%%%%%%%%%%%%%%%%%%%%%
+\input{Cap1/Capitulo_1}
+
+%%%%%%%%%%%%%%%%%%%%%%% Capítulo 2 %%%%%%%%%%%%%%%%%%%%%%%
+\input{Cap2/Capitulo_2}
+
+%%%%%%%%%%%%%%%%%%%%%%% Capítulo 3 %%%%%%%%%%%%%%%%%%%%%%%
+\input{Cap3/Capitulo_3}
+
+%%%%%%%%%%%%%%%%%%%%%%% Capítulo 4 %%%%%%%%%%%%%%%%%%%%%%%
+\input{Cap4/Capitulo_4}
+
+\end{doublespacing}
+
+% REFERENCIAS BIBLIOGRAFICAS
+\bibliography{Referencias/referencias}
+
+% Apendices
+\appendix
+\chapter{Tópicos de Dilema Linear} %opcional
+\input{ApeA/apendiceA}
+
+% Anexos
+\annex
+\chapter{Exemplo de um Primeiro Anexo} %opcional
+\input{AneA/anexoA}
+\chapter{To usando craque}
+to usando craque
+% Glossario
+%\itaglossary
+%\printglossary
+
+% Folha de Registro do Documento
+% Valores dos campos do formulario
+\FRDitadata{25 de março de 2015}
+\FRDitadocnro{DCTA/ITA/TD-018/2015} %(o número de registro você solicita a biblioteca)
+\FRDitaorgaointerno{Instituto Tecnol\'ogico de Aeron\'autica -- ITA}
+\FRDitapalavrasautor{Cupim; Cimento; Estruturas}
+\FRDitapalavrasresult{Cupim; Dilema; Construção}
+\FRDitapalavraapresentacao{ITA, São José dos Campos. Curso de Doutorado. Programa de Pós-Graduação em Engenharia Aeronáutica e Mecânica. Área de Sistemas Aeroespaciais e Mecatrônica. Orientador: Prof.~Dr. Adalberto Santos Dupont. Defesa em 05/03/2015. Publicada em 25/03/2015.}
+\FRDitaresumo{\input{Pre_Textuais/resumo}}
+%  Primeiro Parametro: Nacional ou Internacional -- N/I
+%  Segundo parametro: Ostensivo, Reservado, Confidencial ou Secreto -- O/R/C/S
+\FRDitaOpcoes{N}{O}
+% Cria o formulario
+\itaFRD
+
+\end{document}
+% Fim do Documento. O massacre acabou!!! :-)
