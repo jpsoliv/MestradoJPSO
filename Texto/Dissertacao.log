@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  25 FEB 2015 20:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  3 MAR 2015 22:04
 entering extended mode
 **Dissertacao.tex
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.tex"
@@ -828,8 +828,7 @@ pdftex: bookmark at 138: {0} {Lista de Figuras} {chapter*.5}{0}{toc}
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.lof"
 Package hyperref Info: Reference (link) `figure.caption.9' on input line 3.
 Package hyperref Info: Reference (link) `figure.caption.10' on input line 4.
-Package hyperref Info: Reference (link) `figure.caption.12' on input line 6.
-Package hyperref Info: Reference (link) `figure.caption.15' on input line 10.
+Package hyperref Info: Reference (link) `figure.caption.12' on input line 9.
 )
 \tf@lof=\write7
 Package hyperref Info: Anchor `page.xi' on input line 141.
@@ -838,23 +837,17 @@ Package hyperref Info: Anchor `page.xi' on input line 141.
 
 Package `hyperref' Info: End of reference (link) `figure.caption.9', line 3.
 Package `hyperref' Info: End of reference (link) `figure.caption.10', line 4.
-Package `hyperref' Info: End of reference (link) `figure.caption.12', line 6.
-Package `hyperref' Info: End of reference (link) `figure.caption.15', line 10.
+Package `hyperref' Info: End of reference (link) `figure.caption.12', line 9.
 ]
 Package hyperref Info: Anchor `chapter*.6' on input line 141.
 
 pdftex: bookmark at 141: {0} {Lista de Tabelas} {chapter*.6}{0}{toc}
-("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.lot"
-Package hyperref Info: Reference (link) `table.caption.11' on input line 4.
-Package hyperref Info: Reference (link) `table.caption.13' on input line 5.
-)
+("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.lot")
 \tf@lot=\write8
 Package hyperref Info: Anchor `page.xii' on input line 144.
 
 [12
 
-Package `hyperref' Info: End of reference (link) `table.caption.11', line 4.
-Package `hyperref' Info: End of reference (link) `table.caption.13', line 5.
 ]
 Package hyperref Info: Anchor `chapter*.7' on input line 144.
 
@@ -893,12 +886,15 @@ Cap\'{\i }tulo 1.
 pdftex: bookmark at 1: {1} {\numberline{1}Introdu\c c\~ao} {chapter.1}{0}{toc}
 Package hyperref Info: Anchor `section.1.1' on input line 2.
 pdftex: bookmark at 2: {1.1} {\numberline{1.1}Objetivo} {section.1.1}{1}{toc}
-Package hyperref Info: Reference (cite) `cite.Nascimento1970' on input line 4.
-Package hyperref Info: Reference (cite) `cite.Nascimento1970' on input line 4.
-Package hyperref Info: Reference (cite) `cite.Patagonios2001' on input line 6.
-Package hyperref Info: Reference (cite) `cite.Patagonios2001' on input line 6.
-Package hyperref Info: Reference (cite) `cite.Furmento1995' on input line 7.
-Package hyperref Info: Reference (cite) `cite.Furmento1995' on input line 7.
+
+LaTeX Warning: Citation `Nascimento1970' on page 15 undefined on input line 4.
+
+
+LaTeX Warning: Citation `Patagonios2001' on page 15 undefined on input line 6.
+
+
+LaTeX Warning: Citation `Furmento1995' on page 15 undefined on input line 7.
+
 LaTeX Font Info:    Try loading font information for OMS+aer on input line 9.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\omsaer.fd"
 File: omsaer.fd 1999/12/27
@@ -909,31 +905,22 @@ Package hyperref Info: Anchor `section.1.2' on input line 14.
 
 pdftex: bookmark at 14: {1.2} {\numberline{1.2}Motiva\c c\~ao} {section.1.2}{1}
 {toc}
-Package hyperref Info: Reference (cite) `cite.Sbornian2002' on input line 15.
-Package hyperref Info: Reference (cite) `cite.Sbornian2002' on input line 15.
-Package hyperref Info: Reference (cite) `cite.ITALUS2004' on input line 21.
-Package hyperref Info: Reference (cite) `cite.ITALUS2004' on input line 21.
+
+LaTeX Warning: Citation `Sbornian2002' on page 15 undefined on input line 15.
+
+
+LaTeX Warning: Citation `ITALUS2004' on page 15 undefined on input line 21.
+
 Package hyperref Info: Anchor `page.15' on input line 22.
 [15
 
 
-Package `hyperref' Info: End of reference (cite) `cite.Nascimento1970', line 4.
-
-Package `hyperref' Info: End of reference (cite) `cite.Nascimento1970', line 4.
-
-Package `hyperref' Info: End of reference (cite) `cite.Patagonios2001', line 6.
-
-Package `hyperref' Info: End of reference (cite) `cite.Patagonios2001', line 6.
-
-Package `hyperref' Info: End of reference (cite) `cite.Furmento1995', line 7.
-Package `hyperref' Info: End of reference (cite) `cite.Furmento1995', line 7.
-Package `hyperref' Info: End of reference (cite) `cite.Sbornian2002', line 15.
-Package `hyperref' Info: End of reference (cite) `cite.Sbornian2002', line 15.
 ]
-Package hyperref Info: Reference (cite) `cite.Arystides1994' on input line 24.
-Package hyperref Info: Reference (cite) `cite.Arystides1994' on input line 24.
+
+LaTeX Warning: Citation `Arystides1994' on page 16 undefined on input line 24.
+
 Package hyperref Info: Anchor `figure.caption.9' on input line 26.
- <Cap1/cupim.pdf, id=257, 233.87375pt x 221.82875pt>
+<Cap1/cupim.pdf, id=234, 233.87375pt x 221.82875pt>
 File: Cap1/cupim.pdf Graphic file (type pdf)
  <use Cap1/cupim.pdf>
 Package pdftex.def Info: Cap1/cupim.pdf used on input line 28.
@@ -943,19 +930,13 @@ pdftex: bookmark at 29: {1.1} {\numberline{1.1}{\ignorespaces Proibido estacion
 ar cupins. Legenda grande, com o objetivo de demonstrar a indenta\c c\~ao na li
 sta de figuras.\relax }} {figure.caption.9}{0}{lof}
 Package hyperref Info: Reference (link) `figure.caption.9' on input line 35.
-Package hyperref Info: Reference (cite) `cite.COFFEE2000' on input line 37.
-Package hyperref Info: Reference (cite) `cite.COFFEE2000' on input line 37.
+
+LaTeX Warning: Citation `COFFEE2000' on page 16 undefined on input line 37.
+
 Package hyperref Info: Anchor `page.16' on input line 38.
-[16
-Package `hyperref' Info: End of reference (cite) `cite.ITALUS2004', line 21.
-Package `hyperref' Info: End of reference (cite) `cite.ITALUS2004', line 21.
-Package `hyperref' Info: End of reference (cite) `cite.Arystides1994', line 24.
-
-Package `hyperref' Info: End of reference (cite) `cite.Arystides1994', line 24.
-
- <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap1/cupim.pdf>]
+[16 <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap1/cupim.pdf>]
 Package hyperref Info: Anchor `figure.caption.10' on input line 46.
-<Cap1/cupimconcreto.pdf, id=270, 401.5pt x 289.08pt>
+<Cap1/cupimconcreto.pdf, id=243, 401.5pt x 289.08pt>
 File: Cap1/cupimconcreto.pdf Graphic file (type pdf)
 
 <use Cap1/cupimconcreto.pdf>
@@ -973,8 +954,6 @@ ction.1.3.1}{2}{toc}
 Package hyperref Info: Anchor `page.17' on input line 56.
 [17
 Package `hyperref' Info: End of reference (link) `figure.caption.9', line 35.
-Package `hyperref' Info: End of reference (cite) `cite.COFFEE2000', line 37.
-Package `hyperref' Info: End of reference (cite) `cite.COFFEE2000', line 37.
 ]
 Package hyperref Info: Anchor `subsubsection.1.3.1.1' on input line 57.
 
@@ -986,96 +965,44 @@ pdftex: bookmark at 61: {1.3.1.2} {\numberline{1.3.1.2}Outra subsub-organizacao
 Package hyperref Info: Anchor `page.18' on input line 64.
 [18 <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap1/cupimconcre
 to.pdf>]
-Package hyperref Info: Reference (cite) `cite.Furmento1995' on input line 74.
-Package hyperref Info: Reference (cite) `cite.Furmento1995' on input line 74.
-Package hyperref Info: Reference (cite) `cite.Morgado2003' on input line 74.
-Package hyperref Info: Reference (cite) `cite.Morgado2003' on input line 74.
+
+LaTeX Warning: Citation `Furmento1995' on page 19 undefined on input line 74.
+
+
+LaTeX Warning: Citation `Morgado2003' on page 19 undefined on input line 74.
+
 )
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Cap2/Capitulo_2.tex
 "
 Package hyperref Info: Anchor `page.19' on input line 1.
- [19
-Package `hyperref' Info: End of reference (cite) `cite.Furmento1995', line 74.
-Package `hyperref' Info: End of reference (cite) `cite.Furmento1995', line 74.
-Package `hyperref' Info: End of reference (cite) `cite.Morgado2003', line 74.
-Package `hyperref' Info: End of reference (cite) `cite.Morgado2003', line 74.
-]
+ [19]
 Package hyperref Info: Anchor `chapter.2' on input line 1.
 
 Cap\'{\i }tulo 2.
-pdftex: bookmark at 1: {2} {\numberline{2}Modelagem Din\^amica de Cupins Cibern
-\'eticos} {chapter.2}{0}{toc}
-Package hyperref Info: Anchor `section.2.1' on input line 2.
-pdftex: bookmark at 2: {2.1} {\numberline{2.1}Modelagem no espa\c co das juntas
-} {section.2.1}{1}{toc}
-Package hyperref Info: Reference (cite) `cite.Sbornian2004' on input line 3.
-Package hyperref Info: Reference (cite) `cite.Sbornian2004' on input line 3.
-Package hyperref Info: Reference (cite) `cite.Joea2003' on input line 4.
-Package hyperref Info: Reference (cite) `cite.Joea2003' on input line 4.
-Package hyperref Info: Reference (link) `table.caption.11' on input line 4.
-Package hyperref Info: Reference (cite) `cite.Assenmacher1993' on input line 4.
-
-Package hyperref Info: Reference (cite) `cite.Assenmacher1993' on input line 4.
-
-Package hyperref Info: Reference (cite) `cite.Silberschatz1991' on input line 4
-.
-Package hyperref Info: Reference (cite) `cite.Silberschatz1991' on input line 4
-.
-Package hyperref Info: Reference (cite) `cite.Caromel1998' on input line 4.
-Package hyperref Info: Reference (cite) `cite.Caromel1998' on input line 4.
-Package hyperref Info: Anchor `table.caption.11' on input line 7.
-pdftex: bookmark at 7: {2.1} {\numberline{2.1}{\ignorespaces Exemplo de uma Tab
-ela\relax }} {table.caption.11}{0}{lot}
-Package hyperref Info: Reference (cite) `cite.Callaghan1995' on input line 23.
-Package hyperref Info: Reference (cite) `cite.Callaghan1995' on input line 23.
-Package hyperref Info: Anchor `page.20' on input line 24.
-[20
-
-Package `hyperref' Info: End of reference (cite) `cite.Sbornian2004', line 3.
-Package `hyperref' Info: End of reference (cite) `cite.Sbornian2004', line 3.
-Package `hyperref' Info: End of reference (cite) `cite.Joea2003', line 4.
-Package `hyperref' Info: End of reference (cite) `cite.Joea2003', line 4.
-Package `hyperref' Info: End of reference (link) `table.caption.11', line 4.
-Package `hyperref' Info: End of reference (cite) `cite.Assenmacher1993', line 4
-.
-Package `hyperref' Info: End of reference (cite) `cite.Assenmacher1993', line 4
-.
-Package `hyperref' Info: End of reference (cite) `cite.Silberschatz1991', line 
-4.
-Package `hyperref' Info: End of reference (cite) `cite.Silberschatz1991', line 
-4.
-Package `hyperref' Info: End of reference (cite) `cite.Caromel1998', line 4.
-Package `hyperref' Info: End of reference (cite) `cite.Caromel1998', line 4.
-]
-Package hyperref Info: Anchor `figure.caption.12' on input line 25.
- <Cap2/spiderrobot.jpg, id=319, 614.295pt x 462.22687pt>
-File: Cap2/spiderrobot.jpg Graphic file (type jpg)
-
-<use Cap2/spiderrobot.jpg>
-Package pdftex.def Info: Cap2/spiderrobot.jpg used on input line 27.
-(pdftex.def)             Requested size: 341.43307pt x 256.91275pt.
-
-pdftex: bookmark at 28: {2.1} {\numberline{2.1}{\ignorespaces Cupim cibern\'eti
-co.\relax }} {figure.caption.12}{0}{lof}
-Package hyperref Info: Anchor `equation.2.1.1' on input line 33.
-Package hyperref Info: Anchor `equation.2.1.2' on input line 37.
-Package hyperref Info: Anchor `table.caption.13' on input line 42.
-pdftex: bookmark at 42: {2.2} {\numberline{2.2}{\ignorespaces Mais um Exemplo d
-e uma Tabela, desta vez com um caption grande, para mostrar a indenta\c c\~ao n
-a lista de tabelas.\relax }} {table.caption.13}{0}{lot}
-Package hyperref Info: Anchor `equation.2.1.3' on input line 55.
-Package hyperref Info: Anchor `page.21' on input line 57.
-[21
-Package `hyperref' Info: End of reference (cite) `cite.Callaghan1995', line 23.
-
-Package `hyperref' Info: End of reference (cite) `cite.Callaghan1995', line 23.
-
- <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap2/spiderrobot.jp
-g>])
+pdftex: bookmark at 1: {2} {\numberline{2}Revis\~ao Bibliogr\'afica} {chapter.2
+}{0}{toc}
+Package hyperref Info: Anchor `section.2.1' on input line 3.
+pdftex: bookmark at 3: {2.1} {\numberline{2.1}Conceito de Pot\^encia Ativa, Rea
+tiva e Fator de Pot\^encia} {section.2.1}{1}{toc}
+Package hyperref Info: Reference (cite) `cite.Watanabe1991' on input line 5.
+Package hyperref Info: Reference (cite) `cite.Watanabe1991' on input line 5.
+Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 5.
+Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 5.
+Package hyperref Info: Reference (cite) `cite.Watanabe2004' on input line 5.
+Package hyperref Info: Reference (cite) `cite.Watanabe2004' on input line 5.
+Excluding 'comment' comment.)
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Cap3/Capitulo_3.tex
 "
-Package hyperref Info: Anchor `page.22' on input line 1.
- [22]
+Package hyperref Info: Anchor `page.20' on input line 1.
+ [20
+
+Package `hyperref' Info: End of reference (cite) `cite.Watanabe1991', line 5.
+Package `hyperref' Info: End of reference (cite) `cite.Watanabe1991', line 5.
+Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 5.
+Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 5.
+Package `hyperref' Info: End of reference (cite) `cite.Watanabe2004', line 5.
+Package `hyperref' Info: End of reference (cite) `cite.Watanabe2004', line 5.
+]
 Package hyperref Info: Anchor `chapter.3' on input line 1.
 
 Cap\'{\i }tulo 3.
@@ -1092,8 +1019,8 @@ Package hyperref Info: Anchor `equation.3.1.3' on input line 16.
 )
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Cap4/Capitulo_4.tex
 "
-Package hyperref Info: Anchor `page.23' on input line 1.
- [23
+Package hyperref Info: Anchor `page.21' on input line 1.
+ [21
 
 Package `hyperref' Info: End of reference (link) `equation.3.1.1', line 3.
 Package `hyperref' Info: End of reference (link) `equation.3.1.2', line 15.
@@ -1102,46 +1029,28 @@ Package hyperref Info: Anchor `chapter.4' on input line 1.
 
 Cap\'{\i }tulo 4.
 pdftex: bookmark at 1: {4} {\numberline{4}Conclus\~ao} {chapter.4}{0}{toc}
-Package hyperref Info: Anchor `page.24' on input line 14.
-[24
+Package hyperref Info: Anchor `page.22' on input line 14.
+[22
 
 ])
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.bbl"
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.brf")
 \tf@brf=\write11
-Package hyperref Info: Anchor `page.25' on input line 3.
+Package hyperref Info: Anchor `page.23' on input line 3.
 
-[25]
-Package hyperref Info: Anchor `chapter*.14' on input line 3.
+[23]
+Package hyperref Info: Anchor `chapter*.11' on input line 3.
 Package hyperref Info: Anchor `chapter.5' on input line 3.
 
 pdftex: bookmark at 3: {5} {Refer\^encias Bibliogr\'aficas} {chapter.5}{0}{toc}
 
-Package hyperref Info: Anchor `cite.Arystides1994' on input line 13.
-Package hyperref Info: Anchor `cite.Assenmacher1993' on input line 21.
-Package hyperref Info: Anchor `cite.Callaghan1995' on input line 27.
-Package hyperref Info: Anchor `cite.Caromel1998' on input line 37.
-Package hyperref Info: Anchor `cite.COFFEE2000' on input line 43.
-Package hyperref Info: Anchor `cite.Furmento1995' on input line 51.
-Package hyperref Info: Anchor `cite.ITALUS2004' on input line 58.
-Package hyperref Info: Anchor `cite.Joea2003' on input line 64.
-Package hyperref Info: Anchor `page.26' on input line 71.
-[26
-
-Package `hyperref' Info: End of reference <VerboseLinkInfo>.
-Package `hyperref' Info: End of reference <VerboseLinkInfo>.
-Package `hyperref' Info: End of reference <VerboseLinkInfo>.
-]
-Package hyperref Info: Anchor `cite.Morgado2003' on input line 71.
-Package hyperref Info: Anchor `cite.Nascimento1970' on input line 78.
-Package hyperref Info: Anchor `cite.Patagonios2001' on input line 86.
-Package hyperref Info: Anchor `cite.Sbornian2002' on input line 97.
-Package hyperref Info: Anchor `cite.Sbornian2004' on input line 105.
-Package hyperref Info: Anchor `cite.Silberschatz1991' on input line 110.
+Package hyperref Info: Anchor `cite.Akagi2007' on input line 12.
+Package hyperref Info: Anchor `cite.Watanabe1991' on input line 19.
+Package hyperref Info: Anchor `cite.Watanabe2004' on input line 26.
 )
-Package hyperref Info: Anchor `page.27' on input line 179.
- [27
-Package `hyperref' Info: End of reference <VerboseLinkInfo>.
+Package hyperref Info: Anchor `page.24' on input line 179.
+ [24
+
 ]
 Package hyperref Info: Anchor `appendix.A' on input line 180.
 
@@ -1153,8 +1062,8 @@ Package hyperref Info: Anchor `section.A.1' on input line 1.
 pdftex: bookmark at 1: {A.1} {\numberline{A.1}Uma Primeira Se\c c\~ao para o Ap
 \^endice} {section.A.1}{1}{toc}
 Package hyperref Info: Anchor `equation.A.1.1' on input line 6.
-Package hyperref Info: Anchor `figure.caption.15' on input line 14.
-<ApeA/pragas_ciclo_cupim.pdf, id=367, 401.5pt x 403.5075pt>
+Package hyperref Info: Anchor `figure.caption.12' on input line 14.
+<ApeA/pragas_ciclo_cupim.pdf, id=298, 401.5pt x 403.5075pt>
 File: ApeA/pragas_ciclo_cupim.pdf Graphic file (type pdf)
 
 <use ApeA/pragas_ciclo_cupim.pdf>
@@ -1162,10 +1071,10 @@ Package pdftex.def Info: ApeA/pragas_ciclo_cupim.pdf used on input line 16.
 (pdftex.def)             Requested size: 142.26698pt x 142.26411pt.
 
 pdftex: bookmark at 17: {A.1} {\numberline{A.1}{\ignorespaces Uma figura que es
-t\'a no ap\^endice\relax }} {figure.caption.15}{0}{lof}
+t\'a no ap\^endice\relax }} {figure.caption.12}{0}{lof}
 )
-Package hyperref Info: Anchor `page.28' on input line 184.
- [28
+Package hyperref Info: Anchor `page.25' on input line 184.
+ [25
 
 
  <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/ApeA/pragas_ciclo_c
@@ -1181,8 +1090,8 @@ Package hyperref Info: Anchor `section.a.1' on input line 2.
 pdftex: bookmark at 2: {A.1} {\numberline{A.1}Uma Se\c c\~ao do Primeiro Anexo}
  {section.a.1}{1}{toc}
 )
-Package hyperref Info: Anchor `page.29' on input line 187.
- [29
+Package hyperref Info: Anchor `page.26' on input line 187.
+ [26
 
 
 ]
@@ -1191,8 +1100,8 @@ Package hyperref Info: Anchor `annex.b' on input line 187.
 Anexo B.
 pdftex: bookmark at 187: {B} {\numberline{B}To usando craque} {annex.b}{0}{toc}
 
-Package hyperref Info: Anchor `page.30' on input line 206.
-[30
+Package hyperref Info: Anchor `page.27' on input line 206.
+[27
 
 ]
 \bottommargin=\skip74
@@ -1211,8 +1120,8 @@ Overfull \hbox (74.53033pt too wide) in paragraph at lines 206--206
 
 
 AED: lastpage setting LastPage
-Package hyperref Info: Anchor `page.31' on input line 208.
-[31
+Package hyperref Info: Anchor `page.28' on input line 208.
+[28
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
@@ -1221,9 +1130,12 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 208.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 208.
 Package rerunfilecheck Info: File `Dissertacao.out' has not changed.
-(rerunfilecheck)             Checksum: 566E976B5E3000C6A499747B187ADEFA;1864.
+(rerunfilecheck)             Checksum: 08DE19A8B7CDCBD1547986BA64756EE1;1872.
 Package rerunfilecheck Info: File `Dissertacao.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1231,10 +1143,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 208.
  ) 
 Here is how much of TeX's memory you used:
- 10008 strings out of 493921
- 150953 string characters out of 3144879
- 250480 words of memory out of 3000000
- 12856 multiletter control sequences out of 15000+200000
+ 9903 strings out of 493921
+ 149138 string characters out of 3144879
+ 249480 words of memory out of 3000000
+ 12773 multiletter control sequences out of 15000+200000
  61883 words of font info for 115 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  43i,12n,45p,1097b,532s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1258,9 +1170,9 @@ nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmti12.pfb>
-Output written on Dissertacao.pdf (31 pages, 521765 bytes).
+Output written on Dissertacao.pdf (28 pages, 364027 bytes).
 PDF statistics:
- 479 PDF objects out of 1000 (max. 8388607)
- 98 named destinations out of 1000 (max. 500000)
- 261 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 406 PDF objects out of 1000 (max. 8388607)
+ 78 named destinations out of 1000 (max. 500000)
+ 256 words of extra memory for PDF output out of 10000 (max. 10000000)
 
