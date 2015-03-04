@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  3 MAR 2015 22:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  4 MAR 2015 20:42
 entering extended mode
 **Dissertacao.tex
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.tex"
@@ -990,6 +990,8 @@ Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 5.
 Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 5.
 Package hyperref Info: Reference (cite) `cite.Watanabe2004' on input line 5.
 Package hyperref Info: Reference (cite) `cite.Watanabe2004' on input line 5.
+Package hyperref Info: Reference (cite) `cite.Afonso2000' on input line 5.
+Package hyperref Info: Reference (cite) `cite.Afonso2000' on input line 5.
 Excluding 'comment' comment.)
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Cap3/Capitulo_3.tex
 "
@@ -1002,6 +1004,8 @@ Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 5.
 Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 5.
 Package `hyperref' Info: End of reference (cite) `cite.Watanabe2004', line 5.
 Package `hyperref' Info: End of reference (cite) `cite.Watanabe2004', line 5.
+Package `hyperref' Info: End of reference (cite) `cite.Afonso2000', line 5.
+Package `hyperref' Info: End of reference (cite) `cite.Afonso2000', line 5.
 ]
 Package hyperref Info: Anchor `chapter.3' on input line 1.
 
@@ -1044,9 +1048,10 @@ Package hyperref Info: Anchor `chapter.5' on input line 3.
 
 pdftex: bookmark at 3: {5} {Refer\^encias Bibliogr\'aficas} {chapter.5}{0}{toc}
 
-Package hyperref Info: Anchor `cite.Akagi2007' on input line 12.
-Package hyperref Info: Anchor `cite.Watanabe1991' on input line 19.
-Package hyperref Info: Anchor `cite.Watanabe2004' on input line 26.
+Package hyperref Info: Anchor `cite.Afonso2000' on input line 14.
+Package hyperref Info: Anchor `cite.Akagi2007' on input line 19.
+Package hyperref Info: Anchor `cite.Watanabe1991' on input line 26.
+Package hyperref Info: Anchor `cite.Watanabe2004' on input line 33.
 )
 Package hyperref Info: Anchor `page.24' on input line 179.
  [24
@@ -1063,7 +1068,7 @@ pdftex: bookmark at 1: {A.1} {\numberline{A.1}Uma Primeira Se\c c\~ao para o Ap
 \^endice} {section.A.1}{1}{toc}
 Package hyperref Info: Anchor `equation.A.1.1' on input line 6.
 Package hyperref Info: Anchor `figure.caption.12' on input line 14.
-<ApeA/pragas_ciclo_cupim.pdf, id=298, 401.5pt x 403.5075pt>
+<ApeA/pragas_ciclo_cupim.pdf, id=301, 401.5pt x 403.5075pt>
 File: ApeA/pragas_ciclo_cupim.pdf Graphic file (type pdf)
 
 <use ApeA/pragas_ciclo_cupim.pdf>
@@ -1143,10 +1148,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 208.
  ) 
 Here is how much of TeX's memory you used:
- 9903 strings out of 493921
- 149138 string characters out of 3144879
+ 9912 strings out of 493921
+ 149282 string characters out of 3144879
  249480 words of memory out of 3000000
- 12773 multiletter control sequences out of 15000+200000
+ 12781 multiletter control sequences out of 15000+200000
  61883 words of font info for 115 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  43i,12n,45p,1097b,532s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1170,9 +1175,9 @@ nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmti12.pfb>
-Output written on Dissertacao.pdf (28 pages, 364027 bytes).
+Output written on Dissertacao.pdf (28 pages, 364869 bytes).
 PDF statistics:
- 406 PDF objects out of 1000 (max. 8388607)
- 78 named destinations out of 1000 (max. 500000)
+ 410 PDF objects out of 1000 (max. 8388607)
+ 79 named destinations out of 1000 (max. 500000)
  256 words of extra memory for PDF output out of 10000 (max. 10000000)
 

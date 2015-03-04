@@ -5,6 +5,13 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.45.2.1 }
 
+\bibitem[Afonso \textit{et al.} 2000]{Afonso2000}
+\abntrefinfo{Afonso \textit{et al.}}{AFONSO \textit{et al.}}{2000}
+{AFONSO, J.~L.; COUTO, C.; MARTINS, J.~S. Active filters with control based on
+  the pq theory.
+\textbf{IEEE Industrial Electronics Society Newsletter}, IEEE, v.~47, n.~3, p.
+  5--10, 2000.}
+
 \bibitem[Akagi \textit{et al.} 2007]{Akagi2007}
 \abntrefinfo{Akagi \textit{et al.}}{AKAGI \textit{et al.}}{2007}
 {AKAGI, H.; WATANABE, E.~H.; AREDES, M. \textbf{Instantaneous Power Theory and
