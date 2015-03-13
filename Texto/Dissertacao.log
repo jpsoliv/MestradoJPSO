@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  4 MAR 2015 21:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  5 MAR 2015 21:16
 entering extended mode
 **Dissertacao.tex
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.tex"
@@ -918,6 +918,8 @@ Package hyperref Info: Reference (cite) `cite.Watanabe2004' on input line 5.
 Package hyperref Info: Reference (cite) `cite.Watanabe2004' on input line 5.
 Package hyperref Info: Reference (cite) `cite.Afonso2000' on input line 5.
 Package hyperref Info: Reference (cite) `cite.Afonso2000' on input line 5.
+Package hyperref Info: Reference (cite) `cite.Couto2003' on input line 5.
+Package hyperref Info: Reference (cite) `cite.Couto2003' on input line 5.
 )
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Cap3/Capitulo_3.tex
 "
@@ -932,6 +934,8 @@ Package `hyperref' Info: End of reference (cite) `cite.Watanabe2004', line 5.
 Package `hyperref' Info: End of reference (cite) `cite.Watanabe2004', line 5.
 Package `hyperref' Info: End of reference (cite) `cite.Afonso2000', line 5.
 Package `hyperref' Info: End of reference (cite) `cite.Afonso2000', line 5.
+Package `hyperref' Info: End of reference (cite) `cite.Couto2003', line 5.
+Package `hyperref' Info: End of reference (cite) `cite.Couto2003', line 5.
 ]
 Package hyperref Info: Anchor `chapter.3' on input line 1.
 
@@ -964,8 +968,9 @@ pdftex: bookmark at 3: {5} {Refer\^encias Bibliogr\'aficas} {chapter.5}{0}{toc}
 
 Package hyperref Info: Anchor `cite.Afonso2000' on input line 14.
 Package hyperref Info: Anchor `cite.Akagi2007' on input line 19.
-Package hyperref Info: Anchor `cite.Watanabe1991' on input line 26.
-Package hyperref Info: Anchor `cite.Watanabe2004' on input line 33.
+Package hyperref Info: Anchor `cite.Couto2003' on input line 27.
+Package hyperref Info: Anchor `cite.Watanabe1991' on input line 34.
+Package hyperref Info: Anchor `cite.Watanabe2004' on input line 41.
 )
 Package hyperref Info: Anchor `page.19' on input line 179.
  [19
@@ -982,7 +987,7 @@ pdftex: bookmark at 1: {A.1} {\numberline{A.1}Uma Primeira Se\c c\~ao para o Ap
 \^endice} {section.A.1}{1}{toc}
 Package hyperref Info: Anchor `equation.A.1.1' on input line 6.
 Package hyperref Info: Anchor `figure.caption.12' on input line 14.
-<ApeA/pragas_ciclo_cupim.pdf, id=248, 401.5pt x 403.5075pt>
+<ApeA/pragas_ciclo_cupim.pdf, id=252, 401.5pt x 403.5075pt>
 File: ApeA/pragas_ciclo_cupim.pdf Graphic file (type pdf)
 
 <use ApeA/pragas_ciclo_cupim.pdf>
@@ -1059,35 +1064,36 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 208.
  ) 
 Here is how much of TeX's memory you used:
- 9853 strings out of 493921
- 148338 string characters out of 3144879
+ 9866 strings out of 493921
+ 148500 string characters out of 3144879
  249480 words of memory out of 3000000
- 12739 multiletter control sequences out of 15000+200000
- 61883 words of font info for 115 fonts, out of 3000000 for 9000
+ 12747 multiletter control sequences out of 15000+200000
+ 63164 words of font info for 119 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  43i,12n,45p,1097b,540s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmti12.pfb>
-Output written on Dissertacao.pdf (23 pages, 314881 bytes).
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmssi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmti12.pfb>
+Output written on Dissertacao.pdf (23 pages, 323173 bytes).
 PDF statistics:
- 349 PDF objects out of 1000 (max. 8388607)
- 65 named destinations out of 1000 (max. 500000)
+ 356 PDF objects out of 1000 (max. 8388607)
+ 66 named destinations out of 1000 (max. 500000)
  219 words of extra memory for PDF output out of 10000 (max. 10000000)
 
