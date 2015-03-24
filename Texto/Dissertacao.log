@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  18 MAR 2015 23:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  23 MAR 2015 22:21
 entering extended mode
 **Dissertacao.tex
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.tex"
@@ -520,31 +520,37 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \CommentStream=\write3
 
 Excluding comment 'comment')
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fixltx2e.sty"
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+LaTeX Info: The control sequence `\[' is already robust on input line 471.
+LaTeX Info: The control sequence `\]' is already robust on input line 472.
+)
 \@glossaryfile=\write4
 
 Writing glossary file Dissertacao.glo 
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             macros/latex/contrib/pageslts/ 
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 89.
+(lastpage)             ! on input line 90.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
@@ -571,7 +577,7 @@ Package caption Info: End \AtBeginDocument code.
 \everyMPtoPDFconversion=\toks31
 )
 \AtBeginShipoutBox=\box35
-Package hyperref Info: Link coloring ON on input line 89.
+Package hyperref Info: Link coloring ON on input line 90.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -580,14 +586,14 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count143
 )
-LaTeX Info: Redefining \ref on input line 89.
-LaTeX Info: Redefining \pageref on input line 89.
-LaTeX Info: Redefining \nameref on input line 89.
+LaTeX Info: Redefining \ref on input line 90.
+LaTeX Info: Redefining \pageref on input line 90.
+LaTeX Info: Redefining \nameref on input line 90.
 
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.out")
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.out")
 \@outlinefile=\write5
-Package hyperref Info: Anchor `Doc-Start' on input line 89.
+Package hyperref Info: Anchor `Doc-Start' on input line 90.
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -623,312 +629,74 @@ Package hyperref Info: Anchor `Doc-Start' on input line 89.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@butlastpage=\count144
-Package hyperref Info: Anchor `titulo.0' on input line 93.
-LaTeX Font Info:    Try loading font information for U+msa on input line 93.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 93.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Package hyperref Info: Anchor `page.i' on input line 93.
- [1
-
-
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package hyperref Info: Anchor `cip.0' on input line 93.
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
-
- []
-
-Package hyperref Info: Anchor `page.ii' on input line 93.
-[2]
-Package hyperref Info: Anchor `aprovacao.0' on input line 93.
-
-Overfull \hbox (9.22029pt too wide) in paragraph at lines 93--93
-[][] 
- []
-
-Package hyperref Info: Anchor `page.iii' on input line 93.
-[3]
-Package hyperref Info: Anchor `dedication.0' on input line 96.
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-\T1/aer/m/n/12 ape-sar de já ser dou-tor,
- []
-
-
-Underfull \hbox (badness 2961) in paragraph at lines 99--100
-\T1/aer/m/n/12 :O).....(Agradeça até ao seu
- []
-
-
-Underfull \hbox (badness 7012) in paragraph at lines 99--100
-\T1/aer/m/n/12 ani-mal de es-ti-ma-ção, caso
- []
-
-Package hyperref Info: Anchor `page.iv' on input line 100.
-[4]
-Package hyperref Info: Anchor `chapter*.1' on input line 104.
-Package hyperref Info: Anchor `acknowledgment.0' on input line 104.
-
-("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Pre_Textuais/agrade
-cimentos.tex")
-Package hyperref Info: Anchor `page.v' on input line 105.
- [5
-
-]
-Package hyperref Info: Anchor `epigrafe.0' on input line 109.
-LaTeX Font Info:    Try loading font information for T1+aess on input line 113.
-
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\t1aess.fd"
-File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
-)
-LaTeX Font Info:    Font shape `T1/aess/m/it' in size <12> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 113.
-Package hyperref Info: Anchor `page.vi' on input line 120.
-[6]
-Package hyperref Info: Anchor `chapter*.2' on input line 120.
-Package hyperref Info: Anchor `resumo.0' on input line 120.
-
-("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Pre_Textuais/resumo
-.tex")
-Package hyperref Info: Anchor `page.vii' on input line 128.
- [7
-
-]
-Package hyperref Info: Anchor `chapter*.3' on input line 128.
-Package hyperref Info: Anchor `abstract.0' on input line 128.
-
-("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Pre_Textuais/abstra
-ct.tex")
-Package hyperref Info: Anchor `page.viii' on input line 135.
- [8
-
-]
-Package hyperref Info: Anchor `chapter*.4' on input line 135.
-Package hyperref Info: Anchor `contents.0' on input line 135.
-
-("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.toc"
-Underfull \hbox (badness 10000) in paragraph at lines 2--2
- []  
- []
-
-Package hyperref Info: Reference (link) `chapter*.5' on input line 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
- []  
- []
-
-Package hyperref Info: Reference (link) `chapter*.6' on input line 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
- []  
- []
-
-Package hyperref Info: Reference (link) `chapter*.7' on input line 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--5
- []  
- []
-
-Package hyperref Info: Reference (link) `chapter*.8' on input line 5.
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
- []  
- []
-
-Package hyperref Info: Reference (link) `chapter.1' on input line 6.
-Package hyperref Info: Reference (link) `section.1.1' on input line 7.
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
- []  
- []
-
-Package hyperref Info: Reference (link) `chapter.2' on input line 8.
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
- []  
- []
-
-Package hyperref Info: Reference (link) `chapter.3' on input line 9.
-Package hyperref Info: Reference (link) `section.3.1' on input line 10.
-Package hyperref Info: Reference (link) `subsection.3.1.1' on input line 11.
-Package hyperref Info: Reference (link) `subsection.3.1.2' on input line 12.
-Package hyperref Info: Reference (link) `subsection.3.1.3' on input line 13.
-Package hyperref Info: Reference (link) `section.3.2' on input line 15.
-Package hyperref Info: Reference (link) `subsection.3.2.1' on input line 16.
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
- []  
- []
-
-Package hyperref Info: Reference (link) `chapter.4' on input line 17.
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--18
- []  
- []
-
-Package hyperref Info: Reference (link) `chapter.5' on input line 18.
-Package hyperref Info: Anchor `page.ix' on input line 18.
-[9
-
-Package `hyperref' Info: End of reference (link) `chapter*.5', line 2.
-Package `hyperref' Info: End of reference (link) `chapter*.6', line 3.
-Package `hyperref' Info: End of reference (link) `chapter*.7', line 4.
-Package `hyperref' Info: End of reference (link) `chapter*.8', line 5.
-Package `hyperref' Info: End of reference (link) `chapter.1', line 6.
-Package `hyperref' Info: End of reference (link) `section.1.1', line 7.
-Package `hyperref' Info: End of reference (link) `chapter.2', line 8.
-Package `hyperref' Info: End of reference (link) `chapter.3', line 9.
-Package `hyperref' Info: End of reference (link) `section.3.1', line 10.
-Package `hyperref' Info: End of reference (link) `subsection.3.1.1', line 11.
-Package `hyperref' Info: End of reference (link) `subsection.3.1.2', line 12.
-Package `hyperref' Info: End of reference (link) `subsection.3.1.3', line 13.
-Package `hyperref' Info: End of reference (link) `section.3.2', line 15.
-Package `hyperref' Info: End of reference (link) `subsection.3.2.1', line 16.
-Package `hyperref' Info: End of reference (link) `chapter.4', line 17.
-]
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
- []  
- []
-
-Package hyperref Info: Reference (link) `chapter.6' on input line 19.
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
- []  
- []
-
-Package hyperref Info: Reference (link) `appendix.A' on input line 21.
-Package hyperref Info: Reference (link) `section.A.1' on input line 22.
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
- []  
- []
-
-Package hyperref Info: Reference (link) `annex.a' on input line 24.
-Package hyperref Info: Reference (link) `section.a.1' on input line 25.
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
- []  
- []
-
-Package hyperref Info: Reference (link) `annex.b' on input line 26.
-)
-\tf@toc=\write6
-Package hyperref Info: Anchor `page.x' on input line 138.
- [10
-Package `hyperref' Info: End of reference (link) `chapter.5', line 18.
-Package `hyperref' Info: End of reference (link) `chapter.6', line 19.
-Package `hyperref' Info: End of reference (link) `appendix.A', line 21.
-Package `hyperref' Info: End of reference (link) `section.A.1', line 22.
-Package `hyperref' Info: End of reference (link) `annex.a', line 24.
-Package `hyperref' Info: End of reference (link) `section.a.1', line 25.
-Package `hyperref' Info: End of reference (link) `annex.b', line 26.
-]
-Package hyperref Info: Anchor `chapter*.5' on input line 138.
-
-pdftex: bookmark at 138: {0} {Lista de Figuras} {chapter*.5}{0}{toc}
-("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.lof"
-Package hyperref Info: Reference (link) `figure.caption.10' on input line 3.
-Package hyperref Info: Reference (link) `figure.caption.12' on input line 9.
-)
-\tf@lof=\write7
-Package hyperref Info: Anchor `page.xi' on input line 141.
-
-[11
-
-Package `hyperref' Info: End of reference (link) `figure.caption.10', line 3.
-Package `hyperref' Info: End of reference (link) `figure.caption.12', line 9.
-]
-Package hyperref Info: Anchor `chapter*.6' on input line 141.
-
-pdftex: bookmark at 141: {0} {Lista de Tabelas} {chapter*.6}{0}{toc}
-("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.lot"
-Package hyperref Info: Reference (link) `table.caption.9' on input line 3.
-)
-\tf@lot=\write8
-Package hyperref Info: Anchor `page.xii' on input line 144.
-
-[12
-
-Package `hyperref' Info: End of reference (link) `table.caption.9', line 3.
-]
-Package hyperref Info: Anchor `chapter*.7' on input line 144.
-
-pdftex: bookmark at 144: {0} {Lista de Abreviaturas e Siglas} {chapter*.7}{0}{t
-oc}
-("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.lof")
-\tf@lof=\write9
-
-("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Pre_Textuais/listaa
-breviaturas.tex"
-Package hyperref Info: Anchor `table.0.1' on input line 15.
-)
-Package hyperref Info: Anchor `page.xiii' on input line 148.
- [13
-
-]
-Package hyperref Info: Anchor `chapter*.8' on input line 148.
-
-pdftex: bookmark at 148: {0} {Lista de S{\'\i }mbolos} {chapter*.8}{0}{toc}
-("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.lof")
-\tf@lof=\write10
-
-("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Pre_Textuais/listas
-imbolos.tex"
-Package hyperref Info: Anchor `table.0.2' on input line 10.
-)
-Package hyperref Info: Anchor `page.xiv' on input line 157.
- [14
-
-]
+Excluding 'comment' comment.
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Cap1/Capitulo_1.tex
 "
 Package hyperref Info: Anchor `chapter.1' on input line 1.
 
 Cap\'{\i }tulo 1.
 pdftex: bookmark at 1: {1} {\numberline{1}Introdu\c c\~ao} {chapter.1}{0}{toc}
-Package hyperref Info: Anchor `section.1.1' on input line 2.
-pdftex: bookmark at 2: {1.1} {\numberline{1.1}Objetivo} {section.1.1}{1}{toc}
-Package hyperref Info: Anchor `table.caption.9' on input line 4.
-pdftex: bookmark at 10: {1.1} {\numberline{1.1}{\ignorespaces exemplo de tabela
-\relax }} {table.caption.9}{0}{lot}
-Package hyperref Info: Anchor `figure.caption.10' on input line 14.
-<Cap1/Figuras/cupim.pdf, id=240, 233.87375pt x 221.82875pt>
+Package hyperref Info: Anchor `section.1.1' on input line 3.
+pdftex: bookmark at 3: {1.1} {\numberline{1.1}Motiva\c c\~ao} {section.1.1}{1}{
+toc}
+Package hyperref Info: Anchor `section.1.2' on input line 5.
+pdftex: bookmark at 5: {1.2} {\numberline{1.2}Objetivo} {section.1.2}{1}{toc}
+Package hyperref Info: Anchor `section.1.3' on input line 7.
+pdftex: bookmark at 7: {1.3} {\numberline{1.3}Contribui\c c\~ao} {section.1.3}{
+1}{toc}
+Package hyperref Info: Anchor `table.caption.1' on input line 9.
+LaTeX Font Info:    Try loading font information for U+msa on input line 11.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 11.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+pdftex: bookmark at 15: {1.1} {\numberline{1.1}{\ignorespaces exemplo de tabela
+\relax }} {table.caption.1}{0}{lot}
+Package hyperref Info: Anchor `figure.caption.2' on input line 19.
+<Cap1/Figuras/cupim.pdf, id=87, 233.87375pt x 221.82875pt>
 File: Cap1/Figuras/cupim.pdf Graphic file (type pdf)
 
 <use Cap1/Figuras/cupim.pdf>
-Package pdftex.def Info: Cap1/Figuras/cupim.pdf used on input line 16.
+Package pdftex.def Info: Cap1/Figuras/cupim.pdf used on input line 21.
 (pdftex.def)             Requested size: 227.62206pt x 215.9115pt.
 
-pdftex: bookmark at 17: {1.1} {\numberline{1.1}{\ignorespaces Proibido estacion
+pdftex: bookmark at 22: {1.1} {\numberline{1.1}{\ignorespaces Proibido estacion
 ar cupins. Legenda grande, com o objetivo de demonstrar a indenta\c c\~ao na li
-sta de figuras.\relax }} {figure.caption.10}{0}{lof}
+sta de figuras.\relax }} {figure.caption.2}{0}{lof}
 )
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Cap2/Capitulo_2.tex
 "
-Package hyperref Info: Anchor `page.15' on input line 1.
- [15
+Package hyperref Info: Anchor `page.1' on input line 1.
+ [1
 
 
- <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap1/Figuras/cupim.
-pdf>]
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <D:/Library/Joao/Documents
+/Mestrado ITA/MestradoJPSO/Texto/Cap1/Figuras/cupim.pdf>]
 Package hyperref Info: Anchor `chapter.2' on input line 1.
 
 Cap\'{\i }tulo 2.
-pdftex: bookmark at 1: {2} {\numberline{2}Atuadores Eletrohidrost\'aticos} {cha
-pter.2}{0}{toc}
+pdftex: bookmark at 1: {2} {\numberline{2}Qualidade de Energia em Aeronaves} {c
+hapter.2}{0}{toc}
+Package hyperref Info: Reference (cite) `cite.Boeing2007' on input line 3.
+Package hyperref Info: Reference (cite) `cite.Boeing2007' on input line 3.
+Package hyperref Info: Reference (cite) `cite.Boeing2007' on input line 3.
+Package hyperref Info: Reference (cite) `cite.Boeing2007' on input line 3.
 )
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Cap3/Capitulo_3.tex
 "
-Package hyperref Info: Anchor `page.16' on input line 1.
- [16
+Package hyperref Info: Anchor `page.2' on input line 1.
+ [2
 
+Package `hyperref' Info: End of reference (cite) `cite.Boeing2007', line 3.
+Package `hyperref' Info: End of reference (cite) `cite.Boeing2007', line 3.
+Package `hyperref' Info: End of reference (cite) `cite.Boeing2007', line 3.
+Package `hyperref' Info: End of reference (cite) `cite.Boeing2007', line 3.
 ]
 Package hyperref Info: Anchor `chapter.3' on input line 1.
 
@@ -938,50 +706,50 @@ s} {chapter.3}{0}{toc}
 Package hyperref Info: Anchor `section.3.1' on input line 5.
 pdftex: bookmark at 5: {3.1} {\numberline{3.1}Defini\c c\~ao de Pot\^encia Ativ
 a, Reativa e Fator de Pot\^encia} {section.3.1}{1}{toc}
-Package hyperref Info: Anchor `subsection.3.1.1' on input line 7.
-pdftex: bookmark at 7: {3.1.1} {\numberline{3.1.1}Defini\c c\~ao de Pot\^encias
+Package hyperref Info: Anchor `subsection.3.1.1' on input line 9.
+pdftex: bookmark at 9: {3.1.1} {\numberline{3.1.1}Defini\c c\~ao de Pot\^encias
  em Sistemas Senoidais} {subsection.3.1.1}{2}{toc}
-Package hyperref Info: Anchor `subsection.3.1.2' on input line 8.
-pdftex: bookmark at 8: {3.1.2} {\numberline{3.1.2}Defini\c c\~ao de Pot\^encias
- em Sistemas N\~ao-Senoidais} {subsection.3.1.2}{2}{toc}
-Package hyperref Info: Anchor `subsection.3.1.3' on input line 10.
-pdftex: bookmark at 10: {3.1.3} {\numberline{3.1.3}Pot\^encia Instant\^anea Uti
+Package hyperref Info: Anchor `subsection.3.1.2' on input line 10.
+pdftex: bookmark at 10: {3.1.2} {\numberline{3.1.2}Defini\c c\~ao de Pot\^encia
+s em Sistemas N\~ao-Senoidais} {subsection.3.1.2}{2}{toc}
+Package hyperref Info: Anchor `subsection.3.1.3' on input line 12.
+pdftex: bookmark at 12: {3.1.3} {\numberline{3.1.3}Pot\^encia Instant\^anea Uti
 lizando a Teoria P-Q} {subsection.3.1.3}{2}{toc}
-Package hyperref Info: Anchor `subsubsection.3.1.3.1' on input line 11.
-pdftex: bookmark at 11: {3.1.3.1} {\numberline{3.1.3.1}Transformada de Clarke} 
+Package hyperref Info: Anchor `subsubsection.3.1.3.1' on input line 13.
+pdftex: bookmark at 13: {3.1.3.1} {\numberline{3.1.3.1}Transformada de Clarke} 
 {subsubsection.3.1.3.1}{3}{toc}
-Package hyperref Info: Anchor `section.3.2' on input line 13.
-pdftex: bookmark at 13: {3.2} {\numberline{3.2}Filtros Ativos} {section.3.2}{1}
+Package hyperref Info: Anchor `section.3.2' on input line 15.
+pdftex: bookmark at 15: {3.2} {\numberline{3.2}Filtros Ativos} {section.3.2}{1}
 {toc}
-Package hyperref Info: Anchor `subsection.3.2.1' on input line 15.
-pdftex: bookmark at 15: {3.2.1} {\numberline{3.2.1}Filtros Ativo Empregando a T
+Package hyperref Info: Anchor `subsection.3.2.1' on input line 17.
+pdftex: bookmark at 17: {3.2.1} {\numberline{3.2.1}Filtros Ativo Empregando a T
 eoria P-Q} {subsection.3.2.1}{2}{toc}
-Package hyperref Info: Reference (cite) `cite.Watanabe1991' on input line 19.
-Package hyperref Info: Reference (cite) `cite.Watanabe1991' on input line 19.
-Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 19.
-Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 19.
-Package hyperref Info: Reference (cite) `cite.Watanabe2004' on input line 19.
-Package hyperref Info: Reference (cite) `cite.Watanabe2004' on input line 19.
-Package hyperref Info: Reference (cite) `cite.Afonso2000' on input line 19.
-Package hyperref Info: Reference (cite) `cite.Afonso2000' on input line 19.
-Package hyperref Info: Reference (cite) `cite.Couto2003' on input line 19.
-Package hyperref Info: Reference (cite) `cite.Couto2003' on input line 19.
+Package hyperref Info: Reference (cite) `cite.Watanabe1991' on input line 21.
+Package hyperref Info: Reference (cite) `cite.Watanabe1991' on input line 21.
+Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 21.
+Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 21.
+Package hyperref Info: Reference (cite) `cite.Watanabe2004' on input line 21.
+Package hyperref Info: Reference (cite) `cite.Watanabe2004' on input line 21.
+Package hyperref Info: Reference (cite) `cite.Afonso2000' on input line 21.
+Package hyperref Info: Reference (cite) `cite.Afonso2000' on input line 21.
+Package hyperref Info: Reference (cite) `cite.Couto2003' on input line 21.
+Package hyperref Info: Reference (cite) `cite.Couto2003' on input line 21.
 )
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Cap4/Capitulo_4.tex
 "
-Package hyperref Info: Anchor `page.17' on input line 1.
- [17
+Package hyperref Info: Anchor `page.3' on input line 1.
+ [3
 
-Package `hyperref' Info: End of reference (cite) `cite.Watanabe1991', line 19.
-Package `hyperref' Info: End of reference (cite) `cite.Watanabe1991', line 19.
-Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 19.
-Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 19.
-Package `hyperref' Info: End of reference (cite) `cite.Watanabe2004', line 19.
-Package `hyperref' Info: End of reference (cite) `cite.Watanabe2004', line 19.
-Package `hyperref' Info: End of reference (cite) `cite.Afonso2000', line 19.
-Package `hyperref' Info: End of reference (cite) `cite.Afonso2000', line 19.
-Package `hyperref' Info: End of reference (cite) `cite.Couto2003', line 19.
-Package `hyperref' Info: End of reference (cite) `cite.Couto2003', line 19.
+Package `hyperref' Info: End of reference (cite) `cite.Watanabe1991', line 21.
+Package `hyperref' Info: End of reference (cite) `cite.Watanabe1991', line 21.
+Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 21.
+Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 21.
+Package `hyperref' Info: End of reference (cite) `cite.Watanabe2004', line 21.
+Package `hyperref' Info: End of reference (cite) `cite.Watanabe2004', line 21.
+Package `hyperref' Info: End of reference (cite) `cite.Afonso2000', line 21.
+Package `hyperref' Info: End of reference (cite) `cite.Afonso2000', line 21.
+Package `hyperref' Info: End of reference (cite) `cite.Couto2003', line 21.
+Package `hyperref' Info: End of reference (cite) `cite.Couto2003', line 21.
 ]
 Package hyperref Info: Anchor `chapter.4' on input line 1.
 
@@ -991,8 +759,8 @@ plica\c c\~ao de Filtros Ativos} {chapter.4}{0}{toc}
 )
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Cap5/Capitulo_5.tex
 "
-Package hyperref Info: Anchor `page.18' on input line 1.
- [18
+Package hyperref Info: Anchor `page.4' on input line 1.
+ [4
 
 ]
 Package hyperref Info: Anchor `chapter.5' on input line 1.
@@ -1001,13 +769,13 @@ Cap\'{\i }tulo 5.
 pdftex: bookmark at 1: {5} {\numberline{5}Conclus\~ao} {chapter.5}{0}{toc}
 ) ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.bbl"
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.brf")
-\tf@brf=\write11
-Package hyperref Info: Anchor `page.19' on input line 3.
+\tf@brf=\write6
+Package hyperref Info: Anchor `page.5' on input line 3.
 
-[19
+[5
 
 ]
-Package hyperref Info: Anchor `chapter*.11' on input line 3.
+Package hyperref Info: Anchor `chapter*.3' on input line 3.
 Package hyperref Info: Anchor `chapter.6' on input line 3.
 
 pdftex: bookmark at 3: {6} {Refer\^encias Bibliogr\'aficas} {chapter.6}{0}{toc}
@@ -1015,25 +783,26 @@ pdftex: bookmark at 3: {6} {Refer\^encias Bibliogr\'aficas} {chapter.6}{0}{toc}
 Package hyperref Info: Anchor `cite.Afonso2000' on input line 14.
 Package hyperref Info: Anchor `cite.Akagi2007' on input line 19.
 Package hyperref Info: Anchor `cite.Couto2003' on input line 27.
-Package hyperref Info: Anchor `cite.Watanabe1991' on input line 34.
-Package hyperref Info: Anchor `cite.Watanabe2004' on input line 41.
+Package hyperref Info: Anchor `cite.Boeing2007' on input line 32.
+Package hyperref Info: Anchor `cite.Watanabe1991' on input line 39.
+Package hyperref Info: Anchor `cite.Watanabe2004' on input line 46.
 )
-Package hyperref Info: Anchor `page.20' on input line 185.
- [20
+Package hyperref Info: Anchor `page.6' on input line 186.
+ [6
 
 ]
-Package hyperref Info: Anchor `appendix.A' on input line 186.
+Package hyperref Info: Anchor `appendix.A' on input line 187.
 
 Ap\^endice A.
-pdftex: bookmark at 186: {A} {\numberline{A}T\'opicos de Dilema Linear} {append
+pdftex: bookmark at 187: {A} {\numberline{A}T\'opicos de Dilema Linear} {append
 ix.A}{0}{toc}
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\ApeA/apendiceA.tex"
 Package hyperref Info: Anchor `section.A.1' on input line 1.
 pdftex: bookmark at 1: {A.1} {\numberline{A.1}Uma Primeira Se\c c\~ao para o Ap
 \^endice} {section.A.1}{1}{toc}
 Package hyperref Info: Anchor `equation.A.1.1' on input line 6.
-Package hyperref Info: Anchor `figure.caption.12' on input line 14.
-<ApeA/pragas_ciclo_cupim.pdf, id=288, 401.5pt x 403.5075pt>
+Package hyperref Info: Anchor `figure.caption.4' on input line 14.
+<ApeA/pragas_ciclo_cupim.pdf, id=148, 401.5pt x 403.5075pt>
 File: ApeA/pragas_ciclo_cupim.pdf Graphic file (type pdf)
 
 <use ApeA/pragas_ciclo_cupim.pdf>
@@ -1041,18 +810,18 @@ Package pdftex.def Info: ApeA/pragas_ciclo_cupim.pdf used on input line 16.
 (pdftex.def)             Requested size: 142.26698pt x 142.26411pt.
 
 pdftex: bookmark at 17: {A.1} {\numberline{A.1}{\ignorespaces Uma figura que es
-t\'a no ap\^endice\relax }} {figure.caption.12}{0}{lof}
+t\'a no ap\^endice\relax }} {figure.caption.4}{0}{lof}
 )
-Package hyperref Info: Anchor `page.21' on input line 190.
- [21
+Package hyperref Info: Anchor `page.7' on input line 191.
+ [7
 
 
  <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/ApeA/pragas_ciclo_c
 upim.pdf>]
-Package hyperref Info: Anchor `annex.a' on input line 191.
+Package hyperref Info: Anchor `annex.a' on input line 192.
 
 Anexo A.
-pdftex: bookmark at 191: {A} {\numberline{A}Exemplo de um Primeiro Anexo} {anne
+pdftex: bookmark at 192: {A} {\numberline{A}Exemplo de um Primeiro Anexo} {anne
 x.a}{0}{toc}
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\AneA/anexoA.tex"
 Package hyperref Info: Anchor `section.a.1' on input line 2.
@@ -1060,23 +829,23 @@ Package hyperref Info: Anchor `section.a.1' on input line 2.
 pdftex: bookmark at 2: {A.1} {\numberline{A.1}Uma Se\c c\~ao do Primeiro Anexo}
  {section.a.1}{1}{toc}
 )
-Package hyperref Info: Anchor `page.22' on input line 193.
- [22
+Package hyperref Info: Anchor `page.8' on input line 194.
+ [8
 
 
 ]
-Package hyperref Info: Anchor `annex.b' on input line 193.
+Package hyperref Info: Anchor `annex.b' on input line 194.
 
 Anexo B.
-pdftex: bookmark at 193: {B} {\numberline{B}To usando craque} {annex.b}{0}{toc}
+pdftex: bookmark at 194: {B} {\numberline{B}To usando craque} {annex.b}{0}{toc}
 
-Package hyperref Info: Anchor `page.23' on input line 212.
-[23
+Package hyperref Info: Anchor `page.9' on input line 213.
+[9
 
 ]
 \bottommargin=\skip74
 \rightmarginn=\skip75
-Package hyperref Info: Anchor `bla.0' on input line 212.
+Package hyperref Info: Anchor `bla.0' on input line 213.
 
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Pre_Textuais/resumo
 .tex")
@@ -1084,62 +853,56 @@ Package hyperref Info: Anchor `bla.0' on input line 212.
 .tex")
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Pre_Textuais/resumo
 .tex")
-Overfull \hbox (74.53033pt too wide) in paragraph at lines 212--212
+Overfull \hbox (74.53033pt too wide) in paragraph at lines 213--213
 [][] 
  []
 
 
 AED: lastpage setting LastPage
-Package hyperref Info: Anchor `page.24' on input line 214.
-[24
+Package hyperref Info: Anchor `page.10' on input line 215.
+[10
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 214.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 214.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
  ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 214.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 214.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
 Package rerunfilecheck Info: File `Dissertacao.out' has not changed.
-(rerunfilecheck)             Checksum: 85A77B2DA6EB0AB5C6CE316415A9FC62;2199.
+(rerunfilecheck)             Checksum: B98DC01E1C491DDA28EC8F74B113BBDF;1658.
 Package rerunfilecheck Info: File `Dissertacao.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 214.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 215.
  ) 
 Here is how much of TeX's memory you used:
- 9886 strings out of 493921
- 148958 string characters out of 3144879
- 249480 words of memory out of 3000000
- 12754 multiletter control sequences out of 15000+200000
- 63164 words of font info for 119 fonts, out of 3000000 for 9000
+ 9796 strings out of 493921
+ 146640 string characters out of 3144879
+ 249984 words of memory out of 3000000
+ 12741 multiletter control sequences out of 15000+200000
+ 46565 words of font info for 96 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 43i,12n,45p,1097b,519s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,12n,45p,1012b,433s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmssi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmti12.pfb>
-Output written on Dissertacao.pdf (24 pages, 330451 bytes).
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Dissertacao.pdf (10 pages, 229221 bytes).
 PDF statistics:
- 395 PDF objects out of 1000 (max. 8388607)
- 74 named destinations out of 1000 (max. 500000)
- 267 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 235 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 179 words of extra memory for PDF output out of 10000 (max. 10000000)
 
