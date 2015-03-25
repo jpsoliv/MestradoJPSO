@@ -5,43 +5,15 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.45.2.1 }
 
-\bibitem[Afonso \textit{et al.} 2000]{Afonso2000}
-\abntrefinfo{Afonso \textit{et al.}}{AFONSO \textit{et al.}}{2000}
-{AFONSO, J.~L.; COUTO, C.; MARTINS, J.~S. Active filters with control based on
-  the pq theory.
-\textbf{IEEE Industrial Electronics Society Newsletter}, IEEE, v.~47, n.~3, p.
-  5--10, 2000.}
-
-\bibitem[Akagi \textit{et al.} 2007]{Akagi2007}
-\abntrefinfo{Akagi \textit{et al.}}{AKAGI \textit{et al.}}{2007}
-{AKAGI, H.; WATANABE, E.~H.; AREDES, M. \textbf{Instantaneous Power Theory and
-  Applications to Power Conditioning}. [S.l.]: John Wiley \& Sons, 2007.}
-
-\bibitem[Couto \textit{et al.} 2003]{Couto2003}
-\abntrefinfo{Couto \textit{et al.}}{COUTO \textit{et al.}}{2003}
-{COUTO, E.~F.; MARTINS, J.~S.; AFONSO, J.~L. Resultados de simula{\c{c}}{\~o}es
-  de um filtro activo paralelo com controlo baseado na teoria p-q.
-\textbf{8º Congresso Luso-Espanhol de Engenharia Eletrotécnica}, APDEE.
-  Associa{\c{c}}{\~a}o Portuguesa para a Promo{\c{c}}{\~a}o e Desenvolvimento
-  da Engenharia Electrot{\'e}cnica, p. 4159--4164, 2003.}
+\bibitem[AbdElhafez e Forsyth 2009]{Abdelhafez2009}
+\abntrefinfo{AbdElhafez e Forsyth}{ABDELHAFEZ; FORSYTH}{2009}
+{ABDELHAFEZ, A.; FORSYTH, A. A review of more-electric aircraft. In:
+  \textbf{13th International Conference on Aerospace Science \& Aviation
+  Technology (ASAT-13)}. Cairo: Military Technical College, 2009.}
 
 \bibitem[Karimi 2007]{Boeing2007}
 \abntrefinfo{Karimi}{KARIMI}{2007}
 {KARIMI, K.~J. \textbf{Future Aircraft Power Systems - Integration Challenges}.
   [S.l.]: The Boeing Company, 2007.}
-
-\bibitem[Watanabe e Stephan 1991]{Watanabe1991}
-\abntrefinfo{Watanabe e Stephan}{WATANABE; STEPHAN}{1991}
-{WATANABE, E.; STEPHAN, R. Pot{\^e}ncia ativa e reativa instant{\^a}neas em
-  sistemas el{\'e}tricos com fontes e cargas gen{\'e}ricas.
-\textbf{Revista da SBA: Controle e Automa{\c{c}}{\~a}o}, IFAC, v.~3, n.~1, p.
-  253--263, 1991.}
-
-\bibitem[Watanabe \textit{et al.} 2004]{Watanabe2004}
-\abntrefinfo{Watanabe \textit{et al.}}{WATANABE \textit{et al.}}{2004}
-{WATANABE, E.~H.; AREDES, M.; AKAGI, H. The p-q theory for active filter
-  control: some problems and solutions.
-\textbf{Sba: Controle \& Automa{\c{c}}{\~a}o Sociedade Brasileira de
-  Automatica}, SciELO Brasil, v.~15, n.~1, p. 78--84, 2004.}
 
 \end{thebibliography}
