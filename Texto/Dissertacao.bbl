@@ -1,19 +1,19 @@
 \providecommand{\abntreprintinfo}[1]{%
  \citeonline{#1}}
-\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\begin{thebibliography}{}
 \providecommand{\abntrefinfo}[3]{}
 \providecommand{\abntbstabout}[1]{}
-\abntbstabout{1.45.2.1 }
+\abntbstabout{1.42.2.1 }
 
-\bibitem[AbdElhafez e Forsyth 2009]{Abdelhafez2009}
+\bibitem{Boeing2007}
+\abntrefinfo{Karimi}{KARIMI}{2007}
+{KARIMI, K.~J. \emph{Future Aircraft Power Systems - Integration Challenges}.
+  [S.l.]: The Boeing Company, 2007.}
+
+\bibitem{Abdelhafez2009}
 \abntrefinfo{AbdElhafez e Forsyth}{ABDELHAFEZ; FORSYTH}{2009}
 {ABDELHAFEZ, A.; FORSYTH, A. A review of more-electric aircraft. In:
-  \textbf{13th International Conference on Aerospace Science \& Aviation
+  \emph{13th International Conference on Aerospace Science \& Aviation
   Technology (ASAT-13)}. Cairo: Military Technical College, 2009.}
-
-\bibitem[Karimi 2007]{Boeing2007}
-\abntrefinfo{Karimi}{KARIMI}{2007}
-{KARIMI, K.~J. \textbf{Future Aircraft Power Systems - Integration Challenges}.
-  [S.l.]: The Boeing Company, 2007.}
 
 \end{thebibliography}
