@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  28 MAR 2015 20:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  28 MAR 2015 20:32
 entering extended mode
 **Dissertacao.tex
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.tex"
@@ -1221,10 +1221,8 @@ Package hyperref Info: Anchor `page.15' on input line 1.
  [15
 
 
-]
-Package hyperref Info: Anchor `page.16' on input line 1.
- [16 <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap1/Figuras/cu
-pim.pdf>]
+ <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap1/Figuras/cupim.
+pdf>]
 Package hyperref Info: Anchor `chapter.2' on input line 1.
 
 Cap\'{\i }tulo 2.
@@ -1238,16 +1236,7 @@ encias Abdelhafez2009} {section*.13}{0}{tdo}
 Package hyperref Info: Reference (cite) `cite.Boeing2007' on input line 4.
 Package hyperref Info: Reference (cite) `cite.Boeing2007' on input line 4.
 Package hyperref Info: Reference (cite) `cite.Abdelhafez2009' on input line 4.
-Package hyperref Info: Anchor `page.17' on input line 16.
-[17
-
-Package `hyperref' Info: End of reference (cite) `cite.Boeing2007', line 4.
-Package `hyperref' Info: End of reference (cite) `cite.Boeing2007', line 4.
-Package `hyperref' Info: End of reference (cite) `cite.Abdelhafez2009', line 4.
-
-]
 Package hyperref Info: Anchor `section.2.1' on input line 16.
-
 pdftex: bookmark at 16: {2.1} {\numberline{2.1}Conversores com Alto Fator de Po
 t\^encia} {section.2.1}{1}{toc}
 Package hyperref Info: Anchor `section.2.2' on input line 18.
@@ -1259,8 +1248,16 @@ pdftex: bookmark at 20: {2.3} {\numberline{2.3}Filtros Ativos} {section.2.3}{1}
 )
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Cap3/Capitulo_3.tex
 "
-Package hyperref Info: Anchor `page.18' on input line 1.
- [18]
+Package hyperref Info: Anchor `page.16' on input line 1.
+ [16
+
+Package `hyperref' Info: End of reference (cite) `cite.Boeing2007', line 4.
+Package `hyperref' Info: End of reference (cite) `cite.Boeing2007', line 4.
+Package `hyperref' Info: End of reference (cite) `cite.Abdelhafez2009', line 4.
+
+]
+Package hyperref Info: Anchor `page.17' on input line 1.
+ [17]
 Package hyperref Info: Anchor `chapter.3' on input line 1.
 
 Cap\'{\i }tulo 3.
@@ -1292,8 +1289,8 @@ eoria P-Q} {subsection.3.2.1}{2}{toc}
 )
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Cap4/Capitulo_4.tex
 "
-Package hyperref Info: Anchor `page.19' on input line 1.
- [19
+Package hyperref Info: Anchor `page.18' on input line 1.
+ [18
 
 ]
 Package hyperref Info: Anchor `chapter.4' on input line 1.
@@ -1306,8 +1303,8 @@ pdftex: bookmark at 2: {\thetodo } {40 P\'ags} {section*.15}{0}{tdo}
 )
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Cap5/Capitulo_5.tex
 "
-Package hyperref Info: Anchor `page.20' on input line 1.
- [20
+Package hyperref Info: Anchor `page.19' on input line 1.
+ [19
 
 ]
 Package hyperref Info: Anchor `chapter.5' on input line 1.
@@ -1317,9 +1314,9 @@ pdftex: bookmark at 1: {5} {\numberline{5}Conclus\~ao} {chapter.5}{0}{toc}
 Package hyperref Info: Anchor `section*.16' on input line 2.
 pdftex: bookmark at 2: {\thetodo } {5 P\'ags} {section*.16}{0}{tdo}
 ) ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.bbl"
-Package hyperref Info: Anchor `page.21' on input line 3.
+Package hyperref Info: Anchor `page.20' on input line 3.
 
-[21
+[20
 
 ]
 Package hyperref Info: Anchor `chapter*.17' on input line 3.
@@ -1330,8 +1327,8 @@ pdftex: bookmark at 3: {6} {Refer\^encias Bibliogr\'aficas} {chapter.6}{0}{toc}
 Package hyperref Info: Anchor `cite.Boeing2007' on input line 8.
 Package hyperref Info: Anchor `cite.Abdelhafez2009' on input line 13.
 )
-Package hyperref Info: Anchor `page.22' on input line 190.
- [22
+Package hyperref Info: Anchor `page.21' on input line 190.
+ [21
 
 ]
 Package hyperref Info: Anchor `appendix.A' on input line 191.
@@ -1345,7 +1342,7 @@ pdftex: bookmark at 1: {A.1} {\numberline{A.1}Uma Primeira Se\c c\~ao para o Ap
 \^endice} {section.A.1}{1}{toc}
 Package hyperref Info: Anchor `equation.A.1.1' on input line 6.
 Package hyperref Info: Anchor `figure.caption.18' on input line 14.
-<ApeA/pragas_ciclo_cupim.pdf, id=318, 401.5pt x 403.5075pt>
+<ApeA/pragas_ciclo_cupim.pdf, id=314, 401.5pt x 403.5075pt>
 File: ApeA/pragas_ciclo_cupim.pdf Graphic file (type pdf)
 
 <use ApeA/pragas_ciclo_cupim.pdf>
@@ -1355,8 +1352,8 @@ Package pdftex.def Info: ApeA/pragas_ciclo_cupim.pdf used on input line 16.
 pdftex: bookmark at 17: {A.1} {\numberline{A.1}{\ignorespaces Uma figura que es
 t\'a no ap\^endice\relax }} {figure.caption.18}{0}{lof}
 )
-Package hyperref Info: Anchor `page.23' on input line 195.
- [23
+Package hyperref Info: Anchor `page.22' on input line 195.
+ [22
 
 
  <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/ApeA/pragas_ciclo_c
@@ -1372,8 +1369,8 @@ Package hyperref Info: Anchor `section.a.1' on input line 2.
 pdftex: bookmark at 2: {A.1} {\numberline{A.1}Uma Se\c c\~ao do Primeiro Anexo}
  {section.a.1}{1}{toc}
 )
-Package hyperref Info: Anchor `page.24' on input line 198.
- [24
+Package hyperref Info: Anchor `page.23' on input line 198.
+ [23
 
 
 ]
@@ -1382,8 +1379,8 @@ Package hyperref Info: Anchor `annex.b' on input line 198.
 Anexo B.
 pdftex: bookmark at 198: {B} {\numberline{B}To usando craque} {annex.b}{0}{toc}
 
-Package hyperref Info: Anchor `page.25' on input line 219.
-[25
+Package hyperref Info: Anchor `page.24' on input line 219.
+[24
 
 ]
 \bottommargin=\skip71
@@ -1402,8 +1399,8 @@ Overfull \hbox (74.53033pt too wide) in paragraph at lines 219--219
 
 
 AED: lastpage setting LastPage
-Package hyperref Info: Anchor `page.26' on input line 221.
-[26
+Package hyperref Info: Anchor `page.25' on input line 221.
+[25
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
@@ -1416,10 +1413,10 @@ Package rerunfilecheck Info: File `Dissertacao.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 221.
  ) 
 Here is how much of TeX's memory you used:
- 19549 strings out of 493921
- 358358 string characters out of 3144879
- 434173 words of memory out of 3000000
- 22216 multiletter control sequences out of 15000+200000
+ 19547 strings out of 493921
+ 358335 string characters out of 3144879
+ 433173 words of memory out of 3000000
+ 22215 multiletter control sequences out of 15000+200000
  66485 words of font info for 122 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  62i,12n,80p,1244b,886s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1442,9 +1439,9 @@ onts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmti12.pfb>
-Output written on Dissertacao.pdf (26 pages, 330525 bytes).
+Output written on Dissertacao.pdf (25 pages, 329890 bytes).
 PDF statistics:
- 424 PDF objects out of 1000 (max. 8388607)
- 84 named destinations out of 1000 (max. 500000)
+ 420 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
  319 words of extra memory for PDF output out of 10000 (max. 10000000)
 
