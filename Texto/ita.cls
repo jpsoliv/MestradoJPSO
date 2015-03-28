@@ -459,7 +459,7 @@
 {
    \newpage
    \pdfbookmark[0]{\namepageexaminersbookmark}{aprovacao}
-   \thispagestyle{myheadings}%						%%%%%%%%%%%%%%\thispagestyle{empty}%
+   \thispagestyle{empty}
 
    \noindent
    \begin{spacing}{1.0}
@@ -485,7 +485,7 @@
 %%% Dedicatória...
 %==============================================================================
 \newenvironment{itadedication}
-{\thispagestyle{myheadings}%						%%%%%%%%%%%%%%\thispagestyle{empty}%
+{\thispagestyle{empty}%
   \pdfbookmark[0]{\namededicatory}{dedication}
   \begin{flushright}%
   \null\vfil \@beginparpenalty\@lowpenalty
@@ -526,7 +526,7 @@
 %%% Redefinicao de chapter
 %==============================================================================
 \renewcommand\chapter{\if@openright\cleardoublepage\else\clearpage\fi
-                    \thispagestyle{myheadings}%			%%%%%%%%%%%%%%%%%% \thispagestyle{empty}%
+                    \thispagestyle{empty}%
                     \global\@topnum\z@
                     \@afterindenttrue
                     \secdef\@chapter\@schapter}
@@ -695,8 +695,8 @@
 %==============================================================================
 %%% Cabecalhos e Rodapés
 %==============================================================================
-\pagestyle{myheadings}		%%%%%%%%%%%%%%%%%%\pagestyle{fancy}
-\lhead{}					%%%%%%%%%%%%%%%%%%\lhead{\leftmark}
+\pagestyle{fancy}
+\lhead{\leftmark}
 \chead{}
 \rhead{\thepage}
 \lfoot{}\cfoot{}\rfoot{}
@@ -889,7 +889,7 @@
 %==============================================================================
 \newcommand{\itaglossary}{
 \cleardoublepage
-\thispagestyle{empty}%		
+\thispagestyle{empty}%
 \@mkboth{\MakeUppercase{\itaglossarynamebabel}}%
         {\MakeUppercase{\itaglossarynamebabel}}%
 \gdef\glossaryname{\itaglossarynamebabel}
