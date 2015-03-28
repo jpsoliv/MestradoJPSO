@@ -1,27 +1,19 @@
 \providecommand{\abntreprintinfo}[1]{%
  \citeonline{#1}}
-\begin{thebibliography}{}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
 \providecommand{\abntrefinfo}[3]{}
 \providecommand{\abntbstabout}[1]{}
-\abntbstabout{1.42.2.1 }
+\abntbstabout{1.45.2.1 }
 
-\bibitem{Boeing2007}
-\abntrefinfo{Karimi}{KARIMI}{2007}
-{KARIMI, K.~J. \emph{Future Aircraft Power Systems - Integration Challenges}.
-  [S.l.]: The Boeing Company, 2007.}
-
-\bibitem{Abdelhafez2009}
+\bibitem[AbdElhafez e Forsyth 2009]{Abdelhafez2009}
 \abntrefinfo{AbdElhafez e Forsyth}{ABDELHAFEZ; FORSYTH}{2009}
 {ABDELHAFEZ, A.; FORSYTH, A. A review of more-electric aircraft. In:
-  \emph{13th International Conference on Aerospace Science \& Aviation
+  \textbf{13th International Conference on Aerospace Science \& Aviation
   Technology (ASAT-13)}. Cairo: Military Technical College, 2009.}
 
-\bibitem{Couto2003}
-\abntrefinfo{Couto, Martins e Afonso}{COUTO; MARTINS; AFONSO}{2003}
-{COUTO, E.~F.; MARTINS, J.~S.; AFONSO, J.~L. Resultados de simula{\c{c}}{\~o}es
-  de um filtro activo paralelo com controlo baseado na teoria p-q.
-\emph{8º Congresso Luso-Espanhol de Engenharia Eletrotécnica}, APDEE.
-  Associa{\c{c}}{\~a}o Portuguesa para a Promo{\c{c}}{\~a}o e Desenvolvimento
-  da Engenharia Electrot{\'e}cnica, p. 4159--4164, 2003.}
+\bibitem[Karimi 2007]{Boeing2007}
+\abntrefinfo{Karimi}{KARIMI}{2007}
+{KARIMI, K.~J. \textbf{Future Aircraft Power Systems - Integration Challenges}.
+  [S.l.]: The Boeing Company, 2007.}
 
 \end{thebibliography}

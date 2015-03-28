@@ -459,7 +459,7 @@
 {
    \newpage
    \pdfbookmark[0]{\namepageexaminersbookmark}{aprovacao}
-   \thispagestyle{empty}
+   \thispagestyle{myheadings}
 
    \noindent
    \begin{spacing}{1.0}
@@ -485,7 +485,7 @@
 %%% Dedicatória...
 %==============================================================================
 \newenvironment{itadedication}
-{\thispagestyle{empty}%
+{\thispagestyle{myheadings}%
   \pdfbookmark[0]{\namededicatory}{dedication}
   \begin{flushright}%
   \null\vfil \@beginparpenalty\@lowpenalty
@@ -526,7 +526,7 @@
 %%% Redefinicao de chapter
 %==============================================================================
 \renewcommand\chapter{\if@openright\cleardoublepage\else\clearpage\fi
-                    \thispagestyle{empty}%
+                    \thispagestyle{myheadings}%
                     \global\@topnum\z@
                     \@afterindenttrue
                     \secdef\@chapter\@schapter}
