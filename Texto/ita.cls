@@ -149,7 +149,7 @@
 \definecolor{gray}{rgb}{0.4,0.4,0.4}
 \definecolor{bblue}{rgb}{0,0,.8} %% tom azul mais escuro
 
-\RequirePackage[debug,a4paper,pagebackref=true,breaklinks,bookmarksopen=true,colorlinks=true,linkcolor=bblue,citecolor=bblue,urlcolor=bblue,bookmarksnumbered=true,hyperindex=true,verbose=true]{hyperref} %% essencial %% gera pdf/dvi com links
+\RequirePackage[debug,a4paper,pagebackref=false,breaklinks,bookmarksopen=true,colorlinks=false,linkcolor=bblue,citecolor=bblue,urlcolor=bblue,bookmarksnumbered=true,hyperindex=true,verbose=true]{hyperref} %% essencial %% gera pdf/dvi com links
 %==============================================================================
 
 \ifpdf
@@ -170,8 +170,11 @@
 
 %==============================================================================
 %%% ABNTeX ...
-\RequirePackage[alf,abnt-emphasize=bf,abnt-etal-cite=2,abnt-etal-list=0,abnt-etal-text=it]{abntcite}
+%\RequirePackage[alf,abnt-emphasize=bf,abnt-etal-cite=2,abnt-etal-list=0,abnt-etal-text=it]{abntcite}
+%\RequirePackage[num]{abntcite}
+
 %\RequirePackage{natbib}
+%\bibliographystyle{acm}
 
 %==============================================================================
 
