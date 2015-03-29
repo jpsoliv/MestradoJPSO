@@ -5,6 +5,14 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.42.2.1 }
 
+\bibitem{Frost2008}
+\abntrefinfo{Srimoolanathan}{SRIMOOLANATHAN}{2008}
+{SRIMOOLANATHAN, B. \emph{Aircraft Electrical Power Systems ?- Charged with
+  Opportunities}. 2008.
+Acessado em 29/03/2014.
+Dispon{\'\i}vel em:
+  $<$https://www.frost.com/sublib/display-market-insight.do?id=150507057$>$.}
+
 \bibitem{Boeing2007}
 \abntrefinfo{Karimi}{KARIMI}{2007}
 {KARIMI, K.~J. \emph{Future Aircraft Power Systems - Integration Challenges}.
