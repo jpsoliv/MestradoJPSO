@@ -5,16 +5,28 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.42.2.1 }
 
+\bibitem{Moir1999}
+\abntrefinfo{Moir}{MOIR}{1999}
+{MOIR, I. More-electric aircraft-system considerations. In:  \emph{IEE
+  Colloquium on Electrical Machines and Systems for the More Electric
+  Aircraft}. Londres: IET, 1999.}
+
+\bibitem{Abdelhafez2009}
+\abntrefinfo{Abdel-Hafez e Forsyth}{ABDEL-HAFEZ; FORSYTH}{2009}
+{ABDEL-HAFEZ, A.; FORSYTH, A. A review of more-electric aircraft. In:
+  \emph{13th International Conference on Aerospace Science \& Aviation
+  Technology (ASAT-13)}. Cairo: Military Technical College, 2009.}
+
+\bibitem{Abdel2012}
+\abntrefinfo{Abdel-Hafez}{ABDEL-HAFEZ}{2012}
+{ABDEL-HAFEZ, A. \emph{Recent Advances in Aircraft Technology}. Ar\'abia
+  Saudita: INTECH, 2012. Cap. Power Generation and Distribution System for a
+  More Electric Aircraft-A Review.}
+
 \bibitem{Boeing2007}
 \abntrefinfo{Karimi}{KARIMI}{2007}
 {KARIMI, K.~J. \emph{Future Aircraft Power Systems - Integration Challenges}.
   [S.l.]: The Boeing Company, 2007.}
-
-\bibitem{Abdelhafez2009}
-\abntrefinfo{AbdElhafez e Forsyth}{ABDELHAFEZ; FORSYTH}{2009}
-{ABDELHAFEZ, A.; FORSYTH, A. A review of more-electric aircraft. In:
-  \emph{13th International Conference on Aerospace Science \& Aviation
-  Technology (ASAT-13)}. Cairo: Military Technical College, 2009.}
 
 \bibitem{Frost2008}
 \abntrefinfo{Srimoolanathan}{SRIMOOLANATHAN}{2008}
@@ -24,10 +36,9 @@ Acessado em 29/03/2014.
 Dispon{\'\i}vel em:
   $<$https://www.frost.com/sublib/display-market-insight.do?id=150507057$>$.}
 
-\bibitem{Moir1999}
-\abntrefinfo{Moir}{MOIR}{1999}
-{MOIR, I. More-electric aircraft-system considerations. In:  \emph{IEE
-  Colloquium on Electrical Machines and Systems for the More Electric
-  Aircraft}. Londres: IET, 1999.}
+\bibitem{Rajashekara2014}
+\abntrefinfo{Rajashekara}{RAJASHEKARA}{2014}
+{RAJASHEKARA, K. More electric aircraft trends.
+\emph{IEEE Electrification Magazine}, v.~2, 2014.}
 
 \end{thebibliography}
