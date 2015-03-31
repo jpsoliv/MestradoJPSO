@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  30 MAR 2015 20:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  30 MAR 2015 21:36
 entering extended mode
 **Dissertacao.tex
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.tex"
@@ -802,31 +802,45 @@ File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
 )
 \c@@todonotes@numberoftodonotes=\count155
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
 \@glossaryfile=\write5
 
 Writing glossary file Dissertacao.glo 
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             macros/latex/contrib/pageslts/ 
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 93.
+(lastpage)             ! on input line 94.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
@@ -853,7 +867,7 @@ Package caption Info: End \AtBeginDocument code.
 \everyMPtoPDFconversion=\toks44
 )
 \AtBeginShipoutBox=\box46
-Package hyperref Info: Link coloring OFF on input line 93.
+Package hyperref Info: Link coloring OFF on input line 94.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -862,14 +876,14 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count162
 )
-LaTeX Info: Redefining \ref on input line 93.
-LaTeX Info: Redefining \pageref on input line 93.
-LaTeX Info: Redefining \nameref on input line 93.
+LaTeX Info: Redefining \ref on input line 94.
+LaTeX Info: Redefining \pageref on input line 94.
+LaTeX Info: Redefining \nameref on input line 94.
 
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.out")
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.out")
 \@outlinefile=\write6
-Package hyperref Info: Anchor `Doc-Start' on input line 93.
+Package hyperref Info: Anchor `Doc-Start' on input line 94.
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -988,12 +1002,31 @@ lof}
 Package hyperref Info: Reference (cite) `cite.Frost2008' on input line 18.
 Package hyperref Info: Reference (cite) `cite.Frost2008' on input line 18.
 Package hyperref Info: Anchor `figure.caption.5' on input line 22.
-<Cap2/Figuras/trend_year.png, id=124, 417.81094pt x 316.18124pt>
-File: Cap2/Figuras/trend_year.png Graphic file (type png)
+Package epstopdf Info: Source file: <Cap2/Figuras/trend_year.eps>
+(epstopdf)                    date: 2015-03-30 21:36:46
+(epstopdf)                    size: 12973 bytes
+(epstopdf)             Output file: <Cap2/Figuras/trend_year-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-03-30 21:30:31
+(epstopdf)                    size: 5738 bytes
+(epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/trend_year-eps
+-converted-to.pdf Cap2/Figuras/trend_year.eps>
+(epstopdf)             \includegraphics on input line 24.
+runsystem(epstopdf --outfile=Cap2/Figuras/trend_year-eps-converted-to.pdf Cap2/
+Figuras/trend_year.eps)...executed (allowed).
 
-<use Cap2/Figuras/trend_year.png>
-Package pdftex.def Info: Cap2/Figuras/trend_year.png used on input line 24.
-(pdftex.def)             Requested size: 318.66948pt x 241.16866pt.
+Package epstopdf Info: Result file: <Cap2/Figuras/trend_year-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-03-30 21:36:52
+(epstopdf)                    size: 5812 bytes.
+
+<Cap2/Figuras/trend_year-eps-converted-to.pdf, id=124, 395.4775pt x 332.24126pt
+>
+File: Cap2/Figuras/trend_year-eps-converted-to.pdf Graphic file (type pdf)
+ <use Cap2/Figuras/trend_year-eps-converted-to.pdf>
+Package pdftex.def Info: Cap2/Figuras/trend_year-eps-converted-to.pdf used on i
+nput line 24.
+(pdftex.def)             Requested size: 318.66948pt x 267.7198pt.
 
 pdftex: bookmark at 25: {2.2} {\numberline{2.2}{\ignorespaces Aumento da capaci
 dade de gera\c c\~ao ao longo dos anos\relax }} {figure.caption.5}{0}{lof}
@@ -1042,7 +1075,9 @@ Package hyperref Info: Anchor `page.4' on input line 1.
 Package `hyperref' Info: End of reference (cite) `cite.Rajashekara2014', line 4
 1.
  <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap2/Figuras/trend_
-year.png>]
+year-eps-converted-to.pdf>]
+Package hyperref Info: Anchor `page.5' on input line 1.
+ [5]
 Package hyperref Info: Anchor `chapter.3' on input line 1.
 
 Cap\'{\i }tulo 3.
@@ -1074,8 +1109,8 @@ eoria P-Q} {subsection.3.2.1}{2}{toc}
 )
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Cap4/Capitulo_4.tex
 "
-Package hyperref Info: Anchor `page.5' on input line 1.
- [5
+Package hyperref Info: Anchor `page.6' on input line 1.
+ [6
 
 ]
 Package hyperref Info: Anchor `chapter.4' on input line 1.
@@ -1088,8 +1123,8 @@ pdftex: bookmark at 2: {\thetodo } {40 P\'ags} {section*.7}{0}{tdo}
 )
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Cap5/Capitulo_5.tex
 "
-Package hyperref Info: Anchor `page.6' on input line 1.
- [6
+Package hyperref Info: Anchor `page.7' on input line 1.
+ [7
 
 ]
 Package hyperref Info: Anchor `chapter.5' on input line 1.
@@ -1099,9 +1134,9 @@ pdftex: bookmark at 1: {5} {\numberline{5}Conclus\~ao} {chapter.5}{0}{toc}
 Package hyperref Info: Anchor `section*.8' on input line 2.
 pdftex: bookmark at 2: {\thetodo } {5 P\'ags} {section*.8}{0}{tdo}
 ) ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.bbl"
-Package hyperref Info: Anchor `page.7' on input line 3.
+Package hyperref Info: Anchor `page.8' on input line 3.
 
-[7
+[8
 
 ]
 Package hyperref Info: Anchor `chapter*.9' on input line 3.
@@ -1128,13 +1163,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--38
 
 Package hyperref Info: Anchor `cite.Rajashekara2014' on input line 39.
 )
-Package hyperref Info: Anchor `page.8' on input line 220.
- [8
+Package hyperref Info: Anchor `page.9' on input line 221.
+ [9
 
 ]
 \bottommargin=\skip71
 \rightmarginn=\skip72
-Package hyperref Info: Anchor `bla.0' on input line 220.
+Package hyperref Info: Anchor `bla.0' on input line 221.
 
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Pre_Textuais/resumo
 .tex")
@@ -1142,33 +1177,33 @@ Package hyperref Info: Anchor `bla.0' on input line 220.
 .tex")
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Pre_Textuais/resumo
 .tex")
-Overfull \hbox (74.53033pt too wide) in paragraph at lines 220--220
+Overfull \hbox (74.53033pt too wide) in paragraph at lines 221--221
 [][] 
  []
 
 
 AED: lastpage setting LastPage
-Package hyperref Info: Anchor `page.9' on input line 222.
-[9
+Package hyperref Info: Anchor `page.10' on input line 223.
+[10
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 222.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 222.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
  ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 222.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 222.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
 Package rerunfilecheck Info: File `Dissertacao.out' has not changed.
 (rerunfilecheck)             Checksum: 727AD6A5342CE9D0E1FD81A0B11BD68D;1963.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 222.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
  ) 
 Here is how much of TeX's memory you used:
- 19443 strings out of 493921
- 355777 string characters out of 3144879
- 434173 words of memory out of 3000000
- 22206 multiletter control sequences out of 15000+200000
+ 19558 strings out of 493921
+ 357995 string characters out of 3144879
+ 436501 words of memory out of 3000000
+ 22309 multiletter control sequences out of 15000+200000
  48378 words of font info for 98 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,12n,80p,1909b,1034s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,12n,80p,1909b,1032s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
@@ -1181,9 +1216,9 @@ x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Dissertacao.pdf (9 pages, 207075 bytes).
+Output written on Dissertacao.pdf (10 pages, 204671 bytes).
 PDF statistics:
- 227 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
+ 234 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
  199 words of extra memory for PDF output out of 10000 (max. 10000000)
 
