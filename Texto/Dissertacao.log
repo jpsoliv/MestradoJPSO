@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.24)  1 APR 2015 21:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.24)  1 APR 2015 22:00
 entering extended mode
 **Dissertacao.tex
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.tex"
@@ -973,13 +973,23 @@ pdftex: bookmark at 27: {2.2} {\numberline{2.2}{\ignorespaces Aumento da capaci
 dade de gera\c c\~ao ao longo dos anos\relax }} {figure.caption.5}{0}{lof}
 Package hyperref Info: Anchor `section*.6' on input line 30.
 pdftex: bookmark at 30: {\thetodo } {BOEING } {section*.6}{0}{tdo}
-Package hyperref Info: Anchor `subsection.2.1.1' on input line 32.
-pdftex: bookmark at 32: {2.1.1} {\numberline{2.1.1}Tipos de Geradores e Sistema
+Package hyperref Info: Anchor `figure.caption.7' on input line 32.
+<Cap2/Figuras/trend_future.png, id=132, 1054.6903pt x 660.21657pt>
+File: Cap2/Figuras/trend_future.png Graphic file (type png)
+
+<use Cap2/Figuras/trend_future.png>
+Package pdftex.def Info: Cap2/Figuras/trend_future.png used on input line 34.
+(pdftex.def)             Requested size: 450.69417pt x 282.12462pt.
+
+pdftex: bookmark at 35: {2.3} {\numberline{2.3}{\ignorespaces Aumento da capaci
+dade de gera\c c\~ao ao longo dos anos\relax }} {figure.caption.7}{0}{lof}
+Package hyperref Info: Anchor `subsection.2.1.1' on input line 39.
+pdftex: bookmark at 39: {2.1.1} {\numberline{2.1.1}Tipos de Geradores e Sistema
 s de Distribui\c c\~ao} {subsection.2.1.1}{2}{toc}
-Package hyperref Info: Anchor `section.2.2' on input line 36.
-pdftex: bookmark at 36: {2.2} {\numberline{2.2}An\'alise de Cargas El\'etricas 
+Package hyperref Info: Anchor `section.2.2' on input line 43.
+pdftex: bookmark at 43: {2.2} {\numberline{2.2}An\'alise de Cargas El\'etricas 
 em Aeronaves} {section.2.2}{1}{toc}
-Package hyperref Info: Anchor `page.3' on input line 40.
+Package hyperref Info: Anchor `page.3' on input line 47.
 [3
 Package `hyperref' Info: End of reference (cite) `cite.Boeing2007', line 8.
 Package `hyperref' Info: End of reference (cite) `cite.Moir1999', line 10.
@@ -990,51 +1000,55 @@ Package `hyperref' Info: End of reference (cite) `cite.Frost2008', line 15.
 Package `hyperref' Info: End of reference (link) `figure.caption.4', line 15.
 Package `hyperref' Info: End of reference (link) `figure.caption.5', line 15.
 ]
-Package hyperref Info: Anchor `page.4' on input line 40.
+Package hyperref Info: Anchor `page.4' on input line 47.
  [4
 Package `hyperref' Info: End of reference (cite) `cite.Frost2008', line 20.
  <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap2/Figuras/trend.
 png> <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap2/Figuras/tr
 end_year-eps-converted-to.pdf>]
-Package hyperref Info: Anchor `subsection.2.2.1' on input line 42.
+Package hyperref Info: Anchor `subsection.2.2.1' on input line 49.
 
-pdftex: bookmark at 42: {2.2.1} {\numberline{2.2.1}Atuadores Eletrohidrost\'ati
+pdftex: bookmark at 49: {2.2.1} {\numberline{2.2.1}Atuadores Eletrohidrost\'ati
 cos} {subsection.2.2.1}{2}{toc}
-Package hyperref Info: Reference (cite) `cite.Rajashekara2014' on input line 44
+Package hyperref Info: Reference (cite) `cite.Rajashekara2014' on input line 51
 .
-Package hyperref Info: Anchor `section.2.3' on input line 45.
-pdftex: bookmark at 45: {2.3} {\numberline{2.3}Problemas Causados Pelas Harm\^o
+Package hyperref Info: Anchor `section.2.3' on input line 52.
+pdftex: bookmark at 52: {2.3} {\numberline{2.3}Problemas Causados Pelas Harm\^o
 nicas na Rede} {section.2.3}{1}{toc}
-Package hyperref Info: Anchor `subsection.2.3.1' on input line 48.
-pdftex: bookmark at 48: {2.3.1} {\numberline{2.3.1}DO-160} {subsection.2.3.1}{2
+Package hyperref Info: Anchor `subsection.2.3.1' on input line 55.
+pdftex: bookmark at 55: {2.3.1} {\numberline{2.3.1}DO-160} {subsection.2.3.1}{2
 }{toc}
-Package hyperref Info: Anchor `subsection.2.3.2' on input line 49.
-pdftex: bookmark at 49: {2.3.2} {\numberline{2.3.2}MIL-STD 704} {subsection.2.3
+Package hyperref Info: Anchor `subsection.2.3.2' on input line 56.
+pdftex: bookmark at 56: {2.3.2} {\numberline{2.3.2}MIL-STD 704} {subsection.2.3
 .2}{2}{toc}
-Package hyperref Info: Anchor `subsection.2.3.3' on input line 53.
-pdftex: bookmark at 53: {2.3.3} {\numberline{2.3.3}Conversores com Alto Fator d
+Package hyperref Info: Anchor `page.5' on input line 60.
+[5
+Package `hyperref' Info: End of reference (cite) `cite.Rajashekara2014', line 5
+1.
+ <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap2/Figuras/trend_
+future.png>]
+Package hyperref Info: Anchor `subsection.2.3.3' on input line 60.
+
+pdftex: bookmark at 60: {2.3.3} {\numberline{2.3.3}Conversores com Alto Fator d
 e Pot\^encia} {subsection.2.3.3}{2}{toc}
-Package hyperref Info: Anchor `subsection.2.3.4' on input line 55.
-pdftex: bookmark at 55: {2.3.4} {\numberline{2.3.4}Filtros Passivos} {subsectio
+Package hyperref Info: Anchor `subsection.2.3.4' on input line 62.
+pdftex: bookmark at 62: {2.3.4} {\numberline{2.3.4}Filtros Passivos} {subsectio
 n.2.3.4}{2}{toc}
-Package hyperref Info: Anchor `subsection.2.3.5' on input line 57.
-pdftex: bookmark at 57: {2.3.5} {\numberline{2.3.5}Filtros Ativos} {subsection.
+Package hyperref Info: Anchor `subsection.2.3.5' on input line 64.
+pdftex: bookmark at 64: {2.3.5} {\numberline{2.3.5}Filtros Ativos} {subsection.
 2.3.5}{2}{toc}
 )
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Cap3/Capitulo_3.tex
 "
-Package hyperref Info: Anchor `page.5' on input line 1.
- [5
-Package `hyperref' Info: End of reference (cite) `cite.Rajashekara2014', line 4
-4.
-]
+Package hyperref Info: Anchor `page.6' on input line 1.
+ [6]
 Package hyperref Info: Anchor `chapter.3' on input line 1.
 
 Cap\'{\i }tulo 3.
 pdftex: bookmark at 1: {3} {\numberline{3}Filtros Ativos Em Sistemas El\'etrico
 s} {chapter.3}{0}{toc}
-Package hyperref Info: Anchor `section*.7' on input line 2.
-pdftex: bookmark at 2: {\thetodo } {30 P\'ags} {section*.7}{0}{tdo}
+Package hyperref Info: Anchor `section*.8' on input line 2.
+pdftex: bookmark at 2: {\thetodo } {30 P\'ags} {section*.8}{0}{tdo}
 Package hyperref Info: Anchor `section.3.1' on input line 6.
 pdftex: bookmark at 6: {3.1} {\numberline{3.1}Defini\c c\~ao de Pot\^encia Ativ
 a, Reativa e Fator de Pot\^encia} {section.3.1}{1}{toc}
@@ -1059,8 +1073,8 @@ eoria P-Q} {subsection.3.2.1}{2}{toc}
 )
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Cap4/Capitulo_4.tex
 "
-Package hyperref Info: Anchor `page.6' on input line 1.
- [6
+Package hyperref Info: Anchor `page.7' on input line 1.
+ [7
 
 ]
 Package hyperref Info: Anchor `chapter.4' on input line 1.
@@ -1068,28 +1082,28 @@ Package hyperref Info: Anchor `chapter.4' on input line 1.
 Cap\'{\i }tulo 4.
 pdftex: bookmark at 1: {4} {\numberline{4}Conceito de Conversor Est\'atico na A
 plica\c c\~ao de Filtros Ativos} {chapter.4}{0}{toc}
-Package hyperref Info: Anchor `section*.8' on input line 2.
-pdftex: bookmark at 2: {\thetodo } {40 P\'ags} {section*.8}{0}{tdo}
+Package hyperref Info: Anchor `section*.9' on input line 2.
+pdftex: bookmark at 2: {\thetodo } {40 P\'ags} {section*.9}{0}{tdo}
 )
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Cap5/Capitulo_5.tex
 "
-Package hyperref Info: Anchor `page.7' on input line 1.
- [7
+Package hyperref Info: Anchor `page.8' on input line 1.
+ [8
 
 ]
 Package hyperref Info: Anchor `chapter.5' on input line 1.
 
 Cap\'{\i }tulo 5.
 pdftex: bookmark at 1: {5} {\numberline{5}Conclus\~ao} {chapter.5}{0}{toc}
-Package hyperref Info: Anchor `section*.9' on input line 2.
-pdftex: bookmark at 2: {\thetodo } {5 P\'ags} {section*.9}{0}{tdo}
+Package hyperref Info: Anchor `section*.10' on input line 2.
+pdftex: bookmark at 2: {\thetodo } {5 P\'ags} {section*.10}{0}{tdo}
 ) ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.bbl"
-Package hyperref Info: Anchor `page.8' on input line 3.
+Package hyperref Info: Anchor `page.9' on input line 3.
 
-[8
+[9
 
 ]
-Package hyperref Info: Anchor `chapter*.10' on input line 3.
+Package hyperref Info: Anchor `chapter*.11' on input line 3.
 Package hyperref Info: Anchor `chapter.6' on input line 3.
 
 pdftex: bookmark at 3: {6} {Refer\^encias Bibliogr\'aficas} {chapter.6}{0}{toc}
@@ -1113,8 +1127,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--38
 
 Package hyperref Info: Anchor `cite.Rajashekara2014' on input line 39.
 )
-Package hyperref Info: Anchor `page.9' on input line 221.
- [9
+Package hyperref Info: Anchor `page.10' on input line 221.
+ [10
 
 ]
 \bottommargin=\skip71
@@ -1133,8 +1147,8 @@ Overfull \hbox (74.53033pt too wide) in paragraph at lines 221--221
 
 
 AED: lastpage setting LastPage
-Package hyperref Info: Anchor `page.10' on input line 223.
-[10
+Package hyperref Info: Anchor `page.11' on input line 223.
+[11
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
@@ -1147,10 +1161,10 @@ Package rerunfilecheck Info: File `Dissertacao.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
  ) 
 Here is how much of TeX's memory you used:
- 19565 strings out of 493921
- 350294 string characters out of 3154596
+ 19573 strings out of 493921
+ 350487 string characters out of 3154596
  436501 words of memory out of 3000000
- 22311 multiletter control sequences out of 15000+200000
+ 22316 multiletter control sequences out of 15000+200000
  48378 words of font info for 98 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  62i,12n,80p,1541b,1032s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1162,9 +1176,9 @@ b><Z:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><Z:/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmr6.pfb><Z:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><Z
 :/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><Z:/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmti10.pfb><Z:/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Dissertacao.pdf (10 pages, 207650 bytes).
+Output written on Dissertacao.pdf (11 pages, 427246 bytes).
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
- 207 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 248 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
+ 212 words of extra memory for PDF output out of 10000 (max. 10000000)
 
