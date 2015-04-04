@@ -533,7 +533,7 @@
                     \secdef\@chapter\@schapter}
 % Redefinicao do espaco entre paragrafos
 \setlength{\parskip}{0.5em}
-
+\setlength{\parindent}{1.25cm}
 %==============================================================================
 %%% Redefinicao de section
 %==============================================================================
