@@ -6,23 +6,30 @@
 \contentsline {chapter}{\numberline {1}Introdu\c c\~ao}{15}{chapter.1}
 \contentsline {chapter}{\numberline {2}Qualidade de Energia em Aeronaves \todo {30 P\'ags}}{16}{chapter.2}
 \contentsline {section}{\numberline {2.1}Tend\^encia de Aumento da Capacidade de Gera\c c\~ao El\'etrica em Aeronaves}{17}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Tipos de Geradores e Sistemas de Distribui\c c\~ao}{17}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}An\'alise de Cargas El\'etricas em Aeronaves}{17}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Atuadores Eletrohidrost\'aticos}{19}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Problemas Causados Pelas Harm\^onicas na Rede}{19}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}DO-160}{19}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}MIL-STD 704}{19}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Conversores com Alto Fator de Pot\^encia}{19}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Filtros Passivos}{19}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}Filtros Ativos}{19}{subsection.2.3.5}
-\contentsline {chapter}{\numberline {3}Filtros Ativos Em Sistemas El\'etricos}{20}{chapter.3}
-\contentsline {section}{\numberline {3.1}Defini\c c\~ao de Pot\^encia Ativa, Reativa e Fator de Pot\^encia}{20}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Defini\c c\~ao de Pot\^encias em Sistemas Senoidais}{20}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Defini\c c\~ao de Pot\^encias em Sistemas N\~ao-Senoidais}{20}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Pot\^encia Instant\^anea Utilizando a Teoria P-Q}{20}{subsection.3.1.3}
-\contentsline {subsubsection}{\numberline {3.1.3.1}Transformada de Clarke}{20}{subsubsection.3.1.3.1}
-\contentsline {section}{\numberline {3.2}Filtros Ativos}{20}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Filtros Ativo Empregando a Teoria P-Q}{20}{subsection.3.2.1}
-\contentsline {chapter}{\numberline {4}Conceito de Conversor Est\'atico na Aplica\c c\~ao de Filtros Ativos}{21}{chapter.4}
-\contentsline {chapter}{\numberline {5}Conclus\~ao}{22}{chapter.5}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{23}{chapter.6}
+\contentsline {subsection}{\numberline {2.1.1}Tipos de Geradores e Sistemas de Distribui\c c\~ao}{21}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}An\'alise de Cargas El\'etricas em Aeronaves}{21}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Atuadores Eletrohidrost\'aticos}{21}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Problemas Causados Pelas Harm\^onicas na Rede}{21}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}DO-160}{22}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}MIL-STD 704}{22}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Conversores com Alto Fator de Pot\^encia}{22}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Filtros Passivos}{22}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Filtros Ativos}{22}{subsection.2.3.5}
+\contentsline {chapter}{\numberline {3}Filtros Ativos Em Sistemas El\'etricos}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}Defini\c c\~ao de Pot\^encia Ativa, Reativa e Fator de Pot\^encia}{23}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Defini\c c\~ao de Pot\^encias em Sistemas Senoidais}{23}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Defini\c c\~ao de Pot\^encias em Sistemas N\~ao-Senoidais}{23}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Pot\^encia Instant\^anea Utilizando a Teoria P-Q}{23}{subsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.3.1}Transformada de Clarke}{23}{subsubsection.3.1.3.1}
+\contentsline {section}{\numberline {3.2}Filtros Ativos}{23}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Filtros Ativo Empregando a Teoria P-Q}{23}{subsection.3.2.1}
+\contentsline {chapter}{\numberline {4}Conceito de Conversor Est\'atico na Aplica\c c\~ao de Filtros Ativos}{24}{chapter.4}
+\contentsline {chapter}{\numberline {5}Conclus\~ao}{25}{chapter.5}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{26}{chapter.6}
+\SetAppendixTocName {Ap\^endice}
+\contentsline {chapter}{\numberline {A}T\'opicos de Dilema Linear}{27}{appendix.A}
+\contentsline {section}{\numberline {A.1}Uma Primeira Se\c c\~ao para o Ap\^endice}{27}{section.A.1}
+\SetAppendixTocName {Anexo}
+\contentsline {chapter}{\numberline {A}Exemplo de um Primeiro Anexo}{28}{annex.a}
+\contentsline {section}{\numberline {A.1}Uma Se\c c\~ao do Primeiro Anexo}{28}{section.a.1}
+\contentsline {chapter}{\numberline {B}To usando craque}{29}{annex.b}

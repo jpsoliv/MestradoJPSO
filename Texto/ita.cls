@@ -132,6 +132,7 @@
 \RequirePackage{longtable}
 \RequirePackage{array}
 \RequirePackage{tabularx}
+\RequirePackage{titlesec}
 
 %==============================================================================
 %%% Glossário
@@ -531,7 +532,19 @@
                     \@afterindenttrue
                     \secdef\@chapter\@schapter}
 % Redefinicao do espaco entre paragrafos
-\setlength{\parskip}{.5em}
+\setlength{\parskip}{0.5em}
+
+%==============================================================================
+%%% Redefinicao de section
+%==============================================================================
+\titleformat{\section}{\normalfont\fontsize{14pt}{1.5em}\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{18pt}{18pt}
+
+%==============================================================================
+%%% Redefinicao de subsection
+%==============================================================================
+\titleformat{\subsection}{\normalfont\fontsize{12pt}{1.5em}\bfseries}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{18pt}{18pt}
 
 %==============================================================================
 %%% Hack: Adicionando Bibliografia, Lista de Figuras, Lista de Tabelas,
@@ -775,11 +788,11 @@
 %%% \@makeschapterhead é chamado por \chapter*
 %==============================================================================
 \def\@makeschapterhead#1{%
-  \vspace*{50\p@}%
+  \vspace*{-30\p@}%
   {\parindent \z@ \centering
     \normalfont
     \interlinepenalty\@M
-    \Huge \bfseries  #1\par\nobreak
+    \huge \bfseries  #1\par\nobreak
     \vskip 40\p@
   }}
 
@@ -1055,7 +1068,7 @@
 %%% \@makechapterhead é chamado por \chapter
 %==============================================================================
 \def\@makechapterhead#1{%
-  \vspace*{50\p@}%
+  \vspace*{-30\p@}%
   {\parindent \z@ \raggedright \normalfont
     \ifnum \c@secnumdepth >\m@ne
       \if@mainmatter
@@ -1067,10 +1080,14 @@
       \fi
     \fi
     \interlinepenalty\@M
-    \Huge \bfseries #1\par\nobreak
+    \
+    \huge \bfseries #1\par\nobreak
     \vskip 40\p@
   }}
   
+  
+  
+ 
   
 %==============================================================================
 %%% Obtendo o numero da penultima pagina, visto que a FRD nao é contada ...
