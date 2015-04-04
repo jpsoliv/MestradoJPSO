@@ -534,6 +534,7 @@
 % Redefinicao do espaco entre paragrafos
 \setlength{\parskip}{0.5em}
 \setlength{\parindent}{1.25cm}
+
 %==============================================================================
 %%% Redefinicao de section
 %==============================================================================
@@ -792,10 +793,11 @@
   {\parindent \z@ \centering
     \normalfont
     \interlinepenalty\@M
-    \huge \bfseries  #1\par\nobreak
+    \fontsize{18pt}{1.5em} \bfseries  #1\par\nobreak
     \vskip 40\p@
   }}
-
+%\titleformat{\chapter}[hang]{\normalfont\fontsize{18pt}{0}\bfseries}{\thechapter1}{0.8cm}{}{}
+%\titlespacing*{\chapter}{0pt}{-10pt}{36pt}
 %==============================================================================
 %%% Redefinicao do comando \appendix para mostrar 'Apêndice' ou 'Anexo'
 %%% no Sumario
@@ -1075,18 +1077,18 @@
           % se "anexo" nao foi definido, altera cabecalho do capitulo..
 	  % senao, mantem a palavra Anexo ou Apendice
           \@ifundefined{anexo}      
-		{\huge\bfseries \thechapter\space}
-		{\huge\bfseries \@chapapp\space \thechapter \space -}
+		{\fontsize{18pt}{1.5em}\bfseries \thechapter\space}
+		{\fontsize{18pt}{1.5em}\bfseries \@chapapp\space \thechapter \space -}
       \fi
     \fi
     \interlinepenalty\@M
     \
-    \huge \bfseries #1\par\nobreak
+    \fontsize{18pt}{1.5em} \bfseries #1\par\nobreak
     \vskip 40\p@
   }}
   
-  
-  
+  %\titleformat{\chapter}[hang]{\normalfont\fontsize{18pt}{0}\bfseries}{\thechapter}{0.8cm}{}{}
+  %\titlespacing*{\chapter}{0pt}{-10pt}{36pt} 
  
   
 %==============================================================================
