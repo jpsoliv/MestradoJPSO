@@ -5,6 +5,14 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.42.2.1 }
 
+\bibitem{Babikian2002}
+\abntrefinfo{Babikian, Lukachko e Waitz}{BABIKIAN; LUKACHKO; WAITZ}{2002}
+{BABIKIAN, R.; LUKACHKO, S.~P.; WAITZ, I.~A. The historical fuel efficiency
+  characteristics of regional aircraft from technological, operational, and
+  cost perspectives.
+\emph{Journal of Air Transport Management}, Elsevier, v.~8, n.~6, p. 389--400,
+  2002.}
+
 \bibitem{Moir1999}
 \abntrefinfo{Moir}{MOIR}{1999}
 {MOIR, I. More-electric aircraft-system considerations. In:  \emph{IEE
@@ -35,14 +43,6 @@
 Acessado em 29/03/2014.
 Dispon{\'\i}vel em:
   $<$https://www.frost.com/sublib/display-market-insight.do?id=150507057$>$.}
-
-\bibitem{Babikian2002}
-\abntrefinfo{Babikian, Lukachko e Waitz}{BABIKIAN; LUKACHKO; WAITZ}{2002}
-{BABIKIAN, R.; LUKACHKO, S.~P.; WAITZ, I.~A. The historical fuel efficiency
-  characteristics of regional aircraft from technological, operational, and
-  cost perspectives.
-\emph{Journal of Air Transport Management}, Elsevier, v.~8, n.~6, p. 389--400,
-  2002.}
 
 \bibitem{Rajashekara2014}
 \abntrefinfo{Rajashekara}{RAJASHEKARA}{2014}
