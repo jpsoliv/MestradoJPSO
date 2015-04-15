@@ -27,7 +27,7 @@ Seguindo a tendência de aumentar a quantidade de sistemas elétricos para melhora
 	\label{fig:trend_year}
 \end{figure}
 
- Nesse contexto, futuro da aviação segue uma tendência de utilizar uma gama ainda maior de sistemas dependentes de energia elétrica. Isso reflete em um menor gasto de energia necessária por passageio por quilometro voado e a tendência futura é que todos os sistemas da aeronave seja inteiramente elétricos \cite{Boeing2007}, como mostra a figura \ref{fig:trend_future}. A intensa utilização de energia elétrica não é feita nas aeronaves atuais pelo simples fato de ainda não haver um desenvolvimento tecnológico suficientemente avançado que propicie tal tendência. Limitações nas áreas de armazenamento de energia, engenharia de materiais, eletrônica de potência, entre outros, fazem com que as aeronaves sejam projetadas com a utilização de sistemas que dependam de arquiteturas convencionais.
+Nesse contexto, futuro da aviação segue uma tendência de utilizar uma gama ainda maior de sistemas dependentes de energia elétrica. Isso reflete em um menor gasto de energia necessária por passageio por quilometro voado e a tendência futura é que todos os sistemas da aeronave seja inteiramente elétricos \cite{Boeing2007}, como mostra a figura \ref{fig:trend_future}. A intensa utilização de energia elétrica não é feita nas aeronaves atuais pelo simples fato de ainda não haver um desenvolvimento tecnológico suficientemente avançado que propicie tal tendência. Limitações nas áreas de armazenamento de energia, engenharia de materiais, eletrônica de potência, entre outros, fazem com que as aeronaves sejam projetadas com a utilização de sistemas que dependam de arquiteturas convencionais.
 
 \begin{figure}[!htbp]
 	\centering
@@ -64,64 +64,68 @@ Existem métodos bem concebidos na literatura com relação à metodologias para mit
 
 \subsection{Filtros Passivos}
 
-Filtros passivos são circuitos dotados de componentes elétricos passivos, como indutores, capacitores e resistores, com o objetivo de obter uma função de transferência cujo comportamento típico é atenuar componentes de frequências senoidais específicas. Os filtros são basicamente compostos por impedâncias interligadas e o comportamento destes circuitos depende do valor dos elementos lineares envolvidas e da maneira como são interligadas \cite{Mussoi2004,Kassick2010}. As principais topologias de filtros passivos podem ser divididos em 4 tipos:
+Filtros passivos são circuitos dotados de componentes elétricos passivos lineares, como indutores, capacitores e resistores, concebido com objetivo de obter uma função de transferência cujo comportamento típico é atenuar componentes de frequências senoidais específicas. Os filtros são basicamente compostos por impedâncias interligadas e o comportamento destes circuitos depende do valor e da disposição dos elementos lineares envolvidos \cite{Mussoi2004,Kassick2010}. 
+
+Conceitualmente, pode-se considerar a execução de filtros ideais e reais. De maneira simplificada, os filtros ideais são tais que em determinadas frequências a atenuação é nula e em outras é infinita, ou seja, as amplitudes dos componentes do espectro não se altera em determinadas frequências mas em outras são levadas a zero, respectivamente. Tais filtros não são realizáveis e na pratica são utilizados filtros reais. Esses filtros não possuem uma atenuação infinita, e a diminuição das respectivas amplitudes é dada segundo a ordem do filtro. De maneira geral, a ordem do filtro é dada de acordo com o número de elementos armazenadores de energia concebidos no circuito do filtro. Assim, para que o filtro real tenha o mesmo comportamento que o ideal haveria de ter ordem infinita, o que o torna inconcebível.
+
+As principais topologias de filtros passivos podem ser divididos em 4 tipos:
 
 \setlist[enumerate,1]{leftmargin=1.95cm}
 
 \begin{enumerate}[i)]
-\item 
-\textit{Filtro Passa Baixa:} Essa topologia de filtro é dada sob a perspectiva de atenuar componentes de frequência cujo valor é maior que a frequência de corte, ou seja, $f>f_c$. A concepção desse tipo de filtro age de forma a criar caminhos de alta impedância entre a entrada e saída do sistema para frequências mais elevadas que $f_c$, de modo que componentes do espectro com tais frequências passam a ter a amplitude reduzida \cite{Mussoi2004}.
-
-
-
-\item 
-\textit{Filtro Passa Alta:} explicar aqui cada filtro
-
-
-
-\item 
-\textit{Filtro Passa Faixa:} explicar aqui cada filtro
-
-
-
-\item 
-\textit{Filtro Rejeita Faixa:} explicar aqui cada filtro
-
-
-
-\begin{figure*}[!htbp]
-	\centering
-	\begin{subfigure}[b]{0.48\textwidth}
+	\item 
+	\textit{Filtro Passa Baixa:} Essa topologia de filtro é dada sob a perspectiva de atenuar componentes de frequência cujo valor é maior que a frequência de corte, ou seja, $f>f_c$. A concepção desse tipo de filtro age de forma a criar caminhos de alta impedância entre a entrada e saída do sistema para frequências mais elevadas que $f_c$, de modo que componentes do espectro com tais frequências passam a ter a amplitude reduzida \cite{Mussoi2004}.
+	
+	
+	
+	\item 
+	\textit{Filtro Passa Alta:} explicar aqui cada filtro
+	
+	
+	
+	\item 
+	\textit{Filtro Passa Faixa:} explicar aqui cada filtro
+	
+	
+	
+	\item 
+	\textit{Filtro Rejeita Faixa:} explicar aqui cada filtro
+	
+	
+	
+	\begin{figure*}[!htbp]
 		\centering
-		\includegraphics[width=\textwidth]{Cap2/Figuras/LP_filter.png}
-		\caption{\centering Resposta em frequência de um filtro passa baixa} 
-		\label{fig:LP_filter}
-	\end{subfigure}%
-	\hfill
-	\begin{subfigure}[b]{0.48\textwidth}  
-		\centering 
-		\includegraphics[width=\textwidth]{Cap2/Figuras/HP_filter.png}
-		\caption{\centering Resposta em frequência de um filtro passa alta}    
-		\label{fig:HP_filter}
-	\end{subfigure}%
-	\vskip\baselineskip
-	\begin{subfigure}[b]{0.48\textwidth}   
-		\centering 
-		\includegraphics[width=\textwidth]{Cap2/Figuras/BP_filter.png}
-		\caption{\centering Resposta em frequência de um filtro passa faixa}   
-		\label{fig:BP_filter}
-	\end{subfigure}%
-	\hfill
-	\begin{subfigure}[b]{0.48\textwidth}   
-		\centering 
-		\includegraphics[width=\textwidth]{Cap2/Figuras/RB_filter.png}
-		\caption{\centering Resposta em frequência de um filtro rejeita faixa}   
-		\label{fig:RB_filter}
-	\end{subfigure}%
-	\caption{Digramas de Bode de filtros passivos} 
-	\label{fig:mean and std of nets}
-\end{figure*}
-
+		\begin{subfigure}[b]{0.48\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{Cap2/Figuras/LP_filter.png}
+			\caption{\centering Resposta em frequência de um filtro passa baixa} 
+			\label{fig:LP_filter}
+		\end{subfigure}%
+		\hfill
+		\begin{subfigure}[b]{0.48\textwidth}  
+			\centering 
+			\includegraphics[width=\textwidth]{Cap2/Figuras/HP_filter.png}
+			\caption{\centering Resposta em frequência de um filtro passa alta}    
+			\label{fig:HP_filter}
+		\end{subfigure}%
+		\vskip\baselineskip
+		\begin{subfigure}[b]{0.48\textwidth}   
+			\centering 
+			\includegraphics[width=\textwidth]{Cap2/Figuras/BP_filter.png}
+			\caption{\centering Resposta em frequência de um filtro passa faixa}   
+			\label{fig:BP_filter}
+		\end{subfigure}%
+		\hfill
+		\begin{subfigure}[b]{0.48\textwidth}   
+			\centering 
+			\includegraphics[width=\textwidth]{Cap2/Figuras/RB_filter.png}
+			\caption{\centering Resposta em frequência de um filtro rejeita faixa}   
+			\label{fig:RB_filter}
+		\end{subfigure}%
+		\caption{Digramas de Bode de filtros passivos} 
+		\label{fig:mean and std of nets}
+	\end{figure*}
+	
 \end{enumerate}
 
 Para o problema de atenuar as harmônica de mais alta frequência que a fundamental, a utilização de filtros passa baixa é mais adequada, pois são os componentes harmônicos que acabam por degradar a qualidade de energia do sistema elétrico.  
