@@ -40,7 +40,7 @@ Seguindo a tendência de aumentar a quantidade de sistemas elétricos para melhora
 
 \subsection{Tipos de Geradores e Sistemas de Distribuição}
 
-\lipsum[1-3]
+%\lipsum[1-3]
 
 \section{Análise de Cargas Elétricas em Aeronaves}
 
@@ -64,18 +64,64 @@ Existem métodos bem concebidos na literatura com relação à metodologias para mit
 
 \subsection{Filtros Passivos}
 
-Filtros passivos são dotados de componentes como indutores e capacitores de modo a obter uma função de transferência cuja resposta possui uma atenuação de componentes de frequências senoidais específicas. As principais topologias de filtros passivos podem ser divididos em 4 tipos:
+Filtros passivos são circuitos dotados de componentes elétricos passivos, como indutores, capacitores e resistores, com o objetivo de obter uma função de transferência cujo comportamento típico é atenuar componentes de frequências senoidais específicas. Os filtros são basicamente compostos por impedâncias interligadas e o comportamento destes circuitos depende do valor dos elementos lineares envolvidas e da maneira como são interligadas \cite{Mussoi2004,Kassick2010}. As principais topologias de filtros passivos podem ser divididos em 4 tipos:
 
 \setlist[enumerate,1]{leftmargin=1.95cm}
+
 \begin{enumerate}[i)]
 \item 
-\textit{Filtro Passa Baixa:} explicar aqui cada filtro
+\textit{Filtro Passa Baixa:} Essa topologia de filtro é dada sob a perspectiva de atenuar componentes de frequência cujo valor é maior que a frequência de corte, ou seja, $f>f_c$. A concepção desse tipo de filtro age de forma a criar caminhos de alta impedância entre a entrada e saída do sistema para frequências mais elevadas que $f_c$, de modo que componentes do espectro com tais frequências passam a ter a amplitude reduzida \cite{Mussoi2004}.
+
+
+
 \item 
 \textit{Filtro Passa Alta:} explicar aqui cada filtro
+
+
+
 \item 
 \textit{Filtro Passa Faixa:} explicar aqui cada filtro
+
+
+
 \item 
 \textit{Filtro Rejeita Faixa:} explicar aqui cada filtro
+
+
+
+\begin{figure*}[!htbp]
+	\centering
+	\begin{subfigure}[b]{0.48\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Cap2/Figuras/LP_filter.png}
+		\caption{\centering Resposta em frequência de um filtro passa baixa} 
+		\label{fig:LP_filter}
+	\end{subfigure}%
+	\hfill
+	\begin{subfigure}[b]{0.48\textwidth}  
+		\centering 
+		\includegraphics[width=\textwidth]{Cap2/Figuras/HP_filter.png}
+		\caption{\centering Resposta em frequência de um filtro passa alta}    
+		\label{fig:HP_filter}
+	\end{subfigure}%
+	\vskip\baselineskip
+	\begin{subfigure}[b]{0.48\textwidth}   
+		\centering 
+		\includegraphics[width=\textwidth]{Cap2/Figuras/BP_filter.png}
+		\caption{\centering Resposta em frequência de um filtro passa faixa}   
+		\label{fig:BP_filter}
+	\end{subfigure}%
+	\hfill
+	\begin{subfigure}[b]{0.48\textwidth}   
+		\centering 
+		\includegraphics[width=\textwidth]{Cap2/Figuras/RB_filter.png}
+		\caption{\centering Resposta em frequência de um filtro rejeita faixa}   
+		\label{fig:RB_filter}
+	\end{subfigure}%
+	\caption{Digramas de Bode de filtros passivos} 
+	\label{fig:mean and std of nets}
+\end{figure*}
+
 \end{enumerate}
 
 Para o problema de atenuar as harmônica de mais alta frequência que a fundamental, a utilização de filtros passa baixa é mais adequada, pois são os componentes harmônicos que acabam por degradar a qualidade de energia do sistema elétrico.  
