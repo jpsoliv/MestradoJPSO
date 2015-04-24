@@ -9,7 +9,7 @@ O conceito de MEA não é exatamente novo, esse tema vem sendo estudado por década
 O ganho não se dá apenas na redução do consumo de combustível e emissão de gases pela queima de combustíveis fósseis, mas há também a redução de peso e volume de sistemas, aumento de segurança, melhora na confiabilidade e manutenabilidade \cite{Moir1999,Abdelhafez2009,Boeing2007}.  \todo{Dá de encher mais linguiça pelas referencias Abdelhafez2009, Abdel2012} 
 
 
-\section{Tendência de Aumento da Capacidade de Geração Elétrica em Aeronaves}
+\section{Tendência de Aumento da Capacidade de Geração Elétrica em Aeronaves} \todo{falar de geração em frequencia variável}
 
 Seguindo a tendência de aumentar a quantidade de sistemas elétricos para melhorar a eficiência em aeronaves, a geração desse tipo de energia teve de acompanhar a demanda de carga de modo a suprir o aumento vertiginoso de potência elétrica requerida. Com o avanço tecnológico nas áreas de geração e distribuição, o aumento de demanda de potência pode ser atendido pelo sistema elétrico, e ainda, seguindo os critérios impostos pelo projeto nos quesitos de peso, confiabilidade e eficiência. Com esse aumento na capacidade de geração e distribuição, cada vez mais os sistemas vêm sendo substituídos por sistema elétricos cujas funções substituem o emprego do sistemas hidráulicos e pneumáticos. Segundo \cite{Frost2008}, o aumento da capacidade de geração de energia aumentará significativamente com o a troca de sistemas que possuem equivalentes movidos pela energia elétrica. Esse aumento está acontecendo no cenário atual no mercado de aviação e esta tendência pode ser vista na figura \ref{fig:trend}. Ainda, elencando os dados da capacidade de geração segundo o critério da data de lançamento das aeronaves, pode-se notar que a capacidade de geração ao longo do tempo vem crescendo exponencialmente, como é demonstrado na figura \ref{fig:trend_year}.
 
@@ -54,6 +54,36 @@ o uso de cargas não lineares suja a rede, degradando a qualidade de energia
 \section{Problemas Causados por Cargas Não Lineares na Rede}
 os problemas da energia suja são 
 
+\begin{figure}[!htbp]
+	\centering
+	\fbox{\includegraphics[width=0.6\textwidth]{Cap2/Figuras/current_source.eps}}
+	\caption{fft}
+	\label{fig:FFT}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\fbox{\includegraphics[width=0.6\textwidth]{Cap2/Figuras/Vline.eps}}
+	\caption{fft}
+	\label{fig:FFT}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\fbox{\includegraphics[width=0.6\textwidth]{Cap2/Figuras/V_bar.eps}}
+	\caption{sominio do tempo}
+	\label{fig:V_bar}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\fbox{\includegraphics[width=0.6\textwidth]{Cap2/Figuras/FFT.eps}}
+	\caption{fft}
+	\label{fig:FFT}
+\end{figure}
+
+
+
 \subsection{DO-160}
 \subsection{MIL-STD 704}
 
@@ -77,18 +107,14 @@ As principais topologias de filtros passivos podem ser divididos em 4 tipos:
 	\textit{Filtro Passa Baixa:} A concepção desse tipo de filtro age de forma a criar caminhos de alta impedância entre a entrada e saída do sistema para frequências mais elevadas que $f_c$ \cite{Kassick2010}. Desse modo, comparativamente ao sinal da entrada, a saída possui a mesma característica de amplitude e potência para frequências menores que $f_c$, mas atenuam componentes do espectro cujo valor é maior que a frequência de corte, ou seja, $f>f_c$. Ainda, deve-se ter em mente que quanto maior o valor da frequência das componentes que compõem o sinal, maior a redução em suas amplitudes \cite{Mussoi2004}. A resposta em módulo do sistema de um filtro passa baixa pode ser visto na figura \ref{fig:LP_filter}.\todo{arrumar esse texo que está porco}
 
 	\item 
-	\textit{Filtro Passa Alta:} Analogamente ao filtro passa baixa, os sistemas com a topologia passa alta possuem caminhos de alta impedância para componentes de baixa frequência que são aplicadas na entrada do sistema. Desse modo, a saída possui um espectro com a predominância de componentes de alta frequência. Como ocorre nos filtros passa baixa, a frequência que delimita a atenuação é denominada frequência de corte, e componentes com valores mais elevados possuem ganho unitário, ou seja, não são alterados pelo sistema \cite{Mussoi2004}. O espectro típico de um filtro passa alto pode ser visualizado na figura \ref{fig:HP_filter}. 
+	\textit{Filtro Passa Alta:} Analogamente ao filtro passa baixa, os sistemas com a topologia passa alta possuem caminhos de alta impedância para componentes de baixa frequência que são aplicadas na entrada do sistema \cite{Kassick2010}. Desse modo, a saída possui um espectro com a predominância de componentes de alta frequência. Como ocorre nos filtros passa baixa, a frequência que delimita a atenuação é denominada frequência de corte, e componentes com valores mais elevados possuem ganho unitário, ou seja, não são alterados pelo sistema \cite{Mussoi2004}. O espectro típico de um filtro passa alto pode ser visualizado na figura \ref{fig:HP_filter}. 
 		
 	\item 
-	\textit{Filtro Passa Faixa:} Os filtros passa faixa são caracterizados por circuitos cuja resposta apresenta a passagem de sinais com frequências situadas numa faixa intermediária no espectro, atenuando as amplitude dos sinais que estão fora desse intervalo. A frequências que delimitam esta faixa são denominadas frequência de corte inferior ($f_L$) e frequência de corte superior ($f_H$) \cite{Mussoi2004}. Desse modo, o comportamento do sistema caracteriza-se pela atenuação de componentes que possui frequência abaixo de $f_L$  e acima de $f_H$. Outra característica fundamental dos filtros passa faixa é a largura de banda definida pela intervalo onde o sinal não é atenuado. Em termos numéricos, esse valor é definido por $f_H-f_L$. Ainda existe a frequência central, a qual é definida pelo $f_0 = (f_H-f_L)/2$.  
-	
-	
-	
+	\textit{Filtro Passa Faixa:} Os filtros passa faixa são caracterizados por circuitos cuja resposta apresenta a passagem de sinais com frequências situadas numa faixa intermediária no espectro, atenuando as amplitude dos sinais que estão fora desse intervalo. A frequências que delimitam esta faixa são denominadas frequência de corte inferior ($f_L$) e frequência de corte superior ($f_H$) \cite{Mussoi2004}. Desse modo, o comportamento do sistema caracteriza-se pela atenuação de componentes que possui frequência abaixo de $f_L$ e acima de $f_H$. Outra característica fundamental dos filtros passa faixa é a largura de banda definida pela intervalo onde o sinal não é atenuado. Em termos numéricos, esse valor é definido por $f_H-f_L$. Ainda existe a frequência central $f_0$ ou frequência de ressonância, a qual é a média geométrica entre a frequência de corte inferior $f_L$ e a frequência de corte superior $f_H$ da banda de passagem, ou seja, $f_0=\sqrt{f_L.f_H}$. O módulo da resposta em frequência típica de um filtro passa faixa é mostrada na figura \ref{fig:BP_filter}.
+		
 	\item 
-	\textit{Filtro Rejeita Faixa:} explicar aqui cada filtro
-	
-	
-	
+	\textit{Filtro Rejeita Faixa:} Ao contrário do filtro passa faixa, este tipo de filtro é definido por atenuar componentes cujas frequências estão contidos em um determinado intervalo, enquanto as amplitudes das componentes fora deste não são alteradas.  Analogamente ao passa faixa, existe a frequência de corte inferior e superior definidas por $f_L$ e $f_H$, respectivamente \cite{Mussoi2004}. As componentes com valores de frequência menores que $f_L$ e maiores que $f_H$ são mantidas iguais ao sinal de entrada, ao passo que os componentes contidos dentro do intervalo $f_L\;-\;f_H$ possuem as amplitudes atenuadas. O espectro de frequência desse tipo de filtro pode ser visto na figura \ref{fig:RB_filter}.
+		
 	\begin{figure*}[!htbp]
 		\centering
 		\begin{subfigure}[b]{0.48\textwidth}
