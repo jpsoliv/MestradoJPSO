@@ -1,0 +1,17 @@
+close all
+M = csvread('FFT.csv',1,0);
+
+f = M(:,2);
+%Vs = M(:,5);
+Vpc = M(:,3);
+%Vline = M(:,7);
+
+%Is = M(:,2);
+
+%t = t-0.04;
+
+bar(f,Vpc,3,'k');
+xlim([0 15000]);
+xlabel('Frequência','FontSize',14);ylabel('Amplitude [V]','FontSize',14);
+%grid on
+set(gca,'XtickLabel',[],'YtickLabel',[]);
