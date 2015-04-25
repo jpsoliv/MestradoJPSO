@@ -1,5 +1,6 @@
 \chapter{Qualidade de Energia em Aeronaves \todo{30 Págs}}
 %\todo{30 Págs}
+%\todo[inline]{adicionar essa linha nas referenica CIDADE: url={http://fisbio.biof.ufrj.br/restrito/bmb353/4_M_eletric/ele_ele/conc_bas/index.htm},}
 
 O mercado da aviação tem passado por uma mudança nos preceitos de desenvolvimento de sistemas que vão desde a utilização de novas tecnologias embarcadas até a mudança na concepção de operação da aeronave. A elevação na precificação do combustível e o aumento na participação deste fator nos custos operacionais fazem com que a eficiência e o baixa utilização de energia por passageiro por quilômetro, atrelado às baixas emissões de gases que aumentam o efeito estufa, sejam itens cruciais para tornar uma aeronave competitiva no mercado de aviação \cite{Babikian2002}. Para atender a esse requisito de mercado no que tange a eficiência, uma série de fatores vem sendo alvo de estudos para melhorar a consumo de combustível. Pode-se enumerar alguns destes fatores como: melhor eficiência aerodinâmica; otimização estrutural; maior eficiência do motor; melhor aproveitamento no uso de energia pelos sistemas \cite{Babikian2002}. Essa tendência vem ocorrendo de maneira natural como evolução do mercado pela demanda de aeronaves mais eficientes e competitivas. Nesse contexto há o conceito de \textit{More Electric Aircraft} (MEA) e, como o próprio nome diz, essa concepção baseia-se em aeronaves cuja filosofia de projeto contempla o uso abundante de sistemas alimentados eletricamente com o objetivo de aumentar a eficiência e confiabilidade \cite{Moir1999}. 
 
@@ -51,9 +52,16 @@ o uso de cargas não lineares suja a rede, degradando a qualidade de energia
 \subsection{Atuadores Eletrohidrostáticos}
 
 %\cite{Rajashekara2014}
-\section{Problemas Causados por Cargas Não Lineares na Rede}
- 
-Para entender os problemas causados por cargas não lineares conectados à rede, primeiro é necessário entender o modelo de sistemas elétricos reais. bla bla bla... \todo{explicar os circuitos ideais e os reais}
+\section{Problemas Causados por Cargas Não Lineares na Rede \todo{7 páginas}}
+
+\todo{Cargas lineares e não lineares (KASICK 2010 cap2)}
+
+Para entender os problemas causados por cargas não lineares conectados à rede, primeiro é necessário entender o funcionamento de sistemas elétricos reais. Os circuitos elétricos compostos por elementos ideais possuem um modelo matemático estabelecido e são fundamentais para descrever as características da resposta do circuito. Entretanto, esses elementos isolados não são factíveis para análises reais devido as não idealidade encontradas nestas respostas. Porém,  para a metodização da análise dos circuitos elétricos reais através de modelos matemáticos, são concebíveis a representação do funcionamento destes por elementos ideais \cite{Cidade}. Existem modelos mais simplificados para análises mais abrangentes ao passo que existem modelos mais complexos para análises mais específicas. A escolha dessa complexidade depende do grau de destreza que o circuito necessita ser representado para a análise. 
+
+Para o estudo descrito nesse trabalho, a concepção dos circuitos podem ser  realizados utilizando o teorema de Thevenin, visto que o modelamento será dada para a fonte de geração e as linha de transmissão do sistema. Segundo o teorema de Thevenin, qualquer par de terminais contidos em um circuito realizado com elementos lineares podem ser substituídos por uma fonte de tensão $V_{th}$ e uma impedância $Z_{th}$ \cite{Alexander2005}. Isto é valido tanto para sistema monofásicos como para sistema multifásicos, levando em conta o estudo de cada fase em separado. Apesar do sistema de geração de uma aeronave ser complexa, para esse estudo pode-se modelá-la como uma fonte de tensão senoidal acoplada a uma impedância.  De forma análoga, a linha de transmissão a qual leva a energia do gerador para a carga pode ser modelada da mesma maneira. Por ser esta ausente de fonte fonte de energia, seu equivalente Thevenin é tido apenas como uma impedância.
+\todo{explicar os circuitos ideais e os reais}
+
+
 %Considere o circuito da figura \ref{fig:real_line_transmission.png} com gerador e linha de transmissão modelados de maneira real e desprezando o efeito capacitivo entre os enrolamentos do gerador e entre os fios de energia com o chassi. Pode-se notar que há a existência de indutâncias e resistências tanto no gerador quanto nas linhas de transmissão.  
 
 
