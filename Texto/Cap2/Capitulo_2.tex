@@ -52,46 +52,50 @@ o uso de cargas não lineares suja a rede, degradando a qualidade de energia
 
 %\cite{Rajashekara2014}
 \section{Problemas Causados por Cargas Não Lineares na Rede}
-os problemas da energia suja são 
+ 
+Para entender os problemas causados por cargas não lineares conectados à rede, primeiro é necessário entender o modelo de sistemas elétricos reais. bla bla bla... \todo{explicar os circuitos ideais e os reais}
+%Considere o circuito da figura \ref{fig:real_line_transmission.png} com gerador e linha de transmissão modelados de maneira real e desprezando o efeito capacitivo entre os enrolamentos do gerador e entre os fios de energia com o chassi. Pode-se notar que há a existência de indutâncias e resistências tanto no gerador quanto nas linhas de transmissão.  
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.92\textwidth]{Cap2/Figuras/real_line_transmission.png}
+	\caption{Circuito real monofásico}
+	\label{fig:real_line_transmission.png}
+\end{figure}
 
 \begin{equation}
-	V_B = V_S - V_G - V_L
-	\label{V_B}
+V_B = V_S - (V_G + V_L)
+\label{eq:V_B}
 \end{equation}
 
 \begin{equation}
 V_G = Z_G  \cdot i_S
-\label{V_G}
+\label{eq:V_G}
 \end{equation}
 
 \begin{equation}
 V_L = Z_L \cdot i_S
-\label{V_G}
+\label{eq:V_G}
 \end{equation}
 
-
-\begin{figure}[!htbp]
-	\centering
-	\fbox{\includegraphics[width=0.88\textwidth]{Cap2/Figuras/real_line_transmission.png}}
-	\caption{fft}
-	\label{fig:real_line_transmission.png}
-\end{figure}
-
-\todo{Arrumar estas figuras [V - A]}
+As cargas ligadas ao barramento são consideradas não lineares e a composição das correntes demandantes de cada elemento geram uma corrente requerente da fonte de geração cujo aspecto é não senoidal. Considerando que a corrente que chega ao barramento é dada segundo a figura \ref{fig:current_source}, tem-se que a queda de tensão nas impedâncias da linha e das não linearidade do gerador acabam tendo aspecto também não senoidal. Essa queda de tensão definida por $V_G+V_L$ distorce a onda proveniente do gerador e faz com que, segundo a equação \ref{eq:V_B}, a tensão do barramento acabe por ser uma composição de uma componente senoidal com componentes não senoidais. Exemplificando, aplicando a corrente da figura \ref{fig:current_source} sobre uma impedância típica indutiva, tem-se que a forma de onda da queda de tensão nesse elemento é dado segundo a figura \ref{fig:Vline}.
 
 \begin{figure}[!htbp]
 	\centering
 	\fbox{\includegraphics[width=0.6\textwidth]{Cap2/Figuras/current_source.eps}}
-	\caption{fft}
+	\caption{Corrente do gerador para o barramento}
 	\label{fig:current_source}
 \end{figure}
 
 \begin{figure}[!htbp]
 	\centering
 	\fbox{\includegraphics[width=0.6\textwidth]{Cap2/Figuras/Vline.eps}}
-	\caption{fft}
+	\caption{Queda de tensão em $V_G+V_L$ }
 	\label{fig:Vline}
 \end{figure}
+
+Com o exemplo anterior pode-se facilmente 
 
 \begin{figure}[!htbp]
 	\centering
@@ -107,7 +111,7 @@ V_L = Z_L \cdot i_S
 	\label{fig:FFT}
 \end{figure}
 
-
+os problemas da energia suja são
 
 \subsection{DO-160}
 \subsection{MIL-STD 704}
