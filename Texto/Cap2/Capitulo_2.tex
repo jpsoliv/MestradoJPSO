@@ -58,9 +58,27 @@ o uso de cargas não lineares suja a rede, degradando a qualidade de energia
 
 Para entender os problemas causados por cargas não lineares conectados à rede, primeiro é necessário entender o funcionamento de sistemas elétricos reais. Os circuitos elétricos compostos por elementos ideais possuem um modelo matemático estabelecido e são fundamentais para descrever as características da resposta do circuito. Entretanto, esses elementos isolados não são factíveis para análises reais devido as não idealidade encontradas nestas respostas. Porém,  para a metodização da análise dos circuitos elétricos reais através de modelos matemáticos, são concebíveis a representação do funcionamento destes por elementos ideais \cite{Cidade}. Existem modelos mais simplificados para análises mais abrangentes ao passo que existem modelos mais complexos para análises mais específicas. A escolha dessa complexidade depende do grau de destreza que o circuito necessita ser representado para a análise. 
 
-Para o estudo descrito nesse trabalho, a concepção dos circuitos podem ser  realizados utilizando o teorema de Thevenin, visto que o modelamento será dada para a fonte de geração e as linha de transmissão do sistema. Segundo o teorema de Thevenin, qualquer par de terminais contidos em um circuito realizado com elementos lineares podem ser substituídos por uma fonte de tensão $V_{th}$ e uma impedância $Z_{th}$ \cite{Alexander2005}. Isto é valido tanto para sistema monofásicos como para sistema multifásicos, levando em conta o estudo de cada fase em separado. Apesar do sistema de geração de uma aeronave ser complexa, para esse estudo pode-se modelá-la como uma fonte de tensão senoidal acoplada a uma impedância.  De forma análoga, a linha de transmissão a qual leva a energia do gerador para a carga pode ser modelada da mesma maneira. Por ser esta ausente de fonte fonte de energia, seu equivalente Thevenin é tido apenas como uma impedância.
+Os modelos reais do sistema de geração e transmissão podem ser concebidos a partir da utilização de elementos ideais e a análise matemática é então obtida para descrever a resposta desse sistema. Para o estudo descrito nesse trabalho, a concepção dos circuitos podem ser  realizados utilizando o teorema de Thevenin. Segundo este teorema, qualquer par de terminais contidos em um circuito realizado com elementos lineares podem ser substituídos por uma fonte de tensão $V_{th}$ e uma impedância $Z_{th}$ \cite{Alexander2005}. Isto é valido tanto para sistema monofásicos como para sistema multifásicos, levando em conta o estudo de cada fase em separado. Apesar do sistema de geração de uma aeronave ser complexa, para efeito didático e sem perda de generalidade, pode-se considerar que este sistema é tido por elementos lineares, assim, para esse estudo pode-se modelá-la como uma fonte de tensão senoidal acoplada a uma impedância. A interpretação dessa impedância cabe ao fato de que o gerador possui reatância em seus enrolamentos e resistências nos fios que o compõe.  De forma análoga, a linha de transmissão a qual leva a energia do gerador para a carga pode ser modelada da mesma maneira. Por esta ser ausente de fonte de energia, seu equivalente Thevenin é tido apenas como uma impedância que é tido como as reatâncias e as resistências da linha de transmissão. A figura \ref{fig:fonte_thevenin} mostra o equivalente Thevenin de um gerador típico, enquanto que a figura \ref{fig:LT_thevenin} mostra o equivalente de uma linha de transmissão qualquer.
 \todo{explicar os circuitos ideais e os reais}
 
+	\begin{figure}[!htbp]
+		\centering
+		\begin{tabular}{c c}
+		\begin{subfigure}[b]{0.4\textwidth}
+			\includegraphics[width=\textwidth]{Cap2/Figuras/fonte_thevenin.png}
+			\caption{\centering Equivalente Thevenin de um gerador} 
+			\label{fig:fonte_thevenin}
+		\end{subfigure}%
+		&
+		\begin{subfigure}[b]{0.4\textwidth}  
+			\includegraphics[width=\textwidth]{Cap2/Figuras/LT_thevenin.png}
+			\caption{\centering Equivalente Thevenin de uma linha de transmissão}    
+			\label{fig:LT_thevenin}
+		\end{subfigure}%
+		\end{tabular}
+		\caption{Equivalentes Thevenin}
+		\label{fig:Thevenin}
+	\end{figure}
 
 %Considere o circuito da figura \ref{fig:real_line_transmission.png} com gerador e linha de transmissão modelados de maneira real e desprezando o efeito capacitivo entre os enrolamentos do gerador e entre os fios de energia com o chassi. Pode-se notar que há a existência de indutâncias e resistências tanto no gerador quanto nas linhas de transmissão.  
 
@@ -87,18 +105,18 @@ V_L = Z_L \cdot i_S
 \label{eq:V_G}
 \end{equation}
 
-As cargas ligadas ao barramento são consideradas não lineares e a composição das correntes demandantes de cada elemento geram uma corrente requerente da fonte de geração cujo aspecto é não senoidal. Considerando que a corrente que chega ao barramento é dada segundo a figura \ref{fig:current_source}, tem-se que a queda de tensão nas impedâncias da linha e das não linearidade do gerador acabam tendo aspecto também não senoidal. Essa queda de tensão definida por $V_G+V_L$ distorce a onda proveniente do gerador e faz com que, segundo a equação \ref{eq:V_B}, a tensão do barramento acabe por ser uma composição de uma componente senoidal com componentes não senoidais. Exemplificando, aplicando a corrente da figura \ref{fig:current_source} sobre uma impedância típica indutiva, tem-se que a forma de onda da queda de tensão nesse elemento é dado segundo a figura \ref{fig:Vline}.
+As cargas ligadas ao barramento são consideradas não lineares e a composição das correntes demandantes de cada elemento geram uma corrente requerente da fonte de geração cujo aspecto é não senoidal. Considerando que a corrente que chega ao barramento é dada segundo a figura \ref{fig:current_source}, tem-se que a queda de tensão nas impedâncias da linha e das não idealidades do gerador acabam tendo aspecto também não senoidal. Essa queda de tensão definida por $V_G+V_L$ distorce a onda proveniente do gerador e faz com que, segundo a equação \ref{eq:V_B}, a tensão do barramento acabe por ser uma composição de uma componente senoidal com componentes não senoidais. Exemplificando, aplicando a corrente da figura \ref{fig:current_source} sobre uma impedância típica indutiva, tem-se que a forma de onda da queda de tensão nesse elemento é dado segundo a figura \ref{fig:Vline}.
 
 \begin{figure}[!htbp]
 	\centering
-	\fbox{\includegraphics[width=0.6\textwidth]{Cap2/Figuras/current_source.eps}}
+	\includegraphics[width=0.6\textwidth]{Cap2/Figuras/current_source.eps}
 	\caption{Corrente do gerador para o barramento}
 	\label{fig:current_source}
 \end{figure}
 
 \begin{figure}[!htbp]
 	\centering
-	\fbox{\includegraphics[width=0.6\textwidth]{Cap2/Figuras/Vline.eps}}
+	\includegraphics[width=0.6\textwidth]{Cap2/Figuras/Vline.eps}
 	\caption{Queda de tensão em $V_G+V_L$ }
 	\label{fig:Vline}
 \end{figure}
@@ -107,14 +125,14 @@ Com o exemplo anterior pode-se facilmente
 
 \begin{figure}[!htbp]
 	\centering
-	\fbox{\includegraphics[width=0.6\textwidth]{Cap2/Figuras/V_bar.eps}}
-	\caption{sominio do tempo}
+	\includegraphics[width=0.6\textwidth]{Cap2/Figuras/V_bar.eps}
+	\caption{Dominio do tempo}
 	\label{fig:V_bar}
 \end{figure}
 
 \begin{figure}[!htbp]
 	\centering
-	\fbox{\includegraphics[width=0.6\textwidth]{Cap2/Figuras/FFT.eps}}
+	\includegraphics[width=0.6\textwidth]{Cap2/Figuras/FFT.eps}
 	\caption{fft}
 	\label{fig:FFT}
 \end{figure}
