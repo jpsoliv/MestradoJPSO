@@ -32,10 +32,11 @@ set(gca,'XtickLabel',[],'YtickLabel',[]);
 %% Plot Corrente
 
 figure;
-plot(t,Is,'k','LineWidth',2.5);
+plot(t,Is,'k',t,Vs,'b--','LineWidth',2.5);
 xlim([0 0.0075]);ylim([-200 200]);
 xlabel('tempo [s]','FontSize',14);ylabel('Corrente [A]','FontSize',14);
-text(2.45*0.0025,120,'i_S','FontSize',18);
+text(2.65*0.0025,20,'i_S','FontSize',18);
+text(2.4*0.0025,150,'V_S','FontSize',18);
 grid on
 set(gca,'XtickLabel',[],'YtickLabel',[]);
 
