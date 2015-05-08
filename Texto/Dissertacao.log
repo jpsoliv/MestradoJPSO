@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  8 MAY 2015 18:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  8 MAY 2015 19:20
 entering extended mode
 **Dissertacao.tex
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.tex"
@@ -1172,15 +1172,20 @@ x }} {figure.caption.8}{0}{lof}
 Package hyperref Info: Reference (link) `figure.caption.9' on input line 96.
 Package hyperref Info: Anchor `figure.caption.9' on input line 98.
 Package epstopdf Info: Source file: <Cap2/Figuras/FFT.eps>
-(epstopdf)                    date: 2015-04-23 22:11:16
-(epstopdf)                    size: 69963 bytes
+(epstopdf)                    date: 2015-05-08 19:20:18
+(epstopdf)                    size: 67712 bytes
 (epstopdf)             Output file: <Cap2/Figuras/FFT-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-04-23 22:12:22
-(epstopdf)                    size: 5594 bytes
+(epstopdf)                    date: 2015-05-08 19:19:29
+(epstopdf)                    size: 5593 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/FFT-eps-conver
 ted-to.pdf Cap2/Figuras/FFT.eps>
 (epstopdf)             \includegraphics on input line 100.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Cap2/Figuras/FFT-eps-converted-to.pdf Cap2/Figuras
+/FFT.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Cap2/Figuras/FFT-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-08 19:20:27
+(epstopdf)                    size: 5531 bytes.
 <Cap2/Figuras/FFT-eps-converted-to.pdf, id=94, 420.57124pt x 316.18124pt>
 File: Cap2/Figuras/FFT-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1261,7 +1266,7 @@ ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Dissertacao.pdf (7 pages, 226248 bytes).
+Output written on Dissertacao.pdf (7 pages, 226185 bytes).
 PDF statistics:
  154 PDF objects out of 1000 (max. 8388607)
  28 named destinations out of 1000 (max. 500000)

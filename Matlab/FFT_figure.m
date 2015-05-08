@@ -10,7 +10,7 @@ Vpc = M(:,3);
 
 %t = t-0.04;
 
-bar(f,Vpc,3,'k');
+bar(f,Vpc,2,'k');
 xlim([0 15000]);
 xlabel('Frequência','FontSize',14);ylabel('Amplitude [V]','FontSize',14);
 %grid on
