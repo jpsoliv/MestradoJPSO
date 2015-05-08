@@ -1,0 +1,116 @@
+\section{Problemas Causados por Cargas Não Lineares na Rede \todo{7 páginas}}
+
+\todo{Cargas lineares e não lineares (KASICK 2010 cap2)}
+
+Para entender os problemas causados por cargas não lineares conectados à rede, primeiro é necessário entender o funcionamento de sistemas elétricos reais. Os circuitos elétricos compostos por elementos ideais possuem um modelo matemático estabelecido e são fundamentais para descrever as características da resposta do circuito. Entretanto, esses elementos isolados não são factíveis para análises reais devido as não idealidade encontradas nestas respostas. Porém,  para a metodização da análise dos circuitos elétricos reais através de modelos matemáticos, são concebíveis a representação do funcionamento destes por elementos ideais \cite{Cidade}. Existem modelos mais simplificados para análises mais abrangentes ao passo que existem modelos mais complexos para análises mais específicas. A escolha dessa complexidade depende do grau de destreza que o circuito necessita ser representado para a análise. 
+
+Os modelos reais do sistema de geração e transmissão podem ser concebidos a partir da utilização de elementos ideais e a análise matemática é então obtida para descrever a resposta desse sistema. Para o estudo descrito nesse trabalho, a concepção dos circuitos podem ser  realizados utilizando o teorema de Thevenin. Segundo este teorema, qualquer par de terminais contidos em um circuito realizado com elementos lineares podem ser substituídos por uma fonte de tensão $V_{th}$ em série com uma impedância $Z_{th}$ \cite{Alexander2005}. Isto é valido tanto para sistema monofásicos como para sistema multifásicos, levando em conta o estudo de cada fase em separado. Apesar do sistema de geração de uma aeronave ser complexa, para efeito didático e sem perda de generalidade, pode-se considerar que este sistema é tido por elementos lineares, assim, para esse estudo pode-se modelá-la como uma fonte de tensão senoidal acoplada a uma impedância. A interpretação dessa impedância cabe ao fato de que o gerador possui reatância indutiva em seus enrolamentos e resistências nos fios que o compõe.  De forma análoga, a linha de transmissão a qual leva a energia do gerador para a carga pode ser modelada da mesma maneira. Por esta ser ausente de fonte de energia, seu equivalente Thevenin é tido apenas como uma impedância que é composta pelas reatâncias e as resistências da linha de transmissão. A figura \ref{fig:fonte_thevenin} mostra o equivalente Thevenin de um gerador típico, enquanto que a figura \ref{fig:LT_thevenin} mostra o equivalente de uma linha de transmissão qualquer.
+\todo{explicar os circuitos ideais e os reais}
+
+	\begin{figure}[!htbp]
+		\centering
+		\begin{tabular}{c c}
+		\begin{subfigure}[b]{0.4\textwidth}
+			\includegraphics[width=\textwidth]{Cap2/Figuras/fonte_thevenin.png}
+			\caption{\centering Equivalente Thevenin de um gerador} 
+			\label{fig:fonte_thevenin}
+		\end{subfigure}%
+		&
+		\begin{subfigure}[b]{0.4\textwidth}  
+			\includegraphics[width=\textwidth]{Cap2/Figuras/LT_thevenin.png}
+			\caption{\centering Equivalente Thevenin de uma linha de transmissão}    
+			\label{fig:LT_thevenin}
+		\end{subfigure}%
+		\end{tabular}
+		\caption{Equivalentes Thevenin}
+		\label{fig:Thevenin}
+	\end{figure}
+
+Com isso em mente, pode-se modelar um sistema composto por cargas acopladas a um barramento alimentado por um gerador e uma linha de transmissão. Considerando a figura \ref{fig:real_line_transmission.png}, existe um barramento com ponto de conexão em comum (PCC) com $N$ cargas acopladas cujas correntes demandadas são denominadas $i_1,\;i_2,\;\dots\;i_N$. A tensão no PCC é dada por $V_B$ e é essa a tensão de alimentação no ponto de conexão das cargas. Ainda, a conexão do barramento com gerador é feita via uma linha de transmissão, e, como explicado anteriormente, nesses elementos existem não idealidades como resistências e reatâncias indutivas. Aplicando o teorema de Thevenin para modelar o gerador e a linha de transmissão, tem -se que a impedância $Z_th$ é composta pela composição das resistências e impedâncias de cada elemento. Para o gerador e linha de transmissão as resistências e impedâncias são dadas por $R_G$, $L_G$ e $R_L$, $L_L$, respectivamente. Já a fonte de alimentação $V_S$ é considerada senoidal, como encontrada comumente em sistemas de geração AC
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.92\textwidth]{Cap2/Figuras/real_line_transmission.png}
+	\caption{Circuito real monofásico}
+	\label{fig:real_line_transmission.png}
+\end{figure}
+
+
+Analisando o circuito da figura \ref{fig:real_line_transmission.png} e utilizando as leis de Kirchoff, tem-se que corrente provida pela fonte é dada segundo a equação \ref{eq:i_S}.
+
+\begin{equation}
+i_S = i_1+i_2+\dots + i_N
+\label{eq:i_S}
+\end{equation}
+
+Ainda de acordo com a lei de Ohm generalizada, as quedas de tensões nas impedâncias $Z_G$ e $Z_L$, as quais advém da composição das reatâncias e resistências do gerador e da linha de transmissão respectivamente, são dadas por $V_G$ e $V_L$, as quais são definidas segundo as equações \ref{eq:V_G} e \ref{eq:V_L}.
+
+\begin{equation}
+V_G = Z_G  \cdot i_S
+\label{eq:V_G}
+\end{equation}
+
+\begin{equation}
+V_L = Z_L \cdot i_S
+\label{eq:V_L}
+\end{equation}
+
+Para definir-se o nível de tensão que é obtido no barramento no PCC, deve-se aplicar a lei de Kirchoff, a qual define-se $V_B$ segundo a equação \ref{eq:V_B}.
+
+\begin{equation}
+V_B = V_S - (V_G + V_L) = V_S - (Z_G+Z_L)\cdot i_S
+\label{eq:V_B}
+\end{equation}
+
+Segundo a equação \ref{eq:V_B}, o valor de tensão no barramento é dependente da corrente proveniente da fonte de tensão $i_S$, a qual, segundo a equação \ref{eq:i_S}, é considerada pela composição de correntes requeridas pelas cargas conectadas no PCC. Desse modo, pelo fato da existência das não idealidades intrínsecas dos elementos do circuito,  há um vínculo entre a tensão disponível no barramento com as correntes exigida pelas cargas. 
+
+Para uma primeira análise,  considerando as cargas $1,\;2\;,\;...,\;N$ caracterizadas por elementos lineares, as quedas de tensões $V_G$ e $V_L$ são definidas por funções senoidais e o valor observado em $V_B$ é tido como senoidal pura com certa atenuação e defasagem se comparada com a tensão $V_S$. Esse tipo de problema pode ser recorrente em alguns sistemas com a conexão de altas cargas lineares conectadas, todavia este problema pode ser facilmente contornado aumentando o valor de $V_S$ até que $V_B$ atinja um valor especificado . Esse processo é comumente realizado de maneira automática pela introdução de uma malha de controle simples a qual controla o valor da tensão na saída do gerador de modo a suprir um nível de tensão específico no barramento. Agora, considerando as cargas ligadas ao barramento sendo não lineares, ou seja, que a forma da onda da corrente demandada não seja uma função linear senoidal com a mesma frequência que a tensão da fonte de alimentação, a  composição das correntes demandantes de cada elemento geram uma corrente requerente da fonte de geração $i_S$ cujo aspecto é também não linear. Isso cria um problema além, pois torna a tensão do barramento $V_B$ com aspecto não senoidal em razão das quedas de tensão $V_G$ e $V_L$ não senoidais. Isto posto, são introduzidos na tensão do barramento a distorção harmônica, a qual é definida por componentes senoidais com a frequência igual a um múltiplo da frequência fundamental ($f_0$) da forma de onda da tensão $V_B$ \cite{Pomilio2010}. Desse modo, há uma distorção na tensão do barramento a qual não apresenta mais um formato senoidal, onde é muitas vezes requerida para alimentar determinadas cargas. A mitigação das distorções na forma de onda possui uma abordagem diferente se comparado com o caso em que cargas lineares são conectadas ao barramento, a qual dá-se utilizando filtros casados com as frequências harmônicas,  por conversores com correção de fator de potência ou filtros ativos \cite{Kassick2010}. 
+
+Para exemplificar, considera-se um sistema como descrito pela figura \ref{fig:real_line_transmission.png}, e que a composição das correntes das cargas necessitam uma corrente do gerador $i_S$ cuja forma é definida segundo a figura \ref{fig:current_source}.
+
+\begin{figure}[!htbp]	%\label{fig:current_source}
+	\centering
+	\includegraphics[width=0.6\textwidth]{Cap2/Figuras/current_source.eps}
+	\caption{Corrente do gerador para o barramento}
+	\label{fig:current_source}
+\end{figure}
+
+Segundo a lei de Ohm generalizada, as quedas de tensão nas reatâncias e resistências do gerador e da linha de transmissão são estabelecidas segundo as equações \ref{eq:V_G} e \ref{eq:V_L}, e aplicando a corrente $i_S$ da figura \ref{fig:current_source} tem-se que a forma de onda da tensão $V_G+V_L$ é representada pela figura \ref{fig:Vline}.
+
+\begin{figure}[!htbp]	%\label{fig:Vline}
+	\centering
+	\includegraphics[width=0.6\textwidth]{Cap2/Figuras/Vline.eps}
+	\caption{Queda de tensão em $V_G+V_L$ }
+	\label{fig:Vline}
+\end{figure}
+
+Como descrito anteriormente, a tensão no barramento pode ser sumarizada pela expressão \ref{eq:V_B} a qual é dependente dos valores encontrados na forma de onda definidas pela figura \ref{fig:Vline}. Seguindo essas expressões, tem-se que o a forma de onda encontrada no barramento, para este exemplo, é dada pela figura \ref{fig:V_bar}. Aqui pode-se claramente observar que a tensão no barramento é periódica não senoidal.
+
+\begin{figure}[!htbp]	%\label{fig:V_bar}
+	\centering
+	\includegraphics[width=0.6\textwidth]{Cap2/Figuras/V_bar.eps}
+	\caption{Dominio do tempo}
+	\label{fig:V_bar}
+\end{figure}
+
+O aspecto senoidal na tensão do barramento é perdido mas o valor da frequência fundamental é mantido. Aplicando a serie de Fourier em $V_B$, pode ser observado o aparecimento das harmônicas nas frequências múltiplas de $f_0$. Para o exemplo descrito anteriormente, a serie de Fourier de $V_B$ é representada na figura \ref{fig:FFT}. 
+
+\begin{figure}[!htbp]	%\label{fig:FFT}
+	\centering
+	\includegraphics[width=0.6\textwidth]{Cap2/Figuras/FFT.eps}
+	\caption{fft}
+	\label{fig:FFT}
+\end{figure}
+
+Com o equacionamento e o exemplo descrito anteriormente fica claro que os efeitos de cargas não lineares possuem grande influência na qualidade de energia de um sistema elétrico. Entende-se que a qualidade de energia é degradada pela injeção de harmônicas nas tensões do sistema, visto que a presença de harmônicas distorce a forma de onda das tensões e as componentes de alta frequências podem trazer efeitos indesejáveis em equipamentos conectados na rede.
+
+
+
+Simplificando para circuito monofásico, pode-se estender esse estudo para circuitos monofásicos.
+ 
+
+
+Com o exemplo anterior pode-se facilmente 
+
+
+os problemas da energia suja são
