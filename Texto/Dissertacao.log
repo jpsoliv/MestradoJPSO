@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  11 MAY 2015 23:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  14 MAY 2015 21:39
 entering extended mode
 **Dissertacao.tex
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.tex"
@@ -932,275 +932,57 @@ Package hyperref Info: Anchor `Doc-Start' on input line 104.
 
 \c@butlastpage=\count160
 ABD: EveryShipout initializing macros Excluding 'comment' comment.
-("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Cap2/Partes/Problem
-as_Causados_por_Cargas_Nao_Lineares_na_Rede.tex"
+("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Cap2/Partes/Efeitos
+_da_Distorcao_Harmonica_em_Equipamentos.tex"
 Package hyperref Info: Anchor `section.0.1' on input line 1.
 
-pdftex: bookmark at 1: {0.1} {\numberline{0.1}Problemas Causados por Cargas N\~
-ao Lineares na Rede} {section.0.1}{1}{toc}
-Package hyperref Info: Reference (cite) `cite.Cidade' on input line 5.
-LaTeX Font Info:    Try loading font information for U+msa on input line 7.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 7.
+pdftex: bookmark at 1: {0.1} {\numberline{0.1}Efeitos da Distor\c c\~ao Harm\^o
+nica em Equipamentos} {section.0.1}{1}{toc}
+Package hyperref Info: Reference (cite) `cite.Wagner1993' on input line 3.
+) ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.bbl"
+Package hyperref Info: Anchor `page.1' on input line 3.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Package hyperref Info: Reference (cite) `cite.Alexander2005' on input line 7.
-Package hyperref Info: Reference (link) `figure.caption.1' on input line 7.
-Package hyperref Info: Reference (link) `figure.caption.1' on input line 7.
-Package hyperref Info: Anchor `figure.caption.1' on input line 10.
-
-<Cap2/Figuras/fonte_thevenin.png, id=18, 531.48563pt x 338.76563pt>
-File: Cap2/Figuras/fonte_thevenin.png Graphic file (type png)
-
-<use Cap2/Figuras/fonte_thevenin.png>
-Package pdftex.def Info: Cap2/Figuras/fonte_thevenin.png used on input line 14.
-
-(pdftex.def)             Requested size: 182.09486pt x 116.06787pt.
-
-<Cap2/Figuras/LT_thevenin.png, id=20, 530.73282pt x 338.76563pt>
-File: Cap2/Figuras/LT_thevenin.png Graphic file (type png)
-
-<use Cap2/Figuras/LT_thevenin.png>
-Package pdftex.def Info: Cap2/Figuras/LT_thevenin.png used on input line 20.
-(pdftex.def)             Requested size: 182.09486pt x 116.23328pt.
-
-pdftex: bookmark at 25: {1} {\numberline{1}{\ignorespaces Equivalentes Thevenin
-\relax }} {figure.caption.1}{0}{lof}
-Package hyperref Info: Reference (link) `figure.caption.2' on input line 29.
-Package hyperref Info: Anchor `page.1' on input line 30.
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 
-Package `hyperref' Info: End of reference (cite) `cite.Cidade', line 5.
-Package `hyperref' Info: End of reference (cite) `cite.Alexander2005', line 7.
-Package `hyperref' Info: End of reference (link) `figure.caption.1', line 7.
-Package `hyperref' Info: End of reference (link) `figure.caption.1', line 7.
-Package `hyperref' Info: End of reference (link) `figure.caption.2', line 29.
+Package `hyperref' Info: End of reference (cite) `cite.Wagner1993', line 3.
 ]
-Package hyperref Info: Anchor `figure.caption.2' on input line 31.
-
-<Cap2/Figuras/real_line_transmission.png, id=36, 666.69075pt x 210.18526pt>
-File: Cap2/Figuras/real_line_transmission.png Graphic file (type png)
-
-<use Cap2/Figuras/real_line_transmission.png>
-Package pdftex.def Info: Cap2/Figuras/real_line_transmission.png used on input 
-line 33.
-(pdftex.def)             Requested size: 418.82375pt x 132.03896pt.
-
-pdftex: bookmark at 34: {2} {\numberline{2}{\ignorespaces Circuito real monof\'
-asico\relax }} {figure.caption.2}{0}{lof}
-Package hyperref Info: Reference (link) `figure.caption.2' on input line 39.
-Package hyperref Info: Reference (link) `equation.0.1.1' on input line 39.
-Package hyperref Info: Anchor `equation.0.1.1' on input line 41.
-Package hyperref Info: Reference (link) `equation.0.1.2' on input line 46.
-Package hyperref Info: Reference (link) `equation.0.1.3' on input line 46.
-Package hyperref Info: Anchor `equation.0.1.2' on input line 48.
-Package hyperref Info: Anchor `equation.0.1.3' on input line 53.
-Package hyperref Info: Reference (link) `equation.0.1.4' on input line 58.
-Package hyperref Info: Anchor `page.2' on input line 59.
-[2
-Package `hyperref' Info: End of reference (link) `figure.caption.2', line 39.
-Package `hyperref' Info: End of reference (link) `equation.0.1.1', line 39.
-Package `hyperref' Info: End of reference (link) `equation.0.1.2', line 46.
-Package `hyperref' Info: End of reference (link) `equation.0.1.3', line 46.
- <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap2/Figuras/fonte_
-thevenin.png> <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap2/F
-iguras/LT_thevenin.png> <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Te
-xto/Cap2/Figuras/real_line_transmission.png>]
-Package hyperref Info: Anchor `equation.0.1.4' on input line 60.
-Package hyperref Info: Reference (link) `equation.0.1.4' on input line 65.
-Package hyperref Info: Reference (link) `equation.0.1.1' on input line 65.
-Package hyperref Info: Reference (cite) `cite.Pomilio2010' on input line 67.
-Package hyperref Info: Reference (cite) `cite.Kassick2010' on input line 67.
-Package hyperref Info: Reference (link) `figure.caption.2' on input line 69.
-Package hyperref Info: Reference (link) `figure.caption.3' on input line 69.
-Package hyperref Info: Anchor `figure.caption.3' on input line 71.
-Package epstopdf Info: Source file: <Cap2/Figuras/current_source.eps>
-(epstopdf)                    date: 2015-05-06 21:25:37
-(epstopdf)                    size: 25748 bytes
-(epstopdf)             Output file: <Cap2/Figuras/current_source-eps-converted-
-to.pdf>
-(epstopdf)                    date: 2015-05-06 21:25:55
-(epstopdf)                    size: 15620 bytes
-(epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/current_source
--eps-converted-to.pdf Cap2/Figuras/current_source.eps>
-(epstopdf)             \includegraphics on input line 73.
-Package epstopdf Info: Output file is already uptodate.
-
-<Cap2/Figuras/current_source-eps-converted-to.pdf, id=60, 420.57124pt x 316.181
-24pt>
-File: Cap2/Figuras/current_source-eps-converted-to.pdf Graphic file (type pdf)
- <use Cap2/Figuras/current_source-eps-converted-to.pdf>
-Package pdftex.def Info: Cap2/Figuras/current_source-eps-converted-to.pdf used 
-on input line 73.
-(pdftex.def)             Requested size: 273.14923pt x 205.35133pt.
-
-pdftex: bookmark at 74: {3} {\numberline{3}{\ignorespaces Corrente do gerador p
-ara o barramento\relax }} {figure.caption.3}{0}{lof}
-Package hyperref Info: Reference (link) `equation.0.1.2' on input line 78.
-Package hyperref Info: Reference (link) `equation.0.1.3' on input line 78.
-Package hyperref Info: Reference (link) `figure.caption.3' on input line 78.
-Package hyperref Info: Reference (link) `figure.caption.4' on input line 78.
-Package hyperref Info: Anchor `page.3' on input line 79.
-[3
-Package `hyperref' Info: End of reference (link) `equation.0.1.4', line 58.
-Package `hyperref' Info: End of reference (link) `equation.0.1.4', line 65.
-Package `hyperref' Info: End of reference (link) `equation.0.1.1', line 65.
-Package `hyperref' Info: End of reference (cite) `cite.Pomilio2010', line 67.
-Package `hyperref' Info: End of reference (cite) `cite.Kassick2010', line 67.
-Package `hyperref' Info: End of reference (link) `figure.caption.2', line 69.
-Package `hyperref' Info: End of reference (link) `figure.caption.3', line 69.
-Package `hyperref' Info: End of reference (link) `equation.0.1.2', line 78.
-Package `hyperref' Info: End of reference (link) `equation.0.1.3', line 78.
-]
-Package hyperref Info: Anchor `figure.caption.4' on input line 80.
-Package epstopdf Info: Source file: <Cap2/Figuras/Vline.eps>
-(epstopdf)                    date: 2015-04-24 20:15:26
-(epstopdf)                    size: 25977 bytes
-(epstopdf)             Output file: <Cap2/Figuras/Vline-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-04-24 20:15:55
-(epstopdf)                    size: 15751 bytes
-(epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/Vline-eps-conv
-erted-to.pdf Cap2/Figuras/Vline.eps>
-(epstopdf)             \includegraphics on input line 82.
-Package epstopdf Info: Output file is already uptodate.
-
-<Cap2/Figuras/Vline-eps-converted-to.pdf, id=73, 420.57124pt x 316.18124pt>
-File: Cap2/Figuras/Vline-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Cap2/Figuras/Vline-eps-converted-to.pdf>
-Package pdftex.def Info: Cap2/Figuras/Vline-eps-converted-to.pdf used on input 
-line 82.
-(pdftex.def)             Requested size: 273.14923pt x 205.35133pt.
-
-pdftex: bookmark at 83: {4} {\numberline{4}{\ignorespaces Queda de tens\~ao em 
-$V_G+V_L$ \relax }} {figure.caption.4}{0}{lof}
-Package hyperref Info: Reference (link) `equation.0.1.4' on input line 87.
-Package hyperref Info: Reference (link) `figure.caption.4' on input line 87.
-Package hyperref Info: Reference (link) `figure.caption.5' on input line 87.
-Package hyperref Info: Anchor `figure.caption.5' on input line 89.
-Package epstopdf Info: Source file: <Cap2/Figuras/V_bar.eps>
-(epstopdf)                    date: 2015-04-24 20:15:42
-(epstopdf)                    size: 25897 bytes
-(epstopdf)             Output file: <Cap2/Figuras/V_bar-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-04-24 20:15:57
-(epstopdf)                    size: 15182 bytes
-(epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/V_bar-eps-conv
-erted-to.pdf Cap2/Figuras/V_bar.eps>
-(epstopdf)             \includegraphics on input line 91.
-Package epstopdf Info: Output file is already uptodate.
-<Cap2/Figuras/V_bar-eps-converted-to.pdf, id=77, 420.57124pt x 316.18124pt>
-File: Cap2/Figuras/V_bar-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Cap2/Figuras/V_bar-eps-converted-to.pdf>
-Package pdftex.def Info: Cap2/Figuras/V_bar-eps-converted-to.pdf used on input 
-line 91.
-(pdftex.def)             Requested size: 273.14923pt x 205.35133pt.
-
-pdftex: bookmark at 92: {5} {\numberline{5}{\ignorespaces Tens\~ao $V_B$ compar
-ativamente \`a tens\~ao $V_S$\relax }} {figure.caption.5}{0}{lof}
-Package hyperref Info: Reference (link) `figure.caption.6' on input line 96.
-Package hyperref Info: Anchor `figure.caption.6' on input line 98.
-Package epstopdf Info: Source file: <Cap2/Figuras/FFT.eps>
-(epstopdf)                    date: 2015-05-08 19:20:18
-(epstopdf)                    size: 67712 bytes
-(epstopdf)             Output file: <Cap2/Figuras/FFT-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-08 19:20:27
-(epstopdf)                    size: 5531 bytes
-(epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/FFT-eps-conver
-ted-to.pdf Cap2/Figuras/FFT.eps>
-(epstopdf)             \includegraphics on input line 100.
-Package epstopdf Info: Output file is already uptodate.
-<Cap2/Figuras/FFT-eps-converted-to.pdf, id=79, 420.57124pt x 316.18124pt>
-File: Cap2/Figuras/FFT-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Cap2/Figuras/FFT-eps-converted-to.pdf>
-Package pdftex.def Info: Cap2/Figuras/FFT-eps-converted-to.pdf used on input li
-ne 100.
-(pdftex.def)             Requested size: 273.14923pt x 205.35133pt.
-
-pdftex: bookmark at 101: {6} {\numberline{6}{\ignorespaces Transformada de Four
-ier da tens\~ao $V_B$\relax }} {figure.caption.6}{0}{lof}
-)
-Package hyperref Info: Anchor `page.4' on input line 178.
- [4
-Package `hyperref' Info: End of reference (link) `figure.caption.3', line 78.
-Package `hyperref' Info: End of reference (link) `figure.caption.4', line 78.
-Package `hyperref' Info: End of reference (link) `equation.0.1.4', line 87.
-Package `hyperref' Info: End of reference (link) `figure.caption.4', line 87.
-Package `hyperref' Info: End of reference (link) `figure.caption.5', line 87.
-Package `hyperref' Info: End of reference (link) `figure.caption.6', line 96.
- <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap2/Figuras/curren
-t_source-eps-converted-to.pdf> <D:/Library/Joao/Documents/Mestrado ITA/Mestrado
-JPSO/Texto/Cap2/Figuras/Vline-eps-converted-to.pdf>]
-Package hyperref Info: Anchor `page.5' on input line 178.
- [5 <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap2/Figuras/V_b
-ar-eps-converted-to.pdf> <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/T
-exto/Cap2/Figuras/FFT-eps-converted-to.pdf>]
-("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.bbl"
-Package hyperref Info: Anchor `page.6' on input line 3.
-
-[6]
-Package hyperref Info: Anchor `chapter*.7' on input line 3.
+Package hyperref Info: Anchor `chapter*.1' on input line 3.
 Package hyperref Info: Anchor `chapter.1' on input line 3.
 
 pdftex: bookmark at 3: {1} {Refer\^encias Bibliogr\'aficas} {chapter.1}{0}{toc}
 
-Package hyperref Info: Anchor `cite.Cidade' on input line 8.
-Package hyperref Info: Anchor `cite.Alexander2005' on input line 13.
-Package hyperref Info: Anchor `cite.Pomilio2010' on input line 18.
-
-Underfull \hbox (badness 3168) in paragraph at lines 20--24
-[]\T1/aer/m/n/12 DECKMANN, S. M.; PO-MI-LIO, J. A. \T1/aer/m/it/12 Ava-li-a-ção
- da Qua-li-dade da Ener-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--24
-\T1/aer/m/it/12 gia Elé-trica\T1/aer/m/n/12 . 2010. Dis-po-ní-vel em: $\OML/cmm
-/m/it/12 <$\T1/aer/m/n/12 http://www. dsce. fee. uni-camp.
- []
-
-Package hyperref Info: Anchor `cite.Kassick2010' on input line 25.
+Package hyperref Info: Anchor `cite.Wagner1993' on input line 8.
 ) 
 AED: lastpage setting LastPage
-Package hyperref Info: Anchor `page.7' on input line 238.
-[7
+Package hyperref Info: Anchor `page.2' on input line 239.
+[2
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 239.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 239.
  ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 238.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 238.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 239.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 239.
 Package rerunfilecheck Info: File `Dissertacao.out' has not changed.
-(rerunfilecheck)             Checksum: D49DDB8916B08D4B56EBBD40A959CB5A;161.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 238.
+(rerunfilecheck)             Checksum: 43086E50B756A9B48C4FD383A259A03F;163.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 239.
  ) 
 Here is how much of TeX's memory you used:
- 20007 strings out of 493921
- 363461 string characters out of 3144879
- 539643 words of memory out of 3000000
- 22827 multiletter control sequences out of 15000+200000
- 23806 words of font info for 57 fonts, out of 3000000 for 9000
+ 19868 strings out of 493921
+ 360724 string characters out of 3144879
+ 534643 words of memory out of 3000000
+ 22739 multiletter control sequences out of 15000+200000
+ 17009 words of font info for 36 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,14n,75p,2104b,730s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,5n,56p,438b,385s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Dissertacao.pdf (7 pages, 221899 bytes).
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Dissertacao.pdf (2 pages, 43529 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 64 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 44 PDF objects out of 1000 (max. 8388607)
+ 7 named destinations out of 1000 (max. 500000)
+ 29 words of extra memory for PDF output out of 10000 (max. 10000000)
 
