@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.13)  28 MAY 2015 14:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.13)  29 MAY 2015 15:55
 entering extended mode
 **Dissertacao.tex
 (C:\Users\JPSOLIV\Desktop\MestradoJPSO.git\trunk\Texto\Dissertacao.tex
@@ -949,9 +949,7 @@ Package hyperref Info: Reference (cite) `cite.Kassick2010' on input line 5.
 Package hyperref Info: Reference (cite) `cite.Wagner1993' on input line 5.
 Package hyperref Info: Anchor `Item.1' on input line 11.
 Package hyperref Info: Reference (cite) `cite.Pomilio2014' on input line 13.
-Package hyperref Info: Anchor `Item.2' on input line 16.
-Package hyperref Info: Anchor `Item.3' on input line 19.
-Package hyperref Info: Anchor `page.1' on input line 22.
+Package hyperref Info: Anchor `page.1' on input line 14.
 [1{C:/Users/JPSOLIV/Desktop/Latex/Miktex/pdftex/config/pdftex.map}
 
 
@@ -961,39 +959,61 @@ Package `hyperref' Info: End of reference (cite) `cite.Kassick2010', line 5.
 Package `hyperref' Info: End of reference (cite) `cite.Wagner1993', line 5.
 Package `hyperref' Info: End of reference (cite) `cite.Pomilio2014', line 13.
 ]
-Package hyperref Info: Anchor `Item.4' on input line 22.
-Package hyperref Info: Anchor `Item.5' on input line 25.
-Package hyperref Info: Anchor `section*.1' on input line 38.
+Package hyperref Info: Reference (link) `figure.caption.1' on input line 17.
+Package hyperref Info: Anchor `figure.caption.1' on input line 19.
+
+<Cap2/Figuras/notches.png, id=31, 195.129pt x 103.587pt>
+File: Cap2/Figuras/notches.png Graphic file (type png)
+
+<use Cap2/Figuras/notches.png>
+Package pdftex.def Info: Cap2/Figuras/notches.png used on input line 21.
+(pdftex.def)             Requested size: 204.85846pt x 108.75375pt.
+
+pdftex: bookmark at 22: {1} {\numberline{1}{\ignorespaces Presen\c ca de \texti
+t {notches} na ondula\c c\~ao de tens\~ao \cite {Notches}\relax }} {figure.capt
+ion.1}{0}{lof}
+Package hyperref Info: Reference (cite) `cite.Notches' on input line 22.
+Package hyperref Info: Reference (cite) `cite.Notches' on input line 22.
+Package hyperref Info: Anchor `Item.2' on input line 27.
+Package hyperref Info: Anchor `page.2' on input line 28.
+[2
+Package `hyperref' Info: End of reference (link) `figure.caption.1', line 17.
+Package `hyperref' Info: End of reference (cite) `cite.Notches', line 22.
+ <C:/Users/JPSOLIV/Desktop/MestradoJPSO.git/trunk/Texto/Cap2/Figuras/notches.pn
+g>]
+Package hyperref Info: Anchor `Item.3' on input line 34.
+Package hyperref Info: Anchor `Item.4' on input line 37.
+Package hyperref Info: Anchor `section*.2' on input line 53.
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 38.
+ine 53.
 
-pdftex: bookmark at 38: {\thetodo } {estudar melhor fus\IeC {\'\i }veis e condu
-tores} {section*.1}{0}{tdo}
+pdftex: bookmark at 53: {\thetodo } {estudar melhor fus\IeC {\'\i }veis e condu
+tores} {section*.2}{0}{tdo}
 
-Overfull \hbox (5.86853pt too wide) in paragraph at lines 38--38
+Overfull \hbox (5.86853pt too wide) in paragraph at lines 53--53
 [][][][]\T1/aer/m/n/10.95 estudar 
  []
 
 
-Overfull \hbox (5.86853pt too wide) in paragraph at lines 38--38
+Overfull \hbox (5.86853pt too wide) in paragraph at lines 53--53
 [][][][]\T1/aer/m/n/10.95 estudar 
  []
 
 
-Overfull \hbox (5.86853pt too wide) in paragraph at lines 38--38
+Overfull \hbox (5.86853pt too wide) in paragraph at lines 53--53
 [][][][]\T1/aer/m/n/10.95 estudar 
  []
 
 
-Overfull \hbox (5.86853pt too wide) in paragraph at lines 38--38
+Overfull \hbox (5.86853pt too wide) in paragraph at lines 53--53
 [][][][]\T1/aer/m/n/10.95 estudar 
  []
 
 ) (C:\Users\JPSOLIV\Desktop\MestradoJPSO.git\trunk\Texto\Dissertacao.bbl
-Package hyperref Info: Anchor `page.2' on input line 3.
+Package hyperref Info: Anchor `page.3' on input line 3.
 
-[2]
-Package hyperref Info: Anchor `chapter*.2' on input line 3.
+[3]
+Package hyperref Info: Anchor `chapter*.3' on input line 3.
 Package hyperref Info: Anchor `chapter.1' on input line 3.
 
 pdftex: bookmark at 3: {1} {Refer\^encias Bibliogr\'aficas} {chapter.1}{0}{toc}
@@ -1001,47 +1021,71 @@ pdftex: bookmark at 3: {1} {Refer\^encias Bibliogr\'aficas} {chapter.1}{0}{toc}
 Package hyperref Info: Anchor `cite.Kassick2010' on input line 8.
 Package hyperref Info: Anchor `cite.Wagner1993' on input line 14.
 Package hyperref Info: Anchor `cite.Pomilio2014' on input line 20.
-LaTeX Font Info:    Try loading font information for U+msa on input line 25.
+LaTeX Font Info:    Try loading font information for U+msa on input line 26.
 (C:\Users\JPSOLIV\Desktop\Latex\Miktex\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 25.
+LaTeX Font Info:    Try loading font information for U+msb on input line 26.
 
 (C:\Users\JPSOLIV\Desktop\Latex\Miktex\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+)
+Underfull \hbox (badness 10000) in paragraph at lines 22--27
+[]\T1/aer/m/n/12 POMILIO, J. A. \T1/aer/m/it/12 Con-ver-so-res com Ou-tras Téc-
+ni-cas de Co-
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--27
+\T1/aer/m/it/12 mu-ta-ção Su-ave\T1/aer/m/n/12 . 2014. Aces-sado em 28/05/2015.
+ Dis-po-ní-vel em:
+ []
+
+Package hyperref Info: Anchor `cite.Notches' on input line 28.
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--35
+[]\T1/aer/m/n/12 AUTOMATION, R. \T1/aer/m/it/12 Eli-mi-na-ting Vol-tage Not-chi
+ng on the Dis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--35
+\T1/aer/m/it/12 tri-bu-ti-ons Sys-tem\T1/aer/m/n/12 . Aces-sado em 29/05/2015. 
+Dis-po-ní-vel em:
+ []
+
+) 
 AED: lastpage setting LastPage
-Package hyperref Info: Anchor `page.3' on input line 239.
-[3
+Package hyperref Info: Anchor `page.4' on input line 241.
+[4
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 239.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 239.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
  (C:\Users\JPSOLIV\Desktop\MestradoJPSO.git\trunk\Texto\Dissertacao.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 239.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 239.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 241.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 241.
 Package rerunfilecheck Info: File `Dissertacao.out' has not changed.
 (rerunfilecheck)             Checksum: 43086E50B756A9B48C4FD383A259A03F;163.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 239.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 241.
  ) 
 Here is how much of TeX's memory you used:
- 18723 strings out of 493921
- 329611 string characters out of 3140860
+ 18747 strings out of 493921
+ 329968 string characters out of 3140860
  510671 words of memory out of 3000000
- 21561 multiletter control sequences out of 15000+200000
+ 21580 multiletter control sequences out of 15000+200000
  23806 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 63i,9n,76p,1041b,1049s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,9n,76p,1108b,1046s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/JPSOLIV/Desktop/Latex/Miktex/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb><C:/Users/JPSOLIV/Desktop/Latex/Miktex/fonts/type1/public/amsfonts/cm/cmmi1
 2.pfb><C:/Users/JPSOLIV/Desktop/Latex/Miktex/fonts/type1/public/amsfonts/cm/cmr
 10.pfb><C:/Users/JPSOLIV/Desktop/Latex/Miktex/fonts/type1/public/amsfonts/cm/cm
 r12.pfb><C:/Users/JPSOLIV/Desktop/Latex/Miktex/fonts/type1/public/amsfonts/cm/c
 mti12.pfb>
-Output written on Dissertacao.pdf (3 pages, 81750 bytes).
+Output written on Dissertacao.pdf (4 pages, 89568 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 29 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 79 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 34 words of extra memory for PDF output out of 10000 (max. 10000000)
 

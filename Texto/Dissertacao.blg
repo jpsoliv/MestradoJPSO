@@ -5,9 +5,13 @@ You're missing a field name---line 133 of file Referencias_Bibliograficas/Biblio
  :  url={http://fisbio.biof.ufrj.br/restrito/bmb353/},
  :                                                    4_M_eletric/ele_ele/conc_bas/index.htm
 I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 150 of file Referencias_Bibliograficas/Bibliografia.bib
+ :  note
+ :      {Acessado em 28/05/2015}
+I'm skipping whatever remains of this entry
 +---------------------------------------------------------+
 | Estilo bibliográfico abnt-num.bst versão 1.42.2.1           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-(There was 1 error message)
+(There were 2 error messages)

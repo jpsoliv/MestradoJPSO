@@ -21,7 +21,16 @@ Florian{\'o}polis, Abril 2010. Instituto de Eletr\^onica de Pot\^encia.
 \abntrefinfo{Pomilio}{POMILIO}{2014}
 {POMILIO, J.~A. \emph{Conversores com Outras Técnicas de Comutação Suave}.
   2014.
+Acessado em 28/05/2015.
 Dispon{\'\i}vel em:
   $<$http://www.dsce.fee.unicamp.br/~antenor/pdffiles/CAP5.pdf$>$.}
+
+\bibitem{Notches}
+\abntrefinfo{Automation}{AUTOMATION}{}
+{AUTOMATION, R. \emph{Eliminating Voltage Notching on the Distributions
+  System}.
+Acessado em 29/05/2015.
+Dispon{\'\i}vel em:
+  $<$http://www.ab.com/support/abdrives/documentation/techpapers/notch.htm$>$.}
 
 \end{thebibliography}
