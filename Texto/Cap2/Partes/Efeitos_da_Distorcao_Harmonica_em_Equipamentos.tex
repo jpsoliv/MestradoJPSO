@@ -24,14 +24,23 @@ Com a inserção de cargas não lineares na rede, surgem distorções na forma de ond
 	\end{figure}
 	
 	\item
-	\textit{Maquinas Rotativas:} As maquinas rotativas estão presente em diversos sistemas de uma aeronave e as criticalidades associadas ao seu funcionamento podem ser baseadas desde funções sem efeito direto na segurança à funções cuja falha podem ser catastróficas. Para este ultimo caso, cita-se como exemplo os comandos de voo de aeronaves mais modernas, onde motores elétricos são utilizados. Deste modo, as maquinas rotativas necessitam operar satisfatoriamente para assegurar a segurança operacional da aeronave.
+	\textit{Maquinas Rotativas:} As maquinas rotativas estão presente em diversos sistemas de uma aeronave e as criticalidades associadas ao seu funcionamento podem ser baseadas desde funções sem efeito direto na segurança operacional à funções cuja falha podem ser catastróficas. Para este ultimo caso, cita-se como exemplo os comandos de voo de aeronaves mais modernas, onde motores elétricos são utilizados juntamente com o sistema hidráulico. Deste modo, as maquinas rotativas necessitam operar satisfatoriamente para proporcionar a segurança exigida na operação da aeronave.
 	
+	A operação de uma máquina rotativa alimentada por uma tensão distorcida não senoidal pode trazer sobreaquecimento, torque pulsante, desgaste dos mancais e ruído.
 	
-
-
-
+	As perdas em um motor são associadas ao espectro de frequência da tensão de entrada do motor. Como a distorção harmônica é relacionada com as harmônicas de alta frequência da rede, tem-se que o núcleo ferromagnético e os fios que compõem o motor se sobreaquecem. Esse aumento na temperatura pode trazer diversos problemas, sendo o principal a diminuição significante da vida útil da máquina, ocasionando o mal funcionamento antes do tempo esperado. Isso traz consequências na operação da aeronave como o  aumentando a manutenção ou até a falhas durante o voo.
+	
+	Os torques pulsantes que surgem com a distorção harmônica causam o desgaste dos mancais do máquina, assim como a fadiga dos componentes associados ao funcionamento do motor. Tais problemas são diretamente ligadas à vida útil da máquina, sendo que esta diminui com estes problemas e trazem consequências como já mencionados anteriormente.
+	
+	Muitos motores são controlados por circuitos eletrônicos de potência. Tais controladores, além de aumentar os níveis de distorção harmônica da rede, possuem seu funcionamento degradado pela mesmas distorções criadas por si próprio. Por ser circuitos eletrônicos, os efeitos nestes dispositivos já estão descritos em equipamentos eletrônicos. Outro problema a ser considerado é a tensão de controle na saída do controlador a qual pode apresentar formas distorcidas, trazendo os mesmo problemas nos motores a qual diminuem sua vida útil.
+	
 	\item
-	\textit{Transformadores:}
+	\textit{Transformadores:} \todo{explicar a aplicação dos transformadores e perdas no núcleo} 
+	
+	Os efeitos das componentes harmônicas nos transformadores são dados pela elevação da temperatura e, consequentemente, aumento da taxa de falha e diminuição da vida útil do transformador.
+	
+	Analogamente às máquinas rotativas, os transformadores sofrem com os efeitos das componentes de alta frequência de tensão cujo reflexo dá-se pelo  aumento das perdas do núcleo ferromagnéticos e condutores. Existe ainda a influência sobre os valores das impedâncias de magnetização e dispersão em função das componentes de frequência da tensão de entrada do transformador. Os problema causado pelos componentes de alta frequência é o aumento das perdas nos condutores pelo efeito pelicular e de proximidade. A consequência desses efeitos são o aumento das perdas no transformador, a qual faz com que este eventualmente opere com elevadas temperaturas e, consequentemente, haja uma piora na taxa de falha e diminuição da vida útil do transformador.  
+	
 	
 	\item
 	\textit{Relés:}
