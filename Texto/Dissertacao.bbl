@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 \providecommand{\abntreprintinfo}[1]{%
  \citeonline{#1}}
 \begin{thebibliography}{}
@@ -17,51 +16,6 @@ Florian{\'o}polis, Abril 2010. Instituto de Eletr\^onica de Pot\^encia.
 {WAGNER, V. et al. Effects of harmonics on equipment.
 \emph{IEEE Transactions on Power Delivery}, IEEE, v.~8, n.~2, p. 672--680,
   1993.}
-
-\bibitem{Pomilio2014}
-\abntrefinfo{Pomilio}{POMILIO}{2014}
-{POMILIO, J.~A. \emph{Conversores com Outras Técnicas de Comutação Suave}.
-  2014.
-Dispon{\'\i}vel em:
-  $<$http://www.dsce.fee.unicamp.br/~antenor/pdffiles/CAP5.pdf$>$.}
-
-\end{thebibliography}
-=======
-\providecommand{\abntreprintinfo}[1]{%
- \citeonline{#1}}
-\begin{thebibliography}{}
-\providecommand{\abntrefinfo}[3]{}
-\providecommand{\abntbstabout}[1]{}
-\abntbstabout{1.42.2.1 }
-
-\bibitem{Cidade}
-\abntrefinfo{Cidade}{CIDADE}{}
-{CIDADE, G. \emph{Eletricidade e Eletr\^onica Aplicada à Bioci\^encias}.
-Dispon{\'\i}vel em: $<$http://fisbio.biof.ufrj.br/restrito/bmb353/$>$.}
-
-\bibitem{Alexander2005}
-\abntrefinfo{Alexander e Sadiku}{ALEXANDER; SADIKU}{2005}
-{ALEXANDER, C.~K.; SADIKU, M. N.~O. \emph{Fundamentals of of Electric
-  Circuits}. 3. ed. [S.l.]: McGraw-Hill Higher Education, 2005.}
-
-\bibitem{Wagner1993}
-\abntrefinfo{Wagner et al.}{WAGNER et al.}{1993}
-{WAGNER, V. et al. Effects of harmonics on equipment.
-\emph{IEEE Transactions on Power Delivery}, IEEE, v.~8, n.~2, p. 672--680,
-  1993.}
-
-\bibitem{Pomilio2010}
-\abntrefinfo{Deckmann e Pomilio}{DECKMANN; POMILIO}{2010}
-{DECKMANN, S.~M.; POMILIO, J.~A. \emph{Avalia{\c{c}}{\~a}o da Qualidade da
-  Energia El{\'e}trica}. 2010.
-Dispon{\'\i}vel em: $<$http://www. dsce. fee. unicamp.
-  br/antenor/pdffiles/qualidade/b5. pdf$>$.}
-
-\bibitem{Kassick2010}
-\abntrefinfo{Kassick}{KASSICK}{2010}
-{KASSICK, E.~V. \emph{Harmônicas em Sistemas Industriais de Baixa Tensão}.
-Florian{\'o}polis, Abril 2010. Instituto de Eletr\^onica de Pot\^encia.
-  Universidade Federal de Santa Catarina.}
 
 \bibitem{Pomilio2014}
 \abntrefinfo{Pomilio}{POMILIO}{2014}
@@ -79,12 +33,4 @@ Acessado em 29/05/2015.
 Dispon{\'\i}vel em:
   $<$http://www.ab.com/support/abdrives/documentation/techpapers/notch.htm$>$.}
 
-\bibitem{Mussoi2004}
-\abntrefinfo{Mussoi e Esperan{\c{c}}a}{MUSSOI; ESPERAN{\c{C}}A}{2004}
-{MUSSOI, F.~L.; ESPERAN{\c{C}}A, C. \emph{Resposta em frequ{\^e}ncia: Filtros
-  passivos}.
-2. ed. Florian{\'o}polis, 2004. Centro Federal de Educa{\c{c}}{\~a}o
-  Tecnol{\'o}gica de Santa Catarina.}
-
 \end{thebibliography}
->>>>>>> origin/master

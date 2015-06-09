@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-This is BibTeX, Version 0.99dThe top-level auxiliary file: Dissertacao.aux
-The style file: abnt-num.bst
-Database file #1: Referencias_Bibliograficas/Bibliografia.bib
-You're missing a field name---line 133 of file Referencias_Bibliograficas/Bibliografia.bib
- :  url={http://fisbio.biof.ufrj.br/restrito/bmb353/},
- :                                                    4_M_eletric/ele_ele/conc_bas/index.htm
-I'm skipping whatever remains of this entry
-+---------------------------------------------------------+
-| Estilo bibliográfico abnt-num.bst versão 1.42.2.1           |
-| Em caso de dúvidas ou problemas com este estilo procure |
-| http://abntex.codigolivre.org.br                        |
-+---------------------------------------------------------+
-(There was 1 error message)
-=======
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Dissertacao.aux
 The style file: abnt-num.bst
 Database file #1: Referencias_Bibliograficas/Bibliografia.bib
@@ -30,4 +15,3 @@ I'm skipping whatever remains of this entry
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
 (There were 2 error messages)
->>>>>>> origin/master
