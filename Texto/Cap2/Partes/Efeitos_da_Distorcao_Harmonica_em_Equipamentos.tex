@@ -39,12 +39,13 @@ Com a inserção de cargas não lineares na rede, surgem distorções na forma de ond
 	
 	Os principais efeitos das componentes harmônicas nos transformadores são dados pela elevação da temperatura e, consequentemente, aumento da taxa de falha e diminuição da vida útil do transformador.
 	
-	Analogamente às máquinas rotativas, os transformadores sofrem com os efeitos das componentes de alta frequência de tensão cujo reflexo dá-se pelo  aumento das perdas do núcleo ferromagnéticos e condutores. Existe ainda a influência sobre os valores das impedâncias de magnetização e dispersão em função das componentes de frequência da tensão de entrada do transformador a qual pode ocasionar perdas de eficiência devido ao fluxo de dispersão. As perdas no núcleo ferromagnético são divididos em dois tipos: perdas por histerese e perdas por corrente parasita \todo{cite http://www.electrical4u.com/hysteresis-eddy-current-iron-or-core-losses-and-copper-loss-in-transformer/}. Em ambos os casos o efeito é diretamente relacionado com a frequência da tensão de entrada, sendo que com o aumento das componentes de frequência exite a elevação nas perdas no núcleo .Já o problemas causado pelos componentes de alta frequência de corrente é o aumento das perdas nos condutores pelo efeito pelicular e de proximidade. A decorrência desses efeitos são o aumento das perdas no transformador, a qual faz com que este eventualmente opere com elevadas temperaturas e haja uma piora na taxa de falha e diminuição da vida útil do transformador.  
-	
-	
+	Analogamente às máquinas rotativas, os transformadores sofrem com os efeitos das componentes de alta frequência de tensão cujo reflexo dá-se pelo  aumento das perdas do núcleo ferromagnéticos e condutores. Existe ainda a influência sobre os valores das impedâncias de magnetização e dispersão em função das componentes de frequência da tensão de entrada do transformador, a qual pode ocasionar a diminuição da eficiência devido ao fluxo de dispersão. Os efeitos das não idealidades no núcleo ferromagnético são divididos em dois tipos: perdas por histerese e perdas por corrente parasita. Em ambos os casos o efeito é diretamente relacionado com a frequência da tensão de entrada, sendo que com o aumento das componentes de frequência exite a elevação nas perdas no núcleo \cite{Fitzgerald2006}.Já o problemas causado pelos componentes de alta frequência de corrente são o aumento da temperatura nos condutores pelo efeito pelicular e de proximidade. A decorrência desses efeitos são o incremento das perdas no transformador, a qual faz com que este eventualmente opere com elevadas temperaturas e haja uma piora na taxa de falha e diminuição da vida útil do transformador.  
+		
 	\item
-	\textit{Relés:}
+	\textit{Relés:} Relés são amplamente utilizados em sistemas de proteção de circuitos elétricos. Os comandos de comutação de um relé são feitos pelos controladores do sistema de proteção a qual comanda a abertura ou fechamento do dispositivo de acordo com os limites de corrente que atravessa um ramo do circuito. Por ser um equipamento atuante na segurança dos circuitos elétricos de uma aeronave, seu funcionamento dever estar livres de erros e funcionamentos inadvertidos.
 	
+	De forma geral, o comportamento do relé não é interferido sob condições de componentes harmônicas, entretanto para ramos cuja corrente de falha apresenta um valor baixo, os efeitos podem ser significativos. Deste modo, tem-se que o principal efeito das componentes harmônicas em relés é o funcionamento inadvertido de comutação, ou seja, pode haver casos em que o relé deixa de atuar quando comandado ou atue quando não há comandado algum. Outro fator a ser considerado é que esse comportamento é algo imprevisível e independente de fabricante. Uma mesma marca de fabricante pode apresentar relés de mesmo modelo que apresentam comportamento diferente em condições de distorção harmônica.	
+		
 	%\item
 	%\textit{Interferência:}
 	%\item
@@ -61,9 +62,6 @@ Com a inserção de cargas não lineares na rede, surgem distorções na forma de ond
 	%\textit{Condutores:}
 	%\todo{estudar melhor fusíveis e condutores}
 
-
-
-
-
-
 \end{enumerate}
+
+Existem outros efeitos negativos quanto a correta operação de circuitos elétricos sob condições de distorção harmônica. Este problema possui profundos estudos nas áreas de geração e distribuição de energia e em sistemas elétricos industrias. Contudo para o estudo em questão foram listadas apenas as mais significantes quando refere-se a segurança operacional de aeronaves.
