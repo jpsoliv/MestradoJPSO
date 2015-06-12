@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.13)  11 JUN 2015 10:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.13)  12 JUN 2015 16:40
 entering extended mode
 **Dissertacao.tex
 (C:\Users\JPSOLIV\Desktop\MestradoJPSO.git\trunk\Texto\Dissertacao.tex
@@ -962,16 +962,16 @@ Package `hyperref' Info: End of reference (cite) `cite.Pomilio2014', line 13.
 Package hyperref Info: Reference (link) `figure.caption.1' on input line 17.
 Package hyperref Info: Anchor `figure.caption.1' on input line 19.
 
-<Cap2/Figuras/notches.png, id=31, 734.14275pt x 463.13025pt>
-File: Cap2/Figuras/notches.png Graphic file (type png)
+<Cap2/Figuras/notch.png, id=31, 734.14275pt x 463.13025pt>
+File: Cap2/Figuras/notch.png Graphic file (type png)
 
-<use Cap2/Figuras/notches.png>
-Package pdftex.def Info: Cap2/Figuras/notches.png used on input line 21.
+<use Cap2/Figuras/notch.png>
+Package pdftex.def Info: Cap2/Figuras/notch.png used on input line 21.
 (pdftex.def)             Requested size: 204.85846pt x 129.23038pt.
 
 pdftex: bookmark at 22: {1} {\numberline{1}{\ignorespaces Presen\c ca de \texti
-t {notches} na ondula\c c\~ao de tens\~ao \cite {Notches}\relax }} {figure.capt
-ion.1}{0}{lof}
+t {notch} na ondula\c c\~ao de tens\~ao \cite {Notches}\relax }} {figure.captio
+n.1}{0}{lof}
 Package hyperref Info: Reference (cite) `cite.Notches' on input line 22.
 Package hyperref Info: Reference (cite) `cite.Notches' on input line 22.
 Package hyperref Info: Anchor `Item.2' on input line 27.
@@ -979,21 +979,20 @@ Package hyperref Info: Anchor `page.2' on input line 28.
 [2
 Package `hyperref' Info: End of reference (link) `figure.caption.1', line 17.
 Package `hyperref' Info: End of reference (cite) `cite.Notches', line 22.
- <C:/Users/JPSOLIV/Desktop/MestradoJPSO.git/trunk/Texto/Cap2/Figuras/notches.pn
-g>]
+ <C:/Users/JPSOLIV/Desktop/MestradoJPSO.git/trunk/Texto/Cap2/Figuras/notch.png>
+]
 Package hyperref Info: Anchor `Item.3' on input line 38.
 Package hyperref Info: Anchor `page.3' on input line 41.
  [3]
 Package hyperref Info: Reference (cite) `cite.Fitzgerald2006' on input line 42.
 
 Package hyperref Info: Anchor `Item.4' on input line 45.
-)
-Package hyperref Info: Anchor `page.4' on input line 181.
- [4
+) (C:\Users\JPSOLIV\Desktop\MestradoJPSO.git\trunk\Texto\Dissertacao.bbl
+Package hyperref Info: Anchor `page.4' on input line 3.
+[4
 Package `hyperref' Info: End of reference (cite) `cite.Fitzgerald2006', line 42
 .
 ]
-(C:\Users\JPSOLIV\Desktop\MestradoJPSO.git\trunk\Texto\Dissertacao.bbl
 Package hyperref Info: Anchor `page.5' on input line 3.
  [5]
 Package hyperref Info: Anchor `chapter*.2' on input line 3.
@@ -1055,7 +1054,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 245.
  ) 
 Here is how much of TeX's memory you used:
  18674 strings out of 493921
- 328458 string characters out of 3140860
+ 328446 string characters out of 3140860
  510671 words of memory out of 3000000
  21511 multiletter control sequences out of 15000+200000
  20741 words of font info for 51 fonts, out of 3000000 for 9000
@@ -1066,7 +1065,7 @@ pfb><C:/Users/JPSOLIV/Desktop/Latex/Miktex/fonts/type1/public/amsfonts/cm/cmmi1
 2.pfb><C:/Users/JPSOLIV/Desktop/Latex/Miktex/fonts/type1/public/amsfonts/cm/cmr
 12.pfb><C:/Users/JPSOLIV/Desktop/Latex/Miktex/fonts/type1/public/amsfonts/cm/cm
 ti12.pfb>
-Output written on Dissertacao.pdf (6 pages, 96338 bytes).
+Output written on Dissertacao.pdf (6 pages, 96350 bytes).
 PDF statistics:
  85 PDF objects out of 1000 (max. 8388607)
  20 named destinations out of 1000 (max. 500000)
