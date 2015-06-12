@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  12 JUN 2015 20:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  12 JUN 2015 20:47
 entering extended mode
 **Dissertacao.tex
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.tex"
@@ -996,63 +996,99 @@ Package hyperref Info: Anchor `chapter.1' on input line 3.
 
 pdftex: bookmark at 3: {1} {Refer\^encias Bibliogr\'aficas} {chapter.1}{0}{toc}
 
-Package hyperref Info: Anchor `cite.Kassick2010' on input line 8.
-Package hyperref Info: Anchor `cite.Wagner1993' on input line 14.
-Package hyperref Info: Anchor `cite.Pomilio2014' on input line 20.
-LaTeX Font Info:    Try loading font information for U+msa on input line 26.
+Package hyperref Info: Anchor `cite.Babikian2002' on input line 8.
+Package hyperref Info: Anchor `cite.Moir1999' on input line 16.
+Package hyperref Info: Anchor `cite.Abdelhafez2009' on input line 22.
+Package hyperref Info: Anchor `cite.Abdel2012' on input line 28.
+Package hyperref Info: Anchor `cite.Boeing2007' on input line 34.
+Package hyperref Info: Anchor `cite.Frost2008' on input line 39.
+LaTeX Font Info:    Try loading font information for U+msa on input line 45.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 26.
+LaTeX Font Info:    Try loading font information for U+msb on input line 45.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 22--27
+Underfull \hbox (badness 10000) in paragraph at lines 41--46
+[]\T1/aer/m/n/12 SRIMOOLANATHAN, B. \T1/aer/m/it/12 Air-craft Elec-tri-cal Powe
+r Sys-tems - Char-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--46
+\T1/aer/m/it/12 ged with Op-por-tu-ni-ties\T1/aer/m/n/12 . 2008. Aces-sado em 2
+9/03/2015. Dis-po-ní-vel em:
+ []
+
+Package hyperref Info: Anchor `cite.Cidade' on input line 47.
+Package hyperref Info: Anchor `cite.Alexander2005' on input line 52.
+Package hyperref Info: Anchor `cite.Pomilio2010' on input line 57.
+
+Underfull \hbox (badness 3168) in paragraph at lines 59--63
+[]\T1/aer/m/n/12 DECKMANN, S. M.; PO-MI-LIO, J. A. \T1/aer/m/it/12 Ava-li-a-ção
+ da Qua-li-dade da Ener-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--63
+\T1/aer/m/it/12 gia Elé-trica\T1/aer/m/n/12 . 2010. Dis-po-ní-vel em: $\OML/cmm
+/m/it/12 <$\T1/aer/m/n/12 http://www. dsce. fee. uni-camp.
+ []
+
+Package hyperref Info: Anchor `cite.Kassick2010' on input line 64.
+Package hyperref Info: Anchor `cite.Mussoi2004' on input line 70.
+Package hyperref Info: Anchor `page.6' on input line 76.
+[6
+
+]
+Package hyperref Info: Anchor `cite.Wagner1993' on input line 77.
+Package hyperref Info: Anchor `cite.Pomilio2014' on input line 83.
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--90
 []\T1/aer/m/n/12 POMILIO, J. A. \T1/aer/m/it/12 Con-ver-so-res com Ou-tras Téc-
 ni-cas de Co-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--27
+Underfull \hbox (badness 10000) in paragraph at lines 85--90
 \T1/aer/m/it/12 mu-ta-ção Su-ave\T1/aer/m/n/12 . 2014. Aces-sado em 28/05/2015.
  Dis-po-ní-vel em:
  []
 
-Package hyperref Info: Anchor `cite.Notches' on input line 28.
+Package hyperref Info: Anchor `cite.Notches' on input line 91.
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--35
+Underfull \hbox (badness 10000) in paragraph at lines 93--98
 []\T1/aer/m/n/12 AUTOMATION, R. \T1/aer/m/it/12 Eli-mi-na-ting Vol-tage Not-chi
 ng on the Dis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--35
+Underfull \hbox (badness 10000) in paragraph at lines 93--98
 \T1/aer/m/it/12 tri-bu-ti-ons Sys-tem\T1/aer/m/n/12 . Aces-sado em 29/05/2015. 
 Dis-po-ní-vel em:
  []
 
-Package hyperref Info: Anchor `cite.Fitzgerald2006' on input line 36.
+Package hyperref Info: Anchor `cite.Fitzgerald2006' on input line 99.
 ) 
 AED: lastpage setting LastPage
-Package hyperref Info: Anchor `page.6' on input line 245.
-[6
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 245.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 245.
+Package hyperref Info: Anchor `page.7' on input line 247.
+[7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 247.
  ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 245.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 245.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 247.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 247.
 Package rerunfilecheck Info: File `Dissertacao.out' has not changed.
 (rerunfilecheck)             Checksum: 43086E50B756A9B48C4FD383A259A03F;163.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 245.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
  ) 
 Here is how much of TeX's memory you used:
- 19960 strings out of 493921
- 362125 string characters out of 3144879
+ 19981 strings out of 493921
+ 362405 string characters out of 3144879
  538643 words of memory out of 3000000
- 22797 multiletter control sequences out of 15000+200000
+ 22807 multiletter control sequences out of 15000+200000
  20741 words of font info for 51 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  62i,6n,75p,1254b,651s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1060,9 +1096,9 @@ Here is how much of TeX's memory you used:
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Dissertacao.pdf (6 pages, 96942 bytes).
+Output written on Dissertacao.pdf (7 pages, 104628 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
+ 103 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 500000)
  34 words of extra memory for PDF output out of 10000 (max. 10000000)
 
