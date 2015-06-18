@@ -5,74 +5,11 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.42.2.1 }
 
-\bibitem{Babikian2002}
-\abntrefinfo{Babikian, Lukachko e Waitz}{BABIKIAN; LUKACHKO; WAITZ}{2002}
-{BABIKIAN, R.; LUKACHKO, S.~P.; WAITZ, I.~A. The historical fuel efficiency
-  characteristics of regional aircraft from technological, operational, and
-  cost perspectives.
-\emph{Journal of Air Transport Management}, Elsevier, v.~8, n.~6, p. 389--400,
-  2002.}
-
-\bibitem{Moir1999}
-\abntrefinfo{Moir}{MOIR}{1999}
-{MOIR, I. More-electric aircraft-system considerations. In:  \emph{IEE
-  Colloquium on Electrical Machines and Systems for the More Electric
-  Aircraft}. Londres: IET, 1999.}
-
-\bibitem{Abdelhafez2009}
-\abntrefinfo{Abdel-Hafez e Forsyth}{ABDEL-HAFEZ; FORSYTH}{2009}
-{ABDEL-HAFEZ, A.; FORSYTH, A. A review of more-electric aircraft. In:
-  \emph{13th International Conference on Aerospace Science \& Aviation
-  Technology (ASAT-13)}. Cairo: Military Technical College, 2009.}
-
-\bibitem{Abdel2012}
-\abntrefinfo{Abdel-Hafez}{ABDEL-HAFEZ}{2012}
-{ABDEL-HAFEZ, A. \emph{Recent Advances in Aircraft Technology}. Ar\'abia
-  Saudita: INTECH, 2012. Cap. Power Generation and Distribution System for a
-  More Electric Aircraft-A Review.}
-
-\bibitem{Boeing2007}
-\abntrefinfo{Karimi}{KARIMI}{2007}
-{KARIMI, K.~J. \emph{Future Aircraft Power Systems - Integration Challenges}.
-  [S.l.]: The Boeing Company, 2007.}
-
-\bibitem{Frost2008}
-\abntrefinfo{Srimoolanathan}{SRIMOOLANATHAN}{2008}
-{SRIMOOLANATHAN, B. \emph{Aircraft Electrical Power Systems - Charged with
-  Opportunities}. 2008.
-Acessado em 29/03/2015.
-Dispon{\'\i}vel em:
-  $<$https://www.frost.com/sublib/display-market-insight.do?id=150507057$>$.}
-
-\bibitem{Cidade}
-\abntrefinfo{Cidade}{CIDADE}{}
-{CIDADE, G. \emph{Eletricidade e Eletr\^onica Aplicada à Bioci\^encias}.
-Dispon{\'\i}vel em: $<$http://fisbio.biof.ufrj.br/restrito/bmb353/$>$.}
-
-\bibitem{Alexander2005}
-\abntrefinfo{Alexander e Sadiku}{ALEXANDER; SADIKU}{2005}
-{ALEXANDER, C.~K.; SADIKU, M. N.~O. \emph{Fundamentals of of Electric
-  Circuits}. 3. ed. [S.l.]: McGraw-Hill Higher Education, 2005.}
-
-\bibitem{Pomilio2010}
-\abntrefinfo{Deckmann e Pomilio}{DECKMANN; POMILIO}{2010}
-{DECKMANN, S.~M.; POMILIO, J.~A. \emph{Avalia{\c{c}}{\~a}o da Qualidade da
-  Energia El{\'e}trica}. 2010.
-Dispon{\'\i}vel em: $<$http://www. dsce. fee. unicamp.
-  br/antenor/pdffiles/qualidade/b5. pdf$>$.}
-
 \bibitem{Kassick2010}
 \abntrefinfo{Kassick}{KASSICK}{2010}
 {KASSICK, E.~V. \emph{Harmônicas em Sistemas Industriais de Baixa Tensão}.
 Florian{\'o}polis, Abril 2010. Instituto de Eletr\^onica de Pot\^encia.
   Universidade Federal de Santa Catarina.}
-
-\bibitem{Mussoi2004}
-\abntrefinfo{Mussoi e Esperan{\c{c}}a}{MUSSOI; ESPERAN{\c{C}}A}{2004}
-{MUSSOI, F.~L.; ESPERAN{\c{C}}A, C. \emph{Resposta em frequ{\^e}ncia: Filtros
-  passivos}.
-2. ed. Florian{\'o}polis, 2004. Centro Federal de Educa{\c{c}}{\~a}o
-  Tecnol{\'o}gica de Santa Catarina.}
 
 \bibitem{Wagner1993}
 \abntrefinfo{Wagner et al.}{WAGNER et al.}{1993}
@@ -87,6 +24,12 @@ Florian{\'o}polis, Abril 2010. Instituto de Eletr\^onica de Pot\^encia.
 Acessado em 28/05/2015.
 Dispon{\'\i}vel em:
   $<$http://www.dsce.fee.unicamp.br/~antenor/pdffiles/CAP5.pdf$>$.}
+
+\bibitem{Manousaka2013}
+\abntrefinfo{Manousaka}{MANOUSAKA}{2013}
+{MANOUSAKA, E.
+\emph{DC-DC Buck Converter with Inrush Current Limiter}.
+Dissertação (Mestrado) --- Faculty of Applied Sciences, Lorentzweg, 2013.}
 
 \bibitem{Notches}
 \abntrefinfo{Automation}{AUTOMATION}{}
