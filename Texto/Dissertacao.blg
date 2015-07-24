@@ -1,6 +1,5 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Dissertacao.aux
 The style file: abnt-num.bst
-I found no \citation commands---while reading file Dissertacao.aux
 Database file #1: Referencias_Bibliograficas/Bibliografia.bib
 You're missing a field name---line 133 of file Referencias_Bibliograficas/Bibliografia.bib
  :  url={http://fisbio.biof.ufrj.br/restrito/bmb353/},
@@ -15,4 +14,4 @@ I'm skipping whatever remains of this entry
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-(There were 3 error messages)
+(There were 2 error messages)
