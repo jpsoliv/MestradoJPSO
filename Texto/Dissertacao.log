@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.23)  24 JUL 2015 15:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.23)  11 AUG 2015 16:38
 entering extended mode
 **Dissertacao.tex
 
@@ -1053,130 +1053,149 @@ Package hyperref Info: Anchor `Doc-Start' on input line 104.
 \c@butlastpage=\count160
 ABD: EveryShipout initializing macros
 ("C:\Documents and Settings\jpsoliv\My Documents\Jo√£o\Mestrado\MestradoJPSO\tr
-unk\Texto\Cap2/Partes/Efeitos_da_Distorcao_Harmonica_em_Equipamentos.tex"
+unk\Texto\Cap2/Partes/Guias_de_Recomendacao.tex"
 Package hyperref Info: Anchor `section.0.1' on input line 1.
 
-pdftex: bookmark at 1: {0.1} {\numberline{0.1}Efeitos da Distor\c c\~ao Harm\^o
-nica em Equipamentos} {section.0.1}{1}{toc}
-Package hyperref Info: Anchor `section*.1' on input line 3.
+pdftex: bookmark at 1: {0.1} {\numberline{0.1}Guias de Recomenda\c c\~ao} {sect
+ion.0.1}{1}{toc}
+Package hyperref Info: Anchor `section*.1' on input line 1.
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 3.
-pdftex: bookmark at 3: {\thetodo } {Deve ser lembrado que equipamentos eletr\^o
-nicos aeron\'auticos n\~ao s\~ao projetados admitindo-se opera\c c\~ao sob cond
-i\c c\~oes de tens\~ao e corrente senoidais puras.} {section*.1}{0}{tdo}
-Package hyperref Info: Reference (cite) `cite.Kassick2010' on input line 3.
-Package hyperref Info: Reference (cite) `cite.Kassick2010' on input line 5.
-Package hyperref Info: Reference (cite) `cite.Wagner1993' on input line 5.
-Package hyperref Info: Anchor `Item.1' on input line 11.
-Package hyperref Info: Reference (cite) `cite.Pomilio2014' on input line 13.
-Package hyperref Info: Reference (cite) `cite.Manousaka2013' on input line 13.
-Package hyperref Info: Anchor `page.1' on input line 14.
+ine 1.
+pdftex: bookmark at 1: {\thetodo } {T\IeC {\'\i }tulo Lixo} {section*.1}{0}{tdo
+}
+
+Overfull \hbox (1.02843pt too wide) in paragraph at lines 1--1
+[][][][]\T1/aer/m/n/10.95 TÌtulo 
+ []
+
+
+Overfull \hbox (1.02843pt too wide) in paragraph at lines 1--1
+[][][][]\T1/aer/m/n/10.95 TÌtulo 
+ []
+
+
+Overfull \hbox (1.02843pt too wide) in paragraph at lines 1--1
+[][][][]\T1/aer/m/n/10.95 TÌtulo 
+ []
+
+
+Overfull \hbox (1.02843pt too wide) in paragraph at lines 1--1
+[][][][]\T1/aer/m/n/10.95 TÌtulo 
+ []
+
+Package hyperref Info: Anchor `section*.2' on input line 3.
+pdftex: bookmark at 3: {\thetodo } {Paulo Serra corp.citar} {section*.2}{0}{tdo
+}
+
+Overfull \hbox (16.8837pt too wide) in paragraph at lines 3--3
+\T1/aer/m/n/10.95 corp.citar  
+ []
+
+
+Overfull \hbox (16.8837pt too wide) in paragraph at lines 3--3
+\T1/aer/m/n/10.95 corp.citar  
+ []
+
+
+Overfull \hbox (16.8837pt too wide) in paragraph at lines 3--3
+\T1/aer/m/n/10.95 corp.citar  
+ []
+
+
+Overfull \hbox (16.8837pt too wide) in paragraph at lines 3--3
+\T1/aer/m/n/10.95 corp.citar  
+ []
+
+Package hyperref Info: Anchor `page.1' on input line 10.
 [1{C:/Documents and Settings/jpsoliv/My Documents/Jo√£o/Mestrado/Latex/MikTexPo
 rtable/pdftex/config/pdftex.map}
 
 
 
-Package `hyperref' Info: End of reference (cite) `cite.Kassick2010', line 3.
-Package `hyperref' Info: End of reference (cite) `cite.Kassick2010', line 5.
-Package `hyperref' Info: End of reference (cite) `cite.Wagner1993', line 5.
 ]
-Package hyperref Info: Anchor `section*.2' on input line 16.
+Package hyperref Info: Anchor `section*.3' on input line 11.
 
-pdftex: bookmark at 16: {\thetodo } {O trabalho ir\'a propor a inser\c c\~ao de
- um novo equipamento que tamb\'em aumentar\'a a complexidade e o n\'umero de co
-mponentes no sistema. Por que isto \'e um problema para nesta frase mas n\~ao u
-m problema no equipamento que vamos inserir? Evitar a repeti\c c\~ao de complex
-idade/complexo.} {section*.2}{0}{tdo}
-Package hyperref Info: Reference (link) `figure.caption.3' on input line 18.
-Package hyperref Info: Anchor `page.2' on input line 19.
-[2
-Package `hyperref' Info: End of reference (cite) `cite.Pomilio2014', line 13.
-Package `hyperref' Info: End of reference (cite) `cite.Manousaka2013', line 13.
-
-Package `hyperref' Info: End of reference (link) `figure.caption.3', line 18.
-]
-Package hyperref Info: Anchor `figure.caption.3' on input line 20.
- <Cap2/Figuras/notch.png, id=41, 734.14275pt x 463.13025pt>
-File: Cap2/Figuras/notch.png Graphic file (type png)
-
-<use Cap2/Figuras/notch.png>
-Package pdftex.def Info: Cap2/Figuras/notch.png used on input line 22.
-(pdftex.def)             Requested size: 204.85846pt x 129.23038pt.
-
-pdftex: bookmark at 23: {1} {\numberline{1}{\ignorespaces Presen\c ca de \texti
-t {notch} na ondula\c c\~ao de tens\~ao \cite {Notches}\relax }} {figure.captio
-n.3}{0}{lof}
-Package hyperref Info: Reference (cite) `cite.Notches' on input line 23.
-Package hyperref Info: Reference (cite) `cite.Notches' on input line 23.
-Package hyperref Info: Anchor `Item.2' on input line 28.
-Package hyperref Info: Anchor `page.3' on input line 37.
-[3
-Package `hyperref' Info: End of reference (cite) `cite.Notches', line 23.
- <C:/Documents and Settings/jpsoliv/My Documents/Jo√£o/Mestrado/MestradoJPSO/tr
-unk/Texto/Cap2/Figuras/notch.png>]
-Package hyperref Info: Anchor `Item.3' on input line 39.
-Package hyperref Info: Reference (cite) `cite.Fitzgerald2006' on input line 43.
-
-Package hyperref Info: Anchor `Item.4' on input line 46.
-Package hyperref Info: Anchor `page.4' on input line 47.
- [4
-Package `hyperref' Info: End of reference (cite) `cite.Fitzgerald2006', line 43
-.
-])
+pdftex: bookmark at 11: {\thetodo } {Falar dos requisitos de alto n\IeC {\'\i }
+vel presentes no Part 23 e Part 25} {section*.3}{0}{tdo}
+Package hyperref Info: Anchor `subsection.0.1.1' on input line 13.
+pdftex: bookmark at 13: {0.1.1} {\numberline{0.1.1}MIL-STD 704 - \textit {Aircr
+aft Electric Power Characteristics}} {subsection.0.1.1}{2}{toc}
+Package hyperref Info: Anchor `subsection.0.1.2' on input line 15.
+pdftex: bookmark at 15: {0.1.2} {\numberline{0.1.2}DO-160 - \textit {Environmen
+tal Conditions and Test Procedures for Airborne Equipment - Section 16: Power I
+nput}} {subsection.0.1.2}{2}{toc}
+)
 ("C:\Documents and Settings\jpsoliv\My Documents\Jo√£o\Mestrado\MestradoJPSO\tr
 unk\Texto\Dissertacao.bbl"
-Package hyperref Info: Anchor `page.5' on input line 3.
- [5]
+Package hyperref Info: Anchor `page.2' on input line 3.
+ [2]
 Package hyperref Info: Anchor `chapter*.4' on input line 3.
 Package hyperref Info: Anchor `chapter.1' on input line 3.
 
 pdftex: bookmark at 3: {1} {Refer\^encias Bibliogr\'aficas} {chapter.1}{0}{toc}
 
-Package hyperref Info: Anchor `cite.Kassick2010' on input line 8.
-Package hyperref Info: Anchor `cite.Wagner1993' on input line 14.
-Package hyperref Info: Anchor `cite.Pomilio2014' on input line 20.
-LaTeX Font Info:    Try loading font information for U+msa on input line 26.
+Package hyperref Info: Anchor `cite.Cidade' on input line 8.
+LaTeX Font Info:    Try loading font information for U+msa on input line 11.
 
 ("C:\Documents and Settings\jpsoliv\My Documents\Jo√£o\Mestrado\Latex\MikTexPor
 table\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 26.
+LaTeX Font Info:    Try loading font information for U+msb on input line 11.
 
 ("C:\Documents and Settings\jpsoliv\My Documents\Jo√£o\Mestrado\Latex\MikTexPor
 table\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 22--27
+Package hyperref Info: Anchor `cite.Alexander2005' on input line 13.
+Package hyperref Info: Anchor `cite.Wagner1993' on input line 18.
+Package hyperref Info: Anchor `cite.Pomilio2010' on input line 24.
+
+Underfull \hbox (badness 3168) in paragraph at lines 26--30
+[][]\T1/aer/m/n/12 DECKMANN, S. M.; PO-MI-LIO, J. A. \T1/aer/m/it/12 Ava-li-a-Á
+„o da Qua-li-dade da Ener-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
+\T1/aer/m/it/12 gia ElÈ-trica\T1/aer/m/n/12 . 2010. Dis-po-nÌ-vel em: $\OML/cmm
+/m/it/12 <$\T1/aer/m/n/12 http://www. dsce. fee. uni-camp.
+ []
+
+Package hyperref Info: Anchor `cite.Kassick2010' on input line 31.
+Package hyperref Info: Anchor `cite.Pomilio2014' on input line 37.
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
 [][]\T1/aer/m/n/12 POMILIO, J. A. \T1/aer/m/it/12 Con-ver-so-res com Ou-tras TÈ
 c-ni-cas de Co-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--27
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
 \T1/aer/m/it/12 mu-ta-Á„o Su-ave\T1/aer/m/n/12 . 2014. Aces-sado em 28/05/2015.
  Dis-po-nÌ-vel em:
  []
 
-Package hyperref Info: Anchor `cite.Manousaka2013' on input line 28.
-Package hyperref Info: Anchor `cite.Notches' on input line 34.
+Package hyperref Info: Anchor `cite.Manousaka2013' on input line 45.
+Package hyperref Info: Anchor `cite.Notches' on input line 51.
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--41
+Underfull \hbox (badness 10000) in paragraph at lines 53--58
 [][]\T1/aer/m/n/12 AUTOMATION, R. \T1/aer/m/it/12 Eli-mi-na-ting Vol-tage Not-c
 hing on the Dis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--41
+Underfull \hbox (badness 10000) in paragraph at lines 53--58
 \T1/aer/m/it/12 tri-bu-ti-ons Sys-tem\T1/aer/m/n/12 . Aces-sado em 29/05/2015. 
 Dis-po-nÌ-vel em:
  []
 
-Package hyperref Info: Anchor `cite.Fitzgerald2006' on input line 42.
+Package hyperref Info: Anchor `cite.Fitzgerald2006' on input line 59.
+Package hyperref Info: Anchor `cite.Mussoi2004' on input line 65.
 ) 
 AED: lastpage setting LastPage
-Package hyperref Info: Anchor `page.6' on input line 247.
-[6
+Package hyperref Info: Anchor `page.3' on input line 247.
+[3
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
@@ -1187,28 +1206,30 @@ unk\Texto\Dissertacao.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 247.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 247.
 Package rerunfilecheck Info: File `Dissertacao.out' has not changed.
-(rerunfilecheck)             Checksum: 43086E50B756A9B48C4FD383A259A03F;163.
+(rerunfilecheck)             Checksum: 9FA6E1ABA754D976909690FC1FF45D30;408.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
  ) 
 Here is how much of TeX's memory you used:
- 20012 strings out of 493921
- 380437 string characters out of 3125104
- 538521 words of memory out of 3000000
- 22840 multiletter control sequences out of 15000+200000
- 23806 words of font info for 57 fonts, out of 3000000 for 9000
+ 20035 strings out of 493921
+ 380795 string characters out of 3125104
+ 543521 words of memory out of 3000000
+ 22859 multiletter control sequences out of 15000+200000
+ 29465 words of font info for 66 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,7n,80p,1419b,1076s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,9n,80p,1253b,907s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Documents and Settings/jpsoliv/My Documents/Jo√£o/Mestrado/Latex/MikTexPo
 rtable/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Documents and Settings/jps
 oliv/My Documents/Jo√£o/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfon
-ts/cm/cmmi12.pfb><C:/Documents and Settings/jpsoliv/My Documents/Jo√£o/Mestrado
-/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Documents an
-d Settings/jpsoliv/My Documents/Jo√£o/Mestrado/Latex/MikTexPortable/fonts/type1
-/public/amsfonts/cm/cmr12.pfb><C:/Documents and Settings/jpsoliv/My Documents/J
-o√£o/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Dissertacao.pdf (6 pages, 115219 bytes).
+ts/cm/cmbxti10.pfb><C:/Documents and Settings/jpsoliv/My Documents/Jo√£o/Mestra
+do/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Documents
+ and Settings/jpsoliv/My Documents/Jo√£o/Mestrado/Latex/MikTexPortable/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><C:/Documents and Settings/jpsoliv/My Document
+s/Jo√£o/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+<C:/Documents and Settings/jpsoliv/My Documents/Jo√£o/Mestrado/Latex/MikTexPort
+able/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Dissertacao.pdf (3 pages, 106184 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 34 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 45 words of extra memory for PDF output out of 10000 (max. 10000000)
 
