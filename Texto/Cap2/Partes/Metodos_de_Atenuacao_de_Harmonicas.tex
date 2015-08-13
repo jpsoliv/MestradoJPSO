@@ -3,7 +3,11 @@
 
 Existem métodos bem concebidos na literatura com relação à metodologias para mitigar o problema da utilização de cargas não lineares em sistemas senoidais. Pode-se encontrar, basicamente, três abordagens para eliminar as harmônicas de mais alta frequência, e assim, manter a qualidade de energia dentro de níveis aceitáveis para propiciar segurança operacional de uma aeronave. Tais sistemas serão descritos brevemente a seguir, e a escolha da utilização de filtros ativos em aplicação aeronáutica será melhor elucidada.  
 
-\subsection{Filtros Passivos}
+\subsection{Sistemas Passivos}
+
+A caracterização de um sistema passivo dá-se pela ausência de fontes externas de energia para a operação \cite{AN779} ou de um controle ativo para o mecanismo de comutação de dispositivos semicondutores, como transistores ou chaves estáticas. Para essa classe de dispositivos passivos destacam-se os filtros lineares e os retificadores de alto fator de potência sem a presença de comutadores comandados. 
+
+\subsubsection{Filtros Passivos}
 
 Filtros passivos são circuitos dotados de componentes elétricos passivos lineares, como indutores, capacitores e resistores, concebido com objetivo de obter uma função de transferência cujo comportamento típico é atenuar componentes de frequências senoidais específicas. Os filtros são basicamente compostos por impedâncias interligadas e o comportamento destes circuitos depende do valor e da disposição dos elementos lineares envolvidos \cite{Mussoi2004,Kassick2010}. 
 
@@ -61,9 +65,20 @@ As principais topologias de filtros passivos podem ser divididos em 4 tipos:
 	
 \end{enumerate}
 
-Para o problema de atenuar as harmônica de mais alta frequência que a fundamental, a utilização de filtros passa baixa é mais adequada, pois são os componentes harmônicos que acabam por degradar a qualidade de energia do sistema elétrico.  
+Para o problema de atenuar as harmônica de mais alta frequência que a fundamental, a utilização de filtros passa baixa é mais adequada, pois são os componentes harmônicos que acabam por degradar a qualidade de energia do sistema elétrico.
 
-\subsection{Conversores com Correção de Fator de Potência}
+\subsubsection{Retificadores com Alto Fator de Potência}
 
-\subsection{Filtros Ativos}
+
+Neste tipo de sistema, na presença de semicondutores, a comutação é desempenhada por diodos, as quais não necessitam de comando de um controle externo para a que haja a abertura ou o bloqueio do fluxo de corrente entre seus terminais. Outro sistema passivo é dado por filtros casados com as harmônicas de alta frequências do sistema.
+
+\cite{Lobo2005,Gong2003,Kolar2011}
+
+\subsection{Sistemas Ativos}
+
+\subsubsection{Conversores com Correção de Fator de Potência}
+
+\subsubsection{Filtros Ativos}
+
+
 
