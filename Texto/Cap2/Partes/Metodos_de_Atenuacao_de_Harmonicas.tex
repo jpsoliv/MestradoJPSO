@@ -3,7 +3,11 @@
 
 Existem métodos bem concebidos na literatura com relação à metodologias para mitigar o problema da utilização de cargas não lineares em sistemas senoidais. Pode-se encontrar, basicamente, três abordagens para eliminar as harmônicas de mais alta frequência, e assim, manter a qualidade de energia dentro de níveis aceitáveis para propiciar segurança operacional de uma aeronave. Tais sistemas serão descritos brevemente a seguir, e a escolha da utilização de filtros ativos em aplicação aeronáutica será melhor elucidada.  
 
-\subsection{Filtros Passivos}
+\subsection{Sistemas Passivos}
+
+A caracterização de um sistema passivo dá-se pela ausência de fontes externas de energia para a operação ou de um controle ativo para o mecanismo de comutação de dispositivos semicondutores, como transistores ou chaves estáticas \cite{AN779}. Para essa classe de dispositivos passivos destacam-se os filtros lineares e os retificadores de alto fator de potência sem a presença de comutadores comandados. 
+
+\subsubsection{Filtros Passivos}
 
 Filtros passivos são circuitos dotados de componentes elétricos passivos lineares, como indutores, capacitores e resistores, concebido com objetivo de obter uma função de transferência cujo comportamento típico é atenuar componentes de frequências senoidais específicas. Os filtros são basicamente compostos por impedâncias interligadas e o comportamento destes circuitos depende do valor e da disposição dos elementos lineares envolvidos \cite{Mussoi2004,Kassick2010}. 
 
@@ -61,9 +65,44 @@ As principais topologias de filtros passivos podem ser divididos em 4 tipos:
 	
 \end{enumerate}
 
-Para o problema de atenuar as harmônica de mais alta frequência que a fundamental, a utilização de filtros passa baixa é mais adequada, pois são os componentes harmônicos que acabam por degradar a qualidade de energia do sistema elétrico.  
+Para o problema de atenuar as harmônica de mais alta frequência que a fundamental, a utilização de filtros passa baixa é mais adequada, pois são os componentes harmônicos que acabam por degradar a qualidade de energia do sistema elétrico.
 
-\subsection{Conversores com Correção de Fator de Potência}
+\subsubsection{Retificadores Multipulso}
 
-\subsection{Filtros Ativos}
+%http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=4399718&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D4399718
+
+Neste tipo de circuito o retificador é concebido utilizando uma filosofia semelhante a um retificador comum com pontes de diodo, porém o arranjo dos semicondutores junto com autotransformadores faz com que a corrente requerida da fonte possua uma forma quase senoidal, tornando o retificador com alto fator de potência. Outra particularidade desse conversor é a ausência de controle externo de comutação, sendo que os semicondutores do retificador são tidos por diodos e seu funcionamento depende apenas das tensões e correntes aplicadas sob seus terminais.
+
+Os mais comumente encontrado são os retificadores de 12 pulsos \cite{Lobo2005,Gong2003} e os retificadores de 18 pulsos \cite{Ivo1999}. Em tais conceitos existe a montagem com autotransformadores de modo que o arranjo de diodos passam a conduzir de tal forma que a corrente requerida na entrada tenha um formato com baixa incidência de harmônicas de elevada frequência. 
+
+\subsection{Sistemas Ativos}
+
+\subsubsection{Conversores com Correção de Fator de Potência}
+
+\subsubsection{Filtros Ativos}
+
+\section{Vantagens e Desvantagens dos Sistemas de }\todo[inline]{Melhorar o título visto que alguns métodos não atenuam e sim ja implementam a solução com alto fator de potência}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.65\textwidth]{Cap2/Figuras/sch_filtro_passivo.png}
+	\caption{Filtro Passivo}
+	\label{fig:sch_filtro_passivo}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.65\textwidth]{Cap2/Figuras/sch_PFC.png}
+	\caption{Filtro PFC}
+	\label{fig:sch_PFC}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.65\textwidth]{Cap2/Figuras/shc_filtro_ativo.png}
+	\caption{Filtro Ativo}
+	\label{fig:sch_filtro_ativo}
+\end{figure}
+
+
 
