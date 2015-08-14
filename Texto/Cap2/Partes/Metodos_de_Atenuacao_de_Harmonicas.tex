@@ -30,7 +30,7 @@ As principais topologias de filtros passivos podem ser divididos em 4 tipos:
 	\item 
 	\textit{Filtro Rejeita Faixa:} Ao contrário do filtro passa faixa, este tipo de filtro é definido por atenuar componentes cujas frequências estão contidos em um determinado intervalo, enquanto as amplitudes das componentes fora deste não são alteradas.  Analogamente ao passa faixa, existe a frequência de corte inferior e superior definidas por $f_L$ e $f_H$, respectivamente \cite{Mussoi2004}. As componentes com valores de frequência menores que $f_L$ e maiores que $f_H$ são mantidas iguais ao sinal de entrada, ao passo que os componentes contidos dentro do intervalo $f_L\;-\;f_H$ possuem as amplitudes atenuadas. O espectro de frequência desse tipo de filtro pode ser visto na figura \ref{fig:RB_filter}.
 		
-	\begin{figure*}[!htbp]
+	\begin{figure*}[!htbp] %Ganho em função da frequência de filtros passivos típicos
 		\centering
 		\begin{subfigure}[b]{0.48\textwidth}
 			\centering
@@ -68,50 +68,53 @@ As principais topologias de filtros passivos podem ser divididos em 4 tipos:
 Para o problema de atenuar as harmônica de mais alta frequência que a fundamental, a utilização de filtros passa baixa é mais adequada, pois são os componentes harmônicos que acabam por degradar a qualidade de energia do sistema elétrico.
 
 \subsubsection{Retificadores Multipulso}
-\todo[inline]{as figuras estão em 60 hz, porém segundo lobo2005 é possível criar um conversor compatível com o mercdo de aviação}
 
-Neste tipo de circuito o retificador é concebido utilizando uma filosofia semelhante a um retificador comum com pontes de diodo, porém o arranjo dos semicondutores junto com autotransformadores faz com que a corrente requerida da fonte possua uma forma quase senoidal, tornando o retificador com alto fator de potência. Outra particularidade desse conversor é a ausência de controle externo de comutação, sendo que os semicondutores do retificador são tidos por diodos e seu funcionamento depende apenas das tensões e correntes aplicadas sob seus terminais.
+Neste tipo de circuito o retificador é concebido utilizando uma filosofia semelhante a um retificador comum com pontes de diodo, porém o arranjo dos semicondutores junto com autotransformadores faz com que a corrente requerida da fonte possua uma forma quase senoidal, tornando o retificador com alto fator de potência. Outra particularidade desse conversor é a ausência de controle externo sobre os semicondutores, sendo que os comutadores do retificador realizados por diodos e seu funcionamento depende apenas das tensões e correntes aplicadas sob seus terminais.
 
-Os mais comumente encontrado são os retificadores de 12 pulsos \cite{Lobo2005,Gong2003} e os retificadores de 18 pulsos \cite{Ivo1999}. Em tais conceitos existe a montagem com autotransformadores de modo que o arranjo de diodos passam a conduzir de tal forma que a corrente requerida na entrada tenha um formato com baixa incidência de harmônicas de elevada frequência.
+Os retificadores são comumente encontrados com as topologias dos circuitos partindo de 12 para arranjos de mais pulsos, como 18, 24, 30 e ainda maiores valores para manter a qualidade de energia  com relação ao \textit{THD} \cite{Singh2008}. No conceito desse retificador existe a montagem com autotransformadores de modo que o arranjo de diodos passam a conduzir de tal forma que a corrente requerida na entrada tenha um formato com baixa incidência de harmônicas de elevada frequência. Ainda, com o aumento de pulsos do conversor aumenta a qualidade de energia, porém eleva a complexidade dos elementos magnéticos do mesmo. Nas figuras \ref{fig:12_pulse} e \ref{fig:18_pulse} são mostrados típicos retificadores de 12 e 18 pulsos, respectivamente, com suas específicas formas de onda. Aqui fica evidente a melhora na forma da corrente senoidal do retificador de 18 pulsos com relação ao de 12 \cite{Singh2008}.
 
-\begin{figure*}[!htbp]
+\begin{figure*}[!htbp] %Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.49\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap2/Figuras/12_pulse_rectifier.png}
-		\caption{\centering Resposta em frequência de um filtro passa baixa} 
-		\label{fig:LP_filter}
+		\caption{Circuito do retificador de 12 pulsos} 
+		\label{fig:12_pulse_rectifier}
 	\end{subfigure}%
 	\hfill
 	\begin{subfigure}[b]{0.49\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap2/Figuras/12_pulse_wave.png}
-		\caption{\centering Resposta em frequência de um filtro passa alta}    
-		\label{fig:HP_filter}
+		\caption{Forma de onda da corrente de entrada}    
+		\label{fig:12_pulse_wave}
 	\end{subfigure}%
-	\caption{12 pulso}
+	\caption{Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada \cite{Singh2008}}
 	\label{fig:12_pulse}
 \end{figure*}
 
-\begin{figure*}[!htbp]
+\begin{figure*}[!htbp] %Circuito típico de um retificador de 18 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.49\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap2/Figuras/18_pulse_rectifier.png}
-		\caption{\centering Resposta em frequência de um filtro passa baixa} 
-		\label{fig:LP_filter}
+		\caption{Circuito do retificador de 18 pulsos} 
+		\label{fig:18_pulse_rectifier}
 	\end{subfigure}%
 	\hfill
 	\begin{subfigure}[b]{0.49\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap2/Figuras/18_pulse_wave.png}
-		\caption{\centering Resposta em frequência de um filtro passa alta}    
-		\label{fig:HP_filter}
+		\caption{Forma de onda da corrente de entrada}    
+		\label{fig:18_pulse_wave}
 	\end{subfigure}%
-	\caption{18 pulso}
+	\caption{Circuito típico de um retificador de 18 pulsos com sua respectiva corrente de entrada \cite{Singh2008}}
 	\label{fig:18_pulse}
 \end{figure*}
-\todo{referenciar CARAIO}
+
+\todo[inline]{as figuras estão em 60 hz, porém segundo lobo2005 é possível criar um conversor compatível com o mercdo de aviação em 400 Hz}
+\cite{Lobo2005,Gong2003}
+
+
 \subsection{Sistemas Ativos}
 
 \subsubsection{Conversores com Correção de Fator de Potência}
