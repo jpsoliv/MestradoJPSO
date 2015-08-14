@@ -5,62 +5,12 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.42.2.1 }
 
-\bibitem{Cidade}
-\abntrefinfo{Cidade}{CIDADE}{}
-{CIDADE, G. \emph{Eletricidade e Eletr\^onica Aplicada à Bioci\^encias}.
-Dispon{\'\i}vel em: $<$http://fisbio.biof.ufrj.br/restrito/bmb353/$>$.}
-
-\bibitem{Alexander2005}
-\abntrefinfo{Alexander e Sadiku}{ALEXANDER; SADIKU}{2005}
-{ALEXANDER, C.~K.; SADIKU, M. N.~O. \emph{Fundamentals of of Electric
-  Circuits}. 3. ed. [S.l.]: McGraw-Hill Higher Education, 2005.}
-
-\bibitem{Wagner1993}
-\abntrefinfo{Wagner et al.}{WAGNER et al.}{1993}
-{WAGNER, V. et al. Effects of harmonics on equipment.
-\emph{IEEE Transactions on Power Delivery}, IEEE, v.~8, n.~2, p. 672--680,
-  1993.}
-
-\bibitem{Pomilio2010}
-\abntrefinfo{Deckmann e Pomilio}{DECKMANN; POMILIO}{2010}
-{DECKMANN, S.~M.; POMILIO, J.~A. \emph{Avalia{\c{c}}{\~a}o da Qualidade da
-  Energia El{\'e}trica}. 2010.
-Dispon{\'\i}vel em: $<$http://www. dsce. fee. unicamp.
-  br/antenor/pdffiles/qualidade/b5. pdf$>$.}
-
-\bibitem{Kassick2010}
-\abntrefinfo{Kassick}{KASSICK}{2010}
-{KASSICK, E.~V. \emph{Harmônicas em Sistemas Industriais de Baixa Tensão}.
-Florian{\'o}polis, Abril 2010. Instituto de Eletr\^onica de Pot\^encia.
-  Universidade Federal de Santa Catarina.}
-
-\bibitem{Pomilio2014}
-\abntrefinfo{Pomilio}{POMILIO}{2014}
-{POMILIO, J.~A. \emph{Conversores com Outras Técnicas de Comutação Suave}.
-  2014.
-Acessado em 28/05/2015.
-Dispon{\'\i}vel em:
-  $<$http://www.dsce.fee.unicamp.br/~antenor/pdffiles/CAP5.pdf$>$.}
-
-\bibitem{Manousaka2013}
-\abntrefinfo{Manousaka}{MANOUSAKA}{2013}
-{MANOUSAKA, E.
-\emph{DC-DC Buck Converter with Inrush Current Limiter}.
-Dissertação (Mestrado) --- Faculty of Applied Sciences, Lorentzweg, 2013.}
-
-\bibitem{Notches}
-\abntrefinfo{Automation}{AUTOMATION}{}
-{AUTOMATION, R. \emph{Eliminating Voltage Notching on the Distributions
-  System}.
-Acessado em 29/05/2015.
-Dispon{\'\i}vel em:
-  $<$http://www.ab.com/support/abdrives/documentation/techpapers/notch.htm$>$.}
-
-\bibitem{Fitzgerald2006}
-\abntrefinfo{Fitzgerald, Kingsley e Umans}{FITZGERALD; KINGSLEY; UMANS}{2006}
-{FITZGERALD, A.; KINGSLEY, C.; UMANS, S. \emph{M{\'a}quinas El{\'e}tricas - Com
-  Introdu{\c{c}}{\~a}o {\`a} Eletr{\^o}nica de Pot{\^e}ncia}. 6. ed. [S.l.]:
-  McGraw-Hill, 2006.}
+\bibitem{AN779}
+\abntrefinfo{Lacanette}{LACANETTE}{1991}
+{LACANETTE, K. \emph{A Basic Introduction to Filters: Active, Passive, and
+  Switched-Capacitor}. 1991.
+National Semiconductor.
+AN779.}
 
 \bibitem{Mussoi2004}
 \abntrefinfo{Mussoi e Esperan{\c{c}}a}{MUSSOI; ESPERAN{\c{C}}A}{2004}
@@ -68,5 +18,31 @@ Dispon{\'\i}vel em:
   passivos}.
 2. ed. Florian{\'o}polis, 2004. Centro Federal de Educa{\c{c}}{\~a}o
   Tecnol{\'o}gica de Santa Catarina.}
+
+\bibitem{Kassick2010}
+\abntrefinfo{Kassick}{KASSICK}{2010}
+{KASSICK, E.~V. \emph{Harmônicas em Sistemas Industriais de Baixa Tensão}.
+Florian{\'o}polis, Abril 2010. Instituto de Eletr\^onica de Pot\^encia.
+  Universidade Federal de Santa Catarina.}
+
+\bibitem{Lobo2005}
+\abntrefinfo{Gong et al.}{GONG et al.}{2005}
+{GONG, G. et al. Comparative evaluation of three-phase high-power-factor ac-dc
+  coverter concepts for application in future more electric aircraft.
+\emph{IEEE Transactions on Industrial Electronics}, IEEE, v.~52, n.~3, p.
+  727--737, 2005.}
+
+\bibitem{Gong2003}
+\abntrefinfo{Gong, Drofenik e Kolar}{GONG; DROFENIK; KOLAR}{2003}
+{GONG, G.; DROFENIK, U.; KOLAR, J. 12-pulse rectifier for more electric
+  aircraft applications. In:  IEEE. \emph{2003 IEEE International Conference on
+  Industrial Technology}. Maribor, 2003. v.~2, p. 1096--1101.}
+
+\bibitem{Ivo1999}
+\abntrefinfo{Barbi e Seixas}{BARBI; SEIXAS}{1999}
+{BARBI, I.; SEIXAS, F. J.~M. de. A new 12 kw three-phase impulse high power
+  factor ac-dc converter with regulated output voltage for rectifier units. In:
+   IEEE. \emph{Telecommunication Energy Conference, 1999. INTELEC'99. The 21st
+  International}. Copenhagen, 1999.}
 
 \end{thebibliography}
