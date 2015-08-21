@@ -1,79 +1,79 @@
-\section{MÃ©todos de AtenuaÃ§Ã£o de HarmÃ´nicas}
-%mÃ©todos sÃ£o necessÃ¡rios para mitigar esse problema
+\section{Métodos de Atenuação de Harmônicas}
+%métodos são necessários para mitigar esse problema
 
-Existem mÃ©todos bem concebidos na literatura com relaÃ§Ã£o Ã  metodologias para mitigar o problema da utilizaÃ§Ã£o de cargas nÃ£o lineares em sistemas senoidais. Pode-se encontrar, basicamente, trÃªs abordagens para eliminar as harmÃ´nicas de mais alta frequÃªncia, e assim, manter a qualidade de energia dentro de nÃ­veis aceitÃ¡veis para propiciar seguranÃ§a operacional de uma aeronave. Tais sistemas serÃ£o descritos brevemente a seguir, e a escolha da utilizaÃ§Ã£o de filtros ativos em aplicaÃ§Ã£o aeronÃ¡utica serÃ¡ melhor elucidada.  
+Existem métodos bem concebidos na literatura com relação à metodologias para mitigar o problema da utilização de cargas não lineares em sistemas senoidais. Pode-se encontrar, basicamente, três abordagens para eliminar as harmônicas de mais alta frequência, e assim, manter a qualidade de energia dentro de níveis aceitáveis para propiciar segurança operacional de uma aeronave. Tais sistemas serão descritos brevemente a seguir, e a escolha da utilização de filtros ativos em aplicação aeronáutica será melhor elucidada.  
 
 \subsection{Sistemas Passivos}
 
-A caracterizaÃ§Ã£o de um sistema passivo dÃ¡-se pela ausÃªncia de fontes externas de energia para o correto funcionamento de um circuito ou o controle ativo para o mecanismo de comutaÃ§Ã£o ou condicionamento de dispositivos semicondutores, como transistores ou amplificadores operacionais \cite{AN779}. Para essa classe de dispositivos passivos destacam-se os filtros lineares e os retificadores de alto fator de potÃªncia sem a presenÃ§a de comutadores comandados. 
+A caracterização de um sistema passivo dá-se pela ausência de fontes externas de energia para o correto funcionamento de um circuito ou o controle ativo para o mecanismo de comutação ou condicionamento de dispositivos semicondutores, como transistores ou amplificadores operacionais \cite{AN779}. Para essa classe de dispositivos passivos destacam-se os filtros lineares e os retificadores de alto fator de potência sem a presença de comutadores comandados. 
 
 \subsubsection{Filtros Passivos}
 
-Filtros passivos sÃ£o circuitos dotados de componentes elÃ©tricos passivos lineares, como indutores, capacitores e resistores, concebido com objetivo de obter uma funÃ§Ã£o de transferÃªncia cujo comportamento tÃ­pico Ã© atenuar componentes de frequÃªncias senoidais especÃ­ficas. Os filtros sÃ£o basicamente compostos por impedÃ¢ncias interligadas e o comportamento destes circuitos depende do valor e da disposiÃ§Ã£o dos elementos lineares envolvidos \cite{Mussoi2004,Kassick2010}. 
+Filtros passivos são circuitos dotados de componentes elétricos passivos lineares, como indutores, capacitores e resistores, concebido com objetivo de obter uma função de transferência cujo comportamento típico é atenuar componentes de frequências senoidais específicas. Os filtros são basicamente compostos por impedâncias interligadas e o comportamento destes circuitos depende do valor e da disposição dos elementos lineares envolvidos \cite{Mussoi2004,Kassick2010}. 
 
-Conceitualmente, pode-se considerar a concepÃ§Ã£o de filtros ideais e reais. De maneira simplificada, os filtros ideais sÃ£o tais que em determinadas frequÃªncias a atenuaÃ§Ã£o Ã© nula e em outras Ã© infinita, ou seja, as amplitudes dos componentes do espectro nÃ£o se altera em determinadas frequÃªncias mas em outras sÃ£o levadas a zero, respectivamente. Tais filtros nÃ£o sÃ£o realizÃ¡veis e na pratica sÃ£o utilizados filtros reais. Esses filtros nÃ£o possuem uma atenuaÃ§Ã£o infinita, e a diminuiÃ§Ã£o das respectivas amplitudes em funÃ§Ã£o da frequÃªncia Ã© dada segundo a ordem do filtro. De maneira geral, a ordem do filtro Ã© dada de acordo com o nÃºmero de elementos armazenadores de energia concebidos no circuito. Assim, para que o filtro real tenha o mesmo comportamento que o ideal haveria de ter ordem infinita, o que o torna inconcebÃ­vel. 
+Conceitualmente, pode-se considerar a concepção de filtros ideais e reais. De maneira simplificada, os filtros ideais são tais que em determinadas frequências a atenuação é nula e em outras é infinita, ou seja, as amplitudes dos componentes do espectro não se altera em determinadas frequências mas em outras são levadas a zero, respectivamente. Tais filtros não são realizáveis e na pratica são utilizados filtros reais. Esses filtros não possuem uma atenuação infinita, e a diminuição das respectivas amplitudes em função da frequência é dada segundo a ordem do filtro. De maneira geral, a ordem do filtro é dada de acordo com o número de elementos armazenadores de energia concebidos no circuito. Assim, para que o filtro real tenha o mesmo comportamento que o ideal haveria de ter ordem infinita, o que o torna inconcebível. 
 
-Por definiÃ§Ã£o, a frequÃªncia de corte ($f_c$) dos filtros reais Ã© definida segundo qual a potÃªncia do sinal de saÃ­da Ã© tida como a metade da potÃªncia do sinal de entrada, ainda, esta definiÃ§Ã£o pode ser estendida como a frequÃªncia a qual a razÃ£o dos sinais de saÃ­da e entrada Ã© tida como $\sqrt{2}$, ou mais, que nessa frequÃªncia a atenuaÃ§Ã£o do sinal seja de 3 decibÃ©is.
+Por definição, a frequência de corte ($f_c$) dos filtros reais é definida segundo qual a potência do sinal de saída é tida como a metade da potência do sinal de entrada, ainda, esta definição pode ser estendida como a frequência a qual a razão dos sinais de saída e entrada é tida como $\sqrt{2}$, ou mais, que nessa frequência a atenuação do sinal seja de 3 decibéis.
 
 As principais topologias de filtros passivos podem ser divididos em 4 tipos:
 
 \begin{enumerate}[i),leftmargin=1.75cm,itemindent=0cm] % PODE SER ADULTERADO \begin{enumerate}[i),leftmargin=1.75cm,itemindent=0cm] ou \begin{enumerate}[i),leftmargin=0cm,itemindent=1.75cm]
 	\item 
-	\textit{Filtro Passa Baixa:} A concepÃ§Ã£o desse tipo de filtro age de forma a criar caminhos de alta impedÃ¢ncia entre a entrada e saÃ­da do sistema para frequÃªncias mais elevadas que $f_c$ \cite{Kassick2010}. Desse modo, comparativamente ao sinal da entrada, a saÃ­da possui a mesma caracterÃ­stica de amplitude e potÃªncia para frequÃªncias menores que $f_c$, mas atenuam componentes do espectro cujo valor Ã© maior que a frequÃªncia de corte, ou seja, $f>f_c$. Ainda, deve-se ter em mente que quanto maior o valor da frequÃªncia das componentes que compÃµem o sinal, maior a reduÃ§Ã£o em suas amplitudes \cite{Mussoi2004}. A resposta em mÃ³dulo do sistema de um filtro passa baixa pode ser visto na figura \ref{fig:LP_filter}.\todo{arrumar esse texo que estÃ¡ porco}
+	\textit{Filtro Passa Baixa:} A concepção desse tipo de filtro age de forma a criar caminhos de alta impedância entre a entrada e saída do sistema para frequências mais elevadas que $f_c$ \cite{Kassick2010}. Desse modo, comparativamente ao sinal da entrada, a saída possui a mesma característica de amplitude e potência para frequências menores que $f_c$, mas atenuam componentes do espectro cujo valor é maior que a frequência de corte, ou seja, $f>f_c$. Ainda, deve-se ter em mente que quanto maior o valor da frequência das componentes que compõem o sinal, maior a redução em suas amplitudes \cite{Mussoi2004}. A resposta em módulo do sistema de um filtro passa baixa pode ser visto na figura \ref{fig:LP_filter}.\todo{arrumar esse texo que está porco}
 
 	\item 
-	\textit{Filtro Passa Alta:} Analogamente ao filtro passa baixa, os sistemas com a topologia passa alta possuem caminhos de alta impedÃ¢ncia para componentes de baixa frequÃªncia que sÃ£o aplicadas na entrada do sistema \cite{Kassick2010}. Desse modo, a saÃ­da possui um espectro com a predominÃ¢ncia de componentes de alta frequÃªncia. Como ocorre nos filtros passa baixa, a frequÃªncia que delimita a atenuaÃ§Ã£o Ã© denominada frequÃªncia de corte, e componentes com valores mais elevados possuem ganho unitÃ¡rio, ou seja, nÃ£o sÃ£o alterados pelo sistema \cite{Mussoi2004}. O espectro tÃ­pico de um filtro passa alto pode ser visualizado na figura \ref{fig:HP_filter}. 
+	\textit{Filtro Passa Alta:} Analogamente ao filtro passa baixa, os sistemas com a topologia passa alta possuem caminhos de alta impedância para componentes de baixa frequência que são aplicadas na entrada do sistema \cite{Kassick2010}. Desse modo, a saída possui um espectro com a predominância de componentes de alta frequência. Como ocorre nos filtros passa baixa, a frequência que delimita a atenuação é denominada frequência de corte, e componentes com valores mais elevados possuem ganho unitário, ou seja, não são alterados pelo sistema \cite{Mussoi2004}. O espectro típico de um filtro passa alto pode ser visualizado na figura \ref{fig:HP_filter}. 
 		
 	\item 
-	\textit{Filtro Passa Faixa:} Os filtros passa faixa sÃ£o caracterizados por circuitos cuja resposta apresenta a passagem de sinais com frequÃªncias situadas numa faixa intermediÃ¡ria no espectro, atenuando as amplitude dos sinais que estÃ£o fora desse intervalo. A frequÃªncias que delimitam esta faixa sÃ£o denominadas frequÃªncia de corte inferior ($f_L$) e frequÃªncia de corte superior ($f_H$) \cite{Mussoi2004}. Desse modo, o comportamento do sistema caracteriza-se pela atenuaÃ§Ã£o de componentes que possui frequÃªncia abaixo de $f_L$ e acima de $f_H$. Outra caracterÃ­stica fundamental dos filtros passa faixa Ã© a largura de banda definida pela intervalo onde o sinal nÃ£o Ã© atenuado. Em termos numÃ©ricos, esse valor Ã© definido por $f_H-f_L$. Ainda existe a frequÃªncia central $f_0$ ou frequÃªncia de ressonÃ¢ncia, a qual Ã© a mÃ©dia geomÃ©trica entre a frequÃªncia de corte inferior $f_L$ e a frequÃªncia de corte superior $f_H$ da banda de passagem, ou seja, $f_0=\sqrt{f_L.f_H}$. O mÃ³dulo da resposta em frequÃªncia tÃ­pica de um filtro passa faixa Ã© mostrada na figura \ref{fig:BP_filter}.
+	\textit{Filtro Passa Faixa:} Os filtros passa faixa são caracterizados por circuitos cuja resposta apresenta a passagem de sinais com frequências situadas numa faixa intermediária no espectro, atenuando as amplitude dos sinais que estão fora desse intervalo. A frequências que delimitam esta faixa são denominadas frequência de corte inferior ($f_L$) e frequência de corte superior ($f_H$) \cite{Mussoi2004}. Desse modo, o comportamento do sistema caracteriza-se pela atenuação de componentes que possui frequência abaixo de $f_L$ e acima de $f_H$. Outra característica fundamental dos filtros passa faixa é a largura de banda definida pela intervalo onde o sinal não é atenuado. Em termos numéricos, esse valor é definido por $f_H-f_L$. Ainda existe a frequência central $f_0$ ou frequência de ressonância, a qual é a média geométrica entre a frequência de corte inferior $f_L$ e a frequência de corte superior $f_H$ da banda de passagem, ou seja, $f_0=\sqrt{f_L.f_H}$. O módulo da resposta em frequência típica de um filtro passa faixa é mostrada na figura \ref{fig:BP_filter}.
 		
 	\item 
-	\textit{Filtro Rejeita Faixa:} Ao contrÃ¡rio do filtro passa faixa, este tipo de filtro Ã© definido por atenuar componentes cujas frequÃªncias estÃ£o contidos em um determinado intervalo, enquanto as amplitudes das componentes fora deste nÃ£o sÃ£o alteradas.  Analogamente ao passa faixa, existe a frequÃªncia de corte inferior e superior definidas por $f_L$ e $f_H$, respectivamente \cite{Mussoi2004}. As componentes com valores de frequÃªncia menores que $f_L$ e maiores que $f_H$ sÃ£o mantidas iguais ao sinal de entrada, ao passo que os componentes contidos dentro do intervalo $f_L\;-\;f_H$ possuem as amplitudes atenuadas. O espectro de frequÃªncia desse tipo de filtro pode ser visto na figura \ref{fig:RB_filter}.
+	\textit{Filtro Rejeita Faixa:} Ao contrário do filtro passa faixa, este tipo de filtro é definido por atenuar componentes cujas frequências estão contidos em um determinado intervalo, enquanto as amplitudes das componentes fora deste não são alteradas.  Analogamente ao passa faixa, existe a frequência de corte inferior e superior definidas por $f_L$ e $f_H$, respectivamente \cite{Mussoi2004}. As componentes com valores de frequência menores que $f_L$ e maiores que $f_H$ são mantidas iguais ao sinal de entrada, ao passo que os componentes contidos dentro do intervalo $f_L\;-\;f_H$ possuem as amplitudes atenuadas. O espectro de frequência desse tipo de filtro pode ser visto na figura \ref{fig:RB_filter}.
 		
-	\begin{figure*}[!htbp] %Ganho em funÃ§Ã£o da frequÃªncia de filtros passivos tÃ­picos
+	\begin{figure*}[!htbp] %Ganho em função da frequência de filtros passivos típicos
 		\centering
 		\begin{subfigure}[b]{0.48\textwidth}
 			\centering
 			\includegraphics[width=\textwidth]{Cap2/Figuras/LP_filter.png}
-			\caption{\centering Resposta em frequÃªncia de um filtro passa baixa} 
+			\caption{\centering Resposta em frequência de um filtro passa baixa} 
 			\label{fig:LP_filter}
 		\end{subfigure}%
 		\hfill
 		\begin{subfigure}[b]{0.48\textwidth}  
 			\centering 
 			\includegraphics[width=\textwidth]{Cap2/Figuras/HP_filter.png}
-			\caption{\centering Resposta em frequÃªncia de um filtro passa alta}    
+			\caption{\centering Resposta em frequência de um filtro passa alta}    
 			\label{fig:HP_filter}
 		\end{subfigure}%
 		\vskip\baselineskip
 		\begin{subfigure}[b]{0.48\textwidth}   
 			\centering 
 			\includegraphics[width=\textwidth]{Cap2/Figuras/BP_filter.png}
-			\caption{\centering Resposta em frequÃªncia de um filtro passa faixa}   
+			\caption{\centering Resposta em frequência de um filtro passa faixa}   
 			\label{fig:BP_filter}
 		\end{subfigure}%
 		\hfill
 		\begin{subfigure}[b]{0.48\textwidth}   
 			\centering 
 			\includegraphics[width=\textwidth]{Cap2/Figuras/RB_filter.png}
-			\caption{\centering Resposta em frequÃªncia de um filtro rejeita faixa}   
+			\caption{\centering Resposta em frequência de um filtro rejeita faixa}   
 			\label{fig:RB_filter}
 		\end{subfigure}%
-		\caption{Ganho em funÃ§Ã£o da frequÃªncia de filtros passivos tÃ­picos} 
+		\caption{Ganho em função da frequência de filtros passivos típicos} 
 		\label{fig:mean and std of nets}
 	\end{figure*}
 	
 \end{enumerate}
 
-Para o problema de atenuar as harmÃ´nica de mais alta frequÃªncia que a fundamental, a utilizaÃ§Ã£o de filtros passa baixa Ã© mais adequada, pois sÃ£o os componentes harmÃ´nicos que acabam por degradar a qualidade de energia do sistema elÃ©trico.
+Para o problema de atenuar as harmônica de mais alta frequência que a fundamental, a utilização de filtros passa baixa é mais adequada, pois são os componentes harmônicos que acabam por degradar a qualidade de energia do sistema elétrico.
 
 \subsubsection{Retificadores Multipulso}
 
-Neste tipo de circuito o retificador Ã© concebido utilizando uma filosofia semelhante a um retificador comum com pontes de diodo, porÃ©m o arranjo dos semicondutores junto com autotransformadores faz com que a corrente requerida da fonte possua uma forma quase senoidal, tornando o retificador com alto fator de potÃªncia. Outra particularidade desse conversor Ã© a ausÃªncia de controle externo sobre os semicondutores, sendo que os comutadores do retificador realizados por diodos e seu funcionamento depende apenas das tensÃµes e correntes aplicadas sob seus terminais.
+Neste tipo de circuito o retificador é concebido utilizando uma filosofia semelhante a um retificador comum com pontes de diodo, porém o arranjo dos semicondutores junto com autotransformadores faz com que a corrente requerida da fonte possua uma forma quase senoidal, tornando o retificador com alto fator de potência. Outra particularidade desse conversor é a ausência de controle externo sobre os semicondutores, sendo que a comutação no retificador ocorre nos diodos e seu funcionamento depende apenas das tensões e correntes aplicadas sob seus terminais.
 
-Os retificadores sÃ£o comumente encontrados com as topologias dos circuitos partindo de 12 para arranjos de mais pulsos, como 18, 24, 30 e ainda maiores valores para manter a qualidade de energia  com relaÃ§Ã£o ao \textit{THD} \cite{Singh2008}. No conceito desse retificador existe a montagem com autotransformadores de modo que o arranjo de diodos passam a conduzir de tal forma que a corrente requerida na entrada tenha um formato com baixa incidÃªncia de harmÃ´nicas de elevada frequÃªncia. Ainda, com o aumento de pulsos do conversor aumenta a qualidade de energia, porÃ©m eleva a complexidade dos elementos magnÃ©ticos do mesmo. Nas figuras \ref{fig:12_pulse} e \ref{fig:18_pulse} sÃ£o mostrados tÃ­picos retificadores de 12 e 18 pulsos, respectivamente, com suas especÃ­ficas formas de onda. Aqui fica evidente a melhora na forma da corrente senoidal do retificador de 18 pulsos com relaÃ§Ã£o ao de 12 \cite{Singh2008}.
+Os retificadores são comumente encontrados com as topologias dos circuitos partindo de 12 para arranjos de mais pulsos, como 18, 24, 30 e ainda maiores valores para manter a qualidade de energia com relação ao \textit{THD} \cite{Singh2008}. No conceito desse retificador existe a montagem com autotransformadores de modo que o arranjo de diodos passa a conduzir de tal forma que a corrente requerida na entrada tenha um formato com baixa incidência de harmônicas de elevada frequência. Ainda, com o aumento de pulsos do conversor aumenta a qualidade de energia, porém eleva a complexidade dos elementos magnéticos do mesmo. Nas figuras \ref{fig:12_pulse} e \ref{fig:18_pulse} são mostrados típicos retificadores de 12 e 18 pulsos, respectivamente, com suas específicas formas de onda. Aqui fica evidente a melhora na forma da corrente senoidal do retificador de 18 pulsos com relação ao de 12 \cite{Singh2008}.
 
-\begin{figure*}[!htbp] %Circuito tÃ­pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htbp] %Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.49\textwidth}
 		\centering
@@ -88,11 +88,11 @@ Os retificadores sÃ£o comumente encontrados com as topologias dos circuitos part
 		\caption{Forma de onda da corrente de entrada}    
 		\label{fig:12_pulse_wave}
 	\end{subfigure}%
-	\caption{Circuito tÃ­pico de um retificador de 12 pulsos com sua respectiva corrente de entrada \cite{Singh2008}}
+	\caption{Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada \cite{Singh2008}}
 	\label{fig:12_pulse}
 \end{figure*}
 
-\begin{figure*}[!htbp] %Circuito tÃ­pico de um retificador de 18 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htbp] %Circuito típico de um retificador de 18 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.49\textwidth}
 		\centering
@@ -107,23 +107,25 @@ Os retificadores sÃ£o comumente encontrados com as topologias dos circuitos part
 		\caption{Forma de onda da corrente de entrada}    
 		\label{fig:18_pulse_wave}
 	\end{subfigure}%
-	\caption{Circuito tÃ­pico de um retificador de 18 pulsos com sua respectiva corrente de entrada \cite{Singh2008}}
+	\caption{Circuito típico de um retificador de 18 pulsos com sua respectiva corrente de entrada \cite{Singh2008}}
 	\label{fig:18_pulse}
 \end{figure*}
 
-Cabe lembrar que a utilizaÃ§Ã£o de retificadores multipulso Ã© realizÃ¡vel tanto em redes de 60 Hz quanto em sistemas de elevada frequÃªncia, tal qual 400-800 Hz \cite{Gong2003,Lobo2005}. Isto faz-se necessÃ¡rio para atender o mercado aeronÃ¡utico que possui o sistema elÃ©trico operando em 400 Hz, ou atÃ© 800 Hz para geraÃ§Ã£o em frequÃªncia variÃ¡vel.
+Cabe lembrar que a utilização de retificadores multipulso é realizável tanto em redes de 60 Hz quanto em sistemas de elevada frequência, tal qual 400-800 Hz \cite{Gong2003,Lobo2005}. Isto faz-se necessário para atender o mercado aeronáutico que possui o sistema elétrico operando em 400 Hz, ou até 800 Hz para geração em frequência variável.
 
 \subsection{Sistemas Ativos}
 
-Em sistemas ativos os conversores sÃ£o operados com a implementaÃ§Ã£o de chaves estÃ¡ticas com comutaÃ§Ã£o controlada cujo objetivo Ã© diversificar as topologias e, dentro de certas faixas de operaÃ§Ã£o, reduzir as perdas por conduÃ§Ã£o quando comparados com circuitos comutados por diodos. Com isso, a flexibilidade de projeto Ã© aumentada de modo que hÃ¡ uma maior diversificaÃ§Ã£o de tipos de retificadores disponÃ­veis. AlÃ©m do mais, com o comando na comutaÃ§Ã£o Ã© possÃ­vel haver uma melhor regulaÃ§Ã£o da tensÃ£o na saÃ­da do sistema e, utilizando certas topologias, um controle de corrente de entrada de modo a proporcionar um fator de potÃªncia em acordo com os requisitos de qualidade de energia do sistema.
+Em sistemas ativos os a retificação é feito com a utilização de conversores operados com a implementação de chaves estáticas com comutação controlada cujo objetivo é diversificar as topologias e, dentro de certas faixas de operação, reduzir as perdas por condução quando comparados com circuitos comutados por diodos. Com isso, a flexibilidade de projeto é aumentada de modo que há uma maior diversificação de tipos de retificadores disponíveis. Além do mais, com o comando na comutação é possível haver uma melhor regulação da tensão na saída do sistema e, utilizando certas topologias, um controle de corrente de entrada de modo a proporcionar um fator de potência em acordo com os requisitos de qualidade de energia do sistema. Dois dos principais tipos de sistemas ativos implementados para mitigar as harmônicas da rede são os conversores de alto fator de potência e os filtros ativos.
 
-Dois dos principais tipos de sistemas ativos implementados para mitigar as harmÃ´nicas do sistemas sÃ£o os conversores de alto fator de potÃªncia e os filtros ativos. No primeiro caso os retificadores tÃªm seus componentes ordenados de forma que o controle na comutaÃ§Ã£o dos semicondutores proporcionam uma entrada de corrente de forma quase senoidal, provendo um alto fator de potÃªncia e, consequentemente, uma boa qualidade de energia. O princÃ­pio dos filtros ativos Ã© prover uma baixa distorÃ§Ã£o na forma de onda da corrente com a injeÃ§Ã£o de valores recÃ­proco Ã s componentes harmÃ´nicas do sistemas. Isso Ã© conseguido aplicando uma fonte de corrente ou tensÃ£o controladas nas linhas da rede do sistema. \todo{falar que o paraneu Ã© um inversor}
+\subsubsection{Conversores com Correção de Fator de Potência}
 
-\subsubsection{Conversores com CorreÃ§Ã£o de Fator de PotÃªncia}
+No primeiro caso os retificadores têm seus componentes ordenados de forma que o controle na comutação dos semicondutores proporciona uma entrada de corrente de forma quase senoidal, provendo um alto fator de potência e, consequentemente, uma boa qualidade de energia. 
 
 \subsubsection{Filtros Ativos}
 
-\section{Vantagens e Desvantagens dos Sistemas de }\todo{Melhorar o tÃ­tulo visto que alguns mÃ©todos nÃ£o atenuam e sim ja implementam a soluÃ§Ã£o com alto fator de potÃªncia}
+O princípio dos filtros ativos é prover um alto fator de potência, seja pela distorção e/ou de deslocamento, com a injeção de corrente na rede a qual somado com a mesma requerida pela carga faz com que esta apresente uma forma de onda senoidal e em fase com a tensão. Isso é conseguido aplicando uma fonte de corrente e/ou tensão controladas nas linhas da rede do sistema. Estas fontes são concebidas por inversores de frequência cujo controle é feito pela leitura da corrente requerida pela carga e gerando na saída uma forma de onda compatível com a correção do fator de potência do sistema.
+
+\section{Vantagens e Desvantagens dos Sistemas de }\todo{Melhorar o título visto que alguns métodos não atenuam e sim ja implementam a solução com alto fator de potência}
 
 \begin{figure}[!htbp]
 	\centering
@@ -145,6 +147,7 @@ Dois dos principais tipos de sistemas ativos implementados para mitigar as harmÃ
 	\caption{Filtro Ativo}
 	\label{fig:sch_filtro_ativo}
 \end{figure}
+
 
 
 
