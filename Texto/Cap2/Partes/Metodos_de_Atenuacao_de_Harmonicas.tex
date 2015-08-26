@@ -119,7 +119,35 @@ Em sistemas ativos os a retificação é feito com a utilização de conversores oper
 
 \subsubsection{Conversores com Correção de Fator de Potência}
 
-No primeiro caso os retificadores têm seus componentes ordenados de forma que o controle na comutação dos semicondutores proporciona uma entrada de corrente de forma quase senoidal, provendo um alto fator de potência e, consequentemente, uma boa qualidade de energia. 
+A topologia de um conversor com correção de fator de potência é semelhante a um retificador de sistemas com condicionamento de dois estágios. Usualmente esses retificadores tem em seu primeiro estágio a conversão AC-DC da tensão, seguido de um segundo estágio com a regulação dos níveis DC para valores especificados \cite{Kolar2011}. Esse tipo de retificador, por sua simplicidade, possui um baixo fator de potência com alta distorção de corrente. Para contornar este problema, conversores com correção de fator de potência é empregado com sua operação semelhante aos retificadores de dois estágios, porém com o primeiro estágio operando com semicondutores comutados controlados de modo que a corrente de entrada requerida apresente uma forma senoidal \cite{Kolar2011,Barbosa2002}. \todo{falar do pfc boost converter por ser o mais encontrado}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Cap2/Figuras/rectifier_sch.png}
+	\caption{Filtro Passivo}
+	\label{fig:rectifier_sch}
+\end{figure}
+
+\begin{figure*}[!htbp] %Circuito típico de um retificador de 18 pulsos com sua respectiva corrente de entrada
+	\centering
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Cap2/Figuras/3ph_rectifier.png}
+		\caption{Circuito do retificador de 18 pulsos} 
+		\label{fig:3ph_rectifier}
+	\end{subfigure}%
+	\hspace{0.45cm}
+	\begin{subfigure}[b]{0.45\textwidth}  
+		\centering 
+		\includegraphics[width=\textwidth]{Cap2/Figuras/PFC_converter.png}
+		\caption{\cite{Takeuchi2008}}    
+		\label{fig:PFC_converter}
+	\end{subfigure}%
+	\caption{ujkhkkh}
+	\label{fig:rectifiers}
+\end{figure*}
+
+\todo{ARRUMAR FIGURAS NO PAINT BOM}
 
 \subsubsection{Filtros Ativos}
 
@@ -147,6 +175,14 @@ O princípio dos filtros ativos é prover um alto fator de potência, seja pela dis
 	\caption{Filtro Ativo}
 	\label{fig:sch_filtro_ativo}
 \end{figure}
+
+%\begin{table}[H]
+%	\centering
+%	\begin{tabular}{c|c|c}
+%		1 & 3 & 5 \\ \hline
+%		3 & 5 & 6
+%	\end{tabular}
+%\end{table}
 
 
 
