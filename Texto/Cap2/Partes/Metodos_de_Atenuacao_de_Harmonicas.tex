@@ -128,7 +128,8 @@ A topologia de um conversor regulado com correção de fator de potência está inse
 	\label{fig:rectifier_sch}
 \end{figure}
 
-Existem inúmeras topologias de conversores com correção de fator de potência, sendo que os mais utilizados são os conversores do tipo \textit{PFC (Power Factor Correction) boost}.\todo{falar do pfc boost converter por ser o mais encontrado}
+Encontram-se inúmeras topologias de conversores com correção de fator de potência na literatura. O mais utilizado é o conversor com correção de fator de potência, ou \textit{Poewer Factor Coreection} (PFC) do tipo \textit{boost}. Esse conversor é concebido pela ponte de diodos arranjados juntamente com chaves controladamente comutadas. Ainda, pela flexibilidade de possíveis arranjos dos semicondutores sob a ponte de diodos e pelas linhas de entrada e saída de energia, uma gama imensa de conversores do tipo \textit{PFC boost} pode ser concebido. Para elucidar o funcionamento deste tipo de conversor será estudado o conversor Prasad-Ziogas, cuja topologia é simples e apresenta uma única chave controlada. Também para facilitar o entendimento, será explicado a operação em modo de condução descontínua. O circuito deste conversor é mostrado na figura \ref{fig:PFC_converter}. O princípio de funcionamento é dado pelo controle da chave $S_1$ que, quando em estado de condução, aplica a tensão da fonte sobre os indutores de entrada $L_i,\;i=1,2,3$. Isso faz com que a corrente nos indutores cresçam de forma proporcional a tensão aplicada em seus terminais pela fonte de entrada. Quando o a chave $S_1$ para de conduzir, a corrente dos indutores são levadas à zero. Por ter a freqüência de comutação muito maior que a freqüência da rede, tem-se que a corrente de entrada apresenta uma forma modulada em alta freqüência e facilmente filtrada com filtros passa-baixa \cite{Nairus1996, Takeuchi2008}. Com isso é possível que a corrente apresente formato senoidal e em fase com a tensão. Na prática o funcionamento desse conversor apresenta certa distorção harmônica e não suporta alta carga de potência, de modo que outras topologias hibridas com circuitos \textit{PFC boost} e \textit{PFC buck} sejam aplicadas, ou ainda a conexão em delta ou estrela das fases em separado para aumentar a capacidade de potência e tornar o FP próximo da unidade \cite{Kolar2011}.
+\todo{separar as figuras dos conversores e simular o conversor para colocar as forams de onda da bagaça}
 
 \begin{figure*}[!htbp] %
 	\centering
@@ -148,6 +149,30 @@ Existem inúmeras topologias de conversores com correção de fator de potência, se
 	\caption{}
 	\label{fig:rectifiers}
 \end{figure*}
+
+
+\begin{figure*}[!htbp] %
+	\centering
+	\begin{subfigure}[b]{0.499\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{Cap2/Figuras/PFC_unfilt.eps}
+	\caption{Aumento da capacidade de geração ao longo dos anos}
+	\label{fig:PFC_unfilt}
+	\end{subfigure}%
+	\hfill
+	\begin{subfigure}[b]{0.499\textwidth}  
+		\centering 
+		\includegraphics[width=\textwidth]{Cap2/Figuras/PFC_filt}
+		\caption{Conversor com correção de fator de potência do tipo Prasad-Ziogas \cite{Takeuchi2008}}    
+		\label{fig:PFC_filt}
+	\end{subfigure}%
+	\caption{}
+	\label{fig:PFC_waveforms}
+\end{figure*}
+
+\begin{figure}[!htbp]
+
+\end{figure}
 
 
 \subsubsection{Filtros Ativos}
