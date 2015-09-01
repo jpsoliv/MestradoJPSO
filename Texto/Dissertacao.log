@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  27 AUG 2015 23:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  31 AUG 2015 21:49
 entering extended mode
 **Dissertacao.tex
 ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.tex"
@@ -832,17 +832,7 @@ Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \@glossaryfile=\write5
 
 Writing glossary file Dissertacao.glo 
-("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.aux"
-
-LaTeX Warning: Label `fig:PFC_converter' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:PFC_converter' multiply defined.
-
-
-LaTeX Warning: Label `fig:rectifiers' multiply defined.
-
-)
+("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
 LaTeX Font Info:    ... okay on input line 104.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
@@ -868,7 +858,8 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
 Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
@@ -1120,10 +1111,11 @@ pdftex: bookmark at 120: {0.1.2.1} {\numberline{0.1.2.1}Conversores com Corre\c
  c\~ao de Fator de Pot\^encia} {subsubsection.0.1.2.1}{3}{toc}
 Package hyperref Info: Reference (cite) `cite.Kolar2011' on input line 122.
 Package hyperref Info: Reference (link) `figure.caption.5' on input line 122.
+Package hyperref Info: Reference (link) `figure.caption.6' on input line 122.
 Package hyperref Info: Reference (cite) `cite.Kolar2011' on input line 122.
 Package hyperref Info: Reference (cite) `cite.Barbosa2002' on input line 122.
 Package hyperref Info: Anchor `figure.caption.5' on input line 124.
-<Cap2/Figuras/rectifier_sch.png, id=108, 812.28468pt x 304.13625pt>
+<Cap2/Figuras/rectifier_sch.png, id=109, 812.28468pt x 304.13625pt>
 File: Cap2/Figuras/rectifier_sch.png Graphic file (type png)
 
 <use Cap2/Figuras/rectifier_sch.png>
@@ -1138,148 +1130,150 @@ Package hyperref Info: Anchor `page.5' on input line 129.
 Package `hyperref' Info: End of reference (cite) `cite.Singh2008', line 110.
 Package `hyperref' Info: End of reference (cite) `cite.Kolar2011', line 122.
 Package `hyperref' Info: End of reference (link) `figure.caption.5', line 122.
+Package `hyperref' Info: End of reference (link) `figure.caption.6', line 122.
  <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap2/Figuras/18_pul
 se_rectifier.png> <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Ca
 p2/Figuras/18_pulse_wave.png>]
-Package hyperref Info: Reference (link) `figure.caption.8' on input line 131.
-Package hyperref Info: Reference (cite) `cite.Nairus1996' on input line 131.
-Package hyperref Info: Reference (cite) `cite.Takeuchi2008' on input line 131.
-Package hyperref Info: Reference (cite) `cite.Kolar2011' on input line 131.
-Package hyperref Info: Anchor `section*.6' on input line 132.
+Package hyperref Info: Anchor `figure.caption.6' on input line 131.
 
-pdftex: bookmark at 132: {\thetodo } {separar as figuras dos conversores e simu
-lar o conversor para colocar as forams de onda da baga\c ca} {section*.6}{0}{td
-o}
-Package hyperref Info: Anchor `figure.caption.7' on input line 134.
-<Cap2/Figuras/3ph_rectifier.png, id=120, 816.80156pt x 454.69875pt>
+<Cap2/Figuras/3ph_rectifier.png, id=118, 816.80156pt x 454.69875pt>
 File: Cap2/Figuras/3ph_rectifier.png Graphic file (type png)
 
 <use Cap2/Figuras/3ph_rectifier.png>
-Package pdftex.def Info: Cap2/Figuras/3ph_rectifier.png used on input line 138.
+Package pdftex.def Info: Cap2/Figuras/3ph_rectifier.png used on input line 133.
 
-(pdftex.def)             Requested size: 204.85846pt x 114.03519pt.
+(pdftex.def)             Requested size: 227.62206pt x 126.71115pt.
 
-<Cap2/Figuras/PFC_converter.png, id=121, 816.80156pt x 454.69875pt>
+pdftex: bookmark at 134: {5} {\numberline{5}{\ignorespaces Retificador trif\'as
+ico com ponte de diodos\relax }} {figure.caption.6}{0}{lof}
+Package hyperref Info: Reference (link) `figure.caption.7' on input line 138.
+Package hyperref Info: Reference (cite) `cite.Nairus1996' on input line 138.
+Package hyperref Info: Reference (cite) `cite.Takeuchi2008' on input line 138.
+Package hyperref Info: Reference (cite) `cite.Kolar2011' on input line 138.
+Package hyperref Info: Anchor `figure.caption.7' on input line 140.
+<Cap2/Figuras/PFC_converter.png, id=123, 816.80156pt x 454.69875pt>
 File: Cap2/Figuras/PFC_converter.png Graphic file (type png)
 
 <use Cap2/Figuras/PFC_converter.png>
-Package pdftex.def Info: Cap2/Figuras/PFC_converter.png used on input line 145.
+Package pdftex.def Info: Cap2/Figuras/PFC_converter.png used on input line 142.
 
-(pdftex.def)             Requested size: 204.85846pt x 114.03519pt.
-Package hyperref Info: Reference (cite) `cite.Takeuchi2008' on input line 146.
-Package hyperref Info: Reference (cite) `cite.Takeuchi2008' on input line 146.
+(pdftex.def)             Requested size: 227.62206pt x 126.71115pt.
 
-pdftex: bookmark at 149: {5} {\numberline{5}{\ignorespaces \relax }} {figure.ca
-ption.7}{0}{lof}
-Package hyperref Info: Anchor `figure.caption.8' on input line 154.
+pdftex: bookmark at 143: {6} {\numberline{6}{\ignorespaces Conversor com corre\
+c c\~ao de fator de pot\^encia do tipo Prasad-Ziogas \cite {Takeuchi2008}\relax
+ }} {figure.caption.7}{0}{lof}
+Package hyperref Info: Reference (cite) `cite.Takeuchi2008' on input line 143.
+Package hyperref Info: Reference (cite) `cite.Takeuchi2008' on input line 143.
+Package hyperref Info: Reference (link) `figure.caption.8' on input line 166.
+Package hyperref Info: Reference (link) `figure.caption.8' on input line 166.
+Package hyperref Info: Reference (link) `figure.caption.8' on input line 166.
+Package hyperref Info: Anchor `page.6' on input line 167.
+[6
+Package `hyperref' Info: End of reference (cite) `cite.Kolar2011', line 122.
+Package `hyperref' Info: End of reference (cite) `cite.Barbosa2002', line 122.
+Package `hyperref' Info: End of reference (link) `figure.caption.7', line 138.
+Package `hyperref' Info: End of reference (cite) `cite.Nairus1996', line 138.
+Package `hyperref' Info: End of reference (cite) `cite.Takeuchi2008', line 138.
+
+Package `hyperref' Info: End of reference (cite) `cite.Kolar2011', line 138.
+ <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap2/Figuras/rectif
+ier_sch.png> <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap2/Fi
+guras/3ph_rectifier.png>]
+Package hyperref Info: Anchor `figure.caption.8' on input line 168.
 Package epstopdf Info: Source file: <Cap2/Figuras/PFC_unfilt.eps>
-(epstopdf)                    date: 2015-08-27 22:53:35
-(epstopdf)                    size: 39425 bytes
+(epstopdf)                    date: 2015-08-31 21:47:37
+(epstopdf)                    size: 58690 bytes
 (epstopdf)             Output file: <Cap2/Figuras/PFC_unfilt-eps-converted-to.p
 df>
-(epstopdf)                    date: 2015-08-27 22:53:40
-(epstopdf)                    size: 21271 bytes
+(epstopdf)                    date: 2015-08-31 21:47:44
+(epstopdf)                    size: 37047 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/PFC_unfilt-eps
 -converted-to.pdf Cap2/Figuras/PFC_unfilt.eps>
-(epstopdf)             \includegraphics on input line 158.
+(epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap2/Figuras/PFC_unfilt-eps-converted-to.pdf, id=124, 420.57124pt x 316.18124p
+<Cap2/Figuras/PFC_unfilt-eps-converted-to.pdf, id=138, 420.57124pt x 316.18124p
 t>
 File: Cap2/Figuras/PFC_unfilt-eps-converted-to.pdf Graphic file (type pdf)
  <use Cap2/Figuras/PFC_unfilt-eps-converted-to.pdf>
 Package pdftex.def Info: Cap2/Figuras/PFC_unfilt-eps-converted-to.pdf used on i
-nput line 158.
+nput line 172.
 (pdftex.def)             Requested size: 227.16357pt x 170.77875pt.
 Package epstopdf Info: Source file: <Cap2/Figuras/PFC_filt.eps>
-(epstopdf)                    date: 2015-08-27 22:43:24
-(epstopdf)                    size: 32199 bytes
+(epstopdf)                    date: 2015-08-31 21:47:17
+(epstopdf)                    size: 46192 bytes
 (epstopdf)             Output file: <Cap2/Figuras/PFC_filt-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2015-08-27 22:48:37
-(epstopdf)                    size: 21677 bytes
+(epstopdf)                    date: 2015-08-31 21:47:47
+(epstopdf)                    size: 33282 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/PFC_filt-eps-c
 onverted-to.pdf Cap2/Figuras/PFC_filt.eps>
-(epstopdf)             \includegraphics on input line 165.
+(epstopdf)             \includegraphics on input line 179.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap2/Figuras/PFC_filt-eps-converted-to.pdf, id=125, 420.57124pt x 316.18124pt>
+<Cap2/Figuras/PFC_filt-eps-converted-to.pdf, id=139, 420.57124pt x 316.18124pt>
 File: Cap2/Figuras/PFC_filt-eps-converted-to.pdf Graphic file (type pdf)
 <use Cap2/Figuras/PFC_filt-eps-converted-to.pdf>
 Package pdftex.def Info: Cap2/Figuras/PFC_filt-eps-converted-to.pdf used on inp
-ut line 165.
+ut line 179.
 (pdftex.def)             Requested size: 227.16357pt x 170.77875pt.
-Package hyperref Info: Reference (cite) `cite.Takeuchi2008' on input line 166.
-Package hyperref Info: Reference (cite) `cite.Takeuchi2008' on input line 166.
 
-pdftex: bookmark at 169: {6} {\numberline{6}{\ignorespaces \relax }} {figure.ca
-ption.8}{0}{lof}
-Package hyperref Info: Anchor `figure.caption.9' on input line 173.
-Package hyperref Info: Anchor `subsubsection.0.1.2.2' on input line 178.
-pdftex: bookmark at 178: {0.1.2.2} {\numberline{0.1.2.2}Filtros Ativos} {subsub
+pdftex: bookmark at 183: {7} {\numberline{7}{\ignorespaces Corrente de entrada 
+para o caso sem e com filtro na linha\relax }} {figure.caption.8}{0}{lof}
+Package hyperref Info: Anchor `subsubsection.0.1.2.2' on input line 187.
+pdftex: bookmark at 187: {0.1.2.2} {\numberline{0.1.2.2}Filtros Ativos} {subsub
 section.0.1.2.2}{3}{toc}
-Package hyperref Info: Anchor `page.6' on input line 182.
-[6
-Package `hyperref' Info: End of reference (cite) `cite.Kolar2011', line 122.
-Package `hyperref' Info: End of reference (cite) `cite.Barbosa2002', line 122.
-Package `hyperref' Info: End of reference (link) `figure.caption.8', line 131.
-Package `hyperref' Info: End of reference (cite) `cite.Nairus1996', line 131.
-Package `hyperref' Info: End of reference (cite) `cite.Takeuchi2008', line 131.
+Package hyperref Info: Anchor `page.7' on input line 191.
+[7
+Package `hyperref' Info: End of reference (cite) `cite.Takeuchi2008', line 143.
 
-Package `hyperref' Info: End of reference (cite) `cite.Kolar2011', line 131.
- <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap2/Figuras/rectif
-ier_sch.png>]
-Package hyperref Info: Anchor `page.7' on input line 182.
- [7
-Package `hyperref' Info: End of reference (cite) `cite.Takeuchi2008', line 146.
+Package `hyperref' Info: End of reference (link) `figure.caption.8', line 166.
+Package `hyperref' Info: End of reference (link) `figure.caption.8', line 166.
+Package `hyperref' Info: End of reference (link) `figure.caption.8', line 166.
+ <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap2/Figuras/PFC_co
+nverter.png> <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap2/Fi
+guras/PFC_unfilt-eps-converted-to.pdf> <D:/Library/Joao/Documents/Mestrado ITA/
+MestradoJPSO/Texto/Cap2/Figuras/PFC_filt-eps-converted-to.pdf>]
+Package hyperref Info: Anchor `section.0.2' on input line 191.
 
-Package `hyperref' Info: End of reference (cite) `cite.Takeuchi2008', line 166.
-
- <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap2/Figuras/3ph_re
-ctifier.png> <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/Cap2/Fi
-guras/PFC_converter.png> <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/T
-exto/Cap2/Figuras/PFC_unfilt-eps-converted-to.pdf> <D:/Library/Joao/Documents/M
-estrado ITA/MestradoJPSO/Texto/Cap2/Figuras/PFC_filt-eps-converted-to.pdf>]
-Package hyperref Info: Anchor `section.0.2' on input line 182.
-
-pdftex: bookmark at 182: {0.2} {\numberline{0.2}Vantagens e Desvantagens dos Si
+pdftex: bookmark at 191: {0.2} {\numberline{0.2}Vantagens e Desvantagens dos Si
 stemas de } {section.0.2}{1}{toc}
-Package hyperref Info: Anchor `section*.10' on input line 182.
-pdftex: bookmark at 182: {\thetodo } {Melhorar o t\IeC {\'\i }tulo visto que al
+Package hyperref Info: Anchor `section*.9' on input line 191.
+pdftex: bookmark at 191: {\thetodo } {Melhorar o t\IeC {\'\i }tulo visto que al
 guns m\'etodos n\~ao atenuam e sim ja implementam a solu\c c\~ao com alto fator
- de pot\^encia} {section*.10}{0}{tdo}
-Package hyperref Info: Anchor `figure.caption.11' on input line 184.
-<Cap2/Figuras/sch_filtro_passivo.png, id=152, 963.6pt x 542.025pt>
+ de pot\^encia} {section*.9}{0}{tdo}
+Package hyperref Info: Anchor `figure.caption.10' on input line 193.
+<Cap2/Figuras/sch_filtro_passivo.png, id=155, 963.6pt x 542.025pt>
 File: Cap2/Figuras/sch_filtro_passivo.png Graphic file (type png)
 
 <use Cap2/Figuras/sch_filtro_passivo.png>
 Package pdftex.def Info: Cap2/Figuras/sch_filtro_passivo.png used on input line
- 186.
+ 195.
 (pdftex.def)             Requested size: 295.90588pt x 166.44632pt.
 
-pdftex: bookmark at 187: {7} {\numberline{7}{\ignorespaces Filtro Passivo\relax
- }} {figure.caption.11}{0}{lof}
-Package hyperref Info: Anchor `figure.caption.12' on input line 191.
-<Cap2/Figuras/sch_PFC.png, id=153, 963.6pt x 265.74281pt>
+pdftex: bookmark at 196: {8} {\numberline{8}{\ignorespaces Filtro Passivo\relax
+ }} {figure.caption.10}{0}{lof}
+Package hyperref Info: Anchor `figure.caption.11' on input line 200.
+<Cap2/Figuras/sch_PFC.png, id=156, 963.6pt x 265.74281pt>
 File: Cap2/Figuras/sch_PFC.png Graphic file (type png)
 
 <use Cap2/Figuras/sch_PFC.png>
-Package pdftex.def Info: Cap2/Figuras/sch_PFC.png used on input line 193.
+Package pdftex.def Info: Cap2/Figuras/sch_PFC.png used on input line 202.
 (pdftex.def)             Requested size: 295.90588pt x 81.60492pt.
 
-pdftex: bookmark at 194: {8} {\numberline{8}{\ignorespaces Filtro PFC\relax }} 
-{figure.caption.12}{0}{lof}
-Package hyperref Info: Anchor `figure.caption.13' on input line 198.
-<Cap2/Figuras/sch_filtro_ativo.png, id=154, 963.6pt x 542.025pt>
+pdftex: bookmark at 203: {9} {\numberline{9}{\ignorespaces Filtro PFC\relax }} 
+{figure.caption.11}{0}{lof}
+Package hyperref Info: Anchor `figure.caption.12' on input line 207.
+<Cap2/Figuras/sch_filtro_ativo.png, id=157, 963.6pt x 542.025pt>
 File: Cap2/Figuras/sch_filtro_ativo.png Graphic file (type png)
 
 <use Cap2/Figuras/sch_filtro_ativo.png>
 Package pdftex.def Info: Cap2/Figuras/sch_filtro_ativo.png used on input line 2
-00.
+09.
 (pdftex.def)             Requested size: 295.90588pt x 166.44632pt.
 
-pdftex: bookmark at 201: {9} {\numberline{9}{\ignorespaces Filtro Ativo\relax }
-} {figure.caption.13}{0}{lof}
+pdftex: bookmark at 210: {10} {\numberline{10}{\ignorespaces Filtro Ativo\relax
+ }} {figure.caption.12}{0}{lof}
 ) ("D:\Library\Joao\Documents\Mestrado ITA\MestradoJPSO\Texto\Dissertacao.bbl"
 Package hyperref Info: Anchor `page.8' on input line 3.
 
@@ -1287,7 +1281,7 @@ Package hyperref Info: Anchor `page.8' on input line 3.
 filtro_passivo.png> <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/Texto/
 Cap2/Figuras/sch_PFC.png> <D:/Library/Joao/Documents/Mestrado ITA/MestradoJPSO/
 Texto/Cap2/Figuras/sch_filtro_ativo.png>]
-Package hyperref Info: Anchor `chapter*.14' on input line 3.
+Package hyperref Info: Anchor `chapter*.13' on input line 3.
 Package hyperref Info: Anchor `chapter.1' on input line 3.
 
 pdftex: bookmark at 3: {1} {Refer\^encias Bibliogr\'aficas} {chapter.1}{0}{toc}
@@ -1315,20 +1309,16 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 248.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 248.
 Package rerunfilecheck Info: File `Dissertacao.out' has not changed.
 (rerunfilecheck)             Checksum: 98903387E8A2C6F9CA58514B2DC201EE;386.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
  ) 
 Here is how much of TeX's memory you used:
- 20225 strings out of 493921
- 367980 string characters out of 3144879
- 545874 words of memory out of 3000000
+ 20227 strings out of 493921
+ 367913 string characters out of 3144879
+ 542874 words of memory out of 3000000
  22995 multiletter control sequences out of 15000+200000
- 29105 words of font info for 66 fonts, out of 3000000 for 9000
+ 31887 words of font info for 72 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,9n,76p,2057b,1084s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,10n,76p,2016b,1084s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/P
@@ -1338,9 +1328,9 @@ ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program
 es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Dissertacao.pdf (9 pages, 703564 bytes).
+Output written on Dissertacao.pdf (9 pages, 730095 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
+ 216 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
  133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
