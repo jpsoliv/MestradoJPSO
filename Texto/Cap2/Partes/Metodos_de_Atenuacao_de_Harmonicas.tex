@@ -186,7 +186,25 @@ Como resultado da operação do conversor Prasad-Ziogas, as formas de onda nos ind
 
 \subsubsection{Filtros Ativos}
 
-Filtros ativos podem ser classificados em dois tipos: os baseados em amplificadores operacionais e os baseados em conversores CC-CA. O princípio de funcionamento do primeiro tipo de filtro é igual em sistema passivo, onde a operação é dada pela atenuação de determinadas componentes de frequência da rede. A diferença entre esse tipo de filtro ativo com o sistema passivos é a presença de amplificadores operacionais, a qual necessitam de fontes externas para funcionar adequadamente. Esse tipo de filtragem é muito utilizado em sinais de baixa potência, sendo que para o escopo desse trabalho torna-se inviável dado o tipo de potência do sistema elétrico de aeronaves. Já a filtragem baseada em conversores CC-AC tem por princípio a utilização de inversores controlados, visto que este tipo de conversor pode recriar formas de tensão e corrente de qualquer configuração dada à uma referência definida\cite{Pomilio2009}. O princípio dos filtros ativos é prover um alto fator de potência, seja pela distorção e/ou de deslocamento, com a injeção de corrente na rede que, somado com a requerida pela carga, faz com que a corrente no barramento do gerador tenha forma de onda senoidal e em fase com a tensão. Isso é conseguido aplicando uma fonte de corrente e/ou tensão controladas nas linhas da rede do sistema. Estas fontes são concebidas por inversores de frequência cujo controle é feito pela leitura da tensão de alimentação e corrente de entrada na carga, gerando na saída uma forma de onda compatível com a correção do fator de potência do sistema.
+Filtros ativos podem ser classificados em dois tipos: os baseados em amplificadores operacionais e os baseados em conversores CC-CA. O princípio de funcionamento do primeiro tipo de filtro é igual em sistema passivo, onde a operação é dada pela atenuação de determinadas componentes de frequência da rede. A diferença os filtros ativos com o passivos é que no primeiro há a presença de amplificadores operacionais, a qual necessitam de fontes externas para funcionar adequadamente. Esse tipo de filtragem é muito utilizado em sinais de baixa potência, sendo que para o escopo desse trabalho torna-se inviável dado o tipo de potência do sistema elétrico de aeronaves. 
+
+A filtragem baseada em conversores CC-AC tem por princípio a utilização de inversores controlados, visto que este tipo de conversor pode, teoricamente, recriar formas de tensão e corrente de qualquer configuração dada à uma referência definida\cite{Pomilio2009}. O princípio dos filtros ativos é promover a qualidade de energia pela compensação das componentes harmônicas presentes no sistemas na presença de cargas não lineares. Ainda pode-se corrigir o fator de potência de deslocamento com a filtragem ativa. Os filtros ativos baseados em conversores CC-CA podem ser de tal forma a compensar a não linearidade da corrente da carga ou a distorção na forma de tensão do barramento com a utilização de filtros \textit{shunt} e os filtros série, respectivamente. O funcionamento do primeiro tipo de filtro é dado pela injeção de corrente na rede que, somado com a requerida pela carga, faz com que a corrente no barramento do gerador tenha forma de onda senoidal e em fase com a tensão. A consequência desse tipo de filtragem reflete tanto no fator de potência como também na distorção harmônica na forma de tensão no barramento de geração \cite{Afonso2013}. Já o filtro série tem como objetivo a correção da distorção da tensão aplicada à carga com a inserção de fontes controlada de tensão na linha de alimentação. A compensação dá-se pela adição de componentes defasadas em 180° às harmônicas geradas pela distorção de corrente sobre as reatâncias das linhas. Para esse ultimo filtro a forma de onda da corrente não é compensada de modo que o fator de potência não é igual a unidade. Assim, tem-se que o filtro série é indicado apenas para assegurar a forma de onda senoidal de tensão no barramento de alimentação \cite{Afonso2013}.
+
+/\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.55\textwidth]{Cap2/Figuras/shunt.png}
+	\caption{Filtro shunt}
+	\label{fig:shunt}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.55\textwidth]{Cap2/Figuras/serie.png}
+	\caption{Filtro série}
+	\label{fig:serie}
+\end{figure}
+
+\todo{arrumar figuras filtros ativos}
 
 \section{Vantagens e Desvantagens dos Sistemas de }\todo{Melhorar o título visto que alguns métodos não atenuam e sim ja implementam a solução com alto fator de potência}
 
