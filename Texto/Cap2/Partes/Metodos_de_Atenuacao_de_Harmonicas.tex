@@ -206,7 +206,12 @@ A filtragem baseada em conversores CC-AC tem por princípio a utilização de inver
 
 Em um sistema elétrico genérico com a presença de cargas lineares e/ou não pode-se garantir a qualidade de energia de todo o sistema com a correção da forma de onda da corrente de todos os pontos de entrada de carga. Caso o sistema não possua essa característica para correção da qualidade de energia, mas seja desejado que uma nova carga não interfira no sistema e, além disso tenha uma forma de onda de tensão pura em seus terminais, pode-se utilizar a topologia híbrida, onde há a presença tanto do filtro \textit{shunt} quanto série num mesmo ponto de alimentação. Com isso, tem-se que possíveis distorções da tensão são corrigidas pelo filtro série, e ainda, garante-se que a corrente dessa carga não interfira no resto do sistema com relação a baixa qualidade de energia.
 
-\section{Vantagens e Desvantagens dos Sistemas de }\todo{Melhorar o título visto que alguns métodos não atenuam e sim já implementam a solução com alto fator de potência}
+\section{Características de Retificadores com Alto Fator de Potência em Sistemas Elétricos de Aeronaves}
+
+Dada a importância da manutenção da qualidade de energia em um sistemas elétrico genérico para o correto funcionamento dos equipamentos nele conectados, diversas topologias de retificadores podem ser inseridas de modo a adequar o fator de potência para próximo a unidade. Entretanto cada sistema elétrico possuí características que tornam vantajoso a escolha de topologias de retificadores quando comparado a outras para a aplicação de conversão de tensão. A escolha do sistema de conversão com alto fator de potência depende de diversos fatores que vão desde as características do sistema elétrico, quanto às particularidade de cada tipo de retificador. Dentre as diversas características desejáveis dos conversores destacam-se a simplicidade, robustez, peso, custo, confiabilidade, eficiência e etc. Cada topologia apresenta vantagens e desvantagens frente aos requisitos do sistema elétrico a ser utilizado, e cabe ao projetista identificar as característica desejadas para cada tipo de sistema e determinar qual a topologia de retificação com alto de fator de potência adequa-se de melhor maneira a cumprir os requisitos.
+
+O sistema elétrico de uma aeronave é crítico na segurança operacional da mesma. Com a tendência de aumento do uso de sistemas eletricamente energizado com o advento do \textit{MEA}, a dependência do sistema elétrico com criticalidade da segurança tende a aumentar. Com isso, o sistema elétrico de aeronaves possuem requisitos de modo a garantir sua integridade em voo, sendo que os equipamentos ligados nesse sistema necessitam ser robustos e confiáveis de modo que eventuais falhas não prejudiquem o sistema elétrico e a segurança operacional. Dentre outras características desejáveis para um equipamento em uma aeronave, destaca o peso e volume para viabilizar o projeto economicamente. Isto deve-se principalmente à grande dependência entre o consumo de combustível com o peso da aeronave, além da dependência do volume com o espaço da cabine e a área molhada, influenciando na aerodinâmica e no arrasto. Por fim, os sistemas elétricos com tensão alternada em aeronaves operam em 400 Hz para frequência fixa e X-Y Hz em frequência variável. \todo{Encotnrar a frequencia variável e também continuar esse paragrafo, dizendo que o retificador deve atender a esta frequência e que o futuro exige isto}
+
 
 \begin{figure}[!htbp]
 	\centering
@@ -214,6 +219,8 @@ Em um sistema elétrico genérico com a presença de cargas lineares e/ou não pode-
 	\caption{Filtro Passivo}
 	\label{fig:sch_filtro_passivo}
 \end{figure}
+
+\todo{Falta um esquema do multipulso}
 
 \begin{figure}[!htbp]
 	\centering
@@ -228,6 +235,7 @@ Em um sistema elétrico genérico com a presença de cargas lineares e/ou não pode-
 	\caption{Filtro Ativo}
 	\label{fig:sch_filtro_ativo}
 \end{figure}
+
 
 
 
