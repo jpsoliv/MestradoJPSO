@@ -21,7 +21,8 @@ AN779.}
 
 \bibitem{Kassick2010}
 \abntrefinfo{Kassick}{KASSICK}{2010}
-{KASSICK, E.~V. \emph{Harmônicas em Sistemas Industriais de Baixa Tensão}.
+{KASSICK, E.~V. \emph{Harm{\^o}nicas em Sistemas Industriais de Baixa
+  Tens{\~a}o}.
 Florian{\'o}polis, Abril 2010. Instituto de Eletr\^onica de Pot\^encia.
   Universidade Federal de Santa Catarina.}
 
@@ -70,5 +71,35 @@ Ohio, 1996. AFRL Propulsion Directorate - Wright-Patterson Air Force Base.}
 {TAKEUCHI, N. et al. A novel pfc circuit for three-phase utilizing a single
   switching device. In:  IEEE. \emph{IEEE 30th International Telecommunications
   Energy Conference 2008. (INTELEC 2008)}. San Diego, 2008. p.~1--5.}
+
+\bibitem{Pomilio2009}
+\abntrefinfo{Pomilio e Deckmann}{POMILIO; DECKMANN}{2009}
+{POMILIO, J.~A.; DECKMANN, S.~M. \emph{Condicionamento de Energia El{\'e}trica
+  e Dispositivos FACTS}. Campinas, 2009.}
+
+\bibitem{Afonso2013}
+\abntrefinfo{Afonso, Gon{\c{c}}alves e Pinto}{AFONSO; GON{\c{C}}ALVES;
+  PINTO}{2013}
+{AFONSO, J.~L.; GON{\c{C}}ALVES, H.; PINTO, J. \emph{Power Quality Issues}.
+  [S.l.]: INTECH Open Access Publisher, 2013.}
+
+\bibitem{Zhu2014}
+\abntrefinfo{Zhu e Ma}{ZHU; MA}{2014}
+{ZHU, S.; MA, W. Methods of aircraft grid harmonic reduction: A review.
+\emph{Scholars Journal of Engineering and Technology (SJET)}, v.~2, p.
+  270--275, 2014.}
+
+\bibitem{Barruel2004}
+\abntrefinfo{Barruel, Schanen e Retiere}{BARRUEL; SCHANEN; RETIERE}{2004}
+{BARRUEL, F.; SCHANEN, J.; RETIERE, N. Volumetric optimization of passive
+  filter for power electronics input stage in the more electrical aircraft. In:
+   IEEE. \emph{2004. PESC 04. 2004 IEEE 35th Annual Power Electronics
+  Specialists Conference}. [S.l.], 2004. v.~1, p. 433--438.}
+
+\bibitem{Chen2012}
+\abntrefinfo{Chen et al.}{CHEN et al.}{2012}
+{CHEN, Z. et al. A research on cascade five-level aeronautical active power
+  filter. In:  IEEE. \emph{2012 7th International Power Electronics and Motion
+  Control Conference (IPEMC)}. [S.l.], 2012. v.~4, p. 2732--2737.}
 
 \end{thebibliography}
