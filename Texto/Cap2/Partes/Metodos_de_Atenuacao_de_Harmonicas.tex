@@ -214,7 +214,7 @@ O sistema elétrico de uma aeronave é crítico na segurança operacional da mesma. 
 
 Os filtros passivos por serem dispositivos que utilizam apenas elementos lineares como resistores, capacitores e reatores, tem sua implementação de maneira simples e com baixo custo, ao mesmo tempo que a manutenção desse dispositivo é facilitada devido a sua simplicidade. Ainda, a maturidade desse sistema é alto devido à larga utilização em sistemas elétricos industriais. Outro vantagem é que pode-se projetar tais filtros para compensar a potência reativa do sistema regulando o fator de potência de deslocamento \cite{Zhu2014}. Entretanto este tipo de topologia possuí grande volume e peso mesmo que operados na mitigação de harmônicas de sistemas à 400 Hz \cite{Barruel2004}, o que os tornam um entrave em sua utilização em sistemas elétricos aeronáuticos. Outra restrição do uso de filtros casados passivos é o impedimento na utilização de sistemas com frequência variável \cite{Barruel2004, Chen2012}, sendo que esse tipo de geração é tendência futura em sistemas elétricos de aeronaves. A utilização de filtros com a topologia otimizada e mais complexa poderia ser utilizada para esse caso, porém isso iria contra o princípio da simplicidade da filtragem passiva \cite{Barruel2004}.   
  
-Os conversores multipulso ...
+Os conversores multipulso são dispositivos passivos e têm como principal característica o condicionamento de energia utilizando comutadores estáticos, sendo que o controle destes é desprovido de comando externo. Por este motivo, o projeto desta topologia apresenta uma complexidade reduzida e o sistemas provém de uma boa confiabilidade quanto à falha do conversor \cite{Gong2003, Lobo2005}. Outra característica que o torna atraente na utilização no setor aeronáutico é a possibilidade de empregar esse retificador em sistemas de geração com frequência variável, apresentando baixos níveis de harmônicas nesse espectro de operação \cite{Gong2003, Lobo2005}. Por outro lado, existem desvantagens neste tipo de conversor, sendo que as mais afetam sua implementação no setor aeronáutico são o alto peso e volume. Isto deve-se principalmente pela utilização de autotransformadores que compõem-se de elementos magnéticos pesados e volumosos. Isto traz outra implicação que é a baixa densidade de energia com relação ao peso do conversor \cite{Zhu2014}. Entretanto, mesmo com estas características este conversor já é empregado em alguns equipamentos em sistemas elétricos aeronáuticos.
 
 Os conversores com correção de fator de potência ... 
 
@@ -244,8 +244,3 @@ Os filtros Ativos
 	\caption{Filtro Ativo}
 	\label{fig:sch_filtro_ativo}
 \end{figure}
-
-
-
-
-
