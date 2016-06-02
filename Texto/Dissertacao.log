@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.29)  31 MAY 2016 21:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.29)  1 JUN 2016 22:06
 entering extended mode
 **Dissertacao.tex
 (Dissertacao.tex
@@ -1305,6 +1305,9 @@ Package hyperref Info: Reference (cite) `cite.Gong2003' on input line 217.
 Package hyperref Info: Reference (cite) `cite.Lobo2005' on input line 217.
 Package hyperref Info: Reference (cite) `cite.Zhu2014' on input line 217.
 Package hyperref Info: Reference (link) `figure.caption.9' on input line 219.
+Package hyperref Info: Anchor `section*.13' on input line 219.
+
+pdftex: bookmark at 219: {\thetodo } {confuso} {section*.13}{0}{tdo}
 Package hyperref Info: Reference (cite) `cite.Gong2003' on input line 219.
 Package hyperref Info: Reference (cite) `cite.Lobo2005' on input line 219.
 Package hyperref Info: Reference (cite) `cite.Gong2003' on input line 219.
@@ -1317,7 +1320,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 220.
 Package hyperref Info: Anchor `page.11' on input line 220.
- [11
+[11
 Package `hyperref' Info: End of reference (cite) `cite.Zhu2014', line 215.
 Package `hyperref' Info: End of reference (cite) `cite.Barruel2004', line 215.
 Package `hyperref' Info: End of reference (cite) `cite.Barruel2004', line 215.
@@ -1330,8 +1333,13 @@ Package `hyperref' Info: End of reference (cite) `cite.Lobo2005', line 217.
 Package `hyperref' Info: End of reference (cite) `cite.Zhu2014', line 217.
 Package `hyperref' Info: End of reference (link) `figure.caption.9', line 219.
 ]
-Package hyperref Info: Anchor `figure.caption.13' on input line 225.
- <Cap2/Figuras/sch_filtro_passivo.png, id=212, 963.6pt x 542.025pt>
+Package hyperref Info: Reference (cite) `cite.Akagi2006' on input line 221.
+Package hyperref Info: Reference (cite) `cite.Zhu2014' on input line 221.
+Package hyperref Info: Reference (cite) `cite.Zhu2014' on input line 221.
+Package hyperref Info: Reference (cite) `cite.Chen2012' on input line 221.
+Package hyperref Info: Reference (cite) `cite.Akagi2006' on input line 221.
+Package hyperref Info: Anchor `figure.caption.14' on input line 225.
+ <Cap2/Figuras/sch_filtro_passivo.png, id=217, 963.6pt x 542.025pt>
 File: Cap2/Figuras/sch_filtro_passivo.png Graphic file (type png)
 
 <use Cap2/Figuras/sch_filtro_passivo.png>
@@ -1340,12 +1348,12 @@ Package pdftex.def Info: Cap2/Figuras/sch_filtro_passivo.png used on input line
 (pdftex.def)             Requested size: 250.38564pt x 140.84047pt.
 
 pdftex: bookmark at 228: {10} {\numberline{10}{\ignorespaces Filtro Passivo\rel
-ax }} {figure.caption.13}{0}{lof}
-Package hyperref Info: Anchor `section*.14' on input line 232.
+ax }} {figure.caption.14}{0}{lof}
+Package hyperref Info: Anchor `section*.15' on input line 232.
 pdftex: bookmark at 232: {\thetodo } {Falta um esquema do multipulso} {section*
-.14}{0}{tdo}
-Package hyperref Info: Anchor `figure.caption.15' on input line 234.
-<Cap2/Figuras/sch_PFC.png, id=213, 963.6pt x 265.74281pt>
+.15}{0}{tdo}
+Package hyperref Info: Anchor `figure.caption.16' on input line 234.
+<Cap2/Figuras/sch_PFC.png, id=218, 963.6pt x 265.74281pt>
 File: Cap2/Figuras/sch_PFC.png Graphic file (type png)
 
 <use Cap2/Figuras/sch_PFC.png>
@@ -1353,9 +1361,9 @@ Package pdftex.def Info: Cap2/Figuras/sch_PFC.png used on input line 236.
 (pdftex.def)             Requested size: 250.38564pt x 69.05095pt.
 
 pdftex: bookmark at 237: {11} {\numberline{11}{\ignorespaces Conversor PFC\rela
-x }} {figure.caption.15}{0}{lof}
-Package hyperref Info: Anchor `figure.caption.16' on input line 241.
-<Cap2/Figuras/sch_filtro_ativo.png, id=214, 963.6pt x 542.025pt>
+x }} {figure.caption.16}{0}{lof}
+Package hyperref Info: Anchor `figure.caption.17' on input line 241.
+<Cap2/Figuras/sch_filtro_ativo.png, id=219, 963.6pt x 542.025pt>
 File: Cap2/Figuras/sch_filtro_ativo.png Graphic file (type png)
 
 <use Cap2/Figuras/sch_filtro_ativo.png>
@@ -1364,7 +1372,7 @@ Package pdftex.def Info: Cap2/Figuras/sch_filtro_ativo.png used on input line 2
 (pdftex.def)             Requested size: 250.38564pt x 140.84047pt.
 
 pdftex: bookmark at 244: {12} {\numberline{12}{\ignorespaces Filtro Ativo\relax
- }} {figure.caption.16}{0}{lof}
+ }} {figure.caption.17}{0}{lof}
 ) (Dissertacao.bbl
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
@@ -1379,119 +1387,58 @@ Package `hyperref' Info: End of reference (cite) `cite.Lobo2005', line 219.
 Package `hyperref' Info: End of reference (cite) `cite.Gong2003', line 219.
 Package `hyperref' Info: End of reference (cite) `cite.Lobo2005', line 219.
 Package `hyperref' Info: End of reference (cite) `cite.Zhu2014', line 219.
- <./Cap2/Figuras/sch_filtro_passivo.png> <./Cap2/Figuras/sch_PFC.png>]
+Package `hyperref' Info: End of reference (cite) `cite.Akagi2006', line 221.
+Package `hyperref' Info: End of reference (cite) `cite.Zhu2014', line 221.
+Package `hyperref' Info: End of reference (cite) `cite.Zhu2014', line 221.
+Package `hyperref' Info: End of reference (cite) `cite.Chen2012', line 221.
+Package `hyperref' Info: End of reference (cite) `cite.Akagi2006', line 221.
+]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 Package hyperref Info: Anchor `page.13' on input line 3.
- [13 <./Cap2/Figuras/sch_filtro_ativo.png>]
-Package hyperref Info: Anchor `chapter*.17' on input line 3.
+ [13 <./Cap2/Figuras/sch_filtro_passivo.png> <./Cap2/Figuras/sch_PFC.png> <./Ca
+p2/Figuras/sch_filtro_ativo.png>]
+Package hyperref Info: Anchor `chapter*.18' on input line 3.
 Package hyperref Info: Anchor `chapter.1' on input line 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 
 pdftex: bookmark at 3: {1} {Refer\^encias Bibliogr\'aficas} {chapter.1}{0}{toc}
 
-Package hyperref Info: Anchor `cite.Babikian2002' on input line 8.
-Package hyperref Info: Anchor `cite.Moir1999' on input line 16.
-Package hyperref Info: Anchor `cite.Abdelhafez2009' on input line 22.
-Package hyperref Info: Anchor `cite.Abdel2012' on input line 28.
-Package hyperref Info: Anchor `cite.Boeing2007' on input line 34.
-Package hyperref Info: Anchor `cite.Frost2008' on input line 39.
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--46
-[]\T1/aer/m/n/12 SRIMOOLANATHAN, B. \T1/aer/m/it/12 Air-craft Elec-tri-cal Powe
-r Sys-tems - Char-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--46
-\T1/aer/m/it/12 ged with Op-por-tu-ni-ties\T1/aer/m/n/12 . 2008. Aces-sado em 2
-9/03/2015. Dis-po-ní-vel em:
- []
-
-Package hyperref Info: Anchor `cite.Cidade' on input line 47.
-Package hyperref Info: Anchor `cite.Alexander2005' on input line 52.
-Package hyperref Info: Anchor `cite.Wagner1993' on input line 57.
-Package hyperref Info: Anchor `cite.Pomilio2010' on input line 63.
-
-Underfull \hbox (badness 2359) in paragraph at lines 65--69
-[]\T1/aer/m/n/12 DECKMANN, S. M.; PO-MI-LIO, J. A. \T1/aer/m/it/12 Ava-li-a-ção
- da Qua-li-dade da Ener-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--69
-\T1/aer/m/it/12 gia Elé-trica\T1/aer/m/n/12 . 2010. Dis-po-ní-vel em: $\OML/cmm
-/m/it/12 <$\T1/aer/m/n/12 http://www. dsce. fee. uni-camp.
- []
-
-Package hyperref Info: Anchor `cite.Kassick2010' on input line 70.
+Package hyperref Info: Anchor `cite.AN779' on input line 8.
+Package hyperref Info: Anchor `cite.Mussoi2004' on input line 15.
+Package hyperref Info: Anchor `cite.Kassick2010' on input line 22.
+Package hyperref Info: Anchor `cite.Singh2008' on input line 29.
+Package hyperref Info: Anchor `cite.Gong2003' on input line 36.
+Package hyperref Info: Anchor `cite.Lobo2005' on input line 42.
+Package hyperref Info: Anchor `cite.Kolar2011' on input line 49.
+Package hyperref Info: Anchor `cite.Barbosa2002' on input line 55.
+Package hyperref Info: Anchor `cite.Nairus1996' on input line 63.
+Package hyperref Info: Anchor `cite.Takeuchi2008' on input line 69.
+Package hyperref Info: Anchor `cite.Pomilio2009' on input line 75.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 79.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 76.
-Package hyperref Info: Anchor `page.14' on input line 76.
+(babel)             in language  on input line 79.
+Package hyperref Info: Anchor `page.14' on input line 79.
 [14
 
 ]
-Package hyperref Info: Anchor `cite.Pomilio2014' on input line 77.
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--84
-[]\T1/aer/m/n/12 POMILIO, J. A. \T1/aer/m/it/12 Con-ver-so-res com Ou-tras Téc-
-ni-cas de Co-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--84
-\T1/aer/m/it/12 mu-ta-ção Su-ave\T1/aer/m/n/12 . 2014. Aces-sado em 28/05/2015.
- Dis-po-ní-vel em:
- []
-
-Package hyperref Info: Anchor `cite.Manousaka2013' on input line 85.
-Package hyperref Info: Anchor `cite.Notches' on input line 91.
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--98
-[]\T1/aer/m/n/12 AUTOMATION, R. \T1/aer/m/it/12 Eli-mi-na-ting Vol-tage Not-chi
-ng on the Dis-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--98
-\T1/aer/m/it/12 tri-bu-ti-ons Sys-tem\T1/aer/m/n/12 . Aces-sado em 29/05/2015. 
-Dis-po-ní-vel em:
- []
-
-Package hyperref Info: Anchor `cite.Fitzgerald2006' on input line 99.
-Package hyperref Info: Anchor `cite.AN779' on input line 105.
-Package hyperref Info: Anchor `cite.Mussoi2004' on input line 112.
-Package hyperref Info: Anchor `cite.Singh2008' on input line 119.
-Package hyperref Info: Anchor `cite.Gong2003' on input line 126.
-Package hyperref Info: Anchor `cite.Lobo2005' on input line 132.
-Package hyperref Info: Anchor `cite.Kolar2011' on input line 139.
-Package hyperref Info: Anchor `cite.Barbosa2002' on input line 145.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 152.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 152.
-Package hyperref Info: Anchor `page.15' on input line 152.
-[15]
-Package hyperref Info: Anchor `cite.Nairus1996' on input line 153.
-Package hyperref Info: Anchor `cite.Takeuchi2008' on input line 159.
-Package hyperref Info: Anchor `cite.Pomilio2009' on input line 165.
-Package hyperref Info: Anchor `cite.Afonso2013' on input line 170.
-Package hyperref Info: Anchor `cite.Zhu2014' on input line 176.
-Package hyperref Info: Anchor `cite.Barruel2004' on input line 182.
-Package hyperref Info: Anchor `cite.Chen2012' on input line 189.
+Package hyperref Info: Anchor `cite.Afonso2013' on input line 80.
+Package hyperref Info: Anchor `cite.Zhu2014' on input line 86.
+Package hyperref Info: Anchor `cite.Barruel2004' on input line 92.
+Package hyperref Info: Anchor `cite.Chen2012' on input line 99.
+Package hyperref Info: Anchor `cite.Akagi2006' on input line 105.
 ) 
 AED: lastpage setting LastPage
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 248.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 248.
-Package hyperref Info: Anchor `page.16' on input line 248.
-[16]
+Package hyperref Info: Anchor `page.15' on input line 248.
+[15]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 248.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 248.
@@ -1504,10 +1451,10 @@ Package rerunfilecheck Info: File `Dissertacao.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
  ) 
 Here is how much of TeX's memory you used:
- 20512 strings out of 493673
- 370387 string characters out of 3143963
- 555813 words of memory out of 3000000
- 23298 multiletter control sequences out of 15000+200000
+ 20494 strings out of 493673
+ 370209 string characters out of 3143963
+ 556523 words of memory out of 3000000
+ 23293 multiletter control sequences out of 15000+200000
  31887 words of font info for 72 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  62i,10n,76p,2822b,1093s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1520,9 +1467,9 @@ public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 msy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Dissertacao.pdf (16 pages, 828367 bytes).
+Output written on Dissertacao.pdf (15 pages, 823281 bytes).
 PDF statistics:
- 309 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
  143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
