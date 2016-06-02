@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.29)  1 JUN 2016 22:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.29)  1 JUN 2016 22:12
 entering extended mode
 **Dissertacao.tex
 (Dissertacao.tex
@@ -1407,38 +1407,106 @@ Package babel Info: Redefining portuges shorthand "|
 
 pdftex: bookmark at 3: {1} {Refer\^encias Bibliogr\'aficas} {chapter.1}{0}{toc}
 
-Package hyperref Info: Anchor `cite.AN779' on input line 8.
-Package hyperref Info: Anchor `cite.Mussoi2004' on input line 15.
-Package hyperref Info: Anchor `cite.Kassick2010' on input line 22.
-Package hyperref Info: Anchor `cite.Singh2008' on input line 29.
-Package hyperref Info: Anchor `cite.Gong2003' on input line 36.
-Package hyperref Info: Anchor `cite.Lobo2005' on input line 42.
-Package hyperref Info: Anchor `cite.Kolar2011' on input line 49.
-Package hyperref Info: Anchor `cite.Barbosa2002' on input line 55.
-Package hyperref Info: Anchor `cite.Nairus1996' on input line 63.
-Package hyperref Info: Anchor `cite.Takeuchi2008' on input line 69.
-Package hyperref Info: Anchor `cite.Pomilio2009' on input line 75.
+Package hyperref Info: Anchor `cite.Babikian2002' on input line 8.
+Package hyperref Info: Anchor `cite.Moir1999' on input line 16.
+Package hyperref Info: Anchor `cite.Abdelhafez2009' on input line 22.
+Package hyperref Info: Anchor `cite.Abdel2012' on input line 28.
+Package hyperref Info: Anchor `cite.Boeing2007' on input line 34.
+Package hyperref Info: Anchor `cite.Frost2008' on input line 39.
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--46
+[]\T1/aer/m/n/12 SRIMOOLANATHAN, B. \T1/aer/m/it/12 Air-craft Elec-tri-cal Powe
+r Sys-tems - Char-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--46
+\T1/aer/m/it/12 ged with Op-por-tu-ni-ties\T1/aer/m/n/12 . 2008. Aces-sado em 2
+9/03/2015. Dis-po-ní-vel em:
+ []
+
+Package hyperref Info: Anchor `cite.Cidade' on input line 47.
+Package hyperref Info: Anchor `cite.Alexander2005' on input line 52.
+Package hyperref Info: Anchor `cite.Wagner1993' on input line 57.
+Package hyperref Info: Anchor `cite.Pomilio2010' on input line 63.
+
+Underfull \hbox (badness 2359) in paragraph at lines 65--69
+[]\T1/aer/m/n/12 DECKMANN, S. M.; PO-MI-LIO, J. A. \T1/aer/m/it/12 Ava-li-a-ção
+ da Qua-li-dade da Ener-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--69
+\T1/aer/m/it/12 gia Elé-trica\T1/aer/m/n/12 . 2010. Dis-po-ní-vel em: $\OML/cmm
+/m/it/12 <$\T1/aer/m/n/12 http://www. dsce. fee. uni-camp.
+ []
+
+Package hyperref Info: Anchor `cite.Kassick2010' on input line 70.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 79.
-Package hyperref Info: Anchor `page.14' on input line 79.
+(babel)             in language  on input line 76.
+Package hyperref Info: Anchor `page.14' on input line 76.
 [14
 
 ]
-Package hyperref Info: Anchor `cite.Afonso2013' on input line 80.
-Package hyperref Info: Anchor `cite.Zhu2014' on input line 86.
-Package hyperref Info: Anchor `cite.Barruel2004' on input line 92.
-Package hyperref Info: Anchor `cite.Chen2012' on input line 99.
-Package hyperref Info: Anchor `cite.Akagi2006' on input line 105.
+Package hyperref Info: Anchor `cite.Pomilio2014' on input line 77.
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--84
+[]\T1/aer/m/n/12 POMILIO, J. A. \T1/aer/m/it/12 Con-ver-so-res com Ou-tras Téc-
+ni-cas de Co-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--84
+\T1/aer/m/it/12 mu-ta-ção Su-ave\T1/aer/m/n/12 . 2014. Aces-sado em 28/05/2015.
+ Dis-po-ní-vel em:
+ []
+
+Package hyperref Info: Anchor `cite.Manousaka2013' on input line 85.
+Package hyperref Info: Anchor `cite.Notches' on input line 91.
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--98
+[]\T1/aer/m/n/12 AUTOMATION, R. \T1/aer/m/it/12 Eli-mi-na-ting Vol-tage Not-chi
+ng on the Dis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--98
+\T1/aer/m/it/12 tri-bu-ti-ons Sys-tem\T1/aer/m/n/12 . Aces-sado em 29/05/2015. 
+Dis-po-ní-vel em:
+ []
+
+Package hyperref Info: Anchor `cite.Fitzgerald2006' on input line 99.
+Package hyperref Info: Anchor `cite.AN779' on input line 105.
+Package hyperref Info: Anchor `cite.Mussoi2004' on input line 112.
+Package hyperref Info: Anchor `cite.Singh2008' on input line 119.
+Package hyperref Info: Anchor `cite.Gong2003' on input line 126.
+Package hyperref Info: Anchor `cite.Lobo2005' on input line 132.
+Package hyperref Info: Anchor `cite.Kolar2011' on input line 139.
+Package hyperref Info: Anchor `cite.Barbosa2002' on input line 145.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 152.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 152.
+Package hyperref Info: Anchor `page.15' on input line 152.
+[15]
+Package hyperref Info: Anchor `cite.Nairus1996' on input line 153.
+Package hyperref Info: Anchor `cite.Takeuchi2008' on input line 159.
+Package hyperref Info: Anchor `cite.Pomilio2009' on input line 165.
+Package hyperref Info: Anchor `cite.Afonso2013' on input line 170.
+Package hyperref Info: Anchor `cite.Zhu2014' on input line 176.
+Package hyperref Info: Anchor `cite.Barruel2004' on input line 182.
+Package hyperref Info: Anchor `cite.Chen2012' on input line 189.
+Package hyperref Info: Anchor `cite.Akagi2006' on input line 195.
 ) 
 AED: lastpage setting LastPage
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 248.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 248.
-Package hyperref Info: Anchor `page.15' on input line 248.
-[15]
+Package hyperref Info: Anchor `page.16' on input line 248.
+[16]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 248.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 248.
@@ -1451,10 +1519,10 @@ Package rerunfilecheck Info: File `Dissertacao.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
  ) 
 Here is how much of TeX's memory you used:
- 20494 strings out of 493673
- 370209 string characters out of 3143963
- 556523 words of memory out of 3000000
- 23293 multiletter control sequences out of 15000+200000
+ 20523 strings out of 493673
+ 370608 string characters out of 3143963
+ 556992 words of memory out of 3000000
+ 23307 multiletter control sequences out of 15000+200000
  31887 words of font info for 72 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  62i,10n,76p,2822b,1093s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1467,9 +1535,9 @@ public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 msy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Dissertacao.pdf (15 pages, 823281 bytes).
+Output written on Dissertacao.pdf (16 pages, 831319 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
+ 316 PDF objects out of 1000 (max. 8388607)
+ 78 named destinations out of 1000 (max. 500000)
  143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
