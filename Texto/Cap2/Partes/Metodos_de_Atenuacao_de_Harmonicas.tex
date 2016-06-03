@@ -76,7 +76,7 @@ Para o problema de atenuar as harmônicas de mais alta frequência que a fundament
 
 \subsubsection{Retificadores Multipulso}
 
-Retificadores multipulso são dispositivos condicionadores de tensão elétrica que convertem tensões em CA para CC com a vantagem de possuírem alto fator de potência. Neste tipo de circuito o retificador é concebido utilizando uma filosofia semelhante a um retificador comum com pontes de diodo, porém o arranjo dos semicondutores junto com autotransformadores faz com que a corrente requerida da fonte possua uma forma quase senoidal. Outra particularidade desse conversor é a ausência de controle externo sobre os semicondutores, sendo que a comutação no retificador ocorre nos diodos e seu funcionamento depende apenas das tensões e correntes aplicadas sobre seus terminais.
+Retificadores multipulso são dispositivos condicionadores de energia elétrica que convertem tensões CA para CC com alto fator de potência. Neste tipo de circuito o retificador é concebido utilizando uma filosofia semelhante a um retificador comum com pontes de diodo, porém o arranjo dos semicondutores junto com autotransformadores faz com que a corrente requerida da fonte possua uma forma quase senoidal. Outra particularidade desse conversor é a ausência de controle externo sobre os semicondutores, sendo que a comutação no retificador ocorre nos diodos e seu funcionamento depende apenas das tensões e correntes aplicadas sobre seus terminais.
 
 Os retificadores são comumente encontrados com as topologias dos circuitos partindo de 12 para arranjos de mais pulsos, como 18, 24, 30, ou ainda maiores valores para aumentar a qualidade de energia com relação ao \textit{THD} \cite{Singh2008}. O princípio de operação desse tipo de conversor é realizado pelo arranjo do autotransformador juntamente operando com os diodos. Os autotransformadores são realizados de tal forma que criam-se formas de ondas específicas e defasadas com a entrada de modo que são aplicadas tensões nos terminais dos diodos para sua operação em condução ou bloqueio. A operação de comutação dos diodos decorre na retificação das formas de onda de maneira que requerem pulsos de corrente extraídos da fonte. A composição dos pulsos de corrente ocorridos nos diodos visto pelo lado da entrada do conversor é dada de forma quase senoidal. Existem inúmera maneiras de conceber um conversor multipulso, porém de maneira simplificada e genérica os elementos essenciais são concebidos e arranjados como mostrado na figura \ref{fig:sch_multipulso}. Ainda, o aumento do número de pulsos do conversor aumenta a qualidade de energia, entretanto eleva a complexidade dos elementos magnéticos do mesmo. Nas figuras \ref{fig:12_pulse} e \ref{fig:18_pulse} são mostrados típicos retificadores de 12 e 18 pulsos, respectivamente, com suas específicas formas de onda. Nessas figuras fica evidente a melhora na forma da corrente senoidal do retificador de 18 pulsos com relação ao de 12 \cite{Singh2008}.
 
@@ -149,13 +149,21 @@ A topologia de um conversor regulado com correção de fator de potência está inse
 	\label{fig:3ph_rectifier}
 \end{figure}
 
-Encontram-se inúmeras topologias de conversores com correção de fator de potência na literatura. O mais utilizado é o conversor com correção de fator de potência, ou \textit{Power Factor Correction} (PFC) do tipo \textit{boost}. Esse conversor é concebido pela ponte de diodos arranjados juntamente com chaves controladamente comutadas. Ainda, pela flexibilidade de possíveis arranjos dos semicondutores sob a ponte de diodos e pelas linhas de entrada e saída de energia, uma gama imensa de conversores do tipo \textit{PFC boost} pode ser concebido. Para elucidar o funcionamento deste tipo de conversor será estudado o circuito Prasad-Ziogas (figura \ref{fig:PFC_converter}), cuja topologia é simples e apresenta uma única chave controlada. Também para facilitar o entendimento, será explicado a operação em modo de condução descontínua. O princípio de funcionamento é dado pelo controle da chave $S_1$ que, quando em estado de condução, aplica a tensão da fonte sobre os indutores de entrada $L_i,\;i=1,2,3$. Isso faz com que as correntes nos indutores cresçam de forma proporcional a tensão aplicada em seus terminais pela fonte de entrada. Quando o a chave $S_1$ para de conduzir, as correntes dos indutores são levadas à zero \todo{Corrente levada a zero? ta serto isso?}. Por ter a frequência de comutação muito maior que a frequência da rede, tem-se que a corrente de entrada apresenta uma forma modulada em alta frequência e facilmente filtrada com filtros passa-baixo \cite{Nairus1996, Takeuchi2008}. Com isso é possível que a corrente apresente formato senoidal e em fase com a tensão. Na prática o funcionamento desse conversor apresenta certa distorção harmônica e não suporta alta capacidade de potência, de modo que outras topologias hibridas com circuitos \textit{PFC boost} e \textit{PFC buck} sejam utilizadas, ou ainda, pelo controle individual do fator de potência de cada fase para aumentar a capacidade de condicionamento de energia e tornar o FP próximo da unidade \cite{Kolar2011}.
+
+Encontram-se inúmeras topologias de conversores com correção de fator de potência na literatura. O mais utilizado é o conversor com correção de fator de potência, ou \textit{Power Factor Correction} (PFC) do tipo \textit{boost}. Esse conversor é concebido pela ponte de diodos arranjados juntamente com chaves controladamente comutadas. Ainda, pela flexibilidade de possíveis arranjos dos semicondutores sob a ponte de diodos e pelas linhas de entrada e saída de energia, uma gama imensa de conversores do tipo \textit{PFC boost} pode ser concebido. Para elucidar o funcionamento deste tipo de conversor será estudado o circuito Prasad-Ziogas (figura \ref{fig:PFC_converter}), cuja topologia é simples e apresenta uma única chave controlada. Também para facilitar o entendimento, será explicado a operação em modo de condução descontínua. O princípio de funcionamento é dado pelo controle da chave $S_1$ que, quando em estado de condução, aplica a tensão da fonte sobre os indutores de entrada $L_i,\;i=1,2,3$. Isso faz com que as correntes nos indutores cresçam de forma proporcional a tensão aplicada em seus terminais pela fonte de entrada. Quando o a chave $S_1$ para de conduzir, as correntes dos indutores decaem à zero. Por ter a frequência de comutação muito maior que a frequência da rede, tem-se que a corrente de entrada apresenta uma forma modulada em amplitude de alta frequência e facilmente filtrada com filtros passa-baixo \cite{Nairus1996, Takeuchi2008}. Sendo assim o circuito completo de um conversor com PFC é concebível com um filtro passa baixa aplicado na entrada do sistema. Todavia, por ter uma modulação em alta frequência, tem-se que o filtro possui frequência de corte alta e suas dimensões e peso são reduzidos. O diagrama completo de um sistema composto pelo filtro, retificador com PFC e o regulador é mostrado na figura \ref{fig:sch_PFC}. Após a filtragem é possível que a corrente apresente formato senoidal e em fase com a tensão. Na prática o funcionamento desse conversor apresenta certa distorção harmônica e não suporta alta capacidade de potência, de modo que outras topologias hibridas com circuitos \textit{PFC boost} e \textit{PFC buck} sejam utilizadas, ou ainda, pelo controle individual do fator de potência de cada fase para aumentar a capacidade de condicionamento de energia e tornar o FP próximo da unidade \cite{Kolar2011}.
 
 \begin{figure}[!htbp] %Conversor com correção de fator de potência do tipo Prasad-Ziogas \cite{Takeuchi2008}
 	\centering
 	\includegraphics[width=0.45\textwidth]{Cap2/Figuras/PFC_converter.png}
 	\caption{Conversor com correção de fator de potência do tipo Prasad-Ziogas \cite{Takeuchi2008}}
 	\label{fig:PFC_converter}
+\end{figure}
+
+\begin{figure}[!htbp] %Diagrama básico do conversor PFC
+	\centering
+	\includegraphics[width=0.65\textwidth]{Cap2/Figuras/sch_PFC.png}
+	\caption{Diagrama básico do conversor PFC}
+	\label{fig:sch_PFC}
 \end{figure}
 
 %\begin{figure*}[!htbp] 
@@ -177,7 +185,7 @@ Encontram-se inúmeras topologias de conversores com correção de fator de potênci
 %	\label{fig:rectifiers}
 %\end{figure*}
 
-Como resultado da operação do conversor Prasad-Ziogas, as formas de onda nos indutores de entrada são tidos como mostrado na figura \ref{fig:PFC_waveforms}. Como mencionado, a forma de onda apresenta modulação em amplitude (figura \ref{fig:PFC_unfilt}), assim o espectro de frequência da corrente de entrada apresenta um pico de alto valor na fundamental juntamente com harmônicas nas altas frequências. Como consequência, é possível implementar filtros passa-baixo com a alta frequência de corte nas linhas da rede, de modo que as harmônicas sejam atenuadas, sobrando apenas a componente fundamental. A corrente de linha resultante após a filtragem é mostrado na figura \ref{fig:PFC_filt}.
+Como resultado da operação do conversor Prasad-Ziogas, as formas de onda nos indutores de entrada são mostradas na figura \ref{fig:PFC_waveforms}. Como mencionado, a forma de onda apresenta modulação em amplitude (figura \ref{fig:PFC_unfilt}), assim o espectro de frequência da corrente de entrada apresenta um pico na componente fundamental juntamente com harmônicas nas altas frequências. Com a implementação de filtros passa-baixo com a alta frequência de corte, são atenuadas as componentes de alta frequência, sobrando apenas a fundamental. A corrente de linha resultante após a filtragem é mostrado na figura \ref{fig:PFC_filt}.
 
 \begin{figure*}[!htbp] % Corrente de entrada para o caso sem e com filtro na linha
 	\centering
@@ -197,7 +205,7 @@ Como resultado da operação do conversor Prasad-Ziogas, as formas de onda nos ind
 	\caption{Corrente de entrada para o caso sem e com filtro na linha}
 	\label{fig:PFC_waveforms}
 \end{figure*}
-\todo{Arrumar espessura da linha da figura (a)}
+
 \subsubsection{Filtros Ativos}
 
 Filtros ativos podem ser classificados em dois tipos: os baseados em amplificadores operacionais e os baseados em conversores CC-CA. O princípio de funcionamento do primeiro tipo de filtro é igual em sistema passivo, onde a operação é dada pela atenuação de determinadas componentes de frequência da rede. A diferença desse tipo de filtros ativos com os passivos é que no primeiro há a presença de amplificadores operacionais, a qual necessitam de fontes externas para funcionar adequadamente. Esse tipo de filtragem é muito utilizado em sinais de baixa potência, sendo que para o escopo desse trabalho torna-se inviável dado o tipo de potência do sistema elétrico de aeronaves. 
@@ -238,12 +246,7 @@ Os filtros ativos baseados em conversores CC-CA possuem diversas características
 
 
 
-\begin{figure}[!htbp]
-	\centering
-	\includegraphics[width=0.55\textwidth]{Cap2/Figuras/sch_PFC.png}
-	\caption{Conversor PFC}
-	\label{fig:sch_PFC}
-\end{figure}
+
 
 \begin{figure}[!htbp]
 	\centering
