@@ -1,7 +1,8 @@
 \section{Métodos de Correção de Fator de Potência} \label{sec:Metodos_de_Atenuação_de_Harmonicas}
-%métodos são necessários para mitigar esse problema
+%Passou pelo CRIVO do WORD
+
 \todo{falar brevemente de correção de fator de potência que será explicado em outra seção}
-Existem métodos bem concebidos na literatura com relação à metodologias para mitigar o problema da distorção harmônicas em sistema elétricos. Em um sistema de geração senoidal pura, a fonte de distorção nas tensões dá-se pela presença de cargas não lineares na rede elétrica, como descrito na seção \ref{sec:Problemas_Causados_por_Cargas_Nao_Lineares_na_Rede}, e o método para mitigar o problema da distorção nos níveis de tensão é dado pela inclusão de filtros nas linhas do sistema. A inserção dos filtros na rede elétrica são para casos gerais onde a origem das distorções harmônicas são desde retificadores à equipamentos eletrônicos interferindo na qualidade de energia. Dentre as cargas que mais influenciam na geração de componentes harmônicas, os retificadores são os que mais afetam a qualidade de energia. Isto deve-se principalmente à necessidade de equipamentos eletrônicos serem alimentados por tensão contínua, o que torna abundante a presença de retificadores em sistemas elétricos. Deste modo o foco do estudo dos métodos de atenuação de harmônicas não se dá apenas no estudo de filtros, mas sim no estudo de retificadores cuja operação apresenta alto fator de potência.
+Existem métodos bem concebidos na literatura com relação à metodologias para mitigar o problema da distorção harmônicas em sistema elétricos. Em um sistema de geração senoidal pura, a fonte de distorção nas tensões dá-se pela presença de cargas não lineares na rede elétrica, como descrito na seção \ref{sec:Problemas_Causados_por_Cargas_Nao_Lineares_na_Rede}, e o método para mitigar o problema da distorção nos níveis de tensão é dado pela inclusão de filtros nas linhas do sistema. A inserção dos filtros na rede elétrica é para casos gerais onde a origem das distorções harmônicas são desde retificadores à equipamentos eletrônicos interferindo na qualidade de energia. Dentre as cargas que mais influenciam na geração de componentes harmônicas, os retificadores são os que mais afetam a qualidade de energia. Isto deve-se principalmente à necessidade de equipamentos eletrônicos serem alimentados por tensão contínua, o que torna abundante a presença de retificadores em sistemas elétricos. Deste modo o foco do estudo dos métodos de atenuação de harmônicas não se dá apenas no estudo de filtros, mas sim no estudo de retificadores cuja operação apresenta alto fator de potência.
 
 \subsection{Sistemas Passivos}
 
@@ -27,14 +28,14 @@ As principais topologias de filtros passivos podem ser divididas em 4 tipos:
 \begin{enumerate}[i),leftmargin=1.75cm,itemindent=0cm] % PODE SER ADULTERADO \begin{enumerate}[i),leftmargin=1.75cm,itemindent=0cm] ou \begin{enumerate}[i),leftmargin=0cm,itemindent=1.75cm]
 	\item 
 	\textit{Filtro Passa Baixa:} A concepção desse tipo de filtro age de forma a criar caminhos de alta impedância entre a entrada e saída do sistema para frequências mais elevadas que $f_c$ \cite{Kassick2010}. Desse modo, comparativamente ao sinal da entrada, a saída possui a mesma característica de amplitude e potência para frequências menores que $f_c$, mas atenuam componentes do espectro cujo valor é maior que a frequência de corte, ou seja, para $f>f_c$. Ainda, deve-se ter em mente que, no regime de corte, quanto maior o valor da frequência das componentes que compõem o sinal, maior a redução em suas amplitudes \cite{Mussoi2004}. A resposta em módulo do sistema de um filtro passa baixa pode ser visto na figura \ref{fig:LP_filter}.
-
+	
 	\begin{figure}[!htbp] %Esquema genérico de um conversor multipulso
 		\centering
 		\includegraphics[width=0.48\textwidth]{Cap2/Figuras/LP_filter_BW.png}
 		\caption{Resposta em frequência de um filtro passa baixa}
 		\label{fig:LP_filter}
 	\end{figure}
-
+	
 	\item 
 	\textit{Filtro Passa Alta:} Analogamente ao filtro passa baixa, os sistemas com a topologia passa alta possuem caminhos de alta impedância para componentes de baixa frequência que são aplicadas na entrada do sistema \cite{Kassick2010}. Desse modo, a saída possui um espectro com a predominância de componentes de alta frequência. Como ocorre nos filtros passa baixa, a frequência que delimita a atenuação é denominada frequência de corte, e componentes com valores mais elevados possuem ganho unitário, ou seja, não são alterados pelo sistema \cite{Mussoi2004}. O espectro típico de um filtro passa alto pode ser visualizado na figura \ref{fig:HP_filter}. 
 	
@@ -44,17 +45,17 @@ As principais topologias de filtros passivos podem ser divididas em 4 tipos:
 		\caption{Resposta em frequência de um filtro passa alta}
 		\label{fig:HP_filter}
 	\end{figure}
-		
+	
 	\item 
 	\textit{Filtro Passa Faixa:} Os filtros passa faixa são caracterizados por circuitos cuja resposta apresenta a passagem de sinais com frequências situadas numa faixa intermediária no espectro, atenuando as amplitude dos sinais que estão fora desse intervalo. A frequências que delimitam esta faixa são denominadas frequência de corte inferior ($f_L$) e frequência de corte superior ($f_H$) \cite{Mussoi2004}. Desse modo, o comportamento do sistema caracteriza-se pela atenuação de componentes que possui frequência abaixo de $f_L$ e acima de $f_H$. Outra característica fundamental dos filtros passa faixa é a largura de banda definida pelo intervalo onde o sinal não é atenuado. Em termos numéricos, esse valor é definido por $f_H-f_L$. Ainda existe a frequência central $f_0$ ou frequência de ressonância, a qual é a média geométrica entre a frequência de corte inferior $f_L$ e a frequência de corte superior $f_H$ da banda de passagem, ou seja, $f_0=\sqrt{f_L.f_H}$. O módulo da resposta em frequência típica de um filtro passa faixa é mostrada na figura \ref{fig:BP_filter}.
-
+	
 	\begin{figure}[!htbp] %Esquema genérico de um conversor multipulso
 		\centering
 		\includegraphics[width=0.48\textwidth]{Cap2/Figuras/BP_filter_BW.png}
 		\caption{Resposta em frequência de um filtro passa faixa}
 		\label{fig:BP_filter}
 	\end{figure}
-
+	
 	\item 
 	\textit{Filtro Rejeita Faixa:} Ao contrário do filtro passa faixa, este tipo de filtro é definido por atenuar componentes cujas frequências estão contidos em um determinado intervalo, enquanto as amplitudes das componentes fora deste não são alteradas.  Analogamente ao passa faixa, existe a frequência de corte inferior e superior definidas por $f_L$ e $f_H$, respectivamente \cite{Mussoi2004}. As componentes com valores de frequência menores que $f_L$ e maiores que $f_H$ são mantidas iguais ao sinal de entrada, ao passo que os componentes contidos dentro do intervalo $f_L\;-\;f_H$ possuem as amplitudes atenuadas. O espectro de frequência desse tipo de filtro pode ser visto na figura \ref{fig:RB_filter}.
 	
@@ -64,46 +65,46 @@ As principais topologias de filtros passivos podem ser divididas em 4 tipos:
 		\caption{Resposta em frequência de um filtro rejeita faixa}
 		\label{fig:RB_filter}
 	\end{figure}
-		
-%	\begin{figure*}[!htbp] %Ganho em função da frequência de filtros passivos típicos
-%		\centering
-%		\begin{subfigure}[b]{0.48\textwidth}
-%			\centering
-%			\includegraphics[width=\textwidth]{Cap2/Figuras/LP_filter_BW.png}
-%			\caption{\centering Resposta em frequência de um filtro passa baixa} 
-%			\label{fig:LP_filter}
-%		\end{subfigure}%
-%		\hfill
-%		\begin{subfigure}[b]{0.48\textwidth}  
-%			\centering 
-%			\includegraphics[width=\textwidth]{Cap2/Figuras/HP_filter_BW.png}
-%			\caption{\centering Resposta em frequência de um filtro passa alta}    
-%			\label{fig:HP_filter}
-%		\end{subfigure}%
-%		\vskip\baselineskip
-%		\begin{subfigure}[b]{0.48\textwidth}   
-%			\centering 
-%			\includegraphics[width=\textwidth]{Cap2/Figuras/BP_filter_BW.png}
-%			\caption{\centering Resposta em frequência de um filtro passa faixa}   
-%			\label{fig:BP_filter}
-%		\end{subfigure}%
-%		\hfill
-%		\begin{subfigure}[b]{0.48\textwidth}   
-%			\centering 
-%			\includegraphics[width=\textwidth]{Cap2/Figuras/RB_filter_BW.png}
-%			\caption{\centering Resposta em frequência de um filtro rejeita faixa}   
-%			\label{fig:RB_filter}
-%		\end{subfigure}%
-%		\caption{Ganho em função da frequência de filtros passivos típicos} 
-%		\label{fig:mean and std of nets}
-%	\end{figure*}
+	
+	%	\begin{figure*}[!htbp] %Ganho em função da frequência de filtros passivos típicos
+	%		\centering
+	%		\begin{subfigure}[b]{0.48\textwidth}
+	%			\centering
+	%			\includegraphics[width=\textwidth]{Cap2/Figuras/LP_filter_BW.png}
+	%			\caption{\centering Resposta em frequência de um filtro passa baixa} 
+	%			\label{fig:LP_filter}
+	%		\end{subfigure}%
+	%		\hfill
+	%		\begin{subfigure}[b]{0.48\textwidth}  
+	%			\centering 
+	%			\includegraphics[width=\textwidth]{Cap2/Figuras/HP_filter_BW.png}
+	%			\caption{\centering Resposta em frequência de um filtro passa alta}    
+	%			\label{fig:HP_filter}
+	%		\end{subfigure}%
+	%		\vskip\baselineskip
+	%		\begin{subfigure}[b]{0.48\textwidth}   
+	%			\centering 
+	%			\includegraphics[width=\textwidth]{Cap2/Figuras/BP_filter_BW.png}
+	%			\caption{\centering Resposta em frequência de um filtro passa faixa}   
+	%			\label{fig:BP_filter}
+	%		\end{subfigure}%
+	%		\hfill
+	%		\begin{subfigure}[b]{0.48\textwidth}   
+	%			\centering 
+	%			\includegraphics[width=\textwidth]{Cap2/Figuras/RB_filter_BW.png}
+	%			\caption{\centering Resposta em frequência de um filtro rejeita faixa}   
+	%			\label{fig:RB_filter}
+	%		\end{subfigure}%
+	%		\caption{Ganho em função da frequência de filtros passivos típicos} 
+	%		\label{fig:mean and std of nets}
+	%	\end{figure*}
 	
 \end{enumerate}
 
 Na questão de aumentar a qualidade de energia de sistemas elétricos, tem-se que a utilização de filtros passa baixa é mais adequada para o problema, pois são os componentes harmônicos de frequência mais elevada que a fundamental que acabam por degradar a qualidade de energia do sistema elétrico.
 
 \subsubsection{Retificadores Multipulso}
-\todo{Explicar que os retificadores são os principais causadores dos harmônicos, pois os retificadores não são meio de acabar dcom o problema}
+\todo{Explicar que os retificadores são os principais causadores dos harmônicos, pois os retificadores não são meio de acabar com o problema}
 Retificadores multipulso são dispositivos condicionadores de energia elétrica que convertem tensões CA para CC com a característica de ter alto fator de potência. Neste tipo de circuito o retificador é concebido utilizando uma filosofia semelhante a um retificador comum com pontes de diodo, porém o arranjo dos semicondutores junto com autotransformadores faz com que a corrente requerida da fonte possua uma forma quase senoidal. Outra particularidade desse conversor é a ausência de controle externo sobre os semicondutores, sendo que a comutação no retificador ocorre nos diodos e seu funcionamento depende apenas das tensões e correntes aplicadas sobre seus terminais.
 
 Os retificadores são comumente encontrados com as topologias dos circuitos partindo de 12 para arranjos de mais pulsos, como 18, 24, 30, ou ainda maiores valores para aumentar a qualidade de energia com relação ao \textit{THD} \cite{Singh2008}. O princípio de operação desse tipo de conversor é realizado pelo arranjo do autotransformador juntamente com os diodos. Os autotransformadores são realizados de tal forma que criam-se formas de ondas específicas e defasadas com a entrada de modo que são aplicadas tensões nos terminais dos diodos para sua operação em condução ou bloqueio. A operação de comutação dos diodos decorre na retificação das formas de onda de maneira que requerem pulsos de corrente extraídos da fonte. A composição dos pulsos de corrente ocorridos nos diodos visto pelo lado da entrada do conversor é dada de forma quase senoidal. Existem inúmera maneiras de conceber um conversor multipulso, porém de maneira simplificada e genérica os elementos essenciais são concebidos e arranjados como mostrado na figura \ref{fig:sch_multipulso}. Ainda, o aumento do número de pulsos do conversor aumenta a qualidade de energia, entretanto eleva a complexidade dos elementos magnéticos do mesmo. Nas figuras \ref{fig:12_pulse} e \ref{fig:18_pulse} são mostrados típicos retificadores de 12 e 18 pulsos, respectivamente, com suas específicas formas de onda. Nessas figuras fica evidente a melhora na forma da corrente senoidal do retificador de 18 pulsos com relação ao de 12 \cite{Singh2008}.
@@ -153,7 +154,7 @@ Os retificadores são comumente encontrados com as topologias dos circuitos parti
 	\label{fig:18_pulse}
 \end{figure*}
 
-Cabe lembrar que a utilização de retificadores multipulso é realizável tanto em redes de 60 Hz quanto em sistemas de elevada frequência, como 400-800 Hz \cite{Gong2003,Lobo2005}. Isto faz-se necessário para atender o mercado aeronáutico que possui o sistema elétrico operando em 400 Hz, ou ainda, até 800 Hz para geração em frequência variável.\todo{isso tem nas características. Ver se é realemte necessário ter aqui}
+Cabe lembrar que a utilização de retificadores multipulso é realizável tanto em redes de 60 Hz quanto em sistemas de elevada frequência, como 400-800 Hz \cite{Gong2003,Lobo2005}. Isto faz-se necessário para atender o mercado aeronáutico que possui o sistema elétrico operando em 400 Hz, ou ainda, até 800 Hz para geração em frequência variável.\todo{isso tem nas características. Ver se é realmente necessário ter aqui}
 
 \subsection{Sistemas Ativos}
 
@@ -218,10 +219,10 @@ Como resultado da operação do conversor Prasad-Ziogas, as formas de onda nos ind
 \begin{figure*}[!htbp] % Corrente de entrada para o caso sem e com filtro na linha
 	\centering
 	\begin{subfigure}[b]{0.499\textwidth}
-	\centering
-	\includegraphics[width=\textwidth]{Cap2/Figuras/PFC_unfilt.eps}
-	\caption{Corrente dos indutores de entrada sem filtragem}
-	\label{fig:PFC_unfilt}
+		\centering
+		\includegraphics[width=\textwidth]{Cap2/Figuras/PFC_unfilt.eps}
+		\caption{Corrente dos indutores de entrada sem filtragem}
+		\label{fig:PFC_unfilt}
 	\end{subfigure}%
 	\hfill
 	\begin{subfigure}[b]{0.499\textwidth}  
@@ -254,27 +255,23 @@ A filtragem baseada em conversores CC-AC tem por princípio a utilização de inver
 	\label{fig:serie}
 \end{figure}
 
-Em um sistema elétrico genérico com a presença de cargas não, pode-se garantir a qualidade de energia de todo o sistema com a correção da forma de onda da corrente de todos os pontos de alimentação das carga. Caso o sistema não possua essa característica para correção da qualidade de energia, mas seja desejado que uma nova carga não interfira no sistema e, além disso tenha uma forma de onda de tensão pura em seus terminais, pode-se utilizar a topologia híbrida, onde há a presença tanto do filtro \textit{shunt} quanto série num mesmo ponto de alimentação. Com isso, tem-se que possíveis distorções da tensão são corrigidas pelo filtro série, e ainda, garante-se que a corrente dessa carga não interfira no resto do sistema com relação a distorção.
+Em um sistema elétrico genérico com a presença de cargas não, pode-se garantir a qualidade de energia de todo o sistema com a correção da forma de onda da corrente de todos os pontos de alimentação das cargas. Caso o sistema não possua essa característica para correção da qualidade de energia, mas seja desejado que uma nova carga não interfira no sistema e, além disso tenha uma forma de onda de tensão pura em seus terminais, pode-se utilizar a topologia híbrida, onde há a presença tanto do filtro \textit{shunt} quanto série num mesmo ponto de alimentação. Com isso, tem-se que possíveis distorções da tensão são corrigidas pelo filtro série, e ainda, garante-se que a corrente dessa carga não interfira no resto do sistema com relação a distorção.
 
 \section{Características de Dispositivos de Correção de Fator de Potência em Sistemas Elétricos de Aeronaves} \label{sec:Características_de_Dispositivos_de_Correção_de_Fator_de_Potência_em_Sistemas_Elétricos_de_Aeronaves}
 
-Dada a importância da manutenção da qualidade de energia em um sistemas elétrico genérico para o correto funcionamento dos equipamentos nele conectados, diversas topologias de circuitos podem ser inseridas nos sistemas de modo a garantir o fator de potência para próximo a unidade. As topologias vão desde a implementação de filtros na rede ou também a utilização de conversores com alto fator de potência, devido à sua grande utilização e importância na manutenção da qualidade de energia em redes elétricas. Entretanto cada sistema elétrico possuí características que tornam-se vantajoso a escolha de topologias de correção de fator de potência quando comparado a outras. A escolha do sistema de correção de fator de potência depende de diversos fatores que vão desde as características do sistema elétrico e seu contexto instalativo, quanto às particularidade de cada tipo de sistema. Dentre as diversas características desejáveis destacam-se a simplicidade, robustez, peso, custo, confiabilidade, eficiência e etc. Cada topologia apresenta vantagens e desvantagens frente aos requisitos do sistema elétrico a ser utilizado, e cabe ao projetista identificar as característica desejadas para cada tipo de sistema e determinar qual a topologia com alto de fator de potência adequa-se de melhor maneira a cumprir os requisitos.
+Dada a importância da manutenção da qualidade de energia em um sistema elétrico genérico para o correto funcionamento dos equipamentos nele conectados, diversas topologias de circuitos podem ser inseridas nos sistemas de modo a garantir o fator de potência para próximo a unidade. As topologias vão desde a implementação de filtros na rede ou também a utilização de conversores com alto fator de potência, devido à sua grande utilização e importância na manutenção da qualidade de energia em redes elétricas. Entretanto cada sistema elétrico possuí características distintas que se torna vantajoso a utilização de dispositivos para correção de fator de potência quando comparado a outras. A escolha do sistema de correção de fator de potência depende de diversos fatores que vão desde as características do sistema elétrico e seu contexto instalativo, quanto às particularidades de cada tipo de sistema. Dentre as diversas características desejáveis destacam-se a simplicidade, robustez, peso, custo, confiabilidade, eficiência e etc.. Cada topologia apresenta vantagens e desvantagens frente aos requisitos do sistema elétrico a ser utilizado, e cabe ao projetista identificar as característica desejadas para cada tipo de sistema e determinar qual a topologia com alto de fator de potência adéqua-se de melhor maneira a cumprir os requisitos.
 
-O sistema elétrico de uma aeronave é crítico na segurança operacional da mesma. Com a tendência de aumento do uso de sistemas eletricamente energizado com o advento do \textit{MEA}, a dependência do sistema elétrico e a criticalidade na segurança tende a aumentar. Com isso, o sistema elétrico de aeronaves possuem requisitos de modo a garantir sua integridade em voo, sendo que os equipamentos ligados nesse sistema necessitam ser robustos e confiáveis de modo que eventuais falhas não prejudiquem os sistemas e a segurança operacional. Dentre outras características desejáveis para um equipamento em uma aeronave, destaca o peso e volume para viabilizar o projeto economicamente. Isto deve-se principalmente à grande dependência entre o consumo de combustível com o peso da aeronave, além da dependência do volume com o espaço da cabine, influenciando na aerodinâmica e no arrasto. Por fim, os sistemas elétricos aeronáuticos com tensão alternada operam em 400 Hz para frequência fixa e entre 350 a 800 Hz em frequência variável. O projeto de sistemas de correção de fator de potência e conversores AC-DC devem considerar tais frequências na entrada de alimentação, visto que quando comparados com os sistemas comumente encontrados de 50-60 Hz as características dos sistemas nas frequências mais altas apresentam singularidades que devem ser consideradas e que podem determinar qual a tecnologia mais adequada no projeto. Os métodos de correção de fator de potência enunciados na seção \ref{sec:Metodos_de_Atenuação_de_Harmonicas} serão abordados com enfase na utilização aeronáutica de modo que suas principais características serão abordadas e a proposição da utilização de filtros ativos em aplicação aeronáutica será melhor elucidada.
+O sistema elétrico de uma aeronave é crítico na segurança operacional da mesma. Com a tendência de aumento do uso de sistemas eletricamente energizado com o advento do \textit{MEA}, a dependência do sistema elétrico e a criticalidade na segurança tende a aumentar. Com isso, os sistemas elétricos de aeronaves possuem requisitos de modo a garantir sua integridade em voo, sendo que os equipamentos ligados nesse sistema necessitam ser robustos e confiáveis de modo que eventuais falhas não prejudiquem os sistemas e a segurança operacional. Dentre outras características desejáveis para um equipamento em uma aeronave, destaca o peso e volume para viabilizar o projeto economicamente. Isto deve-se principalmente à grande dependência entre o consumo de combustível com o peso da aeronave, além da dependência do volume com o espaço da cabine, influenciando na aerodinâmica e no arrasto. Por fim, os sistemas elétricos aeronáuticos com tensão alternada operam em 400 Hz para frequência fixa e entre 350 a 800 Hz em frequência variável. O projeto de sistemas de correção de fator de potência e conversores AC-DC devem considerar tais frequências na entrada de alimentação, visto que quando comparados com os sistemas comumente encontrados de 50-60 Hz as características dos sistemas nas frequências mais altas apresentam singularidades que devem ser consideradas e que podem determinar qual a tecnologia mais adequada no projeto. Os métodos filtragem para correção de fator de potência e retificação se tensão enunciados na seção \ref{sec:Metodos_de_Atenuação_de_Harmonicas} serão abordados com ênfase na utilização aeronáutica de modo que suas principais características serão abordadas e a proposição da utilização de filtros ativos em aplicação aeronáutica será melhor elucidada.
 
-Os filtros passivos por serem dispositivos que utilizam apenas elementos lineares como resistores, capacitores e reatores, tem sua implementação de maneira simples e com baixo custo, ao mesmo tempo que a manutenção desse dispositivo é facilitada devido a sua simplicidade. Ainda, a maturidade desse sistema é alto devido à larga utilização em sistemas elétricos industriais. Outro vantagem é que pode-se projetar tais filtros para compensar a potência reativa do sistema regulando o fator de potência de deslocamento \cite{Zhu2014}. Entretanto este tipo de topologia possuí grande volume e peso mesmo que operados na mitigação de harmônicas de sistemas à 400 Hz \cite{Barruel2004}, o que os tornam um entrave em sua utilização em sistemas elétricos aeronáuticos. Outra restrição do uso de filtros casados passivos é o impedimento na utilização de sistemas com frequência variável \cite{Barruel2004, Chen2012}, sendo que esse tipo de geração é tendência futura em sistemas elétricos de aeronaves. A utilização de filtros com a topologia otimizada e mais complexa poderia ser utilizada para esse caso, porém isso iria contra o princípio da simplicidade da filtragem passiva \cite{Barruel2004}.   
- 
-Os conversores multipulso são dispositivos passivos e têm como principal característica o condicionamento de energia utilizando comutadores estáticos, sendo que o controle destes é desprovido de comando externo. Por este motivo, o projeto desta topologia apresenta uma complexidade reduzida e o sistemas provém de uma boa confiabilidade quanto à falha do conversor \cite{Gong2003, Lobo2005}. Outra característica que o torna atraente na utilização no setor aeronáutico é a possibilidade de empregar esse retificador em sistemas de geração com frequência variável, apresentando baixos níveis de harmônicas na operação de 350 - 800 Hz \cite{Gong2003, Lobo2005}. Por outro lado, existem desvantagens neste tipo de conversor, sendo que as mais afetam sua implementação no setor aeronáutico são o alto peso e volume. Isto deve-se principalmente pela utilização de autotransformadores que compõem-se de elementos magnéticos pesados e volumosos. Isto traz outra implicação que é a baixa densidade de energia com relação ao peso do conversor \cite{Zhu2014}. Entretanto, mesmo com estas características este conversor já é empregado em alguns equipamentos em sistemas elétricos aeronáuticos.
+Os filtros passivos por serem dispositivos que utilizam apenas elementos lineares como resistores, capacitores e reatores, tem sua implementação de maneira simples e com baixo custo, ao mesmo tempo que a manutenção desse dispositivo é facilitada devido a sua simplicidade. Ainda, este sistema possui flexibilidade quanto a sua implementação, sendo que este filtra as componentes de alta frequência da linha independentemente do tipo de carga conectada na rede. Ainda, a maturidade desse sistema é alta devido à larga utilização em sistemas elétricos industriais. Outro vantagem é que pode-se projetar tais filtros para compensar a potência reativa do sistema regulando o fator de potência de deslocamento \cite{Zhu2014}. Entretanto este tipo de topologia possuí grande volume e peso mesmo que operados na mitigação de harmônicas de sistemas à 400 Hz \cite{Barruel2004}, o que os tornam um entrave em sua utilização em sistemas elétricos aeronáuticos. Outra restrição do uso de filtros casados passivos é o impedimento na utilização de sistemas com frequência variável \cite{Barruel2004, Chen2012research}, sendo que esse tipo de geração é tendência futura em sistemas elétricos de aeronaves. A utilização de filtros com a topologia otimizada e mais complexa poderia ser utilizada para esse caso, porém isso iria contra o princípio da simplicidade da filtragem passiva \cite{Barruel2004}.   
 
-Os conversores com correção de fator de potência apresentam diversas topologias as quais podem ser empregadas para diminuir as harmônicas da corrente. Tais topologias apresentam um grande leque de opções que variam com a complexidade e densidade de energia que a ser condicionados na conversão de tensão elétrica. Primeiramente, tem-se que esta abordagem traz a necessidade de utilizar um filtro casado na linha para obtenção de corrente sinusoidal, como mostra a figura \ref{fig:PFC_waveforms}. Tais filtros possuem tamanho reduzido devido à alta frequência de comutação do semicondutor controlado. Todavia estes filtros acabam por limitar a operação em frequência variável, visto que as harmônicas de mais alta ordem não possuirão valor de frequência fixa \todo{confuso}. Como característica em uma topologia básica, estes conversores provém boa robustez ao sistema devido a proteção quanto a limitação da corrente na carga, a qual protege o sistema elétrico contra curto circuito \cite{Gong2003, Lobo2005}. Entretanto nesses circuitos há uma grande dissipação de energia nos semicondutores controlados fazendo com que o peso e o volume aumentem e, consequentemente, diminuem a densidade de energia \cite{Gong2003, Lobo2005}. Existem topologias que contornam esse problema com a implementação de mais estágios de conversão \cite{Gong2003, Lobo2005}, porém este fato juntamente com a necessidade de regulador de tensão na saída do conversor aumenta a complexidade, resultando na diminuição da confiabilidade do equipamento \cite{Zhu2014}.
+Os conversores multipulso são dispositivos passivos e têm como principal característica o condicionamento de energia utilizando comutadores estáticos, sendo que o controle destes é desprovido de comando externo. Por este motivo, o projeto desta topologia apresenta uma complexidade reduzida quanto ao controle e o sistemas provém de uma boa confiabilidade quanto à falha do conversor \cite{Gong2003, Lobo2005}. Outra característica que o torna atraente na utilização no setor aeronáutico é a possibilidade de empregar esse retificador em sistemas de geração com frequência variável, apresentando baixos níveis de harmônicas na operação de 350 - 800 Hz \cite{Gong2003, Lobo2005}. Por outro lado, existem desvantagens neste tipo de conversor, sendo que as mais afetam sua implementação no setor aeronáutico são o alto peso e volume. Isto deve-se principalmente pela utilização de autotransformadores que compõem-se de elementos magnéticos pesados e volumosos. Isto traz outra implicação que é a baixa densidade de energia com relação ao peso do conversor \cite{Zhu2014}. Entretanto, mesmo com estas características este conversor já é empregado em alguns equipamentos em sistemas elétricos aeronáuticos.
 
-Os filtros ativos baseados em conversores CC-CA possuem diversas características que viabilizam sua utilização em sistemas elétricos aeronáuticos. Dentre as vantagens destaca-se o fato de este conversor ter uma performance superior de filtragem, são menores e mais flexíveis que uma topologia em que emprega uma filtragem passiva \cite{Akagi2006}.  isto deve-se principalmente pois este conversor condiciona a potência reativa necessária para mitigação das harmônicas na rede. Deste modo sua densidade de potência é bastante elevada, ao passo que seu peso e volume é reduzido \cite{Zhu2014}. Ainda destaca-se a capacidade de utilização desse sistema em redes de frequência variável, como ocorre em aeronaves mais com projetos mais modernos. Outra característica é a capacidade de implementação de uma malha de controle para manutenção dos níveis de tensão na saída do conversor. A implementação de uma malha de controle pode ser até necessária dependendo da carga visto que é requerido uma boa resposta dinâmica para suportar uma rápida variação de impedância da carga \cite{Zhu2014}, tornando-o robusto quanto a sensibilidade frente à variação da carga \cite{Chen2012}. Dentre as características negativas quanto à utilização desse tipo de topologia na mitigação de harmônicas em sistemas aeronáuticos, tem-se a elevada complexidade comparativamente à outras topologias, diminuindo a confiabilidade e elevando o custo. Além do mais, por possuir semicondutores controlados, este conversor apresenta perdas relativamente elevadas comparados à topologias de filtragem passiva \cite{Akagi2006}.
+Os conversores com correção de fator de potência apresentam diversas topologias as quais podem ser empregadas para diminuir as harmônicas da corrente. Tais topologias apresentam um grande leque de opções que variam com a complexidade e densidade de energia que a ser condicionados na conversão de tensão elétrica. Primeiramente, tem-se que esta abordagem traz a necessidade de utilizar um filtro casado na linha para obtenção de corrente sinusoidal, como mostra a figura \ref{fig:PFC_waveforms}. Tais filtros possuem tamanho reduzido devido à alta frequência de comutação do semicondutor controlado. Todavia estes filtros acabam por limitar a operação em frequência variável, visto que as componentes harmônicas variam no tempo, o que limita a utilização de filtros passa baixa na entrada do sistema. Como característica em uma topologia básica, estes conversores provém boa robustez ao sistema devido a proteção quanto a limitação da corrente na carga, a qual protege o sistema elétrico contra curto circuito \cite{Gong2003, Lobo2005}. Entretanto nesses circuitos há uma grande dissipação de energia nos semicondutores controlados fazendo com que o peso e o volume aumentem e, consequentemente, diminuem a densidade de energia \cite{Gong2003, Lobo2005}. Existem topologias que contornam esse problema com a implementação de mais estágios de conversão \cite{Gong2003, Lobo2005}, porém este fato juntamente com a necessidade de regulador de tensão na saída do conversor aumenta a complexidade, resultando na diminuição da confiabilidade do equipamento \cite{Zhu2014}.
 
-(CONCLUSÃO)
+Os filtros ativos baseados em conversores CC-CA possuem diversas características que viabilizam sua utilização em sistemas elétricos aeronáuticos. Como ocorre com os filtros passivos, existe a flexibilidade quanto a implementação de filtros ativos na rede, a qual independe o tipo de carga ou origem da distorção harmônica do sistema. Ainda, Dentre as vantagens destaca-se o fato de este conversor ter uma performance superior de filtragem, são menores e mais flexíveis que uma topologia de filtragem passiva \cite{Akagi2006}.  Isto ocorre, principalmente, devido ao fato que este conversor condiciona apenas a potência reativa necessária para mitigação das harmônicas na rede. Deste modo sua densidade de potência é bastante elevada, ao passo que seu peso e volume é reduzido \cite{Zhu2014}. Ainda destaca-se a capacidade de utilização desse sistema em redes de frequência variável, como ocorre em aeronaves mais modernas. Outra característica é a capacidade de implementação de uma malha de controle para manutenção dos níveis de tensão na saída do conversor. A implementação de uma malha de controle pode ser até necessária dependendo da carga visto que é requerido uma boa resposta dinâmica para suportar uma rápida variação de impedância \cite{Zhu2014}, tornando-o robusto quanto a sensibilidade frente à variação da carga \cite{Chen2012novel}. Dentre as características negativas quanto à utilização desse tipo de topologia na mitigação de harmônicas em sistemas aeronáuticos, tem-se a elevada complexidade se comparado à outras topologias, diminuindo a confiabilidade e elevando o custo. Além do mais, por possuir semicondutores controlados, este conversor apresenta perdas relativamente elevadas comparados à topologias de filtragem passiva \cite{Akagi2006}.
 
-
-
-
+Diante das características apresentadas sobre as topologias de sistemas de correção de fator de potência, seja por meios de filtragem das harmônicas ou ainda pela característica intrínseca de retificadores com alto fator de potência, tem-se que na aplicação aeronáutica o uso de filtros ativos são os mais promissores. Estudos mostram que o método de redução de harmônicas provida pelo sistema de filtragem ativa é a melhor topologia para ser utilizada em aeronaves \cite{Zhu2014}. Isto deve-se principalmente a sua flexibilidade, a qual pode-se implementar filtros ativos desde na linha de saída do gerador quanto em pontos de carga cujo fator de potência é baixo \cite{Chen2012control}. Outros característica que torna a filtragem ativa vantajosa é a alta eficiência e densidade de energia. Simulações mostram que comparativamente à sistemas de filtragem passiva e conversores de alto fator de potência, os filtros ativos são os que apresentam melhor eficiência e densidade de energia \cite{Karatzaferis2013}. Para aplicação aeronáutica essas características são essenciais para manter o baixo peso e volume dos sistemas embarcados. Ainda, a filtragem ativa oferece a capacidade de implementação para aplicações no sistema de distribuição de aeronaves mais modernas cuja geração é provida por frequência variável. Quanto ao problema \todo {elevadas perdas e problemas de confiabilidade são contornados com o desenvolvimento de semicondutores melhores}
 
 %\begin{figure}[!htbp]
 %	\centering

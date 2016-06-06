@@ -1,0 +1,27 @@
+\select@language {brazil}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1}{\ignorespaces Aumento capacidade de gera\c c\~ao de aeronaves \cite {Frost2008}\relax }}{15}{figure.caption.10}
+\contentsline {figure}{\numberline {2}{\ignorespaces Aumento da capacidade de gera\c c\~ao ao longo dos anos\relax }}{15}{figure.caption.11}
+\contentsline {figure}{\numberline {3}{\ignorespaces Tend\^encia futura para o mercado de avia\c c\~ao \cite {Boeing2007}\relax }}{16}{figure.caption.12}
+\contentsline {figure}{\numberline {4}{\ignorespaces Equivalentes Thevenin\relax }}{17}{figure.caption.13}
+\contentsline {figure}{\numberline {5}{\ignorespaces Circuito real monof\'asico\relax }}{18}{figure.caption.14}
+\contentsline {figure}{\numberline {6}{\ignorespaces Corrente do gerador para o barramento\relax }}{19}{figure.caption.15}
+\contentsline {figure}{\numberline {7}{\ignorespaces Queda de tens\~ao em $V_G+V_L$ \relax }}{20}{figure.caption.16}
+\contentsline {figure}{\numberline {8}{\ignorespaces Tens\~ao $V_B$ comparativamente \`a tens\~ao $V_S$\relax }}{20}{figure.caption.17}
+\contentsline {figure}{\numberline {9}{\ignorespaces Transformada de Fourier da tens\~ao $V_B$\relax }}{21}{figure.caption.18}
+\contentsline {figure}{\numberline {10}{\ignorespaces Presen\c ca de \textit {notch} na ondula\c c\~ao de tens\~ao \cite {Notches}\relax }}{23}{figure.caption.21}
+\contentsline {figure}{\numberline {11}{\ignorespaces Esquema de um filtro passivo gen\'erico\relax }}{28}{figure.caption.26}
+\contentsline {figure}{\numberline {12}{\ignorespaces Resposta em frequ\^encia de um filtro passa baixa\relax }}{29}{figure.caption.27}
+\contentsline {figure}{\numberline {13}{\ignorespaces Resposta em frequ\^encia de um filtro passa alta\relax }}{30}{figure.caption.28}
+\contentsline {figure}{\numberline {14}{\ignorespaces Resposta em frequ\^encia de um filtro passa faixa\relax }}{30}{figure.caption.29}
+\contentsline {figure}{\numberline {15}{\ignorespaces Resposta em frequ\^encia de um filtro rejeita faixa\relax }}{31}{figure.caption.30}
+\contentsline {figure}{\numberline {16}{\ignorespaces Esquema gen\'erico de um conversor multipulso\relax }}{32}{figure.caption.32}
+\contentsline {figure}{\numberline {17}{\ignorespaces Circuito t\IeC {\'\i }pico de um retificador de 12 pulsos com sua respectiva corrente de entrada\relax }}{32}{figure.caption.33}
+\contentsline {figure}{\numberline {18}{\ignorespaces Circuito t\IeC {\'\i }pico de um retificador de 18 pulsos com sua respectiva corrente de entrada\relax }}{32}{figure.caption.34}
+\contentsline {figure}{\numberline {19}{\ignorespaces Conversores AC-DC de dois est\'agios\relax }}{33}{figure.caption.37}
+\contentsline {figure}{\numberline {20}{\ignorespaces Retificador trif\'asico com ponte de diodos\relax }}{34}{figure.caption.38}
+\contentsline {figure}{\numberline {21}{\ignorespaces Conversor com corre\c c\~ao de fator de pot\^encia do tipo Prasad-Ziogas \cite {Takeuchi2008}\relax }}{35}{figure.caption.39}
+\contentsline {figure}{\numberline {22}{\ignorespaces Diagrama b\'asico do conversor PFC\relax }}{35}{figure.caption.40}
+\contentsline {figure}{\numberline {23}{\ignorespaces Corrente de entrada para o caso sem e com filtro na linha\relax }}{35}{figure.caption.41}
+\contentsline {figure}{\numberline {24}{\ignorespaces Filtro ativo do tipo \textit {shunt}\relax }}{37}{figure.caption.42}
+\contentsline {figure}{\numberline {25}{\ignorespaces Filtro ativo do tipo s\'erie\relax }}{37}{figure.caption.43}
