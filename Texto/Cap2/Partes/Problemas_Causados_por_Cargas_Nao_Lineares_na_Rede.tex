@@ -1,10 +1,8 @@
-\section{Problemas Causados por Cargas Não Lineares na Rede}%\todo{7 páginas}
+\section{Problemas Causados por Cargas Não Lineares na Rede} \label{sec:Problemas_Causados_por_Cargas_Nao_Lineares_na_Rede}%\todo{7 páginas}
 
 %\todo{Cargas lineares e não lineares (KASICK 2010 cap2)}
 
 Para entender os problemas causados por cargas não lineares conectados à rede, primeiro é necessário entender o funcionamento de sistemas elétricos reais. Os circuitos elétricos compostos por elementos ideais possuem um modelo matemático estabelecido e são fundamentais para descrever as características da resposta do circuito. Entretanto, esses elementos isolados não são factíveis devido a sua natureza ideal. Porém, para a metodização da análise dos circuitos elétricos reais através de modelos matemáticos, são concebíveis a representação do funcionamento destes por elementos ideais \cite{Cidade}. Existem modelos mais simplificados para análises mais abrangentes ao passo que existem modelos mais complexos para análises mais específicas. A escolha dessa complexidade depende do grau de destreza que o circuito real necessita ser representado para a análise. 
-
-
 
 Os modelos reais do sistema de geração e transmissão podem ser concebidos a partir da utilização de elementos ideais e a análise matemática é então obtida para descrever a resposta desse sistema. Para o estudo descrito nesse trabalho, a concepção dos circuitos pode ser realizada utilizando o teorema de Thevenin. Segundo este teorema, qualquer par de terminais contidos em um circuito realizado com elementos lineares podem ser substituídos por uma fonte de tensão $V_{th}$ em série com uma impedância $Z_{th}$ \cite{Alexander2005}. Isto é valido tanto para sistema monofásicos como para sistema multifásicos, levando em conta o estudo de cada fase em separado. Apesar do sistema de geração de uma aeronave ser complexa, para efeito didático e sem perda de generalidade, pode-se considerar que este sistema é tido por elementos lineares, assim, para esse estudo pode-se modelá-la como uma fonte de tensão senoidal acoplada a uma impedância. A interpretação dessa impedância cabe ao fato de que o gerador possui reatância indutiva em seus enrolamentos e resistências nos fios que o compõe.  De forma análoga, a linha de transmissão a qual leva a energia do gerador para a carga pode ser modelada da mesma maneira. Por esta ser ausente de fonte de energia, seu equivalente Thevenin é tido apenas como uma impedância composta pelas reatâncias e as resistências da linha de transmissão. A figura \ref{fig:fonte_thevenin} mostra o equivalente Thevenin de um gerador típico, enquanto que a figura \ref{fig:LT_thevenin} mostra o equivalente de uma linha de transmissão qualquer.
 %\todo{explicar os circuitos ideais e os reais}
@@ -28,8 +26,6 @@ Os modelos reais do sistema de geração e transmissão podem ser concebidos a part
 	\label{fig:Thevenin}
 \end{figure}
 
-
-
 Com isso em mente, pode-se modelar um sistema composto por cargas acopladas a um barramento alimentado por um gerador e uma linha de transmissão. Considerando a figura \ref{fig:real_line_transmission.png}, existe um barramento com ponto de conexão em comum (PCC) com $N$ cargas acopladas cujas correntes demandadas são denominadas $i_1,\;i_2,\;\dots\;i_N$. A tensão no PCC é dada por $V_B$ e é essa a tensão de alimentação no ponto de conexão das cargas. Ainda, a conexão do barramento com gerador é feita via uma linha de transmissão, e, como explicado anteriormente, nesses elementos existem não idealidades como resistências e reatâncias indutivas. Aplicando o teorema de Thevenin para modelar o gerador e a linha de transmissão, tem -se que a impedância $Z_th$ é composta pela composição das resistências e impedâncias de cada elemento. Para o gerador e linha de transmissão, as resistências e impedâncias são dadas por $R_G$, $L_G$ e $R_L$, $L_L$, respectivamente. Já a fonte de alimentação $V_S$ é considerada senoidal, como encontrada comumente em sistemas de geração AC
 
 \begin{figure}[!htbp]
@@ -38,7 +34,6 @@ Com isso em mente, pode-se modelar um sistema composto por cargas acopladas a um
 	\caption{Circuito real monofásico}
 	\label{fig:real_line_transmission.png}
 \end{figure}
-
 
 Analisando o circuito da figura \ref{fig:real_line_transmission.png} e utilizando as leis de Kirchoff, tem-se que corrente provida pela fonte é dada segundo a equação \ref{eq:i_S}.
 

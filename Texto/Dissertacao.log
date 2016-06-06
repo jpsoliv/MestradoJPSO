@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.29)  2 JUN 2016 22:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.29)  5 JUN 2016 21:00
 entering extended mode
 **Dissertacao.tex
 (Dissertacao.tex
@@ -803,27 +803,36 @@ Package: subcaption 2015/09/15 v1.1-100 Sub-captions (AR)
 \c@subfigure=\count151
 \c@subtable=\count152
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\units\nicefrac.sty"
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip69
+\L@UnitsRaiseTextstyle=\skip70
+\L@UnitsRaiseScriptstyle=\skip71
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\chngcntr\chngcntr.sty"
+Package: chngcntr 2009/09/02 v1.0a change counter resetting
+)
 \@glossaryfile=\write5
 
 Writing glossary file Dissertacao.glo 
 (Dissertacao.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 104.
+(lastpage)             ! on input line 107.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -847,7 +856,7 @@ Package caption Info: End \AtBeginDocument code.
 \everyMPtoPDFconversion=\toks46
 )
 \AtBeginShipoutBox=\box48
-Package hyperref Info: Link coloring OFF on input line 104.
+Package hyperref Info: Link coloring OFF on input line 107.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -856,13 +865,13 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count159
 )
-LaTeX Info: Redefining \ref on input line 104.
-LaTeX Info: Redefining \pageref on input line 104.
-LaTeX Info: Redefining \nameref on input line 104.
+LaTeX Info: Redefining \ref on input line 107.
+LaTeX Info: Redefining \pageref on input line 107.
+LaTeX Info: Redefining \nameref on input line 107.
 
 (Dissertacao.out) (Dissertacao.out)
 \@outlinefile=\write6
-Package hyperref Info: Anchor `Doc-Start' on input line 104.
+Package hyperref Info: Anchor `Doc-Start' on input line 107.
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -898,323 +907,956 @@ Package hyperref Info: Anchor `Doc-Start' on input line 104.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@butlastpage=\count160
-ABD: EveryShipout initializing macros
-(Cap2/Partes/Metodos_de_Atenuacao_de_Harmonicas.tex
-Package hyperref Info: Anchor `section.0.1' on input line 1.
+ABD: EveryShipout initializing macros (Cap2/Capitulo_2.tex
+Package hyperref Info: Anchor `chapter.1' on input line 1.
+
+Cap\'{\i }tulo 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 
-pdftex: bookmark at 1: {0.1} {\numberline{0.1}M\'etodos de Atenua\c c\~ao de Ha
-rm\^onicas} {section.0.1}{1}{toc}
-Package hyperref Info: Anchor `section*.1' on input line 4.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\todo' on input line 1.
+
+pdftex: bookmark at 1: {1} {\numberline{1}Qualidade de Energia em Aeronaves \to
+do{30 P\'ags}} {chapter.1}{0}{toc}
+Package hyperref Info: Anchor `section*.1' on input line 1.
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 4.
-pdftex: bookmark at 4: {\thetodo } {s\~ao 3?} {section*.1}{0}{tdo}
-Package hyperref Info: Anchor `subsection.0.1.1' on input line 6.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 6.
-pdftex: bookmark at 6: {0.1.1} {\numberline{0.1.1}Sistemas Passivos} {subsectio
-n.0.1.1}{2}{toc}
+ine 1.
+pdftex: bookmark at 1: {\thetodo } {30 P\'ags} {section*.1}{0}{tdo}
 
-LaTeX Warning: Citation `AN779' on page 1 undefined on input line 8.
-
-Package hyperref Info: Anchor `subsubsection.0.1.1.1' on input line 10.
-pdftex: bookmark at 10: {0.1.1.1} {\numberline{0.1.1.1}Filtros Passivos} {subsu
-bsection.0.1.1.1}{3}{toc}
-Package hyperref Info: Anchor `section*.2' on input line 10.
-pdftex: bookmark at 10: {\thetodo } {falta colocar um esquema simplificado do f
-iltros} {section*.2}{0}{tdo}
-
-LaTeX Warning: Citation `Mussoi2004' on page 1 undefined on input line 12.
+LaTeX Warning: Citation `Babikian2002' on page 1 undefined on input line 5.
 
 
-LaTeX Warning: Citation `Kassick2010' on page 1 undefined on input line 12.
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 16.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 16.
-Package hyperref Info: Anchor `page.1' on input line 16.
-[1{C:/Users/Joao/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+LaTeX Warning: Citation `Babikian2002' on page 1 undefined on input line 5.
 
 
+LaTeX Warning: Citation `Moir1999' on page 1 undefined on input line 5.
 
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 16.
 
+LaTeX Warning: Citation `Abdelhafez2009' on page 1 undefined on input line 7.
+
+
+LaTeX Warning: Citation `Abdel2012' on page 1 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Abdel2012' on page 1 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Abdelhafez2009' on page 1 undefined on input line 9.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 9.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 16.
+LaTeX Font Info:    Try loading font information for U+msb on input line 9.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package hyperref Info: Anchor `Item.1' on input line 22.
+
+LaTeX Warning: Citation `Boeing2007' on page 1 undefined on input line 9.
 
 
-LaTeX Warning: Citation `Kassick2010' on page 2 undefined on input line 22.
+LaTeX Warning: Citation `Moir1999' on page 1 undefined on input line 10.
 
 
-LaTeX Warning: Citation `Mussoi2004' on page 2 undefined on input line 22.
-
-Package hyperref Info: Reference (link) `figure.caption.3' on input line 22.
-Package hyperref Info: Anchor `Item.2' on input line 25.
-
-LaTeX Warning: Citation `Kassick2010' on page 2 undefined on input line 25.
+LaTeX Warning: Citation `Abdelhafez2009' on page 1 undefined on input line 10.
 
 
-LaTeX Warning: Citation `Mussoi2004' on page 2 undefined on input line 25.
+LaTeX Warning: Citation `Boeing2007' on page 1 undefined on input line 10.
 
-Package hyperref Info: Reference (link) `figure.caption.3' on input line 25.
-Package hyperref Info: Anchor `Item.3' on input line 28.
-
-LaTeX Warning: Citation `Mussoi2004' on page 2 undefined on input line 28.
-
-Package hyperref Info: Reference (link) `figure.caption.3' on input line 28.
-Package hyperref Info: Anchor `Item.4' on input line 31.
-
-LaTeX Warning: Citation `Mussoi2004' on page 2 undefined on input line 31.
-
-Package hyperref Info: Reference (link) `figure.caption.3' on input line 31.
+Package hyperref Info: Anchor `section*.2' on input line 10.
+pdftex: bookmark at 10: {\thetodo } {D\'a de encher mais lingui\c ca pelas refe
+rencias Abdelhafez2009, Abdel2012} {section*.2}{0}{tdo}
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 11.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 32.
-Package hyperref Info: Anchor `page.2' on input line 32.
-[2
-Package `hyperref' Info: End of reference (link) `figure.caption.3', line 22.
-Package `hyperref' Info: End of reference (link) `figure.caption.3', line 25.
-Package `hyperref' Info: End of reference (link) `figure.caption.3', line 28.
+(babel)             in language  on input line 11.
+Package hyperref Info: Anchor `page.1' on input line 11.
+[1{C:/Users/Joao/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+
+
 ]
-Package hyperref Info: Anchor `figure.caption.3' on input line 33.
- <Cap2/Figuras/LP_filter_BW.png, id=50, 869.49844pt x 642.90187pt>
+Package hyperref Info: Anchor `section.1.1' on input line 13.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 13.
+
+pdftex: bookmark at 13: {1.1} {\numberline{1.1}Tend\^encia de Aumento da Capaci
+dade de Gera\c c\~ao El\'etrica em Aeronaves} {section.1.1}{1}{toc}
+Package hyperref Info: Anchor `section*.3' on input line 13.
+pdftex: bookmark at 13: {\thetodo } {falar de gera\c c\~ao em frequencia vari\'
+avel} {section*.3}{0}{tdo}
+
+LaTeX Warning: Citation `Frost2008' on page 2 undefined on input line 15.
+
+Package hyperref Info: Reference (link) `figure.caption.4' on input line 15.
+Package hyperref Info: Reference (link) `figure.caption.5' on input line 15.
+Package hyperref Info: Anchor `figure.caption.4' on input line 17.
+<Cap2/Figuras/trend.png, id=62, 397.485pt x 292.84406pt>
+File: Cap2/Figuras/trend.png Graphic file (type png)
+
+<use Cap2/Figuras/trend.png>
+Package pdftex.def Info: Cap2/Figuras/trend.png used on input line 19.
+(pdftex.def)             Requested size: 273.14923pt x 201.24489pt.
+
+pdftex: bookmark at 20: {1} {\numberline{1}{\ignorespaces Aumento capacidade de
+ gera\c c\~ao de aeronaves \cite{Frost2008}\relax }} {figure.caption.4}{0}{lof}
+
+
+LaTeX Warning: Citation `Frost2008' on page 2 undefined on input line 20.
+
+
+LaTeX Warning: Citation `Frost2008' on page 2 undefined on input line 20.
+
+Package hyperref Info: Anchor `figure.caption.5' on input line 24.
+Package epstopdf Info: Source file: <Cap2/Figuras/trend_year.eps>
+(epstopdf)                    date: 2015-09-09 20:20:06
+(epstopdf)                    size: 12973 bytes
+(epstopdf)             Output file: <Cap2/Figuras/trend_year-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-09-09 20:20:06
+(epstopdf)                    size: 5812 bytes
+(epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/trend_year-eps
+-converted-to.pdf Cap2/Figuras/trend_year.eps>
+(epstopdf)             \includegraphics on input line 26.
+Package epstopdf Info: Output file is already uptodate.
+
+<Cap2/Figuras/trend_year-eps-converted-to.pdf, id=63, 395.4775pt x 332.24126pt>
+File: Cap2/Figuras/trend_year-eps-converted-to.pdf Graphic file (type pdf)
+<use Cap2/Figuras/trend_year-eps-converted-to.pdf>
+Package pdftex.def Info: Cap2/Figuras/trend_year-eps-converted-to.pdf used on i
+nput line 26.
+(pdftex.def)             Requested size: 273.14923pt x 229.47484pt.
+
+pdftex: bookmark at 27: {2} {\numberline{2}{\ignorespaces Aumento da capacidade
+ de gera\c c\~ao ao longo dos anos\relax }} {figure.caption.5}{0}{lof}
+
+LaTeX Warning: Citation `Boeing2007' on page 2 undefined on input line 31.
+
+Package hyperref Info: Reference (link) `figure.caption.6' on input line 31.
+Package hyperref Info: Anchor `figure.caption.6' on input line 33.
+<Cap2/Figuras/trend_future.png, id=65, 545.6385pt x 377.61075pt>
+File: Cap2/Figuras/trend_future.png Graphic file (type png)
+
+<use Cap2/Figuras/trend_future.png>
+Package pdftex.def Info: Cap2/Figuras/trend_future.png used on input line 35.
+(pdftex.def)             Requested size: 364.19667pt x 252.04716pt.
+
+pdftex: bookmark at 36: {3} {\numberline{3}{\ignorespaces Tend\^encia futura pa
+ra o mercado de avia\c c\~ao \cite {Boeing2007}\relax }} {figure.caption.6}{0}{
+lof}
+
+LaTeX Warning: Citation `Boeing2007' on page 2 undefined on input line 36.
+
+
+LaTeX Warning: Citation `Boeing2007' on page 2 undefined on input line 36.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 38.
+Package hyperref Info: Anchor `page.2' on input line 38.
+[2
+Package `hyperref' Info: End of reference (link) `figure.caption.4', line 15.
+Package `hyperref' Info: End of reference (link) `figure.caption.5', line 15.
+Package `hyperref' Info: End of reference (link) `figure.caption.6', line 31.
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 38.
+Package hyperref Info: Anchor `page.3' on input line 38.
+ [3 <./Cap2/Figuras/trend.png> <./Cap2/Figuras/trend_year-eps-converted-to.pdf>
+]) (Cap2/Partes/Problemas_Causados_por_Cargas_Nao_Lineares_na_Rede.tex
+Package hyperref Info: Anchor `section.1.2' on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+
+pdftex: bookmark at 1: {1.2} {\numberline{1.2}Problemas Causados por Cargas N\~
+ao Lineares na Rede} {section.1.2}{1}{toc}
+
+LaTeX Warning: Citation `Cidade' on page 4 undefined on input line 5.
+
+
+LaTeX Warning: Citation `Alexander2005' on page 4 undefined on input line 7.
+
+Package hyperref Info: Reference (link) `figure.caption.7' on input line 7.
+Package hyperref Info: Reference (link) `figure.caption.7' on input line 7.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 9.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 9.
+Package hyperref Info: Anchor `page.4' on input line 9.
+[4 <./Cap2/Figuras/trend_future.png>]
+Package hyperref Info: Anchor `figure.caption.7' on input line 10.
+
+<Cap2/Figuras/fonte_thevenin.png, id=92, 531.48563pt x 338.76563pt>
+File: Cap2/Figuras/fonte_thevenin.png Graphic file (type png)
+
+<use Cap2/Figuras/fonte_thevenin.png>
+Package pdftex.def Info: Cap2/Figuras/fonte_thevenin.png used on input line 14.
+
+(pdftex.def)             Requested size: 182.09486pt x 116.06787pt.
+
+<Cap2/Figuras/LT_thevenin.png, id=94, 530.73282pt x 338.76563pt>
+File: Cap2/Figuras/LT_thevenin.png Graphic file (type png)
+
+<use Cap2/Figuras/LT_thevenin.png>
+Package pdftex.def Info: Cap2/Figuras/LT_thevenin.png used on input line 20.
+(pdftex.def)             Requested size: 182.09486pt x 116.23328pt.
+
+pdftex: bookmark at 25: {4} {\numberline{4}{\ignorespaces Equivalentes Thevenin
+\relax }} {figure.caption.7}{0}{lof}
+Package hyperref Info: Reference (link) `figure.caption.8' on input line 29.
+Package hyperref Info: Anchor `figure.caption.8' on input line 31.
+<Cap2/Figuras/real_line_transmission.png, id=96, 666.69075pt x 210.18526pt>
+File: Cap2/Figuras/real_line_transmission.png Graphic file (type png)
+
+<use Cap2/Figuras/real_line_transmission.png>
+Package pdftex.def Info: Cap2/Figuras/real_line_transmission.png used on input 
+line 33.
+(pdftex.def)             Requested size: 418.82375pt x 132.03896pt.
+
+pdftex: bookmark at 34: {5} {\numberline{5}{\ignorespaces Circuito real monof\'
+asico\relax }} {figure.caption.8}{0}{lof}
+Package hyperref Info: Reference (link) `figure.caption.8' on input line 38.
+Package hyperref Info: Reference (link) `equation.1.2.1' on input line 38.
+Package hyperref Info: Anchor `equation.1.2.1' on input line 40.
+Package hyperref Info: Reference (link) `equation.1.2.2' on input line 45.
+Package hyperref Info: Reference (link) `equation.1.2.3' on input line 45.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 46.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 46.
+Package hyperref Info: Anchor `page.5' on input line 46.
+[5
+Package `hyperref' Info: End of reference (link) `figure.caption.7', line 7.
+Package `hyperref' Info: End of reference (link) `figure.caption.7', line 7.
+Package `hyperref' Info: End of reference (link) `figure.caption.8', line 29.
+Package `hyperref' Info: End of reference (link) `figure.caption.8', line 38.
+Package `hyperref' Info: End of reference (link) `equation.1.2.1', line 38.
+ <./Cap2/Figuras/fonte_thevenin.png> <./Cap2/Figuras/LT_thevenin.png>]
+Package hyperref Info: Anchor `equation.1.2.2' on input line 47.
+Package hyperref Info: Anchor `equation.1.2.3' on input line 52.
+Package hyperref Info: Reference (link) `equation.1.2.4' on input line 57.
+Package hyperref Info: Anchor `equation.1.2.4' on input line 59.
+Package hyperref Info: Reference (link) `equation.1.2.4' on input line 64.
+Package hyperref Info: Reference (link) `equation.1.2.1' on input line 64.
+
+
+LaTeX Warning: Citation `Wagner1993' on page 6 undefined on input line 68.
+
+Package hyperref Info: Reference (link) `equation.1.2.4' on input line 68.
+
+LaTeX Warning: Citation `Pomilio2010' on page 6 undefined on input line 68.
+
+
+LaTeX Warning: Citation `Kassick2010' on page 6 undefined on input line 68.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 69.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 69.
+Package hyperref Info: Anchor `page.6' on input line 69.
+[6
+Package `hyperref' Info: End of reference (link) `equation.1.2.2', line 45.
+Package `hyperref' Info: End of reference (link) `equation.1.2.3', line 45.
+Package `hyperref' Info: End of reference (link) `equation.1.2.4', line 57.
+Package `hyperref' Info: End of reference (link) `equation.1.2.4', line 64.
+Package `hyperref' Info: End of reference (link) `equation.1.2.1', line 64.
+ <./Cap2/Figuras/real_line_transmission.png>]
+Package hyperref Info: Reference (link) `figure.caption.8' on input line 70.
+Package hyperref Info: Reference (link) `figure.caption.9' on input line 70.
+Package hyperref Info: Anchor `figure.caption.9' on input line 72.
+Package epstopdf Info: Source file: <Cap2/Figuras/current_source.eps>
+(epstopdf)                    date: 2015-09-09 20:20:06
+(epstopdf)                    size: 25748 bytes
+(epstopdf)             Output file: <Cap2/Figuras/current_source-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2015-09-09 20:20:06
+(epstopdf)                    size: 15620 bytes
+(epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/current_source
+-eps-converted-to.pdf Cap2/Figuras/current_source.eps>
+(epstopdf)             \includegraphics on input line 74.
+Package epstopdf Info: Output file is already uptodate.
+
+<Cap2/Figuras/current_source-eps-converted-to.pdf, id=126, 420.57124pt x 316.18
+124pt>
+File: Cap2/Figuras/current_source-eps-converted-to.pdf Graphic file (type pdf)
+ <use Cap2/Figuras/current_source-eps-converted-to.pdf>
+Package pdftex.def Info: Cap2/Figuras/current_source-eps-converted-to.pdf used 
+on input line 74.
+(pdftex.def)             Requested size: 273.14923pt x 205.35133pt.
+
+pdftex: bookmark at 75: {6} {\numberline{6}{\ignorespaces Corrente do gerador p
+ara o barramento\relax }} {figure.caption.9}{0}{lof}
+Package hyperref Info: Reference (link) `equation.1.2.2' on input line 79.
+Package hyperref Info: Reference (link) `equation.1.2.3' on input line 79.
+Package hyperref Info: Reference (link) `figure.caption.9' on input line 79.
+Package hyperref Info: Reference (link) `figure.caption.10' on input line 79.
+Package hyperref Info: Anchor `figure.caption.10' on input line 81.
+Package epstopdf Info: Source file: <Cap2/Figuras/Vline.eps>
+(epstopdf)                    date: 2015-09-09 20:20:06
+(epstopdf)                    size: 25977 bytes
+(epstopdf)             Output file: <Cap2/Figuras/Vline-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-09 20:20:06
+(epstopdf)                    size: 15751 bytes
+(epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/Vline-eps-conv
+erted-to.pdf Cap2/Figuras/Vline.eps>
+(epstopdf)             \includegraphics on input line 83.
+Package epstopdf Info: Output file is already uptodate.
+<Cap2/Figuras/Vline-eps-converted-to.pdf, id=131, 420.57124pt x 316.18124pt>
+File: Cap2/Figuras/Vline-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Cap2/Figuras/Vline-eps-converted-to.pdf>
+Package pdftex.def Info: Cap2/Figuras/Vline-eps-converted-to.pdf used on input 
+line 83.
+(pdftex.def)             Requested size: 273.14923pt x 205.35133pt.
+
+pdftex: bookmark at 84: {7} {\numberline{7}{\ignorespaces Queda de tens\~ao em 
+$V_G+V_L$ \relax }} {figure.caption.10}{0}{lof}
+Package hyperref Info: Reference (link) `equation.1.2.4' on input line 88.
+Package hyperref Info: Reference (link) `figure.caption.10' on input line 88.
+Package hyperref Info: Reference (link) `figure.caption.11' on input line 88.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 89.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 89.
+Package hyperref Info: Anchor `page.7' on input line 89.
+[7
+Package `hyperref' Info: End of reference (link) `equation.1.2.4', line 68.
+Package `hyperref' Info: End of reference (link) `figure.caption.8', line 70.
+Package `hyperref' Info: End of reference (link) `figure.caption.9', line 70.
+Package `hyperref' Info: End of reference (link) `equation.1.2.2', line 79.
+Package `hyperref' Info: End of reference (link) `equation.1.2.3', line 79.
+Package `hyperref' Info: End of reference (link) `figure.caption.9', line 79.
+Package `hyperref' Info: End of reference (link) `figure.caption.10', line 79.
+ <./Cap2/Figuras/current_source-eps-converted-to.pdf>]
+Package hyperref Info: Anchor `figure.caption.11' on input line 90.
+Package epstopdf Info: Source file: <Cap2/Figuras/V_bar.eps>
+(epstopdf)                    date: 2015-09-09 20:20:06
+(epstopdf)                    size: 25897 bytes
+(epstopdf)             Output file: <Cap2/Figuras/V_bar-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-09 20:20:06
+(epstopdf)                    size: 15182 bytes
+(epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/V_bar-eps-conv
+erted-to.pdf Cap2/Figuras/V_bar.eps>
+(epstopdf)             \includegraphics on input line 92.
+Package epstopdf Info: Output file is already uptodate.
+
+<Cap2/Figuras/V_bar-eps-converted-to.pdf, id=145, 420.57124pt x 316.18124pt>
+File: Cap2/Figuras/V_bar-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Cap2/Figuras/V_bar-eps-converted-to.pdf>
+Package pdftex.def Info: Cap2/Figuras/V_bar-eps-converted-to.pdf used on input 
+line 92.
+(pdftex.def)             Requested size: 273.14923pt x 205.35133pt.
+
+pdftex: bookmark at 93: {8} {\numberline{8}{\ignorespaces Tens\~ao $V_B$ compar
+ativamente \`a tens\~ao $V_S$\relax }} {figure.caption.11}{0}{lof}
+Package hyperref Info: Reference (link) `figure.caption.12' on input line 97.
+Package hyperref Info: Anchor `figure.caption.12' on input line 99.
+Package epstopdf Info: Source file: <Cap2/Figuras/FFT.eps>
+(epstopdf)                    date: 2015-09-09 20:20:06
+(epstopdf)                    size: 67712 bytes
+(epstopdf)             Output file: <Cap2/Figuras/FFT-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-09 20:20:06
+(epstopdf)                    size: 5531 bytes
+(epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/FFT-eps-conver
+ted-to.pdf Cap2/Figuras/FFT.eps>
+(epstopdf)             \includegraphics on input line 101.
+Package epstopdf Info: Output file is already uptodate.
+<Cap2/Figuras/FFT-eps-converted-to.pdf, id=147, 420.57124pt x 316.18124pt>
+File: Cap2/Figuras/FFT-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Cap2/Figuras/FFT-eps-converted-to.pdf>
+Package pdftex.def Info: Cap2/Figuras/FFT-eps-converted-to.pdf used on input li
+ne 101.
+(pdftex.def)             Requested size: 273.14923pt x 205.35133pt.
+
+pdftex: bookmark at 102: {9} {\numberline{9}{\ignorespaces Transformada de Four
+ier da tens\~ao $V_B$\relax }} {figure.caption.12}{0}{lof}
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 183.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 183.
+Package hyperref Info: Anchor `page.8' on input line 183.
+ [8
+Package `hyperref' Info: End of reference (link) `equation.1.2.4', line 88.
+Package `hyperref' Info: End of reference (link) `figure.caption.10', line 88.
+Package `hyperref' Info: End of reference (link) `figure.caption.11', line 88.
+Package `hyperref' Info: End of reference (link) `figure.caption.12', line 97.
+ <./Cap2/Figuras/Vline-eps-converted-to.pdf> <./Cap2/Figuras/V_bar-eps-converte
+d-to.pdf>] (Cap2/Partes/Efeitos_da_Distorcao_Harmonica_em_Equipamentos.tex
+Package hyperref Info: Anchor `section.1.3' on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+
+pdftex: bookmark at 1: {1.3} {\numberline{1.3}Efeitos da Distor\c c\~ao Harm\^o
+nica em Equipamentos} {section.1.3}{1}{toc}
+Package hyperref Info: Anchor `section*.13' on input line 3.
+pdftex: bookmark at 3: {\thetodo } {Deve ser lembrado que equipamentos eletr\^o
+nicos aeron\'auticos n\~ao s\~ao projetados admitindo-se opera\c c\~ao sob cond
+i\c c\~oes de tens\~ao e corrente senoidais puras.} {section*.13}{0}{tdo}
+
+Overfull \hbox (6.32521pt too wide) in paragraph at lines 3--3
+\T1/aer/m/n/6 admitindo- 
+ []
+
+
+Overfull \hbox (6.32521pt too wide) in paragraph at lines 3--3
+\T1/aer/m/n/6 admitindo- 
+ []
+
+
+Overfull \hbox (6.32521pt too wide) in paragraph at lines 3--3
+\T1/aer/m/n/6 admitindo- 
+ []
+
+
+Overfull \hbox (6.32521pt too wide) in paragraph at lines 3--3
+\T1/aer/m/n/6 admitindo- 
+ []
+
+
+LaTeX Warning: Citation `Kassick2010' on page 9 undefined on input line 3.
+
+
+LaTeX Warning: Citation `Kassick2010' on page 9 undefined on input line 5.
+
+
+LaTeX Warning: Citation `Wagner1993' on page 9 undefined on input line 5.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 6.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 6.
+Package hyperref Info: Anchor `page.9' on input line 6.
+[9 <./Cap2/Figuras/FFT-eps-converted-to.pdf>]
+Package hyperref Info: Anchor `Item.1' on input line 11.
+
+
+LaTeX Warning: Citation `Pomilio2014' on page 10 undefined on input line 13.
+
+
+LaTeX Warning: Citation `Manousaka2013' on page 10 undefined on input line 13.
+
+Package hyperref Info: Anchor `section*.14' on input line 16.
+pdftex: bookmark at 16: {\thetodo } {O trabalho ir\'a propor a inser\c c\~ao de
+ um novo equipamento que tamb\'em aumentar\'a a complexidade e o n\'umero de co
+mponentes no sistema. Por que isto \'e um problema para nesta frase mas n\~ao u
+m problema no equipamento que vamos inserir? Evitar a repeti\c c\~ao de complex
+idade/complexo.} {section*.14}{0}{tdo}
+
+Overfull \hbox (21.9606pt too wide) in paragraph at lines 16--16
+\T1/aer/m/n/6 dade/complexo.  
+ []
+
+
+Overfull \hbox (21.9606pt too wide) in paragraph at lines 16--16
+\T1/aer/m/n/6 dade/complexo.  
+ []
+
+
+Overfull \hbox (21.9606pt too wide) in paragraph at lines 16--16
+\T1/aer/m/n/6 dade/complexo.  
+ []
+
+
+Overfull \hbox (21.9606pt too wide) in paragraph at lines 16--16
+\T1/aer/m/n/6 dade/complexo.  
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 17.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 17.
+Package hyperref Info: Anchor `page.10' on input line 17.
+[10]
+Package hyperref Info: Reference (link) `figure.caption.15' on input line 18.
+Package hyperref Info: Anchor `figure.caption.15' on input line 20.
+ <Cap2/Figuras/notch.png, id=177, 734.14275pt x 463.13025pt>
+File: Cap2/Figuras/notch.png Graphic file (type png)
+
+<use Cap2/Figuras/notch.png>
+Package pdftex.def Info: Cap2/Figuras/notch.png used on input line 22.
+(pdftex.def)             Requested size: 204.85846pt x 129.23038pt.
+
+pdftex: bookmark at 23: {10} {\numberline{10}{\ignorespaces Presen\c ca de \tex
+tit {notch} na ondula\c c\~ao de tens\~ao \cite {Notches}\relax }} {figure.capt
+ion.15}{0}{lof}
+
+LaTeX Warning: Citation `Notches' on page 11 undefined on input line 23.
+
+
+LaTeX Warning: Citation `Notches' on page 11 undefined on input line 23.
+
+Package hyperref Info: Anchor `Item.2' on input line 28.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 33.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 33.
+Package hyperref Info: Anchor `page.11' on input line 33.
+[11
+Package `hyperref' Info: End of reference (link) `figure.caption.15', line 18.
+ <./Cap2/Figuras/notch.png>]
+Package hyperref Info: Anchor `Item.3' on input line 39.
+
+
+LaTeX Warning: Citation `Fitzgerald2006' on page 12 undefined on input line 43.
+
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 44.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 44.
+Package hyperref Info: Anchor `page.12' on input line 44.
+[12]
+Package hyperref Info: Anchor `Item.4' on input line 46.
+) (Cap2/Partes/Guias_de_Recomendacao.tex
+Package hyperref Info: Anchor `section.1.4' on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+
+pdftex: bookmark at 1: {1.4} {\numberline{1.4}Guias de Recomenda\c c\~ao} {sect
+ion.1.4}{1}{toc}
+Package hyperref Info: Anchor `section*.16' on input line 1.
+pdftex: bookmark at 1: {\thetodo } {T\IeC {\'\i }tulo Lixo} {section*.16}{0}{td
+o}
+Package hyperref Info: Anchor `section*.17' on input line 3.
+pdftex: bookmark at 3: {\thetodo } {Paulo Serra corp.citar} {section*.17}{0}{td
+o}
+
+Overfull \hbox (2.05923pt too wide) in paragraph at lines 3--3
+\T1/aer/m/n/6 corp.citar  
+ []
+
+
+Overfull \hbox (2.05923pt too wide) in paragraph at lines 3--3
+\T1/aer/m/n/6 corp.citar  
+ []
+
+
+Overfull \hbox (2.05923pt too wide) in paragraph at lines 3--3
+\T1/aer/m/n/6 corp.citar  
+ []
+
+
+Overfull \hbox (2.05923pt too wide) in paragraph at lines 3--3
+\T1/aer/m/n/6 corp.citar  
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 4.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 4.
+Package hyperref Info: Anchor `page.13' on input line 4.
+[13]
+Package hyperref Info: Anchor `section*.18' on input line 11.
+
+pdftex: bookmark at 11: {\thetodo } {Falar dos requisitos de alto n\IeC {\'\i }
+vel presentes no Part 23 e Part 25} {section*.18}{0}{tdo}
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 12.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 12.
+Package hyperref Info: Anchor `page.14' on input line 12.
+[14]
+Package hyperref Info: Anchor `subsection.1.4.1' on input line 13.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 13.
+
+pdftex: bookmark at 13: {1.4.1} {\numberline{1.4.1}MIL-STD 704 - \textit {Aircr
+aft Electric Power Characteristics}} {subsection.1.4.1}{2}{toc}
+Package hyperref Info: Anchor `subsection.1.4.2' on input line 15.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 15.
+pdftex: bookmark at 15: {1.4.2} {\numberline{1.4.2}DO-160 - \textit {Environmen
+tal Conditions and Test Procedures for Airborne Equipment - Section 16: Power I
+nput}} {subsection.1.4.2}{2}{toc}
+) (Cap2/Partes/Metodos_de_Atenuacao_de_Harmonicas.tex
+Package hyperref Info: Anchor `section.1.5' on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+
+pdftex: bookmark at 1: {1.5} {\numberline{1.5}M\'etodos de Atenua\c c\~ao de Ha
+rm\^onicas} {section.1.5}{1}{toc}
+Package hyperref Info: Reference (link) `section.1.2' on input line 4.
+Package hyperref Info: Anchor `subsection.1.5.1' on input line 6.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 6.
+pdftex: bookmark at 6: {1.5.1} {\numberline{1.5.1}Sistemas Passivos} {subsectio
+n.1.5.1}{2}{toc}
+
+LaTeX Warning: Citation `AN779' on page 15 undefined on input line 8.
+
+Package hyperref Info: Anchor `subsubsection.1.5.1.1' on input line 10.
+pdftex: bookmark at 10: {1.5.1.1} {\numberline{1.5.1.1}Filtros Passivos} {subsu
+bsection.1.5.1.1}{3}{toc}
+
+LaTeX Warning: Citation `Mussoi2004' on page 15 undefined on input line 12.
+
+
+LaTeX Warning: Citation `Kassick2010' on page 15 undefined on input line 12.
+
+Package hyperref Info: Reference (link) `figure.caption.19' on input line 12.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 13.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 13.
+Package hyperref Info: Anchor `page.15' on input line 13.
+[15
+Package `hyperref' Info: End of reference (link) `section.1.2', line 4.
+]
+Package hyperref Info: Anchor `figure.caption.19' on input line 14.
+ <Cap2/Figuras/sch_filtro_passivo.png, id=211, 846.7635pt x 467.94826pt>
+File: Cap2/Figuras/sch_filtro_passivo.png Graphic file (type png)
+
+<use Cap2/Figuras/sch_filtro_passivo.png>
+Package pdftex.def Info: Cap2/Figuras/sch_filtro_passivo.png used on input line
+ 16.
+(pdftex.def)             Requested size: 273.14923pt x 150.94606pt.
+
+pdftex: bookmark at 17: {11} {\numberline{11}{\ignorespaces Esquema de um filtr
+o passivo gen\'erico\relax }} {figure.caption.19}{0}{lof}
+Package hyperref Info: Anchor `Item.5' on input line 29.
+
+LaTeX Warning: Citation `Kassick2010' on page 16 undefined on input line 29.
+
+
+LaTeX Warning: Citation `Mussoi2004' on page 16 undefined on input line 29.
+
+Package hyperref Info: Reference (link) `figure.caption.20' on input line 29.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 30.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 30.
+Package hyperref Info: Anchor `page.16' on input line 30.
+[16
+Package `hyperref' Info: End of reference (link) `figure.caption.19', line 12.
+ <./Cap2/Figuras/sch_filtro_passivo.png>]
+Package hyperref Info: Anchor `figure.caption.20' on input line 31.
+
+<Cap2/Figuras/LP_filter_BW.png, id=221, 869.49844pt x 642.90187pt>
 File: Cap2/Figuras/LP_filter_BW.png Graphic file (type png)
 
 <use Cap2/Figuras/LP_filter_BW.png>
-Package pdftex.def Info: Cap2/Figuras/LP_filter_BW.png used on input line 37.
+Package pdftex.def Info: Cap2/Figuras/LP_filter_BW.png used on input line 33.
 (pdftex.def)             Requested size: 218.51521pt x 161.56871pt.
 
-<Cap2/Figuras/HP_filter_BW.png, id=52, 884.55469pt x 644.4075pt>
+pdftex: bookmark at 34: {12} {\numberline{12}{\ignorespaces Resposta em frequ\^
+encia de um filtro passa baixa\relax }} {figure.caption.20}{0}{lof}
+Package hyperref Info: Anchor `Item.6' on input line 39.
+
+LaTeX Warning: Citation `Kassick2010' on page 17 undefined on input line 39.
+
+
+LaTeX Warning: Citation `Mussoi2004' on page 17 undefined on input line 39.
+
+Package hyperref Info: Reference (link) `figure.caption.21' on input line 39.
+Package hyperref Info: Anchor `figure.caption.21' on input line 41.
+<Cap2/Figuras/HP_filter_BW.png, id=223, 884.55469pt x 644.4075pt>
 File: Cap2/Figuras/HP_filter_BW.png Graphic file (type png)
 
 <use Cap2/Figuras/HP_filter_BW.png>
-Package pdftex.def Info: Cap2/Figuras/HP_filter_BW.png used on input line 44.
+Package pdftex.def Info: Cap2/Figuras/HP_filter_BW.png used on input line 43.
 (pdftex.def)             Requested size: 218.51521pt x 159.18407pt.
 
-<Cap2/Figuras/BP_filter_BW.png, id=53, 874.76813pt x 641.39626pt>
+pdftex: bookmark at 44: {13} {\numberline{13}{\ignorespaces Resposta em frequ\^
+encia de um filtro passa alta\relax }} {figure.caption.21}{0}{lof}
+Package hyperref Info: Anchor `Item.7' on input line 49.
+
+LaTeX Warning: Citation `Mussoi2004' on page 17 undefined on input line 49.
+
+Package hyperref Info: Reference (link) `figure.caption.22' on input line 49.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 50.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 50.
+Package hyperref Info: Anchor `page.17' on input line 50.
+[17
+Package `hyperref' Info: End of reference (link) `figure.caption.20', line 29.
+Package `hyperref' Info: End of reference (link) `figure.caption.21', line 39.
+ <./Cap2/Figuras/LP_filter_BW.png>]
+Package hyperref Info: Anchor `figure.caption.22' on input line 51.
+
+<Cap2/Figuras/BP_filter_BW.png, id=235, 874.76813pt x 641.39626pt>
 File: Cap2/Figuras/BP_filter_BW.png Graphic file (type png)
 
 <use Cap2/Figuras/BP_filter_BW.png>
-Package pdftex.def Info: Cap2/Figuras/BP_filter_BW.png used on input line 51.
+Package pdftex.def Info: Cap2/Figuras/BP_filter_BW.png used on input line 53.
 (pdftex.def)             Requested size: 218.51521pt x 160.21164pt.
 
-<Cap2/Figuras/RB_filter_BW.png, id=54, 878.53218pt x 641.39626pt>
+pdftex: bookmark at 54: {14} {\numberline{14}{\ignorespaces Resposta em frequ\^
+encia de um filtro passa faixa\relax }} {figure.caption.22}{0}{lof}
+Package hyperref Info: Anchor `Item.8' on input line 59.
+
+LaTeX Warning: Citation `Mussoi2004' on page 18 undefined on input line 59.
+
+Package hyperref Info: Reference (link) `figure.caption.23' on input line 59.
+Package hyperref Info: Anchor `figure.caption.23' on input line 61.
+<Cap2/Figuras/RB_filter_BW.png, id=237, 878.53218pt x 641.39626pt>
 File: Cap2/Figuras/RB_filter_BW.png Graphic file (type png)
 
 <use Cap2/Figuras/RB_filter_BW.png>
-Package pdftex.def Info: Cap2/Figuras/RB_filter_BW.png used on input line 58.
+Package pdftex.def Info: Cap2/Figuras/RB_filter_BW.png used on input line 63.
 (pdftex.def)             Requested size: 218.51521pt x 159.52657pt.
 
-pdftex: bookmark at 62: {1} {\numberline{1}{\ignorespaces Ganho em fun\c c\~ao 
-da frequ\^encia de filtros passivos t\IeC {\'\i }picos\relax }} {figure.caption
-.3}{0}{lof}
-Package hyperref Info: Anchor `section*.4' on input line 68.
-pdftex: bookmark at 68: {\thetodo } {porcasso} {section*.4}{0}{tdo}
-Package hyperref Info: Anchor `subsubsection.0.1.1.2' on input line 70.
-pdftex: bookmark at 70: {0.1.1.2} {\numberline{0.1.1.2}Retificadores Multipulso
-} {subsubsection.0.1.1.2}{3}{toc}
+pdftex: bookmark at 64: {15} {\numberline{15}{\ignorespaces Resposta em frequ\^
+encia de um filtro rejeita faixa\relax }} {figure.caption.23}{0}{lof}
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 73.
+(babel)             in language  on input line 105.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 73.
-Package hyperref Info: Anchor `page.3' on input line 73.
-[3
-Package `hyperref' Info: End of reference (link) `figure.caption.3', line 31.
- <./Cap2/Figuras/LP_filter_BW.png> <./Cap2/Figuras/HP_filter_BW.png> <./Cap2/Fi
-guras/BP_filter_BW.png> <./Cap2/Figuras/RB_filter_BW.png>]
+(babel)             in language  on input line 105.
+Package hyperref Info: Anchor `page.18' on input line 105.
+[18
+Package `hyperref' Info: End of reference (link) `figure.caption.22', line 49.
+Package `hyperref' Info: End of reference (link) `figure.caption.23', line 59.
+ <./Cap2/Figuras/HP_filter_BW.png> <./Cap2/Figuras/BP_filter_BW.png>]
+Package hyperref Info: Anchor `subsubsection.1.5.1.2' on input line 105.
 
-LaTeX Warning: Citation `Singh2008' on page 4 undefined on input line 74.
+pdftex: bookmark at 105: {1.5.1.2} {\numberline{1.5.1.2}Retificadores Multipuls
+o} {subsubsection.1.5.1.2}{3}{toc}
+Package hyperref Info: Anchor `section*.24' on input line 106.
+pdftex: bookmark at 106: {\thetodo } {Explicar que os retificadores s\~ao os pr
+incipais causadores dos harm\^onicos, pois os retificadores n\~ao s\~ao meio de
+ acabar dcom o problema} {section*.24}{0}{tdo}
 
-Package hyperref Info: Reference (link) `figure.caption.5' on input line 74.
-Package hyperref Info: Reference (link) `figure.caption.6' on input line 74.
+LaTeX Warning: Citation `Singh2008' on page 19 undefined on input line 109.
 
-LaTeX Warning: Citation `Singh2008' on page 4 undefined on input line 74.
+Package hyperref Info: Reference (link) `figure.caption.25' on input line 109.
+Package hyperref Info: Reference (link) `figure.caption.26' on input line 109.
+Package hyperref Info: Reference (link) `figure.caption.27' on input line 109.
 
-Package hyperref Info: Anchor `figure.caption.5' on input line 76.
-<Cap2/Figuras/12_pulse_rectifier.png, id=68, 1180.41pt x 603.75563pt>
+LaTeX Warning: Citation `Singh2008' on page 19 undefined on input line 109.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 110.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 110.
+Package hyperref Info: Anchor `page.19' on input line 110.
+[19
+Package `hyperref' Info: End of reference (link) `figure.caption.25', line 109.
+
+Package `hyperref' Info: End of reference (link) `figure.caption.26', line 109.
+
+Package `hyperref' Info: End of reference (link) `figure.caption.27', line 109.
+
+ <./Cap2/Figuras/RB_filter_BW.png>]
+Package hyperref Info: Anchor `figure.caption.25' on input line 111.
+
+<Cap2/Figuras/sch_multipulso.png, id=261, 521.69907pt x 424.58624pt>
+File: Cap2/Figuras/sch_multipulso.png Graphic file (type png)
+
+<use Cap2/Figuras/sch_multipulso.png>
+Package pdftex.def Info: Cap2/Figuras/sch_multipulso.png used on input line 113
+.
+(pdftex.def)             Requested size: 227.62206pt x 185.25069pt.
+
+pdftex: bookmark at 114: {16} {\numberline{16}{\ignorespaces Esquema gen\'erico
+ de um conversor multipulso\relax }} {figure.caption.25}{0}{lof}
+Package hyperref Info: Anchor `figure.caption.26' on input line 118.
+<Cap2/Figuras/12_pulse_rectifier.png, id=262, 1180.41pt x 603.75563pt>
 File: Cap2/Figuras/12_pulse_rectifier.png Graphic file (type png)
 
 <use Cap2/Figuras/12_pulse_rectifier.png>
 Package pdftex.def Info: Cap2/Figuras/12_pulse_rectifier.png used on input line
- 80.
+ 122.
 (pdftex.def)             Requested size: 223.07211pt x 114.0883pt.
 
 
-LaTeX Warning: Citation `Singh2008' on page 4 undefined on input line 81.
+LaTeX Warning: Citation `Singh2008' on page 20 undefined on input line 123.
 
 
-LaTeX Warning: Citation `Singh2008' on page 4 undefined on input line 81.
+LaTeX Warning: Citation `Singh2008' on page 20 undefined on input line 123.
 
-<Cap2/Figuras/12_pulse_wave.png, id=69, 1117.17375pt x 414.79968pt>
+<Cap2/Figuras/12_pulse_wave.png, id=263, 1117.17375pt x 414.79968pt>
 File: Cap2/Figuras/12_pulse_wave.png Graphic file (type png)
 
 <use Cap2/Figuras/12_pulse_wave.png>
-Package pdftex.def Info: Cap2/Figuras/12_pulse_wave.png used on input line 87.
+Package pdftex.def Info: Cap2/Figuras/12_pulse_wave.png used on input line 129.
+
 (pdftex.def)             Requested size: 223.07211pt x 82.82555pt.
 
 
-LaTeX Warning: Citation `Singh2008' on page 4 undefined on input line 88.
+LaTeX Warning: Citation `Singh2008' on page 20 undefined on input line 130.
 
 
-LaTeX Warning: Citation `Singh2008' on page 4 undefined on input line 88.
+LaTeX Warning: Citation `Singh2008' on page 20 undefined on input line 130.
 
-pdftex: bookmark at 91: {2} {\numberline{2}{\ignorespaces Circuito t\IeC {\'\i 
-}pico de um retificador de 12 pulsos com sua respectiva corrente de entrada\rel
-ax }} {figure.caption.5}{0}{lof}
-Package hyperref Info: Anchor `figure.caption.6' on input line 95.
-<Cap2/Figuras/18_pulse_rectifier.png, id=70, 1175.89313pt x 550.30594pt>
+pdftex: bookmark at 133: {17} {\numberline{17}{\ignorespaces Circuito t\IeC {\'
+\i }pico de um retificador de 12 pulsos com sua respectiva corrente de entrada\
+relax }} {figure.caption.26}{0}{lof}
+Package hyperref Info: Anchor `figure.caption.27' on input line 137.
+<Cap2/Figuras/18_pulse_rectifier.png, id=264, 1175.89313pt x 550.30594pt>
 File: Cap2/Figuras/18_pulse_rectifier.png Graphic file (type png)
 
 <use Cap2/Figuras/18_pulse_rectifier.png>
 Package pdftex.def Info: Cap2/Figuras/18_pulse_rectifier.png used on input line
- 99.
+ 141.
 (pdftex.def)             Requested size: 223.07211pt x 104.39127pt.
 
 
-LaTeX Warning: Citation `Singh2008' on page 4 undefined on input line 100.
+LaTeX Warning: Citation `Singh2008' on page 20 undefined on input line 142.
 
 
-LaTeX Warning: Citation `Singh2008' on page 4 undefined on input line 100.
+LaTeX Warning: Citation `Singh2008' on page 20 undefined on input line 142.
 
-<Cap2/Figuras/18_pulse_wave.png, id=71, 1105.88156pt x 411.03563pt>
+<Cap2/Figuras/18_pulse_wave.png, id=265, 1105.88156pt x 411.03563pt>
 File: Cap2/Figuras/18_pulse_wave.png Graphic file (type png)
 
 <use Cap2/Figuras/18_pulse_wave.png>
-Package pdftex.def Info: Cap2/Figuras/18_pulse_wave.png used on input line 106.
+Package pdftex.def Info: Cap2/Figuras/18_pulse_wave.png used on input line 148.
 
 (pdftex.def)             Requested size: 223.07211pt x 82.90811pt.
 
 
-LaTeX Warning: Citation `Singh2008' on page 4 undefined on input line 107.
+LaTeX Warning: Citation `Singh2008' on page 20 undefined on input line 149.
 
 
-LaTeX Warning: Citation `Singh2008' on page 4 undefined on input line 107.
+LaTeX Warning: Citation `Singh2008' on page 20 undefined on input line 149.
 
-pdftex: bookmark at 110: {3} {\numberline{3}{\ignorespaces Circuito t\IeC {\'\i
- }pico de um retificador de 18 pulsos com sua respectiva corrente de entrada\re
-lax }} {figure.caption.6}{0}{lof}
+pdftex: bookmark at 152: {18} {\numberline{18}{\ignorespaces Circuito t\IeC {\'
+\i }pico de um retificador de 18 pulsos com sua respectiva corrente de entrada\
+relax }} {figure.caption.27}{0}{lof}
 
-LaTeX Warning: Citation `Gong2003' on page 4 undefined on input line 114.
+LaTeX Warning: Citation `Gong2003' on page 20 undefined on input line 156.
 
 
-LaTeX Warning: Citation `Lobo2005' on page 4 undefined on input line 114.
+LaTeX Warning: Citation `Lobo2005' on page 20 undefined on input line 156.
 
-Package hyperref Info: Anchor `subsection.0.1.2' on input line 116.
+Package hyperref Info: Anchor `section*.28' on input line 156.
+pdftex: bookmark at 156: {\thetodo } {isso tem nas caracter\IeC {\'\i }sticas. 
+Ver se \'e realemte necess\'ario ter aqui} {section*.28}{0}{tdo}
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 116.
-pdftex: bookmark at 116: {0.1.2} {\numberline{0.1.2}Sistemas Ativos} {subsectio
-n.0.1.2}{2}{toc}
+(babel)             in language  on input line 157.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 119.
+(babel)             in language  on input line 157.
+Package hyperref Info: Anchor `page.20' on input line 157.
+[20 <./Cap2/Figuras/sch_multipulso.png> <./Cap2/Figuras/12_pulse_rectifier.png>
+ <./Cap2/Figuras/12_pulse_wave.png> <./Cap2/Figuras/18_pulse_rectifier.png> <./
+Cap2/Figuras/18_pulse_wave.png>]
+Package hyperref Info: Anchor `subsection.1.5.2' on input line 158.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 119.
-Package hyperref Info: Anchor `page.4' on input line 119.
-[4
-Package `hyperref' Info: End of reference (link) `figure.caption.5', line 74.
-Package `hyperref' Info: End of reference (link) `figure.caption.6', line 74.
- <./Cap2/Figuras/12_pulse_rectifier.png> <./Cap2/Figuras/12_pulse_wave.png>]
-Package hyperref Info: Anchor `subsubsection.0.1.2.1' on input line 120.
+(babel)             in language  on input line 158.
 
-pdftex: bookmark at 120: {0.1.2.1} {\numberline{0.1.2.1}Conversores com Corre\c
- c\~ao de Fator de Pot\^encia} {subsubsection.0.1.2.1}{3}{toc}
+pdftex: bookmark at 158: {1.5.2} {\numberline{1.5.2}Sistemas Ativos} {subsectio
+n.1.5.2}{2}{toc}
+Package hyperref Info: Anchor `section*.29' on input line 160.
+pdftex: bookmark at 160: {\thetodo } {Melhorar essa palavra, n\~ao se trata ape
+nas de retifica\c c\~ao} {section*.29}{0}{tdo}
 
-LaTeX Warning: Citation `Kolar2011' on page 5 undefined on input line 122.
+LaTeX Warning: Marginpar on page 21 moved.
 
-Package hyperref Info: Reference (link) `figure.caption.7' on input line 122.
-Package hyperref Info: Reference (link) `figure.caption.8' on input line 122.
+Package hyperref Info: Anchor `subsubsection.1.5.2.1' on input line 162.
+pdftex: bookmark at 162: {1.5.2.1} {\numberline{1.5.2.1}Conversores com Corre\c
+ c\~ao de Fator de Pot\^encia} {subsubsection.1.5.2.1}{3}{toc}
 
-LaTeX Warning: Citation `Kolar2011' on page 5 undefined on input line 122.
+LaTeX Warning: Citation `Kolar2011' on page 21 undefined on input line 164.
+
+Package hyperref Info: Reference (link) `figure.caption.30' on input line 164.
+Package hyperref Info: Reference (link) `figure.caption.31' on input line 164.
+
+LaTeX Warning: Citation `Kolar2011' on page 21 undefined on input line 164.
 
 
-LaTeX Warning: Citation `Barbosa2002' on page 5 undefined on input line 122.
+LaTeX Warning: Citation `Barbosa2002' on page 21 undefined on input line 164.
 
-Package hyperref Info: Anchor `figure.caption.7' on input line 124.
-<Cap2/Figuras/rectifier_sch.png, id=82, 812.28468pt x 304.13625pt>
+Package hyperref Info: Anchor `figure.caption.30' on input line 166.
+<Cap2/Figuras/rectifier_sch.png, id=274, 812.28468pt x 304.13625pt>
 File: Cap2/Figuras/rectifier_sch.png Graphic file (type png)
 
 <use Cap2/Figuras/rectifier_sch.png>
-Package pdftex.def Info: Cap2/Figuras/rectifier_sch.png used on input line 126.
+Package pdftex.def Info: Cap2/Figuras/rectifier_sch.png used on input line 168.
 
 (pdftex.def)             Requested size: 182.09486pt x 68.1771pt.
 
-pdftex: bookmark at 127: {4} {\numberline{4}{\ignorespaces Conversores AC-DC de
- dois est\'agios\relax }} {figure.caption.7}{0}{lof}
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 129.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 129.
-Package hyperref Info: Anchor `page.5' on input line 129.
-[5
-Package `hyperref' Info: End of reference (link) `figure.caption.7', line 122.
-Package `hyperref' Info: End of reference (link) `figure.caption.8', line 122.
- <./Cap2/Figuras/18_pulse_rectifier.png> <./Cap2/Figuras/18_pulse_wave.png>]
-Package hyperref Info: Anchor `figure.caption.8' on input line 131.
-
-<Cap2/Figuras/3ph_rectifier.png, id=90, 816.80156pt x 454.69875pt>
+pdftex: bookmark at 169: {19} {\numberline{19}{\ignorespaces Conversores AC-DC 
+de dois est\'agios\relax }} {figure.caption.30}{0}{lof}
+Package hyperref Info: Anchor `figure.caption.31' on input line 173.
+<Cap2/Figuras/3ph_rectifier.png, id=275, 816.80156pt x 454.69875pt>
 File: Cap2/Figuras/3ph_rectifier.png Graphic file (type png)
 
 <use Cap2/Figuras/3ph_rectifier.png>
-Package pdftex.def Info: Cap2/Figuras/3ph_rectifier.png used on input line 133.
+Package pdftex.def Info: Cap2/Figuras/3ph_rectifier.png used on input line 175.
 
 (pdftex.def)             Requested size: 204.85846pt x 114.03519pt.
 
-pdftex: bookmark at 134: {5} {\numberline{5}{\ignorespaces Retificador trif\'as
-ico com ponte de diodos\relax }} {figure.caption.8}{0}{lof}
-Package hyperref Info: Reference (link) `figure.caption.10' on input line 138.
-Package hyperref Info: Anchor `section*.9' on input line 138.
-pdftex: bookmark at 138: {\thetodo } {Corrente levada a zero? ta serto isso?} {
-section*.9}{0}{tdo}
+pdftex: bookmark at 176: {20} {\numberline{20}{\ignorespaces Retificador trif\'
+asico com ponte de diodos\relax }} {figure.caption.31}{0}{lof}
+Package hyperref Info: Reference (link) `figure.caption.32' on input line 181.
 
-LaTeX Warning: Citation `Nairus1996' on page 6 undefined on input line 138.
+LaTeX Warning: Citation `Nairus1996' on page 21 undefined on input line 181.
 
 
-LaTeX Warning: Citation `Takeuchi2008' on page 6 undefined on input line 138.
+LaTeX Warning: Citation `Takeuchi2008' on page 21 undefined on input line 181.
 
+Package hyperref Info: Reference (link) `figure.caption.33' on input line 181.
 
-LaTeX Warning: Citation `Kolar2011' on page 6 undefined on input line 138.
+LaTeX Warning: Citation `Kolar2011' on page 21 undefined on input line 181.
 
-Package hyperref Info: Anchor `figure.caption.10' on input line 140.
-<Cap2/Figuras/PFC_converter.png, id=92, 816.80156pt x 454.69875pt>
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 182.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 182.
+Package hyperref Info: Anchor `page.21' on input line 182.
+[21
+Package `hyperref' Info: End of reference (link) `figure.caption.30', line 164.
+
+Package `hyperref' Info: End of reference (link) `figure.caption.31', line 164.
+
+ <./Cap2/Figuras/rectifier_sch.png>]
+Package hyperref Info: Anchor `figure.caption.32' on input line 183.
+
+<Cap2/Figuras/PFC_converter.png, id=288, 816.80156pt x 454.69875pt>
 File: Cap2/Figuras/PFC_converter.png Graphic file (type png)
 
 <use Cap2/Figuras/PFC_converter.png>
-Package pdftex.def Info: Cap2/Figuras/PFC_converter.png used on input line 142.
+Package pdftex.def Info: Cap2/Figuras/PFC_converter.png used on input line 185.
 
 (pdftex.def)             Requested size: 204.85846pt x 114.03519pt.
 
-pdftex: bookmark at 143: {6} {\numberline{6}{\ignorespaces Conversor com corre\
-c c\~ao de fator de pot\^encia do tipo Prasad-Ziogas \cite {Takeuchi2008}\relax
- }} {figure.caption.10}{0}{lof}
+pdftex: bookmark at 186: {21} {\numberline{21}{\ignorespaces Conversor com corr
+e\c c\~ao de fator de pot\^encia do tipo Prasad-Ziogas \cite {Takeuchi2008}\rel
+ax }} {figure.caption.32}{0}{lof}
 
-LaTeX Warning: Citation `Takeuchi2008' on page 6 undefined on input line 143.
+LaTeX Warning: Citation `Takeuchi2008' on page 22 undefined on input line 186.
 
 
-LaTeX Warning: Citation `Takeuchi2008' on page 6 undefined on input line 143.
+LaTeX Warning: Citation `Takeuchi2008' on page 22 undefined on input line 186.
 
-Package hyperref Info: Reference (link) `figure.caption.11' on input line 166.
-Package hyperref Info: Reference (link) `figure.caption.11' on input line 166.
-Package hyperref Info: Reference (link) `figure.caption.11' on input line 166.
+Package hyperref Info: Anchor `figure.caption.33' on input line 190.
+<Cap2/Figuras/sch_PFC.png, id=289, 1139.00531pt x 264.99pt>
+File: Cap2/Figuras/sch_PFC.png Graphic file (type png)
+
+<use Cap2/Figuras/sch_PFC.png>
+Package pdftex.def Info: Cap2/Figuras/sch_PFC.png used on input line 192.
+(pdftex.def)             Requested size: 295.90588pt x 68.83916pt.
+
+pdftex: bookmark at 193: {22} {\numberline{22}{\ignorespaces Diagrama b\'asico 
+do conversor PFC\relax }} {figure.caption.33}{0}{lof}
+Package hyperref Info: Reference (link) `figure.caption.34' on input line 216.
+Package hyperref Info: Reference (link) `figure.caption.34' on input line 216.
+Package hyperref Info: Reference (link) `figure.caption.34' on input line 216.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 217.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 167.
-Package hyperref Info: Anchor `page.6' on input line 167.
-[6
-Package `hyperref' Info: End of reference (link) `figure.caption.10', line 138.
+(babel)             in language  on input line 217.
+Package hyperref Info: Anchor `page.22' on input line 217.
+[22
+Package `hyperref' Info: End of reference (link) `figure.caption.32', line 181.
 
- <./Cap2/Figuras/rectifier_sch.png> <./Cap2/Figuras/3ph_rectifier.png>]
-Package hyperref Info: Anchor `figure.caption.11' on input line 168.
+Package `hyperref' Info: End of reference (link) `figure.caption.33', line 181.
+
+Package `hyperref' Info: End of reference (link) `figure.caption.34', line 216.
+
+Package `hyperref' Info: End of reference (link) `figure.caption.34', line 216.
+
+ <./Cap2/Figuras/3ph_rectifier.png>]
+Package hyperref Info: Anchor `figure.caption.34' on input line 218.
 Package epstopdf Info: Source file: <Cap2/Figuras/PFC_unfilt.eps>
 (epstopdf)                    date: 2015-09-09 20:20:06
 (epstopdf)                    size: 58690 bytes
@@ -1224,15 +1866,15 @@ df>
 (epstopdf)                    size: 37047 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/PFC_unfilt-eps
 -converted-to.pdf Cap2/Figuras/PFC_unfilt.eps>
-(epstopdf)             \includegraphics on input line 172.
+(epstopdf)             \includegraphics on input line 222.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap2/Figuras/PFC_unfilt-eps-converted-to.pdf, id=103, 420.57124pt x 316.18124p
+<Cap2/Figuras/PFC_unfilt-eps-converted-to.pdf, id=300, 420.57124pt x 316.18124p
 t>
 File: Cap2/Figuras/PFC_unfilt-eps-converted-to.pdf Graphic file (type pdf)
  <use Cap2/Figuras/PFC_unfilt-eps-converted-to.pdf>
 Package pdftex.def Info: Cap2/Figuras/PFC_unfilt-eps-converted-to.pdf used on i
-nput line 172.
+nput line 222.
 (pdftex.def)             Requested size: 227.16357pt x 170.77875pt.
 Package epstopdf Info: Source file: <Cap2/Figuras/PFC_filt.eps>
 (epstopdf)                    date: 2015-09-09 20:20:06
@@ -1243,275 +1885,233 @@ Package epstopdf Info: Source file: <Cap2/Figuras/PFC_filt.eps>
 (epstopdf)                    size: 33282 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/PFC_filt-eps-c
 onverted-to.pdf Cap2/Figuras/PFC_filt.eps>
-(epstopdf)             \includegraphics on input line 179.
+(epstopdf)             \includegraphics on input line 229.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap2/Figuras/PFC_filt-eps-converted-to.pdf, id=104, 420.57124pt x 316.18124pt>
+<Cap2/Figuras/PFC_filt-eps-converted-to.pdf, id=301, 420.57124pt x 316.18124pt>
 File: Cap2/Figuras/PFC_filt-eps-converted-to.pdf Graphic file (type pdf)
 <use Cap2/Figuras/PFC_filt-eps-converted-to.pdf>
 Package pdftex.def Info: Cap2/Figuras/PFC_filt-eps-converted-to.pdf used on inp
-ut line 179.
+ut line 229.
 (pdftex.def)             Requested size: 227.16357pt x 170.77875pt.
 
-pdftex: bookmark at 183: {7} {\numberline{7}{\ignorespaces Corrente de entrada 
-para o caso sem e com filtro na linha\relax }} {figure.caption.11}{0}{lof}
-Package hyperref Info: Anchor `section*.12' on input line 186.
-pdftex: bookmark at 186: {\thetodo } {Arrumar espessura da linha da figura (a)}
- {section*.12}{0}{tdo}
-Package hyperref Info: Anchor `subsubsection.0.1.2.2' on input line 187.
-pdftex: bookmark at 187: {0.1.2.2} {\numberline{0.1.2.2}Filtros Ativos} {subsub
-section.0.1.2.2}{3}{toc}
+pdftex: bookmark at 233: {23} {\numberline{23}{\ignorespaces Corrente de entrad
+a para o caso sem e com filtro na linha\relax }} {figure.caption.34}{0}{lof}
+Package hyperref Info: Anchor `subsubsection.1.5.2.2' on input line 237.
+pdftex: bookmark at 237: {1.5.2.2} {\numberline{1.5.2.2}Filtros Ativos} {subsub
+section.1.5.2.2}{3}{toc}
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 190.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 190.
-Package hyperref Info: Anchor `page.7' on input line 190.
-[7
-Package `hyperref' Info: End of reference (link) `figure.caption.11', line 166.
+(babel)             in language  on input line 240.
+Package hyperref Info: Anchor `page.23' on input line 240.
+[23
+Package `hyperref' Info: End of reference (link) `figure.caption.34', line 216.
 
-Package `hyperref' Info: End of reference (link) `figure.caption.11', line 166.
+ <./Cap2/Figuras/PFC_converter.png> <./Cap2/Figuras/sch_PFC.png> <./Cap2/Figura
+s/PFC_unfilt-eps-converted-to.pdf> <./Cap2/Figuras/PFC_filt-eps-converted-to.pd
+f>]
 
-Package `hyperref' Info: End of reference (link) `figure.caption.11', line 166.
-
- <./Cap2/Figuras/PFC_converter.png> <./Cap2/Figuras/PFC_unfilt-eps-converted-to
-.pdf> <./Cap2/Figuras/PFC_filt-eps-converted-to.pdf>]
-
-LaTeX Warning: Citation `Pomilio2009' on page 8 undefined on input line 191.
+LaTeX Warning: Citation `Pomilio2009' on page 24 undefined on input line 241.
 
 
-LaTeX Warning: Citation `Afonso2013' on page 8 undefined on input line 191.
+LaTeX Warning: Citation `Afonso2013' on page 24 undefined on input line 241.
 
-Package hyperref Info: Reference (link) `figure.caption.13' on input line 191.
+Package hyperref Info: Reference (link) `figure.caption.35' on input line 241.
 
-LaTeX Warning: Citation `Afonso2013' on page 8 undefined on input line 191.
+LaTeX Warning: Citation `Afonso2013' on page 24 undefined on input line 241.
 
-Package hyperref Info: Reference (link) `figure.caption.14' on input line 191.
-Package hyperref Info: Anchor `figure.caption.13' on input line 193.
-<Cap2/Figuras/shunt.png, id=123, 925.4575pt x 858.20625pt>
+Package hyperref Info: Reference (link) `figure.caption.36' on input line 241.
+Package hyperref Info: Anchor `figure.caption.35' on input line 243.
+<Cap2/Figuras/shunt.png, id=318, 925.4575pt x 858.20625pt>
 File: Cap2/Figuras/shunt.png Graphic file (type png)
 
 <use Cap2/Figuras/shunt.png>
-Package pdftex.def Info: Cap2/Figuras/shunt.png used on input line 195.
+Package pdftex.def Info: Cap2/Figuras/shunt.png used on input line 245.
 (pdftex.def)             Requested size: 227.62206pt x 211.08081pt.
 
-pdftex: bookmark at 196: {8} {\numberline{8}{\ignorespaces Filtro ativo do tipo
- \textit {shunt}\relax }} {figure.caption.13}{0}{lof}
-Package hyperref Info: Anchor `figure.caption.14' on input line 200.
-<Cap2/Figuras/serie.png, id=124, 1048.91875pt x 789.95125pt>
+pdftex: bookmark at 246: {24} {\numberline{24}{\ignorespaces Filtro ativo do ti
+po \textit {shunt}\relax }} {figure.caption.35}{0}{lof}
+Package hyperref Info: Anchor `figure.caption.36' on input line 250.
+<Cap2/Figuras/serie.png, id=319, 1048.91875pt x 789.95125pt>
 File: Cap2/Figuras/serie.png Graphic file (type png)
 
 <use Cap2/Figuras/serie.png>
-Package pdftex.def Info: Cap2/Figuras/serie.png used on input line 202.
+Package pdftex.def Info: Cap2/Figuras/serie.png used on input line 252.
 (pdftex.def)             Requested size: 258.12401pt x 194.38953pt.
 
-pdftex: bookmark at 203: {9} {\numberline{9}{\ignorespaces Filtro ativo do tipo
- s\'erie\relax }} {figure.caption.14}{0}{lof}
+pdftex: bookmark at 253: {25} {\numberline{25}{\ignorespaces Filtro ativo do ti
+po s\'erie\relax }} {figure.caption.36}{0}{lof}
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 208.
+(babel)             in language  on input line 258.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 208.
-Package hyperref Info: Anchor `page.8' on input line 208.
-[8
-Package `hyperref' Info: End of reference (link) `figure.caption.13', line 191.
+(babel)             in language  on input line 258.
+Package hyperref Info: Anchor `page.24' on input line 258.
+[24
+Package `hyperref' Info: End of reference (link) `figure.caption.35', line 241.
 
-Package `hyperref' Info: End of reference (link) `figure.caption.14', line 191.
+Package `hyperref' Info: End of reference (link) `figure.caption.36', line 241.
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 208.
+(babel)             in language  on input line 258.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 208.
-Package hyperref Info: Anchor `page.9' on input line 208.
- [9 <./Cap2/Figuras/shunt.png> <./Cap2/Figuras/serie.png>]
-Package hyperref Info: Anchor `section.0.2' on input line 209.
+(babel)             in language  on input line 258.
+Package hyperref Info: Anchor `page.25' on input line 258.
+ [25 <./Cap2/Figuras/shunt.png> <./Cap2/Figuras/serie.png>]
+Package hyperref Info: Anchor `section.1.6' on input line 259.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 209.
+(babel)             in language  on input line 259.
 
-pdftex: bookmark at 209: {0.2} {\numberline{0.2}Caracter\IeC {\'\i }sticas de R
+pdftex: bookmark at 259: {1.6} {\numberline{1.6}Caracter\IeC {\'\i }sticas de R
 etificadores com Alto Fator de Pot\^encia em Sistemas El\'etricos de Aeronaves}
- {section.0.2}{1}{toc}
+ {section.1.6}{1}{toc}
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 214.
+(babel)             in language  on input line 264.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 214.
-Package hyperref Info: Anchor `page.10' on input line 214.
-[10]
+(babel)             in language  on input line 264.
+Package hyperref Info: Anchor `page.26' on input line 264.
+[26]
 
-LaTeX Warning: Citation `Zhu2014' on page 11 undefined on input line 215.
-
-
-LaTeX Warning: Citation `Barruel2004' on page 11 undefined on input line 215.
+LaTeX Warning: Citation `Zhu2014' on page 27 undefined on input line 265.
 
 
-LaTeX Warning: Citation `Barruel2004' on page 11 undefined on input line 215.
+LaTeX Warning: Citation `Barruel2004' on page 27 undefined on input line 265.
 
 
-LaTeX Warning: Citation `Chen2012' on page 11 undefined on input line 215.
+LaTeX Warning: Citation `Barruel2004' on page 27 undefined on input line 265.
 
 
-LaTeX Warning: Citation `Barruel2004' on page 11 undefined on input line 215.
+LaTeX Warning: Citation `Chen2012' on page 27 undefined on input line 265.
 
 
-LaTeX Warning: Citation `Gong2003' on page 11 undefined on input line 217.
+LaTeX Warning: Citation `Barruel2004' on page 27 undefined on input line 265.
 
 
-LaTeX Warning: Citation `Lobo2005' on page 11 undefined on input line 217.
+LaTeX Warning: Citation `Gong2003' on page 27 undefined on input line 267.
 
 
-LaTeX Warning: Citation `Gong2003' on page 11 undefined on input line 217.
+LaTeX Warning: Citation `Lobo2005' on page 27 undefined on input line 267.
 
 
-LaTeX Warning: Citation `Lobo2005' on page 11 undefined on input line 217.
+LaTeX Warning: Citation `Gong2003' on page 27 undefined on input line 267.
 
 
-LaTeX Warning: Citation `Zhu2014' on page 11 undefined on input line 217.
-
-Package hyperref Info: Reference (link) `figure.caption.11' on input line 219.
-Package hyperref Info: Anchor `section*.15' on input line 219.
-pdftex: bookmark at 219: {\thetodo } {confuso} {section*.15}{0}{tdo}
-
-LaTeX Warning: Citation `Gong2003' on page 11 undefined on input line 219.
+LaTeX Warning: Citation `Lobo2005' on page 27 undefined on input line 267.
 
 
-LaTeX Warning: Citation `Lobo2005' on page 11 undefined on input line 219.
+LaTeX Warning: Citation `Zhu2014' on page 27 undefined on input line 267.
+
+Package hyperref Info: Reference (link) `figure.caption.34' on input line 269.
+Package hyperref Info: Anchor `section*.37' on input line 269.
+pdftex: bookmark at 269: {\thetodo } {confuso} {section*.37}{0}{tdo}
+
+LaTeX Warning: Citation `Gong2003' on page 27 undefined on input line 269.
 
 
-LaTeX Warning: Citation `Gong2003' on page 11 undefined on input line 219.
+LaTeX Warning: Citation `Lobo2005' on page 27 undefined on input line 269.
 
 
-LaTeX Warning: Citation `Lobo2005' on page 11 undefined on input line 219.
+LaTeX Warning: Citation `Gong2003' on page 27 undefined on input line 269.
 
 
-LaTeX Warning: Citation `Gong2003' on page 11 undefined on input line 219.
+LaTeX Warning: Citation `Lobo2005' on page 27 undefined on input line 269.
 
 
-LaTeX Warning: Citation `Lobo2005' on page 11 undefined on input line 219.
+LaTeX Warning: Citation `Gong2003' on page 27 undefined on input line 269.
 
 
-LaTeX Warning: Citation `Zhu2014' on page 11 undefined on input line 219.
+LaTeX Warning: Citation `Lobo2005' on page 27 undefined on input line 269.
+
+
+LaTeX Warning: Citation `Zhu2014' on page 27 undefined on input line 269.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 220.
+(babel)             in language  on input line 270.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 220.
-Package hyperref Info: Anchor `page.11' on input line 220.
-[11
-Package `hyperref' Info: End of reference (link) `figure.caption.11', line 219.
+(babel)             in language  on input line 270.
+Package hyperref Info: Anchor `page.27' on input line 270.
+[27
+Package `hyperref' Info: End of reference (link) `figure.caption.34', line 269.
 
 ]
 
-LaTeX Warning: Marginpar on page 12 moved.
+LaTeX Warning: Citation `Akagi2006' on page 28 undefined on input line 271.
 
 
-LaTeX Warning: Citation `Akagi2006' on page 12 undefined on input line 221.
+LaTeX Warning: Citation `Zhu2014' on page 28 undefined on input line 271.
 
 
-LaTeX Warning: Citation `Zhu2014' on page 12 undefined on input line 221.
+LaTeX Warning: Citation `Zhu2014' on page 28 undefined on input line 271.
 
 
-LaTeX Warning: Citation `Zhu2014' on page 12 undefined on input line 221.
+LaTeX Warning: Citation `Chen2012' on page 28 undefined on input line 271.
 
 
-LaTeX Warning: Citation `Chen2012' on page 12 undefined on input line 221.
+LaTeX Warning: Citation `Akagi2006' on page 28 undefined on input line 271.
 
-
-LaTeX Warning: Citation `Akagi2006' on page 12 undefined on input line 221.
-
-Package hyperref Info: Anchor `figure.caption.16' on input line 225.
-<Cap2/Figuras/sch_filtro_passivo.png, id=147, 963.6pt x 542.025pt>
-File: Cap2/Figuras/sch_filtro_passivo.png Graphic file (type png)
-
-<use Cap2/Figuras/sch_filtro_passivo.png>
-Package pdftex.def Info: Cap2/Figuras/sch_filtro_passivo.png used on input line
- 227.
-(pdftex.def)             Requested size: 250.38564pt x 140.84047pt.
-
-pdftex: bookmark at 228: {10} {\numberline{10}{\ignorespaces Filtro Passivo\rel
-ax }} {figure.caption.16}{0}{lof}
-Package hyperref Info: Anchor `figure.caption.17' on input line 232.
-<Cap2/Figuras/sch_multipulso.png, id=148, 521.69907pt x 424.58624pt>
-File: Cap2/Figuras/sch_multipulso.png Graphic file (type png)
-
-<use Cap2/Figuras/sch_multipulso.png>
-Package pdftex.def Info: Cap2/Figuras/sch_multipulso.png used on input line 234
-.
-(pdftex.def)             Requested size: 250.38564pt x 203.77965pt.
-
-pdftex: bookmark at 235: {11} {\numberline{11}{\ignorespaces Conversor Multipul
-so\relax }} {figure.caption.17}{0}{lof}
-Package hyperref Info: Anchor `figure.caption.18' on input line 239.
-<Cap2/Figuras/sch_PFC.png, id=149, 963.6pt x 265.74281pt>
-File: Cap2/Figuras/sch_PFC.png Graphic file (type png)
-
-<use Cap2/Figuras/sch_PFC.png>
-Package pdftex.def Info: Cap2/Figuras/sch_PFC.png used on input line 241.
-(pdftex.def)             Requested size: 250.38564pt x 69.05095pt.
-
-pdftex: bookmark at 242: {12} {\numberline{12}{\ignorespaces Conversor PFC\rela
-x }} {figure.caption.18}{0}{lof}
-Package hyperref Info: Anchor `figure.caption.19' on input line 246.
-<Cap2/Figuras/sch_filtro_ativo.png, id=150, 963.6pt x 542.025pt>
+Package hyperref Info: Anchor `figure.caption.38' on input line 279.
+<Cap2/Figuras/sch_filtro_ativo.png, id=342, 963.6pt x 542.025pt>
 File: Cap2/Figuras/sch_filtro_ativo.png Graphic file (type png)
 
 <use Cap2/Figuras/sch_filtro_ativo.png>
 Package pdftex.def Info: Cap2/Figuras/sch_filtro_ativo.png used on input line 2
-48.
+81.
 (pdftex.def)             Requested size: 250.38564pt x 140.84047pt.
 
-pdftex: bookmark at 249: {13} {\numberline{13}{\ignorespaces Filtro Ativo\relax
- }} {figure.caption.19}{0}{lof}
+pdftex: bookmark at 282: {26} {\numberline{26}{\ignorespaces Filtro Ativo\relax
+ }} {figure.caption.38}{0}{lof}
 ) 
 AED: lastpage setting LastPage
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 248.
+(babel)             in language  on input line 251.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 248.
-Package hyperref Info: Anchor `page.12' on input line 248.
-[12 <./Cap2/Figuras/sch_filtro_passivo.png>]
+(babel)             in language  on input line 251.
+Package hyperref Info: Anchor `page.28' on input line 251.
+[28]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 248.
+(babel)             in language  on input line 251.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 248.
-Package hyperref Info: Anchor `page.13' on input line 248.
- [13 <./Cap2/Figuras/sch_multipulso.png> <./Cap2/Figuras/sch_PFC.png> <./Cap2/F
-iguras/sch_filtro_ativo.png>]
+(babel)             in language  on input line 251.
+Package hyperref Info: Anchor `page.29' on input line 251.
+ [29 <./Cap2/Figuras/sch_filtro_ativo.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 248.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 248.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
-
-(Dissertacao.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 248.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 248.
+(babel)             in language  on input line 251.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
+ (Dissertacao.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 251.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
 Package rerunfilecheck Info: File `Dissertacao.out' has not changed.
-(rerunfilecheck)             Checksum: 07F97D5450864E589C2FA6EEDDCE181D;381.
+(rerunfilecheck)             Checksum: E54F2CDB1C05060A5639C4285AC0AB9C;1169.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 251.
  ) 
 Here is how much of TeX's memory you used:
- 20480 strings out of 493673
- 370208 string characters out of 3143963
- 557483 words of memory out of 3000000
- 23297 multiletter control sequences out of 15000+200000
- 31885 words of font info for 72 fonts, out of 3000000 for 9000
+ 20732 strings out of 493673
+ 375719 string characters out of 3143963
+ 566455 words of memory out of 3000000
+ 23459 multiletter control sequences out of 15000+200000
+ 39046 words of font info for 82 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 62i,10n,76p,2822b,1044s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,14n,79p,2822b,1217s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Dissertacao.pdf (13 pages, 822706 bytes).
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Dissertacao.pdf (29 pages, 1149504 bytes).
 PDF statistics:
- 216 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
- 140 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 414 PDF objects out of 1000 (max. 8388607)
+ 95 named destinations out of 1000 (max. 500000)
+ 251 words of extra memory for PDF output out of 10000 (max. 10000000)
 
