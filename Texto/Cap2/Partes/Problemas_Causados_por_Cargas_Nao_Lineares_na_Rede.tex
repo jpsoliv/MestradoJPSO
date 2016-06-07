@@ -2,9 +2,47 @@
 
 A evolução tecnológica no desenvolvimento dos sistemas aeronáuticos trouxe a necessidade de aumentar a geração e distribuição elétrica para suprir a crescente demanda de cargas.
 
-por definição, a linearidade de um sistema vem da relação apresentada entre tensão e corrente que é exigida a nos terminais da uma carga. Em um sistema composto por elementos como, indutores, capacitores e resistores, a relação entre tensão e corrente apresenta uma correspondência linear, ou seja, pode ser descrita por equações integro-diferenciais com fatores constantes \cite{Linear}  
+por definição, a linearidade de um sistema advêm da relação apresentada entre tensão e corrente existente nos terminais da uma carga. Em um sistema composto por elementos como, indutores, capacitores e resistores, a relação entre tensão e corrente apresenta uma correspondência linear, ou seja, pode ser descrita por equações integro-diferenciais com fatores constantes \cite{Linear}. Em suma, um sistema linear alimentado com tensão senoidal apresenta corrente também senoidal, porém com amplitude e fase distintas à tensão. Já em circuitos com a presença de cir
 
-\section{Problemas Causados por Cargas Não Lineares na Rede} \label{sec:Problemas_Causados_por_Cargas_Nao_Lineares_na_Rede}%\todo{7 páginas}
+\begin{figure}[!htbp]
+	\centering
+	\begin{tabular}{c c}
+		\begin{subfigure}[b]{0.45\textwidth}
+			\includegraphics[width=\textwidth]{Cap2/Figuras/circuito_linear.png}
+			\caption{\centering Circuito com carga linear} 
+			\label{fig:circuito_linear}
+		\end{subfigure}%
+		&
+		\begin{subfigure}[b]{0.55\textwidth}  
+			\includegraphics[width=\textwidth]{Cap2/Figuras/graph_linear.eps}
+			\caption{\centering Tensão e corrente do circuito}    
+			\label{fig:}
+		\end{subfigure}%
+	\end{tabular}
+	\caption{Circuito com carga linear com as respectivas formas de onda}
+	\label{fig:Thevenin}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\begin{tabular}{c c}
+		\begin{subfigure}[b]{0.45\textwidth}
+			\includegraphics[width=\textwidth]{Cap2/Figuras/circuito_nao_linear.png}
+			\caption{\centering Circuito com não carga linear} 
+			\label{fig:circuito_linear}
+		\end{subfigure}%
+		&
+		\begin{subfigure}[b]{0.55\textwidth}  
+			\includegraphics[width=\textwidth]{Cap2/Figuras/graph_nao_linear.eps}
+			\caption{\centering Tensão e corrente do circuito}    
+			\label{fig:}
+		\end{subfigure}%
+	\end{tabular}
+	\caption{Circuito com não carga linear com as respectivas formas de onda}
+	\label{fig:Thevenin}
+\end{figure}
+
+\subsection{Problemas Causados por Cargas Não Lineares na Rede} \label{subsec:Problemas_Causados_por_Cargas_Nao_Lineares_na_Rede}%\todo{7 páginas}
 
 %\todo{Cargas lineares e não lineares (KASICK 2010 cap2)}
 

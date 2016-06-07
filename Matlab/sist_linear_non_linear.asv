@@ -1,0 +1,32 @@
+clear all 
+close all 
+clc
+
+t = 0:0.001:3;
+f = 1;
+V = sin(2*pi*f*t);
+I_l = 0.65*sin(2*pi*f*t-pi/4);
+
+I_nl = abs(1.1*sin(2*pi*5*f*t));
+I_nl(1:find(t==0.2))=0;
+I_nl(find(t==0.32):find(t==0.2))=0;
+
+figure(1) %Figura Linear
+plot(t,V,'k-',t,I_l,'b--','LineWidth',2);axis([0 3 -1.6 1.6]);
+legend('Tensão [V]','Corrente [A]')
+xlabel('Tempo [s]','FontSize',14);%ylabel('Amplitude [A]','FontSize',14);
+set(gca,'XtickLabel',[],'YtickLabel',[]);
+%set(gca,'ygrid','on')
+v = get(gca);
+lh = line([0 0 NaN v.XLim],[v.YLim NaN 0 0 ]);
+set(lh,'Color',[.25 .25 .25],'LineStyle',':');
+
+figure(2) %figura não linear
+plot(t,V,'k-',t,I_nl,'b--','LineWidth',2);axis([0 3 -1.6 1.6]);
+legend('Tensão [V]','Corrente [A]')
+xlabel('Tempo [s]','FontSize',14);%ylabel('Amplitude [A]','FontSize',14);
+set(gca,'XtickLabel',[],'YtickLabel',[]);
+%set(gca,'ygrid','on')
+v = get(gca);
+lh = line([0 0 NaN v.XLim],[v.YLim NaN 0 0 ]);
+set(lh,'Color',[.25 .25 .25],'LineStyle',':');
