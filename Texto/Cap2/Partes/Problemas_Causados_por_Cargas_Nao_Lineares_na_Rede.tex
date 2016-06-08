@@ -2,18 +2,18 @@
 
 A evolução tecnológica no desenvolvimento dos sistemas aeronáuticos trouxe a necessidade de aumentar a geração e distribuição elétrica para suprir a crescente demanda de cargas.
 
-por definição, a linearidade de um sistema advêm da relação apresentada entre tensão e corrente existente nos terminais da uma carga. Em um sistema composto por elementos como indutores, capacitores e resistores, a relação entre tensão e corrente apresenta uma correspondência linear, ou seja, pode ser descrita por equações integro-diferenciais com fatores constantes \cite{Linear}. Em suma, um sistema linear alimentado com tensão senoidal apresenta corrente também senoidal, porém com amplitude e fase distintas à tensão. Uma exemplo de um sistema linear é mostrado na figura \ref{fig:conjunto_linear}, onde a figura \ref{fig:circuito_linear} é a representação de um circuito alimentando uma carga constituída de resistores, capacitores e indutores, e a figura \ref{fig:graph_linear} é a forma de onda da tensão e corrente supridos pela carga. Já em circuitos quando a relação entre corrente e tensão não é descrita por uma equação linear, tem-se que a carga é considerada não linear. Nesse tipo de sistema a corrente requerida pela cara é dada por uma função não senoidal, mesmo quando a tensão de alimentação proveniente da fonte é senoidal pura \cite{Linear}. Esse tipo de circuito é geralmente advindo de cargas com a presença de semicondutores que são operados no condicionamento de energia de um sistema. Para exemplificação, a figura \ref{fig:conjunto_nao_linear} apresenta sistema não linear, onde a figura \ref{fig:circuito_nao_linear} representa um circuito constituído de uma fonte senoidal alimentando uma retificador de tensão. Na figura \ref{fig:graph_nao_linear} é mostrado a tensão corrente provida pela fonte, onde esta última é dada por pulsos periódicos, diferentemente de uma forma de onda senoidal.
+por definição, a linearidade de um sistema advêm da relação apresentada entre tensão e corrente existente nos terminais da uma carga. Em um sistema composto por elementos como indutores, capacitores e resistores, a relação entre tensão e corrente apresenta uma correspondência linear, ou seja, pode ser descrita por equações integro-diferenciais com fatores constantes \cite{Linear}. Em suma, um sistema linear alimentado com tensão senoidal apresenta corrente também senoidal, porém com amplitude e fase distintas à tensão. Uma exemplo de um sistema linear é mostrado nas figuras \ref{fig:conjunto_linear}, onde a figura \ref{fig:circuito_linear} é a representação de um circuito alimentando uma carga constituída de resistores, capacitores e indutores, e a figura \ref{fig:graph_linear} é a forma de onda da tensão e corrente supridos pela fonte. Já em circuitos quando a relação entre corrente e tensão não é descrita por uma equação linear, tem-se que a carga é considerada não linear. Nesse tipo de sistema a corrente requerida pela cara é dada por uma função não senoidal, mesmo quando a tensão de alimentação proveniente da fonte é senoidal pura \cite{Linear}. Esse tipo de circuito é geralmente advindo de cargas com a presença de semicondutores que são operados no condicionamento de energia de um sistema. Para exemplificação, as figuras \ref{fig:conjunto_nao_linear} apresentam um sistema não linear, onde a figura \ref{fig:circuito_nao_linear} representa um circuito constituído de uma fonte senoidal alimentando uma retificador de tensão e a figura \ref{fig:graph_nao_linear} é mostrado a tensão e corrente provida pela fonte, onde esta última é dada por pulsos periódicos, diferentemente de uma forma de onda senoidal.
 
 \begin{figure}[!htb] %Circuito com carga linear com as respectivas formas de onda
 	\centering
 	\begin{tabular}{c c}
-		\begin{subfigure}[b]{0.45\textwidth}
+		\begin{subfigure}[b]{0.4\textwidth}
 			\includegraphics[width=\textwidth]{Cap2/Figuras/circuito_linear.png}
 			\caption{\centering Circuito com carga linear} 
 			\label{fig:circuito_linear}
 		\end{subfigure}%
 		&
-		\begin{subfigure}[b]{0.55\textwidth}  
+		\begin{subfigure}[b]{0.5\textwidth}  
 			\includegraphics[width=\textwidth]{Cap2/Figuras/graph_linear.eps}
 			\caption{\centering Tensão e corrente do circuito}    
 			\label{fig:graph_linear}
@@ -26,13 +26,13 @@ por definição, a linearidade de um sistema advêm da relação apresentada entre te
 \begin{figure}[!htb] %Circuito com carga não linear com as respectivas formas de onda
 	\centering
 	\begin{tabular}{c c}
-		\begin{subfigure}[b]{0.45\textwidth}
+		\begin{subfigure}[b]{0.4\textwidth}
 			\includegraphics[width=\textwidth]{Cap2/Figuras/circuito_nao_linear.png}
 			\caption{\centering Circuito com não carga linear} 
 			\label{fig:circuito_nao_linear}
 		\end{subfigure}%
 		&
-		\begin{subfigure}[b]{0.55\textwidth}  
+		\begin{subfigure}[b]{0.5\textwidth}  
 			\includegraphics[width=\textwidth]{Cap2/Figuras/graph_nao_linear.eps}
 			\caption{\centering Tensão e corrente do circuito}    
 			\label{fig:graph_nao_linear}
@@ -42,7 +42,9 @@ por definição, a linearidade de um sistema advêm da relação apresentada entre te
 	\label{fig:conjunto_nao_linear}
 \end{figure}
 
-\subsection{Problemas Causados por Cargas Não Lineares na Rede} \label{subsec:Problemas_Causados_por_Cargas_Nao_Lineares_na_Rede}%\todo{7 páginas}
+A presença de cargas não lineares na rede tem como consequência a queda na qualidade de energia no sistema de distribuição elétrica. A explanação dos efeitos negativos provenientes com a presença das caragas não lineares em redes elétricas será abordada na seção \ref{subsec:Problemas Causados por Cargas Nao Lineares na Rede}.
+
+\subsection{Problemas Causados por Cargas Não Lineares na Rede} \label{subsec:Problemas Causados por Cargas Nao Lineares na Rede}%\todo{7 páginas}
 
 %\todo{Cargas lineares e não lineares (KASICK 2010 cap2)}
 
@@ -70,7 +72,7 @@ Os modelos reais do sistema de geração e transmissão podem ser concebidos a part
 	\label{fig:Thevenin}
 \end{figure}
 
-Com isso em mente, pode-se modelar um sistema composto por cargas acopladas a um barramento alimentado por um gerador e uma linha de transmissão. Considerando a figura \ref{fig:real_line_transmission.png}, existe um barramento com ponto de conexão em comum (PCC) com $N$ cargas acopladas cujas correntes demandadas são denominadas $i_1,\;i_2,\;\dots\;i_N$. A tensão no PCC é dada por $V_B$ e é essa a tensão de alimentação no ponto de conexão das cargas. Ainda, a conexão do barramento com gerador é feita via uma linha de transmissão, e, como explicado anteriormente, nesses elementos existem não idealidades como resistências e reatâncias indutivas. Aplicando o teorema de Thevenin para modelar o gerador e a linha de transmissão, tem -se que a impedância $Z_th$ é composta pela composição das resistências e impedâncias de cada elemento. Para o gerador e linha de transmissão, as resistências e impedâncias são dadas por $R_G$, $L_G$ e $R_L$, $L_L$, respectivamente. Já a fonte de alimentação $V_S$ é considerada senoidal, como encontrada comumente em sistemas de geração AC
+Com isso em mente, pode-se modelar um sistema composto por cargas acopladas a um barramento alimentado por um gerador em uma linha de transmissão. Considerando a figura \ref{fig:real_line_transmission.png}, existe um barramento com ponto de conexão em comum (PCC) com $N$ cargas acopladas cujas correntes demandadas são denominadas $i_1,\;i_2,\;\dots\;i_N$. A tensão no PCC é dada por $V_B$ e é essa a tensão de alimentação no ponto de conexão das cargas. Ainda, a conexão do barramento com gerador é feita via uma linha de transmissão, e, como explicado anteriormente, nesses elementos existem não idealidades como resistências e reatâncias indutivas. Aplicando o teorema de Thevenin para modelar o gerador e a linha de transmissão, tem -se que a impedância $Z_{th}$ é composta pela composição das resistências e impedâncias de cada elemento. Para o gerador e linha de transmissão, as resistências e impedâncias são dadas por $R_G$, $L_G$ e $R_L$, $L_L$, respectivamente. Já a fonte de alimentação $V_S$ é considerada senoidal, como encontrada comumente em sistemas de geração AC
 
 \begin{figure}[!htb] %Circuito real monofásico
 	\centering
