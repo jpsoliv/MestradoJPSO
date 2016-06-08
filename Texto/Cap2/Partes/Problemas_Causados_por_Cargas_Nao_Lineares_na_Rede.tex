@@ -2,9 +2,9 @@
 
 A evolução tecnológica no desenvolvimento dos sistemas aeronáuticos trouxe a necessidade de aumentar a geração e distribuição elétrica para suprir a crescente demanda de cargas.
 
-por definição, a linearidade de um sistema advêm da relação apresentada entre tensão e corrente existente nos terminais da uma carga. Em um sistema composto por elementos como, indutores, capacitores e resistores, a relação entre tensão e corrente apresenta uma correspondência linear, ou seja, pode ser descrita por equações integro-diferenciais com fatores constantes \cite{Linear}. Em suma, um sistema linear alimentado com tensão senoidal apresenta corrente também senoidal, porém com amplitude e fase distintas à tensão. Já em circuitos com a presença de cir
+por definição, a linearidade de um sistema advêm da relação apresentada entre tensão e corrente existente nos terminais da uma carga. Em um sistema composto por elementos como indutores, capacitores e resistores, a relação entre tensão e corrente apresenta uma correspondência linear, ou seja, pode ser descrita por equações integro-diferenciais com fatores constantes \cite{Linear}. Em suma, um sistema linear alimentado com tensão senoidal apresenta corrente também senoidal, porém com amplitude e fase distintas à tensão. Uma exemplo de um sistema linear é mostrado na figura \ref{fig:conjunto_linear}, onde a figura \ref{fig:circuito_linear} é a representação de um circuito alimentando uma carga constituída de resistores, capacitores e indutores, e a figura \ref{fig:graph_linear} é a forma de onda da tensão e corrente supridos pela carga. Já em circuitos quando a relação entre corrente e tensão não é descrita por uma equação linear, tem-se que a carga é considerada não linear. Nesse tipo de sistema a corrente requerida pela cara é dada por uma função não senoidal, mesmo quando a tensão de alimentação proveniente da fonte é senoidal pura \cite{Linear}. Esse tipo de circuito é geralmente advindo de cargas com a presença de semicondutores que são operados no condicionamento de energia de um sistema. Para exemplificação, a figura \ref{fig:conjunto_nao_linear} apresenta sistema não linear, onde a figura \ref{fig:circuito_nao_linear} representa um circuito constituído de uma fonte senoidal alimentando uma retificador de tensão. Na figura \ref{fig:graph_nao_linear} é mostrado a tensão corrente provida pela fonte, onde esta última é dada por pulsos periódicos, diferentemente de uma forma de onda senoidal.
 
-\begin{figure}[!htbp]
+\begin{figure}[!htb] %Circuito com carga linear com as respectivas formas de onda
 	\centering
 	\begin{tabular}{c c}
 		\begin{subfigure}[b]{0.45\textwidth}
@@ -16,30 +16,30 @@ por definição, a linearidade de um sistema advêm da relação apresentada entre te
 		\begin{subfigure}[b]{0.55\textwidth}  
 			\includegraphics[width=\textwidth]{Cap2/Figuras/graph_linear.eps}
 			\caption{\centering Tensão e corrente do circuito}    
-			\label{fig:}
+			\label{fig:graph_linear}
 		\end{subfigure}%
 	\end{tabular}
 	\caption{Circuito com carga linear com as respectivas formas de onda}
-	\label{fig:Thevenin}
+	\label{fig:conjunto_linear}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[!htb] %Circuito com carga não linear com as respectivas formas de onda
 	\centering
 	\begin{tabular}{c c}
 		\begin{subfigure}[b]{0.45\textwidth}
 			\includegraphics[width=\textwidth]{Cap2/Figuras/circuito_nao_linear.png}
 			\caption{\centering Circuito com não carga linear} 
-			\label{fig:circuito_linear}
+			\label{fig:circuito_nao_linear}
 		\end{subfigure}%
 		&
 		\begin{subfigure}[b]{0.55\textwidth}  
 			\includegraphics[width=\textwidth]{Cap2/Figuras/graph_nao_linear.eps}
 			\caption{\centering Tensão e corrente do circuito}    
-			\label{fig:}
+			\label{fig:graph_nao_linear}
 		\end{subfigure}%
 	\end{tabular}
-	\caption{Circuito com não carga linear com as respectivas formas de onda}
-	\label{fig:Thevenin}
+	\caption{Circuito com carga não linear com as respectivas formas de onda}
+	\label{fig:conjunto_nao_linear}
 \end{figure}
 
 \subsection{Problemas Causados por Cargas Não Lineares na Rede} \label{subsec:Problemas_Causados_por_Cargas_Nao_Lineares_na_Rede}%\todo{7 páginas}
@@ -51,7 +51,7 @@ Para entender os problemas causados por cargas não lineares conectados à rede, p
 Os modelos reais do sistema de geração e transmissão podem ser concebidos a partir da utilização de elementos ideais e a análise matemática é então obtida para descrever a resposta desse sistema. Para o estudo descrito nesse trabalho, a concepção dos circuitos pode ser realizada utilizando o teorema de Thevenin. Segundo este teorema, qualquer par de terminais contidos em um circuito realizado com elementos lineares podem ser substituídos por uma fonte de tensão $V_{th}$ em série com uma impedância $Z_{th}$ \cite{Alexander2005}. Isto é valido tanto para sistema monofásicos como para sistema multifásicos, levando em conta o estudo de cada fase em separado. Apesar do sistema de geração de uma aeronave ser complexa, para efeito didático e sem perda de generalidade, pode-se considerar que este sistema é tido por elementos lineares, assim, para esse estudo pode-se modelá-la como uma fonte de tensão senoidal acoplada a uma impedância. A interpretação dessa impedância cabe ao fato de que o gerador possui reatância indutiva em seus enrolamentos e resistências nos fios que o compõe.  De forma análoga, a linha de transmissão a qual leva a energia do gerador para a carga pode ser modelada da mesma maneira. Por esta ser ausente de fonte de energia, seu equivalente Thevenin é tido apenas como uma impedância composta pelas reatâncias e as resistências da linha de transmissão. A figura \ref{fig:fonte_thevenin} mostra o equivalente Thevenin de um gerador típico, enquanto que a figura \ref{fig:LT_thevenin} mostra o equivalente de uma linha de transmissão qualquer.
 %\todo{explicar os circuitos ideais e os reais}
 
-\begin{figure}[!htbp]
+\begin{figure}[!htb] %Equivalentes Thevenin
 	\centering
 	\begin{tabular}{c c}
 		\begin{subfigure}[b]{0.4\textwidth}
@@ -72,7 +72,7 @@ Os modelos reais do sistema de geração e transmissão podem ser concebidos a part
 
 Com isso em mente, pode-se modelar um sistema composto por cargas acopladas a um barramento alimentado por um gerador e uma linha de transmissão. Considerando a figura \ref{fig:real_line_transmission.png}, existe um barramento com ponto de conexão em comum (PCC) com $N$ cargas acopladas cujas correntes demandadas são denominadas $i_1,\;i_2,\;\dots\;i_N$. A tensão no PCC é dada por $V_B$ e é essa a tensão de alimentação no ponto de conexão das cargas. Ainda, a conexão do barramento com gerador é feita via uma linha de transmissão, e, como explicado anteriormente, nesses elementos existem não idealidades como resistências e reatâncias indutivas. Aplicando o teorema de Thevenin para modelar o gerador e a linha de transmissão, tem -se que a impedância $Z_th$ é composta pela composição das resistências e impedâncias de cada elemento. Para o gerador e linha de transmissão, as resistências e impedâncias são dadas por $R_G$, $L_G$ e $R_L$, $L_L$, respectivamente. Já a fonte de alimentação $V_S$ é considerada senoidal, como encontrada comumente em sistemas de geração AC
 
-\begin{figure}[!htbp]
+\begin{figure}[!htb] %Circuito real monofásico
 	\centering
 	\includegraphics[width=0.92\textwidth]{Cap2/Figuras/real_line_transmission.png}
 	\caption{Circuito real monofásico}
@@ -113,7 +113,7 @@ A implementação de cargas não lineares conectados à rede exige uma abordagem dif
 
 Para exemplificar o problema posto, considera-se um sistema como descrito pela figura \ref{fig:real_line_transmission.png}, e que a composição das correntes das cargas necessita uma corrente do gerador $i_S$ cuja forma é definida segundo a figura \ref{fig:current_source}.
 
-\begin{figure}[!htbp]	%\label{fig:current_source}
+\begin{figure}[!htb]	%\label{fig:current_source}
 	\centering
 	\includegraphics[width=0.6\textwidth]{Cap2/Figuras/current_source.eps}
 	\caption{Corrente do gerador para o barramento}
@@ -122,7 +122,7 @@ Para exemplificar o problema posto, considera-se um sistema como descrito pela f
 
 Segundo a lei de Ohm generalizada, as quedas de tensão nas reatâncias e resistências do gerador e da linha de transmissão são estabelecidas segundo as equações \ref{eq:V_G} e \ref{eq:V_L}, e aplicando a corrente $i_S$ da figura \ref{fig:current_source} tem-se que a forma de onda da tensão $V_G+V_L$ é representada pela figura \ref{fig:Vline}.
 
-\begin{figure}[!htbp]	%\label{fig:Vline}
+\begin{figure}[!htb]	%\label{fig:Vline}
 	\centering
 	\includegraphics[width=0.6\textwidth]{Cap2/Figuras/Vline.eps}
 	\caption{Queda de tensão em $V_G+V_L$ }
@@ -131,7 +131,7 @@ Segundo a lei de Ohm generalizada, as quedas de tensão nas reatâncias e resistên
 
 Como descrito anteriormente, a tensão no barramento pode ser sumarizada pela expressão \ref{eq:V_B} a qual é dependente dos valores encontrados na forma de onda definidas pela figura \ref{fig:Vline}. Seguindo essas expressões, tem-se que o a forma de onda encontrada no barramento, para este exemplo, é dada pela figura \ref{fig:V_bar}. Aqui pode-se claramente observar que a tensão no barramento é periódica não senoidal.
 
-\begin{figure}[!htbp]	%\label{fig:V_bar}
+\begin{figure}[!htb]	%\label{fig:V_bar}
 	\centering
 	\includegraphics[width=0.6\textwidth]{Cap2/Figuras/V_bar.eps}
 	\caption{Tensão $V_B$ comparativamente à tensão $V_S$}
@@ -140,7 +140,7 @@ Como descrito anteriormente, a tensão no barramento pode ser sumarizada pela exp
 
 O aspecto senoidal na tensão do barramento é perdido mas o valor da frequência fundamental é mantido. Aplicando a série de Fourier em $V_B$, é observado o aparecimento das harmônicas nas frequências múltiplas de $f_0$. Para o exemplo descrito anteriormente, a série de Fourier de $V_B$ é representada na figura \ref{fig:FFT}. 
 
-\begin{figure}[!htbp]	%\label{fig:FFT}
+\begin{figure}[!htb]	%\label{fig:FFT}
 	\centering
 	\includegraphics[width=0.6\textwidth]{Cap2/Figuras/FFT.eps}
 	\caption{Transformada de Fourier da tensão $V_B$}

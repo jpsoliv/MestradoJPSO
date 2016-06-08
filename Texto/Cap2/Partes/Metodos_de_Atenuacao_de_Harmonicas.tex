@@ -181,14 +181,14 @@ A topologia de um conversor regulado com correção de fator de potência está inse
 
 Encontram-se inúmeras topologias de conversores com correção de fator de potência na literatura. O mais utilizado é o conversor com correção de fator de potência, ou \textit{Power Factor Correction} (PFC) do tipo \textit{boost}. Esse conversor é concebido pela ponte de diodos arranjados juntamente com chaves controladamente comutadas. Ainda, pela flexibilidade de possíveis arranjos dos semicondutores sob a ponte de diodos e pelas linhas de entrada e saída de energia, uma gama imensa de conversores do tipo \textit{PFC boost} pode ser concebido. Para elucidar o funcionamento deste tipo de conversor será estudado o circuito Prasad-Ziogas (figura \ref{fig:PFC_converter}), cuja topologia é simples e apresenta uma única chave controlada. Também para facilitar o entendimento, será explicado a operação em modo de condução descontínua. O princípio de funcionamento é dado pelo controle da chave $S_1$ que, quando em estado de condução, aplica a tensão da fonte sobre os indutores de entrada $L_i,\;i=1,2,3$. Isso faz com que as correntes nos indutores cresçam de forma proporcional a tensão aplicada em seus terminais pela fonte de entrada. Quando o a chave $S_1$ para de conduzir, as correntes dos indutores decaem à zero. Por ter a frequência de comutação muito maior que a frequência da rede, tem-se que a corrente de entrada apresenta uma forma modulada em amplitude de alta frequência e facilmente filtrada com filtros passa-baixo \cite{Nairus1996, Takeuchi2008}. Sendo assim o circuito completo de um conversor com PFC é concebível com um filtro passa baixa aplicado na entrada do sistema. Todavia, por ter uma modulação em alta frequência, tem-se que o filtro possui frequência de corte alta e suas dimensões e peso são reduzidos. O diagrama completo de um sistema composto pelo filtro, retificador com PFC e o regulador é mostrado na figura \ref{fig:sch_PFC}. Após a filtragem é possível que a corrente apresente formato senoidal e em fase com a tensão. Na prática o funcionamento desse conversor apresenta certa distorção harmônica e não suporta alta capacidade de potência, de modo que outras topologias hibridas com circuitos \textit{PFC boost} e \textit{PFC buck} sejam utilizadas, ou ainda, pelo controle individual do fator de potência de cada fase para aumentar a capacidade de condicionamento de energia e tornar o FP próximo da unidade \cite{Kolar2011}.
 
-\begin{figure}[!htbp] %Conversor com correção de fator de potência do tipo Prasad-Ziogas \cite{Takeuchi2008}
+\begin{figure}[!htb] %Conversor com correção de fator de potência do tipo Prasad-Ziogas \cite{Takeuchi2008}
 	\centering
 	\includegraphics[width=0.45\textwidth]{Cap2/Figuras/PFC_converter.png}
 	\caption{Conversor com correção de fator de potência do tipo Prasad-Ziogas \cite{Takeuchi2008}}
 	\label{fig:PFC_converter}
 \end{figure}
 
-\begin{figure}[!htbp] %Diagrama básico do conversor PFC
+\begin{figure}[!htb] %Diagrama básico do conversor PFC
 	\centering
 	\includegraphics[width=0.65\textwidth]{Cap2/Figuras/sch_PFC.png}
 	\caption{Diagrama básico do conversor PFC}
@@ -216,7 +216,7 @@ Encontram-se inúmeras topologias de conversores com correção de fator de potênci
 
 Como resultado da operação do conversor Prasad-Ziogas, as formas de onda nos indutores de entrada são mostradas na figura \ref{fig:PFC_waveforms}. Como mencionado, a forma de onda apresenta modulação em amplitude (figura \ref{fig:PFC_unfilt}), assim o espectro de frequência da corrente de entrada apresenta um pico na componente fundamental juntamente com harmônicas nas altas frequências. Com a implementação de filtros passa-baixo com a alta frequência de corte, são atenuadas as componentes de alta frequência, sobrando apenas a fundamental. A corrente de linha resultante após a filtragem é mostrado na figura \ref{fig:PFC_filt}.
 
-\begin{figure*}[!htbp] % Corrente de entrada para o caso sem e com filtro na linha
+\begin{figure*}[!htb] % Corrente de entrada para o caso sem e com filtro na linha
 	\centering
 	\begin{subfigure}[b]{0.499\textwidth}
 		\centering
@@ -241,14 +241,14 @@ Filtros ativos podem ser classificados em dois tipos: os baseados em amplificado
 
 A filtragem baseada em conversores CC-AC tem por princípio a utilização de inversores controlados, visto que este tipo de conversor pode, teoricamente, recriar formas de tensão e corrente de qualquer configuração dada à uma referência definida\cite{Pomilio2009}. O princípio dos filtros ativos é promover a qualidade de energia pela compensação das componentes harmônicas presentes nos sistemas quando há a conexão de cargas não lineares. Ainda, pode-se corrigir o fator de potência de deslocamento com a filtragem ativa. Os filtros ativos baseados em conversores CC-CA possuem topologias de tal forma à compensar a não linearidade da corrente da carga ou a distorção na forma de onda da tensão do barramento com a utilização de filtros \textit{shunt} ou filtros série, respectivamente. O funcionamento do primeiro tipo de filtro é dado pela injeção de corrente na rede que, somado com a requerida pela carga, faz com que a corrente no barramento do gerador tenha forma de onda senoidal e em fase com a tensão. A consequência do uso desse filtro reflete tanto no fator de potência como também na distorção harmônica na forma de onda de tensão no barramento de geração \cite{Afonso2013}, visto que não haverá quedas de tensão de forma distorcidas nas reatâncias dos geradores e linhas de transmissão. Um exemplo de funcionamento de uma filtro \textit{shunt} pode ser visto na figura \ref{fig:shunt}, onde é mostrado as formas de onda de corrente na carga e no filtro que, quando somadas, tem como produto a forma sinusoidal de corrente nas linhas de transmissão. Já o filtro série tem como objetivo a correção da distorção da tensão aplicada à carga com a inserção de fontes controlada de tensão na linha de alimentação. A compensação dá-se pela adição de componentes defasadas em 180° às harmônicas geradas pela distorção de corrente sobre as reatâncias das linhas. Para esse último filtro a forma de onda da corrente não é compensada, de modo que o fator de potência não é igual a unidade. Assim, tem-se que o filtro série é indicado apenas para assegurar a forma de onda senoidal de tensão no lado de alimentação da carga \cite{Afonso2013}. A figura \ref{fig:serie} mostra um filtro ativo série em um sistema. Nota-se que a tensão pelo lado do barramento de geração e distribuição é distorcida, porém com a adição das tensões $V_{Ac}$, $V_{Bc}$ e $V_{Cc}$ em suas respectivas linhas, as tensões na entrada da carga apresentam uma forma de onda senoidal pura. A utilização desse tipo de filtro é apenas indicada quando deseja-se preservar a integridade da qualidade de energia pelo lado da carga, visto que a carga ainda apresenta injeção corrente distorcida no sistema de modo a contribuir com a má qualidade de energia da rede.
 
-\begin{figure}[!htbp]
+\begin{figure}[!htb]
 	\centering
 	\includegraphics[width=0.5\textwidth]{Cap2/Figuras/shunt.png}
 	\caption{Filtro ativo do tipo \textit{shunt}}
 	\label{fig:shunt}
 \end{figure}
 
-\begin{figure}[!htbp] %width = width_shunt*1.1335
+\begin{figure}[!htb] %width = width_shunt*1.1335
 	\centering
 	\includegraphics[width=0.567\textwidth]{Cap2/Figuras/serie.png}
 	\caption{Filtro ativo do tipo série}
@@ -273,7 +273,7 @@ Os filtros ativos baseados em conversores CC-CA possuem diversas características
 
 Diante das características apresentadas sobre as topologias de sistemas de correção de fator de potência, seja por meios de filtragem das harmônicas ou ainda pela característica intrínseca de retificadores com alto fator de potência, tem-se que na aplicação aeronáutica o uso de filtros ativos são os mais promissores. Estudos mostram que o método de redução de harmônicas provida pelo sistema de filtragem ativa é a melhor topologia para ser utilizada em aeronaves \cite{Zhu2014}. Isto deve-se principalmente a sua flexibilidade, a qual pode-se implementar filtros ativos desde na linha de saída do gerador quanto em pontos de carga cujo fator de potência é baixo \cite{Chen2012control}. Outros característica que torna a filtragem ativa vantajosa é a alta eficiência e densidade de energia. Simulações mostram que comparativamente à sistemas de filtragem passiva e conversores de alto fator de potência, os filtros ativos são os que apresentam melhor eficiência e densidade de energia \cite{Karatzaferis2013}. Para aplicação aeronáutica essas características são essenciais para manter o baixo peso e volume dos sistemas embarcados. Ainda, a filtragem ativa oferece a capacidade de implementação para aplicações no sistema de distribuição de aeronaves mais modernas cuja geração é provida por frequência variável. Quanto ao problema \todo {elevadas perdas e problemas de confiabilidade são contornados com o desenvolvimento de semicondutores melhores}
 
-%\begin{figure}[!htbp]
+%\begin{figure}[!htb]
 %	\centering
 %	\includegraphics[width=0.55\textwidth]{Cap2/Figuras/sch_filtro_ativo.png}
 %	\caption{Filtro Ativo}
