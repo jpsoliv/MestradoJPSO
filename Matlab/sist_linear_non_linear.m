@@ -26,8 +26,10 @@ set(gca,'XtickLabel',[],'YtickLabel',[]);
 v = get(gca);
 lh = line([0 0 NaN v.XLim],[v.YLim NaN 0 0 ]);
 set(lh,'Color',[.52 .52 .52],'LineStyle','-','LineWidth',1);
+uistack(lh,'bottom');
 
 figure(2) %figura não linear
+
 plot(t,V,'k-',t,I_nl,'b--','LineWidth',2);axis([0 3 -2.1 2.1]);
 legend2=legend('Tensão [V]','Corrente [A]');
 set(legend2,'FontSize',14);
@@ -37,3 +39,4 @@ set(gca,'XtickLabel',[],'YtickLabel',[]);
 v = get(gca);
 lh = line([0 0 NaN v.XLim],[v.YLim NaN 0 0 ]);
 set(lh,'Color',[.52 .52 .52],'LineStyle','-','LineWidth',1);
+uistack(lh,'bottom');
