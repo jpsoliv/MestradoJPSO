@@ -5,13 +5,78 @@
 
 \section{Definição de Potência Ativa, Reativa e Fator de Potência}
 
-blbalbablablablablabal
+Como forma de entender melhor a qualidade de energia e a operação de filtros ativos é necessário ter os conceitos de potência ativa, reativa e fator de potência . 
 
-\subsection{Definição de Potências em Sistemas Senoidais}
+\subsection{Potências em Sistemas Senoidais}
+
+Considerando um circuito monofásico, senoidal linear e operando em regime permanente, as equações da tensão e corrente são expressas por \ref{eq:v(t)} e \ref{eq:i(t)}, respectivamente.
+
+\begin{equation}
+v(t) = V_p \cos(\omega t)
+\label{eq:v(t)}
+\end{equation}
+
+\begin{equation}
+i(t) = i_p \cos(\omega t - \phi)
+\label{eq:i(t)}
+\end{equation}
+
+A potência instantânea em um circuito monofásico é definida segundo a equação \ref{eq:pot_inst}.
+
+\begin{equation}
+\begin{aligned}
+p(t) & = v(t)i(t)\\
+	 & = V_p \cos(\omega t) \cdot i_p \cos(\omega t - \phi)\\
+	 & = \frac{V_p i_p}{2}[\cos(\phi)+\cos(2 \omega t - \phi)]\\
+ 	 & = \frac{V_p i_p}{2} \cos(\phi)[1+\cos(2\omega t)] + \frac{V_p i_p}{2} \sin(\phi)\sin(2 \omega t)
+\end{aligned}
+\label{eq:pot_inst}
+\end{equation}
+
+A equação \ref{eq:pot_inst} pode ser dividido em dois termos variantes no tempo: o primeiro é dado por 
+
+\begin{equation}
+\dfrac{V_p i_p}{2} \cos(\phi)[1+\cos(2\omega t)]
+\label{eq:prim}
+\end{equation}
+
+e o segundo por.
+\begin{equation}
+\dfrac{V_p i_p}{2} \cdot \sin(\phi)\sin(2 \omega t)
+\label{eq:sec}
+\end{equation}
+
+Por definição, a potência ativa é definida pelo valor médio da equação \ref{eq:prim}, e a potência reativa é definida pelo valor de pico da equação \ref{eq:sec}.
+\todo{verificar sobre valores de pico e valores eficazes}
+
+
+
+
 \subsection{Definição de Potências em Sistemas Não-Senoidais}
 
 \subsection{Potência Instantânea Utilizando a Teoria P-Q}
+
+A teoria p-q é baseada na transformação das tensões e correntes das coordenadas $abc$ para $\alpha \beta 0$
 \subsubsection{Transformada de Clarke}
+
+\begin{equation}
+\begin{bmatrix}
+v_0\\
+v_\alpha\\
+v_\beta
+\end{bmatrix}
+= \sqrt{\dfrac{2}{3}}
+\begin{bmatrix}
+\dfrac{1}{\sqrt{2}}	& \dfrac{1}{\sqrt{2}}	& \dfrac{1}{\sqrt{2}}		\\[2ex]
+1					& -\dfrac{1}{2}			& -\dfrac{1}{2}				\\[2ex]
+0					& \dfrac{\sqrt{3}}{2}	& -\dfrac{\sqrt{3}}{2}
+\end{bmatrix}
+\begin{bmatrix}
+v_a\\
+v_b\\
+v_c
+\end{bmatrix}
+\end{equation}
 
 \section{Filtros Ativos}
 
