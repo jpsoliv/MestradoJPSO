@@ -12,12 +12,12 @@ Como forma de entender melhor a qualidade de energia e a operação de filtros ati
 Considerando um circuito monofásico, senoidal linear e operando em regime permanente, as equações da tensão e corrente são expressas por \ref{eq:v(t)} e \ref{eq:i(t)}, respectivamente.
 
 \begin{equation}
-v(t) = V_p \cos(\omega t)
+v(t) = \sqrt{2}\;V \cos(\omega t)
 \label{eq:v(t)}
 \end{equation}
 
 \begin{equation}
-i(t) = i_p \cos(\omega t - \phi)
+i(t) = \sqrt{2}\;I \cos(\omega t - \phi)
 \label{eq:i(t)}
 \end{equation}
 
@@ -26,9 +26,9 @@ A potência instantânea em um circuito monofásico é definida segundo a equação \r
 \begin{equation}
 \begin{aligned}
 p(t) & = v(t)i(t)\\
-	 & = V_p \cos(\omega t) \cdot i_p \cos(\omega t - \phi)\\
-	 & = \frac{V_p i_p}{2}[\cos(\phi)+\cos(2 \omega t - \phi)]\\
- 	 & = \frac{V_p i_p}{2} \cos(\phi)[1+\cos(2\omega t)] + \frac{V_p i_p}{2} \sin(\phi)\sin(2 \omega t)
+	 & = 2\; V \cos(\omega t) \cdot I \cos(\omega t - \phi)\\
+	 & = V I [\cos(\phi)+\cos(2 \omega t - \phi)]\\
+ 	 & = V I \cos(\phi)[1+\cos(2\omega t)] + V I \sin(\phi)\sin(2 \omega t)
 \end{aligned}
 \label{eq:pot_inst}
 \end{equation}
@@ -36,13 +36,13 @@ p(t) & = v(t)i(t)\\
 A equação \ref{eq:pot_inst} pode ser dividido em dois termos variantes no tempo: o primeiro é dado por 
 
 \begin{equation}
-\dfrac{V_p i_p}{2} \cos(\phi)[1+\cos(2\omega t)]
+V I \cdot \cos(\phi)[1+\cos(2\omega t)]
 \label{eq:prim}
 \end{equation}
 
 e o segundo por.
 \begin{equation}
-\dfrac{V_p i_p}{2} \cdot \sin(\phi)\sin(2 \omega t)
+V I \cdot \sin(\phi)\sin(2 \omega t)
 \label{eq:sec}
 \end{equation}
 
@@ -56,7 +56,96 @@ Por definição, a potência ativa é definida pelo valor médio da equação \ref{eq:p
 
 \subsection{Potência Instantânea Utilizando a Teoria P-Q}
 
+\subsubsection{considerando coordenadas $abc$}
+
+Tendo o sistema com as tensões e correntes definidas por:
+
+\begin{equation}	%\label{eq:V}
+\mathbf{v} = 
+\begin{bmatrix}
+v_a\\
+v_b\\
+v_c
+\end{bmatrix}
+\label{eq:v}
+\end{equation}
+
+\begin{equation}	%\label{eq:i}
+\mathbf{i} = 
+\begin{bmatrix}
+i_a\\
+i_b\\
+i_c
+\end{bmatrix}
+\label{eq:i}
+\end{equation}
+
+A potência ativa instantânea do sistema é definida por 
+
+\begin{equation}
+p \triangleq \mathbf{v}\cdot \mathbf{i}
+\label{eq:p}
+\end{equation}
+
+e a potência reativa instantânea do sistema é definido por
+
+\begin{equation}
+q \triangleq \mathbf{v}\times \mathbf{i}
+\label{eq:q}
+\end{equation}
+
+A potência $\mathbf{q}$ é dada por um vetor na forma:
+
+\begin{equation}
+\mathbf{q} = 
+\begin{bmatrix}
+q_a\\
+q_b\\
+q_c
+\end{bmatrix}
+=
+\begin{bmatrix}
+v_b i_c - v_c i_b\\
+v_c i_a - v_a i_c\\
+v_a i_b - v_b i_a
+\end{bmatrix}
+\label{eq:q_expand}
+\end{equation}
+
+Ainda é defnido a corente ativa instantanea por:
+
+\begin{equation}
+\mathbf{i_p} = 
+\begin{bmatrix}
+i_{ap}\\
+i_{bp}\\
+i_{cp}
+\end{bmatrix}
+\triangleq
+\dfrac{p}{\mathbf{v}\cdot \mathbf{v}} \mathbf{v}
+\label{eq:q_expand}
+\end{equation}
+
+Ainda é defnido a corente reativa instantanea por:
+
+\begin{equation}
+\mathbf{i_q} = 
+\begin{bmatrix}
+i_{aq}\\
+i_{bq}\\
+i_{cq}
+\end{bmatrix}
+\triangleq
+\dfrac{\mathbf{q}\times \mathbf{v}}{\mathbf{v} \cdot \mathbf{v}}
+\label{eq:q_expand}
+\end{equation}
+
 A teoria p-q é baseada na transformação das tensões e correntes das coordenadas $abc$ para $\alpha \beta 0$
+
+\cite{Peng1996} \cite{Akagi1984}
+
+\subsubsection{considerando coordenadas $\alpha \beta 0$}
+
 \subsubsection{Transformada de Clarke}
 
 \begin{equation}

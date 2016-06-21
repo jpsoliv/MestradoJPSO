@@ -1,0 +1,20 @@
+t = 0:0.001:1;
+f = 3;
+phi = pi/4;
+w = 2*pi*f;
+Vrms = 1;
+Irms = 1/2;
+
+V = sqrt(2)*Vrms*cos(w*t);
+I = sqrt(2)*Irms*cos(w*t-phi);
+
+P = V.*I;
+
+Pp = Vrms.*Irms*cos(phi).*(1+cos(2*w*t));
+Pq = Vrms.*Irms*sin(phi).*sin(2*w*t);
+
+subplot(2,1,1);
+plot(t,V,t,I,t,P)
+subplot(2,2,1);
+Pp,t,Pq,t,Pp+Pq
+
