@@ -1,5 +1,8 @@
+clear all
+close all
+clc
 t = 0:0.001:1;
-f = 2.5;
+f = 2.25;
 phi = pi/3;
 w = 2*pi*f;
 Vrms = 1;
