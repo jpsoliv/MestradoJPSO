@@ -26,7 +26,7 @@ A potência instantânea em um circuito monofásico é definida segundo a equação \r
 \begin{equation}
 \begin{aligned}
 p(t) & = v(t)i(t)\\
-	 & = 2\; V \cos(\omega t) \cdot I \cos(\omega t - \phi)\\
+	 & = 2\; V \cos(\omega t)  I \cos(\omega t - \phi)\\
 	 & = V I [\cos(\phi)+\cos(2 \omega t - \phi)]\\
  	 & = V I \cos(\phi)[1+\cos(2\omega t)] + V I \sin(\phi)\sin(2 \omega t)
 \end{aligned}
@@ -36,13 +36,13 @@ p(t) & = v(t)i(t)\\
 A equação \ref{eq:pot_inst} pode ser dividido em dois termos variantes no tempo: o primeiro é dado por 
 
 \begin{equation}
-V I \cdot \cos(\phi)[1+\cos(2\omega t)]
+V I \cos(\phi)[1+\cos(2\omega t)]
 \label{eq:prim}
 \end{equation}
 
 e o segundo por.
 \begin{equation}
-V I \cdot \sin(\phi)\sin(2 \omega t)
+V I \sin(\phi)\sin(2 \omega t)
 \label{eq:sec}
 \end{equation}
 
@@ -139,6 +139,91 @@ i_{cq}
 \dfrac{\mathbf{q}\times \mathbf{v}}{\mathbf{v} \cdot \mathbf{v}}
 \label{eq:q_expand}
 \end{equation}
+
+\begin{equation}
+\mathbf{i_p} = 
+\begin{bmatrix}
+i_{ap}\\
+i_{bp}\\
+i_{cp}
+\end{bmatrix}
+=
+\begin{bmatrix}
+v_a \left ( \dfrac{v_a i_a + v_b i_b + v_c i_c}{v_a^2  + v_b^2 + v_c^2}\right)\\[2ex]
+v_b \left ( \dfrac{v_a i_a + v_b i_b + v_c i_c}{v_a^2  + v_b^2 + v_c^2}\right)\\[2ex]
+v_c \left ( \dfrac{v_a i_a + v_b i_b + v_c i_c}{v_a^2  + v_b^2 + v_c^2}\right)
+\end{bmatrix}
+\label{eq:q_expand}
+\end{equation}
+
+\begin{equation}
+\mathbf{i_q} = 
+\begin{bmatrix}
+i_{aq}\\
+i_{bq}\\
+i_{cq}
+\end{bmatrix}
+=
+\begin{bmatrix}
+\dfrac{v_c(v_c i_a-v_a i_c)-v_b(v_a i_b-v_b i_a)}{v_a^2  + v_b^2 + v_c^2}\\[2ex]
+\dfrac{v_a(v_a i_b-v_b i_a)-v_c(v_b i_c-v_c i_b)}{v_a^2  + v_b^2 + v_c^2}\\[2ex]
+\dfrac{v_b(v_b i_c-v_c i_b)-v_a(v_c i_a-v_a i_v)}{v_a^2  + v_b^2 + v_c^2}
+\end{bmatrix}
+\label{eq:q_expand}
+\end{equation}
+
+Fazendo a soma de $\mathbf{i_p}$ com $\mathbf{i_q}$ obtém-se a seguinte relação:
+
+\begin{equation}
+\mathbf{i_p} + \mathbf{i_q}	= 	\begin{bmatrix}
+								\dfrac{v_a(v_a i_a + v_b i_b + v_c i_c)}{v_a^2  + v_b^2 + v_c^2}+\dfrac{v_c(v_c i_a-v_a i_c)-v_b(v_a i_b-v_b i_a)}{v_a^2  + v_b^2 + v_c^2}\\[2ex]
+								\dfrac{v_b(v_a i_a + v_b i_b + v_c i_c)}{v_a^2  + v_b^2 + v_c^2}+ \dfrac{v_a(v_a i_b-v_b i_a)-v_c(v_b i_c-v_c i_b)}{v_a^2  + v_b^2 + v_c^2}\\[2ex]
+								\dfrac{v_c(v_a i_a + v_b i_b + v_c i_c)}{v_a^2  + v_b^2 + v_c^2}+ \dfrac{v_b(v_b i_c-v_c i_b)-v_a(v_c i_a-v_a i_v)}{v_a^2  + v_b^2 + v_c^2}
+								\end{bmatrix}
+							= 	\begin{bmatrix}
+								i_{a}\\
+								i_{b}\\
+								i_{c}
+								\end{bmatrix} 
+							=	\mathbf{i}
+\label{eq:q_expand}
+\end{equation}
+
+ou seja, prova-se que pela definição de corrente ip e iq que a composição estas é dada pela corrente suprida pelo fonte à carga do sistema. 
+Ainda pela definição de ip e iq, utilizando a definição em (EQUACAO p) porém utilizando $p =\mathbf{v}\cdot \mathbf{i_q}$ temos:
+ 
+\begin{equation}
+\begin{aligned}
+\mathbf{v} \cdot \mathbf{i_q}	&= \mathbf{v}\cdot \left( \dfrac{\mathbf{q} \times \mathbf{v}}{\mathbf{v} \cdot \mathbf{v} } \right ) \\
+								&= \mathbf{v}\cdot \left( \dfrac{(\mathbf{v} \times \mathbf{i}) \times \mathbf{v}}{\mathbf{v} \cdot \mathbf{v} } \right )\\
+								&= \mathbf{v}\cdot \left( \dfrac{-(\mathbf{i} \cdot \mathbf{v}) \mathbf{v} + (\mathbf{v} \cdot \mathbf{v}) \mathbf{i}}{\mathbf{v} \cdot \mathbf{v}} \right)\\
+								&= \dfrac{-(\mathbf{i} \cdot \mathbf{v}) (\mathbf{v} \cdot \mathbf{v}) + (\mathbf{v} \cdot \mathbf{v}) (\mathbf{i}\cdot \mathbf{v})}{\mathbf{v} \cdot \mathbf{v}}\\
+								&=0
+\end{aligned}
+\label{eq:q_expand}
+\end{equation}
+
+
+ou seja, prova-se que pela definição de corrente ip e iq que a composição estas é dada pela corrente suprida pelo fonte à carga do sistema. 
+Ainda pela definição de ip e iq, utilizando a definição em (EQUACAO p) porém utilizando $p =\mathbf{v}\cdot \mathbf{i_q}$ temos:
+
+\begin{equation}
+\begin{aligned}
+\mathbf{v} \times \mathbf{i_p}	&= \mathbf{v}\times \left( \dfrac{p}{\mathbf{v} \cdot \mathbf{v} } \mathbf{v} \right ) \\
+								&= \mathbf{0}
+\end{aligned}
+\label{eq:q_expand}
+\end{equation}
+
+isto tambem implica que as correntes $\mathbf{i_q}$ são ortogonais à $\mathbf{v}$, ou seja $\mathbf{i_q} \cdot \mathbf{v}\equiv 0$ e que as correntes $\mathbf{i_p}$ são paralelas à $\mathbf{v}$, ou então  $\mathbf{i_p} \times \mathbf{v}\equiv 0$. Isto trás uma implicação importante que é a ortogonalidade entre as correntes $\mathbf{i_p}$ e $\mathbf{i_q}$ no sistema, ou seja:
+
+\begin{equation}
+\mathbf{i_p} \cdot \mathbf{i_q}\equiv 0
+\end{equation}
+
+Com isso, também é mostrado que a parcela da corrente $\mathbf{i_p}$ corresponde apenas a transferência de potência ativa instantânea no sistema. Por outro lado tem-se que a corrente $\mathbf{i_q}$ corresponde apenas a parcela da potência reativa instantânea do sistema
+
+
 
 A teoria p-q é baseada na transformação das tensões e correntes das coordenadas $abc$ para $\alpha \beta 0$
 
