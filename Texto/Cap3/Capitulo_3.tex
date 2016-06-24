@@ -9,6 +9,7 @@ Como forma de entender melhor a qualidade de energia e a operação de filtros ati
 
 \subsection{Potências em Sistemas Senoidais}
 
+\subsubsection{Monofásico}
 Considerando um circuito monofásico, senoidal linear e operando em regime permanente, as equações da tensão e corrente são expressas por \ref{eq:v(t)} e \ref{eq:i(t)}, respectivamente.
 
 \begin{equation}
@@ -46,22 +47,52 @@ V I \sin(\phi)\sin(2 \omega t)
 \label{eq:sec}
 \end{equation}
 
-Por definição, a potência ativa é definida pelo valor médio da equação \ref{eq:prim}, e a potência reativa é definida pelo valor de pico da equação \ref{eq:sec}.
+Por definição, a potência ativa é definida pelo valor médio da equação \ref{eq:prim}, ou seja, pela expressão \ref{eq:P}, e a potência reativa é definida pelo valor de pico da equação \ref{eq:sec}, ou pela expressão \ref{eq:Q}.
+
+\begin{equation}
+P=VI\cos\phi
+\label{eq:P}
+\end{equation}
+
+\begin{equation}
+Q=VI\sin\phi
+\label{eq:Q}
+\end{equation}
+
 \todo{verificar sobre valores de pico e valores eficazes}
 
 \begin{figure}[!htb] %Circuito real monofásico
 	\centering
-	\includegraphics[width=0.92\textwidth]{Cap3/Figuras/V_I_P.eps}
+	\includegraphics[width=0.75\textwidth]{Cap3/Figuras/V_I_P.eps}
 	\caption{Circuito real monofásico}
 	\label{fig:V_I_p.eps}
 \end{figure}
 
 \begin{figure}[!htb] %Circuito real monofásico
 	\centering
-	\includegraphics[width=0.92\textwidth]{Cap3/Figuras/W_VAr_VA.eps}
+	\includegraphics[width=0.75\textwidth]{Cap3/Figuras/W_VAr_VA.eps}
 	\caption{Circuito real monofásico}
 	\label{fig:W_VAr_VA.eps}
 \end{figure}
+\todo{essas figuras estão com as legendas erradas}
+
+A definição de potência aparente é dada pela multiplicação dos valores eficazes da tensão e corrente, respectivamente, ou seja:
+
+\begin{equation}
+S=V\,I
+\label{eq:P}
+\end{equation}
+
+A expressão de $S$ pode ser avinda através dos valores de $P$ e $Q$. Considerando as mesmas referencias de defasagem de angulo das expressões \ref{eq:v(t)} e \ref{eq:i(t)}, tem-se que a segunte expressão pode ser concebida:
+
+\begin{equation}
+S=\sqrt{P^2+Q^2} = \sqrt{(VI\cos\phi)^2+(VI\sin\phi)^2} = VI
+\label{eq:P}
+\end{equation}
+
+Com isso pode inferir o triangulo de cargas. isso vem também do fato dos fasores serem legais, pode cre.
+
+\subsubsection{Trifásico}
 
 \subsection{Definição de Potências em Sistemas Não-Senoidais}
 

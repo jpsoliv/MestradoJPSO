@@ -15,9 +15,9 @@ Va = 115;
 Vb = 115;
 Vc = 115;
 
-Za = 1;
-Zb = 1;
-Zc = 1;
+Za = 1+6j;
+Zb = 1+3j;
+Zc = 1+2j;
 
 va = Va*cos(w*t-Vphi_a);
 vb = Vb*cos(w*t-Vphi_b);
@@ -44,8 +44,14 @@ figure(2)
 plot(t,p,t,q);
 
 figure(3)
-subplot(2,1,1)
-plot(t,ip,t,iq)
-subplot(2,1,2)
+subplot(3,1,1)
+plot(t,ip)
+subplot(3,1,2)
+plot(t,iq)
+subplot(3,1,3)
 plot(t,ip+iq,t,i)
 
+pa = Va*Va/(abs(Za)*2)*cos(angle(Za));
+pb = Vb*Vb/(abs(Zb)*2)*cos(angle(Zb));
+pc = Vc*Vc/(abs(Zc)*2)*cos(angle(Zc));
+pa+pb+pc

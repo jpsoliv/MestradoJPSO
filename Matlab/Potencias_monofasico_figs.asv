@@ -22,14 +22,12 @@ hFig1 = figure(1);
 set(hFig1,'units','centimeters');
 set(hFig1,'Position',[6 6 12*1.61803 12]);
 plot(t,V,'k-.',t,I,'b--',t,P,'r-','LineWidth',2);
-l = legend('v(t)','i(t)','p(t)');
+l = legend('Tensão [V]','Corrente [A]','Potencia Aparente [VA]');
 set(l,'Box','off');
-set(l,'Location','southeast');
-set(l,'FontSize',14);
-set(l,'FontAngle','italic')
-set(l,'FontName','Cambria')
-% set(l,'Position',Lpos);
-axis([min(t) max(t) -1.8 1.8])
+set(l,'Location','best');
+set(l,'FontSize',9);
+set(l,'Position',Lpos);
+axis([min(t) max(t) -2.1 2.1])
 set(gca,'XtickLabel',[],'YtickLabel',[]);
 v = get(gca);
 lh = line([0 0 NaN v.XLim],[v.YLim NaN 0 0 ]);
