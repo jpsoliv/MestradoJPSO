@@ -7,6 +7,60 @@
 
 Como forma de entender melhor a qualidade de energia e a operação de filtros ativos é necessário ter os conceitos de potência ativa, reativa e fator de potência . 
 
+Para entender melhor a definição de potência em circuitos elétricos é necessário antes desenvolver alguns conceitos utilizados no desenvolvimento matemático para a interpretação das grandezas físicas. Ao longo da história várias teorias foram abordadas e importantes trabalhos são reconhecidamente aceitos para detalhar de melhor maneira casos desde específicos, quanto generalista no enfoque quanto a relação de tensão e corrente de um circuito elétrico. Esse estudo todo deu origem a área de teoria da potência, a qual vem sendo estudada até os dias de hoje para o aprofundamento e elaboração de novos conceitos para explicar fenômenos específicos  \cite{Paredes:} .
+
+Dentre as principais grandezas a ser estudada na Teoria da Potência elenca-se a potência ativa e aparente. É conhecido que na operação de um circuito elétrico que nem toda a corrente proveniente de uma fonte de tensão é convertida em trabalho para cada unidade de tempo. Nesse contexto aplica-se a definição de potência ativa, a qual é a corrente que efetivamente é transferida de uma fonte para a carga de maneira a gerar trabalho na saída do sistema. Há também a potência aparente que é definida com a potência que é gerada por uma fonte de energia e que circula pelo sistema na forma de corrente elétrica, sem necessariamente ser convertida em trabalho na saída do sistema. Esse contexto pode-se extender para o entendimento para qualidade de energia de um sistema 
+
+Para o estudo proposto nesse trabalho a teoria da potência proposta por Stanislaw Fryze é suficientemente completa para o entendimento da questão de potência.
+
+Segundo Fryze \cite{paredes} em sinais periódicos com forma de onda qualquer, define-se que a potência ativa de um sistema é dado segundo o valor médio da potência instantânea. A potência instantânea é definida pela multiplicação da tensão e corrente instantâneas, representadas por $v(t)$ e $i(t)$, respectivamente. Sendo assim tem-se que a potência ativa é definida por:
+
+\begin{equation}
+P = \dfrac{1}{T}\int_0^{T}p(t)dt = \dfrac{1}{T}\int_0^{T}v(t)i(t)dt 
+\end{equation}
+
+Para a definição de potência aparente, primeiramente será necessário definir alguns aspectos sobre valores eficazes da tensão e corrente.  A formulação matemática para encontrar o valor tais valores eficazes são expressas segundo a norma Euclidiana, dadas pelas seguintes equações:
+
+\begin{equation}
+V = \sqrt{\dfrac{1}{T}\int_{0}^{T}v(t)^2dt}
+\end{equation}
+
+\begin{equation}
+I = \sqrt{\dfrac{1}{T}\int_{0}^{T}i(t)^2dt}
+\end{equation}
+
+O definição de potência aparente então pode ser expressa segundo a equação:
+
+\begin{equation}
+S = VI
+\end{equation}
+
+Enfatizando que $V$ e $I$ da equação \ref{} são os valores eficazes de encontrados nas equações \ref{} e \ref{}, respectivamente.
+
+Outra definição importante na teoria da potência vem da relação entre os valores $S$ e $P$ para a determinação de potência reativa, ou seja, aquela que circula pela rede porém sem contribuir para a geração de trabalho na saída do sistema. A definição de potência reativa é dada a seguir:
+
+\begin{equation}
+Q = \sqrt{S^2-P^2}
+\end{equation}
+
+Com essas definições como como base Fryze foi quem propôs a decomposição de corrente total em componentes de corrente ativa e reativa. Essa definição é separa da corrente circulante aquelas que realmente transfere energia para a carga. Tal corrente é determinada segundo uma condutância equivalente $G_P$ da carga monofásica. A interpretação de tal condutância equivalente representa uma carga puramente resistiva, a qual para uma mesma tensão, absorve a mesma potência ativa da carga realmente utilizada. A definição da corrente ativa, juntamente com a inclusão da condutância equivalente é dada a seguir:
+
+\begin{equation}
+i_p(t) = \dfrac{P}{V^2}v(t)
+\end{equation}    
+
+Como explicado anteriormente, $i_p(t)$ é apenas uma componente da corrente total instantânea. Existe ainda uma parcela da corrente a qual não contribui para a transferência de potência para a carga, denominada corrente reativa, e que pode ser definida a partir da equação:
+
+\begin{equation}
+i_q(t) = i(t)-i_p(t)
+\end{equation}
+
+Uma característica importante a ressaltar é a ortogonalidade apresentada entre $i_p$ e $i_q$. Esse fato vem do desenvolvimento das equações que definem a potência e demonstram importante característica ao sistema. Por ser ortogonais as correntes $i_p$ e $i_q$ existe a seguinte implicação:
+
+\begin{equation}
+\dfrac{1}{T} \int_0^{T}i_p(t)i_q(t) = 0 \Longleftrightarrow I^2 = I_p^2+I_q^2
+\end{equation}
+
 \subsection{Potências em Sistemas Senoidais}
 
 \subsubsection{Monofásico}
