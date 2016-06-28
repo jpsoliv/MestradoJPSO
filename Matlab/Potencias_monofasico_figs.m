@@ -22,24 +22,25 @@ Lpos1 = [0.6553    0.1286    0.2463    0.1079];
 
 hFig1 = figure(1);
 set(hFig1,'units','centimeters');
-set(hFig1,'Position',[6 6 13*1.61803+3.6553 13]);
+set(hFig1,'Position',[6 6 13*1.61803+5.6553 13]);
 
 plot(t,V+d1,'k-.',t,I+d1,'b--',t,P+d1,'r-',t,Pp+d2,'k-.',t,Pq+d2,'b--',t,Pp+Pq+d2,'r-','LineWidth',2);
 axis([min(t) max(t) min(Pq)+d2-0.4 max(V)+d1+0.4])
 set(gca,'XtickLabel',[],'YtickLabel',[]);
-l1 = legend('v(t)','i(t)','p(t)');
+l1 = legend('$v(t)$ $V I \cos(\phi)[1+\cos(2\omega t)]$','$i(t)$ $VI\sin(\phi)\sin(2\omega t)$','$p(t)$ P Q');
+set(l1,'Interpreter','Latex')
 set(l1,'Box','off');
 set(l1,'Location','northeastoutside');
 set(l1,'FontSize',14);
 set(l1,'FontAngle','italic')
 set(l1,'FontName','Cambria')
 % set(l1,'Position',Lpos1);
-l2 = legend('v(t)','i(t)','p(t)');
-set(l2,'Box','off');
-set(l2,'Location','southeastoutside');
-set(l2,'FontSize',14);
-set(l2,'FontAngle','italic')
-set(l2,'FontName','Cambria')
+% l2 = legend('v(t) ','i(t)','p(t)');
+% set(l2,'Box','off');
+% set(l2,'Location','southeastoutside');
+% set(l2,'FontSize',14);
+% set(l2,'FontAngle','italic')
+% set(l2,'FontName','Cambria')
 
 
 v = get(gca);

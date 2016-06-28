@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.29)  24 JUN 2016 22:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.29)  27 JUN 2016 22:23
 entering extended mode
 **Dissertacao.tex
 (Dissertacao.tex
@@ -817,6 +817,9 @@ Package: chngcntr 2009/09/02 v1.0a change counter resetting
 Writing glossary file Dissertacao.glo 
 (Dissertacao.aux
 
+LaTeX Warning: Label `eq:F_ef' multiply defined.
+
+
 LaTeX Warning: Label `eq:P' multiply defined.
 
 
@@ -951,15 +954,31 @@ pdftex: bookmark at 2: {\thetodo } {30 P\'ags} {section*.1}{0}{tdo}
 Package hyperref Info: Anchor `section.1.1' on input line 6.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 6.
-pdftex: bookmark at 6: {1.1} {\numberline{1.1}Defini\c c\~ao de Pot\^encia Ativ
-a, Reativa e Fator de Pot\^encia} {section.1.1}{1}{toc}
+pdftex: bookmark at 6: {1.1} {\numberline{1.1}Pot\^encia Ativa, Reativa e Fator
+ de Pot\^encia} {section.1.1}{1}{toc}
+Package hyperref Info: Reference (cite) `cite.Paredes2012' on input line 10.
+Package hyperref Info: Reference (cite) `cite.Staudt2008' on input line 12.
+Package hyperref Info: Reference (cite) `cite.Staudt2008' on input line 12.
 
-LaTeX Warning: Citation `Paredes:' on page 1 undefined on input line 10.
+LaTeX Warning: Reference `subsec:Problemas Causados por Cargas Nao Lineares na 
+Rede' on page 1 undefined on input line 12.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 13.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 13.
+Package hyperref Info: Anchor `page.1' on input line 13.
+[1{C:/Users/Joao/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-LaTeX Warning: Citation `paredes' on page 1 undefined on input line 16.
 
+
+Package `hyperref' Info: End of reference (cite) `cite.Paredes2012', line 10.
+Package `hyperref' Info: End of reference (cite) `cite.Staudt2008', line 12.
+Package `hyperref' Info: End of reference (cite) `cite.Staudt2008', line 12.
+]
 LaTeX Font Info:    Try loading font information for U+msa on input line 16.
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -968,240 +987,232 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 16.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Package hyperref Info: Reference (cite) `cite.Paredes2012' on input line 16.
 Package hyperref Info: Anchor `equation.1.1.1' on input line 18.
+Package hyperref Info: Anchor `subsubsection.1.1.0.1' on input line 23.
+
+pdftex: bookmark at 23: {1.1.0.1} {\numberline{1.1.0.1}Monof\'asico} {subsubsec
+tion.1.1.0.1}{3}{toc}
+Package hyperref Info: Anchor `equation.1.1.2' on input line 27.
+Package hyperref Info: Reference (link) `equation.1.1.3' on input line 36.
+Package hyperref Info: Reference (link) `equation.1.1.4' on input line 36.
+Package hyperref Info: Anchor `equation.1.1.3' on input line 40.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 43.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 20.
-Package hyperref Info: Anchor `page.1' on input line 20.
- [1{C:/Users/Joao/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
-
-
+(babel)             in language  on input line 43.
+Package hyperref Info: Anchor `page.2' on input line 43.
+[2
+Package `hyperref' Info: End of reference (cite) `cite.Paredes2012', line 16.
+Package `hyperref' Info: End of reference (link) `equation.1.1.3', line 36.
 ]
-Package hyperref Info: Anchor `equation.1.1.2' on input line 24.
-Package hyperref Info: Anchor `equation.1.1.3' on input line 28.
-Package hyperref Info: Anchor `equation.1.1.4' on input line 34.
+Package hyperref Info: Anchor `equation.1.1.4' on input line 45.
+Package hyperref Info: Reference (link) `equation.1.1.5' on input line 50.
+Package hyperref Info: Anchor `equation.1.1.5' on input line 52.
+Package hyperref Info: Reference (link) `equation.1.1.5' on input line 62.
+Package hyperref Info: Anchor `equation.1.1.6' on input line 64.
+Package hyperref Info: Anchor `equation.1.1.7' on input line 70.
+Package hyperref Info: Reference (link) `equation.1.1.6' on input line 75.
+Package hyperref Info: Reference (link) `equation.1.1.11' on input line 75.
 
 
-LaTeX Warning: Reference `' on page 2 undefined on input line 38.
+LaTeX Warning: Reference `eq:Q_secsec' on page 3 undefined on input line 75.
 
+Package hyperref Info: Reference (link) `equation.1.1.9' on input line 75.
+Package hyperref Info: Anchor `equation.1.1.8' on input line 77.
+Package hyperref Info: Anchor `equation.1.1.9' on input line 82.
+Package hyperref Info: Anchor `section*.2' on input line 87.
+pdftex: bookmark at 87: {\thetodo } {verificar sobre valores de pico e valores 
+eficazes} {section*.2}{0}{tdo}
+Package hyperref Info: Anchor `figure.caption.3' on input line 89.
+<Cap3/Figuras/V_I_P_W_VAr_VA.png, id=73, 782.17218pt x 429.85594pt>
+File: Cap3/Figuras/V_I_P_W_VAr_VA.png Graphic file (type png)
 
-LaTeX Warning: Reference `' on page 2 undefined on input line 38.
+<use Cap3/Figuras/V_I_P_W_VAr_VA.png>
+Package pdftex.def Info: Cap3/Figuras/V_I_P_W_VAr_VA.png used on input line 91.
 
+(pdftex.def)             Requested size: 450.69417pt x 247.68997pt.
 
-LaTeX Warning: Reference `' on page 2 undefined on input line 38.
-
-Package hyperref Info: Anchor `equation.1.1.5' on input line 42.
-Package hyperref Info: Anchor `equation.1.1.6' on input line 48.
+pdftex: bookmark at 92: {1} {\numberline{1}{\ignorespaces Circuito real monof\'
+asico\relax }} {figure.caption.3}{0}{lof}
+Package hyperref Info: Anchor `equation.1.1.10' on input line 106.
+Package hyperref Info: Reference (link) `equation.1.1.3' on input line 111.
+Package hyperref Info: Reference (link) `equation.1.1.4' on input line 111.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 53.
+(babel)             in language  on input line 112.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 53.
-Package hyperref Info: Anchor `page.2' on input line 53.
-[2]
-Package hyperref Info: Anchor `equation.1.1.7' on input line 54.
-Package hyperref Info: Anchor `equation.1.1.8' on input line 60.
-Package hyperref Info: Anchor `subsection.1.1.1' on input line 64.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 64.
-
-pdftex: bookmark at 64: {1.1.1} {\numberline{1.1.1}Pot\^encias em Sistemas Seno
-idais} {subsection.1.1.1}{2}{toc}
-Package hyperref Info: Anchor `subsubsection.1.1.1.1' on input line 66.
-pdftex: bookmark at 66: {1.1.1.1} {\numberline{1.1.1.1}Monof\'asico} {subsubsec
-tion.1.1.1.1}{3}{toc}
-Package hyperref Info: Reference (link) `equation.1.1.9' on input line 67.
-Package hyperref Info: Reference (link) `equation.1.1.10' on input line 67.
-Package hyperref Info: Anchor `equation.1.1.9' on input line 69.
-Package hyperref Info: Anchor `equation.1.1.10' on input line 74.
-Package hyperref Info: Reference (link) `equation.1.1.11' on input line 79.
-Package hyperref Info: Anchor `equation.1.1.11' on input line 81.
-Package hyperref Info: Reference (link) `equation.1.1.11' on input line 91.
-Package hyperref Info: Anchor `equation.1.1.12' on input line 93.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 96.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 96.
-Package hyperref Info: Anchor `page.3' on input line 96.
+(babel)             in language  on input line 112.
+Package hyperref Info: Anchor `page.3' on input line 112.
 [3
-Package `hyperref' Info: End of reference (link) `equation.1.1.9', line 67.
-Package `hyperref' Info: End of reference (link) `equation.1.1.10', line 67.
-Package `hyperref' Info: End of reference (link) `equation.1.1.11', line 79.
-Package `hyperref' Info: End of reference (link) `equation.1.1.11', line 91.
+Package `hyperref' Info: End of reference (link) `equation.1.1.4', line 36.
+Package `hyperref' Info: End of reference (link) `equation.1.1.5', line 50.
+Package `hyperref' Info: End of reference (link) `equation.1.1.5', line 62.
+Package `hyperref' Info: End of reference (link) `equation.1.1.6', line 75.
+Package `hyperref' Info: End of reference (link) `equation.1.1.11', line 75.
+Package `hyperref' Info: End of reference (link) `equation.1.1.9', line 75.
 ]
-Package hyperref Info: Anchor `equation.1.1.13' on input line 99.
-Package hyperref Info: Reference (link) `equation.1.1.12' on input line 104.
-Package hyperref Info: Reference (link) `equation.1.1.17' on input line 104.
-Package hyperref Info: Reference (link) `equation.1.1.13' on input line 104.
-Package hyperref Info: Reference (link) `equation.1.1.15' on input line 104.
-Package hyperref Info: Anchor `equation.1.1.14' on input line 106.
-Package hyperref Info: Anchor `equation.1.1.15' on input line 111.
-Package hyperref Info: Anchor `section*.2' on input line 116.
+Package hyperref Info: Anchor `equation.1.1.11' on input line 113.
+Package hyperref Info: Anchor `section*.4' on input line 118.
 
-pdftex: bookmark at 116: {\thetodo } {verificar sobre valores de pico e valores
- eficazes} {section*.2}{0}{tdo}
-Package hyperref Info: Anchor `figure.caption.3' on input line 118.
-Package epstopdf Info: Source file: <Cap3/Figuras/V_I_P.eps>
-(epstopdf)                    date: 2016-06-24 20:44:18
-(epstopdf)                    size: 25637 bytes
-(epstopdf)             Output file: <Cap3/Figuras/V_I_P-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-06-24 20:44:18
-(epstopdf)                    size: 18419 bytes
-(epstopdf)             Command: <epstopdf --outfile=Cap3/Figuras/V_I_P-eps-conv
-erted-to.pdf Cap3/Figuras/V_I_P.eps>
-(epstopdf)             \includegraphics on input line 120.
-Package epstopdf Info: Output file is already uptodate.
-<Cap3/Figuras/V_I_P-eps-converted-to.pdf, id=80, 553.06625pt x 342.27875pt>
-File: Cap3/Figuras/V_I_P-eps-converted-to.pdf Graphic file (type pdf)
+pdftex: bookmark at 118: {\thetodo } {Falar brevemente do bagulho de Budeanu, m
+as que n\~ao \'e muito mais aceito devido ao fato de que leva as interpreta\c c
+\~oes erroneas} {section*.4}{0}{tdo}
+Package hyperref Info: Anchor `subsubsection.1.1.0.2' on input line 120.
+pdftex: bookmark at 120: {1.1.0.2} {\numberline{1.1.0.2}Monof\'asico} {subsubse
+ction.1.1.0.2}{3}{toc}
+Package hyperref Info: Reference (cite) `cite.Paredes2012' on input line 125.
+Package hyperref Info: Anchor `equation.1.1.12' on input line 127.
+Package hyperref Info: Anchor `equation.1.1.13' on input line 135.
 
-<use Cap3/Figuras/V_I_P-eps-converted-to.pdf>
-Package pdftex.def Info: Cap3/Figuras/V_I_P-eps-converted-to.pdf used on input 
-line 120.
-(pdftex.def)             Requested size: 341.43307pt x 211.30185pt.
+LaTeX Warning: Reference `' on page 4 undefined on input line 139.
 
-pdftex: bookmark at 121: {1} {\numberline{1}{\ignorespaces Circuito real monof\
-'asico\relax }} {figure.caption.3}{0}{lof}
-Package hyperref Info: Anchor `figure.caption.4' on input line 125.
-Package epstopdf Info: Source file: <Cap3/Figuras/W_VAr_VA.eps>
-(epstopdf)                    date: 2016-06-24 20:44:18
-(epstopdf)                    size: 25683 bytes
-(epstopdf)             Output file: <Cap3/Figuras/W_VAr_VA-eps-converted-to.pdf
->
-(epstopdf)                    date: 2016-06-24 20:44:18
-(epstopdf)                    size: 18018 bytes
-(epstopdf)             Command: <epstopdf --outfile=Cap3/Figuras/W_VAr_VA-eps-c
-onverted-to.pdf Cap3/Figuras/W_VAr_VA.eps>
-(epstopdf)             \includegraphics on input line 127.
-Package epstopdf Info: Output file is already uptodate.
 
-<Cap3/Figuras/W_VAr_VA-eps-converted-to.pdf, id=81, 553.06625pt x 342.27875pt>
-File: Cap3/Figuras/W_VAr_VA-eps-converted-to.pdf Graphic file (type pdf)
+LaTeX Warning: Reference `' on page 4 undefined on input line 139.
 
-<use Cap3/Figuras/W_VAr_VA-eps-converted-to.pdf>
-Package pdftex.def Info: Cap3/Figuras/W_VAr_VA-eps-converted-to.pdf used on inp
-ut line 127.
-(pdftex.def)             Requested size: 341.43307pt x 211.30185pt.
 
-pdftex: bookmark at 128: {2} {\numberline{2}{\ignorespaces Circuito real monof\
-'asico\relax }} {figure.caption.4}{0}{lof}
-Package hyperref Info: Anchor `section*.5' on input line 131.
-pdftex: bookmark at 131: {\thetodo } {essas figuras est\~ao com as legendas err
-adas} {section*.5}{0}{tdo}
-Package hyperref Info: Anchor `equation.1.1.16' on input line 135.
-Package hyperref Info: Reference (link) `equation.1.1.9' on input line 140.
-Package hyperref Info: Reference (link) `equation.1.1.10' on input line 140.
+LaTeX Warning: Reference `' on page 4 undefined on input line 139.
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 141.
+(babel)             in language  on input line 140.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 141.
-Package hyperref Info: Anchor `page.4' on input line 141.
+(babel)             in language  on input line 140.
+Package hyperref Info: Anchor `page.4' on input line 140.
 [4
-Package `hyperref' Info: End of reference (link) `equation.1.1.12', line 104.
-Package `hyperref' Info: End of reference (link) `equation.1.1.17', line 104.
-Package `hyperref' Info: End of reference (link) `equation.1.1.13', line 104.
-Package `hyperref' Info: End of reference (link) `equation.1.1.15', line 104.
- <./Cap3/Figuras/V_I_P-eps-converted-to.pdf>]
-Package hyperref Info: Anchor `equation.1.1.17' on input line 142.
-Package hyperref Info: Anchor `subsubsection.1.1.1.2' on input line 149.
-
-pdftex: bookmark at 149: {1.1.1.2} {\numberline{1.1.1.2}Trif\'asico} {subsubsec
-tion.1.1.1.2}{3}{toc}
-Package hyperref Info: Anchor `subsection.1.1.2' on input line 151.
+Package `hyperref' Info: End of reference (link) `equation.1.1.3', line 111.
+Package `hyperref' Info: End of reference (link) `equation.1.1.4', line 111.
+Package `hyperref' Info: End of reference (cite) `cite.Paredes2012', line 125.
+ <./Cap3/Figuras/V_I_P_W_VAr_VA.png>]
+Package hyperref Info: Anchor `equation.1.1.14' on input line 143.
+Package hyperref Info: Anchor `equation.1.1.15' on input line 149.
+Package hyperref Info: Anchor `equation.1.1.16' on input line 155.
+Package hyperref Info: Anchor `equation.1.1.17' on input line 161.
+Package hyperref Info: Anchor `subsection.1.1.1' on input line 165.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 151.
-pdftex: bookmark at 151: {1.1.2} {\numberline{1.1.2}Defini\c c\~ao de Pot\^enci
+(babel)             in language  on input line 165.
+
+pdftex: bookmark at 165: {1.1.1} {\numberline{1.1.1}Pot\^encias em Sistemas Sen
+oidais} {subsection.1.1.1}{2}{toc}
+Package hyperref Info: Anchor `subsubsection.1.1.1.1' on input line 169.
+pdftex: bookmark at 169: {1.1.1.1} {\numberline{1.1.1.1}Trif\'asico} {subsubsec
+tion.1.1.1.1}{3}{toc}
+Package hyperref Info: Anchor `subsection.1.1.2' on input line 171.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 171.
+pdftex: bookmark at 171: {1.1.2} {\numberline{1.1.2}Defini\c c\~ao de Pot\^enci
 as em Sistemas N\~ao-Senoidais} {subsection.1.1.2}{2}{toc}
-Package hyperref Info: Anchor `subsection.1.1.3' on input line 153.
+Package hyperref Info: Anchor `subsection.1.1.3' on input line 173.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 153.
-pdftex: bookmark at 153: {1.1.3} {\numberline{1.1.3}Pot\^encia Instant\^anea Ut
+(babel)             in language  on input line 173.
+pdftex: bookmark at 173: {1.1.3} {\numberline{1.1.3}Pot\^encia Instant\^anea Ut
 ilizando a Teoria P-Q} {subsection.1.1.3}{2}{toc}
-Package hyperref Info: Anchor `subsubsection.1.1.3.1' on input line 155.
-pdftex: bookmark at 155: {1.1.3.1} {\numberline{1.1.3.1}considerando coordenada
+Package hyperref Info: Anchor `subsubsection.1.1.3.1' on input line 175.
+pdftex: bookmark at 175: {1.1.3.1} {\numberline{1.1.3.1}considerando coordenada
 s $abc$} {subsubsection.1.1.3.1}{3}{toc}
-Package hyperref Info: Anchor `equation.1.1.18' on input line 159.
-Package hyperref Info: Anchor `equation.1.1.19' on input line 169.
+Package hyperref Info: Anchor `equation.1.1.18' on input line 179.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 177.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 177.
-Package hyperref Info: Anchor `page.5' on input line 177.
-[5
-Package `hyperref' Info: End of reference (link) `equation.1.1.9', line 140.
-Package `hyperref' Info: End of reference (link) `equation.1.1.10', line 140.
- <./Cap3/Figuras/W_VAr_VA-eps-converted-to.pdf>]
-Package hyperref Info: Anchor `equation.1.1.20' on input line 181.
-Package hyperref Info: Anchor `equation.1.1.21' on input line 188.
-Package hyperref Info: Anchor `equation.1.1.22' on input line 195.
-Package hyperref Info: Anchor `equation.1.1.23' on input line 213.
-Package hyperref Info: Anchor `equation.1.1.24' on input line 227.
-Package hyperref Info: Anchor `equation.1.1.25' on input line 239.
-Package hyperref Info: Anchor `equation.1.1.26' on input line 255.
+(babel)             in language  on input line 187.
+Package hyperref Info: Anchor `page.5' on input line 187.
+[5]
+Package hyperref Info: Anchor `equation.1.1.19' on input line 189.
+Package hyperref Info: Anchor `equation.1.1.20' on input line 201.
+Package hyperref Info: Anchor `equation.1.1.21' on input line 208.
+Package hyperref Info: Anchor `equation.1.1.22' on input line 215.
+Package hyperref Info: Anchor `equation.1.1.23' on input line 233.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 269.
+(babel)             in language  on input line 243.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 269.
-Package hyperref Info: Anchor `page.6' on input line 269.
+(babel)             in language  on input line 243.
+Package hyperref Info: Anchor `page.6' on input line 243.
  [6]
-Package hyperref Info: Anchor `equation.1.1.27' on input line 273.
-Package hyperref Info: Anchor `equation.1.1.28' on input line 291.
-Package hyperref Info: Anchor `equation.1.1.29' on input line 306.
-Package hyperref Info: Anchor `equation.1.1.30' on input line 316.
+Package hyperref Info: Anchor `equation.1.1.24' on input line 247.
+Package hyperref Info: Anchor `equation.1.1.25' on input line 259.
+Package hyperref Info: Anchor `equation.1.1.26' on input line 275.
+Package hyperref Info: Anchor `equation.1.1.27' on input line 293.
+Package hyperref Info: Anchor `equation.1.1.28' on input line 311.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 318.
+(babel)             in language  on input line 320.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 318.
-Package hyperref Info: Anchor `page.7' on input line 318.
+(babel)             in language  on input line 320.
+Package hyperref Info: Anchor `page.7' on input line 320.
  [7]
-Package hyperref Info: Reference (cite) `cite.Peng1996' on input line 326.
-Package hyperref Info: Reference (cite) `cite.Akagi1984' on input line 326.
-Package hyperref Info: Anchor `subsubsection.1.1.3.2' on input line 328.
+Package hyperref Info: Anchor `equation.1.1.29' on input line 326.
+Package hyperref Info: Anchor `equation.1.1.30' on input line 336.
+Package hyperref Info: Reference (cite) `cite.Peng1996' on input line 346.
+Package hyperref Info: Reference (cite) `cite.Akagi1984' on input line 346.
+Package hyperref Info: Anchor `subsubsection.1.1.3.2' on input line 348.
 
-pdftex: bookmark at 328: {1.1.3.2} {\numberline{1.1.3.2}considerando coordenada
+pdftex: bookmark at 348: {1.1.3.2} {\numberline{1.1.3.2}considerando coordenada
 s $\alpha \beta 0$} {subsubsection.1.1.3.2}{3}{toc}
-Package hyperref Info: Anchor `subsubsection.1.1.3.3' on input line 330.
-pdftex: bookmark at 330: {1.1.3.3} {\numberline{1.1.3.3}Transformada de Clarke}
+Package hyperref Info: Anchor `subsubsection.1.1.3.3' on input line 350.
+pdftex: bookmark at 350: {1.1.3.3} {\numberline{1.1.3.3}Transformada de Clarke}
  {subsubsection.1.1.3.3}{3}{toc}
-Package hyperref Info: Anchor `equation.1.1.31' on input line 332.
-Package hyperref Info: Anchor `section.1.2' on input line 351.
+Package hyperref Info: Anchor `equation.1.1.31' on input line 352.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 351.
-pdftex: bookmark at 351: {1.2} {\numberline{1.2}Filtros Ativos} {section.1.2}{1
+(babel)             in language  on input line 369.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 369.
+Package hyperref Info: Anchor `page.8' on input line 369.
+[8
+Package `hyperref' Info: End of reference (cite) `cite.Peng1996', line 346.
+Package `hyperref' Info: End of reference (cite) `cite.Akagi1984', line 346.
+]
+Package hyperref Info: Anchor `section.1.2' on input line 371.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 371.
+
+pdftex: bookmark at 371: {1.2} {\numberline{1.2}Filtros Ativos} {section.1.2}{1
 }{toc}
-Package hyperref Info: Anchor `subsection.1.2.1' on input line 353.
+Package hyperref Info: Anchor `subsection.1.2.1' on input line 373.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 353.
-pdftex: bookmark at 353: {1.2.1} {\numberline{1.2.1}Filtros Ativo Empregando a 
+(babel)             in language  on input line 373.
+pdftex: bookmark at 373: {1.2.1} {\numberline{1.2.1}Filtros Ativo Empregando a 
 Teoria P-Q} {subsection.1.2.1}{2}{toc}
 ) (Dissertacao.bbl
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
-Package hyperref Info: Anchor `page.8' on input line 3.
- [8
-Package `hyperref' Info: End of reference (cite) `cite.Peng1996', line 326.
-Package `hyperref' Info: End of reference (cite) `cite.Akagi1984', line 326.
-]
-Package hyperref Info: Anchor `chapter*.6' on input line 3.
+Package hyperref Info: Anchor `page.9' on input line 3.
+ [9]
+Package hyperref Info: Anchor `chapter*.5' on input line 3.
 Package hyperref Info: Anchor `chapter.2' on input line 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 
 pdftex: bookmark at 3: {2} {Refer\^encias Bibliogr\'aficas} {chapter.2}{0}{toc}
 
-Package hyperref Info: Anchor `cite.Peng1996' on input line 8.
-Package hyperref Info: Anchor `cite.Akagi1984' on input line 15.
+Package hyperref Info: Anchor `cite.Paredes2012' on input line 8.
+
+Underfull \hbox (badness 4765) in paragraph at lines 10--16
+[]\T1/aer/m/n/12 PAREDES, H. K. M. \T1/aer/m/it/12 Ele-trô-nica de Po-tên-cia p
+ara Ge-ra-ção, Trans-mis-são
+ []
+
+
+Underfull \hbox (badness 5637) in paragraph at lines 10--16
+\T1/aer/m/it/12 e Dis-tri-bui-ção de Ener-gia Elé-trica\T1/aer/m/n/12 : Tó-pi-c
+os em te-o-rias de po-tên-cia em
+ []
+
+
+Underfull \hbox (badness 3291) in paragraph at lines 10--16
+\T1/aer/m/n/12 con-di-ções não ide-ais de ope-ra-ção. Aces-sado em 24/06/2016. 
+Dis-po-ní-vel em:
+ []
+
+Package hyperref Info: Anchor `cite.Staudt2008' on input line 17.
+Package hyperref Info: Anchor `cite.Peng1996' on input line 23.
+Package hyperref Info: Anchor `cite.Akagi1984' on input line 30.
 ) 
 AED: lastpage setting LastPage
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 251.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 251.
-Package hyperref Info: Anchor `page.9' on input line 251.
-[9
+Package hyperref Info: Anchor `page.10' on input line 251.
+[10
 
 ]
 Package babel Info: Redefining portuges shorthand "|
@@ -1212,7 +1223,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 251.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
 Package rerunfilecheck Info: File `Dissertacao.out' has not changed.
-(rerunfilecheck)             Checksum: A89EB33AC46C6E0306E488568D954D32;742.
+(rerunfilecheck)             Checksum: E9509F04E943D160B9AC6E9544520934;723.
 
 
 LaTeX Warning: There were undefined references.
@@ -1223,13 +1234,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 251.
  ) 
 Here is how much of TeX's memory you used:
- 20362 strings out of 493673
- 366896 string characters out of 3143963
- 556483 words of memory out of 3000000
- 23189 multiletter control sequences out of 15000+200000
+ 20363 strings out of 493673
+ 366796 string characters out of 3143963
+ 558483 words of memory out of 3000000
+ 23187 multiletter control sequences out of 15000+200000
  26661 words of font info for 62 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 62i,10n,80p,818b,970s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,10n,80p,2117b,969s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTe
@@ -1240,9 +1251,9 @@ msfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Dissertacao.pdf (9 pages, 194325 bytes).
+Output written on Dissertacao.pdf (10 pages, 211512 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 62 named destinations out of 1000 (max. 500000)
- 87 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 207 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
+ 82 words of extra memory for PDF output out of 10000 (max. 10000000)
 

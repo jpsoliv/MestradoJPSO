@@ -5,6 +5,21 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.42.2.1 }
 
+\bibitem{Paredes2012}
+\abntrefinfo{Paredes}{PAREDES}{}
+{PAREDES, H. K.~M. \emph{Eletr\^onica de Pot\^encia para Gera\c{c}\~ao,
+  Transmiss\~ao e Distribui\c{c}\~ao de Energia El\'etrica}: T\'opicos em
+  teorias de pot\^encia em condi\c{c}\~oes n\~ao ideais de opera\c{c}\~ao.
+Acessado em 24/06/2016.
+Dispon{\'\i}vel em:
+  $<$http://www.dsce.fee.unicamp.br/~antenor/pdffiles/it744/CAP6.pdf$>$.}
+
+\bibitem{Staudt2008}
+\abntrefinfo{Staudt}{STAUDT}{2008}
+{STAUDT, V. Fryze-buchholz-depenbrock: A time-domain power theory. In:  IEEE.
+  \emph{2008 International School on Nonsinusoidal Currents and Compensation}.
+  [S.l.], 2008. p. 1--12.}
+
 \bibitem{Peng1996}
 \abntrefinfo{Peng e Lai}{PENG; LAI}{1996}
 {PENG, F.~Z.; LAI, J.-S. Generalized instantaneous reactive power theory for
