@@ -20,7 +20,9 @@ F_{ef} = \sqrt{\dfrac{1}{T}\int_{0}^{T}f(t)^2dt}
 \label{eq:F_ef}
 \end{equation}
 
-\subsubsection{Monofásico}
+\subsection{Monofásico}
+
+\subsubsection{Senoidal}
 
 Dada uma função $f(t)$ sinusoidal com a frequência angular $\omega t$ e amplitude cujo valor de pico é dado por $F_p$, tem-se que o valor eficaz de $f(t)$ é dada segundo a equação:
 
@@ -145,47 +147,58 @@ O módulo $\mathbf{S}$ leva à mesma expressão definida em \ref{eq:S_PQ}. Consider
 \end{equation}
 
 
+\todo{colocar isso no lugar adequado}
 
-Com isso pode inferir o triangulo de cargas. isso vem também do fato dos fasores serem legais, pode cre.\todo{Falar brevemente do bagulho de Budeanu, mas que não é muito mais aceito devido ao fato de que leva as interpretações erroneas}
 
 \subsubsection{Não senoidal Monofásico}
 
-
-Para o estudo proposto nesse trabalho a teoria da potência proposta por Stanislaw Fryze é suficientemente completa para o entendimento da questão de potência.
-
-Segundo Fryze \cite{Paredes2012} em sinais periódicos com forma de onda qualquer, define-se que a potência ativa de um sistema é dado segundo o valor médio da potência instantânea. A potência instantânea é definida pela multiplicação da tensão e corrente instantâneas, representadas por $v(t)$ e $i(t)$, respectivamente. Sendo assim define-se a potência ativa por:
+Dentre a importância do estudo da teoria da potência, tem-se a elucidação da contribuição dos conceitos de distorção harmônica nas tensões e correntes na influência que está tem no entendimento da potência aparente e, consequentemente, no fator de potência. Os primeiros estudos sobre este tema foi desenvolvido no final do século XIX \cite{Paredes2012,Czarnecki1997} com a verificação da relação com distorção harmônica e potência aparente. Dentre os trabalhos conseguintes a principal contribuição foi dada por Budeanu na década de 20, a qual em seu estudo ele propôs tratar as teoria da potência de sistemas não senoidais através do domínio da frequência com a série de Fourier. A proposta de Budeanu foi abordar a corrente e a tensão através da série de Fourier, ou seja, considerando a tensão e corrente como uma série de funções sinusoidais com frequências e amplitude distintas. Essa consideração trouxe a definição de valor eficaz para uma forma de onda não sinusoidal de tensão e corrente segundo a equação \ref{eq:V_I_bud} \cite{Paredes2012}.
 
 \begin{equation}
-P = \dfrac{1}{T}\int_0^{T}p(t)dt = \dfrac{1}{T}\int_0^{T}v(t)i(t)dt 
+V = \sqrt{\sum_{h=1}^\infty V_h^2}\;; \qquad I = \sqrt{\sum_{h=1}^\infty I_h^2}
+\label{eq:V_I_bud}
 \end{equation}
 
-
-
-O definição de potência aparente então pode ser expressa segundo a equação:
+Onde $V_h$ e $I_h$ denotam os valores eficazes das funções sinusoidais da h-ésima harmônica. O desenvolvimento do conceito de $V$ e $I$ das equação \ref{eq:V_I_bud} com a definição de potência aparente da equação \ref{eq:S} traz a introdução de um novo parâmetro, denominada de potência harmônica ou de distorção, cuja variável é $D$. Como ocorre na equação \ref{eq:S_PQ}, pode-se definir a potência aparente através dos valores $P$, $Q$ com a introdução de $D$. Sendo assim, segundo Budeanu a potência aparente de uma função não sinusoidal é definida segundo a equação \ref{eq:S_PQD} \cite{Paredes2012,Czarnecki1997}.
 
 \begin{equation}
-S = VI
+S=\sqrt{P^2+Q^2+D^2}
+\label{eq:S_PQD}
 \end{equation}
 
-Enfatizando que $V$ e $I$ da equação \ref{} são os valores eficazes de encontrados nas equações \ref{} e \ref{}, respectivamente.
+Este conceito foi largamente aceito e utilizado ao longo de décadas, visto que traz uma maneira de explicar a lacuna do aumento da potência aparente em circuitos não senoidais com a introdução da potência de distorção $D$ na definição do conceito de potência aparente \cite{Paredes2012}. Entretanto a teoria de Budeanu não é mais aceita de modo geral visto que existe várias deficiências nessa teoria \cite{Paredes2012,Czarnecki1997,Czarnecki1987}. Tais deficiências recaem no fato de que para circuitos não senoidais a concepção da teoria de Budeanu traz interpretações errôneas das definições de potência, além de que estas não possuem nenhum atributo da qual podem relacionar o fenômeno de potência em circuitos não senoidais. Na teoria de Budeanu para circuitos não senoidais, a diminuição da potência reativa não preserva o o conceito da diminuição da perda da linha para uma mesma transferência de energia \cite{Paredes2012,Czarnecki1997}. Outra deficiência dessa teoria é que está não traz nenhuma informação útil necessária no desenvolvimento de métodos para compensar a distorção. Além disso, os valores encontrados na teoria de Budeanu não são suficientes para prover informações relacionadas à distorção harmônica \cite{Czarnecki1997,Czarnecki1987}. Por esses motivo, a teoria introduzida por Budeanu, apesar de ser utilizado por muitos engenheiros, foi excluído da norma IEEE 1459 em sua recente revisão de 2010 \cite{Paredes2012}.
 
-Outra definição importante na teoria da potência vem da relação entre os valores $S$ e $P$ para a determinação de potência reativa, ou seja, aquela que circula pela rede porém sem contribuir para a geração de trabalho na saída do sistema. A definição de potência reativa é dada a seguir:
+Outro estudo proposto na mesma época e independentemente de Budeanu foi Stanislaw Fryze. Este focou seu estudo no domínio do tempo e sua teoria da potência que, apesar de apresentar algumas limitações, é suficientemente completa para o entendimento da questão da potência e no desenvolvimento de uma teoria a qual utilizaria compensadores para tratar de componentes de corrente indesejadas nas linhas do sistema.
+
+Segundo Fryze, em sinais periódicos com forma de onda qualquer pode-se basear a teoria da potência fundamentalmente na decomposição da corrente provida pela fonte entre corrente ativa e reativa \cite{Czarnecki1997}. Considerando um sistema cuja corrente entregue pela fonte é definida por $i(t)$, pode-se decompor esta nas parcelas de $i_p(t)$ e $i_qt(t)$, sendo a primeira a componente ativa e a segunda a componente reativa da corrente, ou seja:
 
 \begin{equation}
-Q = \sqrt{S^2-P^2}
+i(t) = i_p(t)+i_q(t)
+\label{eq:i_Fryze}
+\end{equation}
+
+Utilizando ainda o conceito de potência ativa do sistema como o valor médio da potência instantânea, como mostra a equação \ref{eq:P_med}, sendo que potência instantânea é definida pela multiplicação da tensão e corrente instantâneas, representadas por $v(t)$ e $i(t)$, respectivamente.
+
+\begin{equation}
+P = \dfrac{1}{T}\int_0^{T}p(t)dt = \dfrac{1}{T}\int_0^{T}v(t)i(t)dt
+\label{eq:P_med}
 \end{equation}
 
 Com essas definições como base, Fryze propôs a decomposição de corrente total em componentes de corrente ativa e reativa. Essa definição separa da corrente circulante aquelas que realmente transfere energia para a carga. Tal corrente é determinada segundo uma condutância equivalente $G_P$ da carga monofásica. A interpretação de tal condutância equivalente representa uma carga puramente resistiva, a qual para uma mesma tensão, absorve a mesma potência ativa da carga realmente utilizada. A definição da corrente ativa, juntamente com a inclusão da condutância equivalente é dada a seguir:
 
 \begin{equation}
-i_p(t) = \dfrac{P}{V^2}v(t);\qquad G_P = \dfrac{P}{V^2}\  \rightarrow \ i_p(t) = G_Pv(t)
-\end{equation}    
+i_p(t) = \dfrac{P}{V^2}v(t);\qquad G_P = \dfrac{P}{V^2}\ \Longrightarrow \ i_p(t) = G_Pv(t)
+\end{equation} 
+
+Outra definição importante na teoria da potência vem da relação entre os valores $S$ e $P$ para a determinação de potência reativa, ou seja, aquela que circula pela rede porém sem contribuir para a geração de trabalho na saída do sistema. A definição de potência reativa é dada a seguir:
+
+
+
+
+   
 
 Como explicado anteriormente, $i_p(t)$ é apenas uma componente da corrente total instantânea. Existe ainda uma parcela da corrente a qual não contribui para a transferência de potência para a carga, denominada corrente reativa, e que pode ser definida a partir da equação:
 
-\begin{equation}
-i_q(t) = i(t)-i_p(t)
-\end{equation}
 
 Uma característica importante a ressaltar é a ortogonalidade apresentada entre $i_p$ e $i_q$. Esse fato vem do desenvolvimento das equações que definem a potência e demonstram importante característica ao sistema. Por ser ortogonais as correntes $i_p$ e $i_q$ existe a seguinte implicação:
 
@@ -194,7 +207,7 @@ Uma característica importante a ressaltar é a ortogonalidade apresentada entre $
 \end{equation}
 
 
-\subsubsection{Trifásico}
+\subsection{Trifásico}
 
 \subsection{Definição de Potências em Sistemas Não-Senoidais}
 
