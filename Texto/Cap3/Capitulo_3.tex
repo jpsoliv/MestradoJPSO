@@ -109,27 +109,46 @@ As formas de onda que ilustram um caso específico dado por um sistema linear com
 %\end{figure}
 %\todo{essas figuras estão com as legendas erradas}
 
-A definição de potência aparente é dada pela multiplicação dos valores eficazes da tensão e corrente, respectivamente, ou seja:
+Além da concepção dos conceitos estabelecidos anteriormente sobre as potências $P$ e $Q$ existe outro parâmetro crucial no estabelecimento da teoria da potência de forma a integrar esses valores previamente estabelecidos. A concepção de potência aparente é dada como sendo a potência total fornecida pelo gerador e presente nas linhas de transmissão. De forma geral, tem-se que a definição de potência aparente é dada pela multiplicação dos valores eficazes da tensão e corrente, respectivamente, ou seja:
 
 \begin{equation}
 S=V\,I
 \label{eq:S}
 \end{equation}
 
-A expressão de $S$ pode ser avinda através dos valores de $P$ e $Q$. Considerando as mesmas referencias de defasagem de angulo das expressões \ref{eq:v(t)} e \ref{eq:i(t)}, tem-se que a segunte expressão pode ser concebida:
+Considerando agora o estudo específico onde o sistema é composto por uma fonte de tensão senoidal alimentando uma carga linear, pode -se ainda obter a expressão de potência aparente como sendo expressa através dos valores de $P$ e $Q$. Analisando as equações \ref{eq:P} e \ref{eq:Q} observa-se que estas estão defasadas em 90 graus. Com isso, tem-se que pode-se obter o valor de potência aparente segundo a equação \ref{eq:S_PQ}.
 
 \begin{equation}
 S=\sqrt{P^2+Q^2} = \sqrt{(VI\cos\phi)^2+(VI\sin\phi)^2} = VI
-\label{eq:S}
+\label{eq:S_PQ}
 \end{equation}
+
+Outra forma de obter o mesmo resultado, é através da utilização de fasores para representar as equações $S$ em relação à $P$ e $Q$. Definindo $\dot{V}$ e $\dot{I}$ como sendo os valores fasoriais da tensão e corrente de um sistema, tem-se que a potência aparente é escrita segundo a equação \ref{eq:S_fasor}.
+
+\begin{equation}
+\mathbf{S}= \dot{V}\dot{I}^* = P+jQ=VI\cos \phi+jVI\cos \phi
+\label{eq:S_fasor}
+\end{equation}
+
+O módulo $\mathbf{S}$ leva à mesma expressão definida em \ref{eq:S_PQ}. Considerando o plano imaginário encontrado a partir da utilização das grandezas fasoriais, pode-se expressar graficamente as potências do circuito linear operando em regime permanente através do triângulo de cargas representadas no plano imaginário. 
+
+\begin{figure}[!htb] %Circuito real monofásico
+	\centering
+	\includegraphics[width=0.35\textwidth]{Cap3/Figuras/triangulo.png}
+	\caption{Triangulo de potências}
+	\label{fig:triangulo.png}
+\end{figure}
 
 \begin{equation}
 \lambda = \dfrac{P}{S}
 \label{eq:lambda}
 \end{equation}
+
+
+
 Com isso pode inferir o triangulo de cargas. isso vem também do fato dos fasores serem legais, pode cre.\todo{Falar brevemente do bagulho de Budeanu, mas que não é muito mais aceito devido ao fato de que leva as interpretações erroneas}
 
-\subsubsection{Monofásico}
+\subsubsection{Não senoidal Monofásico}
 
 
 Para o estudo proposto nesse trabalho a teoria da potência proposta por Stanislaw Fryze é suficientemente completa para o entendimento da questão de potência.
