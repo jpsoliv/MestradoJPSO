@@ -1,7 +1,4 @@
 \chapter{Filtros Ativos Em Sistemas Elétricos}
-\todo[inline]{30 Págs}
-
-
 
 \section{Potência Ativa, Reativa e Fator de Potência}
 
@@ -188,29 +185,34 @@ A proposta de Fryze com a definição de corrente $i(t)$ como a composição de comp
 
 \begin{equation}
 i_p(t) = \dfrac{P}{V^2}v(t);\qquad G_P = \dfrac{P}{V^2}\ \Longrightarrow \ i_p(t) = G_Pv(t)
+\label{eq:i_p(t)}
 \end{equation} 
 
-
-
-
-
-
-
-
-
-Outra definição importante na teoria da potência vem da relação entre os valores $S$ e $P$ para a determinação de potência reativa, ou seja, aquela que circula pela rede porém sem contribuir para a geração de trabalho na saída do sistema. A definição de potência reativa é dada a seguir:
-
-
-Uma característica importante a ressaltar é a ortogonalidade apresentada entre $i_p$ e $i_q$. Esse fato vem do desenvolvimento das equações que definem a potência e demonstram importante característica ao sistema. Por ser ortogonais as correntes $i_p$ e $i_q$ existe a seguinte implicação:
+Utilizando equações \ref{eq:i_Fryze} e \ref{eq:i_p(t)} e realizando o produto interno entre as correntes ativas e reativas tem-se:
 
 \begin{equation}
-\dfrac{1}{T} \int_0^{T}i_p(t)i_q(t) = 0 \Longleftrightarrow I^2 = I_p^2+I_q^2
+\begin{aligned}
+\langle i_p, i_q \rangle &= \dfrac{1}{T} \int_0^{T}i_p(t)i_q(t) dt\\
+&= \dfrac{1}{T} \int_0^{T} i_p(t)[i(t)-i_p(t)] dt\\
+&= \dfrac{1}{T} \int_0^{T} \dfrac{P}{V^2}v(t)i(t)- \left ( \dfrac{P}{V^2} v(t)\right)^2 dt\\
+&= \dfrac{1}{T} \left [ \dfrac{P}{V^2} \int_0^{T} v(t)i(t)dt - \dfrac{P^2}{V^4} \int_0^{T} v(t)^2 dt \right] &=0 
+\end{aligned}
 \end{equation}
 
+Isso leva a uma característica importante sobre a ortogonalidade apresentada entre $i_p$ e $i_q$. Por ser ortogonais as correntes $i_p$ e $i_q$ existe a seguinte implicação:
+
+\begin{equation}
+I^2 = I_p^2+I_q^2
+\label{eq:I}
+\end{equation}
+
+Ainda, Fryze definiu o valor da potência reativa como sendo o produto dos valores eficazes da tensão e da corrente reativa, ou seja, $Q = V I_q$. Com essa relação e pela propriedade da ortogonalidade entre $i_p(t)$ e $I_q(t)$, tem-se que a relação $S^2=P^2+Q^2$, tal qual apresentada na equação \ref{eq:S_PQ} é valida para a teoria de Fryze.
+
+Com sua teoria, Fryze foi capaz de quantificar o total de energia não útil que percorre o sistema na forma de corrente reativa. Com isso foi possível a introdução da ideia de compensadores ativos, visto que tem-se conhecimento da parcela da corrente a qual deve ser anulada \cite{Paredes2012}. Entretanto sua teoria possui algumas limitações quanto a interpretação da corrente reativa, visto que não é possível classificar as características dos distúrbios presentes na corrente, além de que a definição de potência ativa proposto pela condutância equivalente não necessariamente é observada como de fato potência útil \cite{Czarnecki1997}.
 
 \subsection{Trifásico}
-
-\subsection{Definição de Potências em Sistemas Não-Senoidais}
+\subsubsection{Definição de Potências em Sistemas Senoidais}
+\subsubsection{Definição de Potências em Sistemas Não-Senoidais}
 
 \subsection{Potência Instantânea Utilizando a Teoria P-Q}
 
@@ -389,7 +391,13 @@ A teoria p-q é baseada na transformação das tensões e correntes das coordenadas 
 
 \subsubsection{considerando coordenadas $\alpha \beta 0$}
 
+Uma maneira de simplificar e expandir o loque de possibilidades empregando a potência instantânea utilizando a teoria P-Q é através da transformação das coordenadas de um sistema com fases $abc$ para coordenadas $\alpha \beta 0$. O emprego dessa abordagem traz implicações de modo a poder introduzir sistemas trifásicos mais genéricos com a presença de sequência 0. Os resultados apresentados nessa abordagem apresenta as mesmas propriedades e interpretações de potência instantânea nas coordenadas $abc$, ou seja, estas independem do sistema de coordenada a qual é aplicado a teoria \cite{Peng1996}.
+
+
+
 \subsubsection{Transformada de Clarke}
+
+A transformação de coordenadas das tensões instantâneas referenciadas no sistema $abc$ para tensões instantâneas referenciadas no sistema $\alpha \beta 0$ é feita através da aplicação da transformada de Clarke. Primeiramente considera-se que um sistema trifásico seja composto por tensões de fase $v_a$, $v_b$ e $v_c$ deslocadas em ângulo por 120 graus ($\nicefrac{2 \pi}{3}$) entre si. Desse modo utilizando da equação \ref{eq:v_alpha_beta_0} obtém-se as novas tensões instantâneas $v_\alpha$ e $v_\beta$, cujo angulo de defasagem é dado por 90 graus ($\nicefrac{\pi}{2}$) \todo{referenciar}.
 
 \begin{equation}
 \begin{bmatrix}
@@ -408,7 +416,31 @@ v_a\\
 v_b\\
 v_c
 \end{bmatrix}
+\label{eq:v_alpha_beta_0}
 \end{equation}
+
+
+\begin{equation}
+\begin{bmatrix}
+i_0\\
+i_\alpha\\
+i_\beta
+\end{bmatrix}
+= \sqrt{\dfrac{2}{3}}
+\begin{bmatrix}
+\dfrac{1}{\sqrt{2}}	& \dfrac{1}{\sqrt{2}}	& \dfrac{1}{\sqrt{2}}		\\[2ex]
+1					& -\dfrac{1}{2}			& -\dfrac{1}{2}				\\[2ex]
+0					& \dfrac{\sqrt{3}}{2}	& -\dfrac{\sqrt{3}}{2}
+\end{bmatrix}
+\begin{bmatrix}
+i_a\\
+i_b\\
+i_c
+\end{bmatrix}
+\label{eq:v_alpha_beta_0}
+\end{equation}
+
+
 
 \section{Filtros Ativos}
 
