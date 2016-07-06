@@ -168,36 +168,37 @@ S=\sqrt{P^2+Q^2+D^2}
 
 Este conceito foi largamente aceito e utilizado ao longo de décadas, visto que traz uma maneira de explicar a lacuna do aumento da potência aparente em circuitos não senoidais com a introdução da potência de distorção $D$ na definição do conceito de potência aparente \cite{Paredes2012}. Entretanto a teoria de Budeanu não é mais aceita de modo geral visto que existe várias deficiências nessa teoria \cite{Paredes2012,Czarnecki1997,Czarnecki1987}. Tais deficiências recaem no fato de que para circuitos não senoidais a concepção da teoria de Budeanu traz interpretações errôneas das definições de potência, além de que estas não possuem nenhum atributo da qual podem relacionar o fenômeno de potência em circuitos não senoidais. Na teoria de Budeanu para circuitos não senoidais, a diminuição da potência reativa não preserva o o conceito da diminuição da perda da linha para uma mesma transferência de energia \cite{Paredes2012,Czarnecki1997}. Outra deficiência dessa teoria é que está não traz nenhuma informação útil necessária no desenvolvimento de métodos para compensar a distorção. Além disso, os valores encontrados na teoria de Budeanu não são suficientes para prover informações relacionadas à distorção harmônica \cite{Czarnecki1997,Czarnecki1987}. Por esses motivo, a teoria introduzida por Budeanu, apesar de ser utilizado por muitos engenheiros, foi excluído da norma IEEE 1459 em sua recente revisão de 2010 \cite{Paredes2012}.
 
-Outro estudo proposto na mesma época e independentemente de Budeanu foi Stanislaw Fryze. Este focou seu estudo no domínio do tempo e sua teoria da potência que, apesar de apresentar algumas limitações, é suficientemente completa para o entendimento da questão da potência e no desenvolvimento de uma teoria a qual utilizaria compensadores para tratar de componentes de corrente indesejadas nas linhas do sistema.
+Outro estudo proposto na mesma época e de forma independente à Budeanu foi feito por Stanislaw Fryze. Este focou seu estudo na teoria da potência no domínio do tempo e, apesar de apresentar algumas limitações, é suficientemente completa para o entendimento da questão da potência e no desenvolvimento de uma proposta a qual utilizaria compensadores para tratar de componentes de corrente indesejadas nas linhas do sistema.
 
-Segundo Fryze, em sinais periódicos com forma de onda qualquer pode-se basear a teoria da potência fundamentalmente na decomposição da corrente provida pela fonte entre corrente ativa e reativa \cite{Czarnecki1997}. Considerando um sistema cuja corrente entregue pela fonte é definida por $i(t)$, pode-se decompor esta nas parcelas de $i_p(t)$ e $i_qt(t)$, sendo a primeira a componente ativa e a segunda a componente reativa da corrente, ou seja:
+Segundo Fryze, em sinais periódicos e com forma de onda qualquer pode-se basear a teoria da potência fundamentalmente na decomposição da corrente provida pela fonte entre componente ativa e reativa \cite{Czarnecki1997}. Considerando um sistema cuja corrente entregue pela fonte é definida por $i(t)$, pode-se decompor esta nas parcelas de $i_p(t)$ e $i_q(t)$, sendo a primeira a componente ativa e a segunda a componente reativa da corrente, ou seja:
 
 \begin{equation}
 i(t) = i_p(t)+i_q(t)
 \label{eq:i_Fryze}
 \end{equation}
 
-Utilizando ainda o conceito de potência ativa do sistema como o valor médio da potência instantânea, como mostra a equação \ref{eq:P_med}, sendo que potência instantânea é definida pela multiplicação da tensão e corrente instantâneas, representadas por $v(t)$ e $i(t)$, respectivamente.
+Para definir a parcela da corrente ativa do sistema é necessário primeiro entender o conceito de potência ativa para circuito periódicos com forma de onda qualquer. O conceito de potência ativa do sistema com essas características é definido segundo o valor médio da potência instantânea, como mostra a equação \ref{eq:P_med}, sendo que potência instantânea é definida pela multiplicação da tensão e corrente, representadas por $v(t)$ e $i(t)$, respectivamente.
 
 \begin{equation}
 P = \dfrac{1}{T}\int_0^{T}p(t)dt = \dfrac{1}{T}\int_0^{T}v(t)i(t)dt
 \label{eq:P_med}
 \end{equation}
 
-Com essas definições como base, Fryze propôs a decomposição de corrente total em componentes de corrente ativa e reativa. Essa definição separa da corrente circulante aquelas que realmente transfere energia para a carga. Tal corrente é determinada segundo uma condutância equivalente $G_P$ da carga monofásica. A interpretação de tal condutância equivalente representa uma carga puramente resistiva, a qual para uma mesma tensão, absorve a mesma potência ativa da carga realmente utilizada. A definição da corrente ativa, juntamente com a inclusão da condutância equivalente é dada a seguir:
+A proposta de Fryze com a definição de corrente $i(t)$ como a composição de componentes $i_p$ e $i_q$ foi a introdução de um conceito de condutância equivalente no sistema de modo a requerer apenas a parcela da corrente ativa $i_p$ da fonte de tensão. A interpretação de tal condutância equivalente representa uma carga puramente resistiva, a qual para uma mesma tensão, absorve a mesma potência ativa da carga realmente utilizada. A definição da corrente ativa, juntamente com a inclusão da condutância equivalente é dada a seguir:
 
 \begin{equation}
 i_p(t) = \dfrac{P}{V^2}v(t);\qquad G_P = \dfrac{P}{V^2}\ \Longrightarrow \ i_p(t) = G_Pv(t)
 \end{equation} 
 
+
+
+
+
+
+
+
+
 Outra definição importante na teoria da potência vem da relação entre os valores $S$ e $P$ para a determinação de potência reativa, ou seja, aquela que circula pela rede porém sem contribuir para a geração de trabalho na saída do sistema. A definição de potência reativa é dada a seguir:
-
-
-
-
-   
-
-Como explicado anteriormente, $i_p(t)$ é apenas uma componente da corrente total instantânea. Existe ainda uma parcela da corrente a qual não contribui para a transferência de potência para a carga, denominada corrente reativa, e que pode ser definida a partir da equação:
 
 
 Uma característica importante a ressaltar é a ortogonalidade apresentada entre $i_p$ e $i_q$. Esse fato vem do desenvolvimento das equações que definem a potência e demonstram importante característica ao sistema. Por ser ortogonais as correntes $i_p$ e $i_q$ existe a seguinte implicação:
