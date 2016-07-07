@@ -216,6 +216,11 @@ Com sua teoria, Fryze foi capaz de quantificar o total de energia não útil que p
 
 \subsection{Potência Instantânea Utilizando a Teoria P-Q}
 
+A potência instantânea utilizando a teoria P-Q é um conceito que utiliza de artifícios matemáticos para definir uma série de potências instantâneas presentes em circuitos trifásicos. A base da teoria consiste no estudo das tensões e correntes no domínio do tempo sem que haja restrição quanto ao balanceamento do sistema, à forma de onda e, ainda podendo ser aplicada no regime transitório do sistema. Além disso, esta teoria pode ser utilizada tanto para circuitos trifásicos a três fios com ou sem neutro, quanto em circuitos a quatro fios com neutro. Uma das propostas concebida na utilziação dessa teoria é a determinação das correntes circulantes no sistema as quais não transferem potências úteis à caraga. Sendo assim essa teoria traz uma poderosa ferramenta para ser utilizada no desenvolvimento de compensadores ativos para mitigar o efeito da circulação de potências não úteis do sistema, a qual inclui-se a eliminação de harmônicos, a compensação de reativos, ou mesmo a eliminação de desbalanços \cite{Akagi2007, AredesSD}. 
+
+Inicialmente tal teoria foi desenvolvida por Akagi \cite{Akagi1984} a qual definiu as tensões e correntes de um sistema trifásico como sendo valores instantâneos quantificados em espaços vetoriais $\mathbf{v}$ e $\mathbf{i}$, respectivamente. Porém em seu desenvolvimento inicial foi proposto a transformação do espaço vetorial nas coordenadas $abc$, a qual é definida pelo sistema de referência estacionário cujas tensões e correntes são defasadas em 120 graus entre si, para as coordenadas $\alpha \beta 0$, a qual o sistema de referência estacionário é dado ortogonalmente entre si \cite{AredesSD}. 
+
+   
 \subsubsection{considerando coordenadas $abc$}
 
 Tendo o sistema com as tensões e correntes definidas por:
@@ -391,13 +396,13 @@ A teoria p-q é baseada na transformação das tensões e correntes das coordenadas 
 
 \subsubsection{considerando coordenadas $\alpha \beta 0$}
 
-Uma maneira de simplificar e expandir o loque de possibilidades empregando a potência instantânea utilizando a teoria P-Q é através da transformação das coordenadas de um sistema com fases $abc$ para coordenadas $\alpha \beta 0$. O emprego dessa abordagem traz implicações de modo a poder introduzir sistemas trifásicos mais genéricos com a presença de sequência 0. Os resultados apresentados nessa abordagem apresenta as mesmas propriedades e interpretações de potência instantânea nas coordenadas $abc$, ou seja, estas independem do sistema de coordenada a qual é aplicado a teoria \cite{Peng1996}.
+A teoria da potência instantânea utilzo a teoria dempregando a potência instantânea utilizando a teoria P-Q é através da transformação das coordenadas de um sistema com fases $abc$ para coordenadas $\alpha \beta 0$. O emprego dessa abordagem traz implicações de modo a poder introduzir sistemas trifásicos mais genéricos com a presença de sequência 0. Os resultados apresentados nessa abordagem apresenta as mesmas propriedades e interpretações de potência instantânea nas coordenadas $abc$, ou seja, estas independem do sistema de coordenada a qual é aplicado a teoria \cite{Peng1996}.
 
 
 
 \subsubsection{Transformada de Clarke}
 
-A transformação de coordenadas das tensões instantâneas referenciadas no sistema $abc$ para tensões instantâneas referenciadas no sistema $\alpha \beta 0$ é feita através da aplicação da transformada de Clarke. Primeiramente considera-se que um sistema trifásico seja composto por tensões de fase $v_a$, $v_b$ e $v_c$ deslocadas em ângulo por 120 graus ($\nicefrac{2 \pi}{3}$) entre si. Desse modo utilizando da equação \ref{eq:v_alpha_beta_0} obtém-se as novas tensões instantâneas $v_\alpha$ e $v_\beta$, cujo angulo de defasagem é dado por 90 graus ($\nicefrac{\pi}{2}$) \todo{referenciar}.
+A teA transformação de coordenadas das tensões instantâneas referenciadas no sistema $abc$ para tensões instantâneas referenciadas no sistema $\alpha \beta 0$ é feita através da aplicação da transformada de Clarke. Primeiramente considera-se que um sistema trifásico seja composto por tensões de fase $v_a$, $v_b$ e $v_c$ deslocadas em ângulo por 120 graus ($\nicefrac{2 \pi}{3}$) entre si. Desse modo utilizando da equação \ref{eq:v_alpha_beta_0} obtém-se as novas tensões instantâneas $v_\alpha$ e $v_\beta$, cujo angulo de defasagem é dado por 90 graus ($\nicefrac{\pi}{2}$) \todo{referenciar}.
 
 \begin{equation}
 \begin{bmatrix}
