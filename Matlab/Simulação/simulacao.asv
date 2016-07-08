@@ -1,0 +1,31 @@
+clear all
+close all
+clc
+
+Ts = 1e-7;
+f = 400;
+
+sim('power_aircraft_distribution_mexido_2014');
+
+% tout(1)=[];tout(end)=[];
+
+figure(1)
+subplot(3,1,1);
+plot(tout,Vint);
+axis([0 max(tout) -200 200]);
+title('V Interno');
+grid on
+subplot(3,1,2)
+plot(tout,Vabc);
+axis([0 max(tout) -200 200]);
+title('Vabc');
+grid on
+subplot(3,1,3)
+plot(tout,Vint-Vabc);
+% axis([0 max(tout) -200 200]);
+title('Vint-Vabc');
+grid on
+
+figure(2);
+plot(tout,Vint,tout,Vabc);
+
