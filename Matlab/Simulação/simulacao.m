@@ -16,14 +16,14 @@ axis([0 max(tout) -200 200]);
 title('V Interno');
 grid on
 subplot(3,1,2)
-plot(tout,Vabc);
+plot(tout,Vterminal);
 axis([0 max(tout) -200 200]);
-title('Vabc');
+title('Vterminal');
 grid on
 subplot(3,1,3)
-plot(tout,Vint-Vabc);
+plot(tout,Vint-Vterminal);
 % axis([0 max(tout) -200 200]);
-title('Vint-Vabc');
+title('Vint-Vterminal');
 grid on
 
 figure(2);
