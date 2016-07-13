@@ -29,8 +29,6 @@ grid on
 figure(2);
 subplot(2,1,1);
 plot(tout,Iabc);
-title('Iabc');
 subplot(2,1,2);
-plot(tout,Vabc);
-axis([0 max(tout) -200 200]);
-title('Vabc');
+plot(tout,Va
+
