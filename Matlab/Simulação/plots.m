@@ -1,8 +1,8 @@
 %% Plots
 close all
 
-ti = 0.05;
-tf = 0.06;
+ti = 0;
+tf = 0.5;
 
 % Tensão Gerador
 figure(1)                   
@@ -62,15 +62,15 @@ title('EHA_Iabc');
 
 % FFT janela
 figure(5)
-index_i = find(Vabc.time<ti);
-index_f = find(Vabc.time>tf);
+index_i = find(Vabc.time<=ti);
+index_f = find(Vabc.time>=tf);
 index_i = index_i(end);
 index_f = index_f(1);
 fft_mestre(Vabc.signals.values(index_i:index_f),Ts,f);
 
-% THD
-figure(6)
-plot(THD.time,THD.signals.values);
-xlim([ti tf]);
-ylim([-200 200]);
-title('THD');
+% % THD
+% figure(6)
+% plot(THD.time,THD.signals.values);
+% xlim([ti tf]);
+% ylim([-200 200]);
+% title('THD');

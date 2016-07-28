@@ -4,7 +4,7 @@ clc
 
 %% Dados Simulação
 Ts = 5e-6;
-Tf = 0.2;
+Tf = 0.5;
 
 %% Dados Gerador
 f = 400;
