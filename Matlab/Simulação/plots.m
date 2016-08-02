@@ -2,7 +2,7 @@
 close all
 
 ti = 0;
-tf = 0.5;
+tf = 0.1;
 
 % Tensão Gerador
 figure(1)                   
