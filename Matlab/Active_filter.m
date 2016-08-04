@@ -1,4 +1,4 @@
-% close all 
+close all 
 % clear all
 % clc
 
@@ -17,15 +17,21 @@
 
 t = Vabc.time;
 
-Va = EHA_Vabc.signals.values(:,1);
-Vb = EHA_Vabc.signals.values(:,2);
-Vc = EHA_Vabc.signals.values(:,3);
+% Va = EHA_Vabc.signals.values(:,1);
+% Vb = EHA_Vabc.signals.values(:,2);
+% Vc = EHA_Vabc.signals.values(:,3);
+% 
+% Ila = EHA_Iabc.signals.values(:,1);
+% Ilb = EHA_Iabc.signals.values(:,2);
+% Ilc = EHA_Iabc.signals.values(:,3);
 
-Ila = EHA_Iabc.signals.values(:,1);
-Ilb = EHA_Iabc.signals.values(:,2);
-Ilc = EHA_Iabc.signals.values(:,3);
+Va = Vabc.signals.values(:,1);
+Vb = Vabc.signals.values(:,2);
+Vc = Vabc.signals.values(:,3);
 
-
+Ila = Iabc.signals.values(:,1);
+Ilb = Iabc.signals.values(:,2);
+Ilc = Iabc.signals.values(:,3);
 
 %% Clarke Transformation
 
@@ -38,9 +44,9 @@ Ialpha = sqrt(2/3)*(1*Ila - 1/2*Ilb - 1/2*Ilc);
 Ibeta = sqrt(2/3)*(0*Ila + sqrt(3)/2*Ilb - sqrt(3)/2*Ilc);
 
 figure;
-plot(t,V0,t,Valpha,t,Vbeta); title('V_0, V_{\alpha}, V_{\beta}');
+plot(t,V0,t,Valpha,t,Vbeta); title('V_0, V_{\alpha}, V_{\beta}');legend('V_0','V_{\alpha}','V_{\beta}');
 figure;
-plot(t,I0,t,Ialpha,t,Ibeta);title('I_0, I_{\alpha}, I_{\beta}');
+plot(t,I0,t,Ialpha,t,Ibeta);title('I_0, I_{\alpha}, I_{\beta}');legend('I_0','I_{\alpha}','I_{\beta}');
 
 %% P-Q theory
 
@@ -49,11 +55,11 @@ P = Valpha.*Ialpha + Vbeta.*Ibeta;
 Q = Vbeta.*Ialpha - Valpha.*Ibeta;
 
 figure;
-plot(t,P0,t,P,t,Q);title('P_0, P, Q');
+plot(t,P0,t,P,t,Q);title('P_0, P, Q');legend('P_0','P','Q');
 
 %% Filtering
 
-f = 50;
+f = 100;
 % fsample = 1/2e-7;
 fsample = 1/Ts;
 
@@ -67,9 +73,12 @@ Pbar = filter(b,a,P);
 
 Ptil = P-Pbar;
 
+figure;
+plot(t,Pbar,t,Ptil,t,P);legend('Pbar','Ptil','P');
+
 %%  Current Correction
 
-I0_p = P0./V0;
+I0_p = -P0./V0;
 Ialpha_p = 1./(Valpha.^2+Vbeta.^2).*(-Valpha.*Ptil - Vbeta.*Q);
 Ibeta_p = 1./(Valpha.^2+Vbeta.^2).*(-Vbeta.*Ptil + Valpha.*Q);
 
@@ -84,7 +93,7 @@ Ib_p = sqrt(2/3)*(1/sqrt(2)*I0_p - 1/2*Ialpha_p + sqrt(3)/2*Ibeta_p);
 Ic_p = sqrt(2/3)*(1/sqrt(2)*I0_p - 1/2.*Ialpha_p - sqrt(3)/2.*Ibeta_p);
 
 figure;
-plot(t,Ia_p,t,Ila,t,Ila+Ia_p)
+plot(t,Ia_p,t,Ila,t,Ila+Ia_p);legend('Ia_p','Ila','Ia_p+Ila');
 
 %% Active Filtering
 
