@@ -3,8 +3,8 @@ close all
 clc
 
 %% Dados Simulação
-Ts = 1e-7;
-Tf = 0.2;
+Ts = 5e-7;
+Tf = 1;
 
 %% Dados Gerador
 f = 400;
