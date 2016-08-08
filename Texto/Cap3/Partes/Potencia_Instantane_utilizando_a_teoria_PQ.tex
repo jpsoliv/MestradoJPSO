@@ -144,16 +144,15 @@ Para melhor visualizar a transformada de Clarke em um sistema trifásico balancea
 
 \subsubsection{Potência Instantânea em coordenadas $\alpha \beta 0 $}
 
-As potências instantâneas P e Q podem calculadas independentemente das coordenadas definidas para as tensões e correntes. Nessa seção será apresentada as definições das potências considerando as coordenadas $\alpha \beta 0$. Primeiramente tratando as tensões $v_{\alpha}$, $v_{\beta}$ e $v_0$ segundo o espaço vetorial definido por $\mathbf{v}=[v_{\alpha}\; v_{\beta}\; v_0]^T$ e, similarmente para corrente, definindo o espaço vetorial com as correntes $i_{\alpha}$, $i_{\beta}$ e $i_0$ no vetor $\mathbf{i}=[i_{\alpha}\; i_{\beta}\; i_0]^T$, a potência instantânea ativa P pode ser definida segundo a equação \ref{REF}.
+As potências instantâneas P e Q podem calculadas independentemente das coordenadas definidas para as tensões e correntes. Nessa seção será apresentada as definições das potências considerando as coordenadas $\alpha \beta 0$. Primeiramente, tratando as tensões $v_{\alpha}$, $v_{\beta}$ e $v_0$ segundo o espaço vetorial definido por $\mathbf{v}=[v_{\alpha}\; v_{\beta}\; v_0]^T$ e, similarmente para corrente, definindo o espaço vetorial com as correntes $i_{\alpha}$, $i_{\beta}$ e $i_0$ no vetor $\mathbf{i}=[i_{\alpha}\; i_{\beta}\; i_0]^T$, a potência instantânea ativa P pode ser definida segundo a equação \ref{eq:Palphabeta0}.
 
 \begin{equation}	%\label{eq:V}
 \begin{aligned}
 p &= \mathbf{v} \cdot \mathbf{i}\\
 p &= v_{\alpha}i_{\alpha}+v_{\beta}i_{\beta}+v_{0}i_{0}
 \end{aligned}
-\label{eq:v}
+\label{eq:Palphabeta0}
 \end{equation}
-
 
 
 Já a definição de potência reativa é descrita por um vetor composto pelos elementos $q_{\alpha}$, $q_{\beta}$ e $q_0$ na forma de $\mathbf{q} = [q_{\alpha}\; q_{\beta}\; q_0]^T$, q qual é definido segundo a expressão:
@@ -181,7 +180,115 @@ v_{\alpha} i_{\beta} - v_{\beta} i_{\alpha}
 \label{eq:q_expand}
 \end{equation}
 
+A norma do vetor $\mathbf{q}$ representa o valor total da potência instantânea, conforme a expressão \ref{qnorm}. Cabe lembrar os valores $q_{\alpha}$, $q_{\beta}$ e $q_0$ são variantes no tempo, fazendo com que o valor $q$ seja variante da mesma forma que $p$.
 
+\begin{equation}	%\label{eq:V}
+q = |\mathbf{q}| = \sqrt{q_{\alpha}^2+q_{\beta}^2+q_0^2}
+\label{eq:qnorm}
+\end{equation}
+
+Com a definição das potências instantâneas $p$ e $q$ define-se certos parâmetros para o entendimento das propriedades e significados físicos de tais potências. Para tal, define-se as correntes ativas e reativas instantâneas segundo as expressões \ref{eq:i_p} e \ref{eq:i_q}, respectivamente. 
+
+\begin{equation}
+\mathbf{i_p} = 
+\begin{bmatrix}
+i_{\alpha p}\\
+i_{\beta p}\\
+i_{0 p}
+\end{bmatrix}
+\triangleq
+\dfrac{p}{\mathbf{v}\cdot \mathbf{v}} \mathbf{v}
+\label{eq:i_p}
+\end{equation}
+
+\begin{equation}
+\mathbf{i_q} = 
+\begin{bmatrix}
+i_{\alpha q}\\
+i_{\beta q}\\
+i_{0 q}
+\end{bmatrix}
+\triangleq
+\dfrac{\mathbf{q} \times \mathbf{v}}{\mathbf{v} \cdot \mathbf{v}}
+\label{eq:i_q}
+\end{equation}
+
+Além disso, as expressões \ref{eq:S} e \ref{eq:lambda} são válidas para os valores encontrados na teoria das potências instantâneas, ou seja, $S=vi$ e $\lambda = \sfrac{p}{s}$. Conforme apresentado em \cite{generalized}, tais definições apresentam certos teoremas que demonstram algumas propriedades da teoria da potência instantânea.
+
+A primeira propriedade importante é o fato de que a corrente $\mathbf{i}$ que percorre o sistema trifásico nas coordenadas $\alpha \beta 0$ é definido pela composição das correntes $\mathbf{i_p}$ e $\mathbf{i_q}$, ou seja, $\mathbf{i} \equiv \mathbf{i_p} + \mathbf{i_q}$. Expandindo as expressões \ref{eq:i_p} e \ref{eq:i_q}, tem-se que a equação \ref{eq:i_p+i_q} pode ser adquirida: 
+
+\begin{equation}
+\mathbf{i_p} + \mathbf{i_q} 
+ =
+\begin{bmatrix}
+v_{\alpha} \left ( \dfrac{v_{\alpha} i_{\alpha} + v_{\beta} i_{\beta} + v_0 i_0}{v_{\alpha}^2  + v_{\beta}^2 + v_0^2}\right)\\[2ex]
+v_{\beta} \left ( \dfrac{v_{\alpha} i_{\alpha} + v_{\beta} i_{\beta} + v_0 i_0}{v_{\alpha}^2  + v_{\beta}^2 + v_0^2}\right)\\[2ex]
+v_0 \left ( \dfrac{v_{\alpha} i_{\alpha} + v_{\beta} i_{\beta} + v_0 i_0}{v_{\alpha}^2  + v_{\beta}^2 + v_0^2}\right)
+\end{bmatrix}
++
+\begin{bmatrix}
+\dfrac{v_0(v_0 i_{\alpha}-v_{\alpha} i_0)-v_{\beta}(v_{\alpha} i_{\beta}-v_{\beta} i_{\alpha})}{v_{\alpha}^2  + v_{\beta}^2 + v_0^2}\\[3ex]
+\dfrac{v_{\alpha}(v_{\alpha} i_{\beta}-v_{\beta} i_{\alpha})-v_0(v_{\beta} i_0-v_0 i_{\beta})}{v_{\alpha}^2  + v_{\beta}^2 + v_0^2}\\[3ex]
+\dfrac{v_{\beta}(v_{\beta} i_0-v_0 i_{\beta})-v_{\alpha}(v_0 i_{\alpha}-v_{\alpha} i_0)}{v_{\alpha}^2  + v_{\beta}^2 + v_0^2}
+\end{bmatrix}
+ = 	
+\begin{bmatrix}
+i_{\alpha}\\
+i_{{\beta}}\\
+i_{0}
+\end{bmatrix} 
+=	\mathbf{i}
+\label{eq:i_p+i_q}
+\end{equation}
+
+Outra importante propriedade é dado pelo paralelismo entre os vetores $\mathbf{v}$ e $\mathbf{i_p}$ durante todo espaço de tempo, ou seja, $\mathbf{v} \times \mathbf{i_p} \equiv 0$. Para demonstrar essas propriedades a equações \ref{eq:v_ip} pode ser analisadas. Essa propriedade tem um importante significado a qual é a definição da potência a qual encarrega da transferência da potência ativa da fonte para a carga dada ao fato de tanto a tensão e a corrente estarem sob o mesmo eixo. Desta forma pode-se atribuir a dimensão de Watt (W) para a potência proveniente do produto entre $\mathbf{v}$ e $\mathbf{i_p}$. 
+
+\begin{equation}
+\begin{aligned}
+\mathbf{v} \times \mathbf{i_p}	&= \mathbf{v}\times \left( \dfrac{p}{\mathbf{v} \cdot \mathbf{v} } \mathbf{v} \right ) \\
+&= \mathbf{0}
+\end{aligned}
+\label{eq:v_ip}
+\end{equation}
+
+Analogamente a propriedade explanada anteriormente, observa-se a ortogonalidade entre a tensão $\mathbf{v}$ e a corrente $\mathbf{i_q}$, ou seja, $\mathbf{v} \cdot \mathbf{i_q} \equiv 0$. A demonstração dessa propiedade pode ser analisada segundo a equação \ref{eq:v_iq}. Como explicado anteriormente, o produto entre as tensões e correntes reativas não proporcionam a transferência de potência entre a fonte e a carga dado a ortogonalidade entre tais vetores. Desse modo a dimensão de tal potência não pode ser considerada W, VA ou var, sendo assim os autores de tal teoria introduziram uma nova unidade: Volt-Ampere Imaginário (vai) \cite{Akagi1984}
+
+\begin{equation}
+\begin{aligned}
+\mathbf{v} \cdot \mathbf{i_q}	&= \mathbf{v}\cdot \left( \dfrac{\mathbf{q} \times \mathbf{v}}{\mathbf{v} \cdot \mathbf{v} } \right ) \\
+&= \mathbf{v}\cdot \left( \dfrac{(\mathbf{v} \times \mathbf{i}) \times \mathbf{v}}{\mathbf{v} \cdot \mathbf{v} } \right )\\
+&= \mathbf{v}\cdot \left( \dfrac{-(\mathbf{i} \cdot \mathbf{v}) \mathbf{v} + (\mathbf{v} \cdot \mathbf{v}) \mathbf{i}}{\mathbf{v} \cdot \mathbf{v}} \right)\\
+&= \dfrac{-(\mathbf{i} \cdot \mathbf{v}) (\mathbf{v} \cdot \mathbf{v}) + (\mathbf{v} \cdot \mathbf{v}) (\mathbf{i}\cdot \mathbf{v})}{\mathbf{v} \cdot \mathbf{v}}\\
+&=0
+\end{aligned}
+\label{eq:v_iq}
+\end{equation}
+
+
+
+A potências instantâneas definidas podem ser combinadas numa matriz da forma:
+
+\begin{equation}
+\begin{bmatrix}
+p\\
+q_{\alpha}\\
+q_{\beta}\\
+q_0
+\end{bmatrix}
+=
+\begin{bmatrix}
+v_{\alpha}		&	v_{\beta}	&	v_0\\
+0				&	-v_0		&	v_{\beta}\\
+v_{0}			&	0			& 	- v_{\alpha}\\
+-v_{\beta}		&	v_{\alpha}	&	0
+\end{bmatrix}
+\begin{bmatrix}
+i_{\alpha}\\
+i_{\beta}\\
+i_0
+\end{bmatrix}
+\label{eq:pq_combined}
+\end{equation}
 
 \subsubsection{Potência Instantânea em coordenadas $abc$}
 
