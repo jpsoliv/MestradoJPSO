@@ -12,7 +12,7 @@ A teoria da potência instantânea utiliza a teoria empregando a potência instantâ
 
 \subsubsection{Transformada de Clarke}
 
-A transformação de coordenadas das tensões instantâneas referenciadas no sistema $abc$ para tensões instantâneas referenciadas no sistema $\alpha \beta 0$ é feita através da aplicação da transformada de Clarke. Primeiramente considera-se que um sistema trifásico seja composto por tensões de fase $v_a$, $v_b$ e $v_c$ deslocadas em ângulo por 120 graus ($\nicefrac{2 \pi}{3}$) entre si. Desse modo utilizando da equação \ref{eq:v_alpha_beta_0} obtém-se as novas tensões instantâneas $v_\alpha$ e $v_\beta$, cujo angulo de defasagem é dado por 90 graus ($\nicefrac{\pi}{2}$) \todo{referenciar}.
+A transformação de coordenadas das tensões instantâneas referenciadas no sistema $abc$ para tensões instantâneas referenciadas no sistema $\alpha \beta 0$ é feita através da aplicação da transformada de Clarke. Primeiramente considera-se que um sistema trifásico seja composto por tensões de fase $v_a$, $v_b$ e $v_c$ deslocadas em ângulo por 120 graus ($\sfrac{2 \pi}{3}$) entre si. Desse modo utilizando da equação \ref{eq:v_alpha_beta_0} obtém-se as novas tensões instantâneas $v_\alpha$ e $v_\beta$, cujo angulo de defasagem é dado por 90 graus ($\sfrac{\pi}{2}$) \todo{referenciar}.
 
 \begin{equation}
 \begin{bmatrix}
@@ -142,7 +142,48 @@ Para melhor visualizar a transformada de Clarke em um sistema trifásico balancea
 	\label{fig:valpha_vbeta_Clarke}
 \end{figure*}
 
-\subsubsection{considerando coordenadas $abc$}
+\subsubsection{Potência Instantânea em coordenadas $\alpha \beta 0 $}
+
+As potências instantâneas P e Q podem calculadas independentemente das coordenadas definidas para as tensões e correntes. Nessa seção será apresentada as definições das potências considerando as coordenadas $\alpha \beta 0$. Primeiramente tratando as tensões $v_{\alpha}$, $v_{\beta}$ e $v_0$ segundo o espaço vetorial definido por $\mathbf{v}=[v_{\alpha}\; v_{\beta}\; v_0]^T$ e, similarmente para corrente, definindo o espaço vetorial com as correntes $i_{\alpha}$, $i_{\beta}$ e $i_0$ no vetor $\mathbf{i}=[i_{\alpha}\; i_{\beta}\; i_0]^T$, a potência instantânea ativa P pode ser definida segundo a equação \ref{REF}.
+
+\begin{equation}	%\label{eq:V}
+\begin{aligned}
+p &= \mathbf{v} \cdot \mathbf{i}\\
+p &= v_{\alpha}i_{\alpha}+v_{\beta}i_{\beta}+v_{0}i_{0}
+\end{aligned}
+\label{eq:v}
+\end{equation}
+
+
+
+Já a definição de potência reativa é descrita por um vetor composto pelos elementos $q_{\alpha}$, $q_{\beta}$ e $q_0$ na forma de $\mathbf{q} = [q_{\alpha}\; q_{\beta}\; q_0]^T$, q qual é definido segundo a expressão:
+
+\begin{equation}	%\label{eq:V}
+\mathbf{q} = \mathbf{v} \times \mathbf{i}
+\label{eq:v}
+\end{equation}
+
+Ou seja, expandido a equação XXX tem-se que a definição de $\mathbf{q}$ é dada por:
+
+\begin{equation}
+\mathbf{q} = 
+\begin{bmatrix}
+q_{\alpha}\\
+q_{\beta}\\
+q_0
+\end{bmatrix}
+=
+\begin{bmatrix}
+v_{\beta} i_0 - v_0 i_{\beta}\\
+v_0 i_{\alpha} - v_{\alpha} i_0\\
+v_{\alpha} i_{\beta} - v_{\beta} i_{\alpha}
+\end{bmatrix}
+\label{eq:q_expand}
+\end{equation}
+
+
+
+\subsubsection{Potência Instantânea em coordenadas $abc$}
 
 
 Como forma de apresentar um detalhamento de mais fácil entendimento das definições e significados físicos da teoria P-Q, o estudo considerando as coordenadas $abc$ é melhor utilizado. Desse 
@@ -179,7 +220,7 @@ p \triangleq \mathbf{v}\cdot \mathbf{i}
 e a potência reativa instantânea do sistema é definido por
 
 \begin{equation}
-q \triangleq \mathbf{v}\times \mathbf{i}
+\mathbf{q} \triangleq \mathbf{v}\times \mathbf{i}
 \label{eq:q}
 \end{equation}
 
