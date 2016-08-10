@@ -215,7 +215,7 @@ i_{0 q}
 
 Além disso, as expressões \ref{eq:S} e \ref{eq:lambda} são válidas para os valores encontrados na teoria das potências instantâneas, ou seja, $S=vi$ e $\lambda = \sfrac{p}{s}$. Conforme apresentado em \cite{generalized}, tais definições apresentam certos teoremas que demonstram algumas propriedades da teoria da potência instantânea.
 
-A primeira propriedade importante é o fato de que a corrente $\mathbf{i}$ que percorre o sistema trifásico nas coordenadas $\alpha \beta 0$ é definido pela composição das correntes $\mathbf{i_p}$ e $\mathbf{i_q}$, ou seja, $\mathbf{i} \equiv \mathbf{i_p} + \mathbf{i_q}$. Expandindo as expressões \ref{eq:i_p} e \ref{eq:i_q}, tem-se que a equação \ref{eq:i_p+i_q} pode ser adquirida: 
+A primeira propriedade importante é o fato de que a corrente $\mathbf{i}$ que percorre o sistema trifásico nas coordenadas $\alpha \beta 0$ é definido pela composição das correntes $\mathbf{i_p}$ e $\mathbf{i_q}$, ou seja, $\mathbf{i} \equiv \mathbf{i_p} + \mathbf{i_q}$. Tal demonstração dá-se pela expansão das expressões \ref{eq:i_p} e \ref{eq:i_q}, a qual é mostrada pela equação \ref{eq:i_p+i_q}. 
 
 \begin{equation}
 \mathbf{i_p} + \mathbf{i_q} 
@@ -241,17 +241,14 @@ i_{0}
 \label{eq:i_p+i_q}
 \end{equation}
 
-Outra importante propriedade é dado pelo paralelismo entre os vetores $\mathbf{v}$ e $\mathbf{i_p}$ durante todo espaço de tempo, ou seja, $\mathbf{v} \times \mathbf{i_p} \equiv 0$. Para demonstrar essas propriedades a equações \ref{eq:v_ip} pode ser analisadas. Essa propriedade tem um importante significado a qual é a definição da potência a qual encarrega da transferência da potência ativa da fonte para a carga dada ao fato de tanto a tensão e a corrente estarem sob o mesmo eixo. Desta forma pode-se atribuir a dimensão de Watt (W) para a potência proveniente do produto entre $\mathbf{v}$ e $\mathbf{i_p}$. 
+Outra importante propriedade é dado pelo paralelismo entre os vetores $\mathbf{v}$ e $\mathbf{i_p}$ em todo espaço, ou seja, $\mathbf{v} \times \mathbf{i_p} \equiv 0$. Para demonstrar essa propriedade a equações \ref{eq:v_ip} pode ser analisadas. Esse teorema tem um importante significado a qual é a definição da potência que encarrega-se com a transferência da potência ativa advinda da fonte para a carga. Isto deve-se ao fato da tensão e corrente instantânea estarem sob o mesmo eixo. Desta forma pode-se atribuir a dimensão de Watt (W) para a potência proveniente do produto entre $\mathbf{v}$ e $\mathbf{i_p}$.
 
 \begin{equation}
-\begin{aligned}
-\mathbf{v} \times \mathbf{i_p}	&= \mathbf{v}\times \left( \dfrac{p}{\mathbf{v} \cdot \mathbf{v} } \mathbf{v} \right ) \\
-&= \mathbf{0}
-\end{aligned}
+\mathbf{v} \times \mathbf{i_p}	= \mathbf{v}\times \left( \dfrac{p}{\mathbf{v} \cdot \mathbf{v} } \mathbf{v} \right ) = \mathbf{0}
 \label{eq:v_ip}
 \end{equation}
 
-Analogamente a propriedade explanada anteriormente, observa-se a ortogonalidade entre a tensão $\mathbf{v}$ e a corrente $\mathbf{i_q}$, ou seja, $\mathbf{v} \cdot \mathbf{i_q} \equiv 0$. A demonstração dessa propiedade pode ser analisada segundo a equação \ref{eq:v_iq}. Como explicado anteriormente, o produto entre as tensões e correntes reativas não proporcionam a transferência de potência entre a fonte e a carga dado a ortogonalidade entre tais vetores. Desse modo a dimensão de tal potência não pode ser considerada W, VA ou var, sendo assim os autores de tal teoria introduziram uma nova unidade: Volt-Ampere Imaginário (vai) \cite{Akagi1984}
+Analogamente a propriedade explanada anteriormente, observa-se a ortogonalidade entre a tensão $\mathbf{v}$ e a corrente $\mathbf{i_q}$, ou seja, $\mathbf{v} \cdot \mathbf{i_q} \equiv 0$. A demonstração dessa propriedade pode ser analisada segundo a equação \ref{eq:v_iq}. Como explicado anteriormente, o produto entre as tensões e correntes reativas não proporcionam a transferência de potência entre a fonte e a carga dado a ortogonalidade entre tais vetores. Desse modo a dimensão de tal potência não pode ser considerada W, VA ou var, sendo que os autores de tal teoria introduziram uma nova unidade: Volt-Ampere Imaginário (vai) \cite{Akagi1984}.
 
 \begin{equation}
 \begin{aligned}
@@ -264,8 +261,24 @@ Analogamente a propriedade explanada anteriormente, observa-se a ortogonalidade 
 \label{eq:v_iq}
 \end{equation}
 
+A observação apresentada na equação \ref{eq:v_ip} e \ref{eq:v_iq} trás a implicação de que as correntes $\mathbf{i_q}$ são ortogonais à $\mathbf{v}$, ou seja $\mathbf{v} \cdot \mathbf{i_q}\equiv 0$ e que as correntes $\mathbf{i_p}$ são paralelas à $\mathbf{v}$, ou então  $\mathbf{v} \times \mathbf{i_p}\equiv 0$. Isto trás uma implicação importante que é a ortogonalidade entre as correntes $\mathbf{i_p}$ e $\mathbf{i_q}$ no sistema, ou seja, $\mathbf{i_p} \cdot \mathbf{i_q}\equiv 0$. Deste modo, a seguinte relação pode ser obtida:
 
+\begin{equation}
+\begin{aligned}
+i^2 &= \mathbf{i} \cdot \mathbf{i} = (\mathbf{i_p+\mathbf{i_q}}) \cdot (\mathbf{i_p}+\mathbf{i_q})\\
+&= \mathbf{i_p} \cdot \mathbf{i_p} + \mathbf{i_q} \cdot \mathbf{i_q} + 2(\mathbf{i_p} \cdot \mathbf{i_q})\\
+&= i_{\alpha p}^2 + i_{\beta p}^2 + i_{0 p}^2 + i_{\alpha q}^2 + i_{\beta q}^2 + i_{0q}^2\\
+i^2 &= i_p^2+i_q^2
+\end{aligned}
+\end{equation}
 
+Deste modo observa-se uma semelhança entre a teoria de potência PQ e a teoria apresentada por Fryze, entretanto deve ser lembrado que a demonstrada anteriormente é válida para sistemas trifásicos com ou sem neutro, ao passo que a teoria de Fryze é utilizada para explicar os efeitos da potência em circuitos monofásicos.
+
+\subsubsection{Potência Instantânea em coordenadas $abc$}
+
+A teoria das potências instantâneas apresentadas anteriormente são baseadas em sistemas trifásicos cujas tesões $abc$ têm suas coordenadas transformadas para a referência $\alpha \beta 0$. Entretanto tal teoria não é limitada às coordenadas do sistema, sendo que a aplicação das definições e teoremas apresentadas anteriormente são válidas para o sistema trifásico baseado nas coordenadas $abc$. Deste modo a definição de tensão instantânea passa a compor o espaço vetorial na forma $\mathbf{v} = [v_a\;v_b\;v_c]^T$ onde as tensões $v_a$, $v_b$ e $v_c$ são as tensões das fases $a$, $b$ e $c$ de um sistema trifásico a três fios qualquer. O mesmo vale para a corrente $\mathbf{i} = [i_a\;i_b\;i_c]^T$, com as corrente $i_a$, $i_b$ e $i_c$ são as correntes nas linhas que compões as fases $a$, $b$ e $c$, respectivamente.
+
+\subsubsection{Teoria Pq em sistema trifásicos a três fios}
 A potências instantâneas definidas podem ser combinadas numa matriz da forma:
 
 \begin{equation}
@@ -290,172 +303,3 @@ i_0
 \label{eq:pq_combined}
 \end{equation}
 
-\subsubsection{Potência Instantânea em coordenadas $abc$}
-
-
-Como forma de apresentar um detalhamento de mais fácil entendimento das definições e significados físicos da teoria P-Q, o estudo considerando as coordenadas $abc$ é melhor utilizado. Desse 
-
-Tendo o sistema com as tensões e correntes definidas por:
-
-\begin{equation}	%\label{eq:V}
-\mathbf{v} = 
-\begin{bmatrix}
-v_a\\
-v_b\\
-v_c
-\end{bmatrix}
-\label{eq:v}
-\end{equation}
-
-\begin{equation}	%\label{eq:i}
-\mathbf{i} = 
-\begin{bmatrix}
-i_a\\
-i_b\\
-i_c
-\end{bmatrix}
-\label{eq:i}
-\end{equation}
-
-A potência ativa instantânea do sistema é definida por 
-
-\begin{equation}
-p \triangleq \mathbf{v}\cdot \mathbf{i}
-\label{eq:p}
-\end{equation}
-
-e a potência reativa instantânea do sistema é definido por
-
-\begin{equation}
-\mathbf{q} \triangleq \mathbf{v}\times \mathbf{i}
-\label{eq:q}
-\end{equation}
-
-A potência $\mathbf{q}$ é dada por um vetor na forma:
-
-\begin{equation}
-\mathbf{q} = 
-\begin{bmatrix}
-q_a\\
-q_b\\
-q_c
-\end{bmatrix}
-=
-\begin{bmatrix}
-v_b i_c - v_c i_b\\
-v_c i_a - v_a i_c\\
-v_a i_b - v_b i_a
-\end{bmatrix}
-\label{eq:q_expand}
-\end{equation}
-
-Ainda é defnido a corente ativa instantanea por:
-
-\begin{equation}
-\mathbf{i_p} = 
-\begin{bmatrix}
-i_{ap}\\
-i_{bp}\\
-i_{cp}
-\end{bmatrix}
-\triangleq
-\dfrac{p}{\mathbf{v}\cdot \mathbf{v}} \mathbf{v}
-\label{eq:q_expand}
-\end{equation}
-
-Ainda é defnido a corente reativa instantanea por:
-
-\begin{equation}
-\mathbf{i_q} = 
-\begin{bmatrix}
-i_{aq}\\
-i_{bq}\\
-i_{cq}
-\end{bmatrix}
-\triangleq
-\dfrac{\mathbf{q}\times \mathbf{v}}{\mathbf{v} \cdot \mathbf{v}}
-\label{eq:q_expand}
-\end{equation}
-
-\begin{equation}
-\mathbf{i_p} = 
-\begin{bmatrix}
-i_{ap}\\
-i_{bp}\\
-i_{cp}
-\end{bmatrix}
-=
-\begin{bmatrix}
-v_a \left ( \dfrac{v_a i_a + v_b i_b + v_c i_c}{v_a^2  + v_b^2 + v_c^2}\right)\\[2ex]
-v_b \left ( \dfrac{v_a i_a + v_b i_b + v_c i_c}{v_a^2  + v_b^2 + v_c^2}\right)\\[2ex]
-v_c \left ( \dfrac{v_a i_a + v_b i_b + v_c i_c}{v_a^2  + v_b^2 + v_c^2}\right)
-\end{bmatrix}
-\label{eq:q_expand}
-\end{equation}
-
-\begin{equation}
-\mathbf{i_q} = 
-\begin{bmatrix}
-i_{aq}\\
-i_{bq}\\
-i_{cq}
-\end{bmatrix}
-=
-\begin{bmatrix}
-\dfrac{v_c(v_c i_a-v_a i_c)-v_b(v_a i_b-v_b i_a)}{v_a^2  + v_b^2 + v_c^2}\\[2ex]
-\dfrac{v_a(v_a i_b-v_b i_a)-v_c(v_b i_c-v_c i_b)}{v_a^2  + v_b^2 + v_c^2}\\[2ex]
-\dfrac{v_b(v_b i_c-v_c i_b)-v_a(v_c i_a-v_a i_v)}{v_a^2  + v_b^2 + v_c^2}
-\end{bmatrix}
-\label{eq:q_expand}
-\end{equation}
-
-Fazendo a soma de $\mathbf{i_p}$ com $\mathbf{i_q}$ obtém-se a seguinte relação:
-
-\begin{equation}
-\mathbf{i_p} + \mathbf{i_q}	= 	\begin{bmatrix}
-\dfrac{v_a(v_a i_a + v_b i_b + v_c i_c)}{v_a^2  + v_b^2 + v_c^2}+\dfrac{v_c(v_c i_a-v_a i_c)-v_b(v_a i_b-v_b i_a)}{v_a^2  + v_b^2 + v_c^2}\\[2ex]
-\dfrac{v_b(v_a i_a + v_b i_b + v_c i_c)}{v_a^2  + v_b^2 + v_c^2}+ \dfrac{v_a(v_a i_b-v_b i_a)-v_c(v_b i_c-v_c i_b)}{v_a^2  + v_b^2 + v_c^2}\\[2ex]
-\dfrac{v_c(v_a i_a + v_b i_b + v_c i_c)}{v_a^2  + v_b^2 + v_c^2}+ \dfrac{v_b(v_b i_c-v_c i_b)-v_a(v_c i_a-v_a i_v)}{v_a^2  + v_b^2 + v_c^2}
-\end{bmatrix}
-= 	\begin{bmatrix}
-i_{a}\\
-i_{b}\\
-i_{c}
-\end{bmatrix} 
-=	\mathbf{i}
-\label{eq:q_expand}
-\end{equation}
-
-ou seja, prova-se que pela definição de corrente ip e iq que a composição estas é dada pela corrente suprida pelo fonte à carga do sistema. 
-Ainda pela definição de ip e iq, utilizando a definição em (EQUACAO p) porém utilizando $p =\mathbf{v}\cdot \mathbf{i_q}$ temos:
-
-\begin{equation}
-\begin{aligned}
-\mathbf{v} \cdot \mathbf{i_q}	&= \mathbf{v}\cdot \left( \dfrac{\mathbf{q} \times \mathbf{v}}{\mathbf{v} \cdot \mathbf{v} } \right ) \\
-&= \mathbf{v}\cdot \left( \dfrac{(\mathbf{v} \times \mathbf{i}) \times \mathbf{v}}{\mathbf{v} \cdot \mathbf{v} } \right )\\
-&= \mathbf{v}\cdot \left( \dfrac{-(\mathbf{i} \cdot \mathbf{v}) \mathbf{v} + (\mathbf{v} \cdot \mathbf{v}) \mathbf{i}}{\mathbf{v} \cdot \mathbf{v}} \right)\\
-&= \dfrac{-(\mathbf{i} \cdot \mathbf{v}) (\mathbf{v} \cdot \mathbf{v}) + (\mathbf{v} \cdot \mathbf{v}) (\mathbf{i}\cdot \mathbf{v})}{\mathbf{v} \cdot \mathbf{v}}\\
-&=0
-\end{aligned}
-\label{eq:q_expand}
-\end{equation}
-
-
-ou seja, prova-se que pela definição de corrente ip e iq que a composição estas é dada pela corrente suprida pelo fonte à carga do sistema. 
-Ainda pela definição de ip e iq, utilizando a definição em (EQUACAO p) porém utilizando $p =\mathbf{v}\cdot \mathbf{i_q}$ temos:
-
-\begin{equation}
-\begin{aligned}
-\mathbf{v} \times \mathbf{i_p}	&= \mathbf{v}\times \left( \dfrac{p}{\mathbf{v} \cdot \mathbf{v} } \mathbf{v} \right ) \\
-&= \mathbf{0}
-\end{aligned}
-\label{eq:q_expand}
-\end{equation}
-
-isto tambem implica que as correntes $\mathbf{i_q}$ são ortogonais à $\mathbf{v}$, ou seja $\mathbf{v} \cdot \mathbf{i_q}\equiv 0$ e que as correntes $\mathbf{i_p}$ são paralelas à $\mathbf{v}$, ou então  $\mathbf{v} \times \mathbf{i_p}\equiv 0$. Isto trás uma implicação importante que é a ortogonalidade entre as correntes $\mathbf{i_p}$ e $\mathbf{i_q}$ no sistema, ou seja:
-
-\begin{equation}
-\mathbf{i_p} \cdot \mathbf{i_q}\equiv 0
-\end{equation}
-
-Com isso, também é mostrado que a parcela da corrente $\mathbf{i_p}$ corresponde apenas a transferência de potência ativa instantânea no sistema. Por outro lado tem-se que a corrente $\mathbf{i_q}$ corresponde apenas a parcela da potência reativa instantânea do sistema
