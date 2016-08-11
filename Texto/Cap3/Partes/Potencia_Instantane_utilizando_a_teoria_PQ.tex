@@ -301,7 +301,34 @@ Independentemente das coordenadas utilizadas os valores instantâneos das potênci
 
 Fisicamente a interpretação das potências nas coordenadas $abc$ é mais fácil de entender comparativamente com as coordenadas $\alpha \beta 0$. Isto deve-se ao fato de que as denotações são válidas para cada fase propriamente dita, sem a utilização da transformação de coordenadas. Porém o emprego da transformada de Clarke é de grande valia visto que separa as tensões e correntes de sequencia zero dos eixos $\alpha$ e $\beta$. Deste modo a realização das potências instantâneas nas coordenadas $\alpha \beta 0$ é mais conveniente em se tratando de circuitos com a presença de sequencia zero. Cabe lembrar que a utilização da referência $abc$ não interfere na utilidade da teoria da potência PQ, entretanto esta pode se apresentar de forma mais complicada comparativamente com a referência em $\alpha \beta 0$. Como será visto a seguir, o emprego da transformada de Clarke no tratamento da potência instantânea simplifica a determinação dos valores de $p$ e $q$ para a utilização destes no desenvolvimento de compensadores ativos.
 
-\subsubsection{Teoria Pq em sistema trifásicos a três fios}
+\subsubsection{Teoria PQ em sistema trifásicos a três fios}
+
+A teoria de potência instantânea apresentada anteriormente apresenta uma poderosa ferramenta para o estudo do comportamento de sistemas elétricos trifásicos genéricos. Esta teoria é baseada em no domínio do tempo e pode ser aplicado desde o em regime transitório ou permanente, em sistemas balanceados ou desbalanceados, trifásicos com ou sem a presença de neutro. A complexidade fica a cargo da abrangência das características presente no sistema sob estudo. Para o caso específico para o uso aeronáutico, certas particularidades nas características do sistema elétrico fazem com que a teoria de potência instantânea possa ser realizada com algumas simplificações sem perda de generalidade, ou seja, o resultado obtido é exatamente o mesmo caso seja utilizado a teoria sem as simplificações.
+
+Dentre as principais características de um sistema aeronáutico, àquelas que proporcionam relevância no estudo da teoria da potência são:
+
+\begin{itemize}[leftmargin=1.75cm,itemindent=0cm]
+	\item Sistemas balanceados
+	\item Sistemas trifásicos a três fios
+\end{itemize} 
+
+Os sistemas podem ser considerados balanceados visto que a geração de energia elétrica é proveniente de geradores que, por seus aspectos construtivos, possuem a geração de tensões senoidais balanceadas sem a presença de sequência negativa ou zero. Ainda, as normas aeronáuticas exigem que as cargas sejam distribuídas de maneira balanceada nas fases de modo a não haver quedas te tensão nas fases evitando desbalancear as tensões do sistemas trifásico no PCC.
+
+Apesar de a geração e distribuição elétrica em aeronaves ser com sistema trifásico ser baseada na presença do fio de neutro, os equipamentos a qual a teoria da potência instantânea será implementada para realização da filtragem ativa são projetadas a três fios apenas. Isto se deve ao fato de que as cargas trifásicas a qual apresentam não linearidades e, consequentemente, injeção de harmônicas no sistema são majoritariamente sem a presença do neutro. Para o caso em que o neutro faz-se presente a corrente nesta acaba por ser nula, cabendo a não consideração deste na teoria da potência instantânea elucidada neste trabalho. As cargas trifásicas sem a presença de neutro são basicamente àquelas cuja entrada apresenta um ponte de Graetz a diodos, como mostrado na figura \ref{fig:Graetz.png}. Todavia pode haver outras cargas não lineares com a presença de neutro, porém estas são baseadas com a presença de transformadores com a presença de neutro na entrada alimentando uma ponte de diodos. Para este último caso a corrente no neutro é nula e pode ser desconsiderada nos cálculos de potência instantânea. Um exemplo desta última carga é mostrada na figura \ref{fig:}.
+
+\begin{figure}[!htb] %Circuito real monofásico
+	\centering
+	\includegraphics[width=0.5\textwidth]{Cap3/Figuras/Graetz.png}
+	\caption{Circuito monofásico, linear em regime permanente}
+	\label{fig:Graetz.png}
+\end{figure}
+
+\begin{figure}[!htb] %Circuito real monofásico
+	\centering
+	\includegraphics[width=0.5\textwidth]{Cap3/Figuras/12pulse.png}
+	\caption{Circuito monofásico, linear em regime permanente}
+	\label{fig:12pulse.png}
+\end{figure}
 A potências instantâneas definidas podem ser combinadas numa matriz da forma:
 
 \begin{equation}
