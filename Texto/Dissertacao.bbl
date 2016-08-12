@@ -33,17 +33,6 @@ Dispon{\'\i}vel em:
 \emph{IEEE Transactions on Instrumentation and measurement}, IEEE, v.~1001,
   n.~3, p. 834--837, 1987.}
 
-\bibitem{Akagi2007}
-\abntrefinfo{Akagi, Watanabe e Aredes}{AKAGI; WATANABE; AREDES}{2007}
-{AKAGI, H.; WATANABE, E.~H.; AREDES, M. \emph{Instantaneous Power Theory and
-  Applications to Power Conditioning}. [S.l.]: John Wiley \& Sons, 2007.}
-
-\bibitem{AredesSD}
-\abntrefinfo{Watanabe e Aredes}{WATANABE; AREDES}{}
-{WATANABE, E.~H.; AREDES, M. \emph{Teoria de Pot\^encia Ativa e Reativa
-  Instant\^anea e Aplica{\c{c}}{\~o}es - Filtros Ativos e FACTS -}. UFRJ - Rio
-  de Janeiro: Laborat\'orio de Eletr\^onica de Pot\^encia.}
-
 \bibitem{Peng1996}
 \abntrefinfo{Peng e Lai}{PENG; LAI}{1996}
 {PENG, F.~Z.; LAI, J.-S. Generalized instantaneous reactive power theory for
@@ -57,5 +46,16 @@ Dispon{\'\i}vel em:
   comprising switching devices without energy storage components.
 \emph{IEEE Transactions on industry applications}, IEEE, n.~3, p. 625--630,
   1984.}
+
+\bibitem{Akagi2007}
+\abntrefinfo{Akagi, Watanabe e Aredes}{AKAGI; WATANABE; AREDES}{2007}
+{AKAGI, H.; WATANABE, E.~H.; AREDES, M. \emph{Instantaneous Power Theory and
+  Applications to Power Conditioning}. [S.l.]: John Wiley \& Sons, 2007.}
+
+\bibitem{AredesSD}
+\abntrefinfo{Watanabe e Aredes}{WATANABE; AREDES}{}
+{WATANABE, E.~H.; AREDES, M. \emph{Teoria de Pot\^encia Ativa e Reativa
+  Instant\^anea e Aplica{\c{c}}{\~o}es - Filtros Ativos e FACTS -}. UFRJ - Rio
+  de Janeiro: Laborat\'orio de Eletr\^onica de Pot\^encia.}
 
 \end{thebibliography}

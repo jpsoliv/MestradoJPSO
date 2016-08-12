@@ -314,21 +314,52 @@ Dentre as principais características de um sistema aeronáutico, àquelas que prop
 
 Os sistemas podem ser considerados balanceados visto que a geração de energia elétrica é proveniente de geradores que, por seus aspectos construtivos, possuem a geração de tensões senoidais balanceadas sem a presença de sequência negativa ou zero. Ainda, as normas aeronáuticas exigem que as cargas sejam distribuídas de maneira balanceada nas fases de modo a não haver quedas te tensão nas fases evitando desbalancear as tensões do sistemas trifásico no PCC.
 
-Apesar de a geração e distribuição elétrica em aeronaves ser com sistema trifásico ser baseada na presença do fio de neutro, os equipamentos a qual a teoria da potência instantânea será implementada para realização da filtragem ativa são projetadas a três fios apenas. Isto se deve ao fato de que as cargas trifásicas a qual apresentam não linearidades e, consequentemente, injeção de harmônicas no sistema são majoritariamente sem a presença do neutro. Para o caso em que o neutro faz-se presente a corrente nesta acaba por ser nula, cabendo a não consideração deste na teoria da potência instantânea elucidada neste trabalho. As cargas trifásicas sem a presença de neutro são basicamente àquelas cuja entrada apresenta um ponte de Graetz a diodos, como mostrado na figura \ref{fig:Graetz.png}. Todavia pode haver outras cargas não lineares com a presença de neutro, porém estas são baseadas com a presença de transformadores com a presença de neutro na entrada alimentando uma ponte de diodos. Para este último caso a corrente no neutro é nula e pode ser desconsiderada nos cálculos de potência instantânea. Um exemplo desta última carga é mostrada na figura \ref{fig:}.
+Apesar de a geração e distribuição elétrica em aeronaves ser com sistema trifásico ser baseada na presença do fio de neutro, os equipamentos a qual a teoria da potência instantânea será implementada para realização da filtragem ativa são projetadas \todo{frase não faz sentido no contexto} a três fios apenas. Isto se deve ao fato de que as cargas trifásicas a qual apresentam não linearidades e, consequentemente, injeção de harmônicas no sistema são majoritariamente sem a presença do neutro. Para o caso em que o neutro faz-se presente a corrente nesta acaba por ser nula, cabendo a não consideração deste na teoria da potência instantânea elucidada neste trabalho. As cargas trifásicas sem a presença de neutro são basicamente àquelas cuja entrada apresenta um ponte de Graetz a diodos, como mostrado na figura \ref{fig:Graetz.png}. Todavia pode haver outras cargas não lineares com a presença de neutro, porém estas são baseadas com a presença de transformadores com a presença de neutro na entrada alimentando uma ponte de diodos. Para este último caso a corrente no neutro é nula e pode ser desconsiderada nos cálculos de potência instantânea. Um exemplo desta última carga é mostrada na figura \ref{fig:12pulse.png}.
 
 \begin{figure}[!htb] %Circuito real monofásico
 	\centering
-	\includegraphics[width=0.5\textwidth]{Cap3/Figuras/Graetz.png}
-	\caption{Circuito monofásico, linear em regime permanente}
+	\includegraphics[width=0.4\textwidth]{Cap3/Figuras/Graetz.png}
+	\caption{Retificador trifásico por ponte de Graetz}
 	\label{fig:Graetz.png}
 \end{figure}
 
 \begin{figure}[!htb] %Circuito real monofásico
 	\centering
 	\includegraphics[width=0.5\textwidth]{Cap3/Figuras/12pulse.png}
-	\caption{Circuito monofásico, linear em regime permanente}
+	\caption{Retificador trifásico com neutro}
 	\label{fig:12pulse.png}
 \end{figure}
+
+Com as simplificações propostas nessa seção, os valores instantâneos de $v_o$ e $i_o$ tem valores nulos. Utilizando as definições propostas nas equações \ref{eq:Palphabeta0} e \ref{eq:q} levando em conta os valores $v_o=0$ e $i_o=0$, as potências instantaneas $p$ e $q$ são definidas a seguir:
+
+\begin{equation}
+p = \mathbf{v}\cdot \mathbf{i} = v_{\alpha}i_{\alpha}+v_{\beta}i_{\beta}
+\label{eq:}
+\end{equation}
+
+\begin{equation}
+\mathbf{q} = \mathbf{v}\times \mathbf{i} =
+\begin{bmatrix}
+q_{\alpha}\\
+q_{\beta}\\
+q_0
+\end{bmatrix} =
+\begin{bmatrix}
+0\\
+0\\
+v_{\alpha}i_{\beta}-v_{\beta}i_{\alpha}
+\end{bmatrix} 
+\label{eq:}
+\end{equation}
+
+Pela definição de potência instantânea reativa definida pela equação \ref{eq:qnorm}, o valor de $q$ é denotado por:
+
+\begin{equation}
+q = |\mathbf{q}|= q_0
+\label{eq:}
+\end{equation}
+
+
 A potências instantâneas definidas podem ser combinadas numa matriz da forma:
 
 \begin{equation}
@@ -350,6 +381,24 @@ i_{\alpha}\\
 i_{\beta}\\
 i_0
 \end{bmatrix}
+\Longrightarrow
+\begin{bmatrix}
+p\\
+q
+\end{bmatrix}
+=
+\begin{bmatrix}
+v_{\alpha}		&	v_{\beta}\\
+-v_{\beta}		&	v_{\alpha}
+\end{bmatrix}
+\begin{bmatrix}
+i_{\alpha}\\
+i_{\beta}
+\end{bmatrix}
 \label{eq:pq_combined}
 \end{equation}
+
+
+ Deste modo os a equação \ref{eq:pq_combined} pode ser simplificado de maneira a tornar-se como descrito na equação \ref{eq:pq_matriz}
+
 
