@@ -2,17 +2,17 @@
 
 \cite{Peng1996} \cite{Akagi1984}
 
-A potência instantânea utilizando a teoria P-Q é um conceito que utiliza de artifícios matemáticos para definir uma série de potências instantâneas presentes em circuitos trifásicos. A base da teoria consiste no estudo das tensões e correntes no domínio do tempo sem que haja restrição quanto ao balanceamento do sistema, à forma de onda e, ainda podendo ser aplicada no regime transitório do sistema. Além disso, esta teoria pode ser utilizada tanto para circuitos trifásicos a três fios com ou sem neutro, quanto em circuitos a quatro fios com neutro. Uma das propostas concebida na utilização dessa teoria é a determinação das correntes circulantes no sistema as quais não transferem potências úteis à caraga. Sendo assim essa teoria traz uma poderosa ferramenta para ser utilizada no desenvolvimento de compensadores ativos para mitigar o efeito da circulação de potências não úteis do sistema, a qual inclui-se a eliminação de harmônicos, a compensação de reativos, ou mesmo a eliminação de desbalanços \cite{Akagi2007, AredesSD}. \todo{achar a referência que diz que essa teoria é apliocável somente a sistemas trifásicos}
+A potência instantânea utilizando a teoria P-Q é um conceito que utiliza de artifícios matemáticos para definir uma série de potências instantâneas presentes em circuitos trifásicos. A base da teoria consiste no estudo das tensões e correntes no domínio do tempo sem que haja restrição quanto ao balanceamento do sistema, à forma de onda e ainda podendo ser aplicada em regime transitório. Além disso, esta teoria pode ser utilizada tanto para circuitos trifásicos a três fios, quanto em circuitos a quatro fios com a presença de fio neutro. Uma das propostas concebida na utilização dessa teoria é a determinação das correntes circulantes no sistema as quais não transferem potências úteis à caraga. Sendo assim essa teoria traz uma poderosa ferramenta para ser utilizada no desenvolvimento de compensadores ativos para mitigar o efeito da circulação de potências não úteis do sistema, a qual inclui-se a eliminação de harmônicos, a compensação de reativos, ou mesmo a eliminação de desbalanços \cite{Akagi2007, AredesSD}. \todo{achar a referência que diz que essa teoria é apliocável somente a sistemas trifásicos}
 
-Inicialmente tal teoria foi desenvolvida por Akagi \cite{Akagi1984} a qual definiu as tensões e correntes de um sistema trifásico como sendo valores instantâneos quantificados em espaços vetoriais $\mathbf{v}$ e $\mathbf{i}$, respectivamente. Porém em seu desenvolvimento inicial foi proposto a transformação do espaço vetorial nas coordenadas $abc$, a qual é definida pelo sistema de referência estacionário cujas tensões e correntes são defasadas em 120 graus entre si, para as coordenadas $\alpha \beta 0$, a qual o sistema de referência estacionário é dado ortogonalmente entre si \cite{AredesSD}. Outra forma de tratar com a definição de potência instantânea é trabalhando diretamente com o espaço vetorial nas coordenadas $abc$, sendo que as propriedades do sistema independem das coordenadas e são válidas tanto para o caso em que as definições são aplicadas em $abc$ como em $\alpha \beta 0$. \todo {definir se alpha beta 0 vem antes}
+Inicialmente tal teoria foi desenvolvida por Akagi \cite{Akagi1984} a qual definiu as tensões e correntes de um sistema trifásico como sendo valores instantâneos quantificados em espaços vetoriais $\mathbf{v}$ e $\mathbf{i}$, respectivamente. Porém em seu desenvolvimento inicial foi proposto a transformação do espaço vetorial nas coordenadas $abc$, a qual é definida pelo sistema de referência estacionário cujas tensões e correntes são defasadas em 120 graus entre si, para as coordenadas $\alpha \beta 0$, a qual o sistema de referência estacionário é dado ortogonalmente entre si \cite{AredesSD}. Outra forma de tratar com a definição de potência instantânea é trabalhando diretamente com o espaço vetorial nas coordenadas $abc$, sendo que as propriedades do sistema independem das coordenadas e são válidas tanto para o caso em que as definições são aplicadas em $abc$ como em $\alpha \beta 0$.
 
 \subsection{considerando coordenadas $\alpha \beta 0$}
 
-A teoria da potência instantânea utiliza a teoria empregando a potência instantânea utilizando a teoria P-Q é através da transformação das coordenadas de um sistema com fases $abc$ para coordenadas $\alpha \beta 0$. O emprego dessa abordagem traz implicações de modo a poder introduzir sistemas trifásicos mais genéricos com a presença de sequência 0. Os resultados apresentados nessa abordagem apresenta as mesmas propriedades e interpretações de potência instantânea nas coordenadas $abc$, ou seja, estas independem do sistema de coordenada a qual é aplicado a teoria \cite{Peng1996}. 
+A teoria da potência instantânea P-Q desenvolvida inicialmente por Akagi \cite{Akagi1984} emprega a transformação das coordenadas de um sistema com fases $abc$ para coordenadas $\alpha \beta 0$. O emprego dessa abordagem traz implicações de modo a poder introduzir sistemas trifásicos mais genéricos com a presença de sequência 0. Os resultados apresentados nessa abordagem apresenta as mesmas propriedades e interpretações de potência instantânea nas coordenadas $abc$, ou seja, estas independem do sistema de coordenada a qual é aplicado a teoria \cite{Peng1996}. 
 
 \subsubsection{Transformada de Clarke}
 
-A transformação de coordenadas das tensões instantâneas referenciadas no sistema $abc$ para tensões instantâneas referenciadas no sistema $\alpha \beta 0$ é feita através da aplicação da transformada de Clarke. Primeiramente considera-se que um sistema trifásico seja composto por tensões de fase $v_a$, $v_b$ e $v_c$ deslocadas em ângulo por 120 graus ($\sfrac{2 \pi}{3}$) entre si. Desse modo utilizando da equação \ref{eq:v_alpha_beta_0} obtém-se as novas tensões instantâneas $v_\alpha$ e $v_\beta$, cujo angulo de defasagem é dado por 90 graus ($\sfrac{\pi}{2}$) \todo{referenciar}.
+A transformação de coordenadas das tensões instantâneas referenciadas no sistema $abc$ para tensões instantâneas referenciadas no sistema $\alpha \beta 0$ é feita através da aplicação da transformada de Clarke. Primeiramente considera-se que um sistema trifásico seja composto por tensões de fase $v_a$, $v_b$ e $v_c$ deslocadas em ângulo por 120 graus ($\sfrac{2 \pi}{3}$) entre si. Desse modo utilizando da equação \ref{eq:v_alpha_beta_0} obtém-se as novas tensões instantâneas $v_\alpha$ e $v_\beta$, cujo angulo de defasagem entre as tensões no eixo $\alpha$ e $\beta$ é dado por 90 graus ($\sfrac{\pi}{2}$) \todo{referenciar}.
 
 \begin{equation}
 \begin{bmatrix}
@@ -187,7 +187,7 @@ q = |\mathbf{q}| = \sqrt{q_{\alpha}^2+q_{\beta}^2+q_0^2}
 \label{eq:qnorm}
 \end{equation}
 
-Com a definição das potências instantâneas $p$ e $q$ define-se certos parâmetros para o entendimento das propriedades e significados físicos de tais potências. Para tal, define-se as correntes ativas e reativas instantâneas segundo as expressões \ref{eq:i_p} e \ref{eq:i_q}, respectivamente. 
+Com a definição das potências instantâneas $p$ e $q$, define-se certos parâmetros para o entendimento das propriedades e significados físicos de tais potências. Para tal, define-se as correntes ativas e reativas instantâneas segundo as expressões \ref{eq:i_p} e \ref{eq:i_q}, respectivamente. 
 
 \begin{equation}
 \mathbf{i_p} = 
@@ -276,7 +276,7 @@ Deste modo observa-se uma semelhança entre a teoria de potência PQ e a teoria ap
 
 \subsection{Potência Instantânea em coordenadas $abc$}
 
-A teoria das potências instantâneas apresentadas anteriormente são baseadas em sistemas trifásicos cujas tesões $abc$ têm suas coordenadas transformadas para a referência $\alpha \beta 0$. Entretanto tal teoria não é limitada às coordenadas do sistema, sendo que a aplicação das definições e teoremas apresentadas anteriormente são válidas para o sistema trifásico baseado nas coordenadas $abc$. Deste modo a definição de tensão instantânea passa a compor o espaço vetorial na forma $\mathbf{v} = [v_a\;v_b\;v_c]^T$ onde as tensões $v_a$, $v_b$ e $v_c$ são as tensões das fases $a$, $b$ e $c$ de um sistema trifásico a três fios qualquer, respectivamente. O mesmo vale para a corrente $\mathbf{i} = [i_a\;i_b\;i_c]^T$, com as corrente $i_a$, $i_b$ e $i_c$ são as correntes nas linhas que compões as fases $a$, $b$ e $c$, respectivamente. Com isso as mesmas equações \ref{eq:Palphabeta0} e \ref{eq:q} já apresentadas podem ser aplicadas aqui, com a diferença que os valores dos vetores são referenciados nas coordenadas $abc$. Sendo assim:
+A teoria das potências instantâneas apresentadas anteriormente são baseadas em sistemas trifásicos cujas tesões $abc$ têm suas coordenadas transformadas para a referência $\alpha \beta 0$. Entretanto tal teoria não é limitada às coordenadas do sistema, sendo que a aplicação das definições e teoremas apresentadas anteriormente são válidas para o sistema trifásico baseado nas coordenadas $abc$. Deste modo a definição de tensão instantânea passa a compor o espaço vetorial na forma $\mathbf{v} = [v_a\;v_b\;v_c]^T$ onde as tensões $v_a$, $v_b$ e $v_c$ são as tensões das fases $a$, $b$ e $c$ de um sistema trifásico qualquer, respectivamente. O mesmo vale para a corrente $\mathbf{i} = [i_a\;i_b\;i_c]^T$, com as corrente $i_a$, $i_b$ e $i_c$ são as correntes nas linhas que compões as fases $a$, $b$ e $c$, respectivamente. Com isso as mesmas equações \ref{eq:Palphabeta0} e \ref{eq:q} já apresentadas podem ser aplicadas aqui, com a diferença que os valores dos vetores são referenciados nas coordenadas $abc$. Sendo assim:
 
 \begin{equation}	%\label{eq:V}
 \begin{aligned}
@@ -314,7 +314,7 @@ Dentre as principais características de um sistema aeronáutico, àquelas que prop
 
 Os sistemas podem ser considerados balanceados visto que a geração de energia elétrica é proveniente de geradores que, por seus aspectos construtivos, possuem a geração de tensões senoidais balanceadas sem a presença de sequência negativa ou zero. Ainda, as normas aeronáuticas exigem que as cargas sejam distribuídas de maneira balanceada nas fases de modo a não haver quedas te tensão nas fases evitando desbalancear as tensões do sistemas trifásico no PCC.
 
-Apesar de a geração e distribuição elétrica em aeronaves ser com sistema trifásico ser baseada na presença do fio de neutro, os equipamentos a qual a teoria da potência instantânea será implementada para realização da filtragem ativa são projetadas \todo{frase não faz sentido no contexto} a três fios apenas. Isto se deve ao fato de que as cargas trifásicas a qual apresentam não linearidades e, consequentemente, injeção de harmônicas no sistema são majoritariamente sem a presença do neutro. Para o caso em que o neutro faz-se presente a corrente nesta acaba por ser nula, cabendo a não consideração deste na teoria da potência instantânea elucidada neste trabalho. As cargas trifásicas sem a presença de neutro são basicamente àquelas cuja entrada apresenta um ponte de Graetz a diodos, como mostrado na figura \ref{fig:Graetz.png}. Todavia pode haver outras cargas não lineares com a presença de neutro, porém estas são baseadas com a presença de transformadores com a presença de neutro na entrada alimentando uma ponte de diodos. Para este último caso a corrente no neutro é nula e pode ser desconsiderada nos cálculos de potência instantânea. Um exemplo desta última carga é mostrada na figura \ref{fig:12pulse.png}.
+Apesar de a geração e distribuição elétrica em aeronaves ser com sistema trifásico ser baseada na presença do fio de neutro, os equipamentos a qual a teoria da potência instantânea será implementada para realização da filtragem ativa são projetadas \todo{frase não faz sentido no contexto} a três fios apenas. Isto se deve ao fato de que as cargas trifásicas a qual apresentam não linearidades e, consequentemente, injeção de harmônicas no sistema são majoritariamente sem a presença do neutro. Para o caso em que o neutro faz-se presente a corrente nesta acaba por ser nula, \todo{falar que as correntes são balanceadas e equeilibradas} cabendo a desconsideração deste na teoria da potência instantânea elucidada neste trabalho. As cargas trifásicas sem a presença de neutro são basicamente àquelas cuja entrada apresenta um ponte de Graetz, como mostrado na figura \ref{fig:Graetz.png}. Todavia pode haver outras cargas não lineares com a conexão de neutro, porém estas são baseadas com a presença de transformadores cuja saída é conectada a uma ponte de elementos semicondutores. Para este último caso a corrente no neutro é nula e pode ser desconsiderada nos cálculos de potência instantânea. Um exemplo desta última carga é mostrada na figura \ref{fig:12pulse.png}.
 
 \begin{figure}[!htb] %Circuito real monofásico
 	\centering
@@ -359,8 +359,7 @@ q = |\mathbf{q}|= q_0
 \label{eq:}
 \end{equation}
 
-
-A potências instantâneas definidas podem ser combinadas numa matriz da forma:
+A potências instantâneas definidas podem ser combinadas em uma matriz, como mostrado na expressão \ref{eq:pq_combined}. Nesta equação está presente tanto a consideração da presença dos valores de corrente e tensão de sequência zero, como também os valores das potências com a implicação que trás com a exclusão de $v_0$ e $i_0$ 
 
 \begin{equation}
 \begin{bmatrix}
@@ -398,7 +397,52 @@ i_{\beta}
 \label{eq:pq_combined}
 \end{equation}
 
+Outra maneira de definir as potências instantâneas baseadas na exclusão das componentes de sequencia zero $v_0$ e $i_0$ é a partir da transformada fasorial das tensões e correntes nas coordenadas $\alpha \beta 0$. Por terem os valores das tensões nos eixos $\alpha$ e $\beta$ defasados em $90^o$, as tensões e correntes fasoriais podem ser definidos a seguir:
 
- Deste modo os a equação \ref{eq:pq_combined} pode ser simplificado de maneira a tornar-se como descrito na equação \ref{eq:pq_matriz}
+\begin{equation}
+\mathbf{v} = v_{\alpha}+jv_{\beta}
+\label{eq:v_fasor}
+\end{equation}
 
+\begin{equation}
+\mathbf{i} = i_{\alpha}+ji_{\beta}
+\label{eq:i_fasor}
+\end{equation}
 
+Pela definição de potência aparente no espaço vetorial dada por $\mathbf{s}=\mathbf{v}\mathbf{i}^*$, onde ($^*$) denota o valor conjugado, a potência aparente em termos das tensões e correntes nas coordenadas $\alpha$ e $\beta$ é dado por:
+
+\begin{equation}
+\mathbf{s}=\mathbf{v}\mathbf{i}^* = (v_{\alpha} + jv_{\beta})(i_{\alpha} - ji_{\beta}) = (v_{\alpha}i_{\alpha}+v_{\beta}i_{\beta})+j(v_{\beta}i_{\alpha}-v_{\alpha}i_{\beta})
+\label{eq:s_fasor}
+\end{equation}
+
+Pela própria definição de potência, os valores presentes no eixo real são definidas como sendo a potência ativa ao passo que as potências no eixo imaginário são definidas como as potências reativas. Deste modo, através da equação \ref{eq:s_fasor} os valores ativos e reativos são definidos por $p = v_{\alpha}i_{\alpha}+v_{\beta}i_{\beta}$ e $q = v_{\beta}i_{\alpha}-v_{\alpha}i_{\beta}$, ou também na forma:
+
+\begin{equation}
+\begin{bmatrix}
+p\\
+q
+\end{bmatrix}=
+\begin{bmatrix}
+v_{\alpha}	&	v_{\beta}\\
+v_{\beta}	&	-v_{\alpha}
+\end{bmatrix}
+\begin{bmatrix}
+i_{\alpha}\\
+i_{\beta}
+\end{bmatrix}
+\label{eq:pq}
+\end{equation}
+
+Nota-se uma inversão de sinal na potência instantânea reativa $q$ entre a teoria originalmente apresentada por \cite{Akagi1984} e exposta na equação \ref{eq:pq_combined} com a teoria da potência apresentada na expressão \ref{eq:pq}. Ambas as teorias são válidas quanto a aplicabilidade e no design de compensadores ativos, entretanto segundo \cite{Akagi2007} a teoria na equação \ref{eq:pq} apresenta um significado melhor aceito dado o conceito convencional que correntes em atraso (indutivo) apresentam sinal corretamente definidos com a utilização da equação \ref{eq:pq}.
+
+\subsubsection{Significado físico de P e Q}
+
+As definições apresentadas anteriormente são suficientes para o elucidar os conceitos físicos que as potências instantâneas $p$ e $q$ apresentam.
+
+\begin{figure}[!htb] %Circuito real monofásico
+	\centering
+	\includegraphics[width=0.4\textwidth]{Cap3/Figuras/pqfisico.png}
+	\caption{R}
+	\label{fig:pqfisico.png}
+\end{figure}
