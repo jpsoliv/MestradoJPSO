@@ -438,11 +438,55 @@ Nota-se uma inversão de sinal na potência instantânea reativa $q$ entre a teoria
 
 \subsubsection{Significado físico de dos parâmetros da teoria P e Q}
 
-As definições apresentadas anteriormente são suficientes para o elucidar os conceitos físicos que as potências instantâneas $p$ e $q$ apresentam.
+As definições apresentadas anteriormente são suficientes para o elucidar os conceitos físicos que as potências instantâneas $p$ e $q$ apresentam. 
 
+Como já explicado anteriormente, o conceito de potência instantânea ativa advém do produto entre tensão e corrente as quais estão dispostos em eixos paralelos de um espaço vetorial, independentemente das coordenadas utilizadas. Deste modo, para um sistema trifásico com ou sem neutro, a potência ativa tem seu significado físico descrito pelo fluxo de energia por unidade de tempo entre dois subsistemas. Cabe salientar que $p$ pode ser descrito como uma função no tempo, sendo que o valor em determinado instante representa o fluxo de potência instantânea. Esta definição pode diferir com o conceito clássico da teoria de potência que utiliza de valores médios para determinar a transferência de potência entre dois subsistemas. Para melhor entendimento um exemplo simples é apresentado como uma carga de capacitores desbalanceada, a qual em determinado instante de tempo as tensões e corrente carrega,/descarregam os capacitores de modo que existe uma troca de energia em determinado instante de tempo. nesse caso $p$ é diferente de zero, diferentemente caso considerá-se a potência ativa média a qual seria zero para um determinado período. \todo{exemplo}
+
+Analogamente à $p$, a potência reativa instantânea $q$ é definida como o produto de tensões e corrente perpendiculares no espaço vetorial, deste modo sua contribuição no fluxo de energia por unidade de tempo entre dois subsistemas é descrito como nulo. O significado físico que descreve a potência reativa instantânea $q$ é o fluxo de energia que é trocado entre as fases do sistema sem que haja transferência entre subsistemas. Esta característica só é encontrada em sistemas trifásicos e não pode ser aplicado a circuitos monofásicos separadamente. Como exemplo para melhor elucidar esse conceito, considera-se um sistema trifásico composto por uma carga com elementos reativo lineares balanceados. Nesse caso, as potências que fluem em cada fase é de tal maneira que o fluxo instantâneo na entrada da carga é dada como nula, ou seja, enquanto algumas carga recebem energia do sistema, outra(s) fornecem, de modo que o fluxo total na entrada é nulo. Com isso não há fluxo de energia entre a fonte e a carga , porém existe um fluxo de energia entre as fases.\todo{exemplo}
+
+A figura \ref{fig:pqfisico.png} demonstra uma maneira de observar a presença das potências em um sistema trifásico qualquer.
+   
 \begin{figure}[!htb] %Circuito real monofásico
 	\centering
-	\includegraphics[width=0.4\textwidth]{Cap3/Figuras/pqfisico.png}
+	\includegraphics[width=0.42\textwidth]{Cap3/Figuras/pqfisico.png}
 	\caption{\cite{Akagi2007}}
 	\label{fig:pqfisico.png}
 \end{figure}
+
+\begin{figure*}[!htb] %Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+	\centering
+	\begin{subfigure}[b]{0.48\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Cap3/Figuras/p_bal.eps}
+		\caption{Tensões nas coordenadas $\alpha \beta$} 
+		\label{fig:alpha_beta.eps}
+	\end{subfigure}%
+	%	\hfill
+	\begin{subfigure}[b]{0.48\textwidth}  
+		\centering 
+		\includegraphics[width=\textwidth]{Cap3/Figuras/q_bal.eps}
+		\caption{Fasor das tensões nas coordenadas $\alpha \beta$}    
+		\label{fig:valpha_vbeta_fasor.png}
+	\end{subfigure}%
+	\caption{Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada}
+	\label{fig:valpha_vbeta_Clarke}
+\end{figure*}
+
+\begin{figure*}[!htb] %Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+	\centering
+	\begin{subfigure}[b]{0.48\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Cap3/Figuras/p_desb.eps}
+		\caption{Tensões nas coordenadas $\alpha \beta$} 
+		\label{fig:alpha_beta.eps}
+	\end{subfigure}%
+	%	\hfill
+	\begin{subfigure}[b]{0.48\textwidth}  
+		\centering 
+		\includegraphics[width=\textwidth]{Cap3/Figuras/q_desb.eps}
+		\caption{Fasor das tensões nas coordenadas $\alpha \beta$}    
+		\label{fig:valpha_vbeta_fasor.png}
+	\end{subfigure}%
+	\caption{Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada}
+	\label{fig:valpha_vbeta_Clarke}
+\end{figure*}

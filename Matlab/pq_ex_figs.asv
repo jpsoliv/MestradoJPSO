@@ -1,0 +1,112 @@
+close all 
+% clear all
+% clc
+
+t = Vabc.time;
+
+%% Sistema Balanceado
+Va_bal = Vabc_bal.signals.values(:,1);
+Vb_bal = Vabc_bal.signals.values(:,2);
+Vc_bal = Vabc_bal.signals.values(:,3);
+
+Ila_bal = Iabc_bal.signals.values(:,1);
+Ilb_bal = Iabc_bal.signals.values(:,2);
+Ilc_bal = Iabc_bal.signals.values(:,3);
+
+%% Clarke Transformation
+
+V0_bal = sqrt(2/3)*((1/sqrt(2)*Va_bal + 1/sqrt(2)*Vb_bal + 1/sqrt(2)*Vc_bal));
+Valpha_bal = sqrt(2/3)*(1*Va_bal - 1/2*Vb_bal - 1/2*Vc_bal);
+Vbeta_bal = sqrt(2/3)*(0*Va_bal + sqrt(3)/2*Vb_bal - sqrt(3)/2*Vc_bal);
+
+I0_bal = sqrt(2/3)*(1/sqrt(2)*Ila_bal + 1/sqrt(2)*Ilb_bal + 1/sqrt(2)*Ilc_bal);
+Ialpha_bal = sqrt(2/3)*(1*Ila_bal - 1/2*Ilb_bal - 1/2*Ilc_bal);
+Ibeta_bal = sqrt(2/3)*(0*Ila_bal + sqrt(3)/2*Ilb_bal - sqrt(3)/2*Ilc_bal);
+
+% figure;
+% plot(t,V0_bal,t,Valpha_bal,t,Vbeta_bal); title('V_0, V_{\alpha}, V_{\beta}');legend('V_0','V_{\alpha}','V_{\beta}');
+% figure;
+% plot(t,I0_bal,t,Ialpha_bal,t,Ibeta_bal);title('I_0, I_{\alpha}, I_{\beta}');legend('I_0','I_{\alpha}','I_{\beta}');
+
+%% P-Q theory
+
+% P0 = V0.*I0;
+% P = Valpha.*Ialpha + Vbeta.*Ibeta;
+% Q = Vbeta.*Ialpha - Valpha.*Ibeta;
+% 
+% figure;
+% plot(t,P0,t,P,t,Q);title('P_0, P, Q');legend('P_0','P','Q');
+
+p_bal = Valpha_bal.*Ialpha_bal+Vbeta_bal.*Ibeta_bal+V0_bal.*I0_bal;
+qalpha_bal = Vbeta_bal.*I0_bal-V0_bal.*Ibeta_bal;
+qbeta_bal = V0_bal.*Ialpha_bal-Valpha_bal.*I0_bal;
+q0_bal = -Valpha_bal.*Ibeta_bal-Vbeta_bal.*Ialpha_bal;
+
+q_bal = sqrt(qalpha_bal.^2+qbeta_bal.^2+q0_bal.^2);
+
+figure(1)
+plot(t,p_bal)
+ylim([-1000 1000])
+set(gca,'XtickLabel',[],'YtickLabel',[]);
+
+
+figure(2)
+plot(t,q_bal)
+ylim([-100 2600])
+set(gca,'XtickLabel',[],'YtickLabel',[]);
+lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
+set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
+
+%% Sistema Desbalanceado
+Va_desb = Vabc_desb.signals.values(:,1);
+Vb_desb = Vabc_desb.signals.values(:,2);
+Vc_desb = Vabc_desb.signals.values(:,3);
+
+Ila_desb = Iabc_desb.signals.values(:,1);
+Ilb_desb = Iabc_desb.signals.values(:,2);
+Ilc_desb = Iabc_desb.signals.values(:,3);
+
+%% Clarke Transformation
+
+V0_desb = sqrt(2/3)*((1/sqrt(2)*Va_desb + 1/sqrt(2)*Vb_desb + 1/sqrt(2)*Vc_desb));
+Valpha_desb = sqrt(2/3)*(1*Va_desb - 1/2*Vb_desb - 1/2*Vc_desb);
+Vbeta_desb = sqrt(2/3)*(0*Va_desb + sqrt(3)/2*Vb_desb - sqrt(3)/2*Vc_desb);
+
+I0_desb = sqrt(2/3)*(1/sqrt(2)*Ila_desb + 1/sqrt(2)*Ilb_desb + 1/sqrt(2)*Ilc_desb);
+Ialpha_desb = sqrt(2/3)*(1*Ila_desb - 1/2*Ilb_desb - 1/2*Ilc_desb);
+Ibeta_desb = sqrt(2/3)*(0*Ila_desb + sqrt(3)/2*Ilb_desb - sqrt(3)/2*Ilc_desb);
+
+% figure(3);
+% plot(t,V0_desb,t,Valpha_desb,t,Vbeta_desb); title('V_0, V_{\alpha}, V_{\beta}');legend('V_0','V_{\alpha}','V_{\beta}');
+% figure(4);
+% plot(t,I0_desb,t,Ialpha_desb,t,Ibeta_desb);title('I_0, I_{\alpha}, I_{\beta}');legend('I_0','I_{\alpha}','I_{\beta}');
+
+%% P-Q theory
+
+% P0 = V0.*I0;
+% P = Valpha.*Ialpha + Vbeta.*Ibeta;
+% Q = Vbeta.*Ialpha - Valpha.*Ibeta;
+% 
+% figure;
+% plot(t,P0,t,P,t,Q);title('P_0, P, Q');legend('P_0','P','Q');
+
+p_desb = Valpha_desb.*Ialpha_desb+Vbeta_desb.*Ibeta_desb+V0_desb.*I0_desb;
+qalpha_desb = Vbeta_desb.*I0_desb-V0_desb.*Ibeta_desb;
+qbeta_desb = V0_desb.*Ialpha_desb-Valpha_desb.*I0_desb;
+q0_desb = -Valpha_desb.*Ibeta_desb-Vbeta_desb.*Ialpha_desb;
+
+q_desb = sqrt(qalpha_desb.^2+qbeta_desb.^2+q0_desb.^2);
+
+figure(5)
+plot(t,p_desb)
+ylim([-2600 2600])
+set(gca,'XtickLabel',[],'YtickLabel',[]);
+lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
+set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
+
+figure(6)
+plot(t,q_desb)
+ylim([-2600 2600])
+set(gca,'XtickLabel',[],'YtickLabel',[]);
+lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
+set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
