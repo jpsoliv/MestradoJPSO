@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.7)  15 AUG 2016 22:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.7)  16 AUG 2016 22:11
 entering extended mode
 **./Dissertacao.tex
 (Dissertacao.tex
@@ -1075,31 +1075,7 @@ LaTeX Warning: Label `eq:' multiply defined.
 LaTeX Warning: Label `eq:' multiply defined.
 
 
-LaTeX Warning: Label `fig:alpha_beta.eps' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:alpha_beta.eps' multiply defined.
-
-
-LaTeX Warning: Label `fig:valpha_vbeta_fasor.png' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:valpha_vbeta_fasor.png' multiply defined.
-
-
 LaTeX Warning: Label `fig:valpha_vbeta_Clarke' multiply defined.
-
-
-LaTeX Warning: Label `fig:alpha_beta.eps' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:alpha_beta.eps' multiply defined.
-
-
-LaTeX Warning: Label `fig:valpha_vbeta_fasor.png' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:valpha_vbeta_fasor.png' multiply defined.
 
 
 LaTeX Warning: Label `fig:valpha_vbeta_Clarke' multiply defined.
@@ -1617,11 +1593,11 @@ Package hyperref Info: Anchor `equation.1.2.23' on input line 61.
 Package hyperref Info: Reference (link) `equation.1.2.24' on input line 81.
 Package hyperref Info: Anchor `equation.1.2.24' on input line 83.
 Package hyperref Info: Reference (link) `figure.caption.7' on input line 105.
-Package hyperref Info: Reference (link) `figure.caption.17' on input line 105.
+Package hyperref Info: Reference (link) `figure.caption.16' on input line 105.
 Package hyperref Info: Reference (link) `figure.caption.7' on input line 105.
-Package hyperref Info: Reference (link) `figure.caption.17' on input line 105.
+Package hyperref Info: Reference (link) `figure.caption.8' on input line 105.
 Package hyperref Info: Reference (link) `figure.caption.7' on input line 105.
-Package hyperref Info: Reference (link) `figure.caption.17' on input line 105.
+Package hyperref Info: Reference (link) `figure.caption.8' on input line 105.
 Package hyperref Info: Anchor `figure.caption.7' on input line 107.
 Package epstopdf Info: Source file: <Cap3/Figuras/va_vb_vc.eps>
 (epstopdf)                    date: 2016-07-08 18:30:27
@@ -1699,14 +1675,12 @@ Package hyperref Info: Anchor `page.11' on input line 155.
 Package `hyperref' Info: End of reference (link) `equation.1.2.23', line 59.
 Package `hyperref' Info: End of reference (link) `equation.1.2.24', line 81.
 Package `hyperref' Info: End of reference (link) `figure.caption.7', line 105.
-Package `hyperref' Info: End of reference (link) `figure.caption.17', line 105.
+Package `hyperref' Info: End of reference (link) `figure.caption.16', line 105.
 
 Package `hyperref' Info: End of reference (link) `figure.caption.7', line 105.
-Package `hyperref' Info: End of reference (link) `figure.caption.17', line 105.
-
+Package `hyperref' Info: End of reference (link) `figure.caption.8', line 105.
 Package `hyperref' Info: End of reference (link) `figure.caption.7', line 105.
-Package `hyperref' Info: End of reference (link) `figure.caption.17', line 105.
-
+Package `hyperref' Info: End of reference (link) `figure.caption.8', line 105.
 ]
 Package hyperref Info: Anchor `equation.1.2.26' on input line 160.
 Package hyperref Info: Reference (link) `equation.1.2.26' on input line 165.
@@ -1892,15 +1866,28 @@ Package hyperref Info: Anchor `subsubsection.1.2.2.2' on input line 439.
 
 pdftex: bookmark at 439: {1.2.2.2} {\numberline{1.2.2.2}Significado f\IeC {\'\i
  }sico de dos par\^ametros da teoria P e Q} {subsubsection.1.2.2.2}{3}{toc}
-Package hyperref Info: Anchor `section*.13' on input line 443.
-pdftex: bookmark at 443: {\thetodo } {exemplo} {section*.13}{0}{tdo}
-Package hyperref Info: Anchor `section*.14' on input line 445.
-pdftex: bookmark at 445: {\thetodo } {exemplo} {section*.14}{0}{tdo}
+Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 443.
+Package hyperref Info: Reference (link) `figure.caption.13' on input line 445.
+Package hyperref Info: Anchor `figure.caption.13' on input line 447.
+<Cap3/Figuras/pqfisico.png, id=338, 282.30469pt x 190.46156pt>
+File: Cap3/Figuras/pqfisico.png Graphic file (type png)
+
+<use Cap3/Figuras/pqfisico.png>
+Package pdftex.def Info: Cap3/Figuras/pqfisico.png used on input line 449.
+(pdftex.def)             Requested size: 191.20169pt x 129.00064pt.
+
+pdftex: bookmark at 450: {8} {\numberline{8}{\ignorespaces \cite {Akagi2007}\re
+lax }} {figure.caption.13}{0}{lof}
+Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 450.
+Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 450.
+
+LaTeX Warning: Reference `3ph_ex.png' on page 19 undefined on input line 454.
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 446.
+(babel)             in language  on input line 455.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 446.
-Package hyperref Info: Anchor `page.19' on input line 446.
+(babel)             in language  on input line 455.
+Package hyperref Info: Anchor `page.19' on input line 455.
 [19
 Package `hyperref' Info: End of reference (cite) `cite.Akagi1984', line 437.
 Package `hyperref' Info: End of reference (link) `equation.1.2.40', line 437.
@@ -1908,21 +1895,23 @@ Package `hyperref' Info: End of reference (link) `equation.1.2.44', line 437.
 Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 437.
 Package `hyperref' Info: End of reference (link) `equation.1.2.44', line 437.
 Package `hyperref' Info: End of reference (link) `equation.1.2.44', line 437.
+Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 443.
+Package `hyperref' Info: End of reference (link) `figure.caption.13', line 445.
+
 ]
-Package hyperref Info: Reference (link) `figure.caption.15' on input line 447.
-Package hyperref Info: Anchor `figure.caption.15' on input line 449.
- <Cap3/Figuras/pqfisico.png, id=345, 282.30469pt x 190.46156pt>
-File: Cap3/Figuras/pqfisico.png Graphic file (type png)
+Package hyperref Info: Anchor `figure.caption.14' on input line 456.
+ <Cap3/Figuras/3ph_ex.png, id=349, 648.17157pt x 383.18156pt>
+File: Cap3/Figuras/3ph_ex.png Graphic file (type png)
 
-<use Cap3/Figuras/pqfisico.png>
-Package pdftex.def Info: Cap3/Figuras/pqfisico.png used on input line 451.
-(pdftex.def)             Requested size: 191.20169pt x 129.00064pt.
+<use Cap3/Figuras/3ph_ex.png>
+Package pdftex.def Info: Cap3/Figuras/3ph_ex.png used on input line 458.
+(pdftex.def)             Requested size: 182.09486pt x 107.64676pt.
 
-pdftex: bookmark at 452: {8} {\numberline{8}{\ignorespaces \cite {Akagi2007}\re
-lax }} {figure.caption.15}{0}{lof}
-Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 452.
-Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 452.
-Package hyperref Info: Anchor `figure.caption.16' on input line 456.
+pdftex: bookmark at 459: {9} {\numberline{9}{\ignorespaces Retificador trif\'as
+ico por ponte de Graetz\relax }} {figure.caption.14}{0}{lof}
+Package hyperref Info: Reference (link) `figure.caption.15' on input line 463.
+Package hyperref Info: Reference (link) `figure.caption.15' on input line 463.
+Package hyperref Info: Anchor `figure.caption.15' on input line 465.
 Package epstopdf Info: Source file: <Cap3/Figuras/p_bal.eps>
 (epstopdf)                    date: 2016-08-15 22:25:25
 (epstopdf)                    size: 25735 bytes
@@ -1931,14 +1920,14 @@ Package epstopdf Info: Source file: <Cap3/Figuras/p_bal.eps>
 (epstopdf)                    size: 3647 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap3/Figuras/p_bal-eps-conv
 erted-to.pdf Cap3/Figuras/p_bal.eps>
-(epstopdf)             \includegraphics on input line 460.
+(epstopdf)             \includegraphics on input line 469.
 Package epstopdf Info: Output file is already uptodate.
-<Cap3/Figuras/p_bal-eps-converted-to.pdf, id=348, 420.57124pt x 316.18124pt>
+<Cap3/Figuras/p_bal-eps-converted-to.pdf, id=352, 420.57124pt x 316.18124pt>
 File: Cap3/Figuras/p_bal-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Cap3/Figuras/p_bal-eps-converted-to.pdf>
 Package pdftex.def Info: Cap3/Figuras/p_bal-eps-converted-to.pdf used on input 
-line 460.
+line 469.
 (pdftex.def)             Requested size: 218.51521pt x 164.2801pt.
 Package epstopdf Info: Source file: <Cap3/Figuras/q_bal.eps>
 (epstopdf)                    date: 2016-08-15 22:25:18
@@ -1948,21 +1937,22 @@ Package epstopdf Info: Source file: <Cap3/Figuras/q_bal.eps>
 (epstopdf)                    size: 28714 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap3/Figuras/q_bal-eps-conv
 erted-to.pdf Cap3/Figuras/q_bal.eps>
-(epstopdf)             \includegraphics on input line 467.
+(epstopdf)             \includegraphics on input line 476.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap3/Figuras/q_bal-eps-converted-to.pdf, id=349, 420.57124pt x 316.18124pt>
+<Cap3/Figuras/q_bal-eps-converted-to.pdf, id=353, 420.57124pt x 316.18124pt>
 File: Cap3/Figuras/q_bal-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Cap3/Figuras/q_bal-eps-converted-to.pdf>
 Package pdftex.def Info: Cap3/Figuras/q_bal-eps-converted-to.pdf used on input 
-line 467.
+line 476.
 (pdftex.def)             Requested size: 218.51521pt x 164.2801pt.
 
-pdftex: bookmark at 471: {9} {\numberline{9}{\ignorespaces Circuito t\IeC {\'\i
- }pico de um retificador de 12 pulsos com sua respectiva corrente de entrada\re
-lax }} {figure.caption.16}{0}{lof}
-Package hyperref Info: Anchor `figure.caption.17' on input line 475.
+pdftex: bookmark at 480: {10} {\numberline{10}{\ignorespaces Circuito t\IeC {\'
+\i }pico de um retificador de 12 pulsos com sua respectiva corrente de entrada\
+relax }} {figure.caption.15}{0}{lof}
+Package hyperref Info: Reference (link) `figure.caption.16' on input line 484.
+Package hyperref Info: Anchor `figure.caption.16' on input line 486.
 Package epstopdf Info: Source file: <Cap3/Figuras/p_desb.eps>
 (epstopdf)                    date: 2016-08-15 22:25:09
 (epstopdf)                    size: 39820 bytes
@@ -1971,14 +1961,14 @@ Package epstopdf Info: Source file: <Cap3/Figuras/p_desb.eps>
 (epstopdf)                    size: 27077 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap3/Figuras/p_desb-eps-con
 verted-to.pdf Cap3/Figuras/p_desb.eps>
-(epstopdf)             \includegraphics on input line 479.
+(epstopdf)             \includegraphics on input line 490.
 Package epstopdf Info: Output file is already uptodate.
-<Cap3/Figuras/p_desb-eps-converted-to.pdf, id=350, 420.57124pt x 316.18124pt>
+<Cap3/Figuras/p_desb-eps-converted-to.pdf, id=355, 420.57124pt x 316.18124pt>
 File: Cap3/Figuras/p_desb-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Cap3/Figuras/p_desb-eps-converted-to.pdf>
 Package pdftex.def Info: Cap3/Figuras/p_desb-eps-converted-to.pdf used on input
- line 479.
+ line 490.
 (pdftex.def)             Requested size: 218.51521pt x 164.2801pt.
 Package epstopdf Info: Source file: <Cap3/Figuras/q_desb.eps>
 (epstopdf)                    date: 2016-08-15 22:24:24
@@ -1988,20 +1978,20 @@ Package epstopdf Info: Source file: <Cap3/Figuras/q_desb.eps>
 (epstopdf)                    size: 30384 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap3/Figuras/q_desb-eps-con
 verted-to.pdf Cap3/Figuras/q_desb.eps>
-(epstopdf)             \includegraphics on input line 486.
+(epstopdf)             \includegraphics on input line 497.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap3/Figuras/q_desb-eps-converted-to.pdf, id=351, 420.57124pt x 316.18124pt>
+<Cap3/Figuras/q_desb-eps-converted-to.pdf, id=356, 420.57124pt x 316.18124pt>
 File: Cap3/Figuras/q_desb-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Cap3/Figuras/q_desb-eps-converted-to.pdf>
 Package pdftex.def Info: Cap3/Figuras/q_desb-eps-converted-to.pdf used on input
- line 486.
+ line 497.
 (pdftex.def)             Requested size: 218.51521pt x 164.2801pt.
 
-pdftex: bookmark at 490: {10} {\numberline{10}{\ignorespaces Circuito t\IeC {\'
+pdftex: bookmark at 501: {11} {\numberline{11}{\ignorespaces Circuito t\IeC {\'
 \i }pico de um retificador de 12 pulsos com sua respectiva corrente de entrada\
-relax }} {figure.caption.17}{0}{lof}
+relax }} {figure.caption.16}{0}{lof}
 ) (Cap3/Partes/Filtros_ativos.tex
 Package hyperref Info: Anchor `section.1.3' on input line 1.
 Package babel Info: Redefining portuges shorthand "|
@@ -2021,19 +2011,23 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 Package hyperref Info: Anchor `page.20' on input line 3.
  [20
-Package `hyperref' Info: End of reference (link) `figure.caption.15', line 447.
+Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 450.
+Package `hyperref' Info: End of reference (link) `figure.caption.15', line 463.
 
-Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 452.
- <./Cap3/Figuras/pqfisico.png> <./Cap3/Figuras/p_bal-eps-converted-to.pdf> <./C
-ap3/Figuras/q_bal-eps-converted-to.pdf>]
+Package `hyperref' Info: End of reference (link) `figure.caption.15', line 463.
+
+Package `hyperref' Info: End of reference (link) `figure.caption.16', line 484.
+
+ <./Cap3/Figuras/pqfisico.png> <./Cap3/Figuras/3ph_ex.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 Package hyperref Info: Anchor `page.21' on input line 3.
- [21 <./Cap3/Figuras/p_desb-eps-converted-to.pdf> <./Cap3/Figuras/q_desb-eps-co
-nverted-to.pdf>]
-Package hyperref Info: Anchor `chapter*.18' on input line 3.
+ [21 <./Cap3/Figuras/p_bal-eps-converted-to.pdf> <./Cap3/Figuras/q_bal-eps-conv
+erted-to.pdf> <./Cap3/Figuras/p_desb-eps-converted-to.pdf> <./Cap3/Figuras/q_de
+sb-eps-converted-to.pdf>]
+Package hyperref Info: Anchor `chapter*.17' on input line 3.
 Package hyperref Info: Anchor `chapter.2' on input line 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
@@ -2102,13 +2096,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 255.
  ) 
 Here is how much of TeX's memory you used:
- 28409 strings out of 493335
- 535260 string characters out of 3136684
- 695674 words of memory out of 3000000
- 31299 multiletter control sequences out of 15000+200000
+ 28407 strings out of 493335
+ 535174 string characters out of 3136684
+ 691593 words of memory out of 3000000
+ 31297 multiletter control sequences out of 15000+200000
  43081 words of font info for 105 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,77p,10385b,1103s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,12n,77p,10385b,1067s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Joao\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\t
 crm1200.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 bx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx
@@ -2124,9 +2118,9 @@ iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86
 )/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Dissertacao.pdf (22 pages, 547887 bytes).
+Output written on Dissertacao.pdf (22 pages, 574394 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
- 111 named destinations out of 1000 (max. 500000)
- 163 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 464 PDF objects out of 1000 (max. 8388607)
+ 110 named destinations out of 1000 (max. 500000)
+ 168 words of extra memory for PDF output out of 10000 (max. 10000000)
 

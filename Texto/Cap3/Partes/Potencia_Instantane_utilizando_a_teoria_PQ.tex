@@ -440,12 +440,10 @@ Nota-se uma inversão de sinal na potência instantânea reativa $q$ entre a teoria
 
 As definições apresentadas anteriormente são suficientes para o elucidar os conceitos físicos que as potências instantâneas $p$ e $q$ apresentam. 
 
-Como já explicado anteriormente, o conceito de potência instantânea ativa advém do produto entre tensão e corrente as quais estão dispostos em eixos paralelos de um espaço vetorial, independentemente das coordenadas utilizadas. Deste modo, para um sistema trifásico com ou sem neutro, a potência ativa tem seu significado físico descrito pelo fluxo de energia por unidade de tempo entre dois subsistemas. Cabe salientar que $p$ pode ser descrito como uma função no tempo, sendo que o valor em determinado instante representa o fluxo de potência instantânea. Esta definição pode diferir com o conceito clássico da teoria de potência que utiliza de valores médios para determinar a transferência de potência entre dois subsistemas. Para melhor entendimento um exemplo simples é apresentado como uma carga de capacitores desbalanceada, a qual em determinado instante de tempo as tensões e corrente carrega,/descarregam os capacitores de modo que existe uma troca de energia em determinado instante de tempo. nesse caso $p$ é diferente de zero, diferentemente caso considerá-se a potência ativa média a qual seria zero para um determinado período. \todo{exemplo}
+Como já explicado anteriormente, o conceito de potência instantânea ativa advém do produto entre tensão e corrente as quais estão dispostos em eixos paralelos de um espaço vetorial, independentemente das coordenadas utilizadas. Deste modo, para um sistema trifásico com ou sem neutro, a potência ativa tem seu significado físico descrito pelo fluxo de energia por unidade de tempo entre dois subsistemas \cite{Akagi2007}. Cabe salientar que $p$ é descrito como uma função no tempo, sendo que o valor em determinados instantes representam o fluxo de potência instantânea. Esta definição pode diferir com o conceito clássico da teoria de potência que utiliza de valores médios para determinar a transferência de potência entre dois subsistemas. 
 
-Analogamente à $p$, a potência reativa instantânea $q$ é definida como o produto de tensões e corrente perpendiculares no espaço vetorial, deste modo sua contribuição no fluxo de energia por unidade de tempo entre dois subsistemas é descrito como nulo. O significado físico que descreve a potência reativa instantânea $q$ é o fluxo de energia que é trocado entre as fases do sistema sem que haja transferência entre subsistemas. Esta característica só é encontrada em sistemas trifásicos e não pode ser aplicado a circuitos monofásicos separadamente. Como exemplo para melhor elucidar esse conceito, considera-se um sistema trifásico composto por uma carga com elementos reativo lineares balanceados. Nesse caso, as potências que fluem em cada fase é de tal maneira que o fluxo instantâneo na entrada da carga é dada como nula, ou seja, enquanto algumas carga recebem energia do sistema, outra(s) fornecem, de modo que o fluxo total na entrada é nulo. Com isso não há fluxo de energia entre a fonte e a carga , porém existe um fluxo de energia entre as fases.\todo{exemplo}
+Analogamente à $p$, a potência reativa instantânea $q$ é definida como o produto de tensões e corrente perpendiculares no espaço vetorial, deste modo sua contribuição no fluxo de energia por unidade de tempo entre dois subsistemas é descrito como nulo. Dessa forma o significado físico que descreve a potência reativa instantânea $q$ é o fluxo de energia por unidade de tempo que é trocado entre as fases do sistema sem que haja transferência entre subsistemas. Esta característica só é encontrada em sistemas trifásicos e não pode ser aplicado a circuitos monofásicos separadamente. A figura \ref{fig:pqfisico.png} demonstra uma maneira de observar a presença das potências em um sistema trifásico qualquer. Em tal figura pode-se observar que em um determinado instante de tempo uma potência trifásica denominada $p_{3\phi}=p+p_0$ flui de um subsistema para outro, ao passo que a $q$ esta contido na troca de potência entre as fases, sem contribuir para o fluxo de energia entre subsistemas. Mesmo assim, deve-se lembrar que a a presença de $q$ faz com que as correntes de fase são acrescidas, como demonstrado anteriormente.
 
-A figura \ref{fig:pqfisico.png} demonstra uma maneira de observar a presença das potências em um sistema trifásico qualquer.
-   
 \begin{figure}[!htb] %Circuito real monofásico
 	\centering
 	\includegraphics[width=0.42\textwidth]{Cap3/Figuras/pqfisico.png}
@@ -453,12 +451,16 @@ A figura \ref{fig:pqfisico.png} demonstra uma maneira de observar a presença das
 	\label{fig:pqfisico.png}
 \end{figure}
 
+Para melhor entendimento considera-se o exemplo a seguir com o circuito da figura \ref{3ph_ex.png}. Esse sistema é composto por um circuito trifásico a 4 fios alimentado uma carga de capacitores com capacitâncias $C_1$, $C_2$ e $C_3$.
+
 \begin{figure}[!htb] %Circuito real monofásico
 	\centering
 	\includegraphics[width=0.4\textwidth]{Cap3/Figuras/3ph_ex.png}
 	\caption{Retificador trifásico por ponte de Graetz}
-	\label{fig:Graetz.png}
+	\label{fig:3ph_ex.png}
 \end{figure}
+
+Primeiramente, considerando que a carga seja equilibrada, ou seja, os capacitores apresentam mesmo valor de capacitância, as potências instantâneas $p$ e $q$ em função do tempo são apresentadas nas figuras \ref{fig:p_bal.eps} e \ref{fig:q_bal.eps}, respectivamente. Para este caso pode-se observar que a transferência de potência ativa entre a fonte e a carga é nula, visto que os capacitores são carregados e descarregam-se de tal modo que o total de energia trocada entre a fonte e a carga é nula. Já a potência reativa não é nula visto que existe uma corrente equilibrada entre as fases ortogonalmente dispostas com relação as tensões.
 
 \begin{figure*}[!htb] %Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
@@ -466,18 +468,20 @@ A figura \ref{fig:pqfisico.png} demonstra uma maneira de observar a presença das
 		\centering
 		\includegraphics[width=\textwidth]{Cap3/Figuras/p_bal.eps}
 		\caption{Tensões nas coordenadas $\alpha \beta$} 
-		\label{fig:alpha_beta.eps}
+		\label{fig:p_bal.eps}
 	\end{subfigure}%
 	%	\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap3/Figuras/q_bal.eps}
 		\caption{Fasor das tensões nas coordenadas $\alpha \beta$}    
-		\label{fig:valpha_vbeta_fasor.png}
+		\label{fig:q_bal.eps}
 	\end{subfigure}%
 	\caption{Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada}
 	\label{fig:valpha_vbeta_Clarke}
 \end{figure*}
+
+O segundo exemplo utiliza o mesmo circuito, porém com um capacitor $C_1$ com valor diferente em relação à $C_2$ e $C_3$. Nesse caso o carregamento e descarregamento dos capacitores não serão balanceados, de modo a haver uma potência instantânea ativa percorrendo o circuito com este desbalanço.Isto pode ser observado na figura \ref{fig:p_desb.eps}. Entretanto ainda exite uma componentes de corrente dispostas perpendicularmente às tensões, havendo assim a presença de potência reativa $q$ percorrendo sendo trocada entre as fases.
 
 \begin{figure*}[!htb] %Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
@@ -485,14 +489,14 @@ A figura \ref{fig:pqfisico.png} demonstra uma maneira de observar a presença das
 		\centering
 		\includegraphics[width=\textwidth]{Cap3/Figuras/p_desb.eps}
 		\caption{Tensões nas coordenadas $\alpha \beta$} 
-		\label{fig:alpha_beta.eps}
+		\label{fig:p_desb.eps}
 	\end{subfigure}%
 	%	\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap3/Figuras/q_desb.eps}
 		\caption{Fasor das tensões nas coordenadas $\alpha \beta$}    
-		\label{fig:valpha_vbeta_fasor.png}
+		\label{fig:q_desb.eps}
 	\end{subfigure}%
 	\caption{Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada}
 	\label{fig:valpha_vbeta_Clarke}
