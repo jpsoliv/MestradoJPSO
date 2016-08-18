@@ -1,4 +1,22 @@
 \section{Filtros Ativos}
+
+Filtro ativos são elementos inseridos em circuitos elétricos com o objetivo de criar uma fonte que interaja com os parâmetros de tensão/corrente de modo a eliminar condições indesejadas no sistema. Os filtros ativos são divididos em três tipos: shunt, série e hibrido, e a aplicação de cada tipo de filtro é determinada por qual parâmetro do circuito deseja-se corrigir. Na seção \ref{ZZZZ} é apresentado o princípio de operação de cada tipo de filtro ativo, mostrando em quais situações estes cada um pode ser aplicado.
+
+Para a utilização em sistemas elétricos aeronáuticos o tipo de filtros ativo podem ser escolhido com base nos parâmetros do sistema  que deseja-se adequar para o correto funcionamento dos equipamentos alimentados eletricamente. Com isso a utilização dos três filtros tipo de filtragem podem ser escolhidas visto que garantiriam a qualidade de energia na entrada dos equipamentos da aeronave. Entretanto deve-se enfatizar as condições que estes tipo de filtros deem ser utilizadas e em quais equipamentos estes deem ser dispostos.
+
+\begin{enumerate}[i),leftmargin=1.75cm,itemindent=0cm]
+	
+	\item \textit{Filtros Serie}: Os filtros série são utilizados para a correção das harmônicas presentes na forma de onda da tensão na porta de alimentação elétrica das cargas. Seu objetivo não proporciona a correção da forma de onda nas correntes das linhas do circuito, de modo que as regiões do circuito que estão dispostas fora da atuação do filtro sofreriam com a má qualidade de energia da tensão elétrica do sistema. Com isso a utilização deste filtro poderia ser utilizada nos sistemas elétricos aeronáuticos com a ressalva de todos os equipamentos presentes na rede estariam cobertos por filtros série. Esta solução, mesmo que plausível teoricamente, não apresentam benefício econômico, visto que a complexidade, o custo e o peso aumentariam, ao passo que a confiabilidade diminuiria.
+	
+	\item \textit{Filtros Shunt}: Filtros shunt or sua vez são utilizados para a correção das distorções presentes na corrente dos sistemas. Deste modo, a implementação desse tipo de filtragem em cargas cuja característica operacional apresenta a injeção de harmônicas no sistema seria suficiente para adequar as qualidade de energia no sistema elétrico aeronáutico. Esta característica trás grande vantagem devido ao fato de que nem todas as cargas a´resentam distorções harmônicas na corrente, fazendo que sua aplicação seja restrita a apenas onde haveria a necessidade de corrigir as distorções harmônicas da corrente. Este fato faz com que sua utilização seja adequada aos equipamentos do sistema elétrico aeronáutico devido à restrição de utilização da filtragem ativa do tipo shunt à apenas os equipamentos trazem problemas á qualidade de energia. Com isso a qualidade de energia do sistema á mantida e sem que haja a abuso quanto a quantidade de equipamentos providos por filtros ativos. Tal fato faz com que a utilização deste tipo de filtragem apresente viabilidade econômica.
+	
+	\item \textit{Filtros Híbrido}: Filtros Ativos com topologia híbrida são concebidos pela junção da filtragem série e shunt. Deste modo a qualidade de energia nos pórticos dos equipamentos apresentam tensões e correntes senoidais, independentemente da carga. Apesar de esta característica ser vantajosa para sistemas aeronáuticos, os problemas com sua utilização recaem nos mesmos que inviabilizam o uso de filtros série. Como a utilziação de filtros shunt já é condição necessária para a manutenção da qualidade de energia em sistemas elétricos aeronáuticos, sua utilização não trás vantagens suficientes para sua implementação.
+	 
+\end{enumerate}
+
+Como 
+
 \subsection{Filtros Ativo Empregando a Teoria P-Q}
 
-%de acordo com os paranaues, \cite{Watanabe1991}, \cite{Akagi2007}, \cite{Watanabe2004}, \cite{Afonso2000}, \cite{Couto2003}
+
+de acordo com os paranaues, \cite{Watanabe1991}, \cite{Akagi2007}, \cite{Watanabe2004}, \cite{Afonso2000}, \cite{Couto2003}

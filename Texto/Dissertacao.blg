@@ -1,10 +1,13 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Dissertacao.aux
 The style file: abnt-num.bst
 Database file #1: Referencias_Bibliograficas/Bibliografia.bib
-Warning--I didn't find a database entry for "generalized"
+Repeated entry---line 483 of file Referencias_Bibliograficas/Bibliografia.bib
+ : @article{Watanabe1991
+ :                      ,
+I'm skipping whatever remains of this entry
 +---------------------------------------------------------+
 | Estilo bibliográfico abnt-num.bst versão 1.42.2.1           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-(There was 1 warning)
+(There was 1 error message)

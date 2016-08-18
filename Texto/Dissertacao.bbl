@@ -58,4 +58,33 @@ Dispon{\'\i}vel em:
   Instant\^anea e Aplica{\c{c}}{\~o}es - Filtros Ativos e FACTS -}. UFRJ - Rio
   de Janeiro: Laborat\'orio de Eletr\^onica de Pot\^encia.}
 
+\bibitem{Watanabe1991}
+\abntrefinfo{Watanabe e Stephan}{WATANABE; STEPHAN}{1991}
+{WATANABE, E.; STEPHAN, R. Pot{\^e}ncia ativa e reativa instant{\^a}neas em
+  sistemas el{\'e}tricos com fontes e cargas gen{\'e}ricas.
+\emph{Revista da SBA: Controle e Automa{\c{c}}{\~a}o}, IFAC, v.~3, n.~1, p.
+  253--263, 1991.}
+
+\bibitem{Watanabe2004}
+\abntrefinfo{Watanabe, Aredes e Akagi}{WATANABE; AREDES; AKAGI}{2004}
+{WATANABE, E.~H.; AREDES, M.; AKAGI, H. The p-q theory for active filter
+  control: some problems and solutions.
+\emph{Sba: Controle \& Automa{\c{c}}{\~a}o Sociedade Brasileira de Automatica},
+  SciELO Brasil, v.~15, n.~1, p. 78--84, 2004.}
+
+\bibitem{Afonso2000}
+\abntrefinfo{Afonso, Couto e Martins}{AFONSO; COUTO; MARTINS}{2000}
+{AFONSO, J.~L.; COUTO, C.; MARTINS, J.~S. Active filters with control based on
+  the pq theory.
+\emph{IEEE Industrial Electronics Society Newsletter}, IEEE, v.~47, n.~3, p.
+  5--10, 2000.}
+
+\bibitem{Couto2003}
+\abntrefinfo{Couto, Martins e Afonso}{COUTO; MARTINS; AFONSO}{2003}
+{COUTO, E.~F.; MARTINS, J.~S.; AFONSO, J.~L. Resultados de simula{\c{c}}{\~o}es
+  de um filtro activo paralelo com controlo baseado na teoria p-q.
+\emph{8º Congresso Luso-Espanhol de Engenharia Eletrotécnica}, APDEE.
+  Associa{\c{c}}{\~a}o Portuguesa para a Promo{\c{c}}{\~a}o e Desenvolvimento
+  da Engenharia Electrot{\'e}cnica, p. 4159--4164, 2003.}
+
 \end{thebibliography}

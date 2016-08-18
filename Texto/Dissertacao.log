@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.7)  16 AUG 2016 22:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.7)  18 AUG 2016 00:10
 entering extended mode
 **./Dissertacao.tex
 (Dissertacao.tex
@@ -1999,18 +1999,15 @@ Package babel Info: Redefining portuges shorthand "|
 
 pdftex: bookmark at 1: {1.3} {\numberline{1.3}Filtros Ativos} {section.1.3}{1}{
 toc}
-Package hyperref Info: Anchor `subsection.1.3.1' on input line 2.
+
+LaTeX Warning: Reference `ZZZZ' on page 20 undefined on input line 3.
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2.
-pdftex: bookmark at 2: {1.3.1} {\numberline{1.3.1}Filtros Ativo Empregando a Te
-oria P-Q} {subsection.1.3.1}{2}{toc}
-) (Dissertacao.bbl
+(babel)             in language  on input line 4.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3.
-Package hyperref Info: Anchor `page.20' on input line 3.
- [20
+(babel)             in language  on input line 4.
+Package hyperref Info: Anchor `page.20' on input line 4.
+[20
 Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 450.
 Package `hyperref' Info: End of reference (link) `figure.caption.15', line 463.
 
@@ -2020,13 +2017,46 @@ Package `hyperref' Info: End of reference (link) `figure.caption.16', line 484.
 
  <./Cap3/Figuras/pqfisico.png> <./Cap3/Figuras/3ph_ex.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3.
+(babel)             in language  on input line 6.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3.
-Package hyperref Info: Anchor `page.21' on input line 3.
+(babel)             in language  on input line 6.
+Package hyperref Info: Anchor `page.21' on input line 6.
  [21 <./Cap3/Figuras/p_bal-eps-converted-to.pdf> <./Cap3/Figuras/q_bal-eps-conv
 erted-to.pdf> <./Cap3/Figuras/p_desb-eps-converted-to.pdf> <./Cap3/Figuras/q_de
 sb-eps-converted-to.pdf>]
+Package hyperref Info: Anchor `Item.1' on input line 9.
+Package hyperref Info: Anchor `Item.2' on input line 11.
+Package hyperref Info: Anchor `Item.3' on input line 13.
+Package hyperref Info: Anchor `subsection.1.3.1' on input line 19.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 19.
+
+pdftex: bookmark at 19: {1.3.1} {\numberline{1.3.1}Filtros Ativo Empregando a T
+eoria P-Q} {subsection.1.3.1}{2}{toc}
+Package hyperref Info: Reference (cite) `cite.Watanabe1991' on input line 22.
+Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 22.
+Package hyperref Info: Reference (cite) `cite.Watanabe2004' on input line 22.
+Package hyperref Info: Reference (cite) `cite.Afonso2000' on input line 22.
+Package hyperref Info: Reference (cite) `cite.Couto2003' on input line 22.
+) (Dissertacao.bbl
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+Package hyperref Info: Anchor `page.22' on input line 3.
+ [22]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+Package hyperref Info: Anchor `page.23' on input line 3.
+ [23
+Package `hyperref' Info: End of reference (cite) `cite.Watanabe1991', line 22.
+Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 22.
+Package `hyperref' Info: End of reference (cite) `cite.Watanabe2004', line 22.
+Package `hyperref' Info: End of reference (cite) `cite.Afonso2000', line 22.
+Package `hyperref' Info: End of reference (cite) `cite.Couto2003', line 22.
+]
 Package hyperref Info: Anchor `chapter*.17' on input line 3.
 Package hyperref Info: Anchor `chapter.2' on input line 3.
 Package babel Info: Redefining portuges shorthand "|
@@ -2060,16 +2090,32 @@ Package hyperref Info: Anchor `cite.Peng1996' on input line 36.
 Package hyperref Info: Anchor `cite.Akagi1984' on input line 43.
 Package hyperref Info: Anchor `cite.Akagi2007' on input line 50.
 Package hyperref Info: Anchor `cite.AredesSD' on input line 55.
+Package hyperref Info: Anchor `cite.Watanabe1991' on input line 61.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 68.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 68.
+Package hyperref Info: Anchor `page.24' on input line 68.
+[24
+
+]
+Package hyperref Info: Anchor `cite.Watanabe2004' on input line 68.
+Package hyperref Info: Anchor `cite.Afonso2000' on input line 75.
+Package hyperref Info: Anchor `cite.Couto2003' on input line 82.
+
+
+LaTeX Font Warning: Font shape `TS1/aer/m/it' undefined
+(Font)              using `TS1/aer/m/n' instead
+(Font)              for symbol `textordmasculine' on input line 86.
+
 ) 
 AED: lastpage setting LastPage
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 255.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 255.
-Package hyperref Info: Anchor `page.22' on input line 255.
-[22
-
-]
+Package hyperref Info: Anchor `page.25' on input line 255.
+[25]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 255.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 255.
@@ -2096,10 +2142,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 255.
  ) 
 Here is how much of TeX's memory you used:
- 28407 strings out of 493335
- 535174 string characters out of 3136684
- 691593 words of memory out of 3000000
- 31297 multiletter control sequences out of 15000+200000
+ 28434 strings out of 493335
+ 535549 string characters out of 3136684
+ 691725 words of memory out of 3000000
+ 31314 multiletter control sequences out of 15000+200000
  43081 words of font info for 105 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,12n,77p,10385b,1067s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2118,9 +2164,9 @@ iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86
 )/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Dissertacao.pdf (22 pages, 574394 bytes).
+Output written on Dissertacao.pdf (25 pages, 585393 bytes).
 PDF statistics:
- 464 PDF objects out of 1000 (max. 8388607)
- 110 named destinations out of 1000 (max. 500000)
+ 492 PDF objects out of 1000 (max. 8388607)
+ 120 named destinations out of 1000 (max. 500000)
  168 words of extra memory for PDF output out of 10000 (max. 10000000)
 
