@@ -16,7 +16,73 @@ Com este entendimento o sistema de filtragem ativa do tipo shunt é o mais adequa
 
 \subsection{Filtros Ativo Empregando a Teoria P-Q}
 
-O emprego da teoria de potência instantânea para realização de filtragem ativa é feita com a aplicação das equações provenientes dos conceitos básicos. Com isso é possível adquirir valores instantâneos de corrente de tal forma que possam ser aplicados em conversores estáticos para utilização na filtragem ativa. O emprego desta teoria trás grande vantagens com sua utilização no desenvolvimento de filtros ativos devido a ampla gama de aplicação. Ou seja, a filtragem ativa utilizando a teoria PQ tem como característica a facilidade nos cálculos devido ao fato que apenas expressões algébricas são realizadas, tem uma boa resposta dinâmica, podem ser aplicados a qualquer circuito trifásico balanceados ou desbalanceados, com ou sem a presença de harmônicas, e ainda em regime transitório ou permanente \cite{Afonso2000}.
-	
+O emprego da teoria de potência instantânea para realização de filtragem ativa é feita com a aplicação das equações provenientes dos conceitos básicos. Com isso é possível adquirir valores instantâneos de corrente de tal forma que possam ser aplicados em conversores estáticos na utilização da filtragem ativa. O emprego desta teoria trás grande vantagens com sua utilização no desenvolvimento de filtros ativos devido a ampla gama de aplicação. Ou seja, a filtragem ativa utilizando a teoria PQ tem como característica a facilidade nos cálculos devido ao fato que apenas expressões algébricas são realizadas, tem uma boa resposta dinâmica, podem ser aplicados a qualquer circuito trifásico balanceados ou desbalanceados, com ou sem a presença de harmônicas, e ainda em regime transitório ou permanente \cite{Afonso2000}. Na prática o funcionamento dos filtros ativos é limitado apenas pelas características dos conversores estáticos a qual realizam a injeção de corrente no sistema. Por possuírem uma resposta dinâmica não instantânea, a performance da filtragem é restringido pela inércia dos conversores estáticos. Para fins didáticos, primeiramente será considerado que as correntes provenientes do filtro ativo seja adquirida através de fontes de corrente controladas.
+
+A teoria PQ possuí como característica a determinação das potências instantâneas ativa e reativa de modo que estas carregam importantes atributos das formas de onda das tensões e correntes do sistema. A determinação das potências ativa e reativa como função das tensões e correntes nas coordenadas $\alpha \beta 0$ é apresentado na equação \ref{eq:pq_combined}. Nesta equação é mostrado tanto o calculo das potências cuja as componente $v_0$ e $i_o$ são não nulos quanto para o caso em que tais valores são nulos. O caminho inverso para a determinação das correntes $i_{\alpha}$, $i_{\beta}$, e $i_0$ para um sistema a qual é conhecida as tensões e as potências instantâneas é determinada segundo a equação \ref{eq:i_alphabeta0}, para o caso em que considera-se as componentes de sequência zero.
+
+\begin{equation}
+\begin{bmatrix}
+i_{\alpha}\\
+i_{\beta}\\
+i_0
+\end{bmatrix} = 
+\dfrac{1}{v_{\alpha}^2+v_{\beta}^2+v_0^2}
+\begin{bmatrix}
+v_{\alpha}	&	0			&	v_0			&	-v_{\beta}\\
+v_{\beta}	&	-v_0		&	0			&	v_{\alpha}\\
+v_{0}		&	v_{\beta}	&	-v_{\alpha}	&	0
+\end{bmatrix}
+\begin{bmatrix}
+p\\
+q_{\alpha}\\
+q_{\beta}\\
+q_0
+\end{bmatrix}
+\label{eq:i_alphabeta0}
+\end{equation}
+
+Para o caso onde as componentes de sequência zero são nulos, ou seja, eliminando as variáveis $v_o$ e $i_0$ da equação, a expressão a qual representa os valores instantâneos da correntes nas coordenadas $\alpha \beta 0$ a partir dos valores da tensão e potências $p$ e $q$ são apresentadas pela equação \ref{eq:i_alphabeta}.
+
+\begin{equation}
+\begin{bmatrix}
+i_{\alpha}\\
+i_{\beta}
+\end{bmatrix}=
+\dfrac{1}{v_{\alpha}^2+v_{\beta}^2}
+\begin{bmatrix}
+v_{\alpha}	&	v_{\beta}\\
+v_{\beta}	&	-v_{\alpha}
+\end{bmatrix}
+\begin{bmatrix}
+p\\
+q
+\end{bmatrix}
+\label{eq:i_alphabeta}
+\end{equation}
+
+Cabe lembrar que o sinal utilizado na expressão \ref{eq:i_alphabeta} é definido segundo a convenção utilizada na equação \ref{eq:pq}. Com a determinação das correntes nas coordenadas $\alpha \beta 0$ pode-se utilizar a transformada inversa de Clarke (equação \ref{eq:iabc_inv}) para obter as correntes nas coordenadas $abc$. 
+
+Com as expressões apresentadas, a determinação da correntes $i_{\alpha}$ e $i_{\beta}$ podem ser realizadas através das potências ativa e reativa instantâneas. Ainda, pode-se estender o a obtenção não apenas das correntes nas coordenada $\alpha \beta 0 $ mas também nas coordenadas $abc$. O principio dos filtragem ativa através da utilização da teoria PQ é dado a partir da obtenção de correntes a serem compensadas e utiliza-las como referência de entrada em compensadores de corrente, tal qual mostrado na figura \ref{label}. A determinação das correntes de compensação é feita através da análise da composição das potências ativa e reativa instantânea de um sistema. Com isso pode-se selecionar partes de $p$ e $q$ de modo a especificar as potências a serem compensadas $p_c^*$ e $q_c^*$ pelo filtro. As potências $p_c^*$ e $q_c^*$ são finalmente utilizadas na equação \ref{eq:i_alphabeta} de modo a consagrar as correntes a serem utilizadas como referência em um compensador de corrente.
+
+\begin{figure}[!htb] %
+	\centering
+	\includegraphics[width=0.65\textwidth]{Cap3/Figuras/compensador.png}
+	\caption{\cite{Akagi2007}}
+	\label{fig:compensador.png}
+\end{figure}
+
+\subsubsection{Seleção de Potências Compensadas}
+
+
+
+\subsubsection{Concepção dos Filtros Ativos}
+
+
+\begin{figure}[!htb] %
+	\centering
+	\includegraphics[width=0.75\textwidth]{Cap3/Figuras/metodo_controle.png}
+	\caption{\cite{Akagi2007}}
+	\label{fig:metodo_controle.png}
+\end{figure}
 
 de acordo com os paranaues, \cite{Watanabe1991}, \cite{Akagi2007}, \cite{Watanabe2004}, \cite{Afonso2000}, \cite{Couto2003}
