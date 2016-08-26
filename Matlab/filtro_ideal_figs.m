@@ -5,7 +5,7 @@ clc
 f = 1;
 T = 3;
 vp = 115*sqrt(2);
-ip = 20;
+ip = 5;
 t = linspace(0,T/f*2,50000);
 Ts = t(end)/length(t);
 
@@ -79,18 +79,26 @@ Pbar = filter(b,a,P);
 
 Ptil = P-Pbar;
 
-% Ptil(1:length(Ptil)/2) = 0;
-% Q(1:length(Q/2))=0;
+Ptil(1,1:length(Ptil)/3) = 0;
+Ptil(1,length(Ptil)*2/3:end) = 0;
+Q(1,1:length(Q)/3) = 0;
+Q(1,length(Q)*2/3:end) = 0;
 
 figure;
 plot(t,Pbar,t,Ptil,t,P);legend('Pbar','Ptil','P');
 
-
+% Ptil1 = Ptil;
+% Ptil1(1:length(Ptil1)/2)=0; 
+% Q1=Q;
+% Q1(1,1:length(Q)/2)=0;
 %%  Current Correction
 
 I0_p = -P0./V0;
 Ialpha_p = 1./(Valpha.^2+Vbeta.^2).*(-Valpha.*Ptil - Vbeta.*Q);
 Ibeta_p = 1./(Valpha.^2+Vbeta.^2).*(-Vbeta.*Ptil + Valpha.*Q);
+
+% Ialpha_p1 = 1./(Valpha.^2+Vbeta.^2).*(-Valpha.*Ptil1 - Vbeta.*Q1);
+% Ibeta_p1 = 1./(Valpha.^2+Vbeta.^2).*(-Vbeta.*Ptil1 + Valpha.*Q1);
 
 % Vab0quad = Valpha.^2+Vbeta.^2+V0.^2;
 
