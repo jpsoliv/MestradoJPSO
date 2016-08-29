@@ -71,6 +71,13 @@ Com as expressões apresentadas, a determinação da correntes $i_{\alpha}$ e $i_{\
 	\label{fig:compensador.png}
 \end{figure}
 
+\begin{figure}[!htb] %
+	\centering
+	\includegraphics[width=0.75\textwidth]{Cap3/Figuras/metodo_controle.png}
+	\caption{\cite{Akagi2007}}
+	\label{fig:metodo_controle.png}
+\end{figure}
+
 \subsubsection{Seleção de Potências Compensadas}
 
 A operação de um circuito trifásico qualquer é realizado com o fluxo de potência instantânea $p$ e $q$ entre seus subsistemas e suas fases. Com os valores de $p$ e $q$ em um determinado instante de tempo, pode-se definir os valores das correntes nas fases do circuito, visto que as potências instantâneas são definidas como função de tais correntes. A determinação da referência para utilizar em um compensador é dada de modo que este injete componentes de corrente com o objetivo de anular partes das potências que são indesejadas no circuito. Esta compensação é realizada com a obtenção de formas de onda de corrente de modo a prover potências simétricas aos valores de $p$ e $q$ que deseja-se compensar.
@@ -85,26 +92,17 @@ q = \overline{q} + \tilde{q}
 \label{eq:pq_m_o}
 \end{equation}
 
-Como já explicado na seção \ref{}, a potência instantânea reativa é apresentada por não fornecer troca de energia em um determinado instante de tempo entre subsistemas. Está potência é definida pela energia que flui entre as fases do circuito. Deste modo a presença desta potência em um sistema apenas eleva os níveis de correntes de linhas, apresentando em determinadas situações componentes harmônicas que degradam a qualidade de energia. Além do mais o fator de potência é degradado com a presença da potência reativa instantânea. Sendo $\lambda = \sfrac{p}{s}$, $\sqrt{p^2+q^2}\geq p$ e $s=\sqrt{p^2+q^2}$, tem-se que a relação \ref{eq:lambda_comp} é valida. Desta maneira, para que o fator de potência $\lambda$ apresente valores unitários, a potência reativa instantânea necessariamente deve ser zero para todo instante de tempo, ou seja, $q\equiv0$ . 
+Como já explicado na seção \ref{}, a potência instantânea reativa é estabelecido por não fornecer troca de energia em um determinado instante de tempo entre subsistemas, sendo que esta potência é definida pela energia que flui entre as fases do circuito. Deste modo a presença desta potência em um sistema apenas eleva os níveis de correntes de linhas, apresentando em determinadas situações componentes harmônicas que degradam a qualidade de energia. Além do mais o fator de potência é degradado com a presença da potência reativa instantânea. Sendo $\lambda = \sfrac{p}{s}$, $\sqrt{p^2+q^2}\geq p$ e $s=\sqrt{p^2+q^2}$, tem-se que a relação \ref{eq:lambda_comp} é valida. Desta maneira, para que o fator de potência $\lambda$ apresente valores unitários, a potência reativa instantânea necessariamente deve ser zero para todo instante de tempo, ou seja, $q\equiv0$ . 
 
 \begin{equation}
 \lambda = \dfrac{p}{\sqrt{p^2+q^2}}\leq1
 \label{eq:lambda_comp}
 \end{equation}
-  
 
+Cabe lembrar que o fator de potência definido por $\lambda = \sfrac{p}{s}$ é exposta pela relação das potências instantâneas, portanto este é definido pelo fator de potência em cada instante de tempo. Os valores oscilatórios da potência ativa instantânea são estabelecidos pela troca de energia entre subsistemas, sendo que uma carga pode apresentar-se como consumidora e fornecedora de energia durante instantes específicos do tempo. Considerando valores médios, como apresentados na equação \ref{eq:lambda}, o fator de potência apresentaria valores diferentes comparativamente apresentada na equação \ref{eq:lambda_comp}, sendo que as componentes oscilantes da potência $p$ elevariam os valores da potência aparente do sistema. Desse modo para obter o fator de potência unitário para a transmissão de energia entre subsistemas os valores médios da potência oscilante necessitam ser compensados. Dessa maneira a única potência presente em um sistema com a presença de um compensador seria a instantânea média ativa, ou a parcela $\overline{p}$ da expressão $p = \overline{p} + \tilde{p}$. 
 
+Outras combinações de potências instantâneas a serem compensadas podem ser aplicadas em um compensador com o objetivo de adquirir funcionamentos distinto aos objetivos de elevar a qualidade de energia. Para isso o estudo do comportamento deve ser realizado de modo a definir as potências desejáveis presentes no sistema. Todavia, como o objetivo deste trabalho é exatamente aumentar a qualidade de energia, apenas as potências $q$ e $\tilde{p}$ necessitam ser compensadas de modo a obter um sistema que atue como sendo composto por uma fonte entregando uma quantidade de energia constante para as cargas. Com este comportamento garante-se que as formas de onda da corrente são estabelecidas como sendo senoidais e em fase com as tensões de fase, de modo que a fonte enxergaria a carga como sendo composta por resistências e o fator de potência seja unitário.
 
 \subsubsection{Concepção dos Filtros Ativos}
-
-jh
-jhj
-
-\begin{figure}[!htb] %
-	\centering
-	\includegraphics[width=0.75\textwidth]{Cap3/Figuras/metodo_controle.png}
-	\caption{\cite{Akagi2007}}
-	\label{fig:metodo_controle.png}
-\end{figure}
 
 de acordo com os paranaues, \cite{Watanabe1991}, \cite{Akagi2007}, \cite{Watanabe2004}, \cite{Afonso2000}, \cite{Couto2003}
