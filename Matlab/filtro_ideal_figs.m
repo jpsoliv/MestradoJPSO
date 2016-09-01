@@ -3,36 +3,44 @@ close all
 clc
 
 f = 1;
-T = 3;
+T = 4;
 vp = 115*sqrt(2);
-ip = 5;
-t = linspace(0,T/f*2,50000);
+ip = 70;
+t = linspace(0,T/f,50000);
 Ts = t(end)/length(t);
 
 va = vp*sin(2*pi*f*t);
 vb = vp*sin(2*pi*f*t-2*pi/3);
 vc = vp*sin(2*pi*f*t+2*pi/3);
+sft = pi/6;
 
-figure(1)
-plot(t,va,t,vb,t,vc)
+% figure(1)
+% plot(t,va,t,vb,t,vc)
 
 ia = zeros(1,length(t));
 ib = zeros(1,length(t));
 ic = zeros(1,length(t));
 
-ia(find(va>=vb&va>vc))=ip;
-ia(find(va<vb&va<=vc))=-ip;
-ib(find(vb>=va&vb>vc))=ip;
-ib(find(vb<va&vb<=vc))=-ip;
-ic(find(vc>=va&vc>vb))=ip;
-ic(find(vc<va&vc<=vb))=-ip;
+ia(find(va>=vb&va>vc)+round(sft*round(length(t)/T)/(2*pi)))=ip;
+ia(find(va<vb&va<=vc)+round(sft*round(length(t)/T)/(2*pi)))=-ip;
+ib(find(vb>=va&vb>vc)+round(sft*round(length(t)/T)/(2*pi)))=ip;
+ib(find(vb<va&vb<=vc)+round(sft*round(length(t)/T)/(2*pi)))=-ip;
+ic(find(vc>=va&vc>vb)+round(sft*round(length(t)/T)/(2*pi)))=ip;
+ic(find(vc<va&vc<=vb)+round(sft*round(length(t)/T)/(2*pi)))=-ip;
+
+ia(length(t)+1:length(ia))=[];
+ib(length(t)+1:length(ib))=[];
+ic(length(t)+1:length(ic))=[];
+
 
 % ia(1:length(ia)/2)=0;
 % ib(1:length(ib)/2)=0;
 % ic(1:length(ic)/2)=0;
 
-figure(2)
-plot(t,ia,t,ib,t,ic)
+figure(1)
+plot(t,va,t,ia,'LineWidth',2.5);
+lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
+set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
 
 %% Clarke Transformation
 
@@ -44,10 +52,10 @@ I0 = sqrt(2/3)*(1/sqrt(2)*ia + 1/sqrt(2)*ib + 1/sqrt(2)*ic);
 Ialpha = sqrt(2/3)*(1*ia - 1/2*ib - 1/2*ic);
 Ibeta = sqrt(2/3)*(0*ia + sqrt(3)/2*ib - sqrt(3)/2*ic);
 
-figure;
-plot(t,V0,t,Valpha,t,Vbeta); title('V_0, V_{\alpha}, V_{\beta}');legend('V_0','V_{\alpha}','V_{\beta}');
-figure;
-plot(t,I0,t,Ialpha,t,Ibeta);title('I_0, I_{\alpha}, I_{\beta}');legend('I_0','I_{\alpha}','I_{\beta}');
+% figure;
+% plot(t,V0,t,Valpha,t,Vbeta); title('V_0, V_{\alpha}, V_{\beta}');legend('V_0','V_{\alpha}','V_{\beta}');
+% figure;
+% plot(t,I0,t,Ialpha,t,Ibeta);title('I_0, I_{\alpha}, I_{\beta}');legend('I_0','I_{\alpha}','I_{\beta}');
 
 %% P-Q theory
 
@@ -56,8 +64,9 @@ P = Valpha.*Ialpha + Vbeta.*Ibeta;
 Q = Vbeta.*Ialpha - Valpha.*Ibeta;
 
 figure;
-plot(t,P0,t,P,t,Q);title('P_0, P, Q');legend('P_0','P','Q');
-
+plot(t,P,t,Q,'LineWidth',2.5);title('P, Q');legend('P','Q');
+lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
+set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
 % P = Valpha.*Ialpha+Vbeta.*Ibeta+V0.*I0;
 % qalpha = Vbeta.*I0-V0.*Ibeta;
 % qbeta = V0.*Ialpha-Valpha.*I0;
@@ -79,26 +88,23 @@ Pbar = filter(b,a,P);
 
 Ptil = P-Pbar;
 
-Ptil(1,1:length(Ptil)/3) = 0;
-Ptil(1,length(Ptil)*2/3:end) = 0;
-Q(1,1:length(Q)/3) = 0;
-Q(1,length(Q)*2/3:end) = 0;
+Ptil(1:length(Ptil)*1/3)=0;
+Ptil(length(Ptil)*5/6:length(Ptil)) = 0;
+Q(1:length(Q)*1/3)=0;
+Q(length(Q)*5/6:length(Q)) = 0;
+ 
+% figure;
+% plot(t,Pbar,t,Ptil,t,P);legend('Pbar','Ptil','P');
 
-figure;
-plot(t,Pbar,t,Ptil,t,P);legend('Pbar','Ptil','P');
-
-% Ptil1 = Ptil;
-% Ptil1(1:length(Ptil1)/2)=0; 
-% Q1=Q;
-% Q1(1,1:length(Q)/2)=0;
+figure(3);
+plot(t,-Ptil,t,-Q,'LineWidth',2.5);
+lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
+set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
 %%  Current Correction
 
-I0_p = -P0./V0;
+% I0_p = -P0./V0;
 Ialpha_p = 1./(Valpha.^2+Vbeta.^2).*(-Valpha.*Ptil - Vbeta.*Q);
 Ibeta_p = 1./(Valpha.^2+Vbeta.^2).*(-Vbeta.*Ptil + Valpha.*Q);
-
-% Ialpha_p1 = 1./(Valpha.^2+Vbeta.^2).*(-Valpha.*Ptil1 - Vbeta.*Q1);
-% Ibeta_p1 = 1./(Valpha.^2+Vbeta.^2).*(-Vbeta.*Ptil1 + Valpha.*Q1);
 
 % Vab0quad = Valpha.^2+Vbeta.^2+V0.^2;
 
@@ -111,38 +117,55 @@ Ibeta_p = 1./(Valpha.^2+Vbeta.^2).*(-Vbeta.*Ptil + Valpha.*Q);
 
 %% Inverse Clarke Transformation
 
-Ia_p = sqrt(2/3)*(1/sqrt(2)*I0_p + Ialpha_p);
-Ib_p = sqrt(2/3)*(1/sqrt(2)*I0_p - 1/2*Ialpha_p + sqrt(3)/2*Ibeta_p);
-Ic_p = sqrt(2/3)*(1/sqrt(2)*I0_p - 1/2.*Ialpha_p - sqrt(3)/2.*Ibeta_p);
+% Ia_p = sqrt(2/3)*(1/sqrt(2)*I0_p + Ialpha_p);
+% Ib_p = sqrt(2/3)*(1/sqrt(2)*I0_p - 1/2*Ialpha_p + sqrt(3)/2*Ibeta_p);
+% Ic_p = sqrt(2/3)*(1/sqrt(2)*I0_p - 1/2.*Ialpha_p - sqrt(3)/2.*Ibeta_p);
 
-figure;
-subplot(3,1,1);
-plot(t,Ia_p);legend('Ia_p');
-subplot(3,1,2);
-plot(t,ia);legend('ia');
-subplot(3,1,3);
-plot(t,ia+Ia_p);legend('ia+Ia_p');
+Ia_p = sqrt(2/3)*(Ialpha_p);
+Ib_p = sqrt(2/3)*(- 1/2*Ialpha_p + sqrt(3)/2*Ibeta_p);
+Ic_p = sqrt(2/3)*(- 1/2.*Ialpha_p - sqrt(3)/2.*Ibeta_p);
 
+% figure;
+% subplot(3,1,1);
+% plot(t,Ia_p);legend('Ia_p');
+% subplot(3,1,2);
+% plot(t,ia);legend('ia');
+% subplot(3,1,3);
+% plot(t,ia+Ia_p);legend('ia+Ia_p');
+figure(4)
+plot(t,Ia_p,'LineWidth',2.5);
+lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
+set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
 %% Active Filtering
 
 Ia = ia+Ia_p;
 Ib = ib+Ib_p;
 Ic = ic+Ic_p;
 
-figure
-plot(t,Ia,t,Ib,t,Ic);
-%% plots
-figure
-subplot(3,1,1);
-plot(t,Ia,t,va);
-subplot(3,1,2);
-plot(t,Ib,t,vb);
-subplot(3,1,3);
-plot(t,Ic,t,vc);
+% figure
+% plot(t,Ia,t,Ib,t,Ic);
 
-figure
-subplot(2,1,1);
-plot(t,va,t,vb,t,vc,t,ia,t,ib,t,ic);
-subplot(2,1,2);
-plot(t,va,t,vb,t,vc,t,ia,t,ib,t,ic);
+figure(5);
+plot(t,Ia,'LineWidth',2.5)
+lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
+set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
+
+figure(6);
+plot(t,va,t,Ia,'LineWidth',2.5);
+lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
+set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1)
+%% plots
+% figure
+% subplot(3,1,1);
+% plot(t,Ia,t,va);
+% subplot(3,1,2);
+% plot(t,Ib,t,vb);
+% subplot(3,1,3);
+% plot(t,Ic,t,vc);
+% 
+% figure
+% subplot(2,1,1);
+% plot(t,va,t,vb,t,vc,t,ia,t,ib,t,ic);
+% subplot(2,1,2);
+% plot(t,va,t,vb,t,vc,t,ia,t,ib,t,ic);
 
