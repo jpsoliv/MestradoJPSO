@@ -58,6 +58,13 @@ Dispon{\'\i}vel em:
   Instant\^anea e Aplica{\c{c}}{\~o}es - Filtros Ativos e FACTS -}. UFRJ - Rio
   de Janeiro: Laborat\'orio de Eletr\^onica de Pot\^encia.}
 
+\bibitem{Afonso2000}
+\abntrefinfo{Afonso, Couto e Martins}{AFONSO; COUTO; MARTINS}{2000}
+{AFONSO, J.~L.; COUTO, C.; MARTINS, J.~S. Active filters with control based on
+  the pq theory.
+\emph{IEEE Industrial Electronics Society Newsletter}, IEEE, v.~47, n.~3, p.
+  5--10, 2000.}
+
 \bibitem{Watanabe1991}
 \abntrefinfo{Watanabe e Stephan}{WATANABE; STEPHAN}{1991}
 {WATANABE, E.; STEPHAN, R. Pot{\^e}ncia ativa e reativa instant{\^a}neas em
@@ -71,13 +78,6 @@ Dispon{\'\i}vel em:
   control: some problems and solutions.
 \emph{Sba: Controle \& Automa{\c{c}}{\~a}o Sociedade Brasileira de Automatica},
   SciELO Brasil, v.~15, n.~1, p. 78--84, 2004.}
-
-\bibitem{Afonso2000}
-\abntrefinfo{Afonso, Couto e Martins}{AFONSO; COUTO; MARTINS}{2000}
-{AFONSO, J.~L.; COUTO, C.; MARTINS, J.~S. Active filters with control based on
-  the pq theory.
-\emph{IEEE Industrial Electronics Society Newsletter}, IEEE, v.~47, n.~3, p.
-  5--10, 2000.}
 
 \bibitem{Couto2003}
 \abntrefinfo{Couto, Martins e Afonso}{COUTO; MARTINS; AFONSO}{2003}

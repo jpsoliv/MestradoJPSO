@@ -4,8 +4,8 @@ clc
 
 f = 1;
 T = 4;
-vp = 115*sqrt(2);
-ip = 70;
+vp = 115;
+ip = 60;
 t = linspace(0,T/f,50000);
 Ts = t(end)/length(t);
 
@@ -37,11 +37,6 @@ ic(length(t)+1:length(ic))=[];
 % ib(1:length(ib)/2)=0;
 % ic(1:length(ic)/2)=0;
 
-figure(1)
-plot(t,va,t,ia,'LineWidth',2.5);
-lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
-set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
-
 %% Clarke Transformation
 
 V0 = sqrt(2/3)*((1/sqrt(2)*va + 1/sqrt(2)*vb + 1/sqrt(2)*vc));
@@ -59,14 +54,11 @@ Ibeta = sqrt(2/3)*(0*ia + sqrt(3)/2*ib - sqrt(3)/2*ic);
 
 %% P-Q theory
 
-P0 = V0.*I0;
-P = Valpha.*Ialpha + Vbeta.*Ibeta;
-Q = Vbeta.*Ialpha - Valpha.*Ibeta;
+% P0 = V0.*I0;
+P1 = Valpha.*Ialpha + Vbeta.*Ibeta;
+Q1 = Vbeta.*Ialpha - Valpha.*Ibeta;
 
-figure;
-plot(t,P,t,Q,'LineWidth',2.5);title('P, Q');legend('P','Q');
-lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
-set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
+
 % P = Valpha.*Ialpha+Vbeta.*Ibeta+V0.*I0;
 % qalpha = Vbeta.*I0-V0.*Ibeta;
 % qbeta = V0.*Ialpha-Valpha.*I0;
@@ -80,26 +72,24 @@ fsample = 1/Ts;
 
 [b,a] = butter(4,f/(fsample/2),'low');
 
-Pbar = filter(b,a,P);
+Pbar = filter(b,a,P1);
 
 %% Power Selection
 % P = Pbar+Ptil
 % Pbar = Potencia ativa;
 
-Ptil = P-Pbar;
+Ptil = P1-Pbar;
 
 Ptil(1:length(Ptil)*1/3)=0;
 Ptil(length(Ptil)*5/6:length(Ptil)) = 0;
+Q = Q1;
 Q(1:length(Q)*1/3)=0;
 Q(length(Q)*5/6:length(Q)) = 0;
  
 % figure;
 % plot(t,Pbar,t,Ptil,t,P);legend('Pbar','Ptil','P');
 
-figure(3);
-plot(t,-Ptil,t,-Q,'LineWidth',2.5);
-lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
-set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
+
 %%  Current Correction
 
 % I0_p = -P0./V0;
@@ -132,10 +122,7 @@ Ic_p = sqrt(2/3)*(- 1/2.*Ialpha_p - sqrt(3)/2.*Ibeta_p);
 % plot(t,ia);legend('ia');
 % subplot(3,1,3);
 % plot(t,ia+Ia_p);legend('ia+Ia_p');
-figure(4)
-plot(t,Ia_p,'LineWidth',2.5);
-lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
-set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
+
 %% Active Filtering
 
 Ia = ia+Ia_p;
@@ -145,16 +132,102 @@ Ic = ic+Ic_p;
 % figure
 % plot(t,Ia,t,Ib,t,Ic);
 
-figure(5);
-plot(t,Ia,'LineWidth',2.5)
+%% plots
+
+ft = 30;
+fatorX = 2;
+fatorY = 0.8;
+
+figure(1)
+plot(t,va,t,ia,'LineWidth',2.5);
+l = legend('$v_a$','$i_a$','Location', 'NorthEast');
+set(l,'Interpreter','Latex');
+set(l,'FontName','Cambria');
+set(l,'FontAngle','italic');
+set(l,'FontSize',ft);
+axis([0 t(end) -150 150]);
+set(gca,'Position',[0.05,0.05,0.9,0.9]);
+pos = get(gcf,'Position');
+set(gcf,'Position',[pos(1) pos(2) fatorX*pos(3) pos(4)*fatorY]);
+set(gca,'XtickLabel',[],'YtickLabel',[]);
 lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
 set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
 
+figure(2);
+plot(t,P1,t,Q1,'LineWidth',2.5);
+l = legend('$p$','$q$','Location', 'SouthEast');
+set(l,'Interpreter','Latex');
+set(l,'FontName','Cambria');
+set(l,'FontAngle','italic');
+set(l,'FontSize',ft);
+axis([0 t(end) -14000 14000]);
+set(gca,'Position',[0.05,0.05,0.9,0.9]);
+pos = get(gcf,'Position');
+set(gcf,'Position',[pos(1) pos(2) fatorX*pos(3) pos(4)*fatorY]);
+set(gca,'XtickLabel',[],'YtickLabel',[]);
+lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
+set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
+
+figure(3);
+plot(t,-Ptil,t,-Q,'LineWidth',2.5);
+l = legend('$-\tilde{p}$','$-q$','Location', 'SouthEast');
+set(l,'Interpreter','Latex');
+set(l,'FontName','Cambria');
+set(l,'FontAngle','italic');
+set(l,'FontSize',ft);
+axis([0 t(end) -14000 14000]);
+set(gca,'Position',[0.05,0.05,0.9,0.9]);
+pos = get(gcf,'Position');
+set(gcf,'Position',[pos(1) pos(2) fatorX*pos(3) pos(4)*fatorY]);
+set(gca,'XtickLabel',[],'YtickLabel',[]);
+lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
+set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
+
+figure(4)
+plot(t,Ia_p,'LineWidth',2.5);
+l = legend('$i_{Ca}^*$','Location', 'NorthEast');
+set(l,'Interpreter','Latex');
+set(l,'FontName','Cambria');
+set(l,'FontAngle','italic');
+set(l,'FontSize',ft);
+axis([0 t(end) -150 150]);
+set(gca,'Position',[0.05,0.05,0.9,0.9]);
+pos = get(gcf,'Position');
+set(gcf,'Position',[pos(1) pos(2) fatorX*pos(3) pos(4)*fatorY]);
+set(gca,'XtickLabel',[],'YtickLabel',[]);
+lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
+set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
+
+% figure(5);
+% plot(t,Ia,'LineWidth',2.5);
+% l = legend('$i_{Sa}$','Location', 'NorthEast');
+% set(l,'Interpreter','Latex');
+% set(l,'FontName','Cambria');
+% set(l,'FontAngle','italic');
+% set(l,'FontSize',ft);
+% axis([0 t(end) -150 150]);
+% set(gca,'Position',[0.05,0.05,0.9,0.9]);
+% pos = get(gcf,'Position');
+% set(gcf,'Position',[pos(1) pos(2) fatorX*pos(3) pos(4)*fatorY]);
+% set(gca,'XtickLabel',[],'YtickLabel',[]);
+% lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
+% set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
+
 figure(6);
-plot(t,va,t,Ia,'LineWidth',2.5);
+plot(t,va,'--',t,Ia,'LineWidth',2.5);
+l = legend('$v_a$','$i_{Sa}$','Location', 'NorthEast');
+set(l,'Interpreter','Latex');
+set(l,'FontName','Cambria');
+set(l,'FontAngle','italic');
+set(l,'FontSize',ft);
+axis([0 t(end) -150 150]);
+set(gca,'Position',[0.05,0.05,0.9,0.9]);
+pos = get(gcf,'Position');
+set(gcf,'Position',[pos(1) pos(2) fatorX*pos(3) pos(4)*fatorY]);
+set(gca,'XtickLabel',[],'YtickLabel',[]);
 lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
 set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1)
-%% plots
+
 % figure
 % subplot(3,1,1);
 % plot(t,Ia,t,va);
