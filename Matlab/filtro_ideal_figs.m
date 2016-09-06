@@ -202,7 +202,7 @@ set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
 
 figure(4)
 plot(t,Ia_p,'LineWidth',2.5);
-l = legend('$i_{Ca}^*$','Location', 'NorthEast');
+l = legend('$i_{Ca}$','Location', 'NorthEast');
 set(l,'Interpreter','Latex');
 set(l,'FontName','Cambria');
 set(l,'FontAngle','italic');
