@@ -32,7 +32,7 @@ set(l1,'Interpreter','Latex')
 set(l1,'Box','off');
 set(l1,'Location','northeastoutside');
 set(l1,'FontSize',14);
-set(l1,'FontAngle','italic')
+ 
 set(l1,'FontName','Cambria')
 % set(l1,'Position',Lpos1);
 % l2 = legend('v(t) ','i(t)','p(t)');

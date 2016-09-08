@@ -21,16 +21,27 @@ ia = zeros(1,length(t));
 ib = zeros(1,length(t));
 ic = zeros(1,length(t));
 
-ia(find(va>=vb&va>vc)+round(sft*round(length(t)/T)/(2*pi)))=ip;
-ia(find(va<vb&va<=vc)+round(sft*round(length(t)/T)/(2*pi)))=-ip;
-ib(find(vb>=va&vb>vc)+round(sft*round(length(t)/T)/(2*pi)))=ip;
-ib(find(vb<va&vb<=vc)+round(sft*round(length(t)/T)/(2*pi)))=-ip;
-ic(find(vc>=va&vc>vb)+round(sft*round(length(t)/T)/(2*pi)))=ip;
-ic(find(vc<va&vc<=vb)+round(sft*round(length(t)/T)/(2*pi)))=-ip;
+% ia(find(va>=vb&va>vc)+round(sft*round(length(t)/T)/(2*pi)))=ip;
+% ia(find(va<vb&va<=vc)+round(sft*round(length(t)/T)/(2*pi)))=-ip;
+% ib(find(vb>=va&vb>vc)+round(sft*round(length(t)/T)/(2*pi)))=ip;
+% ib(find(vb<va&vb<=vc)+round(sft*round(length(t)/T)/(2*pi)))=-ip;
+% ic(find(vc>=va&vc>vb)+round(sft*round(length(t)/T)/(2*pi)))=ip;
+% ic(find(vc<va&vc<=vb)+round(sft*round(length(t)/T)/(2*pi)))=-ip;
 
-ia(length(t)+1:length(ia))=[];
-ib(length(t)+1:length(ib))=[];
-ic(length(t)+1:length(ic))=[];
+ia(find(va>=vb&va>vc))=ip;
+ia(find(va<vb&va<=vc))=-ip;
+ib(find(vb>=va&vb>vc))=ip;
+ib(find(vb<va&vb<=vc))=-ip;
+ic(find(vc>=va&vc>vb))=ip;
+ic(find(vc<va&vc<=vb))=-ip;
+
+ia = circshift(ia,[0,round(sft*round(length(t)/T)/(2*pi))]);
+ib = circshift(ib,[0,round(sft*round(length(t)/T)/(2*pi))]);
+ic = circshift(ic,[0,round(sft*round(length(t)/T)/(2*pi))]);
+
+% ia(length(t)+1:length(ia))=[];
+% ib(length(t)+1:length(ib))=[];
+% ic(length(t)+1:length(ic))=[];
 
 
 % ia(1:length(ia)/2)=0;
@@ -276,6 +287,35 @@ set(gca,'XtickLabel',[],'YtickLabel',[]);
 lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
 set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1)
 
+figure(7)
+plot(t,va.*Ia+vb.*Ib+vc.*Ic,t,sqrt((vb.*Ic-vc.*Ib).^2+(vc.*Ia-va.*Ic).^2+(va.*Ib-vb.*Ia).^2),'LineWidth',2.5);
+l = legend('$p_S$','$q_S$','Location', 'SouthEast');
+set(l,'Interpreter','Latex');
+set(l,'FontName','Cambria');
+set(l,'FontAngle','italic');
+set(l,'FontSize',ft);
+set(l,'Box','off');
+tx = text(t(end)*1/3,-14000,'$t_i$');
+set(tx,'Interpreter','Latex');
+set(tx,'FontName','Cambria');
+set(tx,'FontAngle','italic');
+set(tx,'FontSize',ft);
+set(tx,'HorizontalAlignment','center');
+set(tx,'VerticalAlignment','bottom');
+tx = text(t(end)*5/6,-14000,'$t_f$');
+set(tx,'Interpreter','Latex');
+set(tx,'FontName','Cambria');
+set(tx,'FontAngle','italic');
+set(tx,'FontSize',ft);
+set(tx,'HorizontalAlignment','center');
+set(tx,'VerticalAlignment','bottom');
+axis([0 t(end) -14000 14000]);
+set(gca,'Position',[0.05,0.05,0.9,0.9]);
+pos = get(gcf,'Position');
+set(gcf,'Position',[pos(1) pos(2) fatorX*pos(3) pos(4)*fatorY]);
+set(gca,'XtickLabel',[],'YtickLabel',[]);
+lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
+set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1)
 % figure
 % subplot(3,1,1);
 % plot(t,Ia,t,va);
@@ -289,4 +329,3 @@ set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1)
 % plot(t,va,t,vb,t,vc,t,ia,t,ib,t,ic);
 % subplot(2,1,2);
 % plot(t,va,t,vb,t,vc,t,ia,t,ib,t,ic);
-
