@@ -99,9 +99,13 @@ Ibeta_p = 1./(Valpha.^2+Vbeta.^2).*(-Vbeta.*Ptil + Valpha.*Q);
 
 %% Inverse Clarke Transformation
 
-Ia_p = sqrt(2/3)*(1/sqrt(2)*I0_p + Ialpha_p);
-Ib_p = sqrt(2/3)*(1/sqrt(2)*I0_p - 1/2*Ialpha_p + sqrt(3)/2*Ibeta_p);
-Ic_p = sqrt(2/3)*(1/sqrt(2)*I0_p - 1/2.*Ialpha_p - sqrt(3)/2.*Ibeta_p);
+% Ia_p = sqrt(2/3)*(1/sqrt(2)*I0_p + Ialpha_p);
+% Ib_p = sqrt(2/3)*(1/sqrt(2)*I0_p - 1/2*Ialpha_p + sqrt(3)/2*Ibeta_p);
+% Ic_p = sqrt(2/3)*(1/sqrt(2)*I0_p - 1/2.*Ialpha_p - sqrt(3)/2.*Ibeta_p);
+
+Ia_p = sqrt(2/3)*(Ialpha_p);
+Ib_p = sqrt(2/3)*(- 1/2*Ialpha_p + sqrt(3)/2*Ibeta_p);
+Ic_p = sqrt(2/3)*(- 1/2.*Ialpha_p - sqrt(3)/2.*Ibeta_p);
 
 figure;
 plot(t,Ia_p,t,Ila,t,Ila+Ia_p);legend('Ia_p','Ila','Ia_p+Ila');
