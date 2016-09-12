@@ -51,16 +51,16 @@ plot(t,I0,t,Ialpha,t,Ibeta);title('I_0, I_{\alpha}, I_{\beta}');legend('I_0','I_
 %% P-Q theory
 
 % P0 = V0.*I0;
-% P = Valpha.*Ialpha + Vbeta.*Ibeta;
-% Q = Vbeta.*Ialpha - Valpha.*Ibeta;
+P = Valpha.*Ialpha + Vbeta.*Ibeta;
+Q = Vbeta.*Ialpha - Valpha.*Ibeta;
 % 
 % figure;
 % plot(t,P0,t,P,t,Q);title('P_0, P, Q');legend('P_0','P','Q');
 
-P = Valpha.*Ialpha+Vbeta.*Ibeta+V0.*I0;
-qalpha = Vbeta.*I0-V0.*Ibeta;
-qbeta = V0.*Ialpha-Valpha.*I0;
-q0 = -Valpha.*Ibeta-Vbeta.*Ialpha;
+% P = Valpha.*Ialpha+Vbeta.*Ibeta+V0.*I0;
+% qalpha = Vbeta.*I0-V0.*Ibeta;
+% qbeta = V0.*Ialpha-Valpha.*I0;
+% q0 = -Valpha.*Ibeta-Vbeta.*Ialpha;
 
 %% Filtering
 
@@ -79,7 +79,7 @@ Pbar = filter(b,a,P);
 Ptil = P-Pbar;
 
 figure;
-plot(t,Pbar,t,Ptil,t,P);legend('Pbar','Ptil','P');
+plot(t,Ptil,t,P,t,Pbar);legend('Ptil','P','Pbar');
 
 %%  Current Correction
 
@@ -88,9 +88,11 @@ plot(t,Pbar,t,Ptil,t,P);legend('Pbar','Ptil','P');
 % Ibeta_p = 1./(Valpha.^2+Vbeta.^2).*(-Vbeta.*Ptil + Valpha.*Q);
 Vab0quad = Valpha.^2+Vbeta.^2+V0.^2;
 
-Ialpha_p = -1./Vab0quad.*(Valpha.*Ptil+V0.*qbeta-Vbeta.*q0);
-Ibeta_p = -1./Vab0quad.*(Vbeta.*Ptil-V0.*qalpha+Valpha.*q0);
-I0_p = -1./Vab0quad.*(V0.*Ptil+Vbeta.*qalpha-Valpha.*qbeta);
+% Ialpha_p = (1./Vab0quad.*(Valpha.*Ptil+V0.*qbeta+Vbeta.*q0));
+% Ibeta_p = (1./Vab0quad.*(-Vbeta.*Ptil-V0.*qalpha+Valpha.*q0));
+% I0_p = -1./Vab0quad.*(V0.*Ptil+Vbeta.*qalpha-Valpha.*qbeta);
+Ialpha_p = 1./(Valpha.^2+Vbeta.^2).*(-Valpha.*Ptil - Vbeta.*Q);
+Ibeta_p = 1./(Valpha.^2+Vbeta.^2).*(-Vbeta.*Ptil + Valpha.*Q);
 % figure;
 % plot(t,Ialpha_p,t,Ibeta_p);
 
