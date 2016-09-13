@@ -4,7 +4,7 @@ clc
 load('carga_EHA.mat');
 
 Ts = 1e-6;
-run('D:\Joao\Libraries\Onedrive\Documents\Documents\Mestrado ITA\MestradoJPSO\Matlab\Active_filter.m')
+run('C:\Users\jpsoliv\Documents\João\Mestrado\MestradoJPSO.git_certo\trunk\Matlab\Active_filter.m')
 close all
 
 
