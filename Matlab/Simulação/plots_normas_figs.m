@@ -1,7 +1,7 @@
 
-signal = Vabc_S.signals.values;
-time = Vabc_S.time;
-ti = 72.95;
+signal = Vabc.signals.values;
+time = Vabc.time;
+ti = 73;
 tf = 73.2;
 f_rede = 400;
 
@@ -15,7 +15,7 @@ t = time(index_ini:index_fim);
 X = signal(index_ini:index_fim)';
 
 figure(1)
-plot(t,X,t,Iabc_S.signals.values(index_ini:index_fim));
+plot(t,X,t,Iabc.signals.values(index_ini:index_fim));
 
 figure(2)
 DO160(time,signal,ti,tf,f_rede)

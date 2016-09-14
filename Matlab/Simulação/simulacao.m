@@ -32,7 +32,7 @@ D0 = beta*Ct*k/(V0*M);
 %% Simulação
 
 % sim('power_aircraft_distribution_mexido_2014_V2');
-sim('power_aircraft_distribution_mexido_2014_V3');
+sim('power_aircraft_distribution_mexido_2014_V4');
 
 %% Plot
 
