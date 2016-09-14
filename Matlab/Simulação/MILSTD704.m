@@ -1,3 +1,18 @@
+function MILSTD704(time,signal,ti,tf,f_rede)
+
+%% FFT
+ini = find(time<=ti);
+fim = find(time>=tf);
+
+index_ini = ini(end);
+index_fim = fim(1);
+
+t = time(index_ini:index_fim);
+X = signal(index_ini:index_fim)';
+
+[fs,ys] = fft_mestre(X,t);
+
+%% Curvas Norma
 
 f = 10:10:500000;
 
@@ -14,6 +29,13 @@ y(find(f==1000):find(f==3000)) = 3.16;
 y(f>3000&f<500000) = [];
 f(f>3000&f<500000) = [];
 
-y(end) = 0.0316;
+y(end) = 10^(-34.44/20);
 
-semilogx(f,y);
+%% plots
+loglog(f,y);
+hold on
+plot(fs,ys/sqrt(2));
+hold off
+
+xlim([10 500000])
+end

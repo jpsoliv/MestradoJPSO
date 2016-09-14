@@ -1,14 +1,14 @@
-
+function DO160(time,signal,ti,tf,f_rede)
 %% Definição dos Sinais
 
-time = Vabc.time;
-signal = Vabc.signals.values(:,1);
-f_rede = 400;
+% time = Vabc_S.time;
+% signal = Vabc_S.signals.values(:,1);
+% f_rede = 400;
 
 %% FFT
 
-ti = 72.82;
-tf = 72.92;
+% ti = 73;
+% tf = 73.05;
 
 ini = find(time<=ti);
 fim = find(time>=tf);
@@ -39,8 +39,8 @@ THD = 100*sqrt(dot(y1,y1))/fund;
 
 %% PLOT
 
-figure(1)
-plot(t,X);
+% figure(1)
+% plot(t,X);
 
 figure(2);
 bar(round(f(index)/f_rede),y(index)/sqrt(2));
