@@ -34,7 +34,7 @@ y(end) = 10^(-34.44/20);
 %% plots
 loglog(f,y);
 hold on
-plot(fs,ys/sqrt(2));
+plot(fs,ys/sqrt(2));legend('MIL-STD 704F');
 hold off
 
 xlim([10 500000])
