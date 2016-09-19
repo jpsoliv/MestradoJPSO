@@ -1,7 +1,7 @@
 
 signal = Vabc.signals.values;
 time = Vabc.time;
-ti = 73;
+ti = 73.0;
 tf = 73.6;
 f_rede = 400;
 
