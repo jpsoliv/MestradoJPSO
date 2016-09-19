@@ -147,26 +147,54 @@ Ic = ic+Ic_p;
 
 ft = 30;
 fatorX = 2;
-fatorY = 0.8;
+fatorY = 0.81;
+ftaxes = 24;
 
 figure(1)
 plot(t,va,t,ia,'LineWidth',2.5);
+
+xl = xlabel('tempo [s]');
+set(xl,'Interpreter','Latex');
+set(xl,'FontName','Times New Roman');
+% set(xl,'FontAngle','italic');
+set(xl,'FontSize',ftaxes);
+
+yl = ylabel({'Tensão [V]';'Corrente [A]'});
+set(yl,'Interpreter','Latex');
+set(yl,'FontName','Times New Roman');
+% set(yl,'FontAngle','italic');
+set(yl,'FontSize',ftaxes);
+
 l = legend('$v_a$','$i_{La}$','Location', 'NorthEast');
 set(l,'Interpreter','Latex');
 set(l,'FontName','Cambria');
 set(l,'FontAngle','italic');
 set(l,'FontSize',ft);
 set(l,'Box','off');
+
 axis([0 t(end) -150 150]);
-set(gca,'Position',[0.05,0.05,0.9,0.9]);
+set(gca,'Position',[0.065,0.105,0.925,0.87]);
 pos = get(gcf,'Position');
 set(gcf,'Position',[pos(1) pos(2) fatorX*pos(3) pos(4)*fatorY]);
 set(gca,'XtickLabel',[],'YtickLabel',[]);
+
 lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
 set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
 
 figure(2);
 plot(t,P1,t,Q1,'LineWidth',2.5);
+xl = xlabel('tempo [s]');
+set(xl,'Interpreter','Latex');
+set(xl,'FontName','Times New Roman');
+set(xl,'FontAngle','italic');
+set(xl,'FontSize',ftaxes);
+
+yl = ylabel({'Potência Ativa [W]';'Potência Reativa [vai]'});
+set(yl,'Interpreter','Latex');
+set(yl,'FontName','Times New Roman');
+% set(yl,'FontAngle','italic');
+set(yl,'FontSize',ftaxes);
+
 l = legend('$p$','$q$','Location', 'SouthEast');
 set(l,'Interpreter','Latex');
 set(l,'FontName','Cambria');
@@ -174,7 +202,7 @@ set(l,'FontAngle','italic');
 set(l,'FontSize',ft);
 set(l,'Box','off');
 axis([0 t(end) -14000 14000]);
-set(gca,'Position',[0.05,0.05,0.9,0.9]);
+set(gca,'Position',[0.065,0.105,0.925,0.87]);
 pos = get(gcf,'Position');
 set(gcf,'Position',[pos(1) pos(2) fatorX*pos(3) pos(4)*fatorY]);
 set(gca,'XtickLabel',[],'YtickLabel',[]);
@@ -183,6 +211,19 @@ set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
 
 figure(3);
 plot(t,-Ptil,t,-Q,'LineWidth',2.5);
+
+xl = xlabel('tempo [s]');
+set(xl,'Interpreter','Latex');
+set(xl,'FontName','Times New Roman');
+set(xl,'FontAngle','italic');
+set(xl,'FontSize',ftaxes);
+
+yl = ylabel({'Potência Ativa [W]';'Potência Reativa [vai]'});
+set(yl,'Interpreter','Latex');
+set(yl,'FontName','Times New Roman');
+% set(yl,'FontAngle','italic');
+set(yl,'FontSize',ftaxes);
+
 l = legend('$-\tilde{p}$','$-q$','Location', 'SouthEast');
 set(l,'Interpreter','Latex');
 set(l,'FontName','Cambria');
@@ -204,7 +245,7 @@ set(tx,'FontSize',ft);
 set(tx,'HorizontalAlignment','center');
 set(tx,'VerticalAlignment','bottom');
 axis([0 t(end) -14000 14000]);
-set(gca,'Position',[0.05,0.05,0.9,0.9]);
+set(gca,'Position',[0.065,0.105,0.925,0.87]);
 pos = get(gcf,'Position');
 set(gcf,'Position',[pos(1) pos(2) fatorX*pos(3) pos(4)*fatorY]);
 set(gca,'XtickLabel',[],'YtickLabel',[]);
@@ -213,6 +254,19 @@ set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
 
 figure(4)
 plot(t,Ia_p,'LineWidth',2.5);
+
+xl = xlabel('tempo [s]');
+set(xl,'Interpreter','Latex');
+set(xl,'FontName','Times New Roman');
+set(xl,'FontAngle','italic');
+set(xl,'FontSize',ftaxes);
+
+yl = ylabel('Corrente [A]');
+set(yl,'Interpreter','Latex');
+set(yl,'FontName','Times New Roman');
+% set(yl,'FontAngle','italic');
+set(yl,'FontSize',ftaxes);
+
 l = legend('$i_{Ca}$','Location', 'NorthEast');
 set(l,'Interpreter','Latex');
 set(l,'FontName','Cambria');
@@ -234,7 +288,7 @@ set(tx,'FontSize',ft);
 set(tx,'HorizontalAlignment','center');
 set(tx,'VerticalAlignment','bottom');
 axis([0 t(end) -150 150]);
-set(gca,'Position',[0.05,0.05,0.9,0.9]);
+set(gca,'Position',[0.065,0.105,0.925,0.87]);
 pos = get(gcf,'Position');
 set(gcf,'Position',[pos(1) pos(2) fatorX*pos(3) pos(4)*fatorY]);
 set(gca,'XtickLabel',[],'YtickLabel',[]);
@@ -259,6 +313,19 @@ set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
 
 figure(6);
 plot(t,va,'--',t,Ia,'LineWidth',2.5);
+
+xl = xlabel('tempo [s]');
+set(xl,'Interpreter','Latex');
+set(xl,'FontName','Times New Roman');
+set(xl,'FontAngle','italic');
+set(xl,'FontSize',ftaxes);
+
+yl = ylabel({'Tensão [V]';'Corrente [A]'});
+set(yl,'Interpreter','Latex');
+set(yl,'FontName','Times New Roman');
+% set(yl,'FontAngle','italic');
+set(yl,'FontSize',ftaxes);
+
 l = legend('$v_a$','$i_{Sa}$','Location', 'NorthEast');
 set(l,'Interpreter','Latex');
 set(l,'FontName','Cambria');
@@ -280,7 +347,7 @@ set(tx,'FontSize',ft);
 set(tx,'HorizontalAlignment','center');
 set(tx,'VerticalAlignment','bottom');
 axis([0 t(end) -150 150]);
-set(gca,'Position',[0.05,0.05,0.9,0.9]);
+set(gca,'Position',[0.065,0.105,0.925,0.87]);
 pos = get(gcf,'Position');
 set(gcf,'Position',[pos(1) pos(2) fatorX*pos(3) pos(4)*fatorY]);
 set(gca,'XtickLabel',[],'YtickLabel',[]);
@@ -289,6 +356,19 @@ set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1)
 
 figure(7)
 plot(t,va.*Ia+vb.*Ib+vc.*Ic,t,sqrt((vb.*Ic-vc.*Ib).^2+(vc.*Ia-va.*Ic).^2+(va.*Ib-vb.*Ia).^2),'LineWidth',2.5);
+
+xl = xlabel('tempo [s]');
+set(xl,'Interpreter','Latex');
+set(xl,'FontName','Times New Roman');
+set(xl,'FontAngle','italic');
+set(xl,'FontSize',ftaxes);
+
+yl = ylabel({'Potência Ativa [W]';'Potência Reativa [vai]'});
+set(yl,'Interpreter','Latex');
+set(yl,'FontName','Times New Roman');
+% set(yl,'FontAngle','italic');
+set(yl,'FontSize',ftaxes);
+
 l = legend('$p_S$','$q_S$','Location', 'SouthEast');
 set(l,'Interpreter','Latex');
 set(l,'FontName','Cambria');
@@ -310,7 +390,7 @@ set(tx,'FontSize',ft);
 set(tx,'HorizontalAlignment','center');
 set(tx,'VerticalAlignment','bottom');
 axis([0 t(end) -14000 14000]);
-set(gca,'Position',[0.05,0.05,0.9,0.9]);
+set(gca,'Position',[0.065,0.105,0.925,0.87]);
 pos = get(gcf,'Position');
 set(gcf,'Position',[pos(1) pos(2) fatorX*pos(3) pos(4)*fatorY]);
 set(gca,'XtickLabel',[],'YtickLabel',[]);
