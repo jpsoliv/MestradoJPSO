@@ -324,4 +324,16 @@ Dispon{\'\i}vel em:
 \emph{IEEE Industrial Electronics Society Newsletter}, IEEE, v.~47, n.~3, p.
   5--10, 2000.}
 
+\bibitem{Haberberger2004}
+\abntrefinfo{Haberberger e Fuchs}{HABERBERGER; FUCHS}{2004}
+{HABERBERGER, M.; FUCHS, F.~W. Novel protection strategy for current
+  interruptions in igbt current source inverters. In:  IEEE. \emph{2004 IEEE
+  35th Annual Power Electronics Specialists Conference. PESC 04.} [S.l.], 2004.
+  v.~1, p. 558--564.}
+
+\bibitem{Trzynadlowski2015}
+\abntrefinfo{Trzynadlowski}{TRZYNADLOWSKI}{2015}
+{TRZYNADLOWSKI, A.~M. \emph{Introduction to Modern Power Electronics}. Third
+  edition. New Jersey: John Wiley \& Sons, 2015.}
+
 \end{thebibliography}

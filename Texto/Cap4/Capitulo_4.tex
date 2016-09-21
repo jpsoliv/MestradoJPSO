@@ -6,11 +6,9 @@
 
 \subsection{Inversores Estáticos}
 
-Idealmente considera-se que filtros ativos são compostos por fontes de tensão/correntes controladas, a qual podem fornecer tensão/corrente de maneira a acompanhar uma dada referência. A concepção dessa fonte é realizada no âmbito da realidade por meio de inversores estático, as quais são sistemas compostos por elementos semicondutores que por meio de um controle de comutação de alta frequência consegue criar formas de onda/corrente para uma dada referência.
+Idealmente considera-se que filtros ativos são compostos por fontes de tensão/correntes controladas, a qual podem fornecer tensão/corrente de maneira a acompanhar uma dada referência. A concepção dessa fonte é realizada no âmbito da realidade por meio de inversores estáticos, as quais são sistemas compostos por elementos semicondutores que por meio de um controle de comutação de alta frequência consegue criar formas de onda/corrente para uma dada referência.
 
-Na aplicação de um filtro ativo do tipo shunt a topologia do conversor pode ser resumida em dois tipos: Conversores baseados em fonte de tensão (VSC - \textit{Voltage-source Converter}) e Conversores baseados em fonte de corrente (CSC - \textit{Currente-source Converter}) \cite{Akagi2007}. Para ambos os casos, o arranjo dos semicondutores é o mesmo, todavia a diferença recai no lado DC do conversor. Enquanto o VSC possui uma fonte de tensão disposta no lado DC, o CSC dispõe de uma fonte de corrente em tal posição. As figuras \ref{fig:VSC.png} e \ref{fig:CSC.png} mostram o circuito padrão de um VSC e CSC respectivamente. \todo{falar dos conversores, que são compostos por comutadores estáticos, da presença dos diodos, etc}
-
-Em ambos os casos o controle é realizado por PMW, entretanto abordagem é diferente devido as diferentes topologias entre estes. Mesmo assim a implementação de ambos os tipos de conversores mostram-se adequadas para a aplicação em filtros ativos do tipo shunt. Para o uso em sistemas aeronáuticos o conversor do tipo VSC apresnta maiores vantagens devido à maior eficiência, menor custo e menos tamanho/peso comparativamente ao CSC \cite{Akagi2007}.
+Na aplicação de um filtro ativo do tipo shunt a topologia do conversor pode ser resumida em dois tipos: Conversores baseados em fonte de tensão (VSC - \textit{Voltage-source Converter}) e Conversores baseados em fonte de corrente (CSC - \textit{Currente-source Converter}) \cite{Akagi2007}. Para ambos os casos, o arranjo dos semicondutores é o mesmo, todavia a diferença recai no lado DC do conversor. Enquanto o VSC possui uma fonte de tensão disposta no lado DC, o CSC dispõe de uma fonte de corrente em tal posição. As figuras \ref{fig:VSC.png} e \ref{fig:CSC.png} mostram circuitos comumente empregados para sistemas VSC e CSC respectivamente.
 
 \begin{figure*}[!htb] %Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
@@ -20,7 +18,7 @@ Em ambos os casos o controle é realizado por PMW, entretanto abordagem é diferen
 		\caption{Potência instantânea $p$ para carga desbalanceada} 
 		\label{fig:VSC.png}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.40\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/CSC.png}
@@ -30,6 +28,12 @@ Em ambos os casos o controle é realizado por PMW, entretanto abordagem é diferen
 	\caption{Potências instantâneas considerando $C_1\neq C_2=C_3$}
 	\label{fig:VSC_CSC}
 \end{figure*}
+
+
+As chaves representadas nas figura \ref{fig:VSC.png} e \ref{fig:CSC.png} são realizadas por comutadores estáticos controlados, tal como Mosfets, IGBTs, GTO e etc. Cada uma destas tecnologias possuem características distintas de modo que seu emprego depende da resposta esperada para o tipo de aplicação. Observa-se também a presença de diodos em antiparalelo aos semicondutores para o caso VSC. Estas estão presentes de modo a criar um caminho de roda livre para permitir a passagem de corrente induzida por indutâncias intrínsecas das linhas e de filtros. A presença deste não é apresentada em CSC, entretanto este tem presente diodos de bloqueio nas chaves semicondutoras como proteção \cite{Haberberger2004,Trzynadlowski2015} 
+
+Em ambos os casos o controle de tensão/corrente do lado AC é realizado por PMW nos semicondutores. Um sinal sinal de controle de alta frequência operando a comutação de cada cahve separadamente faz com que a saída apresente em seu especto uma componente fundamental de vbaixa frequencia seguido de componentes de alta frequencia provenientes da alta taxa de comutação dos semicondutortes. Com isso , o emprego de filtros nas linhas tornam a saída composta apenas da frequência fundamental desejada.  faz com que a saída apresente a entretanto abordagem é diferente devido as diferentes topologias entre estes. Mesmo assim a implementação de ambos os tipos de conversores mostram-se adequadas para a aplicação em filtros ativos do tipo shunt. Para o uso em sistemas aeronáuticos o conversor do tipo VSC apresenta maiores vantagens devido à maior eficiência, menor custo e menos tamanho/peso comparativamente ao CSC \cite{Akagi2007}.\todo{falar dos métodos de PWM e também dos indutores boos t para criar as formas de onda da corrente na saída do VSC}
+
 
 
 \subsection{Controlador}
