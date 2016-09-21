@@ -15,24 +15,33 @@ Na aplicação de um filtro ativo do tipo shunt a topologia do conversor pode ser 
 	\begin{subfigure}[b]{0.45\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/VSC.png}
-		\caption{Potência instantânea $p$ para carga desbalanceada} 
+		\caption{Topologia típica de um VSC} 
 		\label{fig:VSC.png}
 	\end{subfigure}%
 	\hfill
 	\begin{subfigure}[b]{0.40\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/CSC.png}
-		\caption{Potência instantânea $q$ para carga desbalanceada}    
+		\caption{Topologia típica de um CSC}    
 		\label{fig:CSC.png}
 	\end{subfigure}%
-	\caption{Potências instantâneas considerando $C_1\neq C_2=C_3$}
+	\caption{Inversores de tensão e corrente}
 	\label{fig:VSC_CSC}
 \end{figure*}
 
+As chaves representadas nas figura \ref{fig:VSC.png} e \ref{fig:CSC.png} são realizadas por comutadores estáticos controlados, tal como MosFets, IGBTs, GTOs e etc. Cada uma destas tecnologias possuem características distintas de modo que seu emprego depende da resposta esperada para cada tipo de aplicação. Observa-se também a presença de diodos em antiparalelo aos semicondutores para o caso VSC. Estas estão presentes de modo a criar um caminho de roda livre para permitir a passagem de corrente induzida por indutâncias intrínsecas das linhas e de filtros. A presença deste não é apresentada em CSC, entretanto este tem presente diodos de bloqueio nas chaves semicondutoras como proteção \cite{Haberberger2004,Trzynadlowski2015} 
 
-As chaves representadas nas figura \ref{fig:VSC.png} e \ref{fig:CSC.png} são realizadas por comutadores estáticos controlados, tal como Mosfets, IGBTs, GTO e etc. Cada uma destas tecnologias possuem características distintas de modo que seu emprego depende da resposta esperada para o tipo de aplicação. Observa-se também a presença de diodos em antiparalelo aos semicondutores para o caso VSC. Estas estão presentes de modo a criar um caminho de roda livre para permitir a passagem de corrente induzida por indutâncias intrínsecas das linhas e de filtros. A presença deste não é apresentada em CSC, entretanto este tem presente diodos de bloqueio nas chaves semicondutoras como proteção \cite{Haberberger2004,Trzynadlowski2015} 
+Em ambos os casos o controle de tensão/corrente do lado AC é realizado por PMW. Este sinal é comumente gerado por um microcontrolador programado de maneira a operar a comutação dos semicondutores a fim de obter uma saída específica no lado AC. Exitem dois principais tipos de controle por PWM para o comando de conversores: o de frequência fixa e o varável. O primeiro tipo opera comparando um sinal de referência com um sinal periódico triangular com frequência fixa. Nesta operação a saída apresenta em seu especto de frequência uma componente fundamental de baixo valor seguido de componentes de alta frequência provenientes da alta taxa de comutação dos semicondutores. Com isso, o emprego de filtros nas linhas torna a saída composta apenas pela fundamental, que corresponde ao sinal de referência da entrada do comparador. Já a operação com frequência variável tem como principal característica o controle por histerese. Nesta operação o sinal de referência é envolto por uma banda de histerese que faz com que a operação da comutação dos semicondutores mantém o sinal de saída contido dentro desta banda. Para o melhor entendimento, a operação de controle por histerese é mostrado na Figura \ref{fig:histerese.png} \cite{Thekkevalappil2005}. 
 
-Em ambos os casos o controle de tensão/corrente do lado AC é realizado por PMW nos semicondutores. Um sinal sinal de controle de alta frequência operando a comutação de cada cahve separadamente faz com que a saída apresente em seu especto uma componente fundamental de vbaixa frequencia seguido de componentes de alta frequencia provenientes da alta taxa de comutação dos semicondutortes. Com isso , o emprego de filtros nas linhas tornam a saída composta apenas da frequência fundamental desejada.  faz com que a saída apresente a entretanto abordagem é diferente devido as diferentes topologias entre estes. Mesmo assim a implementação de ambos os tipos de conversores mostram-se adequadas para a aplicação em filtros ativos do tipo shunt. Para o uso em sistemas aeronáuticos o conversor do tipo VSC apresenta maiores vantagens devido à maior eficiência, menor custo e menos tamanho/peso comparativamente ao CSC \cite{Akagi2007}.\todo{falar dos métodos de PWM e também dos indutores boos t para criar as formas de onda da corrente na saída do VSC}
+\begin{figure}[!htbp] %Esquema de um filtro passivo genérico
+	\centering
+	\includegraphics[width=0.65\textwidth]{Cap4/Figuras/histerese.png}
+	\caption{Controle por histerese \cite{Thekkevalappil2005}}
+	\label{fig:histerese.png}
+\end{figure}
+
+
+Para a implementação de um conversor estático para operar como parte de um filtro ativo o controle por PWM há de se abordado em razão do tipo de conversor e das características esperadas no sinal de saída. Entretanto a implementação de ambos os tipos VSC e CSC mostram-se adequadas para a aplicação em filtros ativos do tipo shunt. Todavia para o uso em sistemas aeronáuticos o conversor do tipo VSC apresenta maiores vantagens devido à maior eficiência, menor custo e menos tamanho/peso comparativamente ao CSC \cite{Akagi2007}. Já o controle PWM mais adequado e comumente encontrado nas bibliografia é do tipo por frequência variável com controle por histerese. Sendo o filtro ativo dado pela injeção de corrente no sistema, esta operação é obtida com a adição de indutores nas linhas de saída do inversor, fazendo com que a corrente cresça e descresça em função da tensão DC e o valor da indutância. Este sinal é medido comparado com as bandas de histerese do sinal de referência, fazendo com que a operação dos semicondutores se estabeleçam de forma a manter o sinal de saída dentro de tal banda.
 
 
 
