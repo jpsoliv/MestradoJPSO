@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.7)  20 SEP 2016 21:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.7)  21 SEP 2016 21:50
 entering extended mode
 **./Dissertacao.tex
 (Dissertacao.tex
@@ -3655,89 +3655,108 @@ File: Cap4/Figuras/CSC.png Graphic file (type png)
 Package pdftex.def Info: Cap4/Figuras/CSC.png used on input line 24.
 (pdftex.def)             Requested size: 182.09486pt x 189.35596pt.
 
-pdftex: bookmark at 28: {49} {\numberline{49}{\ignorespaces Pot\^encias instant
-\^aneas considerando $C_1\not =C_2=C_3$\relax }} {figure.caption.50}{0}{lof}
-Package hyperref Info: Reference (link) `figure.caption.50' on input line 33.
-Package hyperref Info: Reference (link) `figure.caption.50' on input line 33.
-Package hyperref Info: Reference (cite) `cite.Haberberger2004' on input line 33
+pdftex: bookmark at 28: {49} {\numberline{49}{\ignorespaces Inversores de tens\
+~ao e corrente\relax }} {figure.caption.50}{0}{lof}
+Package hyperref Info: Reference (link) `figure.caption.50' on input line 32.
+Package hyperref Info: Reference (link) `figure.caption.50' on input line 32.
+Package hyperref Info: Reference (cite) `cite.Haberberger2004' on input line 32
 .
 Package hyperref Info: Reference (cite) `cite.Trzynadlowski2015' on input line 
-33.
-Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 35.
-Package hyperref Info: Anchor `section*.51' on input line 35.
-pdftex: bookmark at 35: {\thetodo } {falar dos m\'etodos de PWM e tamb\'em dos 
-indutores boos t para criar as formas de onda da corrente na sa\IeC {\'\i }da d
-o VSC} {section*.51}{0}{tdo}
+32.
+Package hyperref Info: Reference (link) `figure.caption.51' on input line 34.
+Package hyperref Info: Reference (cite) `cite.Thekkevalappil2005' on input line
+ 34.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 35.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 36.
-Package hyperref Info: Anchor `page.63' on input line 36.
+(babel)             in language  on input line 35.
+Package hyperref Info: Anchor `page.63' on input line 35.
 [63
 
 Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 11.
 Package `hyperref' Info: End of reference (link) `figure.caption.50', line 11.
 Package `hyperref' Info: End of reference (link) `figure.caption.50', line 11.
-Package `hyperref' Info: End of reference (link) `figure.caption.50', line 33.
-Package `hyperref' Info: End of reference (link) `figure.caption.50', line 33.
+Package `hyperref' Info: End of reference (link) `figure.caption.50', line 32.
+Package `hyperref' Info: End of reference (link) `figure.caption.50', line 32.
 Package `hyperref' Info: End of reference (cite) `cite.Haberberger2004', line 3
-3.
+2.
 Package `hyperref' Info: End of reference (cite) `cite.Trzynadlowski2015', line
- 33.
+ 32.
 ]
-Package hyperref Info: Anchor `subsection.3.1.2' on input line 39.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 39.
+Package hyperref Info: Anchor `figure.caption.51' on input line 36.
+ <Cap4/Figuras/histerese.png, id=1092, 1033.61156pt x 520.19344pt>
+File: Cap4/Figuras/histerese.png Graphic file (type png)
 
-pdftex: bookmark at 39: {3.1.2} {\numberline{3.1.2}Controlador} {subsection.3.1
+<use Cap4/Figuras/histerese.png>
+Package pdftex.def Info: Cap4/Figuras/histerese.png used on input line 38.
+(pdftex.def)             Requested size: 295.90588pt x 148.92342pt.
+
+pdftex: bookmark at 39: {50} {\numberline{50}{\ignorespaces Controle por hister
+ese \cite {Thekkevalappil2005}\relax }} {figure.caption.51}{0}{lof}
+Package hyperref Info: Reference (cite) `cite.Thekkevalappil2005' on input line
+ 39.
+Package hyperref Info: Reference (cite) `cite.Thekkevalappil2005' on input line
+ 39.
+Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 44.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 45.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 45.
+Package hyperref Info: Anchor `page.64' on input line 45.
+[64
+Package `hyperref' Info: End of reference (link) `figure.caption.51', line 34.
+Package `hyperref' Info: End of reference (cite) `cite.Thekkevalappil2005', lin
+e 34.
+Package `hyperref' Info: End of reference (cite) `cite.Thekkevalappil2005', lin
+e 39.
+ <./Cap4/Figuras/VSC.png> <./Cap4/Figuras/CSC.png> <./Cap4/Figuras/histerese.pn
+g>]
+Package hyperref Info: Anchor `subsection.3.1.2' on input line 48.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 48.
+
+pdftex: bookmark at 48: {3.1.2} {\numberline{3.1.2}Controlador} {subsection.3.1
 .2}{2}{toc}
-Package hyperref Info: Anchor `subsubsection.3.1.2.1' on input line 41.
-pdftex: bookmark at 41: {3.1.2.1} {\numberline{3.1.2.1}Tipos de Controle} {subs
+Package hyperref Info: Anchor `subsubsection.3.1.2.1' on input line 50.
+pdftex: bookmark at 50: {3.1.2.1} {\numberline{3.1.2.1}Tipos de Controle} {subs
 ubsection.3.1.2.1}{3}{toc}
-Package hyperref Info: Anchor `paragraph.3.1.2.1.1' on input line 45.
-pdftex: bookmark at 45: {3.1.2.1.1} {\numberline{3.1.2.1.1}Corrente Constante} 
+Package hyperref Info: Anchor `paragraph.3.1.2.1.1' on input line 54.
+pdftex: bookmark at 54: {3.1.2.1.1} {\numberline{3.1.2.1.1}Corrente Constante} 
 {paragraph.3.1.2.1.1}{4}{toc}
-Package hyperref Info: Anchor `paragraph.3.1.2.1.2' on input line 47.
-pdftex: bookmark at 47: {3.1.2.1.2} {\numberline{3.1.2.1.2}PLL} {paragraph.3.1.
+Package hyperref Info: Anchor `paragraph.3.1.2.1.2' on input line 56.
+pdftex: bookmark at 56: {3.1.2.1.2} {\numberline{3.1.2.1.2}PLL} {paragraph.3.1.
 2.1.2}{4}{toc}
-Package hyperref Info: Anchor `section.3.2' on input line 50.
+Package hyperref Info: Anchor `section.3.2' on input line 59.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 50.
-pdftex: bookmark at 50: {3.2} {\numberline{3.2}Simula\c c\~ao} {section.3.2}{1}
+(babel)             in language  on input line 59.
+pdftex: bookmark at 59: {3.2} {\numberline{3.2}Simula\c c\~ao} {section.3.2}{1}
 {toc}
-Package hyperref Info: Anchor `subsection.3.2.1' on input line 52.
+Package hyperref Info: Anchor `subsection.3.2.1' on input line 61.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 52.
-pdftex: bookmark at 52: {3.2.1} {\numberline{3.2.1}Modelo do sistema} {subsecti
+(babel)             in language  on input line 61.
+pdftex: bookmark at 61: {3.2.1} {\numberline{3.2.1}Modelo do sistema} {subsecti
 on.3.2.1}{2}{toc}
-Package hyperref Info: Anchor `subsection.3.2.2' on input line 54.
+Package hyperref Info: Anchor `subsection.3.2.2' on input line 63.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 54.
-pdftex: bookmark at 54: {3.2.2} {\numberline{3.2.2}Modelo do Conversor} {subsec
+(babel)             in language  on input line 63.
+pdftex: bookmark at 63: {3.2.2} {\numberline{3.2.2}Modelo do Conversor} {subsec
 tion.3.2.2}{2}{toc}
-Package hyperref Info: Anchor `subsection.3.2.3' on input line 56.
+Package hyperref Info: Anchor `subsection.3.2.3' on input line 65.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 56.
-pdftex: bookmark at 56: {3.2.3} {\numberline{3.2.3}Resultados} {subsection.3.2.
+(babel)             in language  on input line 65.
+pdftex: bookmark at 65: {3.2.3} {\numberline{3.2.3}Resultados} {subsection.3.2.
 3}{2}{toc}
-Package hyperref Info: Anchor `section*.52' on input line 58.
-pdftex: bookmark at 58: {\thetodo } {40 P\'ags} {section*.52}{0}{tdo}
+Package hyperref Info: Anchor `section*.52' on input line 67.
+pdftex: bookmark at 67: {\thetodo } {40 P\'ags} {section*.52}{0}{tdo}
 ) (Dissertacao.bbl
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
-Package hyperref Info: Anchor `page.64' on input line 3.
- [64
-Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 35.
- <./Cap4/Figuras/VSC.png> <./Cap4/Figuras/CSC.png>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3.
 Package hyperref Info: Anchor `page.65' on input line 3.
-
-[65]
+ [65
+Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 44.
+]
 Package hyperref Info: Anchor `chapter*.53' on input line 3.
 Package hyperref Info: Anchor `chapter.4' on input line 3.
 Package babel Info: Redefining portuges shorthand "|
@@ -3940,14 +3959,20 @@ Package hyperref Info: Anchor `cite.Peng1996' on input line 313.
 Package hyperref Info: Anchor `cite.Afonso2000' on input line 320.
 Package hyperref Info: Anchor `cite.Haberberger2004' on input line 327.
 Package hyperref Info: Anchor `cite.Trzynadlowski2015' on input line 334.
-) 
+Package hyperref Info: Anchor `cite.Thekkevalappil2005' on input line 339.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 346.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 346.
+Package hyperref Info: Anchor `page.70' on input line 346.
+ [70]) 
 AED: lastpage setting LastPage
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 256.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 256.
-Package hyperref Info: Anchor `page.70' on input line 256.
-[70]
+Package hyperref Info: Anchor `page.71' on input line 256.
+[71]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 256.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
@@ -3971,13 +3996,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 256.
  ) 
 Here is how much of TeX's memory you used:
- 31367 strings out of 493335
- 618216 string characters out of 3136684
- 748196 words of memory out of 3000000
- 33977 multiletter control sequences out of 15000+200000
+ 31368 strings out of 493335
+ 618246 string characters out of 3136684
+ 746339 words of memory out of 3000000
+ 33975 multiletter control sequences out of 15000+200000
  48934 words of font info for 122 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,14n,80p,10385b,1188s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,14n,80p,10385b,1165s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Joao\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\t
 crm1200.pk> <C:\Users\Joao\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
 \dpi600\tcrm1095.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
@@ -3994,9 +4019,9 @@ ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Dissertacao.pdf (70 pages, 2053241 bytes).
+Output written on Dissertacao.pdf (71 pages, 2126045 bytes).
 PDF statistics:
- 1243 PDF objects out of 1440 (max. 8388607)
- 278 named destinations out of 1000 (max. 500000)
- 561 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1254 PDF objects out of 1440 (max. 8388607)
+ 280 named destinations out of 1000 (max. 500000)
+ 566 words of extra memory for PDF output out of 10000 (max. 10000000)
 

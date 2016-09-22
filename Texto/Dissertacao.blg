@@ -3,9 +3,11 @@ The style file: abnt-num.bst
 Database file #1: Referencias_Bibliograficas/Bibliografia.bib
 Warning--entry type for "Linear" isn't style-file defined
 --line 377 of file Referencias_Bibliograficas/Bibliografia.bib
+Warning--entry type for "Thekkevalappil2005" isn't style-file defined
+--line 525 of file Referencias_Bibliograficas/Bibliografia.bib
 +---------------------------------------------------------+
 | Estilo bibliográfico abnt-num.bst versão 1.42.2.1           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-(There was 1 warning)
+(There were 2 warnings)

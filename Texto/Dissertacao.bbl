@@ -336,4 +336,11 @@ Dispon{\'\i}vel em:
 {TRZYNADLOWSKI, A.~M. \emph{Introduction to Modern Power Electronics}. Third
   edition. New Jersey: John Wiley \& Sons, 2015.}
 
+\bibitem{Thekkevalappil2005}
+\abntrefinfo{Thekkevalappil}{THEKKEVALAPPIL}{2005}
+{THEKKEVALAPPIL, S.~N.
+Master Thesis, \emph{Hysteretic Pulse Width Modulation with Internally
+  Generated Carrier for a Boost Dc-dc Converter}. Gainesville: University of
+  Florida, 2005.}
+
 \end{thebibliography}
