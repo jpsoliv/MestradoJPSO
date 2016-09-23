@@ -45,7 +45,16 @@ Em ambos os casos o controle de tensão/corrente do lado AC é realizado por PMW. 
 \end{figure}
 
 
-A implementação de ambos os tipos VSC e CSC mostram-se adequadas para a aplicação em filtros ativos do tipo shunt. Todavia para o uso em sistemas aeronáuticos o conversor do tipo VSC apresenta maiores vantagens devido à maior eficiência, menor custo e tamanho/peso comparativamente ao CSC \cite{Akagi2007}. Já o controle PWM mais adequado e comumente encontrado na bibliografia é do tipo por frequência variável com controle por histerese. Sendo o filtro ativo do tipo shunt definido pela injeção de corrente no sistema a ser filtrado, este comportamento é obtido com a aplicação do VSC através do emprego de indutores nas linhas de saída do inversor, fazendo com que a corrente criada tenha seu valor acrescido e descrescido em função da tensão DC e o valor da indutância. Este sinal é medido e comparado com as bandas de histerese do sinal de referência, fazendo com que a operação dos semicondutores se estabeleçam de forma a manter o sinal de saída dentro de tal banda de histerese.
+A implementação de ambos os tipos VSC e CSC mostram-se adequadas para a aplicação em filtros ativos do tipo shunt. Todavia para o uso em sistemas aeronáuticos o conversor do tipo VSC apresenta maiores vantagens devido à maior eficiência, menor custo, menor tamanho e peso comparativamente ao CSC \cite{Akagi2007}. Já o controle PWM mais adequado e comumente encontrado na aplicação deste tipo de filtro é feito por frequência variável por histerese. Esta controle no PWM faz com que o VSC se comporte com o fonte de corrente pela comparação da saída do inversor com a referência advinda do controlador. O comportamento de fonte de corrente ocorre pela adição de indutores na saída do conversor, de modo que o controle dos semicontudotres aplique pulsos de tensão advindas do capacitor do lado DC tornando a corrente crescente ou decrescente proporcionalmente à indutância e a tensão aplicada. Este sinal é medido e comparado com as bandas de histerese do sinal de referência, fazendo com que a operação dos semicondutores se estabeleçam de forma a manter o sinal de saída entorno à referência.
+
+Como forma de obter uma resposta rápida às variações do sinal de referência, a aplicação de um indutor de alto valor impede que a saída do conversor acompanhe adequadamente a referência. Deste modo é desejável um valor de indutância com baixo valor na saída do conversor de modo a não limitar uma rápida variação de corrente no tempo. Todavia essa aplicação traz a implicação de tornar a corrente de saída ruidosa, trazendo o aparecimento de componentes de alta frequência nas tensções da linha do sistema. Para contornar esse problema capacitãncia são alçicadas entre as fases de modo a filtra o sinal ruidoso de alta variação no tempo. O valor dessa capacitância deve ser escolhido de maneira a atender a filtragem de corrente do conversor mas tamém não pode ser elevada o suficiente para aumentar a potência reativa do sistema e consequentemente dimunuir o fator de potência.
+
+\begin{figure}[!htbp] %Esquema de um filtro passivo genérico
+	\centering
+	\includegraphics[width=0.7\textwidth]{Cap4/Figuras/conversor.png}
+	\caption{Controle por histerese \cite{Thekkevalappil2005}}
+	\label{fig:histerese.png}
+\end{figure}
 
 \subsubsection{Não Idealidades}
 
@@ -54,7 +63,7 @@ A implementação de ambos os tipos VSC e CSC mostram-se adequadas para a aplicaçã
 
 \begin{figure}[!htbp] %Esquema de um filtro passivo genérico
 	\centering
-	\includegraphics[width=0.9\textwidth]{Cap4/Figuras/controle_Cap.png}
+	\includegraphics[width=0.95\textwidth]{Cap4/Figuras/controle_Cap.png}
 	\caption{Controle por histerese \cite{Akagi2007}}
 	\label{fig:controle_Cap.png}
 \end{figure}
