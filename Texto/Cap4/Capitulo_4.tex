@@ -33,7 +33,7 @@ Na aplicação de um filtro ativo do tipo shunt a topologia do conversor pode ser 
 
 As chaves representadas nas figura \ref{fig:VSC.png} e \ref{fig:CSC.png} são realizadas por comutadores estáticos controlados, tal como MosFets, IGBTs, GTOs e etc. Cada uma destas tecnologias possuem características distintas de modo que seu emprego depende do comportamento esperado para cada tipo de aplicações. Observa-se também a presença de diodos em antiparalelo aos semicondutores para o caso VSC. Estas estão presentes de maneira a criar um caminho de roda livre para permitir a passagem de corrente induzida por indutâncias intrínsecas das linhas de transmissão e dos filtros. A presença deste não é aplicada em CSC, entretanto este tem presente diodos de bloqueio em série às chaves semicondutoras como forma proteção \cite{Haberberger2004,Trzynadlowski2015} 
 
-\subsubsection{Controle por PWM}
+\subsubsection{Controle do PWM}
 
 Em ambos os casos o controle de tensão/corrente do lado AC é realizado por PMW. Este sinal é comumente gerado por um microcontrolador programado de maneira a operar a comutação dos semicondutores a fim de obter uma saída específica no lado AC. Exitem dois principais tipos de controle por PWM para o comando de conversores: o de frequência fixa e varável. O primeiro tipo opera comparando um sinal de referência com um sinal periódico triangular com frequência fixa e de valor elevado para determinar a razão cíclica dos pulsos. Nesta operação a saída apresenta em seu especto de frequência uma componente fundamental de baixo valor seguido de componentes de alta frequência provenientes da onda triangular. Com isso, o emprego de filtros com frequência de corte elevada torna a saída composta apenas pela fundamental, que corresponde ao sinal de referência da entrada do comparador. Já a operação com frequência variável tem como principal característica o controle por histerese. Nesta operação o sinal de referência é envolto por uma banda de histerese que faz com que a operação da comutação dos semicondutores mantém o sinal de saída contido dentro desta banda. Para o melhor entendimento, a operação de controle por histerese é mostrado na Figura \ref{fig:histerese.png} \cite{Thekkevalappil2005}. 
 
@@ -44,23 +44,27 @@ Em ambos os casos o controle de tensão/corrente do lado AC é realizado por PMW. 
 	\label{fig:histerese.png}
 \end{figure}
 
+A implementação de ambos os tipos VSC e CSC mostram-se adequadas para a aplicação em filtros ativos do tipo shunt. Todavia para o uso em sistemas aeronáuticos o conversor do tipo VSC apresenta maiores vantagens devido à maior eficiência, menor custo, menor tamanho e peso comparativamente ao CSC \cite{Akagi2007}. Já o controle PWM mais adequado e comumente encontrado na aplicação deste tipo de filtro é feito por frequência variável por histerese. Esta controle no PWM faz com que o VSC se comporte com o fonte de corrente pela comparação da saída do inversor com a referência advinda do controlador. O comportamento de fonte de corrente ocorre pela adição de indutores de acoplamento na saída do conversor, de modo que o controle dos semicondutores aplique pulsos de tensão advindas do capacitor do lado DC tornando a corrente crescente ou decrescente proporcionalmente à indutância e a tensão aplicada em seus terminais. Este sinal é medido e comparado com as bandas de histerese do sinal de referência, fazendo com que a operação dos semicondutores se estabeleçam de forma a manter o sinal de saída entorno à referência.
 
-A implementação de ambos os tipos VSC e CSC mostram-se adequadas para a aplicação em filtros ativos do tipo shunt. Todavia para o uso em sistemas aeronáuticos o conversor do tipo VSC apresenta maiores vantagens devido à maior eficiência, menor custo, menor tamanho e peso comparativamente ao CSC \cite{Akagi2007}. Já o controle PWM mais adequado e comumente encontrado na aplicação deste tipo de filtro é feito por frequência variável por histerese. Esta controle no PWM faz com que o VSC se comporte com o fonte de corrente pela comparação da saída do inversor com a referência advinda do controlador. O comportamento de fonte de corrente ocorre pela adição de indutores na saída do conversor, de modo que o controle dos semicontudotres aplique pulsos de tensão advindas do capacitor do lado DC tornando a corrente crescente ou decrescente proporcionalmente à indutância e a tensão aplicada. Este sinal é medido e comparado com as bandas de histerese do sinal de referência, fazendo com que a operação dos semicondutores se estabeleçam de forma a manter o sinal de saída entorno à referência.
+Como forma de obter uma resposta rápida às variações do sinal de referência, a aplicação de uma alta indutância impede que a saída do conversor acompanhe adequadamente a referência caso esta apresente alta $\sfrac{di}{dt}$. Deste modo é desejável um valor de indutância com baixo valor na saída do conversor de modo a não limitar uma rápida variação de corrente no tempo. Todavia essa aplicação traz a implicação de tornar a corrente de saída ruidosa, trazendo o aparecimento de componentes de alta frequência nas tensões de fase do sistema. Para contornar esse problema, capacitâncias são aplicadas entre as fases como forma de de criar um caminho de baixa impedância para as componentes de alta frequência, filtrando o sinal ruidoso de alta variação no tempo. O valor dessa capacitância deve ser escolhido de maneira a atender a filtragem de corrente do conversor mas também não pode ser elevada o suficiente para aumentar a potência reativa do sistema e consequentemente diminuir o fator de potência.
 
-Como forma de obter uma resposta rápida às variações do sinal de referência, a aplicação de um indutor de alto valor impede que a saída do conversor acompanhe adequadamente a referência. Deste modo é desejável um valor de indutância com baixo valor na saída do conversor de modo a não limitar uma rápida variação de corrente no tempo. Todavia essa aplicação traz a implicação de tornar a corrente de saída ruidosa, trazendo o aparecimento de componentes de alta frequência nas tensções da linha do sistema. Para contornar esse problema capacitãncia são alçicadas entre as fases de modo a filtra o sinal ruidoso de alta variação no tempo. O valor dessa capacitância deve ser escolhido de maneira a atender a filtragem de corrente do conversor mas tamém não pode ser elevada o suficiente para aumentar a potência reativa do sistema e consequentemente dimunuir o fator de potência.
+O esquema do filtro com a implementação da indutância de acoplamento e das capacitâncias de filtragem de componentes de alta frequência da corrente é mostrado na Figura \ref{fig:conversor.png}.
 
 \begin{figure}[!htbp] %Esquema de um filtro passivo genérico
 	\centering
-	\includegraphics[width=0.7\textwidth]{Cap4/Figuras/conversor.png}
-	\caption{Controle por histerese \cite{Thekkevalappil2005}}
-	\label{fig:histerese.png}
+	\includegraphics[width=0.6\textwidth]{Cap4/Figuras/conversor.png}
+	\caption{Esquema do inversor com indutor de acoplamento e filtro capacitivo}
+	\label{fig:conversor.png}
 \end{figure}
 
-\subsubsection{Não Idealidades}
+\subsubsection{Controle de Tensão no Lado DC}
 
-\todo{falar das perdas e do efeito na queda de tensão do capacitor. Ainda falar controle para manter a tensão fixa}
+No capítulo \ref{} foi estudado extensivamente as propriedades e significados físicos das potências instantâneas em circuitos trifásicos. Uma importante consideração acerca da potência $q$ é que está não contribui com a transferência de potência entre subsistemas de um circuito, sendo que esta é presente apenas sendo trocada entre as fases constituintes do sistema. Sendo assim, tem-se que tanto nos terminais da fonte, da carga e do filtro ativo o fluxo de potência reativa é nulo. A implicação que isso trás é a ausência, teoricamente, da necessidade de elementos armazenadores de energia presentes no filtro shunt. Todavia, há a necessidade de compensação da potência $\tilde{p}$ realizada pelo filtro. Por esta apresentar-se como uma potência média, os elementos armazenadores de energia devem lidar apenas com essa parcela da potência. Sendo assim o dimensionamento do capacitor (indutor para o CSC) leva-se em consideração apenas a potência ativa oscilante \cite{Akagi2007,Peng1996,Watanabe1993}.
 
+Não confundir os elementos armazenadores de energia explanados anteriormente com os indutores de acoplamento e filtro capacitivo. Os elementos armazenadores de energia é o capacitor/indutor dispostos no lado DC do inversor.
 
+Em se tratando de circuitos reais, os semicondutores, as linhas de transmissão e os componentes do filtro possuem resistências intrínsecas que causam a dissipação de potência ativa. Ainda existe perdas de comutação causadas pelas não idealidades de chaveamento dos elementos semicondutores. Essas perdas têm efeito na eficiência da capacidade de filtragem do compensador, visto que correspondem com a queda de tensão do capacitor dado ao valor médio de potência que este processa. Dessa maneira, existe a necessidade de controlar o fluxo de potência do filtro de modo a manter o capacitor devidamente carregado e operando com tensão específica. Para se ter essa realização, uma malha de controle é embutida no sistema do filtro de modo que a potência dissipada no filtro é determinada em função do valor da tensão do capacitor. Com isso é adicionado uma parcela de potência, denominada $p_{loss}$, que deve ser contabilizado no cálculo das correntes de referência de modo a manter a tensão no capacitor constante. Ainda, pelo fato de haver um atraso na resposta do compensador devido ao filtro passa baixa na separação de $\tilde{p}$ da potência ativa $p$, esta malha de controle visa também compensar os efeitos que este atraso causa na tensão do capacitor. A Figura \ref{fig:controle_Cap.png} mostra o esquemático do compensador com a presença da malha de controle como parte da operação do filtro ativo.   
+ 
 \begin{figure}[!htbp] %Esquema de um filtro passivo genérico
 	\centering
 	\includegraphics[width=0.95\textwidth]{Cap4/Figuras/controle_Cap.png}
@@ -78,8 +82,16 @@ Em sistemas reais a concepção da filtragem ativa
 
 \paragraph{Corrente Constante}
 
-\paragraph{PLL}
+\paragraph{Detector de Sequência Positiva}
 
+\subparagraph{PLL}
+
+\begin{figure}[!htbp] %Esquema de um filtro passivo genérico
+	\centering
+	\includegraphics[width=0.85\textwidth]{Cap4/Figuras/PLL.png}
+	\caption{Controle por histerese \cite{Akagi2007}}
+	\label{fig:PLL.png}
+\end{figure}
 
 \section{Simulação}
 
