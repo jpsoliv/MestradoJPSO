@@ -74,11 +74,25 @@ Em se tratando de circuitos reais, os semicondutores, as linhas de transmissão e
 
 \subsection{Controlador}
 
-
+O controlador empregado em um sistema de filtragem ativa é constituído pela unidade de processamento que opera os interruptores estáticos de maneira a propiciar a filtragem ativa das componentes harmônicas de corrente. Tais controladores são comumente formados por circuitos integrados programáveis que operam no domínio discreto. O tipo mais comum deste tipo de controlador é realizado por processador digital de sinais (DSP). Juntamente com os controladores são necessários sensores de tensão e corrente para alimentar a unidade de processamento com dados do sistema de maneira a utilizar os conceitos de potência instantânea para calcular as referências de corrente a serem aplicadas no inversor. Assim o comando por PWM dos semicondutores do inversor é realizado pelo DSP e a compensação das componentes harmônicas das correntes são eliminadas.
 
 \subsubsection{Tipos de Controle}
 
-Em sistemas reais a concepção da filtragem ativa 
+Em sistemas reais a concepção da filtragem ativa é proferida em redes cuja as tensões não são necessariamente senoidais puras ou balanceadas. A base teórica apresentada na seção \ref{} é baseada na premissa em que o sistema é realizado sem que haja distorções de tensão ou desbalanceamento entre as fases. Os sistemas elétricos reais apresentam em sua operação cargas que não contribuem de forma expressiva na distorção harmônica, sendo desnecessário a aplicação de filtros ativos para esses casos. Além disso, não há como garantir o balanceamento em todo espectro de operação. Sendo assim, algumas considerações devem ser aplicadas para contornar os efeitos das tensões das linhas previamente distorcidas. Segundo \cite{Akagi2007}, a teoria pq mostra-se insuficiente para atender a filtragem de cargas não lineares em sistemas com tensões previamente distorcidas e satisfazer as condições de otimalidade do sistema. Tais condições são descritas por:
+
+\begin{itemize}
+	\item Extrair apenas potência ativa constante da fonte de alimentação; 
+	\item Extrair uma corrente sinusoidal da fonte de alimentação;
+	\item Extrair uma quantidade mínima de corrente eficaz que transportaria uma mesma potência para a carga com um mínimo de energia dissipada na rede. 
+\end{itemize}
+
+Tais condições podem ser realizadas ao mesmo tempo em um sistema ideal sem que haja distorções na rede, porém esse caso não é realizável. Portanto, métodos de filtragem ativa shunt são propostas para atender pelo menos uma das condições de otimalidade. 
+
+O foco deste trabalho é exatamente a determinação de um filtro ativo para garantir a qualidade de energia em um sistema aeronáutico. Este quesito é realizado com a inserção de filtros ativos do tipo shunt para a conformização da corrente visando a ausência de distorção harmônica que traria efeitos nas tensões devido as quedas de tensão nas impedâncias da rede. \todo{falar que o método 1 é instável e que será tratado apenas o método 2}
+
+
+
+
 
 \paragraph{Corrente Constante}
 
@@ -92,6 +106,14 @@ Em sistemas reais a concepção da filtragem ativa
 	\caption{Controle por histerese \cite{Akagi2007}}
 	\label{fig:PLL.png}
 \end{figure}
+
+%\begin{figure}[!htbp] %Esquema de um filtro passivo genérico
+%	\centering
+%	\includegraphics[width=0.85\textwidth]{Cap4/Figuras/detector_seq_pos.eps}
+%	\caption{Controle por histerese \cite{Akagi2007}}
+%	\label{fig:detector_seq_pos.eps}
+%\end{figure}
+
 
 \section{Simulação}
 
