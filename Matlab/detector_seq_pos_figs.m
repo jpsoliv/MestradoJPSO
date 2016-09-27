@@ -28,11 +28,11 @@ fatorY = 0.9;
 ftaxes = 24;
 
 figure(2);
-plot(y.time,y.signals.values(:,1),'LineWidth',1.5);
+plot(y.time,y.signals.values(:,1),'r','LineWidth',1.5);
 axis([0 12/400 -190 190]);
 % figure(3);
 hold on;
-plot(Vlinha.time,Vlinha.signals.values(:,1),'LineWidth',2.5);
+plot(Vlinha.time,Vlinha.signals.values(:,1),'k','LineWidth',3.5);
 hold off;
 
 xl = xlabel('tempo [s]');
