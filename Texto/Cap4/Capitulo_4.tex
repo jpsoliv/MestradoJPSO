@@ -90,13 +90,26 @@ Tais condições podem ser realizadas ao mesmo tempo em um sistema ideal sem que h
 
 O foco deste trabalho é exatamente a determinação de um filtro ativo para garantir a qualidade de energia em um sistema aeronáutico. Este quesito é realizado com a inserção de filtros ativos do tipo shunt para a conformização da corrente visando a ausência de distorção harmônica que traria efeitos nas tensões devido as quedas de tensão nas impedâncias da rede. O método apresentado na seção \ref{} visa extrair apenas potência ativa constante da fonte de alimentação. A aplicação deste método apenas é condição suficiente para criar correntes senoidais em sistemas cuja a tensão mostra-se senoidal pura. A aplicação deste método em sistemas cuja tensão é distorcida apresenta correntes também distorcidas, de modo que a potência ativa constante seja estabelecida. Esse método pode apresentar-se instável dependendo dos níveis de distorção, visto que as correntes distorcidas necessária para conceber um fluxo de potência constante elevariam ainda mais a inserção de harmônicas nas formas de onda de tensão. Com isso, o método de filtragem a qual garante uma corrente sinusoidal nos terminais da carga é requerido para adequar a qualidade de energia e manter o sistema estável. Dessa maneira alguns incrementos devem ser inseridos na concepção dos filtros explanados na seção \ref{} para garantir a condição de corrente sinusoidal nos terminais da carga.
 
-\paragraph{Corrente Constante}
+\paragraph{Método de Controle de Corrente Sinusoidal}\mbox{} \\
 
+O método de controle de corrente sinusoidal é dado pela filtragem ativa em que o compensador insere componentes de corrente nas linhas do sistema de modo a obter uma forma de onda de corrente na fonte de alimentação sendo senoidal e balanceada. Este método aplicado em sistema em que a tensão apresenta-se sendo distorcida não ostenta um fluxo de potência constante sendo drenado da fonte. Além do mais, atender as condições de absorver uma quantidade constante de potência ativa e garantir a corrente sendo sinusoidal em um sistema cuja tensão apresenta distorção harmônica não é realizável \cite{Akagi2007}.
 
+Para conseguir um fluxo de corrente sinusoidal e balanceada sendo extraída da fonte é necessário adequar o filtro ativo para que este compense todas as componentes harmônicas, bem como as componentes fundamentais que diferem da componente fundamental de sequência positiva $\dot{I}_{+1}$. Essa condição é realizada através da implementação de um detector de sequencia positiva na entrada de tensão de um filtro ativo. 
 
-\paragraph{Detector de Sequência Positiva}
+\begin{figure}[!htbp] %Esquema de um filtro passivo genérico
+	\centering
+	\includegraphics[width=0.99\textwidth]{Cap4/Figuras/esquema_controle_senoidal.png}
+	\caption{esquemacontrolsenoidal.png}
+	\label{fig:esquema_controle_senoidal.png}
+\end{figure}
+
+\paragraph{Detector de Sequência Positiva}\mbox{} \\
+
+asdasdasd
 
 \subparagraph{PLL}
+
+qwertyuuiop
 
 \begin{figure}[!htbp] %Esquema de um filtro passivo genérico
 	\centering

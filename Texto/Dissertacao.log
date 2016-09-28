@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.7)  26 SEP 2016 22:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.7)  27 SEP 2016 23:09
 entering extended mode
 **./Dissertacao.tex
 (Dissertacao.tex
@@ -1587,102 +1587,148 @@ LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
 (Font)              for symbol `textbullet' on input line 84.
 
-Package hyperref Info: Anchor `section*.6' on input line 91.
-pdftex: bookmark at 91: {\thetodo } {falar que o m\'etodo 1 \'e inst\'avel e qu
-e ser\'a tratado apenas o m\'etodo 2} {section*.6}{0}{tdo}
-Package hyperref Info: Anchor `paragraph.1.1.2.1.1' on input line 97.
-pdftex: bookmark at 97: {1.1.2.1.1} {\numberline{1.1.2.1.1}Corrente Constante} 
-{paragraph.1.1.2.1.1}{4}{toc}
-Package hyperref Info: Anchor `paragraph.1.1.2.1.2' on input line 99.
-pdftex: bookmark at 99: {1.1.2.1.2} {\numberline{1.1.2.1.2}Detector de Sequ\^en
-cia Positiva} {paragraph.1.1.2.1.2}{4}{toc}
-Package hyperref Info: Anchor `subparagraph*.7' on input line 101.
-pdftex: bookmark at 101: {1.1.2.1.2.0} {PLL} {subparagraph*.7}{5}{toc}
-Package hyperref Info: Anchor `figure.caption.8' on input line 103.
-<Cap4/Figuras/PLL.png, id=116, 1139.75812pt x 368.87813pt>
+
+LaTeX Warning: Reference `' on page 6 undefined on input line 91.
+
+
+LaTeX Warning: Reference `' on page 6 undefined on input line 91.
+
+Package hyperref Info: Anchor `paragraph.1.1.2.1.1' on input line 93.
+pdftex: bookmark at 93: {1.1.2.1.1} {\numberline{1.1.2.1.1}M\'etodo de Controle
+ de Corrente Sinusoidal} {paragraph.1.1.2.1.1}{4}{toc}
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 95.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 96.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 96.
+Package hyperref Info: Anchor `page.6' on input line 96.
+[6
+Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 81.
+]
+Package hyperref Info: Anchor `figure.caption.6' on input line 99.
+
+<Cap4/Figuras/esquema_controle_senoidal.png, id=123, 1257.19687pt x 351.56343pt
+>
+File: Cap4/Figuras/esquema_controle_senoidal.png Graphic file (type png)
+ <use Cap4/Figuras/esquema_controle_senoidal.png>
+Package pdftex.def Info: Cap4/Figuras/esquema_controle_senoidal.png used on inp
+ut line 101.
+(pdftex.def)             Requested size: 450.69417pt x 126.03165pt.
+
+pdftex: bookmark at 102: {5} {\numberline{5}{\ignorespaces esquemacontrolsenoid
+al.png\relax }} {figure.caption.6}{0}{lof}
+Package hyperref Info: Anchor `paragraph.1.1.2.1.2' on input line 106.
+pdftex: bookmark at 106: {1.1.2.1.2} {\numberline{1.1.2.1.2}Detector de Sequ\^e
+ncia Positiva} {paragraph.1.1.2.1.2}{4}{toc}
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+Package hyperref Info: Anchor `subparagraph*.7' on input line 110.
+pdftex: bookmark at 110: {1.1.2.1.2.0} {PLL} {subparagraph*.7}{5}{toc}
+Package hyperref Info: Anchor `figure.caption.8' on input line 114.
+<Cap4/Figuras/PLL.png, id=124, 1139.75812pt x 368.87813pt>
 File: Cap4/Figuras/PLL.png Graphic file (type png)
 
 <use Cap4/Figuras/PLL.png>
-Package pdftex.def Info: Cap4/Figuras/PLL.png used on input line 105.
+Package pdftex.def Info: Cap4/Figuras/PLL.png used on input line 116.
 (pdftex.def)             Requested size: 386.96027pt x 125.23677pt.
 
-pdftex: bookmark at 106: {5} {\numberline{5}{\ignorespaces Controle por histere
-se \cite {Akagi2007}\relax }} {figure.caption.8}{0}{lof}
-Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 106.
-Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 106.
-Package hyperref Info: Anchor `figure.caption.9' on input line 110.
+pdftex: bookmark at 117: {6} {\numberline{6}{\ignorespaces PLL \cite {Akagi2007
+}\relax }} {figure.caption.8}{0}{lof}
+Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 117.
+Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 117.
+Package hyperref Info: Anchor `figure.caption.9' on input line 121.
+<Cap4/Figuras/detector_seq_pos.png, id=127, 944.02687pt x 831.85782pt>
+File: Cap4/Figuras/detector_seq_pos.png Graphic file (type png)
+
+<use Cap4/Figuras/detector_seq_pos.png>
+Package pdftex.def Info: Cap4/Figuras/detector_seq_pos.png used on input line 1
+23.
+(pdftex.def)             Requested size: 386.96027pt x 340.98775pt.
+
+pdftex: bookmark at 124: {7} {\numberline{7}{\ignorespaces \cite {Akagi2007}\re
+lax }} {figure.caption.9}{0}{lof}
+Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 124.
+Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 124.
+Package hyperref Info: Anchor `figure.caption.10' on input line 128.
 Package epstopdf Info: Source file: <Cap4/Figuras/detector_seq_pos.eps>
 (epstopdf)                    date: 2016-09-26 22:38:17
 (epstopdf)                    size: 233897 bytes
 (epstopdf)             Output file: <Cap4/Figuras/detector_seq_pos-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2016-09-26 22:37:29
-(epstopdf)                    size: 58177 bytes
+(epstopdf)                    date: 2016-09-26 22:38:34
+(epstopdf)                    size: 58181 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/detector_seq_p
 os-eps-converted-to.pdf Cap4/Figuras/detector_seq_pos.eps>
-(epstopdf)             \includegraphics on input line 112.
-runsystem(epstopdf --outfile=Cap4/Figuras/detector_seq_pos-eps-converted-to.pdf
- Cap4/Figuras/detector_seq_pos.eps)...executed (allowed).
+(epstopdf)             \includegraphics on input line 130.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <Cap4/Figuras/detector_seq_pos-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2016-09-26 22:38:34
-(epstopdf)                    size: 58181 bytes.
-
-<Cap4/Figuras/detector_seq_pos-eps-converted-to.pdf, id=119, 843.15pt x 285.065
+<Cap4/Figuras/detector_seq_pos-eps-converted-to.pdf, id=130, 843.15pt x 285.065
 pt>
 File: Cap4/Figuras/detector_seq_pos-eps-converted-to.pdf Graphic file (type pdf
 )
  <use Cap4/Figuras/detector_seq_pos-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/detector_seq_pos-eps-converted-to.pdf use
-d on input line 112.
+d on input line 130.
 (pdftex.def)             Requested size: 386.96027pt x 130.83136pt.
 
-pdftex: bookmark at 113: {6} {\numberline{6}{\ignorespaces Controle por histere
-se \cite {Akagi2007}\relax }} {figure.caption.9}{0}{lof}
-Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 113.
-Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 113.
-Package hyperref Info: Anchor `section.1.2' on input line 118.
+pdftex: bookmark at 131: {8} {\numberline{8}{\ignorespaces Controle por histere
+se\relax }} {figure.caption.10}{0}{lof}
+Package hyperref Info: Anchor `section.1.2' on input line 136.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 118.
-pdftex: bookmark at 118: {1.2} {\numberline{1.2}Simula\c c\~ao} {section.1.2}{1
+(babel)             in language  on input line 136.
+pdftex: bookmark at 136: {1.2} {\numberline{1.2}Simula\c c\~ao} {section.1.2}{1
 }{toc}
-Package hyperref Info: Anchor `subsection.1.2.1' on input line 120.
+Package hyperref Info: Anchor `subsection.1.2.1' on input line 138.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 120.
-pdftex: bookmark at 120: {1.2.1} {\numberline{1.2.1}Modelo do sistema} {subsect
+(babel)             in language  on input line 138.
+pdftex: bookmark at 138: {1.2.1} {\numberline{1.2.1}Modelo do sistema} {subsect
 ion.1.2.1}{2}{toc}
-Package hyperref Info: Anchor `subsection.1.2.2' on input line 122.
+Package hyperref Info: Anchor `subsection.1.2.2' on input line 140.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 122.
-pdftex: bookmark at 122: {1.2.2} {\numberline{1.2.2}Modelo do Conversor} {subse
+(babel)             in language  on input line 140.
+pdftex: bookmark at 140: {1.2.2} {\numberline{1.2.2}Modelo do Conversor} {subse
 ction.1.2.2}{2}{toc}
-Package hyperref Info: Anchor `subsection.1.2.3' on input line 124.
+Package hyperref Info: Anchor `subsection.1.2.3' on input line 142.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 124.
-pdftex: bookmark at 124: {1.2.3} {\numberline{1.2.3}Resultados} {subsection.1.2
+(babel)             in language  on input line 142.
+pdftex: bookmark at 142: {1.2.3} {\numberline{1.2.3}Resultados} {subsection.1.2
 .3}{2}{toc}
-Package hyperref Info: Anchor `section*.10' on input line 126.
-pdftex: bookmark at 126: {\thetodo } {40 P\'ags} {section*.10}{0}{tdo}
+Package hyperref Info: Anchor `section*.11' on input line 144.
+pdftex: bookmark at 144: {\thetodo } {40 P\'ags} {section*.11}{0}{tdo}
 ) (Dissertacao.bbl
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3.
-Package hyperref Info: Anchor `page.6' on input line 3.
- [6
-Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 81.
-Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 106.
- <./Cap4/Figuras/PLL.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 Package hyperref Info: Anchor `page.7' on input line 3.
  [7
-Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 113.
- <./Cap4/Figuras/detector_seq_pos-eps-converted-to.pdf>]
-Package hyperref Info: Anchor `chapter*.11' on input line 3.
+Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 95.
+Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 117.
+ <./Cap4/Figuras/esquema_controle_senoidal.png> <./Cap4/Figuras/PLL.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+Package hyperref Info: Anchor `page.8' on input line 3.
+ [8
+Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 124.
+ <./Cap4/Figuras/detector_seq_pos.png> <./Cap4/Figuras/detector_seq_pos-eps-con
+verted-to.pdf>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+Package hyperref Info: Anchor `page.9' on input line 3.
+ [9]
+Package hyperref Info: Anchor `chapter*.12' on input line 3.
 Package hyperref Info: Anchor `chapter.2' on input line 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
@@ -1701,8 +1747,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 256.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 256.
-Package hyperref Info: Anchor `page.8' on input line 256.
-[8
+Package hyperref Info: Anchor `page.10' on input line 256.
+[10
 
 ]
 Package babel Info: Redefining portuges shorthand "|
@@ -1728,13 +1774,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 256.
  ) 
 Here is how much of TeX's memory you used:
- 30573 strings out of 493335
- 600614 string characters out of 3136684
- 732592 words of memory out of 3000000
- 33522 multiletter control sequences out of 15000+200000
+ 30579 strings out of 493335
+ 600901 string characters out of 3136684
+ 731592 words of memory out of 3000000
+ 33524 multiletter control sequences out of 15000+200000
  43091 words of font info for 106 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,80p,10385b,1021s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,12n,80p,10385b,1007s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Joao\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\t
 crm1200.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 bx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
@@ -1742,10 +1788,11 @@ bx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
 pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Dissertacao.pdf (8 pages, 477180 bytes).
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Dissertacao.pdf (10 pages, 647168 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 120 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 208 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 130 words of extra memory for PDF output out of 10000 (max. 10000000)
 
