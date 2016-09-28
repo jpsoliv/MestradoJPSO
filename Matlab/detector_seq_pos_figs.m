@@ -6,7 +6,7 @@ t = linspace(ti,tf,1/Ts);
 
 f=400;
 
-ya = 115*sqrt(2)*sin(2*pi*f*t)+0.1*115*sqrt(2)*sin(2*pi*f*3*t)+0.08*115*sqrt(2)*sin(2*pi*f*11*t)+0.06*115*sqrt(2)*sin(2*pi*f*t*7)+0.08*115*sqrt(2)*sin(2*pi*f*t*17)+0.05*115*sqrt(2)*sin(2*pi*f*t*29);
+ya = 115*sqrt(2)*sin(2*pi*f*t)+0.1*115*sqrt(2)*sin(2*pi*f*3*t)+0.08*115*sqrt(2)*sin(2*pi*f*11*t)+0.06*115*sqrt(2)*sin(2*pi*f*t*7)+0.08*115*sqrt(2)*sin(2*pi*f*t*19)+0.05*115*sqrt(2)*sin(2*pi*f*t*26)+0.09*115*sqrt(2)*sin(2*pi*f*t*14);
 yb = circshift(ya,[0, round(1/Ts*1/((tf-ti)*f)/3)]);
 yc = circshift(yb,[0, round(1/Ts*1/((tf-ti)*f)/3)]);
 
@@ -54,7 +54,7 @@ set(yl,'FontSize',ftaxes);
 % set(l,'FontSize',ft);
 % set(l,'Box','off');
 
-axis([0 12/400 -190 190]);
+axis([0 10/400 -190 190]);
 set(gca,'Position',[0.065,0.13,0.925,0.85]);
 pos = get(gcf,'Position');
 set(gcf,'Position',[pos(1) pos(2) fatorX*pos(3) pos(4)*fatorY]);

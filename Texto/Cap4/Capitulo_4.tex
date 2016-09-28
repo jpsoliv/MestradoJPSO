@@ -92,9 +92,9 @@ O foco deste trabalho é exatamente a determinação de um filtro ativo para garant
 
 \paragraph{Método de Controle de Corrente Sinusoidal}\mbox{} \\
 
-O método de controle de corrente sinusoidal é dado pela filtragem ativa em que o compensador insere componentes de corrente nas linhas do sistema de modo a obter uma forma de onda de corrente na fonte de alimentação sendo senoidal e balanceada. Este método aplicado em sistema em que a tensão apresenta-se sendo distorcida não ostenta um fluxo de potência constante sendo drenado da fonte. Além do mais, atender as condições de absorver uma quantidade constante de potência ativa e garantir a corrente sendo sinusoidal em um sistema cuja tensão apresenta distorção harmônica não é realizável \cite{Akagi2007}.
+O método de controle de corrente sinusoidal é dado pela filtragem ativa em que o compensador insere componentes de corrente nas linhas do sistema de modo a obter uma forma de onda das correntes na fonte de alimentação sendo senoidais e balanceada. Este método aplicado em sistema em que a tensão apresenta-se sendo distorcida não ostenta um fluxo de potência constante sendo drenado da fonte. Além do mais, atender as condições de absorver uma quantidade constante de potência ativa e garantir a corrente sendo sinusoidal em um sistema cuja tensão apresenta distorção harmônica não é realizável \cite{Akagi2007}.
 
-Para conseguir um fluxo de corrente sinusoidal e balanceada sendo extraída da fonte é necessário adequar o filtro ativo para que este compense todas as componentes harmônicas, bem como as componentes fundamentais que diferem da componente fundamental de sequência positiva $\dot{I}_{+1}$. Essa condição é realizada através da implementação de um detector de sequencia positiva na entrada de tensão de um filtro ativo. 
+Para conseguir um fluxo de corrente sinusoidal e balanceada sendo extraída da fonte é necessário adequar o filtro ativo para que este compense todas as componentes harmônicas, bem como as componentes fundamentais que diferem da componente fundamental de sequência positiva $\dot{I}_{+1}$. Essa condição é realizada através da implementação de um detector de sequencia positiva na entrada de tensão de um filtro ativo. O esquema do filtro ativo apresentado na seção \ref{subssec:Concepção dos Filtros Ativos} e demonstrado na figura \ref{fig:con_alto_nivel.png} não é fundamentalmente modificado para o controle de corrente sinusoidal. A implementação deste método é realizado com a inserção do detector de sequencia positiva na leitura das tensões advindas da fonte como mostra a Figura \ref{fig:esquema_controle_senoidal.png}. Dessa maneira as tensões utilizadas no cálculo das correntes de referência do compensador é composto apenas pela fundamental de sequência positiva da tensão.
 
 \begin{figure}[!htbp] %Esquema de um filtro passivo genérico
 	\centering
@@ -105,7 +105,17 @@ Para conseguir um fluxo de corrente sinusoidal e balanceada sendo extraída da fo
 
 \paragraph{Detector de Sequência Positiva}\mbox{} \\
 
-asdasdasd
+Considerando as tensões $v_{Sa}$, $v_{Sb}$ e $v_{Sc}$ do sistema trifásico apresentadas pela composição da soma de componentes harmônicas de sequencia positiva e negativa, ou seja, fazendo $\dot{V}_{k_{+n}}$ o fasor da n-ésima componente fundamental de sequencia positiva e $\dot{V}_{k_{+n}}$ o fasor da n-ésima componente fundamental de sequencia negativa da fase $k$, tem-se:
+
+\begin{equation}
+\begin{aligned}
+\dot{V}_k = \sum_{n=1}^{\infty}\dot{V}_{k_{+n}}+\dot{V}_{k_{-n}}\qquad k=a,b,c
+\end{aligned}
+\end{equation}
+
+Já as tensões  $v_a'$, $v_b'$ e $v_c'$ advindas do detector de sequência positiva são constituída apenas por $\dot{V}_{k_{+1}}$. Estas por sua vez são utilizadas no cálculo da potências instantâneas $p$ e $q$, e também na determinação das correntes de referência nas coordenadas $\alpha \beta$, através da utilização das potências compensadas $-\tilde{p}$ e $-q = -(\bar{q}+\tilde{q})$. Em termos de componentes simétricas, dado que somente $\dot{V}_{+1}$ é considerado, apenas $\dot{I}_{+1}$ produzem $\bar{p}$ e $\bar{q}$. Com isso, operando o filtro de modo a compensar as parcelas da potência $\tilde{p}$ e $\tilde{q}$, as componentes harmônicas de sequencia positiva e negativas diferentes de $\dot{I}_{+1}$ são certamente compensadas \cite{Akagi2007}. Com isso a operação do filtro se da pela presença apenas da componente fundamental da corrente nas linhas do sistema, garantindo a qualidade de energia pela ausência de quedas de tensão das componentes fundamental da corrente nas impedâncias das linhas.
+
+
 
 \subparagraph{PLL}
 
