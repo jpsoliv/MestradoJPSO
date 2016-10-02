@@ -1,9 +1,9 @@
 
 signal = Vabc.signals.values;
 time = Vabc.time;
-ti = 73.01;
-tf = 73.65;
-f_rede = 400;
+ti = 73.12;
+tf = 73.20;
+f_rede = 350;
 
 ini = find(time<=ti);
 fim = find(time>=tf);

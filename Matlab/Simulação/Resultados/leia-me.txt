@@ -1,40 +1,5 @@
-\askdaskdasdasdasdada
-adasda
- a
-d
- as
-d 
-asd
- 
-asd
-a
-d
-a
-sd
-ad
-asd
-asd
-ad
-aw
-arf
-qwer
-wef
- we
-f 
-wf 
-wf
- 
-g 
-ag aregdaf
-bv
-afdvbda fbg ad
-fg 
-adg erga
-g 
-avb
-zxcvbd
-gb
-er
-g tjh
-rj yjyjh s
-h
+Com Filtro
+
+com_filtro_350_fixedstep_soEHA_3
+com_filtro_400_fixedstep_soEHA_3
+com_filtro_800_fixedstep_soEHA_3
