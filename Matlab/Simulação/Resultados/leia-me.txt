@@ -3,3 +3,9 @@ Com Filtro
 com_filtro_350_fixedstep_soEHA_3
 com_filtro_400_fixedstep_soEHA_3
 com_filtro_800_fixedstep_soEHA_3
+
+Sem Filtro 
+
+
+sem_filtro_350_fixedstep_soEHA_3
+sem_filtro_400_fixedstep_soEHA_3

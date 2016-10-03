@@ -14,28 +14,45 @@ X = signal(index_ini:index_fim)';
 
 %% Curvas Norma
 
-f = 10:10:500000;
+ffix = 10:10:500000;
 
-y = zeros(1,length(f));
+yfix = zeros(1,length(ffix));
 
-y(1:find(f==100))=0.316;
+yfix(1:find(ffix==100))=0.316;
 
-y(f>100&f<1000) = [];
-f(f>100&f<1000) = [];
-y(f==1000)=3.16;
+yfix(ffix>100&ffix<1000) = [];
+ffix(ffix>100&ffix<1000) = [];
+yfix(ffix==1000)=3.16;
 
-y(find(f==1000):find(f==3000)) = 3.16;
+yfix(find(ffix==1000):find(ffix==3000)) = 3.16;
 
-y(f>3000&f<500000) = [];
-f(f>3000&f<500000) = [];
+yfix(ffix>3000&ffix<500000) = [];
+ffix(ffix>3000&ffix<500000) = [];
 
-y(end) = 10^(-34.44/20);
+yfix(ffix==500000) = 10^(-34.44/20);
+
+fvar = 10:10:1e6;
+
+yvar = zeros(1,length(fvar));
+
+yvar(1:find(fvar==100))=0.316;
+
+yvar(fvar>100&fvar<1000) = [];
+fvar(fvar>100&fvar<1000) = [];
+yvar(fvar==1000)=3.16;
+
+yvar(find(fvar==1000):find(fvar==6000)) = 3.16;
+
+yvar(fvar>6000&fvar<1e6) = [];
+fvar(fvar>6000&fvar<1e6) = [];
+
+yvar(fvar==1e6) = 10^(-34.44/20);
 
 %% plots
-loglog(f,y);
+loglog(ffix,yfix,'k',fvar,yvar,'k--');legend('MIL-STD 704F - 400 Hz', 'MIL-STD 704F - Freq. Variável');
 hold on
-plot(fs,ys/sqrt(2));legend('MIL-STD 704F');
+plot(fs,ys/sqrt(2));
 hold off
 
-xlim([10 500000])
+xlim([10 1e6])
 end
