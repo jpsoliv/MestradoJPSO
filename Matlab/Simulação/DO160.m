@@ -1,4 +1,4 @@
-function DO160(time,signal,ti,tf,f_rede)
+function DO160(time,signal,f_rede)
 %% Definição dos Sinais
 
 % time = Vabc_S.time;
@@ -10,16 +10,18 @@ function DO160(time,signal,ti,tf,f_rede)
 % ti = 73;
 % tf = 73.05;
 
-ini = find(time<=ti);
-fim = find(time>=tf);
+% ini = find(time<=ti);
+% fim = find(time>=tf);
+% 
+% index_ini = ini(end);
+% index_fim = fim(1);
+% 
+% t = time(index_ini:index_fim);
+% X = signal(index_ini:index_fim)';
 
-index_ini = ini(end);
-index_fim = fim(1);
+% [f,y] = fft_mestre(X,t);
 
-t = time(index_ini:index_fim);
-X = signal(index_ini:index_fim)';
-
-[f,y] = fft_mestre(X,t);
+[f,y] = fft_mestre(signal,time);
 
 plot(f,y)
 
