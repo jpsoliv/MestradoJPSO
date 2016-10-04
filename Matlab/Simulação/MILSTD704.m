@@ -1,16 +1,16 @@
-function MILSTD704(time,signal,ti,tf,f_rede)
+function MILSTD704(time,signal)
 
 %% FFT
-ini = find(time<=ti);
-fim = find(time>=tf);
+% ini = find(time<=ti);
+% fim = find(time>=tf);
+% 
+% index_ini = ini(end);
+% index_fim = fim(1);
+% 
+% t = time(index_ini:index_fim);
+% X = signal(index_ini:index_fim)';
 
-index_ini = ini(end);
-index_fim = fim(1);
-
-t = time(index_ini:index_fim);
-X = signal(index_ini:index_fim)';
-
-[fs,ys] = fft_mestre(X,t);
+[fs,ys] = fft_mestre(signal,time);
 
 %% Curvas Norma
 
