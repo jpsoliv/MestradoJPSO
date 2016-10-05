@@ -3,8 +3,8 @@
 Vsignal = Vabc.signals.values;
 Isignal = Iabc.signals.values;
 time = Vabc.time;
-ti = 72.74;
-tf = 72.767;
+ti = 72.85;
+tf = 72.945;
 f_rede = 400;
 
 %% Definição de período
@@ -35,5 +35,5 @@ figure(3)
 MILSTD704(t,V);
 
 figure(4)
-[P,Q,S]=aparente(t,V,I);
+[P_com,Q_com,S_com]=aparente(t,V,I);
 
