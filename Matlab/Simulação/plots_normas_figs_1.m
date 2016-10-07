@@ -27,13 +27,13 @@ subplot(2,1,1);
 plot(t,V);ylabel('Tensão [V]');title('Tensão e Corrente no PCC')
 subplot(2,1,2)
 plot(t,I);xlabel('tempo[s]');ylabel('Corrente [A]');
-
-figure(2)
-DO160(t,V,f_rede);
+% 
+% figure(2)
+% DO160(t,V,f_rede);
 
 figure(3)
 MILSTD704(t,V);
 
 figure(4)
-[P_com,Q_com,S_com]=aparente(t,V,I);
+[P,Q,S]=aparente(t,V,I);
 
