@@ -3,8 +3,8 @@
 Vsignal = Vabc.signals.values;
 Isignal = Iabc.signals.values;
 time = Vabc.time;
-ti = 72.85;
-tf = 72.945;
+ti = 73.12;
+tf = 73.3;
 f_rede = 400;
 
 %% Definição de período
@@ -27,9 +27,9 @@ subplot(2,1,1);
 plot(t,V);ylabel('Tensão [V]');title('Tensão e Corrente no PCC')
 subplot(2,1,2)
 plot(t,I);xlabel('tempo[s]');ylabel('Corrente [A]');
-% 
-% figure(2)
-% DO160(t,V,f_rede);
+
+figure(2)
+DO160(t,V,f_rede);
 
 figure(3)
 MILSTD704(t,V);
