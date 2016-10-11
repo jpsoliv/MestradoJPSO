@@ -40,7 +40,8 @@ y1(1) = [];
 THD = 100*sqrt(dot(y1,y1))/fund;
 
 IHC = 100*max(y1)/fund;
-IHCf = f(max(y1)==y1);
+IHCf = f(index);
+IHCf = IHCf(max(y1)==y(index));
 
 
 
@@ -61,11 +62,8 @@ xtx = get(gca,'xlim');
 xtx(1) = [];
 ytx = get(gca,'ylim');
 ytx(1) = [];
-tx1 = text(xtx*0.9,ytx*0.9,['THD = ' num2str(THD,'%.2f'),'%']);
-set(tx1,'VerticalAlignment','top');
-set(tx1,'HorizontalAlignment','right');
-tx2 = text(xtx*0.9,ytx*0.9-50,['IHC = ' num2str(IHC,'%.2f') ' @ ' num2str(IHCf,'%.2f') ' Hz']);
-set(tx2,'VerticalAlignment','top');
-set(tx2,'HorizontalAlignment','right');
+tx = text(xtx*0.9,ytx*0.9,{['THD = ' num2str(THD,'%.2f') '%'];['IHC = ' num2str(IHC,'%.2f') '% em ' num2str(round(IHCf),'%u') ' Hz']});
+set(tx,'VerticalAlignment','top');
+set(tx,'HorizontalAlignment','right');
 hold off
 
