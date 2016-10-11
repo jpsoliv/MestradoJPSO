@@ -40,7 +40,7 @@ y1(1) = [];
 THD = 100*sqrt(dot(y1,y1))/fund;
 
 IHC = 100*max(y1)/fund;
-IHCf = y(max(y1)==y1);
+IHCf = f(max(y1)==y1);
 
 
 

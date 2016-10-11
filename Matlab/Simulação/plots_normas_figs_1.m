@@ -3,8 +3,8 @@
 Vsignal = Vabc.signals.values;
 Isignal = Iabc.signals.values;
 time = Vabc.time;
-ti = 73.12;
-tf = 73.3;
+ti = 72.8;
+tf = 72.9;
 f_rede = 400;
 
 %% Definição de período
