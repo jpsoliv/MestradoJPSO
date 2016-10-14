@@ -3,7 +3,7 @@
 Vsignal = Vabc.signals.values;
 Isignal = Iabc.signals.values;
 time = Vabc.time;
-ti = 73.15;
+ti = 73;
 tf = 73.3;
 f_rede = 400;
 
@@ -22,11 +22,15 @@ I = Isignal(index_ini:index_fim,:);
 %% Plots
 
 figure(1)
+title('Tensão e Corrente no PCC')
 % plot(t,X,t,Iabc.signals.values(index_ini:index_fim));
-subplot(2,1,1);
-plot(t,V);ylabel('Tensão [V]');title('Tensão e Corrente no PCC')
-subplot(2,1,2)
-plot(t,I);xlabel('tempo[s]');ylabel('Corrente [A]');
+yyaxis left
+plot(t,V(:,1));
+ylabel('Tensão [V]');
+ylim([-190 190]);
+yyaxis right
+plot(t,I(:,1));xlabel('tempo[s]');ylabel('Corrente [A]');
+ylim([-max(I(:,1))*2 max(I(:,1))*2]);
 
 figure(2)
 DO160(t,V,f_rede);

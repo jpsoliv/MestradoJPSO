@@ -1,6 +1,8 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Dissertacao.aux
 The style file: abnt-num.bst
 Database file #1: Referencias_Bibliograficas/Bibliografia.bib
+Warning--entry type for "Linear" isn't style-file defined
+--line 377 of file Referencias_Bibliograficas/Bibliografia.bib
 Warning--entry type for "Thekkevalappil2005" isn't style-file defined
 --line 525 of file Referencias_Bibliograficas/Bibliografia.bib
 +---------------------------------------------------------+
@@ -8,4 +10,4 @@ Warning--entry type for "Thekkevalappil2005" isn't style-file defined
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-(There was 1 warning)
+(There were 2 warnings)
