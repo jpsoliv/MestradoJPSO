@@ -3,8 +3,8 @@
 Vsignal = Vabc.signals.values;
 Isignal = Iabc.signals.values;
 time = Vabc.time;
-ti = 73;
-tf = 73.3;
+ti = 72.85;
+tf = 72.945;
 f_rede = 400;
 
 %% Definição de período
@@ -32,10 +32,10 @@ yyaxis right
 plot(t,I(:,1));xlabel('tempo[s]');ylabel('Corrente [A]');
 ylim([-max(I(:,1))*2 max(I(:,1))*2]);
 
-figure(2)
+figure('Name','THD e IHC')
 DO160(t,V,f_rede);
 
-figure(3)
+figure('Name','MIL-STD 704F espectro')
 MILSTD704(t,V);
 
 figure(4)

@@ -56,8 +56,15 @@ hold on
 plot(f/f_rede,y/sqrt(2));
 hold off
 xlim([0 40]);
-xlabel('Harmônica')
-ylabel('Amplitude')
+
+xl = xlabel('Harmônica');
+set(xl,'Interpreter','tex');
+set(xl,'FontName','Times New Roman');
+
+yl = ylabel('Amplitude [\itV_{rms}\rm]');
+set(yl,'Interpreter','tex');
+set(yl,'FontName','Times New Roman');
+
 xtx = get(gca,'xlim');
 xtx(1) = [];
 ytx = get(gca,'ylim');
@@ -65,5 +72,7 @@ ytx(1) = [];
 tx = text(xtx*0.9,ytx*0.9,{['THD = ' num2str(THD,'%.2f') '%'];['IHC = ' num2str(IHC,'%.2f') '% em ' num2str(round(IHCf),'%u') ' Hz']});
 set(tx,'VerticalAlignment','top');
 set(tx,'HorizontalAlignment','right');
+set(tx,'Interpreter','tex');
+set(tx,'FontName','Times New Roman');
 hold off
 

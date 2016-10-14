@@ -350,4 +350,19 @@ Master Thesis, \emph{Hysteretic Pulse Width Modulation with Internally
 \emph{IEEE Transactions on Power Delivery}, IEEE, v.~8, n.~2, p. 697--703,
   1993.}
 
+\bibitem{Olivier}
+\abntrefinfo{Tremblay}{TREMBLAY}{}
+{TREMBLAY, L.-A.~D. O. \emph{Aircraft Electrical Power Generation and
+  Distribution}. Montreal: Ecole de Technologie Superieure.
+Acessado em 14/10/2016.
+Dispon{\'\i}vel em:
+  $<$https://www.mathworks.com/help/physmod/sps/examples/aircraft-electrical-power-generation-and-distribution.html$>$.}
+
+\bibitem{Exner1953}
+\abntrefinfo{Exner e Singer}{EXNER; SINGER}{1953}
+{EXNER, D.; SINGER, G. Impedance data for 400-cycle aircraft distribution
+  systems.
+\emph{Transactions of the American Institute of Electrical Engineers, Part II:
+  Applications and Industry}, IEEE, v.~71, n.~6, p. 410--419, 1953.}
+
 \end{thebibliography}

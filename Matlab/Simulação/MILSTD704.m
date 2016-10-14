@@ -49,10 +49,29 @@ fvar(fvar>6000&fvar<1e6) = [];
 yvar(fvar==1e6) = 10^(-34.44/20);
 
 %% plots
-loglog(ffix,yfix,'k',fvar,yvar,'k--');legend('MIL-STD 704F - 400 Hz', 'MIL-STD 704F - Freq. Variável');
+
+% close all
+ft = 30;
+fatorX = 2;
+fatorY = 0.9;
+ftaxes = 24;
+
+loglog(ffix,yfix,'k',fvar,yvar,'k--');
 hold on
 plot(fs,ys/sqrt(2));
 hold off
+ylim([10^(-34.44/20) 200]);
+xlim([10 1e6]);
 
-xlim([10 1e6])
+xl = xlabel('Frequência [Hz]');
+set(xl,'Interpreter','tex')
+set(xl,'FontName','Times New Roman');
+% set(xl,'FontAngle','italic');
+set(xl,'FontSize',ftaxes);
+
+yl = ylabel('Amplitude de distorção [\itV_{rms}\rm]');
+set(yl,'Interpreter','tex');
+set(yl,'FontName','Times New Roman');
+% set(yl,'FontAngle','italic');
+set(yl,'FontSize',ftaxes);
 end
