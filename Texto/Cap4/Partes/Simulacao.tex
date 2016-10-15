@@ -1,12 +1,67 @@
 \section{Simulação}
 
-\subsection{Modelo do sistema}
+\subsection{Modelo do Sistema Elétrico}
 
 \subsubsection{Sistema de Geração}
-\cite{Olivier}
+
+O sistema de geração aplicado na simulação visa representar de maneira suficientemente apropriada uma fonte de tensão comumente encontrada em sistemas elétricos aeronáuticos. Tal bloco é composto por uma máquina síncrona, cuja entrada mecânica é definida por um valor constante representado pela rotação do eixo proveniente do IDG, e os níveis de tensão é determinado por controle de campo de excitação. Esse último é obtido por uma GCU a qual opera juntamente com a maquina síncrona do gerador. Em sistema elétricos aeronáuticos reais a complexidade do bloco Gerador/GCU é complexa e envolve sistemas complementares para garantir sua confiabilidade. Entretanto, para a proposta de simulação apresentado nesse trabalho, o sistema proposto por \cite{Olivier} mostra-se adequado. Isto deve-se principalmente pela característica da saída do gerador apresentar tensão com certa frequência definida, com amplitude controlada e as não idealidades representadas pelas resistências e indutâncias nas linhas do gerador são modeladas.
+
+Em ambiente Simulink tanto o bloco da máquina síncrona como o  bloco de excitação de campo estão presentes. 
+
+O circuito elétrico do modelo do gerador é apresentado na Figura \ref{}.  
+
+\begin{figure}[!htb] %
+	\centering
+	\includegraphics[width=0.99\textwidth]{Cap4/Figuras/GEN_GCU.png}
+	\caption{gen+GCU}
+	\label{fig:GEN_GCU.png}
+\end{figure}
+
+\begin{table}[!htb]
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Resistência			& Indutância	& Impedância [$\Omega$]\\\hline
+		$0.0404 \;\Omega$		& 0.09204 mH	& $0.0404+j0.213$\\
+		\hline
+	\end{tabular}
+	\caption{Impedâncias das linhas do gerador}
+	\label{tab:Zgen}
+\end{table}
+
+\cite{IEEE}
 \subsubsection{Sistema de Distribuição}
 \cite{Exner1953}
+
+\begin{figure}[!htb] %
+	\centering
+	\includegraphics[width=0.99\textwidth]{Cap4/Figuras/dist.png}
+	\caption{gen+GCU}
+	\label{fig:dist.png}
+\end{figure}
+
+\begin{table}[!htb]
+	\centering
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		Porção		&	Bitola		&	Comprimento	&	Impedância (400 Hz) [$\Omega$]	\\\hline
+		GEN - PDU	&	AWG 0		&	10 m		&	$0.0047+j0.0067$	\\\hline
+		PDU - EHA 1	&	AWG 10 		&	15 m		&	$0,0540+j0,0199$	\\\hline
+		PDU - EHA 2 &	AWG 10		&	17.5 m 		&	$0.0630+j0,0233$	\\\hline
+		PDU - EHA 3	&	AWG 10		&	20 m 		&	$0.0720+j0.0266$	\\\hline
+	\end{tabular}
+	\caption{Impedâncias das linhas de distribuição}
+	\label{tab:Zdist}
+\end{table}
+
 \subsubsection{Atuador Eletrohidrostático}
+
+\begin{figure}[!htb] %
+	\centering
+	\includegraphics[width=0.7\textwidth]{Cap4/Figuras/EHA.png}
+	\caption{EHA}
+	\label{fig:EHA.png}
+\end{figure}
 
 \subsection{Modelo do Conversor}
 

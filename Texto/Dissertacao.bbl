@@ -358,6 +358,12 @@ Acessado em 14/10/2016.
 Dispon{\'\i}vel em:
   $<$https://www.mathworks.com/help/physmod/sps/examples/aircraft-electrical-power-generation-and-distribution.html$>$.}
 
+\bibitem{IEEE}
+\abntrefinfo{IEEE\ldots}{IEEE\ldots}{1992}
+{IEEE Recommended Practice for Excitation System Models for Power System
+  Stability Studies.
+\emph{IEEE Std 421.5-1992}, August 1992.}
+
 \bibitem{Exner1953}
 \abntrefinfo{Exner e Singer}{EXNER; SINGER}{1953}
 {EXNER, D.; SINGER, G. Impedance data for 400-cycle aircraft distribution
