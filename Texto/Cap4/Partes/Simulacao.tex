@@ -2,43 +2,49 @@
 
 \subsection{Modelo do Sistema Elétrico}
 
-\subsubsection{Sistema de Geração}
+\subsubsection{Sistema de Geração} \todo{falar da potência do gerador}
 
 O sistema de geração aplicado na simulação visa representar de maneira suficientemente apropriada uma fonte de tensão comumente encontrada em sistemas elétricos aeronáuticos. Tal bloco é composto por uma máquina síncrona, cuja entrada mecânica é definida por um valor constante representado pela rotação do eixo proveniente do IDG, e os níveis de tensão é determinado por controle de campo de excitação. Esse último é obtido por uma GCU a qual opera juntamente com a maquina síncrona do gerador. Em sistema elétricos aeronáuticos reais a complexidade do bloco Gerador/GCU é complexa e envolve sistemas complementares para garantir sua confiabilidade. Entretanto, para a proposta de simulação apresentado nesse trabalho, o sistema proposto por \cite{Olivier} mostra-se adequado. Isto deve-se principalmente pela característica da saída do gerador apresentar tensão com certa frequência definida, com amplitude controlada e as não idealidades representadas pelas resistências e indutâncias nas linhas do gerador são modeladas.
 
-Em ambiente Simulink tanto o bloco da máquina síncrona como o  bloco de excitação de campo estão presentes. 
-
-O circuito elétrico do modelo do gerador é apresentado na Figura \ref{}.  
+Em ambiente Simulink tanto o bloco da máquina síncrona como o bloco de excitação de campo estão presentes. Sendo assim o sistema de geração utilizado no software é mostrado na Figura \ref{fig:GEN_GCU.png}.
 
 \begin{figure}[!htb] %
 	\centering
 	\includegraphics[width=0.99\textwidth]{Cap4/Figuras/GEN_GCU.png}
-	\caption{gen+GCU}
+	\caption{Modelo do sistema de geração}
 	\label{fig:GEN_GCU.png}
 \end{figure}
+
+Nessa ilustração o subconjunto superior é composto pelos elementos que modelam a GCU. O \textit{Excitation System} é um bloco nativo do Simulink opera como descrito em \cite{IEEE}. Já os blocos auxiliares da GCU estão presentes para condicionar o sinal adequadamente. A medição de tensão que alimenta a GCU deve ser proveniente do barramento de distribuição, visto que as não idealidades do sistema alterem os níveis de tensão nesse ponto em comparação à saída do gerador.
+
+O subconjunto inferior compõe o Gerador. A máquina síncrona é também um bloco presente no Simulink e em sua saída estão presentes as resistências e indutâncias conectadas em série com a linhas cujos valores são expostos na Tabela \ref{tab:Zgen}.  Ainda existe uma resistência parasita no sistema com o intuito de evitar problemas numéricos na simulação. A presença deste elemento não influencia o sistema que será simulado.
 
 \begin{table}[!htb]
 	\centering
 	\begin{tabular}{|c|c|c|}
 		\hline
-		Resistência			& Indutância	& Impedância [$\Omega$]\\\hline
-		$0.0404 \;\Omega$		& 0.09204 mH	& $0.0404+j0.213$\\
+		Resistência	[$\Omega$]	& Indutância [mH]	& Impedância [$\Omega$]\\\hline
+		0.0404					& 0.09204			& $0.0404+j0.213$\\
 		\hline
 	\end{tabular}
-	\caption{Impedâncias das linhas do gerador}
+	\caption{Impedância interna do Gerador}
 	\label{tab:Zgen}
 \end{table}
 
-\cite{IEEE}
 \subsubsection{Sistema de Distribuição}
-\cite{Exner1953}
+
+O sistema de distribuição de uma aeronave é constituído pelos condutores que transferem a energia entre os subsistemas, além dos barramentos de distribuição e equipamentos de proteção do sistema elétrico. Contudo, nesse trabalho as proteções não estão no escopo da simulação, sendo que o modelo proposto será composto apenas pelas linhas de transmissão e um barramento a qual as cargas possam ser conectadas.
+
+O ponto de conexão em comum está localizado na PDU (\textit{Primary Distribution Unit}). Apenas um barramento será considerado e as cargas não lineares compostas pelos EHAs serão conetadas em paralelo a partir dessa unidade. A Figura \ref{fig:dist.png} apresenta o modelo implementado no Simulink para realização da simulação. Aqui pode-se observar as cargas compostas pelos EHAs sendo conectadas a partir da PDU. A alimentação da PDU é realizada diretamente pelo gerador através de uma linha de transmissão trifásica. Nessa unidade ainda existe um sensor de tensão que cede informação ao GCU para o controle de excitação de campo, a qual fornecer ao gerador o controle para que este apresente níveis de tensão adequadas para manter a tensão de fase no PCC sendo 115 V.
 
 \begin{figure}[!htb] %
 	\centering
 	\includegraphics[width=0.99\textwidth]{Cap4/Figuras/dist.png}
-	\caption{gen+GCU}
+	\caption{Sistema de Distribuição}
 	\label{fig:dist.png}
 \end{figure}
+
+\cite{Exner1953}
 
 \begin{table}[!htb]
 	\centering
