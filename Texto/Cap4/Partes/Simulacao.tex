@@ -23,7 +23,7 @@ O subconjunto inferior compõe o Gerador. A máquina síncrona é também um bloco pr
 	\centering
 	\begin{tabular}{|c|c|c|}
 		\hline
-		Resistência	[$\Omega$]	& Indutância [mH]	& Impedância [$\Omega$]\\\hline
+		\textbf{Resistência	[$\Omega$]}	& \textbf{Indutância [mH]}	& \textbf{Impedância [$\Omega$]}\\\hline
 		0.0404					& 0.09204			& $0.0404+j0.213$\\
 		\hline
 	\end{tabular}
@@ -50,7 +50,7 @@ O ponto de conexão em comum está localizado na PDU (\textit{Primary Distribution
 	\centering
 	\begin{tabular}{|c|c|c|c|}
 		\hline
-		Porção		&	Bitola		&	Comprimento	&	Impedância (400 Hz) [$\Omega$]	\\\hline
+		\textbf{Porção}		&	\textbf{Bitola}		&	\textbf{Comprimento}	&	\textbf{Impedância (400 Hz) [$\Omega$]}	\\\hline
 		GEN - PDU	&	AWG 0		&	10 m		&	$0,0047+j0,0067$	\\\hline
 		PDU - EHA 1	&	AWG 10 		&	15 m		&	$0,0540+j0,0199$	\\\hline
 		PDU - EHA 2 &	AWG 10		&	17.5 m 		&	$0,0630+j0,0233$	\\\hline
@@ -62,30 +62,32 @@ O ponto de conexão em comum está localizado na PDU (\textit{Primary Distribution
 
 \subsubsection{Atuador Eletrohidrostático}
 
-O atuador eletrohidrostático é um dispositivo empregado em sistemas de comandos de voo onde atua nas superfícies de controle aerodinâmico de uma aeronave. Os EHAs são compostos por dois principais subsistemas: o subsistema elétrico e o subsistema hidráulico. A porção elétrica é composto por um sistema de conversão e condicionamento da tensão elétrica de modo a energizar um motor que impulsiona a bomba do subsistema hidráulico. Com a pressurização das linhas hidráulicas o sistema fica apto a atuar o deslocamento linear do pistão por meio de sistemas de controle.
+O atuador eletrohidrostático é um dispositivo empregado em sistemas de controle de voo na qual atua nas superfícies de comando para manter a aeronavegabilidade de uma aeronave. Os EHAs são compostos por dois principais subsistemas: o subsistema elétrico e o subsistema hidráulico. A porção elétrica é composto por conversores de condicionamento da tensão elétrica de modo a energizar um motor que impulsiona a bomba do subsistema hidráulico. Com a pressurização das linhas hidráulicas o EHA fica apto a atuar o deslocamento linear do pistão por meio de sistemas de controle.
 
-A subsistema elétrico tem como principais componentes uma ponte trifásica de diodos, um driver DC para DC, um inversor de frequência e uma máquina síncrona baseada em imãs permanentes \cite{Dinca2014}. A Figura \ref{fig:EHA_elec.png} mostra o diagrama simplifica do subsistema elétrico. Cabe lembrar que outros componentes secundários são empregados no subsistema elétrico com o intuito de prover controle e proteção ao EHA, e que não são mostrados na Figura \ref{fig:EHA_elec.png}.  
+A subsistema elétrico tem como principais componentes uma ponte trifásica de diodos, um driver DC-DC, um inversor de frequência e uma máquina síncrona baseada em imãs permanentes \cite{Dinca2014}. A Figura \ref{fig:EHA_elec.png} mostra o diagrama simplificado do subsistema elétrico. Cabe lembrar que outros componentes secundários são empregados neste subsistema com o intuito de prover controle e proteção ao EHA, e que não são mostrados na Figura \ref{fig:EHA_elec.png}.
 
 \begin{figure}[!htb] %
 	\centering
 	\includegraphics[width=0.7\textwidth]{Cap4/Figuras/EHA_elec.png}
-	\caption{EHA}
+	\caption{Subsistema elétrico de um EHA}
 	\label{fig:EHA_elec.png}
 \end{figure}  
 
-O modelo empregado do EHA é baseado em resultados experimentais de um dispositivo real. 
+Por apresentar uma ponte de retificadora de diodos na entrada, a operação de um EHA acaba por injetar componentes harmônicas nas formas de onda de corrente, trazendo assim a depreciação da qualidade de energia elétrica de uma aeronave. Como o foco deste trabalho diz respeito à qualidade de energia, tanto a modelagem do subsistema hidráulico juntamente com a operação do motor elétrico não serão modelados. Sendo assim, o foco recai nas formas de onda da corrente que atravessam o retificador de entrada, a qual é o principal componente responsável pela queda na qualidade de energia quando se opera o EHA. A Figura \ref{fig:EHA.png} mostra o modelo do EHA empregado no Simulink para realização da simulação. Este modelo é composto por uma ponte retificadora trifásica que interfaceia a conversão AC-DC, como em um EHA, sendo que no lado DC exite uma fonte de corrente controlada. A realização desta fonte tem por objetivo simular o comportamento de consumo de energia proferido pelo restante dos componentes do lado DC do subsistema elétrico. A presença de uma resistência \textit{snubber} em paralelo à fonte de corrente tem como objetivo eliminar incompatibilidades do modelo, visto que isto é uma exigência para compilação do Simulink. Contudo, o valor de $R$ é escolhido com alto valor de resistência, de maneira que este interfere insignificantemente ao sistema.
 
 \begin{figure}[!htb] %
 	\centering
 	\includegraphics[width=0.7\textwidth]{Cap4/Figuras/EHA.png}
-	\caption{EHA}
+	\caption{Modelo do EHA empregado no Simulink}
 	\label{fig:EHA.png}
 \end{figure}
+
+O sinal de controle da fonte de corrente do lado DC é realizado de maneira a providenciar adequadamente o consumo de corrente visto pelo lado AC de um EHA. Tal sinal de controle foi gerado utilizando resultados experimentais de um EHA operando com carga em seu pistão. A metodologia empregada para a obtenção do sinal de controle da fonte de corrente foi através do cálculo da potência aparente consumida de um EHA real, através de dados experimentais, e inferir essa mesma potência no lado DC do EHA do modelo. Com isso garante-se que a potência aparente apresentada no modelo seja a mesma de um EHA real operando com carga, além de garantir a equivalência das formas de onda da corrente no lado AC. Com essa metodologia empregada o sinal criado para o controle da fonte de corrente do lado DC do modelo é visto na Figura \ref{fig:corrente_controlada_EHA.eps}.
 
 \begin{figure}[!htb] %
 	\centering
 	\includegraphics[width=0.7\textwidth]{Cap4/Figuras/corrente_controlada_EHA.eps}
-	\caption{corrente controlada EHA}
+	\caption{Valores estipulados na fonte de corrente controlada}
 	\label{fig:corrente_controlada_EHA.eps}
 \end{figure}
 
