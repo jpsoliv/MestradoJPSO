@@ -5,12 +5,36 @@ clc
 load('carga_EHA.mat');
 
 Ts = 1e-6;
-run('C:\Users\jpsoliv\Documents\João\Mestrado\MestradoJPSO.git_certo\trunk\Matlab\Active_filter.m')
+run('D:\Joao\Libraries\Onedrive\Documents\Documents\Mestrado ITA\MestradoJPSO\Matlab\Active_filter.m')
 close all
 
+figure(1)
+plot(t,sqrt(P.^2+Q.^2),il8000(:,1),il8000(:,2).*vl8000(:,2)*3,'LineWidth',2.5);
+legend('s','s Dados Spec');
 
-plot(t,sqrt(P.^2+Q.^2),t,Pbar,'LineWidth',2.5);legend('s','Pbar');
-hold on
-plot(il8000(:,1),il8000(:,2).*vl8000(:,2)*3,'k','LineWidth',2.5)
-legend('s','Pbar','Dados Spec');
-hold off
+load('corrente_controlada_EHA.mat');
+
+ft = 30;
+fatorX = 2;
+fatorY = 0.9;
+ftaxes = 24;
+
+figure(2)
+plot(corrente_controlada.xData,corrente_controlada.yData,'k','LineWidth',2.5);
+
+xl = xlabel('tempo [s]');
+set(xl,'Interpreter','Latex');
+set(xl,'FontName','Times New Roman');
+% set(xl,'FontAngle','italic');
+set(xl,'FontSize',ftaxes);
+
+yl = ylabel('Corrente [A]');
+set(yl,'Interpreter','Latex');
+set(yl,'FontName','Times New Roman');
+% set(yl,'FontAngle','italic');
+set(yl,'FontSize',ftaxes);
+
+lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
+set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
+xlim([72.85 73.9]);
+grid on

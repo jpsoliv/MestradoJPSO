@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.7)  17 OCT 2016 19:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.7)  18 OCT 2016 22:54
 entering extended mode
 **./Dissertacao.tex
 (Dissertacao.tex
@@ -4072,76 +4072,151 @@ pdftex: bookmark at 14: {58} {\numberline{58}{\ignorespaces Modelo do sistema d
 e gera\c c\~ao\relax }} {figure.caption.70}{0}{lof}
 Package hyperref Info: Reference (cite) `cite.IEEE' on input line 18.
 Package hyperref Info: Reference (link) `table.caption.71' on input line 20.
+Package hyperref Info: Anchor `table.caption.71' on input line 22.
+pdftex: bookmark at 30: {1} {\numberline{1}{\ignorespaces Imped\^ancia interna 
+do Gerador\relax }} {table.caption.71}{0}{lot}
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 21.
-Package hyperref Info: Anchor `page.73' on input line 21.
+(babel)             in language  on input line 32.
+Package hyperref Info: Anchor `page.73' on input line 32.
 [73
 Package `hyperref' Info: End of reference (cite) `cite.Olivier', line 7.
 Package `hyperref' Info: End of reference (link) `figure.caption.70', line 9.
 Package `hyperref' Info: End of reference (cite) `cite.IEEE', line 18.
+Package `hyperref' Info: End of reference (link) `table.caption.71', line 20.
  <./Cap4/Figuras/GEN_GCU.png>]
-Package hyperref Info: Anchor `table.caption.71' on input line 22.
-
-pdftex: bookmark at 30: {1} {\numberline{1}{\ignorespaces Imped\^ancia interna 
-do Gerador\relax }} {table.caption.71}{0}{lot}
 Package hyperref Info: Anchor `subsubsection.4.2.1.2' on input line 34.
+
 pdftex: bookmark at 34: {4.2.1.2} {\numberline{4.2.1.2}Sistema de Distribui\c c
 \~ao} {subsubsection.4.2.1.2}{3}{toc}
 Package hyperref Info: Reference (link) `figure.caption.72' on input line 38.
 Package hyperref Info: Anchor `figure.caption.72' on input line 40.
-<Cap4/Figuras/dist.png, id=1235, 1168.365pt x 520.19344pt>
+<Cap4/Figuras/dist.png, id=1236, 1181.91562pt x 523.9575pt>
 File: Cap4/Figuras/dist.png Graphic file (type png)
 
 <use Cap4/Figuras/dist.png>
 Package pdftex.def Info: Cap4/Figuras/dist.png used on input line 42.
-(pdftex.def)             Requested size: 450.69417pt x 200.66005pt.
+(pdftex.def)             Requested size: 450.69417pt x 199.79349pt.
 
 pdftex: bookmark at 43: {59} {\numberline{59}{\ignorespaces Sistema de Distribu
 i\c c\~ao\relax }} {figure.caption.72}{0}{lof}
-Package hyperref Info: Anchor `section*.73' on input line 46.
-pdftex: bookmark at 46: {\thetodo } {Trocar a figura e colocar as imped\^ancias
- em s\'erie} {section*.73}{0}{tdo}
-Package hyperref Info: Reference (cite) `cite.Exner1953' on input line 48.
-Package hyperref Info: Reference (link) `table.caption.73' on input line 48.
-Package hyperref Info: Anchor `table.caption.74' on input line 50.
-pdftex: bookmark at 60: {2} {\numberline{2}{\ignorespaces Imped\^ancias das lin
-has de distribui\c c\~ao\relax }} {table.caption.74}{0}{lot}
-Package hyperref Info: Anchor `subsubsection.4.2.1.3' on input line 64.
-pdftex: bookmark at 64: {4.2.1.3} {\numberline{4.2.1.3}Atuador Eletrohidrost\'a
+Package hyperref Info: Reference (cite) `cite.Exner1953' on input line 47.
+Package hyperref Info: Anchor `table.caption.73' on input line 49.
+pdftex: bookmark at 59: {2} {\numberline{2}{\ignorespaces Imped\^ancias das lin
+has de distribui\c c\~ao\relax }} {table.caption.73}{0}{lot}
+Package hyperref Info: Anchor `subsubsection.4.2.1.3' on input line 63.
+pdftex: bookmark at 63: {4.2.1.3} {\numberline{4.2.1.3}Atuador Eletrohidrost\'a
 tico} {subsubsection.4.2.1.3}{3}{toc}
-Package hyperref Info: Anchor `figure.caption.75' on input line 68.
-<Cap4/Figuras/EHA.png, id=1238, 989.94844pt x 499.11469pt>
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 66.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 66.
+Package hyperref Info: Anchor `page.74' on input line 66.
+[74
+Package `hyperref' Info: End of reference (link) `figure.caption.72', line 38.
+Package `hyperref' Info: End of reference (cite) `cite.Exner1953', line 47.
+ <./Cap4/Figuras/dist.png>]
+Package hyperref Info: Reference (cite) `cite.Dinca2014' on input line 67.
+Package hyperref Info: Reference (link) `figure.caption.74' on input line 67.
+Package hyperref Info: Reference (link) `figure.caption.74' on input line 67.
+Package hyperref Info: Anchor `figure.caption.74' on input line 69.
+
+<Cap4/Figuras/EHA_elec.png, id=1249, 795.72281pt x 381.67593pt>
+File: Cap4/Figuras/EHA_elec.png Graphic file (type png)
+
+<use Cap4/Figuras/EHA_elec.png>
+Package pdftex.def Info: Cap4/Figuras/EHA_elec.png used on input line 71.
+(pdftex.def)             Requested size: 318.66948pt x 152.8482pt.
+
+pdftex: bookmark at 72: {60} {\numberline{60}{\ignorespaces EHA\relax }} {figur
+e.caption.74}{0}{lof}
+Package hyperref Info: Anchor `figure.caption.75' on input line 78.
+<Cap4/Figuras/EHA.png, id=1250, 989.94844pt x 499.11469pt>
 File: Cap4/Figuras/EHA.png Graphic file (type png)
 
 <use Cap4/Figuras/EHA.png>
-Package pdftex.def Info: Cap4/Figuras/EHA.png used on input line 70.
+Package pdftex.def Info: Cap4/Figuras/EHA.png used on input line 80.
 (pdftex.def)             Requested size: 318.66948pt x 160.66432pt.
 
-pdftex: bookmark at 71: {60} {\numberline{60}{\ignorespaces EHA\relax }} {figur
+pdftex: bookmark at 81: {61} {\numberline{61}{\ignorespaces EHA\relax }} {figur
 e.caption.75}{0}{lof}
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 73.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 73.
-Package hyperref Info: Anchor `page.74' on input line 73.
-[74
-Package `hyperref' Info: End of reference (link) `table.caption.71', line 20.
-Package `hyperref' Info: End of reference (link) `figure.caption.72', line 38.
-Package `hyperref' Info: End of reference (cite) `cite.Exner1953', line 48.
-Package `hyperref' Info: End of reference (link) `table.caption.73', line 48.
-]
-Package hyperref Info: Anchor `subsection.4.2.2' on input line 75.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 75.
+Package hyperref Info: Anchor `figure.caption.76' on input line 85.
+Package epstopdf Info: Source file: <Cap4/Figuras/corrente_controlada_EHA.eps>
+(epstopdf)                    date: 2016-10-18 19:35:07
+(epstopdf)                    size: 120212 bytes
+(epstopdf)             Output file: <Cap4/Figuras/corrente_controlada_EHA-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2016-10-18 19:35:58
+(epstopdf)                    size: 12208 bytes
+(epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/corrente_contr
+olada_EHA-eps-converted-to.pdf Cap4/Figuras/corrente_controlada_EHA.eps>
+(epstopdf)             \includegraphics on input line 87.
+Package epstopdf Info: Output file is already uptodate.
 
-pdftex: bookmark at 75: {4.2.2} {\numberline{4.2.2}Modelo do Conversor} {subsec
-tion.4.2.2}{2}{toc}
-Package hyperref Info: Anchor `subsection.4.2.3' on input line 77.
+<Cap4/Figuras/corrente_controlada_EHA-eps-converted-to.pdf, id=1251, 421.575pt 
+x 316.18124pt>
+File: Cap4/Figuras/corrente_controlada_EHA-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use Cap4/Figuras/corrente_controlada_EHA-eps-converted-to.pdf>
+Package pdftex.def Info: Cap4/Figuras/corrente_controlada_EHA-eps-converted-to.
+pdf used on input line 87.
+(pdftex.def)             Requested size: 318.66948pt x 239.00726pt.
+
+pdftex: bookmark at 88: {62} {\numberline{62}{\ignorespaces corrente controlada
+ EHA\relax }} {figure.caption.76}{0}{lof}
+Package hyperref Info: Anchor `section*.77' on input line 92.
+pdftex: bookmark at 92: {\thetodo } {Padronizar as figuras (plots\_EHA\_teste.m
+at)} {section*.77}{0}{tdo}
+
+Overfull \hbox (6.22328pt too wide) in paragraph at lines 92--92
+[][][][]\T1/aer/m/n/6 Padronizar 
+ []
+
+
+Overfull \hbox (4.03934pt too wide) in paragraph at lines 92--92
+\T1/aer/m/n/6 teste.mat)  
+ []
+
+
+Overfull \hbox (6.22328pt too wide) in paragraph at lines 92--92
+[][][][]\T1/aer/m/n/6 Padronizar 
+ []
+
+
+Overfull \hbox (4.03934pt too wide) in paragraph at lines 92--92
+\T1/aer/m/n/6 teste.mat)  
+ []
+
+
+Overfull \hbox (6.22328pt too wide) in paragraph at lines 92--92
+[][][][]\T1/aer/m/n/6 Padronizar 
+ []
+
+
+Overfull \hbox (4.03934pt too wide) in paragraph at lines 92--92
+\T1/aer/m/n/6 teste.mat)  
+ []
+
+
+Overfull \hbox (6.22328pt too wide) in paragraph at lines 92--92
+[][][][]\T1/aer/m/n/6 Padronizar 
+ []
+
+
+Overfull \hbox (4.03934pt too wide) in paragraph at lines 92--92
+\T1/aer/m/n/6 teste.mat)  
+ []
+
+Package hyperref Info: Anchor `subsection.4.2.2' on input line 94.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 77.
-pdftex: bookmark at 77: {4.2.3} {\numberline{4.2.3}Resultados} {subsection.4.2.
+(babel)             in language  on input line 94.
+pdftex: bookmark at 94: {4.2.2} {\numberline{4.2.2}Modelo do Conversor} {subsec
+tion.4.2.2}{2}{toc}
+Package hyperref Info: Anchor `subsection.4.2.3' on input line 96.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 96.
+pdftex: bookmark at 96: {4.2.3} {\numberline{4.2.3}Resultados} {subsection.4.2.
 3}{2}{toc}
 ) (Dissertacao.bbl
 Package babel Info: Redefining portuges shorthand "|
@@ -4149,15 +4224,19 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 Package hyperref Info: Anchor `page.75' on input line 3.
- [75 <./Cap4/Figuras/dist.png> <./Cap4/Figuras/EHA.png>]
+ [75
+Package `hyperref' Info: End of reference (cite) `cite.Dinca2014', line 67.
+Package `hyperref' Info: End of reference (link) `figure.caption.74', line 67.
+Package `hyperref' Info: End of reference (link) `figure.caption.74', line 67.
+ <./Cap4/Figuras/EHA_elec.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 Package hyperref Info: Anchor `page.76' on input line 3.
-
-[76]
-Package hyperref Info: Anchor `chapter*.76' on input line 3.
+ [76 <./Cap4/Figuras/EHA.png> <./Cap4/Figuras/corrente_controlada_EHA-eps-conve
+rted-to.pdf>]
+Package hyperref Info: Anchor `chapter*.78' on input line 3.
 Package hyperref Info: Anchor `chapter.5' on input line 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
@@ -4376,6 +4455,7 @@ Underfull \hbox (badness 1635) in paragraph at lines 355--360
 
 Package hyperref Info: Anchor `cite.IEEE' on input line 361.
 Package hyperref Info: Anchor `cite.Exner1953' on input line 367.
+Package hyperref Info: Anchor `cite.Dinca2014' on input line 374.
 ) 
 AED: lastpage setting LastPage
 Package babel Info: Redefining portuges shorthand "|
@@ -4410,37 +4490,34 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 267.
  ) 
 Here is how much of TeX's memory you used:
- 31565 strings out of 493335
- 623293 string characters out of 3136684
- 755762 words of memory out of 3000000
- 34104 multiletter control sequences out of 15000+200000
+ 31580 strings out of 493335
+ 623792 string characters out of 3136684
+ 755450 words of memory out of 3000000
+ 34115 multiletter control sequences out of 15000+200000
  48934 words of font info for 122 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,14n,80p,10385b,1439s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{table.caption.73} has been referenced but does no
-t exist, replaced by a fixed one
-
- <C:\Users\Joao\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcr
-m1200.pk> <C:\Users\Joao\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
-pi600\tcrm1095.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmbx8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
-12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.
-pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Dissertacao.pdf (82 pages, 2705079 bytes).
+ 62i,14n,80p,10385b,1409s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Joao\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\t
+crm1200.pk> <C:\Users\Joao\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
+\dpi600\tcrm1095.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmbx8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+mi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
+6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Dissertacao.pdf (82 pages, 2737631 bytes).
 PDF statistics:
- 1417 PDF objects out of 1440 (max. 8388607)
- 319 named destinations out of 1000 (max. 500000)
- 640 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1430 PDF objects out of 1440 (max. 8388607)
+ 321 named destinations out of 1000 (max. 500000)
+ 650 words of extra memory for PDF output out of 10000 (max. 10000000)
 
