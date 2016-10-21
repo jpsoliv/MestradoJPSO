@@ -62,6 +62,7 @@ plot(fs,ys/sqrt(2));
 hold off
 ylim([10^(-34.44/20) 200]);
 xlim([10 1e6]);
+legend('MIL-STD 704F - 400 Hz','MIL-STD 704F - Freq. Var.')
 
 xl = xlabel('Frequência [Hz]');
 set(xl,'Interpreter','tex')
