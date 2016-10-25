@@ -15,15 +15,15 @@ Em ambiente Simulink tanto o bloco da máquina síncrona como o bloco de excitação
 	\label{fig:GEN_GCU.png}
 \end{figure}
 
-Nessa ilustração o subconjunto superior é composto pelos elementos que modelam a GCU. O \textit{Excitation System} é um bloco nativo do Simulink opera como descrito em \cite{IEEE}. Já os blocos auxiliares da GCU estão presentes para condicionar o sinal adequadamente. A medição de tensão que alimenta a GCU deve ser proveniente do barramento de distribuição, visto que as não idealidades do sistema alterem os níveis de tensão nesse ponto em comparação à saída do gerador.
+Nessa ilustração o subconjunto superior é composto pelos elementos que modelam a GCU. O \textit{Excitation System} é um bloco nativo do Simulink, a qual opera como descrito em \cite{IEEE}. Já os blocos auxiliares da GCU estão presentes para condicionar o sinal adequadamente. A medição de tensão que alimenta a GCU deve ser proveniente do barramento de distribuição, visto que as não idealidades do sistema alterem os níveis de tensão nesse ponto em comparação à saída do gerador.
 
-O subconjunto inferior compõe o Gerador. A máquina síncrona é também um bloco presente no Simulink e em sua saída estão presentes as resistências e indutâncias conectadas em série com a linhas cujos valores são expostos na Tabela \ref{tab:Zgen}.  Ainda existe uma resistência parasita no sistema com o intuito de evitar problemas numéricos na simulação. A presença deste elemento não influencia o sistema que será simulado.
+O subconjunto inferior compõe o Gerador. A máquina síncrona é também um bloco presente no Simulink e em sua saída estão presentes as resistências e indutâncias conectadas em série, cujos valores são expostos na Tabela \ref{tab:Zgen}.  Ainda existe uma resistência parasita no sistema com o intuito de evitar problemas numéricos na simulação. A presença deste elemento não influencia o sistema que será simulado.
 
 \begin{table}[!htb]
 	\centering
 	\begin{tabular}{|c|c|c|}
 		\hline
-		\textbf{Resistência	[$\Omega$]}	& \textbf{Indutância [mH]}	& \textbf{Impedância [$\Omega$]}\\\hline
+		\textbf{Resistência	[$\Omega$]}	& \textbf{Indutância [mH]}	& \textbf{Impedância (400 Hz) [$\Omega$]}\\\hline
 		0.0404					& 0.09204			& $0.0404+j0.213$\\
 		\hline
 	\end{tabular}
@@ -62,7 +62,7 @@ As não idealidades dos condutores são modeladas com a inserção de resistências e
 
 \subsubsection{Atuador Eletrohidrostático}
 
-O atuador eletrohidrostático é um dispositivo empregado em sistemas de controle de voo na qual atua nas superfícies de comando para manter a aeronavegabilidade de uma aeronave. Os EHAs são compostos por dois principais subsistemas: o subsistema elétrico e o subsistema hidráulico. A porção elétrica é composto por conversores de condicionamento da tensão elétrica de modo a energizar um motor que impulsiona a bomba do subsistema hidráulico. Com a pressurização das linhas hidráulicas o EHA fica apto a atuar o deslocamento linear do pistão por meio de sistemas de controle.
+O atuador eletrohidrostático é um dispositivo empregado em sistemas de controle de voo na qual atua nas superfícies de comando para manter a aeronavegabilidade de uma aeronave. Os EHAs são compostos por dois principais subsistemas: o subsistema elétrico e o subsistema hidráulico. A porção elétrica é composto por conversores de tensão elétrica de modo a energizar um motor que impulsiona a bomba do subsistema hidráulico. Com a pressurização das linhas hidráulicas o EHA fica apto a acionar o deslocamento linear do pistão por meio da atuação de sistemas de controle.
 
 A subsistema elétrico tem como principais componentes uma ponte trifásica de diodos, um driver DC-DC, um inversor de frequência e uma máquina síncrona baseada em imãs permanentes \cite{Dinca2014}. A Figura \ref{fig:EHA_elec.png} mostra o diagrama simplificado do subsistema elétrico. Cabe lembrar que outros componentes secundários são empregados neste subsistema com o intuito de prover controle e proteção ao EHA, e que não são mostrados na Figura \ref{fig:EHA_elec.png}.
 
@@ -73,7 +73,7 @@ A subsistema elétrico tem como principais componentes uma ponte trifásica de dio
 	\label{fig:EHA_elec.png}
 \end{figure}  
 
-Por apresentar uma ponte de retificadora de diodos na entrada, a operação de um EHA acaba por injetar componentes harmônicas nas formas de onda de corrente, trazendo assim a depreciação da qualidade de energia elétrica de uma aeronave. Como o foco deste trabalho diz respeito à qualidade de energia, tanto a modelagem do subsistema hidráulico juntamente com a operação do motor elétrico não serão modelados. Sendo assim, o foco recai nas formas de onda da corrente que atravessam o retificador de entrada, a qual é o principal componente responsável pela queda na qualidade de energia quando se opera o EHA. A Figura \ref{fig:EHA.png} mostra o modelo do EHA empregado no Simulink para realização da simulação. Este modelo é composto por uma ponte retificadora trifásica que interfaceia a conversão AC-DC, como em um EHA, sendo que no lado DC exite uma fonte de corrente controlada. A realização desta fonte tem por objetivo simular o comportamento de consumo de energia proferido pelo restante dos componentes do lado DC do subsistema elétrico. A presença de uma resistência \textit{snubber} em paralelo à fonte de corrente tem como objetivo eliminar incompatibilidades do modelo, visto que isto é uma exigência para compilação do Simulink. Contudo, o valor de $R$ é escolhido com alto valor de resistência, de maneira que este interfere insignificantemente ao sistema.
+Por apresentar uma ponte de retificadora de diodos na entrada, a operação de um EHA acaba por injetar componentes harmônicas nas formas de onda de corrente, trazendo assim a depreciação da qualidade de energia elétrica de uma aeronave. Como o foco deste trabalho diz respeito à qualidade de energia, tanto a modelagem do subsistema hidráulico juntamente com a operação do motor elétrico não serão modelados. Sendo assim, o foco recai nas formas de onda da corrente que atravessam o retificador de entrada, a qual é o principal componente responsável pela queda na qualidade de energia quando se opera o EHA. A Figura \ref{fig:EHA.png} mostra o modelo do EHA empregado no Simulink para realização da simulação. Este modelo é composto por uma ponte retificadora trifásica que interfaceia a conversão AC-DC, como em um EHA, sendo que no lado DC exite uma fonte de corrente controlada. A realização desta fonte tem por objetivo simular o comportamento de consumo de energia proferido pelo restante dos componentes do lado DC do subsistema elétrico. A presença de uma resistência \textit{snubber} em paralelo à fonte de corrente tem como objetivo eliminar incompatibilidades do modelo, visto que isto é uma exigência para compilação do Simulink. Contudo, o valor de $R$ é escolhido com alto valor de resistência de maneira que este interfere insignificantemente ao sistema.
 
 \begin{figure}[!htb] %
 	\centering
@@ -93,6 +93,10 @@ O sinal de controle da fonte de corrente do lado DC é realizado de maneira a pro
 
 \todo{Padronizar as figuras (plots\_EHA\_teste.mat)}
 
-\subsection{Modelo do Conversor}
+\subsection{Modelo do Filtro Ativo}
+
+\subsubsection{Controle}
+
+\subsubsection{Compensador}
 
 \subsection{Resultados}
