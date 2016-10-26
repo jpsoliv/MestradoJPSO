@@ -3,8 +3,8 @@
 Vsignal = Vabc.signals.values;
 Isignal = Iabc.signals.values;
 time = Vabc.time;
-ti = 72.85;
-tf = 72.945;
+ti = 73.3;
+tf = 73.7;
 f_rede = 400;
 
 %% Definição de período
@@ -31,7 +31,7 @@ ylim([-190 190]);
 yyaxis right
 plot(t,I(:,1));xlabel('tempo[s]');ylabel('Corrente [A]');
 ylim([-max(I(:,1))*2 max(I(:,1))*2]);
-xlim([72.85 72.86])
+xlim([73.3 73.31])
 
 figure(2)
 DO160(t,V,f_rede);
@@ -41,4 +41,4 @@ MILSTD704(t,V);
 
 figure(4)
 [P,Q,S]=aparente(t,V,I);
-xlim([72.85 72.86])
+xlim([73.3 73.31])
