@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.7)  26 OCT 2016 22:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.7)  27 OCT 2016 22:31
 entering extended mode
 **./Dissertacao.tex
 (Dissertacao.tex
@@ -4234,71 +4234,94 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 96.
 pdftex: bookmark at 96: {4.2.2} {\numberline{4.2.2}Modelo do Filtro Ativo} {sub
 section.4.2.2}{2}{toc}
-Package hyperref Info: Anchor `subsubsection.4.2.2.1' on input line 98.
-pdftex: bookmark at 98: {4.2.2.1} {\numberline{4.2.2.1}Controle} {subsubsection
-.4.2.2.1}{3}{toc}
-Package hyperref Info: Anchor `figure.caption.77' on input line 100.
-<Cap4/Figuras/controlador.png, id=1268, 1026.83624pt x 706.89093pt>
+
+LaTeX Warning: Reference `sec' on page 77 undefined on input line 98.
+
+
+LaTeX Warning: Reference `sec' on page 77 undefined on input line 98.
+
+Package hyperref Info: Anchor `subsubsection.4.2.2.1' on input line 100.
+pdftex: bookmark at 100: {4.2.2.1} {\numberline{4.2.2.1}Controle} {subsubsectio
+n.4.2.2.1}{3}{toc}
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 103.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 103.
+Package hyperref Info: Anchor `page.77' on input line 103.
+[77
+Package `hyperref' Info: End of reference (link) `figure.caption.75', line 85.
+ <./Cap4/Figuras/EHA.png>]
+Package hyperref Info: Anchor `figure.caption.77' on input line 104.
+
+<Cap4/Figuras/controlador.png, id=1274, 1026.83624pt x 706.89093pt>
 File: Cap4/Figuras/controlador.png Graphic file (type png)
 
 <use Cap4/Figuras/controlador.png>
-Package pdftex.def Info: Cap4/Figuras/controlador.png used on input line 102.
+Package pdftex.def Info: Cap4/Figuras/controlador.png used on input line 106.
 (pdftex.def)             Requested size: 409.71692pt x 282.06104pt.
 
-pdftex: bookmark at 103: {63} {\numberline{63}{\ignorespaces Valores estipulado
+pdftex: bookmark at 107: {63} {\numberline{63}{\ignorespaces Valores estipulado
 s na fonte de corrente controlada\relax }} {figure.caption.77}{0}{lof}
-Package hyperref Info: Anchor `subsubsection.4.2.2.2' on input line 107.
-pdftex: bookmark at 107: {4.2.2.2} {\numberline{4.2.2.2}Compensador} {subsubsec
-tion.4.2.2.2}{3}{toc}
-Package hyperref Info: Anchor `figure.caption.78' on input line 109.
-<Cap4/Figuras/Inversor.png, id=1269, 1364.09625pt x 651.18282pt>
-File: Cap4/Figuras/Inversor.png Graphic file (type png)
-
-<use Cap4/Figuras/Inversor.png>
-Package pdftex.def Info: Cap4/Figuras/Inversor.png used on input line 111.
-(pdftex.def)             Requested size: 409.71692pt x 195.58488pt.
-
-pdftex: bookmark at 112: {64} {\numberline{64}{\ignorespaces Valores estipulado
-s na fonte de corrente controlada\relax }} {figure.caption.78}{0}{lof}
-Package hyperref Info: Anchor `figure.caption.79' on input line 116.
-<Cap4/Figuras/histerese_sim.png, id=1270, 1138.2525pt x 607.51968pt>
+Package hyperref Info: Anchor `figure.caption.78' on input line 111.
+<Cap4/Figuras/histerese_sim.png, id=1275, 1138.2525pt x 607.51968pt>
 File: Cap4/Figuras/histerese_sim.png Graphic file (type png)
 
 <use Cap4/Figuras/histerese_sim.png>
-Package pdftex.def Info: Cap4/Figuras/histerese_sim.png used on input line 118.
+Package pdftex.def Info: Cap4/Figuras/histerese_sim.png used on input line 113.
 
 (pdftex.def)             Requested size: 273.14923pt x 145.78915pt.
 
-pdftex: bookmark at 119: {65} {\numberline{65}{\ignorespaces Valores estipulado
+pdftex: bookmark at 114: {64} {\numberline{64}{\ignorespaces Valores estipulado
+s na fonte de corrente controlada\relax }} {figure.caption.78}{0}{lof}
+Package hyperref Info: Anchor `figure.caption.79' on input line 118.
+<Cap4/Figuras/PI_sim.png, id=1276, 795.72281pt x 386.94562pt>
+File: Cap4/Figuras/PI_sim.png Graphic file (type png)
+
+<use Cap4/Figuras/PI_sim.png>
+Package pdftex.def Info: Cap4/Figuras/PI_sim.png used on input line 120.
+(pdftex.def)             Requested size: 227.62206pt x 110.68803pt.
+
+pdftex: bookmark at 121: {65} {\numberline{65}{\ignorespaces Valores estipulado
 s na fonte de corrente controlada\relax }} {figure.caption.79}{0}{lof}
-Package hyperref Info: Anchor `subsection.4.2.3' on input line 123.
+Package hyperref Info: Anchor `subsubsection.4.2.2.2' on input line 125.
+pdftex: bookmark at 125: {4.2.2.2} {\numberline{4.2.2.2}Compensador} {subsubsec
+tion.4.2.2.2}{3}{toc}
+Package hyperref Info: Anchor `figure.caption.80' on input line 127.
+<Cap4/Figuras/Inversor.png, id=1277, 1364.09625pt x 651.18282pt>
+File: Cap4/Figuras/Inversor.png Graphic file (type png)
+
+<use Cap4/Figuras/Inversor.png>
+Package pdftex.def Info: Cap4/Figuras/Inversor.png used on input line 129.
+(pdftex.def)             Requested size: 409.71692pt x 195.58488pt.
+
+pdftex: bookmark at 130: {66} {\numberline{66}{\ignorespaces Valores estipulado
+s na fonte de corrente controlada\relax }} {figure.caption.80}{0}{lof}
+Package hyperref Info: Anchor `subsection.4.2.3' on input line 134.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 123.
-pdftex: bookmark at 123: {4.2.3} {\numberline{4.2.3}Resultados} {subsection.4.2
+(babel)             in language  on input line 134.
+pdftex: bookmark at 134: {4.2.3} {\numberline{4.2.3}Resultados} {subsection.4.2
 .3}{2}{toc}
 ) (Dissertacao.bbl
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
-Package hyperref Info: Anchor `page.77' on input line 3.
- [77
-Package `hyperref' Info: End of reference (link) `figure.caption.75', line 85.
- <./Cap4/Figuras/EHA.png>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3.
 Package hyperref Info: Anchor `page.78' on input line 3.
- [78 <./Cap4/Figuras/corrente_controlada_EHA-eps-converted-to.pdf> <./Cap4/Figu
-ras/controlador.png>]
+ [78 <./Cap4/Figuras/corrente_controlada_EHA-eps-converted-to.pdf>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 Package hyperref Info: Anchor `page.79' on input line 3.
- [79 <./Cap4/Figuras/Inversor.png> <./Cap4/Figuras/histerese_sim.png>]
-Package hyperref Info: Anchor `chapter*.80' on input line 3.
+ [79 <./Cap4/Figuras/controlador.png> <./Cap4/Figuras/histerese_sim.png> <./Cap
+4/Figuras/PI_sim.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+Package hyperref Info: Anchor `page.80' on input line 3.
+ [80 <./Cap4/Figuras/Inversor.png>]
+Package hyperref Info: Anchor `chapter*.81' on input line 3.
 Package hyperref Info: Anchor `chapter.5' on input line 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
@@ -4348,8 +4371,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 75.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 75.
-Package hyperref Info: Anchor `page.80' on input line 75.
-[80
+Package hyperref Info: Anchor `page.81' on input line 75.
+[81
 
 ]
 Package hyperref Info: Anchor `cite.Cidade' on input line 76.
@@ -4439,8 +4462,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 150.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 150.
-Package hyperref Info: Anchor `page.81' on input line 150.
-[81]
+Package hyperref Info: Anchor `page.82' on input line 150.
+[82]
 Package hyperref Info: Anchor `cite.Mussoi2004' on input line 151.
 Package hyperref Info: Anchor `cite.Singh2008' on input line 158.
 Package hyperref Info: Anchor `cite.Gong2003' on input line 165.
@@ -4456,8 +4479,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 221.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 221.
-Package hyperref Info: Anchor `page.82' on input line 221.
- [82]
+Package hyperref Info: Anchor `page.83' on input line 221.
+ [83]
 Package hyperref Info: Anchor `cite.Barruel2004' on input line 221.
 Package hyperref Info: Anchor `cite.Chen2012research' on input line 228.
 Package hyperref Info: Anchor `cite.Akagi2006' on input line 234.
@@ -4489,8 +4512,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 282.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 282.
-Package hyperref Info: Anchor `page.83' on input line 282.
-[83]
+Package hyperref Info: Anchor `page.84' on input line 282.
+[84]
 Package hyperref Info: Anchor `cite.Budeanu1927' on input line 282.
 Package hyperref Info: Anchor `cite.Czarnecki1987' on input line 288.
 Package hyperref Info: Anchor `cite.Akagi2007' on input line 295.
@@ -4505,8 +4528,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 346.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 346.
-Package hyperref Info: Anchor `page.84' on input line 346.
- [84]
+Package hyperref Info: Anchor `page.85' on input line 346.
+ [85]
 Package hyperref Info: Anchor `cite.Watanabe1993' on input line 346.
 Package hyperref Info: Anchor `cite.Olivier' on input line 353.
 
@@ -4524,8 +4547,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 267.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 267.
-Package hyperref Info: Anchor `page.85' on input line 267.
-[85]
+Package hyperref Info: Anchor `page.86' on input line 267.
+[86]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 267.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
@@ -4556,13 +4579,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 267.
 ### simple group (level 1) entered at line 63 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31603 strings out of 493335
- 624349 string characters out of 3136684
- 772236 words of memory out of 3000000
- 34128 multiletter control sequences out of 15000+200000
+ 31612 strings out of 493335
+ 624515 string characters out of 3136684
+ 772321 words of memory out of 3000000
+ 34134 multiletter control sequences out of 15000+200000
  48934 words of font info for 122 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,14n,80p,10385b,3022s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,14n,80p,10385b,3049s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Joao\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
 en\ec\dpi600\tcrm1200.pk> <C:\Users\Joao\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
 ur\jknappen\ec\dpi600\tcrm1095.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
@@ -4581,9 +4604,9 @@ fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Dissertacao.pdf (85 pages, 2893625 bytes).
+Output written on Dissertacao.pdf (86 pages, 2908559 bytes).
 PDF statistics:
- 1456 PDF objects out of 1728 (max. 8388607)
- 328 named destinations out of 1000 (max. 500000)
- 665 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1462 PDF objects out of 1728 (max. 8388607)
+ 330 named destinations out of 1000 (max. 500000)
+ 670 words of extra memory for PDF output out of 10000 (max. 10000000)
 

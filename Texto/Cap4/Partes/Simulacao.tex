@@ -95,13 +95,31 @@ O sinal de controle da fonte de corrente do lado DC é realizado de maneira a pro
 
 \subsection{Modelo do Filtro Ativo}
 
+O filtro ativo modelado em ambiente Simulink tem como objetivo simular a operação do controle e do compensador de maneira suficientemente adequada para avaliar a eficácia da filtragem e seu emprego no setor aeronáutico. As teorias de potência instantânea apresentadas na seção \ref{sec} serão implementadas na forma de blocos para realizar a simulação dos cálculo das correntes de referências do compensador. Já a parte relacionada com o compensador será implementado segundo as definições apresentadas na seção \ref{sec}. A operação conjunta do compensador com o controle concebe o filtro ativo como todo.
+
 \subsubsection{Controle}
+
+O bloco de controle visa simular as seções de cálculo, os comandos dos interruptores estáticos do compensador e a malha de controle de tensão do capacitor do lado DC do inversor. Estas sub-blocos são comumente encontrados em dispositivos programáveis de sistemas reais as quais compõe o DSP.
 
 \begin{figure}[!htb] %
 	\centering
 	\includegraphics[width=0.9\textwidth]{Cap4/Figuras/controlador.png}
 	\caption{Valores estipulados na fonte de corrente controlada}
 	\label{fig:controladador.png}
+\end{figure}
+
+\begin{figure}[!htb] %
+	\centering
+	\includegraphics[width=0.6\textwidth]{Cap4/Figuras/histerese_sim.png}
+	\caption{Valores estipulados na fonte de corrente controlada}
+	\label{fig:histerese_sim.png}
+\end{figure}
+
+\begin{figure}[!htb] %
+	\centering
+	\includegraphics[width=0.5\textwidth]{Cap4/Figuras/PI_sim.png}
+	\caption{Valores estipulados na fonte de corrente controlada}
+	\label{fig:PI_sim.png}
 \end{figure}
 
 \subsubsection{Compensador}
@@ -111,13 +129,6 @@ O sinal de controle da fonte de corrente do lado DC é realizado de maneira a pro
 	\includegraphics[width=0.9\textwidth]{Cap4/Figuras/Inversor.png}
 	\caption{Valores estipulados na fonte de corrente controlada}
 	\label{fig:Inversor.png}
-\end{figure}
-
-\begin{figure}[!htb] %
-	\centering
-	\includegraphics[width=0.6\textwidth]{Cap4/Figuras/histerese_sim.png}
-	\caption{Valores estipulados na fonte de corrente controlada}
-	\label{fig:histerese_sim.png}
 \end{figure}
 
 \subsection{Resultados}
