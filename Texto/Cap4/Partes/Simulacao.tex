@@ -97,33 +97,37 @@ O sinal de controle da fonte de corrente do lado DC é realizado de maneira a pro
 
 O filtro ativo modelado em ambiente Simulink tem como objetivo simular a operação do controle do compensador de maneira suficientemente adequada para avaliar a eficácia da filtragem e seu emprego no setor aeronáutico. Com isso, as diversas características que viabilizam o emprego desse tipo de filtro podem ser analisadas.
 
-O modelo é composto por diversos bloco criados para cada função constituinte de um filtro. As teorias de potência instantânea apresentadas na seção \ref{sec} serão implementadas em um desses blocos para realizar a simulação dos cálculo das correntes de referências do compensador. Já a parte relacionada com o compensador será implementado em outro bloco e segundo as definições apresentadas na seção \ref{sec}. A operação conjunta do compensador com o controle concebe o filtro ativo como todo.
+O modelo é composto por diversos bloco criados para cada função constituinte de um filtro. As teorias de potência instantânea apresentadas no capítulo \ref{cap:Filtros Ativos para Sistemas Elétricos} serão implementadas em um desses blocos para realizar a simulação dos cálculo das correntes de referências do compensador. Já a parte relacionada com o compensador será implementado em outro bloco e segundo as definições apresentadas na seção \ref{sec:Características de Filtros Ativos em Sistemas Reais}. A operação conjunta do compensador com o controle concebe o filtro ativo como todo.
 
 \subsubsection{Controle}
 
-O bloco de controle visa simular as seções de cálculo, os comandos dos interruptores estáticos do compensador e a malha de controle de tensão do capacitor do lado DC do inversor. Estes sub-blocos são comumente encontrados em dispositivos programáveis de sistemas reais as quais compõe o DSP.
+O bloco de controle visa simular os procedimentos de cálculo, os comandos dos interruptores estáticos do compensador e a malha de controle de tensão do capacitor do lado DC do inversor. Estes sub-blocos são comumente encontrados em dispositivos programáveis de sistemas reais as quais compõem o DSP.
 
-O subbloco de cálculo das correntes de referência para o inversor é mostrado na figura \ref{fig:controladador.png}. Este subbloco tem como entrada as tensões medidas nas linhas trifásicas do sistema elétrico no ponto anterior a conexão do filtro e também as correntes medidas na entrada da carga não linear, onde no caso dessa simulação é dada pelo EHA. Já a saída é composta pelas correntes de referência que alimentam o controle de comando dos interruptores do inversor estático.
+O sub-bloco de cálculo das correntes de referência para o inversor é mostrado na figura \ref{fig:controladador.png}. Este sub-bloco tem como entrada as tensões medidas nas linhas trifásicas do sistema elétrico no ponto anterior a conexão do filtro, e também, as correntes medidas na entrada da carga não linear, onde no caso dessa simulação é dada pelo EHA. Já a saída é composta pelas correntes de referência que alimentam o controle de comando dos interruptores do inversor estático.
 
-Este subbloco constitui de duas partes, onde a porção superior da figura \ref{fig:controladador.png} compõe o detector de sequencia positiva, e o inferior constitui do cálculo das correntes de referência propriamente dito. A porção superior utiliza da teoria apresentada na seção \ref{subsubsec:Tipos de Controle} e estabelece os cálculos algébricos para a obtenção do sinal das tensões sem apresentar harmônicas ou componentes de sequência negativa ou zero. Este sinal é direcionado para a porção inferior, onde utiliza-o juntamente com as equações da teoria da potência instantânea, a qual são extensamente discutidos no capítulo \ref{cap:Filtros Ativos para Sistemas Elétricos}, para  a obtenção das correntes de referência do filtro.
+O sub-bloco a qual determina as correntes de referência é constituído de duas partes, onde a porção superior da figura \ref{fig:controladador.png} compõe o detector de sequencia positiva, e a parte inferior constitui o cálculo das correntes de referência. A porção superior utiliza a teoria apresentada na seção \ref{subsubsec:Tipos de Controle} e estabelece os cálculos algébricos para a obtenção do sinal das tensões sem apresentar harmônicas ou componentes de sequência negativa ou zero. Este sinal é direcionado para a porção inferior, onde utiliza-o juntamente com as equações da teoria da potência instantânea, a qual são extensamente discutidos no capítulo \ref{cap:Filtros Ativos para Sistemas Elétricos}, para  a obtenção das correntes de referência do filtro.
 
 \begin{figure}[!htb] %
 	\centering
 	\includegraphics[width=0.99\textwidth]{Cap4/Figuras/controlador.png}
-	\caption{Subbloco para determinação das corrente de referência}
+	\caption{Sub-bloco para determinação das corrente de referência}
 	\label{fig:controladador.png}
 \end{figure}
 
-O bloco de comando dos interruptores estáticos do inversor, a é empregado o controle por histerese é mostrado na Figura \ref{fig:histerese_sim.png}. Nesse bloco a entrada é composta pelos sinais de referência das correntes advindo do subbloco da Figura \ref{fig:controladador.png} (I\_ref), juntamente com a medição da corrente na saída do inversor (I\_meas). A saída é composta pelo sinal de comando de cada interruptor a qual é empregado no inversor.
+O sub-bloco de comando dos interruptores estáticos do inversor, onde é empregado o controle por histerese, é mostrado na Figura \ref{fig:histerese_sim.png}. Nesse bloco a entrada é composta pelos sinais de referência das correntes advindas do sub-bloco da Figura \ref{fig:controladador.png} (I\_ref), juntamente com a medição da corrente na saída do inversor (I\_meas). A saída é composta pelo sinal de comando de cada interruptor a qual é empregado no inversor.
 
-A operação deste bloco é realizada pela comparação do sinal de referência com a medição da corrente na saída do inversor. O sinal advindo da comparação passa por um relé programado com histerese, onde é definida a banda de histerese, e por fim a saída contendo um sinal binário é gerado. Os sinal de cada fase do sistema é gerado individualmente com o controle de comutação dos interruptores de cada braço do inversor. Como estes interruptores não podem ser comutados para o estado de condução simultaneamente seus comandos devem ser complementares.
+A operação deste bloco é realizada pela comparação do sinal de referência com a medição da corrente na saída do inversor. O sinal advindo da comparação passa por um relé programado com histerese, onde é definida a banda de histerese, e por fim a saída contendo um sinal binário é gerado. Os sinais de cada fase do sistema é gerado individualmente com o controle de comutação dos interruptores de cada braço do inversor. Como estes interruptores não podem ser comutados para o estado de condução simultaneamente, seus comandos devem ser complementares. Este complemento é adquirido pela função NOT do sub-bloco.
 
 \begin{figure}[!htb] %
 	\centering
-	\includegraphics[width=0.6\textwidth]{Cap4/Figuras/histerese_sim.png}
-	\caption{Valores estipulados na fonte de corrente controlada}
+	\includegraphics[width=0.7\textwidth]{Cap4/Figuras/histerese_sim.png}
+	\caption{Obtenção do sinal de comando dos interruptores por controle de histerese}
 	\label{fig:histerese_sim.png}
 \end{figure}
+
+O controle de tensão do capacitor disposto no lado DC do inversor é mostrado na Figura \ref{fig:PI_sim.png}. Este sub-bloco tem em sua entrada a medição de tensão do capacitor, ao passo que em sua saída é disponibilizado o sinal de potência das perdas acorridas na operação do inversor. Tal sinal de saída é direcionado para calculo das potências instantâneas do sub-bloco de determinação de correntes de referência (Figra \ref{fig:controladador.png}).
+
+Este bloco constitui de um controlador proporcional-integral (PI), onde os valores de $P$ e $I$ são escolhidos de maneira a apresentar uma resposta do controlador adequada o funcionamento do sistema. A referência é obtida como um sinal degrau com amplitude fixa e início definido no tempo para evitar o transitório do sistema de geração, a qual pode gerar instabilidade numérica do Simulink. 
 
 \begin{figure}[!htb] %
 	\centering
@@ -133,16 +137,12 @@ A operação deste bloco é realizada pela comparação do sinal de referência com a 
 \end{figure}
 
 \subsubsection{Compensador}
-balbalbalbalbladbkasdvjas ov
-asdfapsdf jasdfj 
-asdfasid
-f as
-df 
-asdf
+
+
  
 \begin{figure}[!htb] %
 	\centering
-	\includegraphics[width=0.9\textwidth]{Cap4/Figuras/Inversor.png}
+	\includegraphics[width=0.99\textwidth]{Cap4/Figuras/Inversor.png}
 	\caption{Valores estipulados na fonte de corrente controlada}
 	\label{fig:Inversor.png}
 \end{figure}
