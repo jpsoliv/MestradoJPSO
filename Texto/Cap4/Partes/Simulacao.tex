@@ -1,79 +1,79 @@
-\section{SimulaÃ§Ã£o}
+\section{Simulação}
 
-\subsection{Modelo do Sistema ElÃ©trico}
+\subsection{Modelo do Sistema Elétrico}
 
-\subsubsection{Sistema de GeraÃ§Ã£o} \todo{falar da potÃªncia do gerador}
+\subsubsection{Sistema de Geração} \todo{falar da potência do gerador}
 
-O sistema de geraÃ§Ã£o aplicado na simulaÃ§Ã£o visa representar de maneira suficientemente apropriada uma fonte de tensÃ£o comumente encontrada em sistemas elÃ©tricos aeronÃ¡uticos. Tal bloco Ã© composto por uma mÃ¡quina sÃ­ncrona, cuja entrada mecÃ¢nica Ã© definida por um valor constante representado pela rotaÃ§Ã£o do eixo proveniente do IDG, e os nÃ­veis de tensÃ£o Ã© determinado por controle de campo de excitaÃ§Ã£o. Esse Ãºltimo Ã© obtido por uma GCU a qual opera juntamente com a maquina sÃ­ncrona do gerador. Em sistema elÃ©tricos aeronÃ¡uticos reais a complexidade do bloco Gerador/GCU Ã© complexa e envolve sistemas complementares para garantir sua confiabilidade. Entretanto, para a proposta de simulaÃ§Ã£o apresentado nesse trabalho, o sistema proposto por \cite{Olivier} mostra-se adequado. Isto deve-se principalmente pela caracterÃ­stica da saÃ­da do gerador apresentar tensÃ£o com certa frequÃªncia definida, com amplitude controlada e as nÃ£o idealidades representadas pelas resistÃªncias e indutÃ¢ncias nas linhas do gerador sÃ£o modeladas.
+O sistema de geração aplicado na simulação visa representar de maneira suficientemente apropriada uma fonte de tensão comumente encontrada em sistemas elétricos aeronáuticos. Tal bloco é composto por uma máquina síncrona, cuja entrada mecânica é definida por um valor constante representado pela rotação do eixo proveniente do IDG, e os níveis de tensão é determinado por controle de campo de excitação. Esse último é obtido por uma GCU a qual opera juntamente com a maquina síncrona do gerador. Em sistema elétricos aeronáuticos reais a complexidade do bloco Gerador/GCU é complexa e envolve sistemas complementares para garantir sua confiabilidade. Entretanto, para a proposta de simulação apresentado nesse trabalho, o sistema proposto por \cite{Olivier} mostra-se adequado. Isto deve-se principalmente pela característica da saída do gerador apresentar tensão com certa frequência definida, com amplitude controlada e as não idealidades representadas pelas resistências e indutâncias nas linhas do gerador são modeladas.
 
-Em ambiente Simulink tanto o bloco da mÃ¡quina sÃ­ncrona como o bloco de excitaÃ§Ã£o de campo estÃ£o presentes. Sendo assim o sistema de geraÃ§Ã£o utilizado no software Ã© mostrado na Figura \ref{fig:GEN_GCU.png}.
+Em ambiente Simulink tanto o bloco da máquina síncrona como o bloco de excitação de campo estão presentes. Sendo assim o sistema de geração utilizado no software é mostrado na Figura \ref{fig:GEN_GCU.png}.
 
 \begin{figure}[!htb] %
 	\centering
 	\includegraphics[width=0.99\textwidth]{Cap4/Figuras/GEN_GCU.png}
-	\caption{Modelo do sistema de geraÃ§Ã£o}
+	\caption{Modelo do sistema de geração}
 	\label{fig:GEN_GCU.png}
 \end{figure}
 
-Nessa ilustraÃ§Ã£o o subconjunto superior Ã© composto pelos elementos que modelam a GCU. O \textit{Excitation System} Ã© um bloco nativo do Simulink, a qual opera como descrito em \cite{IEEE}. JÃ¡ os blocos auxiliares da GCU estÃ£o presentes para condicionar o sinal adequadamente. A mediÃ§Ã£o de tensÃ£o que alimenta a GCU deve ser proveniente do barramento de distribuiÃ§Ã£o, visto que as nÃ£o idealidades do sistema alterem os nÃ­veis de tensÃ£o nesse ponto em comparaÃ§Ã£o Ã  saÃ­da do gerador.
+Nessa ilustração o subconjunto superior é composto pelos elementos que modelam a GCU. O \textit{Excitation System} é um bloco nativo do Simulink, a qual opera como descrito em \cite{IEEE}. Já os blocos auxiliares da GCU estão presentes para condicionar o sinal adequadamente. A medição de tensão que alimenta a GCU deve ser proveniente do barramento de distribuição, visto que as não idealidades do sistema alterem os níveis de tensão nesse ponto em comparação à saída do gerador.
 
-O subconjunto inferior compÃµe o Gerador. A mÃ¡quina sÃ­ncrona Ã© tambÃ©m um bloco presente no Simulink e em sua saÃ­da estÃ£o presentes as resistÃªncias e indutÃ¢ncias conectadas em sÃ©rie, cujos valores sÃ£o expostos na Tabela \ref{tab:Zgen}.  Ainda existe uma resistÃªncia parasita no sistema com o intuito de evitar problemas numÃ©ricos na simulaÃ§Ã£o. A presenÃ§a deste elemento nÃ£o influencia o sistema que serÃ¡ simulado.
+O subconjunto inferior compõe o Gerador. A máquina síncrona é também um bloco presente no Simulink e em sua saída estão presentes as resistências e indutâncias conectadas em série, cujos valores são expostos na Tabela \ref{tab:Zgen}.  Ainda existe uma resistência parasita no sistema com o intuito de evitar problemas numéricos na simulação. A presença deste elemento não influencia o sistema que será simulado.
 
 \begin{table}[!htb]
 	\centering
 	\begin{tabular}{|c|c|c|}
 		\hline
-		\textbf{ResistÃªncia	[$\Omega$]}	& \textbf{IndutÃ¢ncia [mH]}	& \textbf{ImpedÃ¢ncia (400 Hz) [$\Omega$]}\\\hline
+		\textbf{Resistência	[$\Omega$]}	& \textbf{Indutância [mH]}	& \textbf{Impedância (400 Hz) [$\Omega$]}\\\hline
 		0.0404					& 0.09204			& $0.0404+j0.213$\\
 		\hline
 	\end{tabular}
-	\caption{ImpedÃ¢ncia interna do Gerador}
+	\caption{Impedância interna do Gerador}
 	\label{tab:Zgen}
 \end{table}
 
-\subsubsection{Sistema de DistribuiÃ§Ã£o}
+\subsubsection{Sistema de Distribuição}
 
-O sistema de distribuiÃ§Ã£o de uma aeronave Ã© constituÃ­do pelos condutores que transferem a energia entre os subsistemas, alÃ©m dos barramentos de distribuiÃ§Ã£o e equipamentos de proteÃ§Ã£o do sistema elÃ©trico. Contudo, nesse trabalho as proteÃ§Ãµes nÃ£o estÃ£o no escopo da simulaÃ§Ã£o, sendo que o modelo proposto serÃ¡ composto apenas pelas linhas de transmissÃ£o e um barramento a qual as cargas possam ser conectadas.
+O sistema de distribuição de uma aeronave é constituído pelos condutores que transferem a energia entre os subsistemas, além dos barramentos de distribuição e equipamentos de proteção do sistema elétrico. Contudo, nesse trabalho as proteções não estão no escopo da simulação, sendo que o modelo proposto será composto apenas pelas linhas de transmissão e um barramento a qual as cargas possam ser conectadas.
 
-O ponto de conexÃ£o em comum estÃ¡ localizado na PDU (\textit{Primary Distribution Unit}). Apenas um barramento serÃ¡ considerado e as cargas nÃ£o lineares compostas pelos EHAs serÃ£o conetadas em paralelo a partir dessa unidade. A Figura \ref{fig:dist.png} apresenta o modelo implementado no Simulink para realizaÃ§Ã£o da simulaÃ§Ã£o. Aqui pode-se observar as cargas compostas pelos EHAs sendo conectadas a partir da PDU. A alimentaÃ§Ã£o da PDU Ã© realizada diretamente pelo gerador atravÃ©s de uma linha de transmissÃ£o trifÃ¡sica. Nessa unidade ainda existe um sensor de tensÃ£o que cede informaÃ§Ã£o ao GCU para o controle de excitaÃ§Ã£o de campo, a qual fornecer ao gerador o controle para que este apresente nÃ­veis de tensÃ£o adequadas para manter a tensÃ£o de fase no PCC sendo 115 V.
+O ponto de conexão em comum está localizado na PDU (\textit{Primary Distribution Unit}). Apenas um barramento será considerado e as cargas não lineares compostas pelos EHAs serão conetadas em paralelo a partir dessa unidade. A Figura \ref{fig:dist.png} apresenta o modelo implementado no Simulink para realização da simulação. Aqui pode-se observar as cargas compostas pelos EHAs sendo conectadas a partir da PDU. A alimentação da PDU é realizada diretamente pelo gerador através de uma linha de transmissão trifásica. Nessa unidade ainda existe um sensor de tensão que cede informação ao GCU para o controle de excitação de campo, a qual fornecer ao gerador o controle para que este apresente níveis de tensão adequadas para manter a tensão de fase no PCC sendo 115 V.
 
 \begin{figure}[!htb] %
 	\centering
 	\includegraphics[width=0.99\textwidth]{Cap4/Figuras/dist.png}
-	\caption{Sistema de DistribuiÃ§Ã£o}
+	\caption{Sistema de Distribuição}
 	\label{fig:dist.png}
 \end{figure}
 
-As nÃ£o idealidades dos condutores sÃ£o modeladas com a inserÃ§Ã£o de resistÃªncias e reatÃ¢ncias indutivas conectadas em sÃ©rie nas linhas de transmissÃ£o do sistema. As capacitÃ¢ncias entre os condutores e o plano de terra nÃ£o sÃ£o considerados devido sua insignificÃ¢ncia frente a potÃªncia e o tamanho das cablagens. As bitolas dos fios e seus comprimentos estÃ£o adequadamente dimensionados para a corrente transmitida e o tamanho comumente encontrado em uma aeronave do porte do modelo, respectivamente. Sendo assim, os valores de impedÃ¢ncia de cada seÃ§Ã£o do sistema trifÃ¡sico Ã© definido seguindo os parÃ¢metros encontrados em \cite{Exner1953}. A Tabela \ref{tab:Zdist} expÃµe as definiÃ§Ãµes do modelo quanto Ã s cablagens utilizadas e suas impedÃ¢ncias de cada seÃ§Ã£o. 
+As não idealidades dos condutores são modeladas com a inserção de resistências e reatâncias indutivas conectadas em série nas linhas de transmissão do sistema. As capacitâncias entre os condutores e o plano de terra não são considerados devido sua insignificância frente a potência e o tamanho das cablagens. As bitolas dos fios e seus comprimentos estão adequadamente dimensionados para a corrente transmitida e o tamanho comumente encontrado em uma aeronave do porte do modelo, respectivamente. Sendo assim, os valores de impedância de cada seção do sistema trifásico é definido seguindo os parâmetros encontrados em \cite{Exner1953}. A Tabela \ref{tab:Zdist} expõe as definições do modelo quanto às cablagens utilizadas e suas impedâncias de cada seção. 
 
 \begin{table}[!htb]
 	\centering
 	\begin{tabular}{|c|c|c|c|}
 		\hline
-		\textbf{PorÃ§Ã£o}		&	\textbf{Bitola}		&	\textbf{Comprimento}	&	\textbf{ImpedÃ¢ncia (400 Hz) [$\Omega$]}	\\\hline
+		\textbf{Porção}		&	\textbf{Bitola}		&	\textbf{Comprimento}	&	\textbf{Impedância (400 Hz) [$\Omega$]}	\\\hline
 		GEN - PDU	&	AWG 0		&	10 m		&	$0,0047+j0,0067$	\\\hline
 		PDU - EHA 1	&	AWG 10 		&	15 m		&	$0,0540+j0,0199$	\\\hline
 		PDU - EHA 2 &	AWG 10		&	17.5 m 		&	$0,0630+j0,0233$	\\\hline
 		PDU - EHA 3	&	AWG 10		&	20 m 		&	$0,0720+j0,0266$	\\\hline
 	\end{tabular}
-	\caption{ImpedÃ¢ncias das linhas de distribuiÃ§Ã£o}
+	\caption{Impedâncias das linhas de distribuição}
 	\label{tab:Zdist}
 \end{table}
 
-\subsubsection{Atuador EletrohidrostÃ¡tico}
+\subsubsection{Atuador Eletrohidrostático}
 
-O atuador eletrohidrostÃ¡tico Ã© um dispositivo empregado em sistemas de controle de voo na qual atua nas superfÃ­cies de comando para manter a aeronavegabilidade de uma aeronave. Os EHAs sÃ£o compostos por dois principais subsistemas: o subsistema elÃ©trico e o subsistema hidrÃ¡ulico. A porÃ§Ã£o elÃ©trica Ã© composto por conversores de tensÃ£o elÃ©trica de modo a energizar um motor que impulsiona a bomba do subsistema hidrÃ¡ulico. Com a pressurizaÃ§Ã£o das linhas hidrÃ¡ulicas o EHA fica apto a acionar o deslocamento linear do pistÃ£o por meio da atuaÃ§Ã£o de sistemas de controle.
+O atuador eletrohidrostático é um dispositivo empregado em sistemas de controle de voo na qual atua nas superfícies de comando para manter a aeronavegabilidade de uma aeronave. Os EHAs são compostos por dois principais subsistemas: o subsistema elétrico e o subsistema hidráulico. A porção elétrica é composto por conversores de tensão elétrica de modo a energizar um motor que impulsiona a bomba do subsistema hidráulico. Com a pressurização das linhas hidráulicas o EHA fica apto a acionar o deslocamento linear do pistão por meio da atuação de sistemas de controle.
 
-A subsistema elÃ©trico tem como principais componentes uma ponte trifÃ¡sica de diodos, um driver DC-DC, um inversor de frequÃªncia e uma mÃ¡quina sÃ­ncrona baseada em imÃ£s permanentes \cite{Dinca2014}. A Figura \ref{fig:EHA_elec.png} mostra o diagrama simplificado do subsistema elÃ©trico. Cabe lembrar que outros componentes secundÃ¡rios sÃ£o empregados neste subsistema com o intuito de prover controle e proteÃ§Ã£o ao EHA, e que nÃ£o sÃ£o mostrados na Figura \ref{fig:EHA_elec.png}.
+A subsistema elétrico tem como principais componentes uma ponte trifásica de diodos, um driver DC-DC, um inversor de frequência e uma máquina síncrona baseada em imãs permanentes \cite{Dinca2014}. A Figura \ref{fig:EHA_elec.png} mostra o diagrama simplificado do subsistema elétrico. Cabe lembrar que outros componentes secundários são empregados neste subsistema com o intuito de prover controle e proteção ao EHA, e que não são mostrados na Figura \ref{fig:EHA_elec.png}.
 
 \begin{figure}[!htb] %
 	\centering
 	\includegraphics[width=0.7\textwidth]{Cap4/Figuras/EHA_elec.png}
-	\caption{Subsistema elÃ©trico de um EHA}
+	\caption{Subsistema elétrico de um EHA}
 	\label{fig:EHA_elec.png}
 \end{figure}  
 
-Por apresentar uma ponte de retificadora de diodos na entrada, a operaÃ§Ã£o de um EHA acaba por injetar componentes harmÃ´nicas nas formas de onda de corrente, trazendo assim a depreciaÃ§Ã£o da qualidade de energia elÃ©trica de uma aeronave. Como o foco deste trabalho diz respeito Ã  qualidade de energia, tanto a modelagem do subsistema hidrÃ¡ulico juntamente com a operaÃ§Ã£o do motor elÃ©trico nÃ£o serÃ£o modelados. Sendo assim, o foco recai nas formas de onda da corrente que atravessam o retificador de entrada, a qual Ã© o principal componente responsÃ¡vel pela queda na qualidade de energia quando se opera o EHA. A Figura \ref{fig:EHA.png} mostra o modelo do EHA empregado no Simulink para realizaÃ§Ã£o da simulaÃ§Ã£o. Este modelo Ã© composto por uma ponte retificadora trifÃ¡sica que interfaceia a conversÃ£o AC-DC, como em um EHA, sendo que no lado DC exite uma fonte de corrente controlada. A realizaÃ§Ã£o desta fonte tem por objetivo simular o comportamento de consumo de energia proferido pelo restante dos componentes do lado DC do subsistema elÃ©trico. A presenÃ§a de uma resistÃªncia \textit{snubber} em paralelo Ã  fonte de corrente tem como objetivo eliminar incompatibilidades do modelo, visto que isto Ã© uma exigÃªncia para compilaÃ§Ã£o do Simulink. Contudo, o valor de $R$ Ã© escolhido com alto valor de resistÃªncia de maneira que este interfere insignificantemente ao sistema.
+Por apresentar uma ponte de retificadora de diodos na entrada, a operação de um EHA acaba por injetar componentes harmônicas nas formas de onda de corrente, trazendo assim a depreciação da qualidade de energia elétrica de uma aeronave. Como o foco deste trabalho diz respeito à qualidade de energia, tanto a modelagem do subsistema hidráulico juntamente com a operação do motor elétrico não serão modelados. Sendo assim, o foco recai nas formas de onda da corrente que atravessam o retificador de entrada, a qual é o principal componente responsável pela queda na qualidade de energia quando se opera o EHA. A Figura \ref{fig:EHA.png} mostra o modelo do EHA empregado no Simulink para realização da simulação. Este modelo é composto por uma ponte retificadora trifásica que interfaceia a conversão AC-DC, como em um EHA, sendo que no lado DC exite uma fonte de corrente controlada. A realização desta fonte tem por objetivo simular o comportamento de consumo de energia proferido pelo restante dos componentes do lado DC do subsistema elétrico. A presença de uma resistência \textit{snubber} em paralelo à fonte de corrente tem como objetivo eliminar incompatibilidades do modelo, visto que isto é uma exigência para compilação do Simulink. Contudo, o valor de $R$ é escolhido com alto valor de resistência de maneira que este interfere insignificantemente ao sistema.
 
 \begin{figure}[!htb] %
 	\centering
@@ -82,7 +82,7 @@ Por apresentar uma ponte de retificadora de diodos na entrada, a operaÃ§Ã£o de u
 	\label{fig:EHA.png}
 \end{figure}
 
-O sinal de controle da fonte de corrente do lado DC Ã© realizado de maneira a providenciar adequadamente o consumo de corrente visto pelo lado AC de um EHA. Tal sinal de controle foi gerado utilizando resultados experimentais de um EHA operando com carga em seu pistÃ£o. A metodologia empregada para a obtenÃ§Ã£o do sinal de controle da fonte de corrente foi atravÃ©s do cÃ¡lculo da potÃªncia aparente consumida de um EHA real, atravÃ©s de dados experimentais, e inferir essa mesma potÃªncia no lado DC do EHA do modelo. Com isso garante-se que a potÃªncia aparente apresentada no modelo seja a mesma de um EHA real operando com carga, alÃ©m de garantir a equivalÃªncia das formas de onda da corrente no lado AC. Com essa metodologia empregada o sinal criado para o controle da fonte de corrente do lado DC do modelo Ã© visto na Figura \ref{fig:corrente_controlada_EHA.eps}.
+O sinal de controle da fonte de corrente do lado DC é realizado de maneira a providenciar adequadamente o consumo de corrente visto pelo lado AC de um EHA. Tal sinal de controle foi gerado utilizando resultados experimentais de um EHA operando com carga em seu pistão. A metodologia empregada para a obtenção do sinal de controle da fonte de corrente foi através do cálculo da potência aparente consumida de um EHA real, através de dados experimentais, e inferir essa mesma potência no lado DC do EHA do modelo. Com isso garante-se que a potência aparente apresentada no modelo seja a mesma de um EHA real operando com carga, além de garantir a equivalência das formas de onda da corrente no lado AC. Com essa metodologia empregada o sinal criado para o controle da fonte de corrente do lado DC do modelo é visto na Figura \ref{fig:corrente_controlada_EHA.eps}.
 
 \begin{figure}[!htb] %
 	\centering
@@ -95,39 +95,39 @@ O sinal de controle da fonte de corrente do lado DC Ã© realizado de maneira a pr
 
 \subsection{Modelo do Filtro Ativo}
 
-O filtro ativo modelado em ambiente Simulink tem como objetivo simular a operaÃ§Ã£o do controle do compensador de maneira suficientemente adequada para avaliar a eficÃ¡cia da filtragem e seu emprego no setor aeronÃ¡utico. Com isso, as diversas caracterÃ­sticas que viabilizam o emprego desse tipo de filtro podem ser analisadas.
+O filtro ativo modelado em ambiente Simulink tem como objetivo simular a operação do controle do compensador de maneira suficientemente adequada para avaliar a eficácia da filtragem e seu emprego no setor aeronáutico. Com isso, as diversas características que viabilizam o emprego desse tipo de filtro podem ser analisadas.
 
-O modelo Ã© composto por diversos bloco criados para cada funÃ§Ã£o constituinte de um filtro. As teorias de potÃªncia instantÃ¢nea apresentadas no capÃ­tulo \ref{cap:Filtros Ativos para Sistemas ElÃ©tricos} serÃ£o implementadas em um desses blocos para realizar a simulaÃ§Ã£o dos cÃ¡lculo das correntes de referÃªncias do compensador. JÃ¡ a parte relacionada com o compensador serÃ¡ implementado em outro bloco e segundo as definiÃ§Ãµes apresentadas na seÃ§Ã£o \ref{sec:CaracterÃ­sticas de Filtros Ativos em Sistemas Reais}. A operaÃ§Ã£o conjunta do compensador com o controle concebe o filtro ativo como todo.
+O modelo é composto por diversos bloco criados para cada função constituinte de um filtro. As teorias de potência instantânea apresentadas no capítulo \ref{cap:Filtros Ativos para Sistemas Elétricos} serão implementadas em um desses blocos para realizar a simulação dos cálculo das correntes de referências do compensador. Já a parte relacionada com o compensador será implementado em outro bloco e segundo as definições apresentadas na seção \ref{sec:Características de Filtros Ativos em Sistemas Reais}. A operação conjunta do compensador com o controle concebe o filtro ativo como todo.
 
 \subsubsection{Controle}
 
-O bloco de controle visa simular os procedimentos de cÃ¡lculo, os comandos dos interruptores estÃ¡ticos do compensador e a malha de controle de tensÃ£o do capacitor do lado DC do inversor. Estes sub-blocos sÃ£o comumente encontrados em dispositivos programÃ¡veis de sistemas reais as quais compÃµem o DSP.
+O bloco de controle visa simular os procedimentos de cálculo, os comandos dos interruptores estáticos do compensador e a malha de controle de tensão do capacitor do lado DC do inversor. Estes sub-blocos são comumente encontrados em dispositivos programáveis de sistemas reais as quais compõem o DSP.
 
-O sub-bloco de cÃ¡lculo das correntes de referÃªncia para o inversor Ã© mostrado na figura \ref{fig:controladador.png}. Este sub-bloco tem como entrada as tensÃµes medidas nas linhas trifÃ¡sicas do sistema elÃ©trico no ponto anterior a conexÃ£o do filtro, e tambÃ©m, as correntes medidas na entrada da carga nÃ£o linear, onde no caso dessa simulaÃ§Ã£o Ã© dada pelo EHA. JÃ¡ a saÃ­da Ã© composta pelas correntes de referÃªncia que alimentam o controle de comando dos interruptores do inversor estÃ¡tico.
+O sub-bloco de cálculo das correntes de referência para o inversor é mostrado na figura \ref{fig:controladador.png}. Este sub-bloco tem como entrada as tensões medidas nas linhas trifásicas do sistema elétrico no ponto anterior a conexão do filtro, e também, as correntes medidas na entrada da carga não linear, onde no caso dessa simulação é dada pelo EHA. Já a saída é composta pelas correntes de referência que alimentam o controle de comando dos interruptores do inversor estático.
 
-O sub-bloco a qual determina as correntes de referÃªncia Ã© constituÃ­do de duas partes, onde a porÃ§Ã£o superior da figura \ref{fig:controladador.png} compÃµe o detector de sequencia positiva, e a parte inferior constitui o cÃ¡lculo das correntes de referÃªncia. A porÃ§Ã£o superior utiliza a teoria apresentada na seÃ§Ã£o \ref{subsubsec:Tipos de Controle} e estabelece os cÃ¡lculos algÃ©bricos para a obtenÃ§Ã£o do sinal das tensÃµes sem apresentar harmÃ´nicas ou componentes de sequÃªncia negativa ou zero. Este sinal Ã© direcionado para a porÃ§Ã£o inferior, onde utiliza-o juntamente com as equaÃ§Ãµes da teoria da potÃªncia instantÃ¢nea, a qual sÃ£o extensamente discutidos no capÃ­tulo \ref{cap:Filtros Ativos para Sistemas ElÃ©tricos}, para  a obtenÃ§Ã£o das correntes de referÃªncia do filtro.
+O sub-bloco a qual determina as correntes de referência é constituído de duas partes, onde a porção superior da figura \ref{fig:controladador.png} compõe o detector de sequencia positiva, e a parte inferior constitui o cálculo das correntes de referência. A porção superior utiliza a teoria apresentada na seção \ref{subsubsec:Tipos de Controle} e estabelece os cálculos algébricos para a obtenção do sinal das tensões sem apresentar harmônicas ou componentes de sequência negativa ou zero. Este sinal é direcionado para a porção inferior, onde utiliza-o juntamente com as equações da teoria da potência instantânea, a qual são extensamente discutidos no capítulo \ref{cap:Filtros Ativos para Sistemas Elétricos}, para  a obtenção das correntes de referência do filtro.
 
 \begin{figure}[!htb] %
 	\centering
 	\includegraphics[width=0.99\textwidth]{Cap4/Figuras/controlador.png}
-	\caption{Sub-bloco para determinaÃ§Ã£o das corrente de referÃªncia}
+	\caption{Sub-bloco para determinação das corrente de referência}
 	\label{fig:controladador.png}
 \end{figure}
 
-O sub-bloco de comando dos interruptores estÃ¡ticos do inversor, onde Ã© empregado o controle por histerese, Ã© mostrado na Figura \ref{fig:histerese_sim.png}. Nesse bloco a entrada Ã© composta pelos sinais de referÃªncia das correntes advindas do sub-bloco da Figura \ref{fig:controladador.png} (I\_ref), juntamente com a mediÃ§Ã£o da corrente na saÃ­da do inversor (I\_meas). A saÃ­da Ã© composta pelo sinal de comando de cada interruptor a qual Ã© empregado no inversor.
+O sub-bloco de comando dos interruptores estáticos do inversor, onde é empregado o controle por histerese, é mostrado na Figura \ref{fig:histerese_sim.png}. Nesse bloco a entrada é composta pelos sinais de referência das correntes advindas do sub-bloco da Figura \ref{fig:controladador.png} (I\_ref), juntamente com a medição da corrente na saída do inversor (I\_meas). A saída é composta pelo sinal de comando de cada interruptor a qual é empregado no inversor.
 
-A operaÃ§Ã£o deste bloco Ã© realizada pela comparaÃ§Ã£o do sinal de referÃªncia com a mediÃ§Ã£o da corrente na saÃ­da do inversor. O sinal advindo da comparaÃ§Ã£o passa por um relÃ© programado com histerese, onde Ã© definida a banda de histerese, e por fim a saÃ­da contendo um sinal binÃ¡rio Ã© gerado. Os sinais de cada fase do sistema Ã© gerado individualmente com o controle de comutaÃ§Ã£o dos interruptores de cada braÃ§o do inversor. Como estes interruptores nÃ£o podem ser comutados para o estado de conduÃ§Ã£o simultaneamente, seus comandos devem ser complementares. Este complemento Ã© adquirido pela funÃ§Ã£o NOT do sub-bloco.
+A operação deste bloco é realizada pela comparação do sinal de referência com a medição da corrente na saída do inversor. O sinal advindo da comparação passa por um relé programado com histerese, onde é definida a banda de histerese, e por fim a saída contendo um sinal binário é gerado. Os sinais de cada fase do sistema é gerado individualmente com o controle de comutação dos interruptores de cada braço do inversor. Como estes interruptores não podem ser comutados para o estado de condução simultaneamente, seus comandos devem ser complementares. Este complemento é adquirido pela função NOT do sub-bloco.
 
 \begin{figure}[!htb] %
 	\centering
 	\includegraphics[width=0.7\textwidth]{Cap4/Figuras/histerese_sim.png}
-	\caption{ObtenÃ§Ã£o do sinal de comando dos interruptores por controle de histerese}
+	\caption{Obtenção do sinal de comando dos interruptores por controle de histerese}
 	\label{fig:histerese_sim.png}
 \end{figure}
 
-O controle de tensÃ£o do capacitor disposto no lado DC do inversor Ã© mostrado na Figura \ref{fig:PI_sim.png}. Este sub-bloco tem em sua entrada a mediÃ§Ã£o de tensÃ£o do capacitor, ao passo que em sua saÃ­da Ã© disponibilizado o sinal de potÃªncia das perdas acorridas na operaÃ§Ã£o do inversor. Tal sinal de saÃ­da Ã© direcionado para calculo das potÃªncias instantÃ¢neas do sub-bloco de determinaÃ§Ã£o de correntes de referÃªncia (Figra \ref{fig:controladador.png}).
+O controle de tensão do capacitor disposto no lado DC do inversor é mostrado na Figura \ref{fig:PI_sim.png}. Este sub-bloco tem em sua entrada a medição de tensão do capacitor, ao passo que em sua saída é disponibilizado o sinal de potência das perdas acorridas na operação do inversor. Tal sinal de saída é direcionado para calculo das potências instantâneas do sub-bloco de determinação de correntes de referência (Figra \ref{fig:controladador.png}).
 
-Este bloco constitui de um controlador proporcional-integral (PI), onde os valores de $P$ e $I$ sÃ£o escolhidos de maneira a apresentar uma resposta do controlador adequada o funcionamento do sistema. A referÃªncia Ã© obtida como um sinal degrau com amplitude fixa e inÃ­cio definido no tempo para evitar o transitÃ³rio do sistema de geraÃ§Ã£o, a qual pode gerar instabilidade numÃ©rica do Simulink. 
+Este bloco constitui de um controlador proporcional-integral (PI), onde os valores de $P$ e $I$ são escolhidos de maneira a apresentar uma resposta do controlador adequada o funcionamento do sistema. A referência é obtida como um sinal degrau com amplitude fixa e início definido no tempo para evitar o transitório do sistema de geração, a qual pode gerar instabilidade numérica do Simulink. 
 
 \begin{figure}[!htb] %
 	\centering
@@ -138,9 +138,9 @@ Este bloco constitui de um controlador proporcional-integral (PI), onde os valor
 
 \subsubsection{Compensador}
 
-O compensador criado em ambiente Simulink tem como objetivo simular a operaÃ§Ã£o de um inversor composto por interruptores estÃ¡ticos, nas quais sÃ£o controlados pelos sinais gerados no bloco de controle para atender a demanda de corrente necessÃ¡ria para realizaÃ§Ã£o da filtragem ativa. Este bloco tem como entrada os sinais de comando dos interruptores advindos do bloco de controle por histeres. Ainda, para a correta operaÃ§Ã£o do compensador algumas mediÃ§Ãµes sÃ£o realizadas para realimentar o bloco de controle. Com isso, a forma de onda da corrente na saÃ­da do compensador Ã© adquirida para realimentar o sub-bloco de controle por histerese e a tensÃ£o no capacitor Ã© medida para prover informaÃ§Ã£o ao sub-bloco de malha de controle de tensÃ£o no capacitor. Em sua saÃ­da o compensador Ã© conectado no barramento de alimentaÃ§Ã£o na entrada da carga nÃ£o linear conecatda na rede elÃ©trica da aeronave.
+O compensador criado em ambiente Simulink tem como objetivo simular a operação de um inversor composto por interruptores estáticos, nas quais são controlados pelos sinais gerados no bloco de controle para atender a demanda de corrente necessária para realização da filtragem ativa. Este bloco tem como entrada os sinais de comando dos interruptores advindos do bloco de controle por histeres. Ainda, para a correta operação do compensador algumas medições são realizadas para realimentar os sub-blocos subjacentes do modelo. Dessa maneira, a forma de onda da corrente na saída do compensador é medida para realimentar o sub-bloco de controle por histerese, e a tensão no capacitor é medida para prover seu valor ao sub-bloco de malha de controle de tensão no capacitor. Em sua saída o compensador é conectado no barramento de alimentação localizado na entrada da carga não linear, a qual conectada na rede elétrica da aeronave.
 
-A Figura \ref{fig:Inversor.png} apresenta o bloco do compensdor utilizado na simulaÃ§Ã£o. Nesse bloco Ã© utilizado uma ponde de interruptores estÃ¡rticos ideais ordenadado como ilustrado na Figura \ref{fig}. A escolha dos interrupotres serem estabelecidos como ideais recai na limitaÃ§Ã£o do Simulink com relaÃ§Ã£o Ã s nÃ£o idealidade apresentadas em elementos semicondutroes de comutaÃ§Ã£o.
+A Figura \ref{fig:Inversor.png} apresenta o bloco do compensador utilizado na simulação. Nesse bloco é empregado uma ponde de interruptores estáticos ideais ordenados como ilustrado na Figura \ref{fig:VSC.png}. A escolha dos interruptores serem estabelecidos como ideais recai na limitação do Simulink com relação às não idealidade apresentadas em elementos semicondutores de comutação. Nessa Figura ainda pode ser observado a presença dos indutores de acoplamento e dos filtros capacitivos anteriores a saída do compensador. Os valores das indutâncias de acoplamento foram escolhida subjetivamente em função da resposta estabelecida do filtro. Os valores da capacitância foi feito da mesma maneira, porém tendo em mente que altos valores de capacitância elevam a potência aparente devido ao deslocamento entre as formas de onda de tensão e corrente. Outro elementos que foram adicionados para manter a estabilidade numérica na realização da simulação são as resistências em série e em paralelo à capacitância. Os valores dessas resistência são escolhidas de maneira que não influem significativamente à operação do circuito, ou seja, a resistência em série e em paralelo possuem valores baixos e elevados, respectivamente. Ainda, na Figura \ref{fig:Inversor.png} é apresentado o sub-bloco de controle por histerese para facilitar o entendimento do funcionamento do inversor.
  
 \begin{figure}[!htb] %
 	\centering
