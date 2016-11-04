@@ -1,10 +1,14 @@
 \section{Simulação}
 
+A simulação do sistema composto por elementos não lineares operando juntamente com filtros ativos conectados na rede de um sistema elétrico aeronáutico é apresentados a seguir. A proposta dessa simulação é criar em ambiente Simulink um sistema típico de geração e distribuição elétrica de uma aeronave de maneira suficientemente completa para analisar os aspectos operacionais de filtros ativos, além de observar suas características operando com elementos reais em uma rede elétrica aeronáutica. O foco desse estudo não recai no detalhamento do sistema ao ponto de modelar sistemas de proteção e integração, sendo que isso pode ser trabalho para estudos posteriores.
+
+As características do sistema modelado é realizado tomando como base uma aeronave de transporte civil com capacidade de uma média de 100 passageiros, tal como uma aeronave EMB-190. Em tais aeronaves o sistema de geração é composto por mais de um gerador, entretanto em operação normal os canais de geração são segregados, sendo que será simulado apenas apenas um canal de geração e distribuição distinto. Visto que o foco nesse trabalho não contempla integração de vários sistemas alimentados eletricamente, a carga será toda composta por elementos iguais e não lineares, sendo que estes devem ser propícios a operar com filtros ativos. Dessa maneira, foi determinado a carga sendo constituída por 3 EHAs operando simultaneamente, sob o mesmo regime de carga e sendo atuado no mesmo instante. Esta condição pode ser realizada em uma aeronave com a atuação de alguns EHAs em uma mesma superfície de controle.  
+
 \subsection{Modelo do Sistema Elétrico}
 
-\subsubsection{Sistema de Geração} \todo{falar da potência do gerador}
+\subsubsection{Sistema de Geração}
 
-O sistema de geração aplicado na simulação visa representar de maneira suficientemente apropriada uma fonte de tensão comumente encontrada em sistemas elétricos aeronáuticos. Tal bloco é composto por uma máquina síncrona, cuja entrada mecânica é definida por um valor constante representado pela rotação do eixo proveniente do IDG, e os níveis de tensão é determinado por controle de campo de excitação. Esse último é obtido por uma GCU a qual opera juntamente com a maquina síncrona do gerador. Em sistema elétricos aeronáuticos reais a complexidade do bloco Gerador/GCU é complexa e envolve sistemas complementares para garantir sua confiabilidade. Entretanto, para a proposta de simulação apresentado nesse trabalho, o sistema proposto por \cite{Olivier} mostra-se adequado. Isto deve-se principalmente pela característica da saída do gerador apresentar tensão com certa frequência definida, com amplitude controlada e as não idealidades representadas pelas resistências e indutâncias nas linhas do gerador são modeladas.
+O sistema de geração aplicado na simulação visa representar de maneira suficientemente apropriada uma fonte de tensão comumente encontrada em sistemas elétricos aeronáuticos. A potência de geração determinado para o sistema de um canal de geração é de 50 kVA, sendo este valor compatível com o porte da aeronave sob estudo. Tal bloco é composto por uma máquina síncrona, cuja entrada mecânica é definida por um valor constante representado pela rotação do eixo proveniente do IDG, e os níveis de tensão é determinado por controle de campo de excitação. Esse último é obtido por uma GCU a qual opera juntamente com a maquina síncrona do gerador. Em sistema elétricos aeronáuticos reais a complexidade do bloco Gerador/GCU é complexa e envolve sistemas complementares para garantir sua confiabilidade. Entretanto, para a proposta de simulação apresentado nesse trabalho, o sistema proposto por \cite{Olivier} mostra-se adequado. Isto deve-se principalmente pela característica da saída do gerador apresentar tensão com certa frequência definida, com amplitude controlada e as não idealidades representadas pelas resistências e indutâncias nas linhas do gerador são modeladas.
 
 Em ambiente Simulink tanto o bloco da máquina síncrona como o bloco de excitação de campo estão presentes. Sendo assim o sistema de geração utilizado no software é mostrado na Figura \ref{fig:GEN_GCU.png}.
 
@@ -150,3 +154,23 @@ A Figura \ref{fig:Inversor.png} apresenta o bloco do compensador utilizado na si
 \end{figure}
 
 \subsection{Resultados}
+
+O perfil de carga de um EHA operando isoladamente é ilustrado na figura a seguir:
+
+
+
+Nesta figura pode observar que durante seu acionamento existe uma grande variação de corrente. Com isso, para analisar de melhor maneira o comportamento do sistema com e sem a presença do filtro ativo, a analise foi dividida em 4 principais períodos, sendo estes:
+
+\begin{itemize}
+	\item EHA inoperante: não há solicitação de uso de corrente pelo motor do EHA, sendo que a corrente apresentada é referente à fuga nos semicondutores da ponte retificadora do EHA;
+	\item Corrente máxima: Período onde existe a máxima extração de corrente do sistema. Provavelmente devido à partida do motor;
+	\item Regime transitório: período com oscilação de corrente. Na figura não aparece muito devido à escala aplicada, porém dando um "zoom" nesta região é perceptível uma oscilação;
+	\item Regime permanente: Período sem oscilação, mas com certa corrente sendo extraída do sistema.
+\end{itemize}
+
+\subsubsection{EHA Inoperante}
+\subsubsection{Corrente Máxima}
+\subsubsection{Regime Transitório}
+\subsubsection{Regime Permanente}
+
+
