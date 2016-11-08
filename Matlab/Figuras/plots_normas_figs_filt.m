@@ -23,59 +23,154 @@ tf_rperm = time(end);
 
 % [V,I,t] = periodo(Vsignal,Isignal,time,ti,tf);
 
-%% Inoperante
-
 [V,I,t] = periodo(Vsignal,Isignal,time,ti_inop,tf_inop);
 
-figure(1);
+fig = figure(1);
 tensaocorrente(V,I,t);
 xlim([t(1) t(end)]);
+ylim([-1.2 1.2]);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
 
-figure(2);
+fig = figure(2);
 tensaocorrente(V,I,t);
-xlim([tf_inop-0.01 tf_inop]);
+xlim([t(end)-0.01 t(end)]);
+ylim([-1.2 1.2]);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
 
-figure(3);
+fig = figure(3);
 [~,~,~]=aparente(t,V,I,'filt');
-xlim([ti_inop tf_inop]);
+xlim([t(1) t(end)]);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
 
-figure(4);
-[~,~,~]=aparente(t,V,I,'filt');
-xlim([tf_inop-0.01 tf_inop]);
+fig = figure(4);
+[~,~,~]=aparente(t,V,I,'unfilt');
+xlim([t(end)-0.01 t(end)]);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
 
-figure(5);
+fig = figure(5);
 MILSTD704(t,V);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
 
-figure(6);
+fig = figure(6);
 DO160(t,V,f_rede);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
 
 %% Max Corrente
 
 [V,I,t] = periodo(Vsignal,Isignal,time,ti_max,tf_max);
 
-figure(7);
+fig = figure(7);
 tensaocorrente(V,I,t);
 xlim([t(1) t(end)]);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
 
-figure(8);
+fig = figure(8);
 tensaocorrente(V,I,t);
 xlim([73.12 73.13]);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
 
-figure(9);
-[P,Q,S]=aparente(t,V,I,'filt');
+fig = figure(9);
+[~,~,~]=aparente(t,V,I,'unfilt');
 xlim([t(1) t(end)]);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
 
-figure(10);
-[~,~,~]=aparente(t,V,I,'filt');
+fig = figure(10);
+[~,~,~]=aparente(t,V,I,'unfilt');
 xlim([73.12 73.13]);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
 
-figure(11);
+fig = figure(11);
 MILSTD704(t,V);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
 
-figure(12);
+fig = figure(12);
 DO160(t,V,f_rede);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
 
+%% Reg Transitório
 
+[V,I,t] = periodo(Vsignal,Isignal,time,ti_rtrans,tf_rtrans);
 
+fig = figure(13);
+tensaocorrente(V,I,t);
+xlim([t(1) t(end)]);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
 
+fig = figure(14);
+tensaocorrente(V,I,t);
+xlim([t(1) t(1)+0.01]);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
 
+fig = figure(15);
+[~,~,~]=aparente(t,V,I,'unfilt');
+xlim([t(1) t(end)]);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
+
+fig = figure(16);
+[~,~,~]=aparente(t,V,I,'unfilt');
+xlim([t(1) t(1)+0.01]);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
+
+fig = figure(17);
+MILSTD704(t,V);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
+
+fig = figure(18);
+DO160(t,V,f_rede);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
+
+%% Reg Permanente
+
+[V,I,t] = periodo(Vsignal,Isignal,time,ti_rperm,tf_rperm);
+
+fig = figure(19);
+tensaocorrente(V,I,t);
+xlim([t(1) t(end)]);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
+
+fig = figure(20);
+tensaocorrente(V,I,t);
+xlim([t(1) t(1)+0.01]);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
+
+fig = figure(21);
+[~,~,~]=aparente(t,V,I,'unfilt');
+xlim([t(1) t(end)]);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
+
+fig = figure(22);
+[~,~,~]=aparente(t,V,I,'unfilt');
+xlim([t(1) t(1)+0.01]);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
+
+fig = figure(23);
+MILSTD704(t,V);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
+
+fig = figure(24);
+DO160(t,V,f_rede);
+n = get(fig,'Number');
+print(['resultados_filt_',num2str(n)],'-depsc');
