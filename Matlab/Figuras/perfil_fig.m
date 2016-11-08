@@ -53,9 +53,30 @@ Pmin(end,2) = 0;
 
 %% plot
 close all
+
+ft = 30;
+fatorX = 2;
+fatorY = 1.05;
+ftaxes = 18;
+
 plot(Pmax(:,1),Pmax(:,2),'k',Pmin(:,1),Pmin(:,2),'k','LineWidth',2.5)
 xlim([72.85 73.9]);
 ylim([-250 250]);
+set(gca,'Position',[0.06,0.15,0.93,0.7]);
+pos = get(gcf,'Position');
+set(gcf,'Position',[pos(1) pos(2) fatorX*pos(3) pos(4)*fatorY]);
+% set(gca,'XtickLabel',[],'YtickLabel',[]);
+grid on
+
+xl = xlabel('tempo [s]');
+set(xl,'Interpreter','tex');
+set(xl,'FontName','Times New Roman');
+set(xl,'FontSize',ftaxes);
+
+yl = ylabel('Perfil de Corrente [A]');
+set(yl,'Interpreter','tex');
+set(yl,'FontName','Times New Roman');
+set(yl,'FontSize',ftaxes);
 
 % Linhas Verticais
 v = get(gca);
@@ -73,18 +94,30 @@ set(lv3,'Color',[.0 .0 .0],'LineStyle','--','LineWidth',1);
 
 % Textos
 
-t1 = text((73+72.85)/2,230,'EHA Inoperante');
-set(t1,'VerticalAlignment','middle');
+t1 = text((73+72.85)/2,255,{'EHA','Inoperante'});
+set(t1,'VerticalAlignment','bottom');
 set(t1,'HorizontalAlignment','center');
+set(t1,'Interpreter','tex');
+set(t1,'FontName','Times New Roman');
+set(t1,'FontSize',ftaxes);
 
-t2 = text((73+73.3)/2,230,'Corrente Máxima');
-set(t2,'VerticalAlignment','middle');
+t2 = text((73+73.3)/2,255,'Corrente Máxima');
+set(t2,'VerticalAlignment','bottom');
 set(t2,'HorizontalAlignment','center');
+set(t2,'Interpreter','tex');
+set(t2,'FontName','Times New Roman');
+set(t2,'FontSize',ftaxes);
 
-t3 = text((73.3+73.7)/2,230,'Regime Transitório');
-set(t3,'VerticalAlignment','middle');
+t3 = text((73.3+73.7)/2,255,'Regime Transitório');
+set(t3,'VerticalAlignment','bottom');
 set(t3,'HorizontalAlignment','center');
+set(t3,'Interpreter','tex');
+set(t3,'FontName','Times New Roman');
+set(t3,'FontSize',ftaxes);
 
-t1 = text((73.7+73.9)/2,230,'Regime Permanente');
-set(t1,'VerticalAlignment','middle');
-set(t1,'HorizontalAlignment','center');
+t4 = text((73.7+73.9)/2,255,{'Regime','Permanente'});
+set(t4,'VerticalAlignment','bottom');
+set(t4,'HorizontalAlignment','center');
+set(t4,'Interpreter','tex');
+set(t4,'FontName','Times New Roman');
+set(t4,'FontSize',ftaxes);

@@ -29,14 +29,14 @@ tf_rperm = time(end);
 
 figure(1);
 tensaocorrente(V,I,t);
-xlim([ti_inop tf_inop]);
+xlim([t(1) t(end)]);
 
 figure(2);
 tensaocorrente(V,I,t);
 xlim([tf_inop-0.01 tf_inop]);
 
 figure(3);
-[P,Q,S]=aparente(t,V,I,'filt');
+[~,~,~]=aparente(t,V,I,'filt');
 xlim([ti_inop tf_inop]);
 
 figure(4);
@@ -49,6 +49,31 @@ MILSTD704(t,V);
 figure(6);
 DO160(t,V,f_rede);
 
+%% Max Corrente
+
+[V,I,t] = periodo(Vsignal,Isignal,time,ti_max,tf_max);
+
+figure(7);
+tensaocorrente(V,I,t);
+xlim([t(1) t(end)]);
+
+figure(8);
+tensaocorrente(V,I,t);
+xlim([73.12 73.13]);
+
+figure(9);
+[P,Q,S]=aparente(t,V,I,'filt');
+xlim([t(1) t(end)]);
+
+figure(10);
+[~,~,~]=aparente(t,V,I,'filt');
+xlim([73.12 73.13]);
+
+figure(11);
+MILSTD704(t,V);
+
+figure(12);
+DO160(t,V,f_rede);
 
 
 

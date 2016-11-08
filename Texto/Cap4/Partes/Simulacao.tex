@@ -159,7 +159,12 @@ Na Figura \ref{fig:Inversor.png} é apresentado o sub-bloco de controle por histe
 
 O perfil de carga de um EHA operando isoladamente é ilustrado na figura a seguir:
 
-
+\begin{figure}[!htb] %
+	\centering
+	\includegraphics[width=0.99\textwidth]{Cap4/Figuras/perfil.eps}
+	\caption{perfil}
+	\label{fig:perfil.eps}
+\end{figure}
 
 Nesta figura pode observar que durante seu acionamento existe uma grande variação de corrente. Com isso, para analisar de melhor maneira o comportamento do sistema com e sem a presença do filtro ativo, a analise foi dividida em 4 principais períodos, sendo estes:
 
@@ -171,6 +176,26 @@ Nesta figura pode observar que durante seu acionamento existe uma grande variaçã
 \end{itemize}
 
 \subsubsection{EHA Inoperante}
+
+\begin{figure*}[!htb] %Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+	\centering
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_1.eps}
+		\caption{Topologia típica de um VSC} 
+		\label{fig:VSC.png}
+	\end{subfigure}%
+	\hfill
+	\begin{subfigure}[b]{0.40\textwidth}  
+		\centering 
+		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_2}
+		\caption{Topologia típica de um CSC}    
+		\label{fig:CSC.png}
+	\end{subfigure}%
+	\caption{Inversores de tensão e corrente}
+	\label{fig:VSC_CSC}
+\end{figure*}
+
 \subsubsection{Corrente Máxima}
 \subsubsection{Regime Transitório}
 \subsubsection{Regime Permanente}
