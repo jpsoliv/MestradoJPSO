@@ -30,26 +30,28 @@ tf_rperm = time(end);
 fig = figure(1);
 tensaocorrente(V,I,t);
 xlim([t(1) t(end)]);
-ylim([-0.15 0.15]);
+ylim([-1.3 1.3]);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(2);
 tensaocorrente(V,I,t);
 xlim([t(end)-0.01 t(end)]);
-ylim([-0.15 0.15]);
+ylim([-1.3 1.3]);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(3);
 [~,~,~]=aparente(t,V,I,'unfilt');
 xlim([t(1) t(end)]);
+ylim([-40 40]);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(4);
 [~,~,~]=aparente(t,V,I,'unfilt');
 xlim([t(end)-0.01 t(end)]);
+ylim([-40 40]);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
@@ -70,24 +72,28 @@ print(['resultados_unfilt_',num2str(n)],'-depsc');
 fig = figure(7);
 tensaocorrente(V,I,t);
 xlim([t(1) t(end)]);
+ylim([-400 400]);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(8);
 tensaocorrente(V,I,t);
 xlim([73.12 73.13]);
+ylim([-400 400]);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(9);
 [~,~,~]=aparente(t,V,I,'unfilt');
 xlim([t(1) t(end)]);
+ylim([-3e4 6.5e4]);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(10);
 [~,~,~]=aparente(t,V,I,'unfilt');
 xlim([73.12 73.13]);
+ylim([-3e4 6.5e4]);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
@@ -108,24 +114,28 @@ print(['resultados_unfilt_',num2str(n)],'-depsc');
 fig = figure(13);
 tensaocorrente(V,I,t);
 xlim([t(1) t(end)]);
+ylim([-20 20]);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(14);
 tensaocorrente(V,I,t);
 xlim([t(1) t(1)+0.01]);
+ylim([-20 20]);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(15);
 [~,~,~]=aparente(t,V,I,'unfilt');
 xlim([t(1) t(end)]);
+ylim([-3000 5000]);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(16);
 [~,~,~]=aparente(t,V,I,'unfilt');
 xlim([t(1) t(1)+0.01]);
+ylim([-3000 5000]);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
@@ -146,24 +156,28 @@ print(['resultados_unfilt_',num2str(n)],'-depsc');
 fig = figure(19);
 tensaocorrente(V,I,t);
 xlim([t(1) t(end)]);
+ylim([-5 5]);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(20);
 tensaocorrente(V,I,t);
 xlim([t(1) t(1)+0.01]);
+ylim([-5 5]);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(21);
 [~,~,~]=aparente(t,V,I,'unfilt');
 xlim([t(1) t(end)]);
+ylim([-400 850]);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(22);
 [~,~,~]=aparente(t,V,I,'unfilt');
 xlim([t(1) t(1)+0.01]);
+ylim([-400 850]);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 

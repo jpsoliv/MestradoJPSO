@@ -24,7 +24,7 @@ Q = Vbeta.*Ialpha - Valpha.*Ibeta;
 S = sqrt(P.^2+Q.^2);
 
 if strcmp(flag,'filt')
-    f = 1000;
+    f = 40*40;
     Ts = 1e-7;
     % fsample = 1/2e-7;
     fsample = 1/Ts;
@@ -37,3 +37,6 @@ if strcmp(flag,'filt')
 end
 
 plot(t,S,t,P,t,Q);legend('S','P','Q')
+v = get(gca);
+lh = line([0 0 NaN v.XLim],[v.YLim NaN 0 0 ]);
+set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
