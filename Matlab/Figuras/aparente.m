@@ -21,8 +21,6 @@ Ibeta = sqrt(2/3)*(0*Ia + sqrt(3)/2*Ib - sqrt(3)/2*Ic);
 P = Valpha.*Ialpha + Vbeta.*Ibeta;
 Q = Vbeta.*Ialpha - Valpha.*Ibeta;
 
-S = sqrt(P.^2+Q.^2);
-
 if strcmp(flag,'filt')
     f = 40*40;
     Ts = 1e-7;
@@ -33,8 +31,9 @@ if strcmp(flag,'filt')
 
     P = filter(b,a,P);
     Q = filter(b,a,Q);
-    S = sqrt(P.^2+Q.^2);
 end
+
+S = sqrt(P.^2+Q.^2);
 
 plot(t,S,t,P,t,Q);legend('S','P','Q')
 v = get(gca);
