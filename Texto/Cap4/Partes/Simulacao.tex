@@ -175,9 +175,17 @@ Nesta figura pode observar que durante seu acionamento existe uma grande variaçã
 	\item Regime permanente: Período sem oscilação, mas com certa corrente sendo extraída do sistema.
 \end{itemize}
 
+Os resultados da simulação apresentados nas próximas seções são referentes as formas de ondas das tensões e correntes medidos na PDU, onde é avaliado a corrente que alimenta os EHAs, além da tensão de alimentação do barramento. Além disso, é realizado o cálculo das potências em função do tempo nesse ponto. Ainda, para avaliar a condição da qualidade de energia na PDU é realizado o cálculo do espectro de frequência da tensão, cujo intuito é de comparar o resultado com as normas aeronáuticas. A norma em questão seguida como referência é a MIL-STD 704F \cite{MILSTD}, a qual propõe um limite para as distorções em função da frequência, além de restringir o TDH. Cabe a observação que os espectros de frequência presentes nesse trabalho ilustram o pico de tensão da fundamental. Esse pico é estabelecido em 400 Hz e deve ser desconsiderado na análise de qualidade de energia.
+
+A apresentação das figuras seguintes estão disposta com os resultados lado a lado com e sem a atuação do filtro ativo para efeito de comparação. As figuras localizados no lado esquerdo são referentes ao sistema sem o filtro ativo, ao passo que as do lado direito são com a presença do filtro ativo.
+
 \subsubsection{EHA Inoperante}
 
-Durante o período entre 72,85 e 73 segundos o EHA não é solicitado a atuar. 
+Durante o período entre 72,85 e 73 segundos o EHA não é solicitado a atuar, isto é, a corrente presente no lado DC do conversor de entrada do EHA é presente apenas pela presença do resistor em paralelo com a fonte de corrente controlada. 
+
+A Figura \ref{fig:2} apresenta as tensões e correntes medidas na PDU em um pequeno intervalo desse período. Aqui pode ser observado que na ausência do filtro ativo (Figura \ref{fig:resultados_unfilt_2.eps}) a corrente presente é irrelevante, dado que esta é devido apenas pela presença do resistor em paralelo com a fonte controlada. Todavia, para o caso onde há aplicação do filtro ativo (Figura \ref{fig:resultados_filt_2.eps}) um ruido intenso é medido na corrente da PDU. Isto se deve à comutação dos semicondutores do inversor do filtro ativo. Nesse caso, por não haver uma solicitação de fornecimento de corrente, o filtro apresenta esse comportamento e o ruido de corrente apresenta-se relevante frente a ausência do filtro. Ainda, pela analise da Figura \ref{fig:4}, onde é ilustrado as potências instantâneas medidas com as tensões e corrente na PDU, a presença do filtro ativo (Figura \ref{fig:resultados_unfilt_4.eps}) deixa as potências igualmente ruidosas.
+
+Os espectros de frequência podem ser analisados nas figuras \ref{fig:5} e \ref{fig:6}. Aqui pode ser observado que a presença do filtro ativo deteriora a qualidade de energia, porém os níveis de tensão do espectro e o THD está sempre presente dentro dos limites da MIL-STD 704F. 
 
 %\begin{figure*}[!htb] %Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 %	\centering
@@ -296,7 +304,15 @@ Durante o período entre 72,85 e 73 segundos o EHA não é solicitado a atuar.
 \FloatBarrier
 
 \subsubsection{Corrente Máxima}
- 
+
+No momento delimitado entre 73 a 73,3 é observado a corrente máxima percorrendo o sistema elétrico. A corrente nesse período é elevada devido a partida do motor elétrico, a qual exige uma corrente intensa para vencer a inercia do eixo rotativo.
+
+A Figura \ref{fig:7} mostra as formas de onda da tensão e corrente nesse período. Por ser elevada a corrente nesse período a qualidade de energia é acentuadamente afetada. Isso pode ser na Figura \ref{fig:8}, onde é apresentado um pequeno intervalo a qual existe o pico de corrente máximo entre 73,12 e 73,13 segundos. Pela analise da Figura \ref{fig:resultados_unfilt_8.eps}, pode-se observar a forma de onda das tensões como sendo bastante distorcidas. Contudo, com a aplicação do filtro ativo pode-se observar, através da Figura \ref{fig:resultados_filt_7.eps}, que as formas de onda da corrente e da tensão são senoidais e em fase.
+
+A Figura \ref{fig:10} apresenta as potências instantâneas desse período. Pode-se observar que para o caso sem o filtro ativo tanto a potência ativa quanto reativa apresentam elevados valores de $\tilde{p}$ e $\tilde{q}$ respectivamente, e que são condições de baixa qualidade e fator de potência. Para o caso onde o filtro ativo é presente as formas de onda das potências, apesar de apresentarem certa oscilação devido aos efeitos de comutação dos semicondutores, estão em acordo com o comportamento esperado.
+
+Já a análise dos espectros de frequência das tensões mostram que a qualidade de energia é conseguida com a aplicação do filtro ativo. Isto é verificado tanto a Figura \ref{fig:resultados_unfilt_11.eps} quanto na Figura \ref{fig:resultados_unfilt_12.eps}, onde a MIL-STD 704F não está sendo cumprida, dado que o espectro de frequência da tensão está fora dos limites da norma e o THD é superior à 5\%. Entretanto as figuras \ref{fig:resultados_filt_11.eps} e \ref{fig:resultados_filt_12.eps} apresentam a tensão na PDU dentro das especificações da norma.
+
 \begin{figure*}[!htb] %Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
@@ -415,6 +431,14 @@ Durante o período entre 72,85 e 73 segundos o EHA não é solicitado a atuar.
 
 \subsubsection{Regime Transitório}
 
+O regime transitório é mostrado na Figura \ref{fig:13} e é caracterizado pela variação da corrente no tempo sem que haja grande oscilação, como apresentado no período anterior. Esse intervalo de tempo é delimitado entre 73,3 e 73,7 segundos.
+
+A Figura \ref{fig:14} apresenta um pequeno intervalo a qual é definido o período em que a corrente é mais elevada. Na Figura \ref{fig:resultados_unfilt_14.eps} pode ser observado que a corrente é distorcida, porém não influi significativamente na qualidade de energia, visto que a tensão apresenta-se pouco distorcida. A Figura \ref{fig:resultados_filt_14.eps} apresenta a corrente em fase e próximo de uma senoide perfeita, mostrando que o filtro opera de maneira condizente com esperado. 
+
+Outro fator que demonstra o desempenho do filtro é a análise das potências instantâneas. As figuras \ref{fig:15} e \ref{fig:16} evidencia uma certa anulação das potência reativa e da potência oscilante ativa. Porém deve ser observado que os efeitos da comutação dos semicondutores inserem ruídos na corrente e, consequentemente, nas potências instantâneas. Outro fator a ser esclarecido nessas figura é o fato de que o capacitor entrega uma certa potência no início do período estudado, de forma que a potência extraída da fonte no caso sem filtro é mais elevada que no caso com o filtro.
+
+A análise do espectro de frequência das tensões mostram que a qualidade de energia é melhorada com a aplicação do filtro, entretanto, com níveis de corrente apresentados nesse período, a operação sem filtro não apresenta distorção suficiente que desacata a norma aeronáutica de referência.
+
 \begin{figure*}[!htb] %Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
@@ -430,7 +454,7 @@ Durante o período entre 72,85 e 73 segundos o EHA não é solicitado a atuar.
 		\caption{Topologia típica de um CSC}    
 		\label{fig:resultados_filt_13.eps}
 	\end{subfigure}%
-	\caption{Inversores de tensão e corrente}
+	\caption{13}
 	\label{fig:13}
 \end{figure*}
 
