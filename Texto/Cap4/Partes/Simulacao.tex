@@ -1,83 +1,83 @@
-\section{SimulaÁ„o}
+\section{Simula√ß√£o}
 
-A simulaÁ„o do sistema composto por elementos n„o lineares operando juntamente com filtros ativos conectados na rede de um sistema elÈtrico aeron·utico È apresentados a seguir. A proposta dessa simulaÁ„o È criar em ambiente Simulink um sistema tÌpico de geraÁ„o e distribuiÁ„o elÈtrica de uma aeronave de maneira suficientemente completa para analisar os aspectos operacionais de filtros ativos, alÈm de observar suas caracterÌsticas operando com elementos reais em uma rede elÈtrica aeron·utica. O foco desse estudo n„o recai no detalhamento do sistema ao ponto de modelar sistemas de proteÁ„o e integraÁ„o, sendo que isso pode ser trabalho para estudos posteriores.
+A simula√ß√£o do sistema composto por elementos n√£o lineares operando juntamente com filtros ativos conectados na rede de um sistema el√©trico aeron√°utico √© apresentados a seguir. A proposta dessa simula√ß√£o √© criar em ambiente Simulink um sistema t√≠pico de gera√ß√£o e distribui√ß√£o el√©trica de uma aeronave de maneira suficientemente completa para analisar os aspectos operacionais de filtros ativos, al√©m de observar suas caracter√≠sticas operando com elementos reais em uma rede el√©trica aeron√°utica. O foco desse estudo n√£o recai no detalhamento do sistema ao ponto de modelar sistemas de prote√ß√£o e integra√ß√£o, sendo que isso pode ser trabalho para estudos posteriores.
 
-As caracterÌsticas do sistema modelado È realizado tomando como base uma aeronave de transporte civil com capacidade de uma mÈdia de 100 passageiros, tal como uma aeronave EMB-190. Em tais aeronaves o sistema de geraÁ„o È composto por mais de um gerador, entretanto, em operaÁ„o normal, os canais de geraÁ„o s„o segregados, sendo que ser· simulado apenas um canal de geraÁ„o e distribuiÁ„o. Visto que o foco nesse trabalho n„o contempla integraÁ„o de v·rios sistemas alimentados eletricamente, a carga ser· toda composta por elementos iguais e n„o lineares, sendo que estes devem ser propÌcios a operar com filtros ativos. Dessa maneira, foi determinado a carga sendo constituÌda por trÍs EHAs operando simultaneamente, sob o mesmo regime de carga e sendo atuado no mesmo instante. Esta condiÁ„o pode ser realizada em uma aeronave com a atuaÁ„o de alguns EHAs em uma mesma superfÌcie de controle.
+As caracter√≠sticas do sistema modelado √© realizado tomando como base uma aeronave de transporte civil com capacidade de uma m√©dia de 100 passageiros, tal como uma aeronave EMB-190. Em tais aeronaves o sistema de gera√ß√£o √© composto por mais de um gerador, entretanto, em opera√ß√£o normal, os canais de gera√ß√£o s√£o segregados, sendo que ser√° simulado apenas um canal de gera√ß√£o e distribui√ß√£o. Visto que o foco nesse trabalho n√£o contempla integra√ß√£o de v√°rios sistemas alimentados eletricamente, a carga ser√° toda composta por elementos iguais e n√£o lineares, sendo que estes devem ser prop√≠cios a operar com filtros ativos. Dessa maneira, foi determinado a carga sendo constitu√≠da por tr√™s EHAs operando simultaneamente, sob o mesmo regime de carga e sendo atuado no mesmo instante. Esta condi√ß√£o pode ser realizada em uma aeronave com a atua√ß√£o de alguns EHAs em uma mesma superf√≠cie de controle.
 
-\subsection{Modelo do Sistema ElÈtrico}
+\subsection{Modelo do Sistema El√©trico}
 
-\subsubsection{Sistema de GeraÁ„o}
+\subsubsection{Sistema de Gera√ß√£o}
 
-O sistema de geraÁ„o aplicado na simulaÁ„o visa representar de maneira suficientemente apropriada uma fonte de tens„o comumente encontrada em sistemas elÈtricos aeron·uticos. A potÍncia do gerador especificada para o sistema elÈtrico em um canal de geraÁ„o È definido como 50 kVA, sendo este valor compatÌvel com o porte da aeronave sob estudo. O bloco de geraÁ„o montado no Simulink È composto por uma m·quina sÌncrona, cuja entrada mec‚nica È definida por um valor constante representado pela rotaÁ„o do eixo proveniente do IDG, e os nÌveis de tens„o È determinado por controle de campo de excitaÁ„o. Esse ˙ltimo È obtido por uma GCU, a qual opera juntamente com a maquina sÌncrona do gerador. Em sistema elÈtricos aeron·uticos reais a complexidade do bloco Gerador/GCU È elevada e envolve sistemas complementares para garantir sua confiabilidade. Entretanto, para a proposta de simulaÁ„o apresentado nesse trabalho o sistema proposto por \cite{Olivier} mostra-se adequado. Isto se deve principalmente pela caracterÌstica da saÌda do gerador apresentar tens„o com frequÍncia definida, com amplitude controlada e pela inclus„o das n„o idealidades representadas pelas resistÍncias e indut‚ncias nas linhas do gerador.
+O sistema de gera√ß√£o aplicado na simula√ß√£o visa representar de maneira suficientemente apropriada uma fonte de tens√£o comumente encontrada em sistemas el√©tricos aeron√°uticos. A pot√™ncia do gerador especificada para o sistema el√©trico em um canal de gera√ß√£o √© definido como 50 kVA, sendo este valor compat√≠vel com o porte da aeronave sob estudo. O bloco de gera√ß√£o montado no Simulink √© composto por uma m√°quina s√≠ncrona, cuja entrada mec√¢nica √© definida por um valor constante representado pela rota√ß√£o do eixo proveniente do IDG, e os n√≠veis de tens√£o √© determinado por controle de campo de excita√ß√£o. Esse √∫ltimo √© obtido por uma GCU, a qual opera juntamente com a maquina s√≠ncrona do gerador. Em sistema el√©tricos aeron√°uticos reais a complexidade do bloco Gerador/GCU √© elevada e envolve sistemas complementares para garantir sua confiabilidade. Entretanto, para a proposta de simula√ß√£o apresentado nesse trabalho o sistema proposto por \cite{Olivier} mostra-se adequado. Isto se deve principalmente pela caracter√≠stica da sa√≠da do gerador apresentar tens√£o com frequ√™ncia definida, com amplitude controlada e pela inclus√£o das n√£o idealidades representadas pelas resist√™ncias e indut√¢ncias nas linhas do gerador.
 
-Em ambiente Simulink tanto o bloco da m·quina sÌncrona como o bloco de excitaÁ„o de campo est„o presentes. Sendo assim o sistema de geraÁ„o utilizado no software È mostrado na Figura \ref{fig:GEN_GCU.png}.
+Em ambiente Simulink tanto o bloco da m√°quina s√≠ncrona como o bloco de excita√ß√£o de campo est√£o presentes. Sendo assim o sistema de gera√ß√£o utilizado no software √© mostrado na Figura \ref{fig:GEN_GCU.png}.
 
 \begin{figure}[!htb] %
 	\centering
 	\includegraphics[width=0.99\textwidth]{Cap4/Figuras/GEN_GCU.png}
-	\caption{Modelo do sistema de geraÁ„o}
+	\caption{Modelo do sistema de gera√ß√£o}
 	\label{fig:GEN_GCU.png}
 \end{figure}
 
-Nessa ilustraÁ„o o subconjunto superior È composto pelos elementos que modelam a GCU. O \textit{Excitation System} È um bloco nativo do Simulink e opera como descrito em \cite{IEEE}. J· os blocos auxiliares da GCU est„o presentes para condicionar o sinal adequadamente ‡ operaÁ„o do \textit{Excitation System}. A mediÁ„o de tens„o que alimenta a GCU deve ser proveniente do barramento de distribuiÁ„o, visto que as imped‚ncias da m·quina elÈtrica e sistema de distribuiÁ„o alterem os nÌveis de tens„o desse ponto em comparaÁ„o ‡ saÌda do gerador.
+Nessa ilustra√ß√£o o subconjunto superior √© composto pelos elementos que modelam a GCU. O \textit{Excitation System} √© um bloco nativo do Simulink e opera como descrito em \cite{IEEE}. J√° os blocos auxiliares da GCU est√£o presentes para condicionar o sinal adequadamente √† opera√ß√£o do \textit{Excitation System}. A medi√ß√£o de tens√£o que alimenta a GCU deve ser proveniente do barramento de distribui√ß√£o, visto que as imped√¢ncias da m√°quina el√©trica e sistema de distribui√ß√£o alterem os n√≠veis de tens√£o desse ponto em compara√ß√£o √† sa√≠da do gerador.
 
-O subconjunto inferior compıe o gerador. A m·quina sÌncrona È tambÈm um bloco presente no Simulink e em sua saÌda est„o presentes as resistÍncias e indut‚ncias conectadas em sÈrie, cujos valores s„o expostos na Tabela \ref{tab:Zgen}.  Ainda existe uma resistÍncia parasita no sistema com o intuito de evitar problemas numÈricos na simulaÁ„o. A presenÁa deste elemento n„o influencia o sistema que ser· simulado.
+O subconjunto inferior comp√µe o gerador. A m√°quina s√≠ncrona √© tamb√©m um bloco presente no Simulink e em sua sa√≠da est√£o presentes as resist√™ncias e indut√¢ncias conectadas em s√©rie, cujos valores s√£o expostos na Tabela \ref{tab:Zgen}.  Ainda existe uma resist√™ncia parasita no sistema com o intuito de evitar problemas num√©ricos na simula√ß√£o. A presen√ßa deste elemento n√£o influencia o sistema que ser√° simulado.
 
 \begin{table}[!htb]
 	\centering
 	\begin{tabular}{|c|c|c|}
 		\hline
-		\textbf{ResistÍncia	[$\Omega$]}	& \textbf{Indut‚ncia [mH]}	& \textbf{Imped‚ncia (400 Hz) [$\Omega$]}\\\hline
+		\textbf{Resist√™ncia	[$\Omega$]}	& \textbf{Indut√¢ncia [mH]}	& \textbf{Imped√¢ncia (400 Hz) [$\Omega$]}\\\hline
 		0.0404					& 0.09204			& $0.0404+j0.213$\\
 		\hline
 	\end{tabular}
-	\caption{Imped‚ncia interna do Gerador}
+	\caption{Imped√¢ncia interna do Gerador}
 	\label{tab:Zgen}
 \end{table}
 
-\subsubsection{Sistema de DistribuiÁ„o}
+\subsubsection{Sistema de Distribui√ß√£o}
 
-O sistema de distribuiÁ„o de uma aeronave È constituÌdo pelos condutores que transferem a energia entre os subsistemas, alÈm dos barramentos de distribuiÁ„o e equipamentos de proteÁ„o do sistema elÈtrico. Contudo, nesse trabalho as proteÁıes n„o est„o no escopo da simulaÁ„o, sendo que o modelo proposto ser· composto apenas pelas linhas de transmiss„o e um barramento a qual as cargas possam ser conectadas.
+O sistema de distribui√ß√£o de uma aeronave √© constitu√≠do pelos condutores que transferem a energia entre os subsistemas, al√©m dos barramentos de distribui√ß√£o e equipamentos de prote√ß√£o do sistema el√©trico. Contudo, nesse trabalho as prote√ß√µes n√£o est√£o no escopo da simula√ß√£o, sendo que o modelo proposto ser√° composto apenas pelas linhas de transmiss√£o e um barramento a qual as cargas possam ser conectadas.
 
-O ponto de conex„o em comum est· localizado na PDU (\textit{Primary Distribution Unit}). Apenas um barramento ser· considerado e as cargas n„o lineares compostas pelos EHAs ser„o conetadas em paralelo a partir dessa unidade. A Figura \ref{fig:dist.png} apresenta o modelo implementado no Simulink para realizaÁ„o da simulaÁ„o. Aqui pode-se observar as cargas compostas pelos EHAs sendo conectadas a partir da PDU. A alimentaÁ„o da PDU È realizada diretamente pelo gerador atravÈs de uma linha de transmiss„o trif·sica. Nessa unidade ainda existe um sensor de tens„o que cede informaÁ„o ao GCU para o controle de excitaÁ„o de campo, a qual fornecer ao gerador o controle para que este apresente nÌveis de tens„o adequadas para manter a tens„o de fase no PCC sendo 115 V.
+O ponto de conex√£o em comum est√° localizado na PDU (\textit{Primary Distribution Unit}). Apenas um barramento ser√° considerado e as cargas n√£o lineares compostas pelos EHAs ser√£o conetadas em paralelo a partir dessa unidade. A Figura \ref{fig:dist.png} apresenta o modelo implementado no Simulink para realiza√ß√£o da simula√ß√£o. Aqui pode-se observar as cargas compostas pelos EHAs sendo conectadas a partir da PDU. A alimenta√ß√£o da PDU √© realizada diretamente pelo gerador atrav√©s de uma linha de transmiss√£o trif√°sica. Nessa unidade ainda existe um sensor de tens√£o que cede informa√ß√£o ao GCU para o controle de excita√ß√£o de campo, a qual fornecer ao gerador o controle para que este apresente n√≠veis de tens√£o adequadas para manter a tens√£o de fase no PCC sendo 115 V.
 
 \begin{figure}[!htb] %
 	\centering
 	\includegraphics[width=0.99\textwidth]{Cap4/Figuras/dist.png}
-	\caption{Sistema de DistribuiÁ„o}
+	\caption{Sistema de Distribui√ß√£o}
 	\label{fig:dist.png}
 \end{figure}
 
-As n„o idealidades dos condutores s„o modeladas com a inserÁ„o de resistÍncias e reat‚ncias indutivas conectadas em sÈrie nas linhas de transmiss„o do sistema. As capacit‚ncias entre os condutores e o plano de terra n„o s„o considerados devido sua insignific‚ncia frente a potÍncia e o tamanho das cablagens. As bitolas dos fios e seus comprimentos est„o adequadamente dimensionados para a corrente transmitida e o tamanho comumente encontrado em uma aeronave do porte do modelo. Sendo assim, os valores de imped‚ncia de cada seÁ„o do sistema trif·sico È definido seguindo os par‚metros encontrados em \cite{Exner1953}. A Tabela \ref{tab:Zdist} expıe as definiÁıes do modelo quanto ‡s cablagens utilizadas e suas imped‚ncias em cada seÁ„o. 
+As n√£o idealidades dos condutores s√£o modeladas com a inser√ß√£o de resist√™ncias e reat√¢ncias indutivas conectadas em s√©rie nas linhas de transmiss√£o do sistema. As capacit√¢ncias entre os condutores e o plano de terra n√£o s√£o considerados devido sua insignific√¢ncia frente a pot√™ncia e o tamanho das cablagens. As bitolas dos fios e seus comprimentos est√£o adequadamente dimensionados para a corrente transmitida e o tamanho comumente encontrado em uma aeronave do porte do modelo. Sendo assim, os valores de imped√¢ncia de cada se√ß√£o do sistema trif√°sico √© definido seguindo os par√¢metros encontrados em \cite{Exner1953}. A Tabela \ref{tab:Zdist} exp√µe as defini√ß√µes do modelo quanto √†s cablagens utilizadas e suas imped√¢ncias em cada se√ß√£o. 
 
 \begin{table}[!htb]
 	\centering
 	\begin{tabular}{|c|c|c|c|}
 		\hline
-		\textbf{PorÁ„o}		&	\textbf{Bitola}		&	\textbf{Comprimento}	&	\textbf{Imped‚ncia (400 Hz) [$\Omega$]}	\\\hline
+		\textbf{Por√ß√£o}		&	\textbf{Bitola}		&	\textbf{Comprimento}	&	\textbf{Imped√¢ncia (400 Hz) [$\Omega$]}	\\\hline
 		GEN - PDU	&	AWG 0		&	10 m		&	$0,0047+j0,0067$	\\\hline
 		PDU - EHA 1	&	AWG 10 		&	15 m		&	$0,0540+j0,0199$	\\\hline
-		PDU - EHA 2 &	AWG 10		&	17.5 m 		&	$0,0630+j0,0233$	\\\hline
+		PDU - EHA 2 	&	AWG 10		&	17.5 m 		&	$0,0630+j0,0233$	\\\hline
 		PDU - EHA 3	&	AWG 10		&	20 m 		&	$0,0720+j0,0266$	\\\hline
 	\end{tabular}
-	\caption{Imped‚ncias das linhas de distribuiÁ„o}
+	\caption{Imped√¢ncias das linhas de distribui√ß√£o}
 	\label{tab:Zdist}
 \end{table}
 
-\subsubsection{Atuador Eletrohidrost·tico}
+\subsubsection{Atuador Eletrohidrost√°tico}
 
-O atuador eletrohidrost·tico È um dispositivo empregado em sistemas de controle de voo na qual atua nas superfÌcies de comando para manter a aeronavegabilidade de uma aeronave. Os EHAs s„o compostos por dois principais subsistemas: o subsistema elÈtrico e o subsistema hidr·ulico. A porÁ„o elÈtrica È composto por conversores de tens„o elÈtrica de modo a energizar um motor que impulsiona a bomba do subsistema hidr·ulico. Com a pressurizaÁ„o das linhas hidr·ulicas o EHA fica apto a acionar o deslocamento linear do pist„o por meio da atuaÁ„o de sistemas de controle.
+O atuador eletrohidrost√°tico √© um dispositivo empregado em sistemas de controle de voo na qual atua nas superf√≠cies de comando para manter a aeronavegabilidade de uma aeronave. Os EHAs s√£o compostos por dois principais subsistemas: o subsistema el√©trico e o subsistema hidr√°ulico. A por√ß√£o el√©trica √© composto por conversores de tens√£o el√©trica de modo a energizar um motor que impulsiona a bomba do subsistema hidr√°ulico. Com a pressuriza√ß√£o das linhas hidr√°ulicas o EHA fica apto a acionar o deslocamento linear do pist√£o por meio da atua√ß√£o de sistemas de controle.
 
-O subsistema elÈtrico tem como principais componentes uma ponte trif·sica de diodos, um driver DC-DC, um inversor de frequÍncia e uma m·quina sÌncrona baseada em im„s permanentes \cite{Dinca2014}. A Figura \ref{fig:EHA_elec.png} mostra o diagrama simplificado do subsistema elÈtrico. Cabe lembrar que outros componentes secund·rios s„o empregados neste subsistema com o intuito de prover controle e proteÁ„o ao EHA, e que n„o s„o mostrados na Figura \ref{fig:EHA_elec.png}.
+O subsistema el√©trico tem como principais componentes uma ponte trif√°sica de diodos, um driver DC-DC, um inversor de frequ√™ncia e uma m√°quina s√≠ncrona baseada em im√£s permanentes \cite{Dinca2014}. A Figura \ref{fig:EHA_elec.png} mostra o diagrama simplificado do subsistema el√©trico. Cabe lembrar que outros componentes secund√°rios s√£o empregados neste subsistema com o intuito de prover controle e prote√ß√£o ao EHA, e que n√£o s√£o mostrados na Figura \ref{fig:EHA_elec.png}.
 
 \begin{figure}[!htb] %
 	\centering
 	\includegraphics[width=0.7\textwidth]{Cap4/Figuras/EHA_elec.png}
-	\caption{Subsistema elÈtrico de um EHA}
+	\caption{Subsistema el√©trico de um EHA}
 	\label{fig:EHA_elec.png}
 \end{figure}  
 
-Por apresentar uma ponte de retificadora de diodos na entrada, a operaÁ„o de um EHA acaba por injetar componentes harmÙnicos nas formas de onda de corrente, trazendo assim a depreciaÁ„o da qualidade de energia elÈtrica de uma aeronave. Como o foco deste trabalho diz respeito ‡ qualidade de energia, tanto a modelagem do subsistema hidr·ulico juntamente com a operaÁ„o do motor elÈtrico n„o ser„o modelados. Sendo assim, o foco recai nas formas de onda da corrente que atravessam o retificador de entrada, a qual È o principal componente respons·vel pela queda na qualidade de energia quando se opera o EHA. A Figura \ref{fig:EHA.png} mostra o modelo do EHA empregado no Simulink para realizaÁ„o da simulaÁ„o. Este modelo È composto por uma ponte retificadora trif·sica que interfaceia a convers„o AC-DC, como em um EHA, sendo que no lado DC exite uma fonte de corrente controlada. A realizaÁ„o desta fonte tem como objetivo simular o comportamento de consumo de energia proferido pelo restante dos componentes do lado DC do subsistema elÈtrico. A presenÁa de uma resistÍncia \textit{snubber} em paralelo ‡ fonte de corrente visa eliminar incompatibilidades do modelo, visto que isto È uma exigÍncia para compilaÁ„o do Simulink. Contudo, o valor de $R$ È escolhido com alto valor de resistÍncia de maneira que este interfere insignificantemente ao sistema.
+Por apresentar uma ponte de retificadora de diodos na entrada, a opera√ß√£o de um EHA acaba por injetar componentes harm√¥nicos nas formas de onda de corrente, trazendo assim a deprecia√ß√£o da qualidade de energia el√©trica de uma aeronave. Como o foco deste trabalho diz respeito √† qualidade de energia, tanto a modelagem do subsistema hidr√°ulico juntamente com a opera√ß√£o do motor el√©trico n√£o ser√£o modelados. Sendo assim, o foco recai nas formas de onda da corrente que atravessam o retificador de entrada, a qual √© o principal componente respons√°vel pela queda na qualidade de energia quando se opera o EHA. A Figura \ref{fig:EHA.png} mostra o modelo do EHA empregado no Simulink para realiza√ß√£o da simula√ß√£o. Este modelo √© composto por uma ponte retificadora trif√°sica que interfaceia a convers√£o AC-DC, como em um EHA, sendo que no lado DC exite uma fonte de corrente controlada. A realiza√ß√£o desta fonte tem como objetivo simular o comportamento de consumo de energia proferido pelo restante dos componentes do lado DC do subsistema el√©trico. A presen√ßa de uma resist√™ncia \textit{snubber} em paralelo √† fonte de corrente visa eliminar incompatibilidades do modelo, visto que isto √© uma exig√™ncia para compila√ß√£o do Simulink. Contudo, o valor de $R$ √© escolhido com alto valor de resist√™ncia de maneira que este interfere insignificantemente ao sistema.
 
 \begin{figure}[!htb] %
 	\centering
@@ -86,7 +86,7 @@ Por apresentar uma ponte de retificadora de diodos na entrada, a operaÁ„o de um 
 	\label{fig:EHA.png}
 \end{figure}
 
-O sinal de controle da fonte de corrente do lado DC È realizado de maneira a providenciar adequadamente o consumo de corrente visto pelo lado AC de um EHA. Tal sinal de controle foi gerado utilizando resultados experimentais de um EHA operando com carga em seu pist„o. A metodologia empregada para a obtenÁ„o do sinal de controle da fonte de corrente foi atravÈs do c·lculo da potÍncia aparente consumida de um EHA real, atravÈs de dados experimentais, e inferir essa mesma potÍncia no lado DC do EHA do modelo. Com isso garante-se que a potÍncia aparente apresentada no modelo seja a mesma de um EHA real operando com carga, alÈm de garantir a equivalÍncia das formas de onda da corrente no lado AC. Com essa metodologia empregada o sinal criado para o controle da fonte de corrente do lado DC do modelo È visto na Figura \ref{fig:corrente_controlada_EHA.eps}.
+O sinal de controle da fonte de corrente do lado DC √© realizado de maneira a providenciar adequadamente o consumo de corrente visto pelo lado AC de um EHA. Tal sinal de controle foi gerado utilizando resultados experimentais de um EHA operando com carga em seu pist√£o. A metodologia empregada para a obten√ß√£o do sinal de controle da fonte de corrente foi atrav√©s do c√°lculo da pot√™ncia aparente consumida de um EHA real, atrav√©s de dados experimentais, e inferir essa mesma pot√™ncia no lado DC do EHA do modelo. Com isso garante-se que a pot√™ncia aparente apresentada no modelo seja a mesma de um EHA real operando com carga, al√©m de garantir a equival√™ncia das formas de onda da corrente no lado AC. Com essa metodologia empregada o sinal criado para o controle da fonte de corrente do lado DC do modelo √© visto na Figura \ref{fig:corrente_controlada_EHA.eps}.
 
 \begin{figure}[!htb] %
 	\centering
@@ -99,39 +99,39 @@ O sinal de controle da fonte de corrente do lado DC È realizado de maneira a pro
 
 \subsection{Modelo do Filtro Ativo}
 
-O filtro ativo modelado em ambiente Simulink tem como objetivo simular a operaÁ„o do controle do compensador de maneira suficientemente adequada para avaliar a efic·cia da filtragem e seu emprego no setor aeron·utico. Com isso, as diversas caracterÌsticas que viabilizam o emprego desse tipo de filtro podem ser analisadas.
+O filtro ativo modelado em ambiente Simulink tem como objetivo simular a opera√ß√£o do controle do compensador de maneira suficientemente adequada para avaliar a efic√°cia da filtragem e seu emprego no setor aeron√°utico. Com isso, as diversas caracter√≠sticas que viabilizam o emprego desse tipo de filtro podem ser analisadas.
 
-O modelo È composto por diversos bloco criados para cada funÁ„o constituinte de um filtro. A teoria de potÍncia instant‚nea apresentadas no capÌtulo \ref{cap:Filtros Ativos para Sistemas ElÈtricos} ser· implementada em um desses blocos para realizar a simulaÁ„o dos c·lculo das correntes de referÍncias do compensador. J· a parte relacionada com o compensador ser· implementado em outro bloco e segundo as definiÁıes apresentadas na seÁ„o \ref{sec:CaracterÌsticas de Filtros Ativos em Sistemas Reais}. A operaÁ„o conjunta do compensador com o controle concebe o filtro ativo como todo.
+O modelo √© composto por diversos bloco criados para cada fun√ß√£o constituinte de um filtro. A teoria de pot√™ncia instant√¢nea apresentadas no cap√≠tulo \ref{cap:Filtros Ativos para Sistemas El√©tricos} ser√° implementada em um desses blocos para realizar a simula√ß√£o dos c√°lculo das correntes de refer√™ncias do compensador. J√° a parte relacionada com o compensador ser√° implementado em outro bloco e segundo as defini√ß√µes apresentadas na se√ß√£o \ref{sec:Caracter√≠sticas de Filtros Ativos em Sistemas Reais}. A opera√ß√£o conjunta do compensador com o controle concebe o filtro ativo como todo.
 
 \subsubsection{Controle}
 
-O bloco de controle visa simular os procedimentos de c·lculo, os comandos dos interruptores est·ticos do compensador e a malha de controle de tens„o do capacitor do lado DC do inversor. Estes sub-blocos s„o comumente encontrados em dispositivos program·veis de sistemas reais as quais compıem um DSP.
+O bloco de controle visa simular os procedimentos de c√°lculo, os comandos dos interruptores est√°ticos do compensador e a malha de controle de tens√£o do capacitor do lado DC do inversor. Estes sub-blocos s√£o comumente encontrados em dispositivos program√°veis de sistemas reais as quais comp√µem um DSP.
 
-O sub-bloco de c·lculo das correntes de referÍncia para o inversor È mostrado na figura \ref{fig:controladador.png}. Este sub-bloco tem como entrada as tensıes medidas nas linhas trif·sicas do sistema elÈtrico no ponto anterior a conex„o do filtro, e tambÈm, as correntes medidas na entrada da carga n„o linear, onde no caso dessa simulaÁ„o È dada pelo EHA. J· a saÌda È composta pelas correntes de referÍncia que alimentam o controle de comando dos interruptores do inversor est·tico.
+O sub-bloco de c√°lculo das correntes de refer√™ncia para o inversor √© mostrado na figura \ref{fig:controladador.png}. Este sub-bloco tem como entrada as tens√µes medidas nas linhas trif√°sicas do sistema el√©trico no ponto anterior a conex√£o do filtro, e tamb√©m, as correntes medidas na entrada da carga n√£o linear, onde no caso dessa simula√ß√£o √© dada pelo EHA. J√° a sa√≠da √© composta pelas correntes de refer√™ncia que alimentam o controle de comando dos interruptores do inversor est√°tico.
 
-O sub-bloco a qual determina as correntes de referÍncia È constituÌdo de duas partes, onde a porÁ„o superior (Figura \ref{fig:controladador.png}) compıe o detector de sequencia positiva, e a parte inferior constitui o c·lculo das correntes de referÍncia. A porÁ„o superior utiliza a teoria apresentada na seÁ„o \ref{subsubsec:Tipos de Controle} e estabelece os c·lculos algÈbricos para a obtenÁ„o do sinal das tensıes sem apresentar harmÙnicas ou componentes de sequÍncia negativa ou zero. Este sinal È direcionado para a porÁ„o inferior, onde È utilizado com as equaÁıes da teoria da potÍncia instant‚nea, discutidos no capÌtulo \ref{cap:Filtros Ativos para Sistemas ElÈtricos}, para a obtenÁ„o das correntes de referÍncia do filtro.
+O sub-bloco a qual determina as correntes de refer√™ncia √© constitu√≠do de duas partes, onde a por√ß√£o superior (Figura \ref{fig:controladador.png}) comp√µe o detector de sequencia positiva, e a parte inferior constitui o c√°lculo das correntes de refer√™ncia. A por√ß√£o superior utiliza a teoria apresentada na se√ß√£o \ref{subsubsec:Tipos de Controle} e estabelece os c√°lculos alg√©bricos para a obten√ß√£o do sinal das tens√µes sem apresentar harm√¥nicas ou componentes de sequ√™ncia negativa ou zero. Este sinal √© direcionado para a por√ß√£o inferior, onde √© utilizado com as equa√ß√µes da teoria da pot√™ncia instant√¢nea, discutidos no cap√≠tulo \ref{cap:Filtros Ativos para Sistemas El√©tricos}, para a obten√ß√£o das correntes de refer√™ncia do filtro.
 
 \begin{figure}[!htb] %
 	\centering
 	\includegraphics[width=0.99\textwidth]{Cap4/Figuras/controlador.png}
-	\caption{Sub-bloco para determinaÁ„o das corrente de referÍncia}
+	\caption{Sub-bloco para determina√ß√£o das corrente de refer√™ncia}
 	\label{fig:controladador.png}
 \end{figure}
 
-O sub-bloco de comando dos interruptores est·ticos do inversor, onde È empregado o controle por histerese, È mostrado na Figura \ref{fig:histerese_sim.png}. Nesse bloco a entrada È composta pelos sinais de referÍncia das correntes advindas do sub-bloco da Figura \ref{fig:controladador.png} (I\_ref), juntamente com a mediÁ„o da corrente na saÌda do inversor (I\_meas). A saÌda È composta pelo sinal de comando de cada interruptor a qual È empregado no inversor.
+O sub-bloco de comando dos interruptores est√°ticos do inversor, onde √© empregado o controle por histerese, √© mostrado na Figura \ref{fig:histerese_sim.png}. Nesse bloco a entrada √© composta pelos sinais de refer√™ncia das correntes advindas do sub-bloco da Figura \ref{fig:controladador.png} (I\_ref), juntamente com a medi√ß√£o da corrente na sa√≠da do inversor (I\_meas). A sa√≠da √© composta pelo sinal de comando de cada interruptor a qual √© empregado no inversor.
 
-A operaÁ„o deste bloco È realizada pela comparaÁ„o do sinal de referÍncia com a mediÁ„o da corrente na saÌda do inversor. O sinal advindo da comparaÁ„o passa por um relÈ programado com histerese, onde È definida a banda de histerese, e por fim a saÌda contendo um sinal bin·rio È gerado. Os sinais de cada fase do sistema È gerado individualmente com o controle de comutaÁ„o dos interruptores de cada braÁo do inversor. Como estes interruptores n„o podem ser comutados para o estado de conduÁ„o simultaneamente, seus comandos devem ser complementares. Este complemento È adquirido pela lÛgica NOT do sub-bloco.
+A opera√ß√£o deste bloco √© realizada pela compara√ß√£o do sinal de refer√™ncia com a medi√ß√£o da corrente na sa√≠da do inversor. O sinal advindo da compara√ß√£o passa por um rel√© programado com histerese, onde √© definida a banda de histerese, e por fim a sa√≠da contendo um sinal bin√°rio √© gerado. Os sinais de cada fase do sistema √© gerado individualmente com o controle de comuta√ß√£o dos interruptores de cada bra√ßo do inversor. Como estes interruptores n√£o podem ser comutados para o estado de condu√ß√£o simultaneamente, seus comandos devem ser complementares. Este complemento √© adquirido pela l√≥gica NOT do sub-bloco.
 
 \begin{figure}[!htb] %
 	\centering
 	\includegraphics[width=0.7\textwidth]{Cap4/Figuras/histerese_sim.png}
-	\caption{ObtenÁ„o do sinal de comando dos interruptores por controle de histerese}
+	\caption{Obten√ß√£o do sinal de comando dos interruptores por controle de histerese}
 	\label{fig:histerese_sim.png}
 \end{figure}
 
-O controle de tens„o do capacitor disposto no lado DC do inversor È mostrado na Figura \ref{fig:PI_sim.png}. Este sub-bloco tem em sua entrada a mediÁ„o de tens„o do capacitor, ao passo que em sua saÌda È disponibilizado o sinal de potÍncia das perdas acorridas na operaÁ„o do inversor. Tal sinal de saÌda È direcionado para o c·lculo das potÍncias instant‚neas do sub-bloco de determinaÁ„o de correntes de referÍncia (Figra \ref{fig:controladador.png}).
+O controle de tens√£o do capacitor disposto no lado DC do inversor √© mostrado na Figura \ref{fig:PI_sim.png}. Este sub-bloco tem em sua entrada a medi√ß√£o de tens√£o do capacitor, ao passo que em sua sa√≠da √© disponibilizado o sinal de pot√™ncia das perdas acorridas na opera√ß√£o do inversor. Tal sinal de sa√≠da √© direcionado para o c√°lculo das pot√™ncias instant√¢neas do sub-bloco de determina√ß√£o de correntes de refer√™ncia (Figra \ref{fig:controladador.png}).
 
-Este bloco constitui de um controlador proporcional-integral (PI), onde os valores de $P$ e $I$ s„o escolhidos de maneira a apresentar uma resposta do controlador adequada o funcionamento do sistema. A referÍncia È obtida como um sinal degrau com amplitude fixa a qual È gerado pela \textit{Signal Builder} do Simulink. 
+Este bloco constitui de um controlador proporcional-integral (PI), onde os valores de $P$ e $I$ s√£o escolhidos de maneira a apresentar uma resposta do controlador adequada o funcionamento do sistema. A refer√™ncia √© obtida como um sinal degrau com amplitude fixa a qual √© gerado pela \textit{Signal Builder} do Simulink. 
 
 \begin{figure}[!htb] %
 	\centering
@@ -142,11 +142,11 @@ Este bloco constitui de um controlador proporcional-integral (PI), onde os valor
 
 \subsubsection{Compensador}
 
-O compensador criado em ambiente Simulink tem como objetivo simular a operaÁ„o de um inversor composto por interruptores est·ticos, nas quais s„o controlados pelos sinais gerados no bloco de controle para atender a demanda de corrente necess·ria para realizaÁ„o da filtragem ativa. Este bloco tem como entrada os sinais de comando dos interruptores advindos do bloco de controle por histeres. Ainda, para a correta operaÁ„o do compensador algumas mediÁıes s„o realizadas para realimentar os sub-blocos subjacentes do modelo. Dessa maneira, a forma de onda da corrente na saÌda do compensador È medida para realimentar o sub-bloco de controle por histerese, e a tens„o no capacitor È medida para prover seu valor ao sub-bloco de malha de controle de tens„o no capacitor. Em sua saÌda o compensador È conectado no barramento de alimentaÁ„o localizado na entrada da carga n„o linear, a qual conectada na rede elÈtrica da aeronave.
+O compensador criado em ambiente Simulink tem como objetivo simular a opera√ß√£o de um inversor composto por interruptores est√°ticos, nas quais s√£o controlados pelos sinais gerados no bloco de controle para atender a demanda de corrente necess√°ria para realiza√ß√£o da filtragem ativa. Este bloco tem como entrada os sinais de comando dos interruptores advindos do bloco de controle por histeres. Ainda, para a correta opera√ß√£o do compensador algumas medi√ß√µes s√£o realizadas para realimentar os sub-blocos subjacentes do modelo. Dessa maneira, a forma de onda da corrente na sa√≠da do compensador √© medida para realimentar o sub-bloco de controle por histerese, e a tens√£o no capacitor √© medida para prover seu valor ao sub-bloco de malha de controle de tens√£o no capacitor. Em sua sa√≠da o compensador √© conectado no barramento de alimenta√ß√£o localizado na entrada da carga n√£o linear, a qual conectada na rede el√©trica da aeronave.
 
-A Figura \ref{fig:Inversor.png} apresenta o bloco do compensador utilizado na simulaÁ„o. Nesse bloco È empregado uma ponde de interruptores est·ticos ideais ordenados como ilustrado na Figura \ref{fig:VSC.png}. A escolha dos interruptores serem estabelecidos como ideais recai na limitaÁ„o do Simulink com relaÁ„o ‡s n„o idealidade apresentadas em elementos semicondutores de comutaÁ„o. Nessa Figura ainda pode ser observado a presenÁa dos indutores de acoplamento e dos filtros capacitivos anteriores a saÌda do compensador. Os valores das indut‚ncias de acoplamento foram escolhida subjetivamente em funÁ„o da resposta estabelecida do filtro. Os valores da capacit‚ncia foi feito da mesma maneira, porÈm tendo em mente que altos valores de capacit‚ncia elevam a potÍncia aparente devido ao deslocamento entre as formas de onda de tens„o e corrente. Outro elementos que foram adicionados para manter a estabilidade numÈrica na realizaÁ„o da simulaÁ„o s„o as resistÍncias em sÈrie e em paralelo ‡s capacit‚ncias. Os valores dessas resistÍncia s„o escolhidas de maneira que n„o influem significativamente ‡ operaÁ„o do circuito, ou seja, a resistÍncia em sÈrie e em paralelo possuem valores baixos e elevados, respectivamente.
+A Figura \ref{fig:Inversor.png} apresenta o bloco do compensador utilizado na simula√ß√£o. Nesse bloco √© empregado uma ponde de interruptores est√°ticos ideais ordenados como ilustrado na Figura \ref{fig:VSC.png}. A escolha dos interruptores serem estabelecidos como ideais recai na limita√ß√£o do Simulink com rela√ß√£o √†s n√£o idealidade apresentadas em elementos semicondutores de comuta√ß√£o. Nessa Figura ainda pode ser observado a presen√ßa dos indutores de acoplamento e dos filtros capacitivos anteriores a sa√≠da do compensador. Os valores das indut√¢ncias de acoplamento foram escolhida subjetivamente em fun√ß√£o da resposta estabelecida do filtro. Os valores da capacit√¢ncia foi feito da mesma maneira, por√©m tendo em mente que altos valores de capacit√¢ncia elevam a pot√™ncia aparente devido ao deslocamento entre as formas de onda de tens√£o e corrente. Outro elementos que foram adicionados para manter a estabilidade num√©rica na realiza√ß√£o da simula√ß√£o s√£o as resist√™ncias em s√©rie e em paralelo √†s capacit√¢ncias. Os valores dessas resist√™ncia s√£o escolhidas de maneira que n√£o influem significativamente √† opera√ß√£o do circuito, ou seja, a resist√™ncia em s√©rie e em paralelo possuem valores baixos e elevados, respectivamente.
 
-Na Figura \ref{fig:Inversor.png} È apresentado o sub-bloco de controle por histerese para facilitar o entendimento do funcionamento do inversor.
+Na Figura \ref{fig:Inversor.png} √© apresentado o sub-bloco de controle por histerese para facilitar o entendimento do funcionamento do inversor.
  
 \begin{figure}[!htb] %
 	\centering
@@ -157,7 +157,7 @@ Na Figura \ref{fig:Inversor.png} È apresentado o sub-bloco de controle por histe
 
 \subsection{Resultados}
 
-O perfil de carga de um EHA operando isoladamente È ilustrado na figura a seguir:
+A simula√ßao comtempla a opera√ß√£o de tr√™s EHAs operando simultaneamente. O perfil de carga dos t√™s EHA atuando concomitantemente √© ilustrado na Figura \ref{fig:perfil.eps}. Essa corrente √© solicitada com o deslocamento linear do atuador de uma extremidade a outra com a aplica√ß√£o de carga mec√¢nica em seu eixo.
 
 \begin{figure}[!htb] %
 	\centering
@@ -166,135 +166,137 @@ O perfil de carga de um EHA operando isoladamente È ilustrado na figura a seguir
 	\label{fig:perfil.eps}
 \end{figure}
 
-Nesta figura pode observar que durante seu acionamento existe uma grande variaÁ„o de corrente. Com isso, para analisar de melhor maneira o comportamento do sistema com e sem a presenÁa do filtro ativo, a analise foi dividida em 4 principais perÌodos, sendo estes:
+Nesta figura pode-se observar que durante o acionamento do EHA existe uma grande varia√ß√£o de corrente sendo solicitada pelo atuador. Com isso, para analisar de melhor maneira o comportamento do sistema com e sem a presen√ßa do filtro ativo, a analise foi dividida em 4 principais per√≠odos, sendo estes:
 
 \begin{itemize}
-	\item EHA inoperante: n„o h· solicitaÁ„o de uso de corrente pelo motor do EHA, sendo que a corrente apresentada È referente ‡ fuga nos semicondutores da ponte retificadora do EHA;
-	\item Corrente m·xima: PerÌodo onde existe a m·xima extraÁ„o de corrente do sistema. Provavelmente devido ‡ partida do motor;
-	\item Regime transitÛrio: perÌodo com oscilaÁ„o de corrente. Na figura n„o aparece muito devido ‡ escala aplicada, porÈm dando um "zoom" nesta regi„o È perceptÌvel uma oscilaÁ„o;
-	\item Regime permanente: PerÌodo sem oscilaÁ„o, mas com certa corrente sendo extraÌda do sistema.
+	\item EHA inoperante: n√£o h√° solicita√ß√£o de uso de corrente pelo motor do EHA, sendo que a corrente apresentada √© referente √† fuga nos semicondutores da ponte retificadora do EHA;
+	\item Corrente m√°xima: Per√≠odo onde existe a m√°xima extra√ß√£o de corrente do sistema, onde existe √† partida do motor el√©trico do atuador;
+	\item Regime transit√≥rio: per√≠odo com oscila√ß√£o de corrente ap√≥s o per√≠odo de m√°xima corrente.
+	\item Regime permanente: Per√≠odo sem oscila√ß√£o, mas com certa corrente sendo extra√≠da do sistema de gera√ß√£o.
 \end{itemize}
 
-Os resultados da simulaÁ„o apresentados nas prÛximas seÁıes s„o referentes as formas de ondas das tensıes e correntes medidos na PDU, onde È avaliado a corrente que alimenta os EHAs, alÈm da tens„o de alimentaÁ„o do barramento. AlÈm disso, È realizado o c·lculo das potÍncias em funÁ„o do tempo nesse ponto. Ainda, para avaliar a condiÁ„o da qualidade de energia na PDU È realizado o c·lculo do espectro de frequÍncia da tens„o, cujo intuito È de comparar o resultado com as normas aeron·uticas. A norma em quest„o seguida como referÍncia È a MIL-STD 704F \cite{MILSTD}, a qual propıe um limite para as distorÁıes em funÁ„o da frequÍncia, alÈm de restringir o TDH. Cabe a observaÁ„o que os espectros de frequÍncia presentes nesse trabalho ilustram o pico de tens„o da fundamental. Esse pico È estabelecido em 400 Hz e deve ser desconsiderado na an·lise de qualidade de energia.
+O objetivo de dividir o per√≠odo em quatro √© realizado para estudar as caracter√≠sticas de opera√ß√£o de um filtro em per√≠odos em que a varia√ß√£o da corrente solicitada pelos tr√™s EHAs varia abruptamente, sendo poss√≠vel verificar o atendimento √†s propriedades na execu√ß√£o do filtro ativo tal como apresentadas no cap√≠tulo \ref{cap1}. Al√©m disso, a vizualia√ß√£o da an√°lise √© facilitada pela divis√£o, dada a grande discrep√£ncia entre os valores da corrente observdod no per√≠odo de corrente m√°xima com outros per√≠odos.    
 
-A apresentaÁ„o das figuras seguintes est„o disposta com os resultados lado a lado com e sem a atuaÁ„o do filtro ativo para efeito de comparaÁ„o. As figuras localizados no lado esquerdo s„o referentes ao sistema sem o filtro ativo, ao passo que as do lado direito s„o com a presenÁa do filtro ativo.
+Os resultados da simula√ß√£o apresentados nas pr√≥ximas se√ß√µes s√£o referentes as formas de ondas das tens√µes e correntes medidos na PDU, onde √© avaliado a corrente que alimenta os EHAs, al√©m da tens√£o de alimenta√ß√£o do barramento. Al√©m disso, √© realizado o c√°lculo das pot√™ncias em fun√ß√£o do tempo nesse ponto. Ainda, para avaliar a condi√ß√£o da qualidade de energia na PDU √© realizado o c√°lculo do espectro de frequ√™ncia da tens√£o, cujo intuito √© de comparar o resultado com as normas aeron√°uticas. A norma em quest√£o seguida como refer√™ncia √© a MIL-STD 704F \cite{MILSTD}, a qual prop√µe um limite para as distor√ß√µes em fun√ß√£o da frequ√™ncia, al√©m de restringir o TDH. Cabe a observa√ß√£o que os espectros de frequ√™ncia presentes nesse trabalho ilustram o pico de tens√£o da fundamental. Esse pico √© estabelecido em 400 Hz e deve ser desconsiderado na an√°lise de qualidade de energia.
+
+A apresenta√ß√£o das figuras seguintes est√£o disposta com os resultados lado a lado com e sem a atua√ß√£o do filtro ativo para efeito de compara√ß√£o. As figuras localizados no lado esquerdo s√£o referentes ao sistema sem o filtro ativo, ao passo que as do lado direito s√£o com a presen√ßa do filtro ativo.
 
 \subsubsection{EHA Inoperante}
 
-Durante o perÌodo entre 72,85 e 73 segundos o EHA n„o È solicitado a atuar, isto È, a corrente presente no lado DC do conversor de entrada do EHA È presente apenas pela presenÁa do resistor em paralelo com a fonte de corrente controlada. 
+Durante o per√≠odo entre 72,85 e 73 segundos o EHA n√£o √© solicitado a atuar, isto √©, a corrente presente no lado DC do conversor de entrada do EHA √© presente apenas pela presen√ßa do resistor em paralelo com a fonte de corrente controlada. 
 
-A Figura \ref{fig:2} apresenta as tensıes e correntes medidas na PDU em um pequeno intervalo desse perÌodo. Aqui pode ser observado que na ausÍncia do filtro ativo (Figura \ref{fig:resultados_unfilt_2.eps}) a corrente presente È irrelevante, dado que esta È devido apenas pela presenÁa do resistor em paralelo com a fonte controlada. Todavia, para o caso onde h· aplicaÁ„o do filtro ativo (Figura \ref{fig:resultados_filt_2.eps}) um ruido intenso È medido na corrente da PDU. Isto se deve ‡ comutaÁ„o dos semicondutores do inversor do filtro ativo. Nesse caso, por n„o haver uma solicitaÁ„o de fornecimento de corrente, o filtro apresenta esse comportamento e o ruido de corrente apresenta-se relevante frente a ausÍncia do filtro. Ainda, pela analise da Figura \ref{fig:4}, onde È ilustrado as potÍncias instant‚neas medidas com as tensıes e corrente na PDU, a presenÁa do filtro ativo (Figura \ref{fig:resultados_unfilt_4.eps}) deixa as potÍncias igualmente ruidosas.
+A Figura \ref{fig:2} apresenta as tens√µes e correntes medidas na PDU em um pequeno intervalo desse per√≠odo. Aqui pode ser observado que na aus√™ncia do filtro ativo (Figura \ref{fig:resultados_unfilt_2.eps}) a corrente presente √© irrelevante, dado que esta √© devido apenas pela presen√ßa do resistor em paralelo com a fonte controlada. Todavia, para o caso onde h√° aplica√ß√£o do filtro ativo (Figura \ref{fig:resultados_filt_2.eps}) um ruido intenso √© medido na corrente da PDU. Isto se deve √† comuta√ß√£o dos semicondutores do inversor do filtro ativo. Nesse caso, por n√£o haver uma solicita√ß√£o de fornecimento de corrente, o filtro apresenta esse comportamento e o ruido de corrente apresenta-se relevante frente a aus√™ncia do filtro. Ainda, pela analise da Figura \ref{fig:4}, onde √© ilustrado as pot√™ncias instant√¢neas medidas com as tens√µes e corrente na PDU, a presen√ßa do filtro ativo (Figura \ref{fig:resultados_unfilt_4.eps}) deixa as pot√™ncias igualmente ruidosas.
 
-Os espectros de frequÍncia podem ser analisados nas figuras \ref{fig:5} e \ref{fig:6}. Aqui pode ser observado que a presenÁa do filtro ativo deteriora a qualidade de energia, porÈm os nÌveis de tens„o do espectro e o THD est· sempre presente dentro dos limites da MIL-STD 704F. 
+Os espectros de frequ√™ncia podem ser analisados nas figuras \ref{fig:5} e \ref{fig:6}. Aqui pode ser observado que a presen√ßa do filtro ativo deteriora a qualidade de energia, por√©m os n√≠veis de tens√£o do espectro e o THD est√° sempre presente dentro dos limites da MIL-STD 704F. 
 
-%\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+%\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 %	\centering
 %	\begin{subfigure}[b]{0.48\textwidth}
 %		\centering
 %		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_1.eps}
-%		\caption{Topologia tÌpica de um VSC} 
+%		\caption{Topologia t√≠pica de um VSC} 
 %		\label{fig:VSC.png}
 %	\end{subfigure}%
 %		\hfill
 %	\begin{subfigure}[b]{0.48\textwidth}  
 %		\centering 
 %		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_1.eps}
-%		\caption{Topologia tÌpica de um CSC}    
+%		\caption{Topologia t√≠pica de um CSC}    
 %		\label{fig:CSC.png}
 %	\end{subfigure}%
 %	\caption{1}
 %	\label{fig:1}
 %\end{figure*}
 
-\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_2.eps}
-		\caption{Topologia tÌpica de um VSC} 
+		\caption{Topologia t√≠pica de um VSC} 
 		\label{fig:resultados_unfilt_2.eps}
 	\end{subfigure}%
 		\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_2.eps}
-		\caption{Topologia tÌpica de um CSC}    
+		\caption{Topologia t√≠pica de um CSC}    
 		\label{fig:resultados_filt_2.eps}
 	\end{subfigure}%
 	\caption{2}
 	\label{fig:2}
 \end{figure*}
 
-%\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+%\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 %	\centering
 %	\begin{subfigure}[b]{0.48\textwidth}
 %		\centering
 %		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_3.eps}
-%		\caption{Topologia tÌpica de um VSC} 
+%		\caption{Topologia t√≠pica de um VSC} 
 %		\label{fig:VSC.png}
 %	\end{subfigure}%
 %		\hfill
 %	\begin{subfigure}[b]{0.48\textwidth}  
 %		\centering 
 %		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_3.eps}
-%		\caption{Topologia tÌpica de um CSC}    
+%		\caption{Topologia t√≠pica de um CSC}    
 %		\label{fig:CSC.png}
 %	\end{subfigure}%
 %	\caption{3}
 %	\label{fig:3}
 %\end{figure*}
 
-\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_4.eps}
-		\caption{Topologia tÌpica de um VSC} 
+		\caption{Topologia t√≠pica de um VSC} 
 		\label{fig:resultados_unfilt_4.eps}
 	\end{subfigure}%
 		\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_4.eps}
-		\caption{Topologia tÌpica de um CSC}    
+		\caption{Topologia t√≠pica de um CSC}    
 		\label{fig:resultados_filt_4.eps}
 	\end{subfigure}%
 	\caption{4}
 	\label{fig:4}
 \end{figure*}
 
-\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_5.eps}
-		\caption{Topologia tÌpica de um VSC} 
+		\caption{Topologia t√≠pica de um VSC} 
 		\label{fig:resultados_unfilt_5.eps}
 	\end{subfigure}%
 		\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_5.eps}
-		\caption{Topologia tÌpica de um CSC}    
+		\caption{Topologia t√≠pica de um CSC}    
 		\label{fig:resultados_filt_5.eps}
 	\end{subfigure}%
 	\caption{5}
 	\label{fig:5}
 \end{figure*}
 
-\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_6.eps}
-		\caption{Topologia tÌpica de um VSC} 
+		\caption{Topologia t√≠pica de um VSC} 
 		\label{fig:resultados_unfilt_6.eps}
 	\end{subfigure}%
 		\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_6.eps}
-		\caption{Topologia tÌpica de um CSC}    
+		\caption{Topologia t√≠pica de um CSC}    
 		\label{fig:resultados_filt_6.eps}
 	\end{subfigure}%
 	\caption{6}
@@ -303,124 +305,124 @@ Os espectros de frequÍncia podem ser analisados nas figuras \ref{fig:5} e \ref{f
 
 \FloatBarrier
 
-\subsubsection{Corrente M·xima}
+\subsubsection{Corrente M√°xima}
 
-No momento delimitado entre 73 a 73,3 È observado a corrente m·xima percorrendo o sistema elÈtrico. A corrente nesse perÌodo È elevada devido a partida do motor elÈtrico, a qual exige uma corrente intensa para vencer a inercia do eixo rotativo.
+No momento delimitado entre 73 a 73,3 √© observado a corrente m√°xima percorrendo o sistema el√©trico. A corrente nesse per√≠odo √© elevada devido a partida do motor el√©trico, a qual exige uma corrente intensa para vencer a inercia do eixo rotativo.
 
-A Figura \ref{fig:7} mostra as formas de onda da tens„o e corrente nesse perÌodo. Por ser elevada a corrente nesse perÌodo a qualidade de energia È acentuadamente afetada. Isso pode ser na Figura \ref{fig:8}, onde È apresentado um pequeno intervalo a qual existe o pico de corrente m·ximo entre 73,12 e 73,13 segundos. Pela analise da Figura \ref{fig:resultados_unfilt_8.eps}, pode-se observar a forma de onda das tensıes como sendo bastante distorcidas. Contudo, com a aplicaÁ„o do filtro ativo pode-se observar, atravÈs da Figura \ref{fig:resultados_filt_7.eps}, que as formas de onda da corrente e da tens„o s„o senoidais e em fase.
+A Figura \ref{fig:7} mostra as formas de onda da tens√£o e corrente nesse per√≠odo. Por ser elevada a corrente nesse per√≠odo a qualidade de energia √© acentuadamente afetada. Isso pode ser na Figura \ref{fig:8}, onde √© apresentado um pequeno intervalo a qual existe o pico de corrente m√°ximo entre 73,12 e 73,13 segundos. Pela analise da Figura \ref{fig:resultados_unfilt_8.eps}, pode-se observar a forma de onda das tens√µes como sendo bastante distorcidas. Contudo, com a aplica√ß√£o do filtro ativo pode-se observar, atrav√©s da Figura \ref{fig:resultados_filt_7.eps}, que as formas de onda da corrente e da tens√£o s√£o senoidais e em fase.
 
-A Figura \ref{fig:10} apresenta as potÍncias instant‚neas desse perÌodo. Pode-se observar que para o caso sem o filtro ativo tanto a potÍncia ativa quanto reativa apresentam elevados valores de $\tilde{p}$ e $\tilde{q}$ respectivamente, e que s„o condiÁıes de baixa qualidade e fator de potÍncia. Para o caso onde o filtro ativo È presente as formas de onda das potÍncias, apesar de apresentarem certa oscilaÁ„o devido aos efeitos de comutaÁ„o dos semicondutores, est„o em acordo com o comportamento esperado.
+A Figura \ref{fig:10} apresenta as pot√™ncias instant√¢neas desse per√≠odo. Pode-se observar que para o caso sem o filtro ativo tanto a pot√™ncia ativa quanto reativa apresentam elevados valores de $\tilde{p}$ e $\tilde{q}$ respectivamente, e que s√£o condi√ß√µes de baixa qualidade e fator de pot√™ncia. Para o caso onde o filtro ativo √© presente as formas de onda das pot√™ncias, apesar de apresentarem certa oscila√ß√£o devido aos efeitos de comuta√ß√£o dos semicondutores, est√£o em acordo com o comportamento esperado.
 
-J· a an·lise dos espectros de frequÍncia das tensıes mostram que a qualidade de energia È conseguida com a aplicaÁ„o do filtro ativo. Isto È verificado tanto a Figura \ref{fig:resultados_unfilt_11.eps} quanto na Figura \ref{fig:resultados_unfilt_12.eps}, onde a MIL-STD 704F n„o est· sendo cumprida, dado que o espectro de frequÍncia da tens„o est· fora dos limites da norma e o THD È superior ‡ 5\%. Entretanto as figuras \ref{fig:resultados_filt_11.eps} e \ref{fig:resultados_filt_12.eps} apresentam a tens„o na PDU dentro das especificaÁıes da norma.
+J√° a an√°lise dos espectros de frequ√™ncia das tens√µes mostram que a qualidade de energia √© conseguida com a aplica√ß√£o do filtro ativo. Isto √© verificado tanto a Figura \ref{fig:resultados_unfilt_11.eps} quanto na Figura \ref{fig:resultados_unfilt_12.eps}, onde a MIL-STD 704F n√£o est√° sendo cumprida, dado que o espectro de frequ√™ncia da tens√£o est√° fora dos limites da norma e o THD √© superior √† 5\%. Entretanto as figuras \ref{fig:resultados_filt_11.eps} e \ref{fig:resultados_filt_12.eps} apresentam a tens√£o na PDU dentro das especifica√ß√µes da norma.
 
-\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_7.eps}
-		\caption{Topologia tÌpica de um VSC} 
+		\caption{Topologia t√≠pica de um VSC} 
 		\label{fig:resultados_unfilt_7.eps}
 	\end{subfigure}%
 		\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_7.eps}
-		\caption{Topologia tÌpica de um CSC}    
+		\caption{Topologia t√≠pica de um CSC}    
 		\label{fig:resultados_filt_7.eps}
 	\end{subfigure}%
 	\caption{7}
 	\label{fig:7}
 \end{figure*}
 
-\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_8.eps}
-		\caption{Topologia tÌpica de um VSC} 
+		\caption{Topologia t√≠pica de um VSC} 
 		\label{fig:resultados_unfilt_8.eps}
 	\end{subfigure}%
 		\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_8.eps}
-		\caption{Topologia tÌpica de um CSC}    
+		\caption{Topologia t√≠pica de um CSC}    
 		\label{fig:resultados_filt_8.eps}
 	\end{subfigure}%
 	\caption{8}
 	\label{fig:8}
 \end{figure*}
 
-\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_9.eps}
-		\caption{Topologia tÌpica de um VSC} 
+		\caption{Topologia t√≠pica de um VSC} 
 		\label{fig:resultados_unfilt_9.eps}
 	\end{subfigure}%
 		\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_9.eps}
-		\caption{Topologia tÌpica de um CSC}    
+		\caption{Topologia t√≠pica de um CSC}    
 		\label{fig:resultados_filt_9.eps}
 	\end{subfigure}%
 	\caption{9}
 	\label{fig:9}
 \end{figure*}
 
-\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_10.eps}
-		\caption{Topologia tÌpica de um VSC} 
+		\caption{Topologia t√≠pica de um VSC} 
 		\label{fig:resultados_unfilt_10.eps}
 	\end{subfigure}%
 		\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_10.eps}
-		\caption{Topologia tÌpica de um CSC}    
+		\caption{Topologia t√≠pica de um CSC}    
 		\label{fig:resultados_filt_10.eps}
 	\end{subfigure}%
 	\caption{10}
 	\label{fig:10}
 \end{figure*}
 
-\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_11.eps}
-		\caption{Topologia tÌpica de um VSC} 
+		\caption{Topologia t√≠pica de um VSC} 
 		\label{fig:resultados_unfilt_11.eps}
 	\end{subfigure}%
 		\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_11.eps}
-		\caption{Topologia tÌpica de um CSC}    
+		\caption{Topologia t√≠pica de um CSC}    
 		\label{fig:resultados_filt_11.eps}
 	\end{subfigure}%
 	\caption{11}
 	\label{fig:11}
 \end{figure*}
 
-\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_12.eps}
-		\caption{Topologia tÌpica de um VSC} 
+		\caption{Topologia t√≠pica de um VSC} 
 		\label{fig:resultados_unfilt_12.eps}
 	\end{subfigure}%
 		\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_12.eps}
-		\caption{Topologia tÌpica de um CSC}    
+		\caption{Topologia t√≠pica de um CSC}    
 		\label{fig:resultados_filt_12.eps}
 	\end{subfigure}%
 	\caption{12}
@@ -429,124 +431,124 @@ J· a an·lise dos espectros de frequÍncia das tensıes mostram que a qualidade de 
 
 \FloatBarrier
 
-\subsubsection{Regime TransitÛrio}
+\subsubsection{Regime Transit√≥rio}
 
-O regime transitÛrio È mostrado na Figura \ref{fig:13} e È caracterizado pela variaÁ„o da corrente no tempo sem que haja grande oscilaÁ„o, como apresentado no perÌodo anterior. Esse intervalo de tempo È delimitado entre 73,3 e 73,7 segundos.
+O regime transit√≥rio √© mostrado na Figura \ref{fig:13} e √© caracterizado pela varia√ß√£o da corrente no tempo sem que haja grande oscila√ß√£o, como apresentado no per√≠odo anterior. Esse intervalo de tempo √© delimitado entre 73,3 e 73,7 segundos.
 
-A Figura \ref{fig:14} apresenta um pequeno intervalo a qual È definido o perÌodo em que a corrente È mais elevada. Na Figura \ref{fig:resultados_unfilt_14.eps} pode ser observado que a corrente È distorcida, porÈm n„o influi significativamente na qualidade de energia, visto que a tens„o apresenta-se pouco distorcida. A Figura \ref{fig:resultados_filt_14.eps} apresenta a corrente em fase e prÛximo de uma senoide perfeita, mostrando que o filtro opera de maneira condizente com esperado. 
+A Figura \ref{fig:14} apresenta um pequeno intervalo a qual √© definido o per√≠odo em que a corrente √© mais elevada. Na Figura \ref{fig:resultados_unfilt_14.eps} pode ser observado que a corrente √© distorcida, por√©m n√£o influi significativamente na qualidade de energia, visto que a tens√£o apresenta-se pouco distorcida. A Figura \ref{fig:resultados_filt_14.eps} apresenta a corrente em fase e pr√≥ximo de uma senoide perfeita, mostrando que o filtro opera de maneira condizente com esperado. 
 
-Outro fator que demonstra o desempenho do filtro È a an·lise das potÍncias instant‚neas. As figuras \ref{fig:15} e \ref{fig:16} evidencia uma certa anulaÁ„o das potÍncia reativa e da potÍncia oscilante ativa. PorÈm deve ser observado que os efeitos da comutaÁ„o dos semicondutores inserem ruÌdos na corrente e, consequentemente, nas potÍncias instant‚neas. Outro fator a ser esclarecido nessas figura È o fato de que o capacitor entrega uma certa potÍncia no inÌcio do perÌodo estudado, de forma que a potÍncia extraÌda da fonte no caso sem filtro È mais elevada que no caso com o filtro.
+Outro fator que demonstra o desempenho do filtro √© a an√°lise das pot√™ncias instant√¢neas. As figuras \ref{fig:15} e \ref{fig:16} evidencia uma certa anula√ß√£o das pot√™ncia reativa e da pot√™ncia oscilante ativa. Por√©m deve ser observado que os efeitos da comuta√ß√£o dos semicondutores inserem ru√≠dos na corrente e, consequentemente, nas pot√™ncias instant√¢neas. Outro fator a ser esclarecido nessas figura √© o fato de que o capacitor entrega uma certa pot√™ncia no in√≠cio do per√≠odo estudado, de forma que a pot√™ncia extra√≠da da fonte no caso sem filtro √© mais elevada que no caso com o filtro.
 
-A an·lise do espectro de frequÍncia das tensıes mostram que a qualidade de energia È melhorada com a aplicaÁ„o do filtro, entretanto, com nÌveis de corrente apresentados nesse perÌodo, a operaÁ„o sem filtro n„o apresenta distorÁ„o suficiente que desacata a norma aeron·utica de referÍncia.
+A an√°lise do espectro de frequ√™ncia das tens√µes mostram que a qualidade de energia √© melhorada com a aplica√ß√£o do filtro, entretanto, com n√≠veis de corrente apresentados nesse per√≠odo, a opera√ß√£o sem filtro n√£o apresenta distor√ß√£o suficiente que desacata a norma aeron√°utica de refer√™ncia.
 
-\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_13.eps}
-		\caption{Topologia tÌpica de um VSC} 
+		\caption{Topologia t√≠pica de um VSC} 
 		\label{fig:resultados_unfilt_13.eps}
 	\end{subfigure}%
 		\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_13.eps}
-		\caption{Topologia tÌpica de um CSC}    
+		\caption{Topologia t√≠pica de um CSC}    
 		\label{fig:resultados_filt_13.eps}
 	\end{subfigure}%
 	\caption{13}
 	\label{fig:13}
 \end{figure*}
 
-\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_14.eps}
-		\caption{Topologia tÌpica de um VSC} 
+		\caption{Topologia t√≠pica de um VSC} 
 		\label{fig:resultados_unfilt_14.eps}
 	\end{subfigure}%
 		\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_14.eps}
-		\caption{Topologia tÌpica de um CSC}    
+		\caption{Topologia t√≠pica de um CSC}    
 		\label{fig:resultados_filt_14.eps}
 	\end{subfigure}%
 	\caption{14}
 	\label{fig:14}
 \end{figure*}
 
-\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_15.eps}
-		\caption{Topologia tÌpica de um VSC} 
+		\caption{Topologia t√≠pica de um VSC} 
 		\label{fig:resultados_unfilt_15.eps}
 	\end{subfigure}%
 		\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_15.eps}
-		\caption{Topologia tÌpica de um CSC}    
+		\caption{Topologia t√≠pica de um CSC}    
 		\label{fig:resultados_filt_15.eps}
 	\end{subfigure}%
 	\caption{15}
 	\label{fig:15}
 \end{figure*}
 
-\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_16.eps}
-		\caption{Topologia tÌpica de um VSC} 
+		\caption{Topologia t√≠pica de um VSC} 
 		\label{fig:resultados_unfilt_16.eps}
 	\end{subfigure}%
 		\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_16.eps}
-		\caption{Topologia tÌpica de um CSC}    
+		\caption{Topologia t√≠pica de um CSC}    
 		\label{fig:resultados_filt_16.eps}
 	\end{subfigure}%
 	\caption{16}
 	\label{fig:16}
 \end{figure*}
 
-\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_17.eps}
-		\caption{Topologia tÌpica de um VSC} 
+		\caption{Topologia t√≠pica de um VSC} 
 		\label{fig:resultados_unfilt_17.eps}
 	\end{subfigure}%
 		\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_17.eps}
-		\caption{Topologia tÌpica de um CSC}    
+		\caption{Topologia t√≠pica de um CSC}    
 		\label{fig:resultados_filt_17.eps}
 	\end{subfigure}%
 	\caption{17}
 	\label{fig:17}
 \end{figure*}
 
-\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_18.eps}
-		\caption{Topologia tÌpica de um VSC} 
+		\caption{Topologia t√≠pica de um VSC} 
 		\label{fig:resultados_unfilt_18.eps}
 	\end{subfigure}%
 		\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_18.eps}
-		\caption{Topologia tÌpica de um CSC}    
+		\caption{Topologia t√≠pica de um CSC}    
 		\label{fig:resultados_filt_18.eps}
 	\end{subfigure}%
 	\caption{18}
@@ -557,114 +559,114 @@ A an·lise do espectro de frequÍncia das tensıes mostram que a qualidade de energ
 
 \subsubsection{Regime Permanente}
 
-\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_19.eps}
-		\caption{Topologia tÌpica de um VSC} 
+		\caption{Topologia t√≠pica de um VSC} 
 		\label{fig:resultados_unfilt_19.eps}
 	\end{subfigure}%
 		\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_19.eps}
-		\caption{Topologia tÌpica de um CSC}    
+		\caption{Topologia t√≠pica de um CSC}    
 		\label{fig:resultados_filt_19.eps}
 	\end{subfigure}%
 	\caption{19}
 	\label{fig:19}
 \end{figure*}
 
-\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_20.eps}
-		\caption{Topologia tÌpica de um VSC} 
+		\caption{Topologia t√≠pica de um VSC} 
 		\label{fig:resultados_unfilt_20.eps}
 	\end{subfigure}%
 		\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_20.eps}
-		\caption{Topologia tÌpica de um CSC}    
+		\caption{Topologia t√≠pica de um CSC}    
 		\label{fig:resultados_filt_20.eps}
 	\end{subfigure}%
 	\caption{20}
 	\label{fig:20}
 \end{figure*}
 
-\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_21.eps}
-		\caption{Topologia tÌpica de um VSC} 
+		\caption{Topologia t√≠pica de um VSC} 
 		\label{fig:resultados_unfilt_21.eps}
 	\end{subfigure}%
 		\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_21.eps}
-		\caption{Topologia tÌpica de um CSC}    
+		\caption{Topologia t√≠pica de um CSC}    
 		\label{fig:resultados_filt_21.eps}
 	\end{subfigure}%
 	\caption{21}
 	\label{fig:21}
 \end{figure*}
 
-\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_22.eps}
-		\caption{Topologia tÌpica de um VSC} 
+		\caption{Topologia t√≠pica de um VSC} 
 		\label{fig:resultados_unfilt_22.eps}
 	\end{subfigure}%
 		\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_22.eps}
-		\caption{Topologia tÌpica de um CSC}    
+		\caption{Topologia t√≠pica de um CSC}    
 		\label{fig:resultados_filt_22.eps}
 	\end{subfigure}%
 	\caption{22}
 	\label{fig:22}
 \end{figure*}
 
-\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_23.eps}
-		\caption{Topologia tÌpica de um VSC} 
+		\caption{Topologia t√≠pica de um VSC} 
 		\label{fig:resultados_unfilt_23.eps}
 	\end{subfigure}%
 		\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_23.eps}
-		\caption{Topologia tÌpica de um CSC}    
+		\caption{Topologia t√≠pica de um CSC}    
 		\label{fig:resultados_filt_23.eps}
 	\end{subfigure}%
 	\caption{23}
 	\label{fig:23}
 \end{figure*}
 
-\begin{figure*}[!htb] %Circuito tÌpico de um retificador de 12 pulsos com sua respectiva corrente de entrada
+\begin{figure*}[!htb] %Circuito t√≠pico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_unfilt_24.eps}
-		\caption{Topologia tÌpica de um VSC} 
+		\caption{Topologia t√≠pica de um VSC} 
 		\label{fig:resultados_unfilt_24.eps}
 	\end{subfigure}%
 		\hfill
 	\begin{subfigure}[b]{0.48\textwidth}  
 		\centering 
 		\includegraphics[width=\textwidth]{Cap4/Figuras/resultados_filt_24.eps}
-		\caption{Topologia tÌpica de um CSC}    
+		\caption{Topologia t√≠pica de um CSC}    
 		\label{fig:resultados_filt_24.eps}
 	\end{subfigure}%
 	\caption{24}
