@@ -2,13 +2,13 @@
 
 A simulação do sistema composto por elementos não lineares operando juntamente com filtros ativos conectados na rede de um sistema elétrico aeronáutico é apresentada a seguir. A proposta dessa simulação é criar em ambiente Simulink um sistema típico de geração e distribuição elétrica de uma aeronave de maneira suficientemente completa para analisar os aspectos operacionais de filtros ativos, além de observar suas características operando com elementos reais em uma rede elétrica aeronáutica. O foco desse estudo não recai no detalhamento do sistema ao ponto de modelar sistemas de proteção e integração, sendo que isso pode ser trabalho para estudos posteriores.
 
-As características do sistema modelado são realizadas tomando como base uma aeronave de transporte civil com capacidade de uma média de 100 passageiros, tal como uma aeronave EMB-190. Em tais aeronaves o sistema de geração é composto por mais de um gerador, entretanto, em operação normal, os canais de geração são segregados, sendo que será simulado apenas um canal de geração e distribuição. Visto que o foco nesse trabalho não contempla integração de vários sistemas alimentados eletricamente, a carga será toda composta por elementos iguais e não lineares, sendo que estes devem ser propícios a operar com filtros ativos. Dessa maneira, foi determinada a carga sendo constituída por três EHAs operando simultaneamente, sob o mesmo regime de carregamento e sendo atuado no mesmo instante. Esta condição pode ser realizada em uma aeronave com a atuação de alguns EHAs em uma mesma superfície de controle.
+As características do sistema modelado são realizadas tomando como base uma aeronave de transporte civil com capacidade de uma média de 100 passageiros. Em tais aeronaves o sistema de geração é composto por mais de um gerador, entretanto, em operação normal, os canais de geração são segregados, sendo que será simulado apenas um canal de geração e distribuição. Visto que o foco nesse trabalho não contempla integração de vários sistemas alimentados eletricamente, a carga será toda composta por elementos iguais e não lineares, sendo que estes devem ser propícios a operar com filtros ativos. Dessa maneira, foi determinada a carga sendo constituída por três EHAs operando simultaneamente, sob o mesmo regime de carregamento e sendo atuado no mesmo instante. Esta condição pode ser realizada em uma aeronave com a atuação de alguns EHAs em uma mesma superfície de controle.
 
 \subsection{Modelo do Sistema Elétrico}
 
 \subsubsection{Sistema de Geração}
 
-O sistema de geração aplicado na simulação visa representar de maneira suficientemente apropriada uma fonte de tensão comumente encontrada em sistemas elétricos aeronáuticos. A potência do gerador especificada para o sistema elétrico em um canal de geração é definido como 50 kVA, sendo este valor compatível com o porte da aeronave sob estudo. O bloco de geração montado no Simulink é composto por uma máquina síncrona, cuja entrada mecânica é definida por um valor constante representado pela rotação do eixo proveniente do IDG, e os níveis de tensão é determinado por controle de campo de excitação. Esse último é obtido por uma GCU, a qual opera juntamente com a maquina síncrona do gerador. Em sistemas elétricos aeronáuticos reais a complexidade do bloco Gerador/GCU é elevada e envolve sistemas complementares para garantir sua confiabilidade. Entretanto, para a proposta de simulação apresentado nesse trabalho o sistema proposto por \cite{Olivier} mostra-se adequado. Isto se deve principalmente pela característica da saída do gerador apresentar tensão com frequência definida, com amplitude controlada e pela inclusão das não idealidades representadas pelas resistências e indutâncias nas linhas do gerador.
+O sistema de geração aplicado na simulação visa representar de maneira apropriada uma fonte de tensão comumente encontrada em sistemas elétricos aeronáuticos. A potência do gerador especificada para o sistema elétrico em um canal de geração é definido como 50 kVA, sendo este valor compatível com o porte da aeronave sob estudo. O bloco de geração montado no Simulink é composto por uma máquina síncrona, cuja entrada mecânica é definida por um valor constante representado pela rotação do eixo proveniente do IDG, e os níveis de tensão é determinado por controle de campo de excitação. Esse último é obtido por uma GCU, a qual opera juntamente com a maquina síncrona do gerador. Em sistemas elétricos aeronáuticos reais a complexidade do bloco Gerador/GCU é elevada e envolve sistemas complementares para garantir sua confiabilidade. Entretanto, para a proposta de simulação apresentado nesse trabalho o sistema proposto por \cite{Olivier} mostra-se adequado. Isto se deve principalmente pela característica da saída do gerador apresentar tensão com frequência definida, com amplitude controlada e pela inclusão das não idealidades representadas pelas resistências e indutâncias nas linhas do gerador.
 
 Em ambiente Simulink tanto o bloco da máquina síncrona como o bloco de excitação de campo estão presentes. Sendo assim o sistema de geração utilizado no software é mostrado na Figura \ref{fig:GEN_GCU.png}.
 
@@ -48,7 +48,7 @@ O ponto de conexão em comum está localizado na PDU (\textit{Primary Distribution
 	\label{fig:dist.png}
 \end{figure}
 
-As não idealidades dos condutores são modeladas com a inserção de resistências e reatâncias indutivas conectadas em série nas linhas de transmissão do sistema. As capacitâncias entre os condutores e o plano de terra não são considerados devidos sua insignificância frente à potência e o tamanho das cablagens. As bitolas dos fios e seus comprimentos estão adequadamente dimensionados para a corrente transmitida e o tamanho comumente encontrado em uma aeronave do porte do modelo. Sendo assim, os valores de impedância de cada seção do sistema trifásico é definido seguindo os parâmetros encontrados em \cite{Exner1953}. A Tabela \ref{tab:Zdist} expõe as definições do modelo quanto às cablagens utilizadas e suas impedâncias em cada seção. 
+As não idealidades dos condutores são modeladas com a inserção de resistências e reatâncias indutivas conectadas em série nas linhas de transmissão do sistema. As capacitâncias entre os condutores e o plano de terra não são considerados devidos sua insignificância frente à potência e o tamanho das cablagens. As bitolas dos fios e seus comprimentos estão adequadamente dimensionados para a corrente transmitida e o tamanho comumente encontrado em uma aeronave do porte do modelo. Sendo assim, os valores de impedância de cada seção do sistema trifásico é definido seguindo os parâmetros encontrados em \cite{Exner1953}. A Tabela \ref{tab:Zdist} expõe as definições do modelo quanto às cablagens utilizadas e suas impedâncias em cada seção na aeronave genérica considerada para o estudo. 
 
 \begin{table}[!htb]
 	\centering
@@ -86,7 +86,7 @@ Por apresentar uma ponte de retificadora de diodos na entrada, a operação de um 
 	\label{fig:EHA.png}
 \end{figure}
 
-O sinal de controle da fonte de corrente do lado DC é realizado de maneira a providenciar adequadamente o consumo de corrente visto pelo lado AC de um EHA. Tal sinal de controle foi gerado utilizando resultados experimentais de um EHA operando com carga em seu pistão. A metodologia empregada para a obtenção do sinal de controle da fonte de corrente foi através do cálculo da potência aparente consumida de um EHA real, através de dados experimentais, e inferir essa mesma potência no lado DC do EHA do modelo. Com isso garante-se que a potência aparente apresentada no modelo seja a mesma de um EHA real operando com carga, além de garantir a equivalência das formas de onda da corrente no lado AC. Com essa metodologia empregada o sinal criado para o controle da fonte de corrente do lado DC do modelo é visto na Figura \ref{fig:corrente_controlada_EHA.eps}.
+O sinal de controle da fonte de corrente do lado DC é realizado de maneira a providenciar adequadamente o consumo de corrente visto pelo lado AC de um EHA. Tal sinal de controle foi gerado utilizando resultados experimentais de um EHA operando com carga em seu pistão. O método empregado para a obtenção do sinal de controle da fonte de corrente é calculada a potência aparente consumida de um EHA real, através de dados experimentais, e inferida essa mesma potência no lado DC do EHA do modelo. Com isso garante-se que a potência aparente apresentada no modelo é a mesma de um EHA real operando com carga, e garante a equivalência das formas de onda da corrente no lado AC. O sinal gerado para o controle da fonte de corrente do lado DC do modelo é visto na Figura \ref{fig:corrente_controlada_EHA.eps}.
 
 \begin{figure}[!htb] %
 	\centering
@@ -99,9 +99,9 @@ O sinal de controle da fonte de corrente do lado DC é realizado de maneira a pro
 
 \subsection{Modelo do Filtro Ativo}
 
-O filtro ativo modelado em ambiente Simulink tem como objetivo simular a operação do controle do compensador de maneira suficientemente adequada para avaliar a eficácia da filtragem e seu emprego no setor aeronáutico. Com isso, as diversas características que viabilizam o emprego desse tipo de filtro podem ser analisadas.
+O filtro ativo modelado em ambiente Simulink tem como objetivo simular a operação do controle do compensador de maneira a avaliar a eficácia da filtragem e seu emprego no setor aeronáutico. Com isso, as diversas características que viabilizam o emprego desse tipo de filtro podem ser analisadas.
 
-O modelo é composto por diversos blocos criados para cada função constituinte de um filtro. A teoria de potência instantânea apresentadas no capítulo \ref{cap:Filtros Ativos para Sistemas Elétricos} será implementada em um desses blocos para realizar a simulação dos cálculo das correntes de referências do compensador. Já a parte relacionada com o compensador será implementado em outro bloco e segundo as definições apresentadas na seção \ref{sec:Características de Filtros Ativos em Sistemas Reais}. A operação conjunta do compensador com o controle concebe o filtro ativo como todo.
+O modelo é composto por diversos blocos criados para cada função de um filtro. A teoria de potência instantânea apresentadas no capítulo \ref{cap:Filtros Ativos para Sistemas Elétricos} será implementada em um desses blocos para realizar a simulação dos cálculo das correntes de referências do compensador. Já a parte relacionada com o compensador será implementado em outro bloco e segundo as definições apresentadas na seção \ref{sec:Características de Filtros Ativos em Sistemas Reais}. A operação conjunta do compensador com o controle concebe o filtro ativo como todo.
 
 \subsubsection{Controle}
 
@@ -120,7 +120,7 @@ O sub-bloco a qual determina as correntes de referência é constituído de duas pa
 
 O sub-bloco de comando dos interruptores estáticos do inversor, onde é empregado o controle por histerese, é mostrado na Figura \ref{fig:histerese_sim.png}. Nesse bloco a entrada é composta pelos sinais de referência das correntes advindas do sub-bloco da Figura \ref{fig:controladador.png} (I\_ref), juntamente com a medição da corrente na saída do inversor (I\_meas). A saída é composta pelo sinal de comando de cada interruptor a qual é empregado no inversor.
 
-A operação deste bloco é realizada pela comparação do sinal de referência com a medição da corrente na saída do inversor. O sinal advindo da comparação passa por um relé programado com histerese, onde é definida a banda de histerese, e por fim a saída contendo um sinal binário é gerada. Os sinais de cada fase do sistema são gerados individualmente com o controle de comutação dos interruptores de cada braço do inversor. Como estes interruptores não podem ser comutados para o estado de condução simultaneamente, seus comandos devem ser complementares. Este complemento é adquirido pela lógica NOT do sub-bloco.
+A operação deste bloco é realizada pela comparação do sinal de referência com a medida da corrente na saída do inversor. O sinal advindo da comparação passa por um relé programado com histerese, onde é definida a banda de histerese, e por fim a saída contendo um sinal binário é gerada. Os sinais de cada fase do sistema são gerados individualmente com o controle de comutação dos interruptores de cada braço do inversor. Como estes interruptores não podem ser comutados para o estado de condução simultaneamente, seus comandos devem ser complementares. Este complemento é adquirido pela lógica NOT do sub-bloco.
 
 \begin{figure}[!htb] %
 	\centering
@@ -142,9 +142,9 @@ Este bloco constitui de um controlador proporcional-integral (PI), onde os valor
 
 \subsubsection{Compensador}
 
-O compensador criado em ambiente Simulink tem como objetivo simular a operação de um inversor composto por interruptores estáticos, nas quais são controlados pelos sinais gerados no bloco de controle para atender a demanda de corrente necessária para realização da filtragem ativa. Este bloco tem como entrada os sinais de comando dos interruptores advindos do bloco de controle por histerese. Ainda, para a correta operação do compensador algumas medições são realizadas para realimentar os sub-blocos subjacentes do modelo. Dessa maneira, a forma de onda da corrente na saída do compensador é medida para realimentar o sub-bloco de controle por histerese, e a tensão no capacitor é medida para prover seu valor ao sub-bloco de malha de controle de tensão no capacitor. Em sua saída o compensador é conectado no barramento de alimentação localizado na entrada da carga não linear, a qual conectada na rede elétrica da aeronave.
+O compensador criado em ambiente Simulink tem como objetivo simular a operação de um inversor composto por interruptores estáticos, nas quais são controlados pelos sinais gerados no bloco de controle para atender a demanda de corrente necessária para realização da filtragem ativa. Este bloco tem como entrada os sinais de comando dos interruptores advindos do bloco de controle por histerese. Ainda, para a correta operação do compensador algumas medições são realizadas para realimentar os sub-blocos subjacentes do modelo. Dessa maneira, a forma de onda da corrente na saída do compensador é medida para realimentar o sub-bloco de controle por histerese, e a tensão no capacitor é medida para prover seu valor ao sub-bloco de malha de controle de tensão no capacitor. A saída do compensador é conectada no barramento de alimentação localizado na entrada da carga não linear, a qual conectada na rede elétrica da aeronave.
 
-A Figura \ref{fig:Inversor.png} apresenta o bloco do compensador utilizado na simulação. Nesse bloco é empregado uma ponde de interruptores estáticos ideais ordenados como ilustrado na Figura \ref{fig:VSC.png}. A escolha dos interruptores serem estabelecidos como ideais recai na limitação do Simulink com relação às não idealidade apresentadas em elementos semicondutores de comutação. Nessa figura ainda pode ser observado a presença dos indutores de acoplamento e dos filtros capacitivos anteriores a saída do compensador. Os valores das indutâncias de acoplamento foram escolhidos subjetivamente em função da resposta estabelecida do filtro. Os valores da capacitância foram feito da mesma maneira, porém tendo em mente que altos valores de capacitância elevam a potência aparente devido ao deslocamento entre as formas de onda de tensão e corrente. Outros elementos que foram adicionados para manter a estabilidade numérica na realização da simulação são as resistências em série e em paralelo às capacitâncias. Os valores dessas resistências são escolhidos de maneira que não influem significativamente à operação do circuito, ou seja, a resistência em série e em paralelo possuem valores baixos e elevados, respectivamente.
+A Figura \ref{fig:Inversor.png} apresenta o bloco do compensador utilizado na simulação. Nesse bloco é empregado uma ponde de interruptores estáticos ideais ordenados como ilustrado na Figura \ref{fig:VSC.png}. A escolha dos interruptores a serem estabelecidos como ideais recai na limitação do Simulink com relação às não idealidades apresentadas em elementos semicondutores de comutação. Nessa figura ainda pode ser observado a presença dos indutores de acoplamento e dos filtros capacitivos anteriores a saída do compensador. Os valores das indutâncias de acoplamento foram escolhidos subjetivamente em função da resposta estabelecida do filtro. Os valores da capacitância foram feito da mesma maneira, porém tendo em mente que altos valores de capacitância elevam a potência aparente devido ao deslocamento entre as formas de onda de tensão e corrente. Outros elementos que foram adicionados para manter a estabilidade numérica na realização da simulação são as resistências em série e em paralelo às capacitâncias. Os valores dessas resistências são escolhidos de maneira que não influem significativamente à operação do circuito, ou seja, a resistência em série e em paralelo possuem valores baixos e elevados, respectivamente.
 
 Na Figura \ref{fig:Inversor.png} é apresentado o sub-bloco de controle por histerese para facilitar o entendimento do funcionamento do inversor.
  
@@ -157,7 +157,7 @@ Na Figura \ref{fig:Inversor.png} é apresentado o sub-bloco de controle por histe
 
 \subsection{Resultados}
 
-A simulação contempla a operação de três EHAs operando simultaneamente. O perfil da amplitude de corrente da carga com os três EHA atuando concomitantemente é ilustrado na Figura \ref{fig:perfil.eps}. Essa corrente é solicitada com o deslocamento linear do pistão do atuador indo de uma extremidade a outra com a aplicação de uma carga mecânica em seu eixo.
+A simulação contempla a operação de três EHAs operando simultaneamente. As formas de onda exigida pelas cargas são produzidas pelas operação das pontes de diodo dispostos nas entradas dos EHAs, fazendo com que a forma de onda possua um perfil de amplitude simétrico e centrado em zero. Dessa maneira, o perfil da amplitude da corrente disponibilizada no PCC obtido com a operação dos três EHA atuando concomitantemente é ilustrado na Figura \ref{fig:perfil.eps}. Essa corrente é solicitada com o deslocamento linear do pistão do atuador indo de uma extremidade a outra com a aplicação de uma carga mecânica em seu eixo.
 
 \begin{figure}[!htb] %
 	\centering
@@ -330,7 +330,7 @@ Já a análise dos espectros de frequência das tensões mostra que a qualidade de e
 		\caption{Medições realizadas com filtro ativo}    
 		\label{fig:resultados_filt_7.eps}
 	\end{subfigure}%
-	\caption{Formas de onda de corrente em regime de Máxima Corrente}
+	\caption{Formas de onda de corrente em regime de Corrente Máxima}
 	\label{fig:7}
 \end{figure*}
 
@@ -349,7 +349,7 @@ Já a análise dos espectros de frequência das tensões mostra que a qualidade de e
 		\caption{Medições realizadas com filtro ativo}    
 		\label{fig:resultados_filt_8.eps}
 	\end{subfigure}%
-	\caption{Formas de onda de tensão e corrente em regime de Máxima Corrente}
+	\caption{Formas de onda de tensão e corrente em regime de Corrente Máxima}
 	\label{fig:8}
 \end{figure*}
 
@@ -368,7 +368,7 @@ Já a análise dos espectros de frequência das tensões mostra que a qualidade de e
 		\caption{Medições realizadas com filtro ativo}    
 		\label{fig:resultados_filt_9.eps}
 	\end{subfigure}%
-	\caption{Potências instantâneas em regime de Máxima Corrente}
+	\caption{Potências instantâneas em regime de Corrente Máxima}
 	\label{fig:9}
 \end{figure*}
 
@@ -387,7 +387,7 @@ Já a análise dos espectros de frequência das tensões mostra que a qualidade de e
 		\caption{Medições realizadas com filtro ativo}    
 		\label{fig:resultados_filt_10.eps}
 	\end{subfigure}%
-	\caption{Detalhe das potências instantâneas em regime de Máxima Corrente}
+	\caption{Detalhe das potências instantâneas em regime de Corrente Máxima}
 	\label{fig:10}
 \end{figure*}
 
@@ -406,7 +406,7 @@ Já a análise dos espectros de frequência das tensões mostra que a qualidade de e
 		\caption{Medições realizadas com filtro ativo}    
 		\label{fig:resultados_filt_11.eps}
 	\end{subfigure}%
-	\caption{Espectro de frequência da tensão em regime de Máxima Corrente e delimitação definida pela norma MIL-STD 704F}
+	\caption{Espectro de frequência da tensão em regime de Corrente Máxima e delimitação definida pela norma MIL-STD 704F}
 	\label{fig:11}
 \end{figure*}
 
@@ -425,7 +425,7 @@ Já a análise dos espectros de frequência das tensões mostra que a qualidade de e
 		\caption{Medições realizadas com filtro ativo}    
 		\label{fig:resultados_filt_12.eps}
 	\end{subfigure}%
-	\caption{Amplitude das componentes harmônicas em regime de Máxima Corrente}
+	\caption{Amplitude das componentes harmônicas em regime de Corrente Máxima}
 	\label{fig:12}
 \end{figure*}
 
@@ -433,7 +433,7 @@ Já a análise dos espectros de frequência das tensões mostra que a qualidade de e
 
 \subsubsection{Regime Transitório}
 
-O regime transitório é mostrado na Figura \ref{fig:13} e é caracterizado pela variação da corrente no tempo sem que haja grande oscilação como apresentado no período anterior. Esse intervalo de tempo é delimitado entre 73,3 e 73,7 segundos.
+O regime transitório mostrado na Figura \ref{fig:13} é caracterizado pela variação da corrente no tempo sem que haja grande oscilação como apresentado no período anterior. Esse intervalo de tempo é delimitado entre 73,3 e 73,7 segundos.
 
 A Figura \ref{fig:14} apresenta um pequeno intervalo a qual é definido o período em que a corrente mostra-se mais elevada. Na Figura \ref{fig:resultados_unfilt_14.eps} pode ser observado que a corrente é distorcida, porém não influi significativamente na qualidade de energia, visto que a tensão apresenta-se pouco distorcida. A Figura \ref{fig:resultados_filt_14.eps} apresenta a corrente em fase e próximo de uma senoide, mostrando que o filtro opera de maneira condizente com esperado. 
 
@@ -554,14 +554,15 @@ A análise do espectro de frequência das tensões mostra que a qualidade de energi
 	\caption{Amplitude das componentes harmônicas em regime Regime Transitório}
 	\label{fig:18}
 \end{figure*}
+\todo{A raia entre $10^3$ e $10^4$, neste e outros gráficos, não está acima do limite das normas?}
 
 \FloatBarrier
 
 \subsubsection{Regime Permanente}
 
-As formas de onda no período de regime permanente é mostrado na Figura \ref{fig:19}. Aqui pode ser observado que a corrente mantém-se estável até cessar no final do intervalo, a qual varia entre 73,7 e 73.9 segundos.
+As formas de onda no período de regime permanente são mostradas na Figura \ref{fig:19}. Na figura pode ser observado que a corrente se mantém estável até cessar no final do intervalo, a qual varia entre 73,7 e 73,9 segundos.
 
-As observações proferidas nesse período são semelhantes às verificadas durante o regime transitório, isto é, apesar de a forma de onda da corrente apresentar-se como distorcida, esta não suficiente para elevar as distorções da tensão de modo a prover resultados não condizentes com a MIL-STD 704F. Contudo, pode-se observar (Figura \ref{fig:resultados_filt_20.eps}) que o filtro ainda atua nesse sentido, tornando a corrente mais próxima de uma senoide e elevando a qualidade de energia.
+As observações proferidas nesse período são semelhantes às verificadas durante o regime transitório, isto é, apesar de a forma de onda da corrente apresentar-se como distorcida, os resultados atendem a norma MIL-STD 704F. Contudo, pode-se observar (Figura \ref{fig:resultados_filt_20.eps}) que o filtro ainda atua nesse sentido, tornando a corrente mais próxima de uma senoide e elevando a qualidade de energia.
 
 \begin{figure*}[!htb] %Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
