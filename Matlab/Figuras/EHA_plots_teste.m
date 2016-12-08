@@ -2,15 +2,15 @@ close all
 clc
 
 
-load('carga_EHA.mat');
-
-Ts = 1e-6;
-run('D:\Joao\Libraries\Onedrive\Documents\Documents\Mestrado ITA\MestradoJPSO\Matlab\Active_filter.m')
-close all
-
-figure(1)
-plot(t,sqrt(P.^2+Q.^2),il8000(:,1),il8000(:,2).*vl8000(:,2)*3,'LineWidth',2.5);
-legend('s','s Dados Spec');
+% load('carga_EHA.mat');
+% 
+% Ts = 1e-6;
+% run('C:\Users\jpsoliv\Documents\João\New folder\Matlab\Active_filter.m')
+% close all
+% 
+% figure(1)
+% plot(t,sqrt(P.^2+Q.^2),il8000(:,1),il8000(:,2).*vl8000(:,2)*3,'LineWidth',2.5);
+% legend('s','s Dados Spec');
 
 load('corrente_controlada_EHA.mat');
 
@@ -21,6 +21,12 @@ ftaxes = 24;
 
 figure(2)
 plot(corrente_controlada.xData,corrente_controlada.yData,'k','LineWidth',2.5);
+
+set(gca,'Position',[0.07,0.20,0.9,0.75]);
+set(gca,'FontSize',15);
+pos = get(gcf,'Position');
+set(gcf,'Position',[pos(1) pos(2) fatorX*pos(3) pos(4)*fatorY]);
+
 
 xl = xlabel('tempo [s]');
 set(xl,'Interpreter','Latex');

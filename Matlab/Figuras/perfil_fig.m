@@ -56,15 +56,16 @@ close all
 
 ft = 30;
 fatorX = 2;
-fatorY = 1.05;
-ftaxes = 18;
+fatorY = 1.25;
+ftaxes = 24;
 
 plot(Pmax(:,1),Pmax(:,2),'k',Pmin(:,1),Pmin(:,2),'k','LineWidth',2.5)
 xlim([72.85 73.9]);
 ylim([-250 250]);
-set(gca,'Position',[0.06,0.15,0.93,0.7]);
+set(gca,'Position',[0.08,0.15,0.89,0.70]);
+set(gca,'FontSize',15);
 pos = get(gcf,'Position');
-set(gcf,'Position',[pos(1) pos(2) fatorX*pos(3) pos(4)*fatorY]);
+set(gcf,'Position',[pos(1) pos(2)-100 fatorX*pos(3) pos(4)*fatorY]);
 % set(gca,'XtickLabel',[],'YtickLabel',[]);
 grid on
 
