@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.7)  12 DEC 2016 20:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.7)  13 DEC 2016 21:01
 entering extended mode
 **./Dissertacao.tex
 (Dissertacao.tex
@@ -4371,25 +4371,25 @@ Package hyperref Info: Reference (link) `figure.caption.76' on input line 188.
 Package hyperref Info: Reference (link) `figure.caption.77' on input line 188.
 Package hyperref Info: Anchor `figure.caption.74' on input line 209.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_unfilt_2.eps>
-(epstopdf)                    date: 2016-11-08 22:04:20
-(epstopdf)                    size: 130741 bytes
+(epstopdf)                    date: 2016-12-13 20:47:38
+(epstopdf)                    size: 212070 bytes
 (epstopdf)             Output file: <Cap4/Figuras/resultados_unfilt_2-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2016-11-08 22:07:35
-(epstopdf)                    size: 32877 bytes
+(epstopdf)                    date: 2016-12-13 20:49:46
+(epstopdf)                    size: 35090 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/resultados_unf
 ilt_2-eps-converted-to.pdf Cap4/Figuras/resultados_unfilt_2.eps>
 (epstopdf)             \includegraphics on input line 213.
 Package epstopdf Info: Output file is already uptodate.
 
 <Cap4/Figuras/resultados_unfilt_2-eps-converted-to.pdf, id=1360, 422.57875pt x 
-305.14pt>
+293.095pt>
 File: Cap4/Figuras/resultados_unfilt_2-eps-converted-to.pdf Graphic file (type 
 pdf)
  <use Cap4/Figuras/resultados_unfilt_2-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/resultados_unfilt_2-eps-converted-to.pdf 
 used on input line 213.
-(pdftex.def)             Requested size: 218.51521pt x 157.78905pt.
+(pdftex.def)             Requested size: 218.51521pt x 151.56053pt.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_filt_2.eps>
 (epstopdf)                    date: 2016-11-08 22:25:04
 (epstopdf)                    size: 235951 bytes
@@ -4416,25 +4416,25 @@ tens\~ao e corrente em regime de EHA Inoperante\relax }} {figure.caption.74}{0}
 {lof}
 Package hyperref Info: Anchor `figure.caption.75' on input line 247.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_unfilt_4.eps>
-(epstopdf)                    date: 2016-12-12 19:57:54
-(epstopdf)                    size: 169932 bytes
+(epstopdf)                    date: 2016-12-13 20:47:41
+(epstopdf)                    size: 249542 bytes
 (epstopdf)             Output file: <Cap4/Figuras/resultados_unfilt_4-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2016-12-12 20:05:16
-(epstopdf)                    size: 42748 bytes
+(epstopdf)                    date: 2016-12-13 20:54:49
+(epstopdf)                    size: 45515 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/resultados_unf
 ilt_4-eps-converted-to.pdf Cap4/Figuras/resultados_unfilt_4.eps>
 (epstopdf)             \includegraphics on input line 251.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_unfilt_4-eps-converted-to.pdf, id=1362, 366.36874pt x 
-277.035pt>
+<Cap4/Figuras/resultados_unfilt_4-eps-converted-to.pdf, id=1362, 376.40625pt x 
+296.10625pt>
 File: Cap4/Figuras/resultados_unfilt_4-eps-converted-to.pdf Graphic file (type 
 pdf)
  <use Cap4/Figuras/resultados_unfilt_4-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/resultados_unfilt_4-eps-converted-to.pdf 
 used on input line 251.
-(pdftex.def)             Requested size: 218.51521pt x 165.23311pt.
+(pdftex.def)             Requested size: 218.51521pt x 171.90439pt.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_filt_4.eps>
 (epstopdf)                    date: 2016-12-12 20:08:02
 (epstopdf)                    size: 310066 bytes
@@ -4461,25 +4461,25 @@ ncias instant\^aneas em regime de EHA Inoperante\relax }} {figure.caption.75}{0
 }{lof}
 Package hyperref Info: Anchor `figure.caption.76' on input line 266.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_unfilt_5.eps>
-(epstopdf)                    date: 2016-11-08 22:04:26
-(epstopdf)                    size: 46150 bytes
+(epstopdf)                    date: 2016-12-13 20:47:43
+(epstopdf)                    size: 214893 bytes
 (epstopdf)             Output file: <Cap4/Figuras/resultados_unfilt_5-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2016-11-08 22:07:45
-(epstopdf)                    size: 6334 bytes
+(epstopdf)                    date: 2016-12-13 20:56:01
+(epstopdf)                    size: 9994 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/resultados_unf
 ilt_5-eps-converted-to.pdf Cap4/Figuras/resultados_unfilt_5.eps>
 (epstopdf)             \includegraphics on input line 270.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_unfilt_5-eps-converted-to.pdf, id=1364, 384.43625pt x 
-314.17375pt>
+<Cap4/Figuras/resultados_unfilt_5-eps-converted-to.pdf, id=1364, 387.4475pt x 2
+93.095pt>
 File: Cap4/Figuras/resultados_unfilt_5-eps-converted-to.pdf Graphic file (type 
 pdf)
  <use Cap4/Figuras/resultados_unfilt_5-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/resultados_unfilt_5-eps-converted-to.pdf 
 used on input line 270.
-(pdftex.def)             Requested size: 218.51521pt x 178.58232pt.
+(pdftex.def)             Requested size: 218.51521pt x 165.3038pt.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_filt_5.eps>
 (epstopdf)                    date: 2016-11-08 22:25:13
 (epstopdf)                    size: 53023 bytes
@@ -4506,25 +4506,25 @@ pdftex: bookmark at 281: {71} {\numberline{71}{\ignorespaces Espectro de frequ\
  norma MIL-STD 704F\relax }} {figure.caption.76}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.77' on input line 285.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_unfilt_6.eps>
-(epstopdf)                    date: 2016-11-08 22:04:28
-(epstopdf)                    size: 49914 bytes
+(epstopdf)                    date: 2016-12-13 20:47:44
+(epstopdf)                    size: 213330 bytes
 (epstopdf)             Output file: <Cap4/Figuras/resultados_unfilt_6-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2016-11-08 22:07:48
-(epstopdf)                    size: 6093 bytes
+(epstopdf)                    date: 2016-12-13 20:56:03
+(epstopdf)                    size: 8407 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/resultados_unf
 ilt_6-eps-converted-to.pdf Cap4/Figuras/resultados_unfilt_6.eps>
 (epstopdf)             \includegraphics on input line 289.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_unfilt_6-eps-converted-to.pdf, id=1366, 371.3875pt x 2
-90.08376pt>
+<Cap4/Figuras/resultados_unfilt_6-eps-converted-to.pdf, id=1366, 383.4325pt x 2
+91.0875pt>
 File: Cap4/Figuras/resultados_unfilt_6-eps-converted-to.pdf Graphic file (type 
 pdf)
  <use Cap4/Figuras/resultados_unfilt_6-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/resultados_unfilt_6-eps-converted-to.pdf 
 used on input line 289.
-(pdftex.def)             Requested size: 218.51521pt x 170.68317pt.
+(pdftex.def)             Requested size: 218.51521pt x 165.8905pt.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_filt_6.eps>
 (epstopdf)                    date: 2016-11-08 22:25:14
 (epstopdf)                    size: 55817 bytes
@@ -4604,25 +4604,25 @@ Package hyperref Info: Reference (link) `figure.caption.82' on input line 314.
 Package hyperref Info: Reference (link) `figure.caption.83' on input line 314.
 Package hyperref Info: Anchor `figure.caption.78' on input line 316.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_unfilt_7.eps>
-(epstopdf)                    date: 2016-12-12 19:58:00
-(epstopdf)                    size: 169657 bytes
+(epstopdf)                    date: 2016-12-13 20:47:46
+(epstopdf)                    size: 246173 bytes
 (epstopdf)             Output file: <Cap4/Figuras/resultados_unfilt_7-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2016-12-12 20:10:16
-(epstopdf)                    size: 50942 bytes
+(epstopdf)                    date: 2016-12-13 20:56:05
+(epstopdf)                    size: 51699 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/resultados_unf
 ilt_7-eps-converted-to.pdf Cap4/Figuras/resultados_unfilt_7.eps>
 (epstopdf)             \includegraphics on input line 320.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_unfilt_7-eps-converted-to.pdf, id=1447, 405.515pt x 30
-5.14pt>
+<Cap4/Figuras/resultados_unfilt_7-eps-converted-to.pdf, id=1456, 418.56375pt x 
+296.10625pt>
 File: Cap4/Figuras/resultados_unfilt_7-eps-converted-to.pdf Graphic file (type 
 pdf)
  <use Cap4/Figuras/resultados_unfilt_7-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/resultados_unfilt_7-eps-converted-to.pdf 
 used on input line 320.
-(pdftex.def)             Requested size: 218.51521pt x 164.42859pt.
+(pdftex.def)             Requested size: 218.51521pt x 154.58156pt.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_filt_7.eps>
 (epstopdf)                    date: 2016-12-12 20:22:36
 (epstopdf)                    size: 240815 bytes
@@ -4635,7 +4635,7 @@ t_7-eps-converted-to.pdf Cap4/Figuras/resultados_filt_7.eps>
 (epstopdf)             \includegraphics on input line 327.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_filt_7-eps-converted-to.pdf, id=1448, 405.515pt x 305.
+<Cap4/Figuras/resultados_filt_7-eps-converted-to.pdf, id=1457, 405.515pt x 305.
 14pt>
 File: Cap4/Figuras/resultados_filt_7-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -4648,25 +4648,25 @@ pdftex: bookmark at 331: {73} {\numberline{73}{\ignorespaces Formas de onda de
 corrente em regime de Corrente M\'axima\relax }} {figure.caption.78}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.79' on input line 335.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_unfilt_8.eps>
-(epstopdf)                    date: 2016-11-08 22:04:34
-(epstopdf)                    size: 146979 bytes
+(epstopdf)                    date: 2016-12-13 20:47:48
+(epstopdf)                    size: 233299 bytes
 (epstopdf)             Output file: <Cap4/Figuras/resultados_unfilt_8-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2016-11-08 22:12:48
-(epstopdf)                    size: 38214 bytes
+(epstopdf)                    date: 2016-12-13 20:56:06
+(epstopdf)                    size: 41592 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/resultados_unf
 ilt_8-eps-converted-to.pdf Cap4/Figuras/resultados_unfilt_8.eps>
 (epstopdf)             \includegraphics on input line 339.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_unfilt_8-eps-converted-to.pdf, id=1449, 422.57875pt x 
-305.14pt>
+<Cap4/Figuras/resultados_unfilt_8-eps-converted-to.pdf, id=1458, 422.57875pt x 
+296.10625pt>
 File: Cap4/Figuras/resultados_unfilt_8-eps-converted-to.pdf Graphic file (type 
 pdf)
  <use Cap4/Figuras/resultados_unfilt_8-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/resultados_unfilt_8-eps-converted-to.pdf 
 used on input line 339.
-(pdftex.def)             Requested size: 218.51521pt x 157.78905pt.
+(pdftex.def)             Requested size: 218.51521pt x 153.11766pt.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_filt_8.eps>
 (epstopdf)                    date: 2016-11-08 22:25:24
 (epstopdf)                    size: 230018 bytes
@@ -4679,7 +4679,7 @@ t_8-eps-converted-to.pdf Cap4/Figuras/resultados_filt_8.eps>
 (epstopdf)             \includegraphics on input line 346.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_filt_8-eps-converted-to.pdf, id=1450, 422.57875pt x 30
+<Cap4/Figuras/resultados_filt_8-eps-converted-to.pdf, id=1459, 422.57875pt x 30
 5.14pt>
 File: Cap4/Figuras/resultados_filt_8-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -4693,25 +4693,25 @@ tens\~ao e corrente em regime de Corrente M\'axima\relax }} {figure.caption.79}
 {0}{lof}
 Package hyperref Info: Anchor `figure.caption.80' on input line 354.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_unfilt_9.eps>
-(epstopdf)                    date: 2016-11-08 22:04:37
-(epstopdf)                    size: 352403 bytes
+(epstopdf)                    date: 2016-12-13 20:47:50
+(epstopdf)                    size: 432301 bytes
 (epstopdf)             Output file: <Cap4/Figuras/resultados_unfilt_9-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2016-11-08 22:12:52
-(epstopdf)                    size: 96896 bytes
+(epstopdf)                    date: 2016-12-13 20:56:08
+(epstopdf)                    size: 98987 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/resultados_unf
 ilt_9-eps-converted-to.pdf Cap4/Figuras/resultados_unfilt_9.eps>
 (epstopdf)             \includegraphics on input line 358.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_unfilt_9-eps-converted-to.pdf, id=1451, 348.30125pt x 
-287.0725pt>
+<Cap4/Figuras/resultados_unfilt_9-eps-converted-to.pdf, id=1460, 355.3275pt x 3
+08.15125pt>
 File: Cap4/Figuras/resultados_unfilt_9-eps-converted-to.pdf Graphic file (type 
 pdf)
  <use Cap4/Figuras/resultados_unfilt_9-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/resultados_unfilt_9-eps-converted-to.pdf 
 used on input line 358.
-(pdftex.def)             Requested size: 218.51521pt x 180.1032pt.
+(pdftex.def)             Requested size: 218.51521pt x 189.50954pt.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_filt_9.eps>
 (epstopdf)                    date: 2016-11-08 22:25:32
 (epstopdf)                    size: 460209 bytes
@@ -4724,7 +4724,7 @@ t_9-eps-converted-to.pdf Cap4/Figuras/resultados_filt_9.eps>
 (epstopdf)             \includegraphics on input line 365.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_filt_9-eps-converted-to.pdf, id=1452, 348.30125pt x 28
+<Cap4/Figuras/resultados_filt_9-eps-converted-to.pdf, id=1461, 348.30125pt x 28
 7.0725pt>
 File: Cap4/Figuras/resultados_filt_9-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -4737,25 +4737,25 @@ pdftex: bookmark at 369: {75} {\numberline{75}{\ignorespaces Pot\^encias instan
 t\^aneas em regime de Corrente M\'axima\relax }} {figure.caption.80}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.81' on input line 373.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_unfilt_10.eps>
-(epstopdf)                    date: 2016-11-08 22:04:39
-(epstopdf)                    size: 230648 bytes
+(epstopdf)                    date: 2016-12-13 20:47:53
+(epstopdf)                    size: 308200 bytes
 (epstopdf)             Output file: <Cap4/Figuras/resultados_unfilt_10-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2016-11-08 22:12:55
-(epstopdf)                    size: 50166 bytes
+(epstopdf)                    date: 2016-12-13 20:56:10
+(epstopdf)                    size: 52553 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/resultados_unf
 ilt_10-eps-converted-to.pdf Cap4/Figuras/resultados_unfilt_10.eps>
 (epstopdf)             \includegraphics on input line 377.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_unfilt_10-eps-converted-to.pdf, id=1453, 351.3125pt x 
-287.0725pt>
+<Cap4/Figuras/resultados_unfilt_10-eps-converted-to.pdf, id=1462, 358.33875pt x
+ 308.15125pt>
 File: Cap4/Figuras/resultados_unfilt_10-eps-converted-to.pdf Graphic file (type
  pdf)
  <use Cap4/Figuras/resultados_unfilt_10-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/resultados_unfilt_10-eps-converted-to.pdf
  used on input line 377.
-(pdftex.def)             Requested size: 218.51521pt x 178.56131pt.
+(pdftex.def)             Requested size: 218.51521pt x 187.91556pt.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_filt_10.eps>
 (epstopdf)                    date: 2016-11-08 22:25:35
 (epstopdf)                    size: 361384 bytes
@@ -4768,7 +4768,7 @@ t_10-eps-converted-to.pdf Cap4/Figuras/resultados_filt_10.eps>
 (epstopdf)             \includegraphics on input line 384.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_filt_10-eps-converted-to.pdf, id=1454, 351.3125pt x 28
+<Cap4/Figuras/resultados_filt_10-eps-converted-to.pdf, id=1463, 351.3125pt x 28
 7.0725pt>
 File: Cap4/Figuras/resultados_filt_10-eps-converted-to.pdf Graphic file (type p
 df)
@@ -4782,25 +4782,25 @@ ncias instant\^aneas em regime de Corrente M\'axima\relax }} {figure.caption.81
 }{0}{lof}
 Package hyperref Info: Anchor `figure.caption.82' on input line 392.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_unfilt_11.eps>
-(epstopdf)                    date: 2016-11-08 22:04:44
-(epstopdf)                    size: 68368 bytes
+(epstopdf)                    date: 2016-12-13 20:47:57
+(epstopdf)                    size: 237372 bytes
 (epstopdf)             Output file: <Cap4/Figuras/resultados_unfilt_11-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2016-11-08 22:12:58
-(epstopdf)                    size: 10462 bytes
+(epstopdf)                    date: 2016-12-13 20:56:11
+(epstopdf)                    size: 14241 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/resultados_unf
 ilt_11-eps-converted-to.pdf Cap4/Figuras/resultados_unfilt_11.eps>
 (epstopdf)             \includegraphics on input line 396.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_unfilt_11-eps-converted-to.pdf, id=1455, 384.43625pt x
- 314.17375pt>
+<Cap4/Figuras/resultados_unfilt_11-eps-converted-to.pdf, id=1464, 387.4475pt x 
+293.095pt>
 File: Cap4/Figuras/resultados_unfilt_11-eps-converted-to.pdf Graphic file (type
  pdf)
  <use Cap4/Figuras/resultados_unfilt_11-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/resultados_unfilt_11-eps-converted-to.pdf
  used on input line 396.
-(pdftex.def)             Requested size: 218.51521pt x 178.58232pt.
+(pdftex.def)             Requested size: 218.51521pt x 165.3038pt.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_filt_11.eps>
 (epstopdf)                    date: 2016-11-08 22:25:39
 (epstopdf)                    size: 52590 bytes
@@ -4813,7 +4813,7 @@ t_11-eps-converted-to.pdf Cap4/Figuras/resultados_filt_11.eps>
 (epstopdf)             \includegraphics on input line 403.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_filt_11-eps-converted-to.pdf, id=1456, 384.43625pt x 3
+<Cap4/Figuras/resultados_filt_11-eps-converted-to.pdf, id=1465, 384.43625pt x 3
 14.17375pt>
 File: Cap4/Figuras/resultados_filt_11-eps-converted-to.pdf Graphic file (type p
 df)
@@ -4827,25 +4827,25 @@ pdftex: bookmark at 407: {77} {\numberline{77}{\ignorespaces Espectro de frequ\
 ela norma MIL-STD 704F\relax }} {figure.caption.82}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.83' on input line 411.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_unfilt_12.eps>
-(epstopdf)                    date: 2016-11-08 22:04:47
-(epstopdf)                    size: 103510 bytes
+(epstopdf)                    date: 2016-12-13 20:48:00
+(epstopdf)                    size: 266903 bytes
 (epstopdf)             Output file: <Cap4/Figuras/resultados_unfilt_12-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2016-11-08 22:13:01
-(epstopdf)                    size: 23572 bytes
+(epstopdf)                    date: 2016-12-13 20:56:13
+(epstopdf)                    size: 26078 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/resultados_unf
 ilt_12-eps-converted-to.pdf Cap4/Figuras/resultados_unfilt_12.eps>
 (epstopdf)             \includegraphics on input line 415.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_unfilt_12-eps-converted-to.pdf, id=1457, 371.3875pt x 
-290.08376pt>
+<Cap4/Figuras/resultados_unfilt_12-eps-converted-to.pdf, id=1466, 383.4325pt x 
+291.0875pt>
 File: Cap4/Figuras/resultados_unfilt_12-eps-converted-to.pdf Graphic file (type
  pdf)
  <use Cap4/Figuras/resultados_unfilt_12-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/resultados_unfilt_12-eps-converted-to.pdf
  used on input line 415.
-(pdftex.def)             Requested size: 218.51521pt x 170.68317pt.
+(pdftex.def)             Requested size: 218.51521pt x 165.8905pt.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_filt_12.eps>
 (epstopdf)                    date: 2016-11-08 22:25:43
 (epstopdf)                    size: 108647 bytes
@@ -4858,7 +4858,7 @@ t_12-eps-converted-to.pdf Cap4/Figuras/resultados_filt_12.eps>
 (epstopdf)             \includegraphics on input line 422.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_filt_12-eps-converted-to.pdf, id=1458, 371.3875pt x 29
+<Cap4/Figuras/resultados_filt_12-eps-converted-to.pdf, id=1467, 371.3875pt x 29
 0.08376pt>
 File: Cap4/Figuras/resultados_filt_12-eps-converted-to.pdf Graphic file (type p
 df)
@@ -4929,25 +4929,25 @@ Package hyperref Info: Reference (link) `figure.caption.86' on input line 438.
 Package hyperref Info: Reference (link) `figure.caption.87' on input line 438.
 Package hyperref Info: Anchor `figure.caption.84' on input line 442.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_unfilt_13.eps>
-(epstopdf)                    date: 2016-11-08 22:04:51
-(epstopdf)                    size: 175853 bytes
+(epstopdf)                    date: 2016-12-13 20:48:03
+(epstopdf)                    size: 253549 bytes
 (epstopdf)             Output file: <Cap4/Figuras/resultados_unfilt_13-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2016-11-08 22:13:05
-(epstopdf)                    size: 48877 bytes
+(epstopdf)                    date: 2016-12-13 20:56:27
+(epstopdf)                    size: 49300 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/resultados_unf
 ilt_13-eps-converted-to.pdf Cap4/Figuras/resultados_unfilt_13.eps>
 (epstopdf)             \includegraphics on input line 446.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_unfilt_13-eps-converted-to.pdf, id=1568, 406.51875pt x
- 305.14pt>
+<Cap4/Figuras/resultados_unfilt_13-eps-converted-to.pdf, id=1590, 418.56375pt x
+ 296.10625pt>
 File: Cap4/Figuras/resultados_unfilt_13-eps-converted-to.pdf Graphic file (type
  pdf)
  <use Cap4/Figuras/resultados_unfilt_13-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/resultados_unfilt_13-eps-converted-to.pdf
  used on input line 446.
-(pdftex.def)             Requested size: 218.51521pt x 164.01884pt.
+(pdftex.def)             Requested size: 218.51521pt x 154.58156pt.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_filt_13.eps>
 (epstopdf)                    date: 2016-11-08 22:25:53
 (epstopdf)                    size: 268578 bytes
@@ -4960,7 +4960,7 @@ t_13-eps-converted-to.pdf Cap4/Figuras/resultados_filt_13.eps>
 (epstopdf)             \includegraphics on input line 453.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_filt_13-eps-converted-to.pdf, id=1569, 406.51875pt x 3
+<Cap4/Figuras/resultados_filt_13-eps-converted-to.pdf, id=1591, 406.51875pt x 3
 05.14pt>
 File: Cap4/Figuras/resultados_filt_13-eps-converted-to.pdf Graphic file (type p
 df)
@@ -4973,25 +4973,25 @@ pdftex: bookmark at 457: {79} {\numberline{79}{\ignorespaces Formas de onda de
 corrente em regime Regime Transit\'orio\relax }} {figure.caption.84}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.85' on input line 461.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_unfilt_14.eps>
-(epstopdf)                    date: 2016-11-08 22:04:55
-(epstopdf)                    size: 127926 bytes
+(epstopdf)                    date: 2016-12-13 20:48:05
+(epstopdf)                    size: 211221 bytes
 (epstopdf)             Output file: <Cap4/Figuras/resultados_unfilt_14-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2016-11-08 22:13:08
-(epstopdf)                    size: 31998 bytes
+(epstopdf)                    date: 2016-12-13 20:56:37
+(epstopdf)                    size: 34833 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/resultados_unf
 ilt_14-eps-converted-to.pdf Cap4/Figuras/resultados_unfilt_14.eps>
 (epstopdf)             \includegraphics on input line 465.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_unfilt_14-eps-converted-to.pdf, id=1570, 406.51875pt x
- 305.14pt>
+<Cap4/Figuras/resultados_unfilt_14-eps-converted-to.pdf, id=1592, 421.575pt x 2
+96.10625pt>
 File: Cap4/Figuras/resultados_unfilt_14-eps-converted-to.pdf Graphic file (type
  pdf)
  <use Cap4/Figuras/resultados_unfilt_14-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/resultados_unfilt_14-eps-converted-to.pdf
  used on input line 465.
-(pdftex.def)             Requested size: 218.51521pt x 164.01884pt.
+(pdftex.def)             Requested size: 218.51521pt x 153.48364pt.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_filt_14.eps>
 (epstopdf)                    date: 2016-11-08 22:25:56
 (epstopdf)                    size: 230547 bytes
@@ -5004,7 +5004,7 @@ t_14-eps-converted-to.pdf Cap4/Figuras/resultados_filt_14.eps>
 (epstopdf)             \includegraphics on input line 472.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_filt_14-eps-converted-to.pdf, id=1571, 406.51875pt x 3
+<Cap4/Figuras/resultados_filt_14-eps-converted-to.pdf, id=1593, 406.51875pt x 3
 05.14pt>
 File: Cap4/Figuras/resultados_filt_14-eps-converted-to.pdf Graphic file (type p
 df)
@@ -5018,25 +5018,25 @@ tens\~ao e corrente em regime Regime Transit\'orio\relax }} {figure.caption.85}
 {0}{lof}
 Package hyperref Info: Anchor `figure.caption.86' on input line 480.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_unfilt_15.eps>
-(epstopdf)                    date: 2016-11-08 22:04:58
-(epstopdf)                    size: 317491 bytes
+(epstopdf)                    date: 2016-12-13 20:48:08
+(epstopdf)                    size: 399155 bytes
 (epstopdf)             Output file: <Cap4/Figuras/resultados_unfilt_15-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2016-11-08 22:13:11
-(epstopdf)                    size: 97615 bytes
+(epstopdf)                    date: 2016-12-13 20:56:48
+(epstopdf)                    size: 99485 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/resultados_unf
 ilt_15-eps-converted-to.pdf Cap4/Figuras/resultados_unfilt_15.eps>
 (epstopdf)             \includegraphics on input line 484.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_unfilt_15-eps-converted-to.pdf, id=1572, 365.365pt x 2
-77.035pt>
+<Cap4/Figuras/resultados_unfilt_15-eps-converted-to.pdf, id=1594, 376.40625pt x
+ 296.10625pt>
 File: Cap4/Figuras/resultados_unfilt_15-eps-converted-to.pdf Graphic file (type
  pdf)
  <use Cap4/Figuras/resultados_unfilt_15-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/resultados_unfilt_15-eps-converted-to.pdf
  used on input line 484.
-(pdftex.def)             Requested size: 218.51521pt x 165.68542pt.
+(pdftex.def)             Requested size: 218.51521pt x 171.90439pt.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_filt_15.eps>
 (epstopdf)                    date: 2016-11-08 22:26:05
 (epstopdf)                    size: 407510 bytes
@@ -5049,7 +5049,7 @@ t_15-eps-converted-to.pdf Cap4/Figuras/resultados_filt_15.eps>
 (epstopdf)             \includegraphics on input line 491.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_filt_15-eps-converted-to.pdf, id=1573, 365.365pt x 277
+<Cap4/Figuras/resultados_filt_15-eps-converted-to.pdf, id=1595, 365.365pt x 277
 .035pt>
 File: Cap4/Figuras/resultados_filt_15-eps-converted-to.pdf Graphic file (type p
 df)
@@ -5062,25 +5062,25 @@ pdftex: bookmark at 495: {81} {\numberline{81}{\ignorespaces Pot\^encias instan
 t\^aneas em regime Regime Transit\'orio\relax }} {figure.caption.86}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.87' on input line 499.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_unfilt_16.eps>
-(epstopdf)                    date: 2016-11-08 22:05:01
-(epstopdf)                    size: 165587 bytes
+(epstopdf)                    date: 2016-12-13 20:48:11
+(epstopdf)                    size: 245026 bytes
 (epstopdf)             Output file: <Cap4/Figuras/resultados_unfilt_16-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2016-11-08 22:13:14
-(epstopdf)                    size: 45366 bytes
+(epstopdf)                    date: 2016-12-13 20:56:49
+(epstopdf)                    size: 47795 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/resultados_unf
 ilt_16-eps-converted-to.pdf Cap4/Figuras/resultados_unfilt_16.eps>
 (epstopdf)             \includegraphics on input line 503.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_unfilt_16-eps-converted-to.pdf, id=1574, 367.3725pt x 
-277.035pt>
+<Cap4/Figuras/resultados_unfilt_16-eps-converted-to.pdf, id=1596, 377.41pt x 29
+6.10625pt>
 File: Cap4/Figuras/resultados_unfilt_16-eps-converted-to.pdf Graphic file (type
  pdf)
  <use Cap4/Figuras/resultados_unfilt_16-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/resultados_unfilt_16-eps-converted-to.pdf
  used on input line 503.
-(pdftex.def)             Requested size: 218.51521pt x 164.78502pt.
+(pdftex.def)             Requested size: 218.51521pt x 171.43901pt.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_filt_16.eps>
 (epstopdf)                    date: 2016-11-08 22:26:08
 (epstopdf)                    size: 308549 bytes
@@ -5093,7 +5093,7 @@ t_16-eps-converted-to.pdf Cap4/Figuras/resultados_filt_16.eps>
 (epstopdf)             \includegraphics on input line 510.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_filt_16-eps-converted-to.pdf, id=1575, 367.3725pt x 27
+<Cap4/Figuras/resultados_filt_16-eps-converted-to.pdf, id=1597, 367.3725pt x 27
 7.035pt>
 File: Cap4/Figuras/resultados_filt_16-eps-converted-to.pdf Graphic file (type p
 df)
@@ -5107,25 +5107,25 @@ ncias instant\^aneas em regime Regime Transit\'orio\relax }} {figure.caption.87
 }{0}{lof}
 Package hyperref Info: Anchor `figure.caption.88' on input line 518.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_unfilt_17.eps>
-(epstopdf)                    date: 2016-11-08 22:05:06
-(epstopdf)                    size: 53701 bytes
+(epstopdf)                    date: 2016-12-13 20:48:15
+(epstopdf)                    size: 222539 bytes
 (epstopdf)             Output file: <Cap4/Figuras/resultados_unfilt_17-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2016-11-08 22:13:18
-(epstopdf)                    size: 7894 bytes
+(epstopdf)                    date: 2016-12-13 20:56:57
+(epstopdf)                    size: 11616 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/resultados_unf
 ilt_17-eps-converted-to.pdf Cap4/Figuras/resultados_unfilt_17.eps>
 (epstopdf)             \includegraphics on input line 522.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_unfilt_17-eps-converted-to.pdf, id=1576, 384.43625pt x
- 314.17375pt>
+<Cap4/Figuras/resultados_unfilt_17-eps-converted-to.pdf, id=1598, 387.4475pt x 
+293.095pt>
 File: Cap4/Figuras/resultados_unfilt_17-eps-converted-to.pdf Graphic file (type
  pdf)
  <use Cap4/Figuras/resultados_unfilt_17-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/resultados_unfilt_17-eps-converted-to.pdf
  used on input line 522.
-(pdftex.def)             Requested size: 218.51521pt x 178.58232pt.
+(pdftex.def)             Requested size: 218.51521pt x 165.3038pt.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_filt_17.eps>
 (epstopdf)                    date: 2016-11-08 22:26:15
 (epstopdf)                    size: 48102 bytes
@@ -5138,7 +5138,7 @@ t_17-eps-converted-to.pdf Cap4/Figuras/resultados_filt_17.eps>
 (epstopdf)             \includegraphics on input line 529.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_filt_17-eps-converted-to.pdf, id=1577, 384.43625pt x 3
+<Cap4/Figuras/resultados_filt_17-eps-converted-to.pdf, id=1599, 384.43625pt x 3
 14.17375pt>
 File: Cap4/Figuras/resultados_filt_17-eps-converted-to.pdf Graphic file (type p
 df)
@@ -5152,25 +5152,25 @@ pdftex: bookmark at 533: {83} {\numberline{83}{\ignorespaces Espectro de frequ\
 ela norma MIL-STD 704F\relax }} {figure.caption.88}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.89' on input line 537.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_unfilt_18.eps>
-(epstopdf)                    date: 2016-11-08 22:05:09
-(epstopdf)                    size: 109673 bytes
+(epstopdf)                    date: 2016-12-13 20:48:19
+(epstopdf)                    size: 273104 bytes
 (epstopdf)             Output file: <Cap4/Figuras/resultados_unfilt_18-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2016-11-08 22:13:20
-(epstopdf)                    size: 14185 bytes
+(epstopdf)                    date: 2016-12-13 20:56:59
+(epstopdf)                    size: 15948 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/resultados_unf
 ilt_18-eps-converted-to.pdf Cap4/Figuras/resultados_unfilt_18.eps>
 (epstopdf)             \includegraphics on input line 541.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_unfilt_18-eps-converted-to.pdf, id=1578, 371.3875pt x 
-290.08376pt>
+<Cap4/Figuras/resultados_unfilt_18-eps-converted-to.pdf, id=1600, 383.4325pt x 
+291.0875pt>
 File: Cap4/Figuras/resultados_unfilt_18-eps-converted-to.pdf Graphic file (type
  pdf)
  <use Cap4/Figuras/resultados_unfilt_18-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/resultados_unfilt_18-eps-converted-to.pdf
  used on input line 541.
-(pdftex.def)             Requested size: 218.51521pt x 170.68317pt.
+(pdftex.def)             Requested size: 218.51521pt x 165.8905pt.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_filt_18.eps>
 (epstopdf)                    date: 2016-11-08 22:26:19
 (epstopdf)                    size: 121331 bytes
@@ -5183,7 +5183,7 @@ t_18-eps-converted-to.pdf Cap4/Figuras/resultados_filt_18.eps>
 (epstopdf)             \includegraphics on input line 548.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_filt_18-eps-converted-to.pdf, id=1579, 371.3875pt x 29
+<Cap4/Figuras/resultados_filt_18-eps-converted-to.pdf, id=1601, 371.3875pt x 29
 0.08376pt>
 File: Cap4/Figuras/resultados_filt_18-eps-converted-to.pdf Graphic file (type p
 df)
@@ -5241,25 +5241,25 @@ Package hyperref Info: Reference (link) `figure.caption.91' on input line 561.
 Package hyperref Info: Reference (link) `figure.caption.92' on input line 563.
 Package hyperref Info: Anchor `figure.caption.91' on input line 565.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_unfilt_19.eps>
-(epstopdf)                    date: 2016-11-08 22:05:12
-(epstopdf)                    size: 163045 bytes
+(epstopdf)                    date: 2016-12-13 20:48:21
+(epstopdf)                    size: 240689 bytes
 (epstopdf)             Output file: <Cap4/Figuras/resultados_unfilt_19-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2016-11-08 22:13:24
-(epstopdf)                    size: 44734 bytes
+(epstopdf)                    date: 2016-12-13 20:57:05
+(epstopdf)                    size: 46470 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/resultados_unf
 ilt_19-eps-converted-to.pdf Cap4/Figuras/resultados_unfilt_19.eps>
 (epstopdf)             \includegraphics on input line 569.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_unfilt_19-eps-converted-to.pdf, id=1634, 406.51875pt x
- 305.14pt>
+<Cap4/Figuras/resultados_unfilt_19-eps-converted-to.pdf, id=1664, 421.575pt x 2
+96.10625pt>
 File: Cap4/Figuras/resultados_unfilt_19-eps-converted-to.pdf Graphic file (type
  pdf)
  <use Cap4/Figuras/resultados_unfilt_19-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/resultados_unfilt_19-eps-converted-to.pdf
  used on input line 569.
-(pdftex.def)             Requested size: 218.51521pt x 164.01884pt.
+(pdftex.def)             Requested size: 218.51521pt x 153.48364pt.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_filt_19.eps>
 (epstopdf)                    date: 2016-11-08 22:26:26
 (epstopdf)                    size: 270943 bytes
@@ -5272,7 +5272,7 @@ t_19-eps-converted-to.pdf Cap4/Figuras/resultados_filt_19.eps>
 (epstopdf)             \includegraphics on input line 576.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_filt_19-eps-converted-to.pdf, id=1635, 396.48125pt x 3
+<Cap4/Figuras/resultados_filt_19-eps-converted-to.pdf, id=1665, 396.48125pt x 3
 05.14pt>
 File: Cap4/Figuras/resultados_filt_19-eps-converted-to.pdf Graphic file (type p
 df)
@@ -5285,25 +5285,25 @@ pdftex: bookmark at 580: {85} {\numberline{85}{\ignorespaces Formas de onda de
 corrente em regime Regime Permanente\relax }} {figure.caption.91}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.92' on input line 584.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_unfilt_20.eps>
-(epstopdf)                    date: 2016-11-08 22:05:14
-(epstopdf)                    size: 129338 bytes
+(epstopdf)                    date: 2016-12-13 20:48:22
+(epstopdf)                    size: 208235 bytes
 (epstopdf)             Output file: <Cap4/Figuras/resultados_unfilt_20-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2016-11-08 22:14:51
-(epstopdf)                    size: 30675 bytes
+(epstopdf)                    date: 2016-12-13 20:57:17
+(epstopdf)                    size: 32687 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/resultados_unf
 ilt_20-eps-converted-to.pdf Cap4/Figuras/resultados_unfilt_20.eps>
 (epstopdf)             \includegraphics on input line 588.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_unfilt_20-eps-converted-to.pdf, id=1636, 406.51875pt x
- 305.14pt>
+<Cap4/Figuras/resultados_unfilt_20-eps-converted-to.pdf, id=1666, 421.575pt x 2
+96.10625pt>
 File: Cap4/Figuras/resultados_unfilt_20-eps-converted-to.pdf Graphic file (type
  pdf)
  <use Cap4/Figuras/resultados_unfilt_20-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/resultados_unfilt_20-eps-converted-to.pdf
  used on input line 588.
-(pdftex.def)             Requested size: 218.51521pt x 164.01884pt.
+(pdftex.def)             Requested size: 218.51521pt x 153.48364pt.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_filt_20.eps>
 (epstopdf)                    date: 2016-11-08 22:26:28
 (epstopdf)                    size: 230922 bytes
@@ -5316,7 +5316,7 @@ t_20-eps-converted-to.pdf Cap4/Figuras/resultados_filt_20.eps>
 (epstopdf)             \includegraphics on input line 595.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_filt_20-eps-converted-to.pdf, id=1637, 406.51875pt x 3
+<Cap4/Figuras/resultados_filt_20-eps-converted-to.pdf, id=1667, 406.51875pt x 3
 05.14pt>
 File: Cap4/Figuras/resultados_filt_20-eps-converted-to.pdf Graphic file (type p
 df)
@@ -5330,25 +5330,25 @@ tens\~ao e corrente em regime Regime Permanente\relax }} {figure.caption.92}{0}
 {lof}
 Package hyperref Info: Anchor `figure.caption.93' on input line 603.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_unfilt_21.eps>
-(epstopdf)                    date: 2016-11-08 22:05:16
-(epstopdf)                    size: 264819 bytes
+(epstopdf)                    date: 2016-12-13 20:48:24
+(epstopdf)                    size: 342928 bytes
 (epstopdf)             Output file: <Cap4/Figuras/resultados_unfilt_21-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2016-11-08 22:14:54
-(epstopdf)                    size: 83993 bytes
+(epstopdf)                    date: 2016-12-13 20:57:19
+(epstopdf)                    size: 86120 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/resultados_unf
 ilt_21-eps-converted-to.pdf Cap4/Figuras/resultados_unfilt_21.eps>
 (epstopdf)             \includegraphics on input line 607.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_unfilt_21-eps-converted-to.pdf, id=1638, 360.34625pt x
- 275.0275pt>
+<Cap4/Figuras/resultados_unfilt_21-eps-converted-to.pdf, id=1668, 369.38pt x 29
+3.095pt>
 File: Cap4/Figuras/resultados_unfilt_21-eps-converted-to.pdf Graphic file (type
  pdf)
  <use Cap4/Figuras/resultados_unfilt_21-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/resultados_unfilt_21-eps-converted-to.pdf
  used on input line 607.
-(pdftex.def)             Requested size: 218.51521pt x 166.77614pt.
+(pdftex.def)             Requested size: 218.51521pt x 173.38518pt.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_filt_21.eps>
 (epstopdf)                    date: 2016-11-08 22:26:30
 (epstopdf)                    size: 400674 bytes
@@ -5361,7 +5361,7 @@ t_21-eps-converted-to.pdf Cap4/Figuras/resultados_filt_21.eps>
 (epstopdf)             \includegraphics on input line 614.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_filt_21-eps-converted-to.pdf, id=1639, 360.34625pt x 2
+<Cap4/Figuras/resultados_filt_21-eps-converted-to.pdf, id=1669, 360.34625pt x 2
 75.0275pt>
 File: Cap4/Figuras/resultados_filt_21-eps-converted-to.pdf Graphic file (type p
 df)
@@ -5374,25 +5374,25 @@ pdftex: bookmark at 618: {87} {\numberline{87}{\ignorespaces Pot\^encias instan
 t\^aneas em regime Regime Permanente\relax }} {figure.caption.93}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.94' on input line 622.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_unfilt_22.eps>
-(epstopdf)                    date: 2016-11-08 22:05:18
-(epstopdf)                    size: 168538 bytes
+(epstopdf)                    date: 2016-12-13 20:48:26
+(epstopdf)                    size: 247715 bytes
 (epstopdf)             Output file: <Cap4/Figuras/resultados_unfilt_22-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2016-11-08 22:14:57
-(epstopdf)                    size: 44830 bytes
+(epstopdf)                    date: 2016-12-13 20:57:20
+(epstopdf)                    size: 47226 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/resultados_unf
 ilt_22-eps-converted-to.pdf Cap4/Figuras/resultados_unfilt_22.eps>
 (epstopdf)             \includegraphics on input line 626.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_unfilt_22-eps-converted-to.pdf, id=1640, 362.35374pt x
- 275.0275pt>
+<Cap4/Figuras/resultados_unfilt_22-eps-converted-to.pdf, id=1670, 370.38374pt x
+ 293.095pt>
 File: Cap4/Figuras/resultados_unfilt_22-eps-converted-to.pdf Graphic file (type
  pdf)
  <use Cap4/Figuras/resultados_unfilt_22-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/resultados_unfilt_22-eps-converted-to.pdf
  used on input line 626.
-(pdftex.def)             Requested size: 218.51521pt x 165.85709pt.
+(pdftex.def)             Requested size: 218.51521pt x 172.92006pt.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_filt_22.eps>
 (epstopdf)                    date: 2016-11-08 22:26:32
 (epstopdf)                    size: 303778 bytes
@@ -5405,7 +5405,7 @@ t_22-eps-converted-to.pdf Cap4/Figuras/resultados_filt_22.eps>
 (epstopdf)             \includegraphics on input line 633.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_filt_22-eps-converted-to.pdf, id=1641, 362.35374pt x 2
+<Cap4/Figuras/resultados_filt_22-eps-converted-to.pdf, id=1671, 362.35374pt x 2
 75.0275pt>
 File: Cap4/Figuras/resultados_filt_22-eps-converted-to.pdf Graphic file (type p
 df)
@@ -5419,25 +5419,25 @@ ncias instant\^aneas em regime Regime Permanente\relax }} {figure.caption.94}{0
 }{lof}
 Package hyperref Info: Anchor `figure.caption.95' on input line 641.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_unfilt_23.eps>
-(epstopdf)                    date: 2016-11-08 22:05:21
-(epstopdf)                    size: 50411 bytes
+(epstopdf)                    date: 2016-12-13 20:48:29
+(epstopdf)                    size: 219215 bytes
 (epstopdf)             Output file: <Cap4/Figuras/resultados_unfilt_23-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2016-11-08 22:15:23
-(epstopdf)                    size: 7000 bytes
+(epstopdf)                    date: 2016-12-13 20:57:22
+(epstopdf)                    size: 10690 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/resultados_unf
 ilt_23-eps-converted-to.pdf Cap4/Figuras/resultados_unfilt_23.eps>
 (epstopdf)             \includegraphics on input line 645.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_unfilt_23-eps-converted-to.pdf, id=1642, 384.43625pt x
- 314.17375pt>
+<Cap4/Figuras/resultados_unfilt_23-eps-converted-to.pdf, id=1672, 387.4475pt x 
+293.095pt>
 File: Cap4/Figuras/resultados_unfilt_23-eps-converted-to.pdf Graphic file (type
  pdf)
  <use Cap4/Figuras/resultados_unfilt_23-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/resultados_unfilt_23-eps-converted-to.pdf
  used on input line 645.
-(pdftex.def)             Requested size: 218.51521pt x 178.58232pt.
+(pdftex.def)             Requested size: 218.51521pt x 165.3038pt.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_filt_23.eps>
 (epstopdf)                    date: 2016-11-08 22:26:36
 (epstopdf)                    size: 48235 bytes
@@ -5450,7 +5450,7 @@ t_23-eps-converted-to.pdf Cap4/Figuras/resultados_filt_23.eps>
 (epstopdf)             \includegraphics on input line 652.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_filt_23-eps-converted-to.pdf, id=1643, 384.43625pt x 3
+<Cap4/Figuras/resultados_filt_23-eps-converted-to.pdf, id=1673, 384.43625pt x 3
 14.17375pt>
 File: Cap4/Figuras/resultados_filt_23-eps-converted-to.pdf Graphic file (type p
 df)
@@ -5464,25 +5464,25 @@ pdftex: bookmark at 656: {89} {\numberline{89}{\ignorespaces Espectro de frequ\
  norma MIL-STD 704F\relax }} {figure.caption.95}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.96' on input line 660.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_unfilt_24.eps>
-(epstopdf)                    date: 2016-11-08 22:05:24
-(epstopdf)                    size: 86864 bytes
+(epstopdf)                    date: 2016-12-13 20:48:32
+(epstopdf)                    size: 250267 bytes
 (epstopdf)             Output file: <Cap4/Figuras/resultados_unfilt_24-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2016-11-08 22:15:26
-(epstopdf)                    size: 9914 bytes
+(epstopdf)                    date: 2016-12-13 20:57:24
+(epstopdf)                    size: 12139 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/resultados_unf
 ilt_24-eps-converted-to.pdf Cap4/Figuras/resultados_unfilt_24.eps>
 (epstopdf)             \includegraphics on input line 664.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_unfilt_24-eps-converted-to.pdf, id=1644, 371.3875pt x 
-290.08376pt>
+<Cap4/Figuras/resultados_unfilt_24-eps-converted-to.pdf, id=1674, 383.4325pt x 
+291.0875pt>
 File: Cap4/Figuras/resultados_unfilt_24-eps-converted-to.pdf Graphic file (type
  pdf)
  <use Cap4/Figuras/resultados_unfilt_24-eps-converted-to.pdf>
 Package pdftex.def Info: Cap4/Figuras/resultados_unfilt_24-eps-converted-to.pdf
  used on input line 664.
-(pdftex.def)             Requested size: 218.51521pt x 170.68317pt.
+(pdftex.def)             Requested size: 218.51521pt x 165.8905pt.
 Package epstopdf Info: Source file: <Cap4/Figuras/resultados_filt_24.eps>
 (epstopdf)                    date: 2016-11-08 22:26:39
 (epstopdf)                    size: 87315 bytes
@@ -5495,7 +5495,7 @@ t_24-eps-converted-to.pdf Cap4/Figuras/resultados_filt_24.eps>
 (epstopdf)             \includegraphics on input line 671.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/resultados_filt_24-eps-converted-to.pdf, id=1645, 371.3875pt x 29
+<Cap4/Figuras/resultados_filt_24-eps-converted-to.pdf, id=1675, 371.3875pt x 29
 0.08376pt>
 File: Cap4/Figuras/resultados_filt_24-eps-converted-to.pdf Graphic file (type p
 df)
@@ -5586,16 +5586,26 @@ Cap\'{\i }tulo 5.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 pdftex: bookmark at 1: {5} {\numberline{5}Conclus\~ao} {chapter.5}{0}{toc}
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 19.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 19.
+Package hyperref Info: Anchor `page.97' on input line 19.
+[97
+
+]
+Package hyperref Info: Anchor `section*.98' on input line 25.
+
+pdftex: bookmark at 25: {\thetodo } {\'e fact\IeC {\'\i }vel a constru\c c\~ao 
+de uma caixa eletr\^onica com o filtro} {section*.98}{0}{tdo}
 ) (Dissertacao.bbl
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
-Package hyperref Info: Anchor `page.97' on input line 3.
- [97
-
-]
-Package hyperref Info: Anchor `chapter*.98' on input line 3.
+Package hyperref Info: Anchor `page.98' on input line 3.
+ [98]
+Package hyperref Info: Anchor `chapter*.99' on input line 3.
 Package hyperref Info: Anchor `chapter.6' on input line 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
@@ -5645,8 +5655,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 75.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 75.
-Package hyperref Info: Anchor `page.98' on input line 75.
-[98
+Package hyperref Info: Anchor `page.99' on input line 75.
+[99
 
 ]
 Package hyperref Info: Anchor `cite.Cidade' on input line 76.
@@ -5736,8 +5746,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 150.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 150.
-Package hyperref Info: Anchor `page.99' on input line 150.
-[99]
+Package hyperref Info: Anchor `page.100' on input line 150.
+[100]
 Package hyperref Info: Anchor `cite.Mussoi2004' on input line 151.
 Package hyperref Info: Anchor `cite.Singh2008' on input line 158.
 Package hyperref Info: Anchor `cite.Gong2003' on input line 165.
@@ -5753,8 +5763,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 221.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 221.
-Package hyperref Info: Anchor `page.100' on input line 221.
- [100]
+Package hyperref Info: Anchor `page.101' on input line 221.
+ [101]
 Package hyperref Info: Anchor `cite.Barruel2004' on input line 221.
 Package hyperref Info: Anchor `cite.Chen2012research' on input line 228.
 Package hyperref Info: Anchor `cite.Akagi2006' on input line 234.
@@ -5786,8 +5796,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 282.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 282.
-Package hyperref Info: Anchor `page.101' on input line 282.
-[101]
+Package hyperref Info: Anchor `page.102' on input line 282.
+[102]
 Package hyperref Info: Anchor `cite.Budeanu1927' on input line 282.
 Package hyperref Info: Anchor `cite.Czarnecki1987' on input line 288.
 Package hyperref Info: Anchor `cite.Akagi2007' on input line 295.
@@ -5802,8 +5812,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 346.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 346.
-Package hyperref Info: Anchor `page.102' on input line 346.
- [102]
+Package hyperref Info: Anchor `page.103' on input line 346.
+ [103]
 Package hyperref Info: Anchor `cite.Watanabe1993' on input line 346.
 Package hyperref Info: Anchor `cite.Olivier' on input line 353.
 
@@ -5822,8 +5832,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 268.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 268.
-Package hyperref Info: Anchor `page.103' on input line 268.
-[103]
+Package hyperref Info: Anchor `page.104' on input line 268.
+[104]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 268.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 268.
@@ -5851,13 +5861,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 268.
 ### simple group (level 1) entered at line 64 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31967 strings out of 493335
- 638678 string characters out of 3136684
- 778864 words of memory out of 3000000
- 34391 multiletter control sequences out of 15000+200000
+ 31977 strings out of 493335
+ 638882 string characters out of 3136684
+ 779014 words of memory out of 3000000
+ 34399 multiletter control sequences out of 15000+200000
  51447 words of font info for 125 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,14n,77p,10385b,2991s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,14n,77p,10385b,2993s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Joao\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
 en\ec\dpi600\tcrm1200.pk> <C:\Users\Joao\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
 ur\jknappen\ec\dpi600\tcrm1095.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
@@ -5878,9 +5888,9 @@ C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Dissertacao.pdf (103 pages, 5318725 bytes).
+Output written on Dissertacao.pdf (104 pages, 5378645 bytes).
 PDF statistics:
- 1949 PDF objects out of 2073 (max. 8388607)
- 371 named destinations out of 1000 (max. 500000)
+ 2003 PDF objects out of 2073 (max. 8388607)
+ 373 named destinations out of 1000 (max. 500000)
  916 words of extra memory for PDF output out of 10000 (max. 10000000)
 

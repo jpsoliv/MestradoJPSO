@@ -38,13 +38,13 @@ S = sqrt(P.^2+Q.^2);
 plot(t,S,t,P,t,Q);
 
 l = legend('S  [VA]','P  [W]','Q [vai]');
-set(l,'Interpreter','tex');
+set(l,'Interpreter','latex');
 set(l,'FontName','Times New Roman');
 set(l,'Location','SouthEast');
 set(l,'FontSize',12);
 
 xl = xlabel('tempo [s]');
-set(xl,'Interpreter','tex');
+set(xl,'Interpreter','latex');
 set(xl,'FontName','Times New Roman');
 set(xl,'FontSize',18);
 

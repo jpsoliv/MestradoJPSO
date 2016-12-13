@@ -50,7 +50,7 @@ IHCf = IHCf(max(y1)==y(index));
 ft = 30;
 fatorX = 2;
 fatorY = 0.9;
-ftaxes = 18;
+ftaxes = 24;
 ftlegend = 12;
 % figure(1)
 % plot(t,X);
@@ -62,15 +62,15 @@ plot(f/f_rede,y/sqrt(2));
 hold off
 xlim([0 40]);
 
-xl = xlabel('Harmônica');
-set(xl,'Interpreter','tex');
-set(xl,'FontName','Times New Roman');
-set(xl,'FontSize',ftaxes);
-
-yl = ylabel('Amplitude [\itV_{rms}\rm]');
-set(yl,'Interpreter','tex');
-set(yl,'FontName','Times New Roman');
-set(yl,'FontSize',ftaxes);
+% xl = xlabel('Harmônica');
+% set(xl,'Interpreter','tex');
+% set(xl,'FontName','Times New Roman');
+% set(xl,'FontSize',ftaxes);
+% 
+% yl = ylabel('Amplitude [\itV_{rms}\rm]');
+% set(yl,'Interpreter','tex');
+% set(yl,'FontName','Times New Roman');
+% set(yl,'FontSize',ftaxes);
 
 xtx = get(gca,'xlim');
 xtx(1) = [];
@@ -79,7 +79,7 @@ ytx(1) = [];
 tx = text(xtx*0.9,ytx*0.9,{['THD = ' num2str(THD,'%.2f') '%'];['IHC = ' num2str(IHC,'%.2f') '% em ' num2str(round(IHCf),'%u') ' Hz']});
 set(tx,'VerticalAlignment','top');
 set(tx,'HorizontalAlignment','right');
-set(tx,'Interpreter','tex');
+set(tx,'Interpreter','latex');
 set(tx,'FontName','Times New Roman');
 set(tx,'FontSize',ftlegend);
 hold off

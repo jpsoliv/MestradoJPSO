@@ -54,7 +54,7 @@ yvar(fvar==1e6) = 10^(-34.44/20);
 ft = 30;
 fatorX = 2;
 fatorY = 0.9;
-ftaxes = 18;
+ftaxes = 50;
 ftlegend = 12;
 
 loglog(ffix,yfix,'k',fvar,yvar,'k--');
@@ -65,20 +65,19 @@ ylim([10^(-34.44/20) 200]);
 xlim([10 1e6]);
 
 l = legend('MIL-STD 704F - 400 Hz','MIL-STD 704F - Freq. Var.');
-set(l,'Interpreter','tex');
+set(l,'Interpreter','latex');
 set(l,'FontName','Times New Roman');
 set(l,'FontSize',ftlegend);
 set(l,'Box','off'); 
 
-xl = xlabel('Frequência [Hz]');
-set(xl,'Interpreter','tex')
-set(xl,'FontName','Times New Roman');
-% set(xl,'FontAngle','italic');
-set(xl,'FontSize',ftaxes);
-
-yl = ylabel('Amplitude [\itV_{rms}\rm]');
-set(yl,'Interpreter','tex');
-set(yl,'FontName','Times New Roman');
-% set(yl,'FontAngle','italic');
-set(yl,'FontSize',ftaxes);
-end
+% xl = xlabel('Frequência [Hz]');
+% set(xl,'Interpreter','tex')
+% set(xl,'FontName','Times New Roman');
+% % set(xl,'FontAngle','italic');
+% set(xl,'FontSize',ftaxes);
+% 
+% yl = ylabel('Amplitude [\itV_{rms}\rm]');
+% set(yl,'Interpreter','tex');
+% set(yl,'FontName','Times New Roman');
+% % set(yl,'FontAngle','italic');
+% set(yl,'FontSize',ftaxes);
