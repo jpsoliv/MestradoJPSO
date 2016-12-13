@@ -1,4 +1,27 @@
 \chapter{Conclusão}\label{cap:Conclusão}
 
+Quanto aos resultados da simulação:
+
+O filtro atuou como esperado, tornando a operação de três EHAs dentro da norma MIL-STD 704F durante todo o intervalo de funcionamento. Além disso, as características de funcionamento quanto à rapidez e eficiência em manter as formas de onda da corrente senoidais quando havia rápida variação de carga também foi verificado. 
+
+A operação do filtro acaba por degradar a qualidade de energia quando não há consumo de potência pela carga. Mas cabe observar que, mesmo com essa degradação, a apresentação das tensões ainda estão dentro das normas. Além disso, quando o EHA, ou algum outro tipo de carga não linear consome elevada corrente a qualidade de energia é melhorada substancialmente.
+
+As perdas nos semicondutores do filtro estão presentes mesmo quando não existe corrente sendo provisionado ao circuito. Com isso, mesmo quando a carga não linear não está exigindo corrente, a potência do conjunto carga + filtro não é nulo. Com isso, deve-se avaliar a necessidade de inclusão do filtro em determinadas cargas, visto que estes elevam a potência exigida pelo gerador.
+
+Com essas considerações a aplicação dos filtros ativos deve ser analisada quanto o regime de operação e potência das cargas, dado que sua providência deve ser aplicada onde há uma degradação significativa na qualidade de energia do sistema. Dessa maneira, deve-se avaliar se a operação do filtro visa trazer mais benefício com a manutenção das formas de onda dentro dos limites especificados pelas normas em comparação ao detrimento causado pela presença do filtro em cargas cuja operação é dada com baixa potência. 
+
+próximos passos:
+
+Os sistemas elétricos aeronáuticos são composto por diversas cargas e sistemas de proteção que garantem sua confiabilidade. Com isso, deve-se analisar a operação dos filtros visando a integração do filtro ativo com outras cargas e sistemas. Isto pode ser realizado através de simulações mais precisas que representem de melhor maneira a aplicabilidade prática do sistema de filtragem.
+
+Outra maneira de analisar o comportamento dos filtros ativos em sistemas reais é com a construção de uma caixa eletrônica com os circuitos necessários para a operação do filtro. Para tal, é necessário um estudo aprofundado do comportamento dos elementos semicondutores presentes, além de definir subsistemas de proteção e arrefecimento do filtro. Com isso, é possível integrar os sistemas em laboratório e em um protótipo de aeronave.  
+
+Logica fuzzy no controle de tensão do capacitor pode melhorar consideravelmente o transiente quando há variação de cargas (label procurar), melhorando a eficiência em seu funcionamento. 
+
+Uma otimização dos filtros capacitivos para eliminar componentes de alta frequência devido à comutação é necessária para uma aplicação prática. Entretanto deve-se ter em mente que em sistemas aeronáuticos a frequência (350-800 Hz) é elevada e aumentaria a potência reativa de deslocamento. Com isso, a otimização do filtro deve-se levar em conta também a inserção de um reator para compensação. Estes fatores elevam o peso e devem ser analisados para a implementação do filtro ativo em  comparação com outras soluções de correção de fator de potência.
+
+
+
+\todo{é factível a construção de uma caixa eletrônica com o filtro}
 
 %\todo[inline]{5 Págs}
