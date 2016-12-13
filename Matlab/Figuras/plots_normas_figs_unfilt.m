@@ -44,14 +44,14 @@ print(['resultados_unfilt_',num2str(n)],'-depsc');
 fig = figure(3);
 [~,~,~]=aparente(t,V,I,'unfilt');
 xlim([t(1) t(end)]);
-ylim([-40 40]);
+ylim([-200 200]);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(4);
 [~,~,~]=aparente(t,V,I,'unfilt');
 xlim([t(end)-0.01 t(end)]);
-ylim([-40 40]);
+ylim([-200 200]);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 

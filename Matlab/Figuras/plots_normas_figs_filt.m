@@ -25,6 +25,7 @@ tf_rperm = time(end);
 
 [V,I,t] = periodo(Vsignal,Isignal,time,ti_inop,tf_inop);
 
+%% EHA Inoperante 
 fig = figure(1);
 tensaocorrente(V,I,t);
 xlim([t(1) t(end)]);
@@ -40,16 +41,16 @@ n = get(fig,'Number');
 print(['resultados_filt_',num2str(n)],'-depsc');
 
 fig = figure(3);
-[~,~,~]=aparente(t,V,I,'filt');
+[~,~,~]=aparente(t,V,I,'unfilt');
 xlim([t(1) t(end)]);
-ylim([-40 40]);
+ylim([-200 200]);
 n = get(fig,'Number');
 print(['resultados_filt_',num2str(n)],'-depsc');
 
 fig = figure(4);
-[~,~,~]=aparente(t,V,I,'filt');
+[~,~,~]=aparente(t,V,I,'unfilt');
 xlim([t(end)-0.01 t(end)]);
-ylim([-40 40]);
+ylim([-200 200]);
 n = get(fig,'Number');
 print(['resultados_filt_',num2str(n)],'-depsc');
 
@@ -68,7 +69,7 @@ print(['resultados_filt_',num2str(n)],'-depsc');
 [V,I,t] = periodo(Vsignal,Isignal,time,ti_max,tf_max);
 
 fig = figure(7);
-l_hor
+% l_hor
 tensaocorrente(V,I,t);
 xlim([t(1) t(end)]);
 ylim([-400 400]);
