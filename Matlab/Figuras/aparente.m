@@ -35,7 +35,19 @@ end
 
 S = sqrt(P.^2+Q.^2);
 
-plot(t,S,t,P,t,Q);legend('S','P','Q')
+plot(t,S,t,P,t,Q);
+
+l = legend('S  [VA]','P  [W]','Q [vai]');
+set(l,'Interpreter','tex');
+set(l,'FontName','Times New Roman');
+set(l,'Location','SouthEast');
+set(l,'FontSize',12);
+
+xl = xlabel('tempo [s]');
+set(xl,'Interpreter','tex');
+set(xl,'FontName','Times New Roman');
+set(xl,'FontSize',18);
+
 v = get(gca);
 lh = line([0 0 NaN v.XLim],[v.YLim NaN 0 0 ]);
 set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);

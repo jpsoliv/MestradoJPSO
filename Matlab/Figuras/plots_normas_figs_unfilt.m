@@ -23,27 +23,35 @@ tf_rperm = time(end);
 
 % [V,I,t] = periodo(Vsignal,Isignal,time,ti,tf);
 
+%% definição dos parâmetros das figuras
+
+xtickfontsize = 13;     % Tamanho da fonte das escalas tanto em x com em y
+
 %% Inoperante
 
 [V,I,t] = periodo(Vsignal,Isignal,time,ti_inop,tf_inop);
 
-fig = figure(1);
-tensaocorrente(V,I,t);
-xlim([t(1) t(end)]);
-ylim([-1.3 1.3]);
-n = get(fig,'Number');
-print(['resultados_unfilt_',num2str(n)],'-depsc');
-
-fig = figure(2);
-tensaocorrente(V,I,t);
-xlim([t(end)-0.01 t(end)]);
-ylim([-1.3 1.3]);
-n = get(fig,'Number');
-print(['resultados_unfilt_',num2str(n)],'-depsc');
+% fig = figure(1);
+% tensaocorrente(V,I,t);
+% xlim([t(1) t(end)]);
+% set(gca,'XTick',[t(1), t(1)+(t(end)-t(1))/4, t(1)+(t(end)-t(1))/4*2, t(1)+(t(end)-t(1))/4*3, t(1)+(t(end)-t(1))/4*4],'FontSize',xtickfontsize);
+% ylim([-1.3 1.3]);
+% n = get(fig,'Number');
+% print(['resultados_unfilt_',num2str(n)],'-depsc');
+% 
+% fig = figure(2);
+% tensaocorrente(V,I,t);
+% xlim([t(end)-0.01 t(end)]);
+% set(gca,'XTick',[72.935, 72.935+0.0025 72.935+2*0.0025 72.935+3*0.0025 t(end)],'FontSize',xtickfontsize);
+% ylim([-1.3 1.3]);
+% n = get(fig,'Number');
+% print(['resultados_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(3);
 [~,~,~]=aparente(t,V,I,'unfilt');
 xlim([t(1) t(end)]);
+set(gca,'XTick',[t(1), t(1)+(t(end)-t(1))/4, t(1)+(t(end)-t(1))/4*2, t(1)+(t(end)-t(1))/4*3, t(1)+(t(end)-t(1))/4*4],'FontSize',xtickfontsize);
+% xticks([t(1), t(1)+(t(end)-t(1))/4, t(1)+(t(end)-t(1))/4*2, t(1)+(t(end)-t(1))/4*3, t(1)+(t(end)-t(1))/4*4]);
 ylim([-200 200]);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
@@ -51,17 +59,21 @@ print(['resultados_unfilt_',num2str(n)],'-depsc');
 fig = figure(4);
 [~,~,~]=aparente(t,V,I,'unfilt');
 xlim([t(end)-0.01 t(end)]);
+set(gca,'XTick',[72.935, 72.935+0.0025 72.935+2*0.0025 72.935+3*0.0025 t(end)],'FontSize',xtickfontsize);
+% xticks([72.935, 72.935+0.0025 72.935+2*0.0025 72.935+3*0.0025 t(end)]);
 ylim([-200 200]);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(5);
 MILSTD704(t,V);
+set(gca,'FontSize',xtickfontsize);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(6);
 DO160(t,V,f_rede);
+set(gca,'FontSize',xtickfontsize);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 

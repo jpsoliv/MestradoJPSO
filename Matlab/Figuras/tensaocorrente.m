@@ -1,6 +1,6 @@
 function tensaocorrente(V,I,t)
 
-title('Tensão e Corrente no PCC')
+% title('Tensão e Corrente no PCC')
 % plot(t,X,t,Iabc.signals.values(index_ini:index_fim));
 yyaxis left
 plot(t,V(:,1));

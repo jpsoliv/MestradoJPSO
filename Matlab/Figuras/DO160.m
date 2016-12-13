@@ -47,6 +47,11 @@ IHCf = IHCf(max(y1)==y(index));
 
 %% PLOT
 
+ft = 30;
+fatorX = 2;
+fatorY = 0.9;
+ftaxes = 18;
+ftlegend = 12;
 % figure(1)
 % plot(t,X);
 
@@ -60,10 +65,12 @@ xlim([0 40]);
 xl = xlabel('Harmônica');
 set(xl,'Interpreter','tex');
 set(xl,'FontName','Times New Roman');
+set(xl,'FontSize',ftaxes);
 
 yl = ylabel('Amplitude [\itV_{rms}\rm]');
 set(yl,'Interpreter','tex');
 set(yl,'FontName','Times New Roman');
+set(yl,'FontSize',ftaxes);
 
 xtx = get(gca,'xlim');
 xtx(1) = [];
@@ -74,5 +81,6 @@ set(tx,'VerticalAlignment','top');
 set(tx,'HorizontalAlignment','right');
 set(tx,'Interpreter','tex');
 set(tx,'FontName','Times New Roman');
+set(tx,'FontSize',ftlegend);
 hold off
 

@@ -43,6 +43,7 @@ print(['resultados_filt_',num2str(n)],'-depsc');
 fig = figure(3);
 [~,~,~]=aparente(t,V,I,'unfilt');
 xlim([t(1) t(end)]);
+xticks([t(1), t(1)+0.0025 t(1)+2*0.0025 t(1)+3*0.0025 t(1)+4*0.0025]);
 ylim([-200 200]);
 n = get(fig,'Number');
 print(['resultados_filt_',num2str(n)],'-depsc');
