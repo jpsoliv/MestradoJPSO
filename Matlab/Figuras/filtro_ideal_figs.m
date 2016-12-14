@@ -146,7 +146,7 @@ Ic = ic+Ic_p;
 %% plots
 
 ft = 30;
-fatorX = 2;
+fatorX = 2.2;
 fatorY = 0.9;
 ftaxes = 24;
 
@@ -159,7 +159,7 @@ set(xl,'FontName','Times New Roman');
 % set(xl,'FontAngle','italic');
 set(xl,'FontSize',ftaxes);
 
-yl = ylabel({'Tensão [V]';'Corrente [A]'});
+yl = ylabel({'Tens\~ao [V]';'Corrente [A]'});
 set(yl,'Interpreter','Latex');
 set(yl,'FontName','Times New Roman');
 % set(yl,'FontAngle','italic');
@@ -189,7 +189,7 @@ set(xl,'FontName','Times New Roman');
 set(xl,'FontAngle','italic');
 set(xl,'FontSize',ftaxes);
 
-yl = ylabel({'Potência Ativa [W]';'Potência Reativa [vai]'});
+yl = ylabel({'Pot\^encia Ativa [W]';'Pot\^encia Reativa [vai]'});
 set(yl,'Interpreter','Latex');
 set(yl,'FontName','Times New Roman');
 % set(yl,'FontAngle','italic');
@@ -218,7 +218,7 @@ set(xl,'FontName','Times New Roman');
 set(xl,'FontAngle','italic');
 set(xl,'FontSize',ftaxes);
 
-yl = ylabel({'Potência Ativa [W]';'Potência Reativa [vai]'});
+yl = ylabel({'Pot\^encia Ativa [W]';'Pot\^encia Reativa [vai]'});
 set(yl,'Interpreter','Latex');
 set(yl,'FontName','Times New Roman');
 % set(yl,'FontAngle','italic');
@@ -320,7 +320,7 @@ set(xl,'FontName','Times New Roman');
 set(xl,'FontAngle','italic');
 set(xl,'FontSize',ftaxes);
 
-yl = ylabel({'Tensão [V]';'Corrente [A]'});
+yl = ylabel({'Tens\~ao [V]';'Corrente [A]'});
 set(yl,'Interpreter','Latex');
 set(yl,'FontName','Times New Roman');
 % set(yl,'FontAngle','italic');
@@ -363,7 +363,7 @@ set(xl,'FontName','Times New Roman');
 set(xl,'FontAngle','italic');
 set(xl,'FontSize',ftaxes);
 
-yl = ylabel({'Potência Ativa [W]';'Potência Reativa [vai]'});
+yl = ylabel({'Pot\^encia Ativa [W]';'Pot\^encia Reativa [vai]'});
 set(yl,'Interpreter','Latex');
 set(yl,'FontName','Times New Roman');
 % set(yl,'FontAngle','italic');

@@ -12,6 +12,7 @@ Vpc = M(:,3);
 
 bar(f,Vpc,2,'k');
 xlim([0 15000]);
-xlabel('Frequência','FontSize',14);ylabel('Amplitude [V]','FontSize',14);
+xlabel('Harm\^onica','FontSize',18,'Interpreter','latex','FontName','Times New Roman');
+ylabel('Amplitude [V]','FontSize',18,'Interpreter','latex','FontName','Times New Roman');
 %grid on
 set(gca,'XtickLabel',[],'YtickLabel',[]);

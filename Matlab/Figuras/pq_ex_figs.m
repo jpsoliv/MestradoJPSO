@@ -87,14 +87,14 @@ q0_desb = -Valpha_desb.*Ibeta_desb-Vbeta_desb.*Ialpha_desb;
 q_desb = sqrt(qalpha_desb.^2+qbeta_desb.^2+q0_desb.^2);
 
 figure(1)
-plot(t,p_bal,'LineWidth',2.5);%title('Potência Instantânea Ativa','FontSize',24);
+plot(t,p_bal,'k','LineWidth',2.5);%title('Potência Instantânea Ativa','FontSize',24);
 set(gca,'Position',[0.05,0.05,0.9,0.9]);
 ylim([-2600 2600])
 set(gca,'XtickLabel',[],'YtickLabel',[]);
 
 
 figure(2)
-plot(t,q_bal,'LineWidth',2.5);%title('Potência Instantânea Reativa','FontSize',24);
+plot(t,q_bal,'k','LineWidth',2.5);%title('Potência Instantânea Reativa','FontSize',24);
 set(gca,'Position',[0.05,0.05,0.9,0.9]);
 ylim([-2600 2600])
 set(gca,'XtickLabel',[],'YtickLabel',[]);
@@ -102,7 +102,7 @@ lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
 set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
 
 figure(3)
-plot(t,p_desb,'LineWidth',2.5);%title('Potência Instantânea Ativa','FontSize',24);
+plot(t,p_desb,'k','LineWidth',2.5);%title('Potência Instantânea Ativa','FontSize',24);
 set(gca,'Position',[0.05,0.05,0.9,0.9]);
 ylim([-2600 2600])
 set(gca,'XtickLabel',[],'YtickLabel',[]);
@@ -110,7 +110,7 @@ lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
 set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
 
 figure(4)
-plot(t,q_desb,'LineWidth',2.5);%title('Potência Instantânea Reativa','FontSize',24);
+plot(t,q_desb,'k','LineWidth',2.5);%title('Potência Instantânea Reativa','FontSize',24);
 set(gca,'Position',[0.05,0.05,0.9,0.9]);
 ylim([-2600 2600])
 set(gca,'XtickLabel',[],'YtickLabel',[]);

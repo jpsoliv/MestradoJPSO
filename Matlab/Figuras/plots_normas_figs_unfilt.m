@@ -36,29 +36,29 @@ ftaxes = 18;            % tamanho dos labels do eixo x e y
 
 [V,I,t] = periodo(Vsignal,Isignal,time,ti_inop,tf_inop);
 
-fig = figure(1);
-tensaocorrente(V,I,t);
-xlim([t(1) t(end)]);
-set(gca,'XTick',[t(1), t(1)+(t(end)-t(1))/4, t(1)+(t(end)-t(1))/4*2, t(1)+(t(end)-t(1))/4*3, t(1)+(t(end)-t(1))/4*4],'FontSize',xtickfontsize);
-yyaxis left
-ylim([-190 190]);
-yyaxis right
-ylim([-1.3 1.3]);
-axesftsize(ftaxes,'tempo [s]','',1);
-n = get(fig,'Number');
-print(['resultados_unfilt_',num2str(n)],'-depsc');
-
-fig = figure(2);
-tensaocorrente(V,I,t);
-xlim([t(end)-0.01 t(end)]);
-set(gca,'XTick',[72.935, 72.935+0.0025 72.935+2*0.0025 72.935+3*0.0025 t(end)],'FontSize',xtickfontsize);
-yyaxis left
-ylim([-190 190]);
-yyaxis right
-ylim([-1.3 1.3]);
-axesftsize(ftaxes,'tempo [s]','',1);
-n = get(fig,'Number');
-print(['resultados_unfilt_',num2str(n)],'-depsc');
+% fig = figure(1);
+% tensaocorrente(V,I,t);
+% xlim([t(1) t(end)]);
+% set(gca,'XTick',[t(1), t(1)+(t(end)-t(1))/4, t(1)+(t(end)-t(1))/4*2, t(1)+(t(end)-t(1))/4*3, t(1)+(t(end)-t(1))/4*4],'FontSize',xtickfontsize);
+% yyaxis left
+% ylim([-190 190]);
+% yyaxis right
+% ylim([-1.3 1.3]);
+% axesftsize(ftaxes,'tempo [s]','',1);
+% n = get(fig,'Number');
+% print(['resultados_unfilt_',num2str(n)],'-depsc');
+% 
+% fig = figure(2);
+% tensaocorrente(V,I,t);
+% xlim([t(end)-0.01 t(end)]);
+% set(gca,'XTick',[72.935, 72.935+0.0025 72.935+2*0.0025 72.935+3*0.0025 t(end)],'FontSize',xtickfontsize);
+% yyaxis left
+% ylim([-190 190]);
+% yyaxis right
+% ylim([-1.3 1.3]);
+% axesftsize(ftaxes,'tempo [s]','',1);
+% n = get(fig,'Number');
+% print(['resultados_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(3);
 [~,~,~]=aparente(t,V,I,'unfilt');
