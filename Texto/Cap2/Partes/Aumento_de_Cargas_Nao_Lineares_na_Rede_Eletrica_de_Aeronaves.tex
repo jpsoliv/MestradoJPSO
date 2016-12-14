@@ -74,7 +74,7 @@ Os modelos reais do sistema de geração e transmissão podem ser concebidos a part
 	\label{fig:Thevenin}
 \end{figure}
 
-Com isso em mente, pode-se modelar um sistema composto por cargas acopladas a um barramento alimentado por um gerador em uma linha de transmissão. Considerando a Figura \ref{fig:real_line_transmission.png}, existe um barramento com ponto de conexão em comum (PCC) com $N$ cargas acopladas cujas correntes demandadas são denominadas $i_1,\;i_2,\;\dots\;i_N$. A tensão no PCC é dada por $V_B$ e é essa a tensão de alimentação no ponto de conexão das cargas. Ainda, a conexão do barramento com gerador é feita via uma linha de transmissão, e existem não idealidades como resistências e reatâncias indutivas. Aplicando o teorema de Thévenin para modelar o gerador e a linha de transmissão, tem -se que a impedância $Z_{th}$ é composta pela composição das resistências e impedâncias de cada elemento. Para o gerador e linha de transmissão, as resistências e impedâncias são dadas por $R_G$, $L_G$ e $R_L$, $L_L$, respectivamente. Já a fonte de alimentação $V_S$ é considerada senoidal, como encontrada comumente em sistemas de geração AC
+Com isso em mente, pode-se modelar um sistema composto por cargas acopladas a um barramento alimentado por um gerador em uma linha de transmissão. Considerando a Figura \ref{fig:real_line_transmission.png}, existe um barramento com ponto de conexão em comum (PCC) com $N$ cargas acopladas cujas correntes demandadas são denominadas $i_1,\;i_2,\;\dots\;i_N$. A tensão no PCC é dada por $v_B$ e é essa a tensão de alimentação no ponto de conexão das cargas. Ainda, a conexão do barramento com gerador é feita via uma linha de transmissão, e existem não idealidades como resistências e reatâncias indutivas. Aplicando o teorema de Thévenin para modelar o gerador e a linha de transmissão, tem -se que a impedância $Z_{th}$ é composta pela composição das resistências e impedâncias de cada elemento. Para o gerador e linha de transmissão, as resistências e impedâncias são dadas por $R_G$, $L_G$ e $R_L$, $L_L$, respectivamente. Já a fonte de alimentação $v_S$ é considerada senoidal, como encontrada comumente em sistemas de geração AC
 
 \begin{figure}[!htb] %Circuito real monofásico
 	\centering
@@ -90,30 +90,30 @@ i_S = i_1+i_2+\dots + i_N
 \label{eq:i_S}
 \end{equation}
 
-Ainda de acordo com a lei de Ohm generalizada, as quedas de tensões nas impedâncias $Z_G$ e $Z_L$, as quais advém da composição das reatâncias e resistências do gerador e da linha de transmissão são dadas por $V_G$ e $V_L$, as quais são definidas segundo as equações \ref{eq:V_G} e \ref{eq:V_L}.
+Ainda de acordo com a lei de Ohm generalizada, as quedas de tensões nas impedâncias $Z_G$ e $Z_L$, as quais advém da composição das reatâncias e resistências do gerador e da linha de transmissão são dadas por $v_G$ e $v_L$, as quais são definidas segundo as equações \ref{eq:V_G} e \ref{eq:V_L}.
 
 \begin{equation}
-V_G = Z_G  \cdot i_S
+v_G = Z_G  \cdot i_S
 \label{eq:V_G}
 \end{equation}
 
 \begin{equation}
-V_L = Z_L \cdot i_S
+v_L = Z_L \cdot i_S
 \label{eq:V_L}
 \end{equation}
 
-Para definir-se o nível de tensão que é obtido no barramento no PCC, deve-se aplicar a lei de Kirchoff, a qual define-se $V_B$ segundo a equação \ref{eq:V_B}.
+Para definir-se o nível de tensão que é obtido no barramento no PCC, deve-se aplicar a lei de Kirchoff, a qual define-se $v_B$ segundo a equação \ref{eq:V_B}.
 
 \begin{equation}
-V_B = V_S - (V_G + V_L) = V_S - (Z_G+Z_L)\cdot i_S
+v_B = v_S - (v_G + v_L) = v_S - (Z_G+Z_L)\cdot i_S
 \label{eq:V_B}
 \end{equation}
 
 Segundo a equação \ref{eq:V_B}, o valor de tensão no barramento é dependente da corrente proveniente da fonte de tensão $i_S$, a qual, segundo a equação \ref{eq:i_S}, é definida pela composição de correntes requeridas pelas cargas conectadas no PCC. Desse modo, pelo fato da existência das não idealidades intrínsecas dos elementos do circuito, há um vínculo entre a tensão disponível no barramento com as correntes exigida pelas cargas. 
 
-Para uma primeira análise, considerando as cargas $1,\;2,\;...,\;N$ caracterizadas por elementos lineares, as quedas de tensões $V_G$ e $V_L$ são definidas por funções senoidais e o valor observado em $V_B$ é tido como senoidal com atenuação e defasagem se comparada com a tensão $V_S$. Esse tipo de problema pode ser recorrente em alguns sistemas com altas cargas lineares conectadas, todavia este problema pode ser facilmente contornado aumentando o valor de $V_S$ até que $V_B$ atinja um valor especificado. Esse processo é comumente realizado de maneira automática pela introdução de uma malha de controle simples a qual controla o valor da tensão na saída do gerador de modo a suprir um nível de tensão específico no barramento.
+Para uma primeira análise, considerando as cargas $1,\;2,\;...,\;N$ caracterizadas por elementos lineares, as quedas de tensões $v_G$ e $v_L$ são definidas por funções senoidais e o valor observado em $v_B$ é tido como senoidal com atenuação e defasagem se comparada com a tensão $v_S$. Esse tipo de problema pode ser recorrente em alguns sistemas com altas cargas lineares conectadas, todavia este problema pode ser facilmente contornado aumentando o valor de $v_S$ até que $v_B$ atinja um valor especificado. Esse processo é comumente realizado de maneira automática pela introdução de uma malha de controle simples a qual controla o valor da tensão na saída do gerador de modo a suprir um nível de tensão específico no barramento.
 
-A implementação de cargas não lineares conectados à rede exige uma abordagem diferente, sendo que essa consideração pode ter dois efeitos peculiares: primeiramente em um sistema onde as impedâncias de linhas e do gerador podem ser desconsideradas, a ondulação distorcida da corrente traz influências sobre onde esta passa, como transformadores, condutores e fusíveis \cite{Wagner1993}, todavia esta condição não afetaria a tensão do barramento $V_B$. Agora, considerando os efeitos das não idealidades da linha de transmissão e do gerador, a equação \ref{eq:V_B} possui todas as variáveis diferentes de zero e consequentemente a tensão do barramento $V_B$ é afetada em função da forma de onda de $i_S$. Isto posto, é introduzida na tensão do barramento a distorção harmônica, a qual é definida por componentes senoidais com a frequência igual a um múltiplo da frequência fundamental ($f_0$) da forma de onda da tensão $V_B$ \cite{Pomilio2010}. Desse modo, há uma distorção na tensão do barramento cuja forma de onda não apresenta mais um formato senoidal, onde muitas vezes é requerida para alimentar determinadas cargas. A correção do fator de potência nesse caso é feita por uma abordagem diferente se comparado com o caso em que cargas lineares são conectadas ao barramento. Para esse caso a correção do fator de potência pode ser feita utilizando filtros casados com as frequências harmônicas ou filtros ativos dispostos na rede \cite{Kassick2010}. 
+A implementação de cargas não lineares conectados à rede exige uma abordagem diferente, sendo que essa consideração pode ter dois efeitos peculiares: primeiramente em um sistema onde as impedâncias de linhas e do gerador podem ser desconsideradas, a ondulação distorcida da corrente traz influências sobre onde esta passa, como transformadores, condutores e fusíveis \cite{Wagner1993}, todavia esta condição não afetaria a tensão do barramento $v_B$. Agora, considerando os efeitos das não idealidades da linha de transmissão e do gerador, a equação \ref{eq:V_B} possui todas as variáveis diferentes de zero e consequentemente a tensão do barramento $v_B$ é afetada em função da forma de onda de $i_S$. Isto posto, é introduzida na tensão do barramento a distorção harmônica, a qual é definida por componentes senoidais com a frequência igual a um múltiplo da frequência fundamental ($f_0$) da forma de onda da tensão $v_B$ \cite{Pomilio2010}. Desse modo, há uma distorção na tensão do barramento cuja forma de onda não apresenta mais um formato senoidal, onde muitas vezes é requerida para alimentar determinadas cargas. A correção do fator de potência nesse caso é feita por uma abordagem diferente se comparado com o caso em que cargas lineares são conectadas ao barramento. Para esse caso a correção do fator de potência pode ser feita utilizando filtros casados com as frequências harmônicas ou filtros ativos dispostos na rede \cite{Kassick2010}. 
 
 Para exemplificar o problema posto, considera-se um sistema como descrito pela Figura \ref{fig:real_line_transmission.png}, e que a composição das correntes das cargas necessita uma corrente do gerador $i_S$ cuja forma é definida segundo a Figura \ref{fig:current_source}.
 
@@ -124,12 +124,12 @@ Para exemplificar o problema posto, considera-se um sistema como descrito pela F
 	\label{fig:current_source}
 \end{figure}
 
-Segundo a lei de Ohm generalizada, as quedas de tensão nas reatâncias e resistências do gerador e da linha de transmissão são estabelecidas segundo as equações \ref{eq:V_G} e \ref{eq:V_L}, e aplicando a corrente $i_S$ da Figura \ref{fig:current_source} tem-se que a forma de onda da tensão $V_G+V_L$ é representada pela Figura \ref{fig:Vline}.
+Segundo a lei de Ohm generalizada, as quedas de tensão nas reatâncias e resistências do gerador e da linha de transmissão são estabelecidas segundo as equações \ref{eq:V_G} e \ref{eq:V_L}, e aplicando a corrente $i_S$ da Figura \ref{fig:current_source} tem-se que a forma de onda da tensão $v_G+v_L$ é representada pela Figura \ref{fig:Vline}.
 
 \begin{figure}[!htb]	%\label{fig:Vline}
 	\centering
 	\includegraphics[width=0.6\textwidth]{Cap2/Figuras/Vline.eps}
-	\caption{Queda de tensão em $V_G+V_L$ }
+	\caption{Queda de tensão em $v_G+v_L$ }
 	\label{fig:Vline}
 \end{figure}
 
@@ -138,16 +138,16 @@ Como descrito anteriormente, a tensão no barramento pode ser sumarizada pela exp
 \begin{figure}[!htb]	%\label{fig:V_bar}
 	\centering
 	\includegraphics[width=0.6\textwidth]{Cap2/Figuras/V_bar.eps}
-	\caption{Tensão $V_B$ comparativamente à tensão $V_S$}
+	\caption{Tensão $v_B$ comparativamente à tensão $v_S$}
 	\label{fig:V_bar}
 \end{figure}
 
-O aspecto senoidal na tensão do barramento é perdido, mas o valor da frequência fundamental é mantido. Aplicando a série de Fourier em $V_B$, é observado o aparecimento das harmônicas nas frequências múltiplas de $f_0$. Para o exemplo descrito anteriormente, a série de Fourier de $V_B$ é representada na Figura \ref{fig:FFT}. 
+O aspecto senoidal na tensão do barramento é perdido, mas o valor da frequência fundamental é mantido. Aplicando a série de Fourier em $v_B$, é observado o aparecimento das harmônicas nas frequências múltiplas de $f_0$. Para o exemplo descrito anteriormente, a série de Fourier de $v_B$ é representada na Figura \ref{fig:FFT}. 
 
 \begin{figure}[!htb]	%\label{fig:FFT}
 	\centering
 	\includegraphics[width=0.6\textwidth]{Cap2/Figuras/FFT.eps}
-	\caption{Transformada de Fourier da tensão $V_B$}
+	\caption{Transformada de Fourier da tensão $v_B$}
 	\label{fig:FFT}
 \end{figure}
 
