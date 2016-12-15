@@ -30,7 +30,7 @@
 %   eng   = para teses em inglês
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 %se fosse em inglês: \documentclass[dsc, eng]{ita}
-\documentclass[dv]{ita}    % ITA.cls based on standard book.cls
+\documentclass[msc]{ita}    % ITA.cls based on standard book.cls
 \usepackage{ae}
 \usepackage{graphics}
 \usepackage{epsfig}
@@ -102,7 +102,7 @@
 \examiner{Prof. Dr.}{Mickey Mouse}{}{DISNEY}
 
 % Data da defesa
-\date{Março}{2015}
+\date{Janeiro}{2016}
 
 % Glossario
 \makeglossary
@@ -110,10 +110,10 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% DOCUMENTO COMEÇA AQUI %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-% Folha de Rosto
+%% Folha de Rosto
 %
 %\maketitle
-%
+%%
 %% Dedicatoria: Nao esqueca essa secao ... :-)
 %\begin{itadedication}
 %Aos esforçados alunos de Pós-Graduação do ITA, por criarem este magnífico template \LaTeX, permitindo que eu ficasse ainda mais longe do Word :-)
@@ -138,23 +138,23 @@
 %\end{spacing}
 %\end{flushright}
 %
-%% Resumo
-%\begin{abstract}
-%\input{Pre_Textuais/resumo}
-%\end{abstract}
-%% Palavras Chave
-%% No manual nao consta palavras-chaves
-%%\keywords{Cupim, Cimento, Concreto Armado, Dilema}
-%
-%% Abstract
-%\begin{englishabstract}
-%\input{Pre_Textuais/abstract}
-%\end{englishabstract}
-%% Keywords
-%%\englishkeywords{De, Buk, Is, On, de, Teibou}
-%
-%% Sumario
-%\tableofcontents
+% Resumo
+\begin{abstract}
+\input{Pre_Textuais/resumo}
+\end{abstract}
+% Palavras Chave
+% No manual nao consta palavras-chaves
+%\keywords{Cupim, Cimento, Concreto Armado, Dilema}
+
+% Abstract
+\begin{englishabstract}
+\input{Pre_Textuais/abstract}
+\end{englishabstract}
+% Keywords
+%\englishkeywords{De, Buk, Is, On, de, Teibou}
+
+% Sumario
+\tableofcontents
 
 % Lista de figuras
 \listoffigures %opcional
@@ -166,9 +166,9 @@
 \listofabbreviations
 \input{Pre_Textuais/listaabreviaturas} %opcional
 
-% Lista de simbolos
-\listofsymbols
-\input{Pre_Textuais/listasimbolos} %opcional
+%% Lista de simbolos
+%\listofsymbols
+%\input{Pre_Textuais/listasimbolos} %opcional
 
 
 %obs
