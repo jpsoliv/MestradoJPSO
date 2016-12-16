@@ -1,7 +1,7 @@
 \select@language {brazil}
-\contentsline {chapter}{Lista de Figuras}{v}{chapter*.5}
-\contentsline {chapter}{Lista de Tabelas}{x}{chapter*.6}
-\contentsline {chapter}{Lista de Abreviaturas e Siglas}{xi}{chapter*.7}
+\contentsline {chapter}{Lista de Figuras}{v}{chapter*.4}
+\contentsline {chapter}{Lista de Tabelas}{x}{chapter*.5}
+\contentsline {chapter}{Lista de Abreviaturas e Siglas}{xi}{chapter*.6}
 \contentsline {chapter}{\numberline {1}Introdu\c c\~ao}{13}{chapter.1}
 \contentsline {section}{\numberline {1.1}Contribui\c c\~oes}{14}{section.1.1}
 \contentsline {section}{\numberline {1.2}Organiza\c c\~ao do Trabalho}{14}{section.1.2}
@@ -44,8 +44,8 @@
 \contentsline {subsubsection}{\numberline {4.1.2.1}Tipos de Controle}{79}{subsubsection.4.1.2.1}
 \contentsline {paragraph}{\numberline {4.1.2.1.1}M\'etodo de Controle de Corrente Senoidal}{80}{paragraph.4.1.2.1.1}
 \contentsline {paragraph}{\numberline {4.1.2.1.2}Detector de Sequ\^encia Positiva}{81}{paragraph.4.1.2.1.2}
-\contentsline {subparagraph}{Malha de Captura de Fase (PLL)}{82}{subparagraph*.63}
-\contentsline {subparagraph}{Malha Principal}{83}{subparagraph*.65}
+\contentsline {subparagraph}{Malha de Captura de Fase (PLL)}{82}{subparagraph*.62}
+\contentsline {subparagraph}{Malha Principal}{83}{subparagraph*.64}
 \contentsline {section}{\numberline {4.2}Sistema Completo}{85}{section.4.2}
 \contentsline {section}{\numberline {4.3}Simula\c c\~ao}{85}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Modelo do Sistema El\'etrico}{87}{subsection.4.3.1}
