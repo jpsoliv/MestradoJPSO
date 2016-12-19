@@ -5,6 +5,45 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.42.2.1 }
 
+\bibitem{Frost2008}
+\abntrefinfo{Srimoolanathan}{SRIMOOLANATHAN}{2008}
+{SRIMOOLANATHAN, B. \emph{Aircraft Electrical Power Systems - Charged with
+  Opportunities}. 2008.
+Acessado em 29/03/2015.
+Dispon{\'\i}vel em:
+  $<$https://www.frost.com/sublib/display-market-insight.do?id=150507057$>$.}
+
+\bibitem{Boeing2007}
+\abntrefinfo{Karimi}{KARIMI}{2007}
+{KARIMI, K.~J. \emph{Future Aircraft Power Systems - Integration Challenges}.
+  [S.l.]: The Boeing Company, 2007.}
+
+\bibitem{Notches}
+\abntrefinfo{Automation}{AUTOMATION}{}
+{AUTOMATION, R. \emph{Eliminating Voltage Notching on the Distributions
+  System}.
+Acessado em 29/05/2015.
+Dispon{\'\i}vel em:
+  $<$http://www.ab.com/support/abdrives/documentation/techpapers/notch.htm$>$.}
+
+\bibitem{Takeuchi2008}
+\abntrefinfo{Takeuchi et al.}{TAKEUCHI et al.}{2008}
+{TAKEUCHI, N. et al. A novel pfc circuit for three-phase utilizing a single
+  switching device. In:  IEEE. \emph{IEEE 30th International Telecommunications
+  Energy Conference 2008. (INTELEC 2008)}. San Diego, 2008. p.~1--5.}
+
+\bibitem{Akagi2007}
+\abntrefinfo{Akagi, Watanabe e Aredes}{AKAGI; WATANABE; AREDES}{2007}
+{AKAGI, H.; WATANABE, E.~H.; AREDES, M. \emph{Instantaneous Power Theory and
+  Applications to Power Conditioning}. [S.l.]: John Wiley \& Sons, 2007.}
+
+\bibitem{Thekkevalappil2005}
+\abntrefinfo{Thekkevalappil}{THEKKEVALAPPIL}{2005}
+{THEKKEVALAPPIL, S.~N.
+Master Thesis, \emph{Hysteretic Pulse Width Modulation with Internally
+  Generated Carrier for a Boost Dc-dc Converter}. Gainesville: University of
+  Florida, 2005.}
+
 \bibitem{Babikian2002}
 \abntrefinfo{Babikian, Lukachko e Waitz}{BABIKIAN; LUKACHKO; WAITZ}{2002}
 {BABIKIAN, R.; LUKACHKO, S.~P.; WAITZ, I.~A. The historical fuel efficiency
@@ -31,18 +70,12 @@
   Saudita: INTECH, 2012. Cap. Power Generation and Distribution System for a
   More Electric Aircraft-A Review.}
 
-\bibitem{Boeing2007}
-\abntrefinfo{Karimi}{KARIMI}{2007}
-{KARIMI, K.~J. \emph{Future Aircraft Power Systems - Integration Challenges}.
-  [S.l.]: The Boeing Company, 2007.}
-
-\bibitem{Frost2008}
-\abntrefinfo{Srimoolanathan}{SRIMOOLANATHAN}{2008}
-{SRIMOOLANATHAN, B. \emph{Aircraft Electrical Power Systems - Charged with
-  Opportunities}. 2008.
-Acessado em 29/03/2015.
-Dispon{\'\i}vel em:
-  $<$https://www.frost.com/sublib/display-market-insight.do?id=150507057$>$.}
+\bibitem{Akagi1984}
+\abntrefinfo{Akagi, Kanazawa e Nabae}{AKAGI; KANAZAWA; NABAE}{1984}
+{AKAGI, H.; KANAZAWA, Y.; NABAE, A. Instantaneous reactive power compensators
+  comprising switching devices without energy storage components.
+\emph{IEEE Transactions on industry applications}, IEEE, n.~3, p. 625--630,
+  1984.}
 
 \bibitem{Avery2007}
 \abntrefinfo{Avery, Burrow e Mellor}{AVERY; BURROW; MELLOR}{2007}
@@ -120,14 +153,6 @@ Dispon{\'\i}vel em:
 \emph{DC-DC Buck Converter with Inrush Current Limiter}.
 Dissertação (Mestrado) --- Faculty of Applied Sciences, Lorentzweg, 2013.}
 
-\bibitem{Notches}
-\abntrefinfo{Automation}{AUTOMATION}{}
-{AUTOMATION, R. \emph{Eliminating Voltage Notching on the Distributions
-  System}.
-Acessado em 29/05/2015.
-Dispon{\'\i}vel em:
-  $<$http://www.ab.com/support/abdrives/documentation/techpapers/notch.htm$>$.}
-
 \bibitem{Fitzgerald2006}
 \abntrefinfo{Fitzgerald, Kingsley e Umans}{FITZGERALD; KINGSLEY; UMANS}{2006}
 {FITZGERALD, A.; KINGSLEY, C.; UMANS, S. \emph{M{\'a}quinas El{\'e}tricas - Com
@@ -194,12 +219,6 @@ Tese (Doutorado) --- Faculty of the Virginia Polytechnic Institute, Blacksburg,
 {NAIRUS, J.~G. \emph{Three-Phase Boost Active Power Factor Correction for Diode
   Rectifiers.}
 Ohio, 1996. AFRL Propulsion Directorate - Wright-Patterson Air Force Base.}
-
-\bibitem{Takeuchi2008}
-\abntrefinfo{Takeuchi et al.}{TAKEUCHI et al.}{2008}
-{TAKEUCHI, N. et al. A novel pfc circuit for three-phase utilizing a single
-  switching device. In:  IEEE. \emph{IEEE 30th International Telecommunications
-  Energy Conference 2008. (INTELEC 2008)}. San Diego, 2008. p.~1--5.}
 
 \bibitem{Pomilio2009}
 \abntrefinfo{Pomilio e Deckmann}{POMILIO; DECKMANN}{2009}
@@ -292,23 +311,11 @@ Dispon{\'\i}vel em:
 \emph{IEEE Transactions on Instrumentation and measurement}, IEEE, v.~1001,
   n.~3, p. 834--837, 1987.}
 
-\bibitem{Akagi2007}
-\abntrefinfo{Akagi, Watanabe e Aredes}{AKAGI; WATANABE; AREDES}{2007}
-{AKAGI, H.; WATANABE, E.~H.; AREDES, M. \emph{Instantaneous Power Theory and
-  Applications to Power Conditioning}. [S.l.]: John Wiley \& Sons, 2007.}
-
 \bibitem{AredesSD}
 \abntrefinfo{Watanabe e Aredes}{WATANABE; AREDES}{}
 {WATANABE, E.~H.; AREDES, M. \emph{Teoria de Pot\^encia Ativa e Reativa
   Instant\^anea e Aplica{\c{c}}{\~o}es - Filtros Ativos e FACTS -}. UFRJ - Rio
   de Janeiro: Laborat\'orio de Eletr\^onica de Pot\^encia.}
-
-\bibitem{Akagi1984}
-\abntrefinfo{Akagi, Kanazawa e Nabae}{AKAGI; KANAZAWA; NABAE}{1984}
-{AKAGI, H.; KANAZAWA, Y.; NABAE, A. Instantaneous reactive power compensators
-  comprising switching devices without energy storage components.
-\emph{IEEE Transactions on industry applications}, IEEE, n.~3, p. 625--630,
-  1984.}
 
 \bibitem{Peng1996}
 \abntrefinfo{Peng e Lai}{PENG; LAI}{1996}
@@ -335,13 +342,6 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Trzynadlowski}{TRZYNADLOWSKI}{2015}
 {TRZYNADLOWSKI, A.~M. \emph{Introduction to Modern Power Electronics}. Third
   edition. New Jersey: John Wiley \& Sons, 2015.}
-
-\bibitem{Thekkevalappil2005}
-\abntrefinfo{Thekkevalappil}{THEKKEVALAPPIL}{2005}
-{THEKKEVALAPPIL, S.~N.
-Master Thesis, \emph{Hysteretic Pulse Width Modulation with Internally
-  Generated Carrier for a Boost Dc-dc Converter}. Gainesville: University of
-  Florida, 2005.}
 
 \bibitem{Watanabe1993}
 \abntrefinfo{Watanabe, Stephan e Aredes}{WATANABE; STEPHAN; AREDES}{1993}
