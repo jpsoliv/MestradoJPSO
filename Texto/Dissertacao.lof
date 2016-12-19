@@ -1,9 +1,9 @@
 \select@language {brazil}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1}{\ignorespaces Aumento capacidade de gera\c c\~ao de aeronaves \cite {Frost2008}\relax }}{20}{figure.caption.7}
+\contentsline {figure}{\numberline {1}{\ignorespaces Aumento capacidade de gera\c c\~ao de aeronaves \cite {Frost2008}}}{20}{figure.caption.7}
 \contentsline {figure}{\numberline {2}{\ignorespaces Aumento da capacidade de gera\c c\~ao ao longo dos anos\relax }}{20}{figure.caption.8}
-\contentsline {figure}{\numberline {3}{\ignorespaces Tend\^encia futura para o mercado de avia\c c\~ao \cite {Boeing2007}\relax }}{21}{figure.caption.9}
+\contentsline {figure}{\numberline {3}{\ignorespaces Tend\^encia futura para o mercado de avia\c c\~ao \cite {Boeing2007}}}{21}{figure.caption.9}
 \contentsline {figure}{\numberline {4}{\ignorespaces Circuito com carga linear com as respectivas formas de onda\relax }}{23}{figure.caption.10}
 \contentsline {figure}{\numberline {5}{\ignorespaces Circuito com carga n\~ao linear com as respectivas formas de onda\relax }}{24}{figure.caption.11}
 \contentsline {figure}{\numberline {6}{\ignorespaces Equivalentes Th\'evenin\relax }}{25}{figure.caption.12}
@@ -12,7 +12,7 @@
 \contentsline {figure}{\numberline {9}{\ignorespaces Queda de tens\~ao em $v_G+v_L$ \relax }}{28}{figure.caption.15}
 \contentsline {figure}{\numberline {10}{\ignorespaces Tens\~ao $v_B$ comparativamente \`a tens\~ao $v_S$\relax }}{28}{figure.caption.16}
 \contentsline {figure}{\numberline {11}{\ignorespaces Transformada de Fourier da tens\~ao $v_B$\relax }}{29}{figure.caption.17}
-\contentsline {figure}{\numberline {12}{\ignorespaces Presen\c ca de \textit {notch} na ondula\c c\~ao de tens\~ao \cite {Notches}\relax }}{31}{figure.caption.18}
+\contentsline {figure}{\numberline {12}{\ignorespaces Presen\c ca de \textit {notch} na ondula\c c\~ao de tens\~ao \cite {Notches}}}{31}{figure.caption.18}
 \contentsline {figure}{\numberline {13}{\ignorespaces Esquema de um filtro passivo gen\'erico\relax }}{34}{figure.caption.19}
 \contentsline {figure}{\numberline {14}{\ignorespaces Resposta em frequ\^encia de um filtro passa baixa\relax }}{35}{figure.caption.20}
 \contentsline {figure}{\numberline {15}{\ignorespaces Resposta em frequ\^encia de um filtro passa alta\relax }}{36}{figure.caption.21}
@@ -23,7 +23,7 @@
 \contentsline {figure}{\numberline {20}{\ignorespaces Circuito t\IeC {\'\i }pico de um retificador de 18 pulsos com sua respectiva corrente de entrada\relax }}{38}{figure.caption.26}
 \contentsline {figure}{\numberline {21}{\ignorespaces Conversores AC-DC de dois est\'agios\relax }}{40}{figure.caption.27}
 \contentsline {figure}{\numberline {22}{\ignorespaces Retificador trif\'asico com ponte de diodos\relax }}{40}{figure.caption.28}
-\contentsline {figure}{\numberline {23}{\ignorespaces Conversor com corre\c c\~ao de fator de pot\^encia do tipo Prasad-Ziogas \cite {Takeuchi2008}\relax }}{41}{figure.caption.29}
+\contentsline {figure}{\numberline {23}{\ignorespaces Conversor com corre\c c\~ao de fator de pot\^encia do tipo Prasad-Ziogas \cite {Takeuchi2008}}}{41}{figure.caption.29}
 \contentsline {figure}{\numberline {24}{\ignorespaces Diagrama b\'asico do conversor PFC\relax }}{41}{figure.caption.30}
 \contentsline {figure}{\numberline {25}{\ignorespaces Corrente de entrada para o caso sem e com filtro na linha\relax }}{41}{figure.caption.31}
 \contentsline {figure}{\numberline {26}{\ignorespaces Filtro ativo do tipo \textit {shunt}\relax }}{43}{figure.caption.32}
@@ -36,14 +36,14 @@
 \contentsline {figure}{\numberline {32}{\ignorespaces Sistema trif\'asico referenciado em coordenadas $\alpha \beta 0$\relax }}{59}{figure.caption.38}
 \contentsline {figure}{\numberline {33}{\ignorespaces Retificador trif\'asico por ponte de Graetz\relax }}{64}{figure.caption.39}
 \contentsline {figure}{\numberline {34}{\ignorespaces Retificador trif\'asico com neutro\relax }}{64}{figure.caption.40}
-\contentsline {figure}{\numberline {35}{\ignorespaces Circula\c c\~ao das pot\^encias instant\^aneas em um sistemas trif\'asico \cite {Akagi2007}\relax }}{67}{figure.caption.41}
+\contentsline {figure}{\numberline {35}{\ignorespaces Circula\c c\~ao das pot\^encias instant\^aneas em um sistemas trif\'asico \cite {Akagi2007}}}{67}{figure.caption.41}
 \contentsline {figure}{\numberline {36}{\ignorespaces Circuito trif\'asico a quatro fios\relax }}{67}{figure.caption.42}
 \contentsline {figure}{\numberline {37}{\ignorespaces Pot\^encias instant\^aneas considerando $C_1=C_2=C_3$\relax }}{68}{figure.caption.43}
 \contentsline {figure}{\numberline {38}{\ignorespaces Pot\^encias instant\^aneas considerando $C_1\not =C_2=C_3$\relax }}{68}{figure.caption.44}
-\contentsline {figure}{\numberline {39}{\ignorespaces Compensador ativo \cite {Akagi2007}\relax }}{72}{figure.caption.45}
-\contentsline {figure}{\numberline {40}{\ignorespaces Diagrama com procedimentos de c\'alculo de um compensador \cite {Akagi2007}\relax }}{72}{figure.caption.46}
-\contentsline {figure}{\numberline {41}{\ignorespaces Filtro ativo com inversor est\'atico \cite {Akagi2007}\relax }}{75}{figure.caption.47}
-\contentsline {figure}{\numberline {42}{\ignorespaces Diagrama com procedimentos de c\'alculo de um compensador \cite {Akagi2007}\relax }}{75}{figure.caption.48}
+\contentsline {figure}{\numberline {39}{\ignorespaces Compensador ativo \cite {Akagi2007}}}{72}{figure.caption.45}
+\contentsline {figure}{\numberline {40}{\ignorespaces Diagrama com procedimentos de c\'alculo de um compensador \cite {Akagi2007}}}{72}{figure.caption.46}
+\contentsline {figure}{\numberline {41}{\ignorespaces Filtro ativo com inversor est\'atico \cite {Akagi2007}}}{75}{figure.caption.47}
+\contentsline {figure}{\numberline {42}{\ignorespaces Diagrama com procedimentos de c\'alculo de um compensador \cite {Akagi2007}}}{75}{figure.caption.48}
 \contentsline {figure}{\numberline {43}{\ignorespaces Tens\~ao $v_a$ e corrente $i_{La}$ na entrada da carga\relax }}{76}{figure.caption.49}
 \contentsline {figure}{\numberline {44}{\ignorespaces Pot\^encias instant\^aneas $p$ e $q$\relax }}{77}{figure.caption.50}
 \contentsline {figure}{\numberline {45}{\ignorespaces Pot\^encias instant\^aneas a serem compensadas $-\mathaccentV {tilde}07E{p}$ e $-q$\relax }}{77}{figure.caption.51}
@@ -52,12 +52,12 @@
 \contentsline {figure}{\numberline {48}{\ignorespaces Pot\^encia entregue pela fonte\relax }}{78}{figure.caption.54}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {49}{\ignorespaces Inversores de tens\~ao e corrente\relax }}{80}{figure.caption.55}
-\contentsline {figure}{\numberline {50}{\ignorespaces Controle por histerese \cite {Thekkevalappil2005}\relax }}{81}{figure.caption.56}
+\contentsline {figure}{\numberline {50}{\ignorespaces Controle por histerese \cite {Thekkevalappil2005}}}{81}{figure.caption.56}
 \contentsline {figure}{\numberline {51}{\ignorespaces Esquema do inversor com indutor de acoplamento e filtro capacitivo\relax }}{82}{figure.caption.57}
 \contentsline {figure}{\numberline {52}{\ignorespaces Malha de controle da tens\~ao no capacitor\relax }}{83}{figure.caption.58}
 \contentsline {figure}{\numberline {53}{\ignorespaces Filtro ativo com controle de corrente senoidal\relax }}{85}{figure.caption.59}
-\contentsline {figure}{\numberline {54}{\ignorespaces Malha de captura de fase (PLL) \cite {Akagi2007}\relax }}{87}{figure.caption.61}
-\contentsline {figure}{\numberline {55}{\ignorespaces Malha Principal\cite {Akagi2007}\relax }}{87}{figure.caption.63}
+\contentsline {figure}{\numberline {54}{\ignorespaces Malha de captura de fase (PLL) \cite {Akagi2007}}}{87}{figure.caption.61}
+\contentsline {figure}{\numberline {55}{\ignorespaces Malha Principal\cite {Akagi2007}}}{87}{figure.caption.63}
 \contentsline {figure}{\numberline {56}{\ignorespaces Tens\~ao de fase e tens\~ao do detector de sequ\^encia positiva\relax }}{88}{figure.caption.64}
 \contentsline {figure}{\numberline {57}{\ignorespaces $\mathaccentV {dot}05F{V}_{a_{+1}}$ da tens\~ao de fase e tens\~ao do detector de sequ\^encia positiva\relax }}{89}{figure.caption.65}
 \contentsline {figure}{\numberline {58}{\ignorespaces Sistema completo\relax }}{90}{figure.caption.66}
