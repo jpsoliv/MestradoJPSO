@@ -129,7 +129,7 @@ A operação deste bloco é realizada pela comparação do sinal de referência com a 
 
 O controle de tensão do capacitor disposto no lado DC do inversor é mostrado na Figura \ref{fig:PI_sim.png}. Este sub-bloco tem em sua entrada a medida de tensão do capacitor, ao passo que em sua saída é disponibilizado o sinal de potência das perdas acorridas na operação do inversor. Tal sinal de saída é direcionado para o cálculo das potências instantâneas do sub-bloco de determinação de correntes de referência (Figra \ref{fig:controladador.png}).
 
-Este bloco constitui de um controlador proporcional-integral (PI), onde os valores de $P$ e $I$ são escolhidos de maneira a apresentar uma resposta do controlador adequada o funcionamento do sistema. \todo{como foram escolhidos / determinados os valores de P e I?} A referência é obtida como um sinal degrau com amplitude fixa a qual é gerado pela \textit{Signal Builder} do Simulink. 
+Este bloco constitui de um controlador proporcional-integral (PI), onde os valores de $P$ e $I$ são escolhidos de maneira a apresentar uma resposta do controlador adequada o funcionamento do sistema. Para a simulação em questão, os valores de $P$ e $I$ foram determinados de maneira arbitrária e teve os valores refinados baseados na resposta dinâmica da tensão do capacitor. \todo{como foram escolhidos / determinados os valores de P e I? (FEITO)} A referência é obtida como um sinal degrau com amplitude fixa a qual é gerado pela \textit{Signal Builder} do Simulink. 
 
 \begin{figure}[!htb] %
 	\centering
