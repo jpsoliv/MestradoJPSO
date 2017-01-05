@@ -129,7 +129,7 @@ A operação deste bloco é realizada pela comparação do sinal de referência com a 
 
 O controle de tensão do capacitor disposto no lado DC do inversor é mostrado na Figura \ref{fig:PI_sim.png}. Este sub-bloco tem em sua entrada a medida de tensão do capacitor, ao passo que em sua saída é disponibilizado o sinal de potência das perdas acorridas na operação do inversor. Tal sinal de saída é direcionado para o cálculo das potências instantâneas do sub-bloco de determinação de correntes de referência (Figra \ref{fig:controladador.png}).
 
-Este bloco constitui de um controlador proporcional-integral (PI), onde os valores de $P$ e $I$ são escolhidos de maneira a apresentar uma resposta do controlador adequada o funcionamento do sistema. Para a simulação em questão, os valores de $P$ e $I$ foram determinados de maneira arbitrária e teve os valores refinados baseados na resposta dinâmica da tensão do capacitor. \todo{como foram escolhidos / determinados os valores de P e I? (FEITO)} A referência é obtida como um sinal degrau com amplitude fixa a qual é gerado pela \textit{Signal Builder} do Simulink. 
+Este bloco constitui de um controlador proporcional-integral (PI), onde os valores de $P$ e $I$ são escolhidos de maneira a apresentar uma resposta do controlador adequada o funcionamento do sistema. Para a simulação em questão, os valores de $P$ e $I$ foram escolhidos de maneira arbitrária e teve seus valores refinados baseados na resposta dinâmica da tensão do capacitor. \todo{como foram escolhidos / determinados os valores de P e I? (FEITO)} A referência é obtida como um sinal degrau com amplitude fixa a qual é gerado pela \textit{Signal Builder} do Simulink. 
 
 \begin{figure}[!htb] %
 	\centering
@@ -431,13 +431,13 @@ Já a análise dos espectros de frequência das tensões mostra que a qualidade de e
 
 \subsubsection{Regime Transitório}
 
-O regime transitório mostrado na Figura \ref{fig:13} é caracterizado pela variação da corrente no tempo sem que haja grande oscilação como apresentado no período anterior. Esse intervalo de tempo é delimitado entre 73,3 e 73,7 segundos.
+O regime transitório mostrado na Figura \ref{fig:13} é caracterizado pela variação da corrente no tempo sem que haja grande oscilação, como apresentado no período anterior. Esse intervalo de tempo é delimitado entre 73,3 e 73,7 segundos.
 
 A Figura \ref{fig:14} apresenta um pequeno intervalo a qual é definido o período em que a corrente mostra-se mais elevada. Na Figura \ref{fig:resultados_unfilt_14.eps} pode ser observado que a corrente é distorcida, porém não influi significativamente na qualidade de energia, visto que a tensão apresenta-se pouco distorcida. A Figura \ref{fig:resultados_filt_14.eps} apresenta a corrente em fase e próximo de uma senoide, mostrando que o filtro opera de maneira condizente com esperado. 
 
 Outro fator que demonstra o desempenho do filtro é a análise das potências instantâneas. As figuras \ref{fig:15} e \ref{fig:16} evidencia uma redução das potência reativa e da potência oscilante ativa. Porém deve ser observado que os efeitos da comutação dos semicondutores inserem ruídos na corrente e, consequentemente, nas potências instantâneas. Outro fator a ser esclarecido nessas figuras é o fato de que o capacitor entrega potência no início do período estudado, de forma que a potência extraída da fonte no caso sem filtro é mais elevada que no caso com o filtro.
 
-A análise do espectro de frequência das tensões mostra que a qualidade de energia é melhorada com a aplicação do filtro, entretanto, devido aos níveis de corrente apresentados nesse período, a operação sem filtro não apresenta distorção suficiente de modo a descumprir a norma aeronáutica de referência. \todo{Falta comentar / referenciar as figuras 83 e 84 no texto}
+A análise do espectro de frequência das tensões, através das figuras \ref{fig:17} e \ref{fig:18}, mostram que a qualidade de energia é melhorada com a aplicação do filtro, entretanto, devido aos níveis de corrente apresentados nesse período, a operação sem filtro não apresenta distorção suficiente de modo a descumprir a norma aeronáutica de referência. \todo{Falta comentar / referenciar as figuras 83 e 84 no texto (FEITO)}
 
 \begin{figure*}[!htb] %Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
@@ -559,7 +559,15 @@ A análise do espectro de frequência das tensões mostra que a qualidade de energi
 
 As formas de onda no período de regime permanente são mostradas na Figura \ref{fig:19}. Na figura pode ser observado que a corrente se mantém estável até cessar no final do intervalo, a qual varia entre 73,7 e 73,9 segundos.
 
-As observações proferidas nesse período são semelhantes às verificadas durante o regime transitório, isto é, apesar de a forma de onda da corrente apresentar-se como distorcida, os resultados atendem a norma MIL-STD 704F. Contudo, pode-se observar (Figura \ref{fig:resultados_filt_20.eps}) que o filtro ainda atua nesse sentido, tornando a corrente mais próxima de uma senoide e elevando a qualidade de energia. \todo{Falta comentar / referenciar as figuras 87 a 90 no texto. Confira se todas estão referenciadas}
+As observações proferidas nesse período são semelhantes às verificadas durante o regime transitório, isto é, apesar de a forma de onda da corrente apresentar-se como distorcida, os resultados atendem a norma MIL-STD 704F. Contudo, pode-se observar (Figura \ref{fig:20}) que o filtro ainda atua nesse sentido, tornando a corrente mais próxima de uma senoide e elevando a qualidade de energia. \todo{Falta comentar / referenciar as figuras 87 a 90 no texto. Confira se todas estão referenciadas}
+
+\ref{fig:21}
+
+\ref{fig:22}
+
+\ref{fig:23}
+
+\ref{fig:24}
 
 \begin{figure*}[!htb] %Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering

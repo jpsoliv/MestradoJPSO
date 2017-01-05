@@ -61,6 +61,6 @@
 \contentsline {subsubsection}{\numberline {4.3.3.2}Corrente M\'axima}{102}{subsubsection.4.3.3.2}
 \contentsline {subsubsection}{\numberline {4.3.3.3}Regime Transit\'orio}{105}{subsubsection.4.3.3.3}
 \contentsline {subsubsection}{\numberline {4.3.3.4}Regime Permanente}{107}{subsubsection.4.3.3.4}
-\contentsline {chapter}{\numberline {5}Conclus\~ao}{110}{chapter.5}
-\contentsline {section}{\numberline {5.1}Pr\'oximos Passos}{111}{section.5.1}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{113}{chapter.6}
+\contentsline {chapter}{\numberline {5}Conclus\~ao}{111}{chapter.5}
+\contentsline {section}{\numberline {5.1}Pr\'oximos Passos}{112}{section.5.1}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{114}{chapter.6}
