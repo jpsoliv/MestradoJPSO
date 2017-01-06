@@ -1,14 +1,14 @@
-\section{Potência Instantânea Utilizando a Teoria PQ em Circuitos Trifásicos}\label{sec:Potência Instantânea Utilizando a Teoria PQ em Circuitos Trifásicos}
+\section{Potência Instantânea Utilizando a Teoria p-q em Circuitos Trifásicos}\label{sec:Potência Instantânea Utilizando a Teoria PQ em Circuitos Trifásicos}
 
 %\cite{Peng1996} \cite{Akagi1984}
 
-A potência instantânea utilizando a teoria PQ é um conceito que utiliza de artifícios matemáticos para definir uma série de parâmetros presentes em circuitos elétricos trifásicos. A base da teoria consiste no estudo das tensões e correntes no domínio do tempo sem que haja restrição quanto ao balanceamento do sistema, à forma de onda e ainda podendo ser aplicada em regime transitório. Além disso, esta teoria pode ser utilizada tanto para circuitos trifásicos a três fios, quanto em circuitos a quatro fios com a presença de neutro. Uma das propostas concebida na utilização dessa teoria é a determinação das correntes circulantes do sistema as quais não transferem potências úteis à carga, fazendo desta uma poderosa ferramenta para ser utilizada no desenvolvimento de compensadores ativos para mitigar o efeito da circulação de potências não úteis do sistema. Com isso é possível conceber a eliminação de harmônicos, a compensação de reativos, ou mesmo a eliminação de desbalanços \cite{Akagi2007, AredesSD}.
+A potência instantânea utilizando a teoria p-q é um conceito que utiliza de artifícios matemáticos para definir uma série de parâmetros presentes em circuitos elétricos trifásicos. A base da teoria consiste no estudo das tensões e correntes no domínio do tempo sem que haja restrição quanto ao balanceamento do sistema, à forma de onda e ainda podendo ser aplicada em regime transitório. Além disso, esta teoria pode ser utilizada tanto para circuitos trifásicos a três fios, quanto em circuitos a quatro fios com a presença de neutro. Uma das propostas concebida na utilização dessa teoria é a determinação das correntes circulantes do sistema as quais não transferem potências úteis à carga, fazendo desta uma poderosa ferramenta para ser utilizada no desenvolvimento de compensadores ativos para mitigar o efeito da circulação de potências não úteis do sistema. Com isso é possível conceber a eliminação de harmônicos, a compensação de reativos, ou mesmo a eliminação de desbalanços \cite{Akagi2007, AredesSD}.
 
 Inicialmente tal teoria foi desenvolvida por Akagi \cite{Akagi1984}, a qual definiu as tensões e correntes de um sistema trifásico como sendo valores instantâneos quantificados em espaços vetoriais $\mathbf{v}$ e $\mathbf{i}$, respectivamente. Porém, em seu desenvolvimento inicial foi proposto a transformação do espaço vetorial nas coordenadas $abc$, a qual é definida pelo sistema de referência estacionário cujas tensões e correntes são defasadas em \ang{120} entre si, para as coordenadas $\alpha \beta 0$, a qual o sistema de referência estacionário é dado ortogonalmente entre si \cite{AredesSD}. Outra forma de tratar a definição de potência instantânea é trabalhando diretamente com o espaço vetorial nas coordenadas $abc$, sendo que as propriedades do sistema independem das coordenadas e são válidas tanto para o caso em que as definições são aplicadas em $abc$ como em $\alpha \beta 0$.
 
 \subsection{Transformação de Coordenadas}
 
-A teoria da potência instantânea PQ desenvolvida inicialmente por Akagi \cite{Akagi1984} emprega a transformação das coordenadas de um sistema com fases $abc$ para coordenadas $\alpha \beta 0$. O emprego dessa abordagem traz implicações de modo a poder introduzir sistemas trifásicos mais genéricos com a presença de sequência zero. Os resultados apresentados nessa abordagem apresentam as mesmas propriedades e interpretações de potência instantânea nas coordenadas $abc$, ou seja, estas independem do sistema de coordenada a qual é aplicada a teoria \cite{Peng1996}. 
+A teoria da potência instantânea p-q desenvolvida inicialmente por Akagi \cite{Akagi1984} emprega a transformação das coordenadas de um sistema com fases $abc$ para coordenadas $\alpha \beta 0$. O emprego dessa abordagem traz implicações de modo a poder introduzir sistemas trifásicos mais genéricos com a presença de sequência zero. Os resultados apresentados nessa abordagem apresentam as mesmas propriedades e interpretações de potência instantânea nas coordenadas $abc$, ou seja, estas independem do sistema de coordenada a qual é aplicada a teoria \cite{Peng1996}. 
 
 \subsubsection{Transformada de Clarke}
 
@@ -272,7 +272,7 @@ i^2 &= i_p^2+i_q^2
 \end{aligned}
 \end{equation}
 
-Deste modo, observa-se uma semelhança entre a teoria de potência PQ e a teoria apresentada por Fryze. Todavia deve ser lembrado que a demonstração anterior é válida para sistemas trifásicos com ou sem neutro, ao passo que a teoria de Fryze é utilizada para explicar os efeitos da potência em circuitos monofásicos.
+Deste modo, observa-se uma semelhança entre a teoria de potência p-q e a teoria apresentada por Fryze. Todavia deve ser lembrado que a demonstração anterior é válida para sistemas trifásicos com ou sem neutro, ao passo que a teoria de Fryze é utilizada para explicar os efeitos da potência em circuitos monofásicos.
 
 \subsection{Potência Instantânea em coordenadas $abc$}
 
@@ -301,7 +301,7 @@ Independentemente das coordenadas utilizadas, os valores instantâneos das potênc
 
 Fisicamente, a interpretação das potências nas coordenadas $abc$ é de mais fácil entendimento em comparação às coordenadas $\alpha \beta 0$, visto que as denotações são válidas para cada fase propriamente dita, sem a utilização da transformação de coordenadas. Porém, o emprego da transformada de Clarke é de grande valia em razão de que esta separa as tensões e correntes $v_0$ e $i_0$ dos eixos $\alpha$ e $\beta$, de modo que a realização das potências instantâneas nessa coordenada é mais conveniente em se tratando de circuitos com a presença de sequencia zero. Além disso, a transformada de coordenadas apresenta-se vantajosa em sistemas trifásicos sem a presença de sequência zero, dado que os cálculos matriciais são proferidos em matrizes de dimensão $2\times 2$, e visto que existem duas componentes de tensão ($v_{\alpha}$ e $v_{\beta}$) e corrente ($i_{\alpha}$ e $i_{\beta}$) apenas. Este fator torna a concepção de compensadores simplificada quando comparado à aplicação nas coordenadas $abc$. 
 
-\subsection{Teoria PQ em Sistemas Trifásicos a Três Fios}\label{subsec:Teoria PQ em Sistema Trifásicos a Três Fios}
+\subsection{Teoria p-q em Sistemas Trifásicos a Três Fios}\label{subsec:Teoria PQ em Sistema Trifásicos a Três Fios}
 
 A teoria de potência instantânea apresentada anteriormente apresenta uma poderosa ferramenta para o estudo do comportamento de sistemas elétricos trifásicos genéricos. Esta teoria é baseada no domínio do tempo e pode ser aplicada em regime transitório ou permanente, em sistemas balanceados ou desbalanceados, trifásicos com ou sem a presença de neutro. A complexidade fica a cargo da abrangência das características presentes no sistema sob estudo. Para o caso específico de uso aeronáutico, certas particularidades nas características do sistema elétrico fazem com que a teoria de potência instantânea possa ser realizada com algumas simplificações sem perda de generalidade.
 
@@ -441,7 +441,7 @@ i_{\beta}
 
 Nota-se uma inversão de sinal na potência instantânea reativa $q$ entre a teoria originalmente apresentada por \cite{Akagi1984} e exposta na equação \ref{eq:pq_combined} com a teoria da potência apresentada na expressão \ref{eq:pq}. Ambas as teorias são válidas quanto a aplicabilidade e no projeto de compensadores ativos, entretanto, segundo \cite{Akagi2007}, a teoria na equação \ref{eq:pq} apresenta um significado de melhor aceitação, dado o conceito convencional que correntes em atraso (indutivo) apresentam sinal corretamente definidos com a utilização da equação \ref{eq:pq}.
 
-\subsection{Significado Físico dos Parâmetros da Teoria PQ}\label{subsec:Significado Físico dos Parâmetros da Teoria PQ}
+\subsection{Significado Físico dos Parâmetros da Teoria p-q}\label{subsec:Significado Físico dos Parâmetros da Teoria PQ}
 
 As definições apresentadas anteriormente são suficientes para elucidar os conceitos físicos que as potências instantâneas $p$ e $q$ apresentam. 
 

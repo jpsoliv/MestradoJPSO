@@ -24,15 +24,15 @@
 \contentsline {section}{\numberline {3.1}Pot\^encia Ativa, Reativa e Fator de Pot\^encia}{48}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Circuitos Senoidais Monof\'asicos}{49}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Circuitos N\~ao Senoidais Monof\'asicos}{53}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Pot\^encia Instant\^anea Utilizando a Teoria PQ em Circuitos Trif\'asicos}{56}{section.3.2}
+\contentsline {section}{\numberline {3.2}Pot\^encia Instant\^anea Utilizando a Teoria p-q em Circuitos Trif\'asicos}{56}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Transforma\c c\~ao de Coordenadas}{57}{subsection.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.1.1}Transformada de Clarke}{57}{subsubsection.3.2.1.1}
 \contentsline {subsection}{\numberline {3.2.2}Pot\^encia Instant\^anea em Coordenadas $\alpha \beta 0 $}{58}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Pot\^encia Instant\^anea em coordenadas $abc$}{62}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Teoria PQ em Sistemas Trif\'asicos a Tr\^es Fios}{63}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Significado F\IeC {\'\i }sico dos Par\^ametros da Teoria PQ}{66}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.4}Teoria p-q em Sistemas Trif\'asicos a Tr\^es Fios}{63}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Significado F\IeC {\'\i }sico dos Par\^ametros da Teoria p-q}{66}{subsection.3.2.5}
 \contentsline {section}{\numberline {3.3}Filtros Ativos}{68}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Filtros Ativo Empregando a Teoria PQ}{70}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.1}Filtros Ativo Empregando a Teoria p-q}{70}{subsection.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.1.1}Sele\c c\~ao de Pot\^encias Compensadas}{72}{subsubsection.3.3.1.1}
 \contentsline {subsubsection}{\numberline {3.3.1.2}Concep\c c\~ao dos Filtros Ativos}{74}{subsubsection.3.3.1.2}
 \contentsline {chapter}{\numberline {4}Simula\c c\~ao de Filtro Ativo \textit {Shunt} Aplicado em um Sistema El\'etrico Aeron\'autico}{78}{chapter.4}

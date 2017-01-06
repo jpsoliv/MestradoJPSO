@@ -76,7 +76,7 @@ O controlador empregado em um sistema de filtragem ativa é constituído pela unid
 
 \subsubsection{Tipos de Controle}\label{subsubsec:Tipos de Controle}
 
-Em sistemas reais a concepção da filtragem ativa é proferida em redes cujas tensões não são necessariamente senoidais puras ou balanceadas. A base teórica apresentada na seção \ref{sec:Filtros Ativos} é baseada na premissa de que o sistema é realizado sem que haja distorções de tensão ou desbalanceamento entre as fases. Entretanto, este fato não se faz presentes em sistemas aeronáuticos, visto que as distorções e desbalanceamentos são presentes, porém dentro das normas aeronáuticas. Dado a isso, a operação dos filtros ativos do tipo \textit{shunt} é sensível às estes efeitos, fazendo com que algumas considerações devam ser aplicadas para contornar tais fenômenos adversos e garantir seu correto funcionamento em todo espectro de operação. Segundo \cite{Akagi2007}, a teoria PQ mostra-se insuficiente para atender a filtragem de cargas não lineares em sistemas com tensões previamente distorcidas e, ao mesmo tempo, satisfazer as condições de uma filtragem ótima. Tais condições são descritas por:
+Em sistemas reais a concepção da filtragem ativa é proferida em redes cujas tensões não são necessariamente senoidais puras ou balanceadas. A base teórica apresentada na seção \ref{sec:Filtros Ativos} é baseada na premissa de que o sistema é realizado sem que haja distorções de tensão ou desbalanceamento entre as fases. Entretanto, este fato não se faz presentes em sistemas aeronáuticos, visto que as distorções e desbalanceamentos são presentes, porém dentro das normas aeronáuticas. Dado a isso, a operação dos filtros ativos do tipo \textit{shunt} é sensível às estes efeitos, fazendo com que algumas considerações devam ser aplicadas para contornar tais fenômenos adversos e garantir seu correto funcionamento em todo espectro de operação. Segundo \cite{Akagi2007}, a teoria p-q mostra-se insuficiente para atender a filtragem de cargas não lineares em sistemas com tensões previamente distorcidas e, ao mesmo tempo, satisfazer as condições de uma filtragem ótima. Tais condições são descritas por:
 
 \begin{itemize}
 	\item Extrair apenas potência ativa constante da fonte de alimentação; 
@@ -113,7 +113,7 @@ O detector de sequência positiva é empregado para encontrar a componente fundame
 
 Já as tensões  $v_a'$, $v_b'$ e $v_c'$ advindas do detector de sequência positiva são constituídas apenas por $\dot{V}_{k_{+1}}$. Estas por sua vez são utilizadas no cálculo das correntes de referência de um filtro ativo do tipo \textit{shunt}, como mostrado na Figura \ref{fig:diagrama_filtro.png}. As tensões $v_a'$, $v_b'$ e $v_c'$ na entrada do filtro são utilizadas no cálculo das potências instantâneas $p$ e $q$, a qual serão utilizadas na determinação das parcelas de potências a serem compensadas, e também na determinação das correntes de referência nas coordenadas $\alpha \beta$. Em termos de componentes simétricos e, dado que somente $\dot{V}_{+1}$ é considerado nos cálculos das potências instantâneas, as potências $\tilde{p}$ e $\tilde{q}$ são relacionadas com todas as harmônicas de sequência positiva e componentes de sequência negativas das correntes das linhas, sendo que apenas $\dot{I}_{+1}$ produzem as parcelas $\bar{p}$ e $\bar{q}$. Com isso, operando o filtro de modo a compensar as parcelas da potência $\tilde{p}$ e $\tilde{q}$, as componentes harmônicas de sequência positiva e negativas diferentes de $\dot{I}_{+1}$ são compensadas. Assim, a operação do filtro produz apenas as componentes fundamentais da corrente para cada fase individualmente e em fase com as componentes fundamentais das tensões do sistema \cite{Akagi2007}.
 
-A estrutura de um sistema de um detector de sequência positiva consiste em dois principais blocos. O primeiro representa um sistema de malha de captura de fase, ou \textit{Phase Locked Loop} (PLL), e o segundo consiste na Malha Principal de determinação de $v_a'$, $v_b'$ e $v_c'$ com a utilização da teoria PQ.
+A estrutura de um sistema de um detector de sequência positiva consiste em dois principais blocos. O primeiro representa um sistema de malha de captura de fase, ou \textit{Phase Locked Loop} (PLL), e o segundo consiste na Malha Principal de determinação de $v_a'$, $v_b'$ e $v_c'$ com a utilização da teoria p-q.
 
 \subparagraph{Malha de Captura de Fase (PLL)}
 
@@ -132,7 +132,7 @@ Uma importante característica do PLL é a ausência de informação quanto à amplitu
 
 \subparagraph{Malha Principal}
 
-A Malha Principal consiste em um sistema onde se utiliza a teoria da potência instantânea PQ, juntamente com o sinal advindo do PLL, para a determinação das tensões $v_a'$, $v_b'$ e $v_c'$, nas quais são compostas apenas pela componente de sequência positiva dos sinais de tensão da rede. A arquitetura da Malha Principal é mostrada na Figura \ref{fig:detector_seq_pos.png}.
+A Malha Principal consiste em um sistema onde se utiliza a teoria da potência instantânea p-q, juntamente com o sinal advindo do PLL, para a determinação das tensões $v_a'$, $v_b'$ e $v_c'$, nas quais são compostas apenas pela componente de sequência positiva dos sinais de tensão da rede. A arquitetura da Malha Principal é mostrada na Figura \ref{fig:detector_seq_pos.png}.
 
 \begin{figure}[!htbp] %Esquema de um filtro passivo genérico
 	\centering
