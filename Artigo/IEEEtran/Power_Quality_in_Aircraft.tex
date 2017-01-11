@@ -8,14 +8,15 @@ NUNCA copie um texto integramente de um outro artigo.
 
 \subsection{Active Filters}
 
-The active filter operates creating waveforms to interact with the voltages and currents presented in the electrical grid to establish a power factor equal to one. This is accomplished by measuring the voltage waveforms from the power source and the current waveforms from the load, and then using these parameters on the instantaneous power theory to determine the current reference as an input to be set in a compensator. The compensator injects current waveforms in the circuit with symmetrical values of the components which degrades the power factor. The typical system compounded by a non-linear load with an active filter is presented in Figure 1 (\ref{fig:compensador.png}).
+The active filter operates creating waveforms to interact with the voltages and currents presented in the electrical grid to establish a power factor equal to one. This is accomplished by measuring the voltage waveforms from the power source and the current waveforms from the load, and then using these parameters on the instantaneous power theory to determine the current reference as an input to be set in a compensator. The compensator injects current waveforms in the circuit with symmetrical values of the components which degrades the power factor. The typical system compounded by a non-linear load with an active filter is presented in Fig. \ref{fig:compensador.png}.
 
-%\begin{figure}[!htb] %
-%\centering
-%\includegraphics[width=0.65\textwidth]{Cap3/Figuras/compensador.png}
-%\caption{Active Compensator \cite{Akagi2007}}
-%\label{fig:compensador.png}
-%\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.4\textwidth]{Figures/compensador.png}
+	\caption{Simulation Results}
+	\label{fig:compensador.png}
+\end{figure}
+
 
 \subsection{Instantaneous Power Theory}
 
@@ -131,14 +132,14 @@ q = \overline{q} + \tilde{q}
 
 To create an active filter to coordinate a power factor equal to 1, the only permitted power flowing in the transmission lines is the average value of the instantaneous active power ($\overline{p}$). To ensure this condition, the filter must inject in the lines currents which contains the symmetrical values of the instantaneous reactive power ($q$) and the oscillating portion of the instantaneous active power ($\tilde{p}$) created by the non-linear load. By doing this, these powers are cancelled in the same way as the current harmonic content. Thereby, the selection of power to be compensate and processed by the filter must contains the values of the $-\tilde{p}$ and $-q$ only.
 
-The filter full operation is defined by the instantaneous power $p$ and $q$ calculation, followed by the selection of the power to be compensated, i.e., $-\tilde{p}$ and $-q$. Afterwards, the currents $i_{\alpha}$ and $i_{\beta}$ are calculated using the eq (5) \ref{eq:i_alphabeta} with the values $-\tilde{p}$ and $-q$, followed by the inverse Clarke transformation to acquire the current in $abc$ coordinates to be applied as a reference in the compensator. The whole active filter reference definition is shown in Fig. (7) \ref{fig:diagrama_filtro.png}.
+The filter full operation is defined by the instantaneous power $p$ and $q$ calculation, followed by the selection of the power to be compensated, i.e., $-\tilde{p}$ and $-q$. Afterwards, the currents $i_{\alpha}$ and $i_{\beta}$ are calculated using the eq (5) \ref{eq:i_alphabeta} with the values $-\tilde{p}$ and $-q$, followed by the inverse Clarke transformation to acquire the current in $abc$ coordinates to be applied as a reference in the compensator. The whole active filter reference definition is shown in Fig. \ref{fig:diagrama_filtro.png}.
 
-%\begin{figure}[!htb] %
-%	\centering
-%	\includegraphics[width=0.85\textwidth]{Cap3/Figuras/diagrama_filtro.png}
-%	\caption[Active filter reference definition \cite{Akagi2007}}
-%	\label{fig:diagrama_filtro.png}
-%\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.47\textwidth]{Figures/diagrama_filtro.png}
+	\caption{Active filter reference definition}
+	\label{fig:diagrama_filtro.png}
+\end{figure}
 
 \subsection{Control Strategy}
 
@@ -152,20 +153,4 @@ According to \ cite {Akagi2007}, the p-q theory proves insufficient to satisfy t
 \todo[inline]{Falar do controle de tensão do capacitor (se couber, ou falar bem sucintamente)}
 
 Descrição da sua proposta com detalhes. Método empregado para resolução do problema (equacionamento, pseudo código, diagrama de blocos etc.).
-Caso utilize componentes específicos na implementação (circuito integrado, sensor etc.), não exagere na descrição dos mesmos (fotos, dados técnicos, especificação etc.). O leitor pode obter estes dados na referência que você indicou.
-
-LATEX COMMANDS
-
-
-
-(2)	
-
-(3)	
-
-(4)	
-
-(5)	
-
-(6)	
-
-%(7)	
+Caso utilize componentes específicos na implementação (circuito integrado, sensor etc.), não exagere na descrição dos mesmos (fotos, dados técnicos, especificação etc.). O leitor pode obter estes dados na referência que você indicou.	

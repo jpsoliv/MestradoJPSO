@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.23)  10 JAN 2017 16:07
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.23)  11 JAN 2017 16:22
 entering extended mode
 **bare_conf.tex
 (C:\Users\jpsoliv\Documents\João\Mestrado\Artigo\IEEEtran\bare_conf.tex
@@ -123,70 +123,6 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \c@IEEEbiography=\count93
 \@IEEEtranrubishbin=\box27
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\amsma
-th\amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip44
-
-For additional information on amsmath, use the `?' option.
-
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\amsma
-th\amstext.sty
-Package: amstext 2000/06/29 v2.01
-
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\amsma
-th\amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks15
-\ex@=\dimen126
-))
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\amsma
-th\amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen127
-)
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\amsma
-th\amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
-)
-\inf@bad=\count94
-LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count95
-\leftroot@=\count96
-LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count97
-\DOTSCASE@=\count98
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box28
-\strutbox@=\box29
-\big@size=\dimen128
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count99
-\c@MaxMatrixCols=\count100
-\dotsspace@=\muskip10
-\c@parentequation=\count101
-\dspbrk@lvl=\count102
-\tag@help=\toks16
-\row@=\count103
-\column@=\count104
-\maxfields@=\count105
-\andhelp@=\toks17
-\eqnshift@=\dimen129
-\alignsep@=\dimen130
-\tagshift@=\dimen131
-\tagwidth@=\dimen132
-\totwidth@=\dimen133
-\lineht@=\dimen134
-\@envbody=\toks18
-\multlinegap=\skip45
-\multlinetaggap=\skip46
-\mathdisplay@stack=\toks19
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
-)
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\todon
 otes\todonotes.sty
 Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
@@ -202,9 +138,9 @@ Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\xke
 yval\xkeyval.tex
-\XKV@toks=\toks20
-\XKV@tempa@toks=\toks21
-\XKV@depth=\count106
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
+\XKV@depth=\count94
 File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\xke
@@ -231,7 +167,7 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 rdiek\ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count107
+\Gread@gobject=\count95
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
@@ -251,15 +187,15 @@ asiclayer\pgf.sty
 tilities\pgfrcs.sty
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks22
-\pgfutil@tempdima=\dimen135
-\pgfutil@tempdimb=\dimen136
+\pgfutil@everybye=\toks17
+\pgfutil@tempdima=\dimen126
+\pgfutil@tempdimb=\dimen127
 
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \utilities\pgfutil-common-lists.tex))
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \utilities\pgfutil-latex.def
-\pgfutil@abb=\box30
+\pgfutil@abb=\box28
 
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\ms\ev
 eryshi.sty
@@ -291,8 +227,8 @@ File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
-\Gin@req@height=\dimen137
-\Gin@req@width=\dimen138
+\Gin@req@height=\dimen128
+\Gin@req@width=\dimen129
 )
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\pgf\s
 ystemlayer\pgfsys.sty
@@ -302,30 +238,30 @@ Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
 
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks23
-\pgfkeys@temptoks=\toks24
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
 
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \utilities\pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks25
+\pgfkeys@tmptoks=\toks20
 ))
-\pgf@x=\dimen139
-\pgf@y=\dimen140
-\pgf@xa=\dimen141
-\pgf@ya=\dimen142
-\pgf@xb=\dimen143
-\pgf@yb=\dimen144
-\pgf@xc=\dimen145
-\pgf@yc=\dimen146
+\pgf@x=\dimen130
+\pgf@y=\dimen131
+\pgf@xa=\dimen132
+\pgf@ya=\dimen133
+\pgf@xb=\dimen134
+\pgf@yb=\dimen135
+\pgf@xc=\dimen136
+\pgf@yc=\dimen137
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count108
-\c@pgf@countb=\count109
-\c@pgf@countc=\count110
-\c@pgf@countd=\count111
-\t@pgf@toka=\toks26
-\t@pgf@tokb=\toks27
-\t@pgf@tokc=\toks28
+\c@pgf@counta=\count96
+\c@pgf@countb=\count97
+\c@pgf@countc=\count98
+\c@pgf@countd=\count99
+\t@pgf@toka=\toks21
+\t@pgf@tokb=\toks22
+\t@pgf@tokc=\toks23
 
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \systemlayer\pgf.cfg
@@ -344,8 +280,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count112
-\pgfsyssoftpath@bigbuffer@items=\count113
+\pgfsyssoftpath@smallbuffer@items=\count100
+\pgfsyssoftpath@bigbuffer@items=\count101
 )
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \systemlayer\pgfsysprotocol.code.tex
@@ -363,12 +299,12 @@ Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
 \math\pgfmathutil.code.tex)
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen147
-\pgfmath@count=\count114
-\pgfmath@box=\box31
-\pgfmath@toks=\toks29
-\pgfmath@stack@operand=\toks30
-\pgfmath@stack@operation=\toks31
+\pgfmath@dimen=\dimen138
+\pgfmath@count=\count102
+\pgfmath@box=\box29
+\pgfmath@toks=\toks24
+\pgfmath@stack@operand=\toks25
+\pgfmath@stack@operation=\toks26
 )
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \math\pgfmathfunctions.code.tex
@@ -390,57 +326,57 @@ Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
 \math\pgfmathfunctions.integerarithmetics.code.tex)))
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count115
+\c@pgfmathroundto@lastzeros=\count103
 ))
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen148
-\pgf@picmaxx=\dimen149
-\pgf@picminy=\dimen150
-\pgf@picmaxy=\dimen151
-\pgf@pathminx=\dimen152
-\pgf@pathmaxx=\dimen153
-\pgf@pathminy=\dimen154
-\pgf@pathmaxy=\dimen155
-\pgf@xx=\dimen156
-\pgf@xy=\dimen157
-\pgf@yx=\dimen158
-\pgf@yy=\dimen159
-\pgf@zx=\dimen160
-\pgf@zy=\dimen161
+\pgf@picminx=\dimen139
+\pgf@picmaxx=\dimen140
+\pgf@picminy=\dimen141
+\pgf@picmaxy=\dimen142
+\pgf@pathminx=\dimen143
+\pgf@pathmaxx=\dimen144
+\pgf@pathminy=\dimen145
+\pgf@pathmaxy=\dimen146
+\pgf@xx=\dimen147
+\pgf@xy=\dimen148
+\pgf@yx=\dimen149
+\pgf@yy=\dimen150
+\pgf@zx=\dimen151
+\pgf@zy=\dimen152
 )
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen162
-\pgf@path@lasty=\dimen163
+\pgf@path@lastx=\dimen153
+\pgf@path@lasty=\dimen154
 )
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
-\pgf@shorten@end@additional=\dimen164
-\pgf@shorten@start@additional=\dimen165
+\pgf@shorten@end@additional=\dimen155
+\pgf@shorten@start@additional=\dimen156
 )
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
-\pgfpic=\box32
-\pgf@hbox=\box33
-\pgf@layerbox@main=\box34
-\pgf@picture@serial@count=\count116
+\pgfpic=\box30
+\pgf@hbox=\box31
+\pgf@layerbox@main=\box32
+\pgf@picture@serial@count=\count104
 )
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
-\pgflinewidth=\dimen166
+\pgflinewidth=\dimen157
 )
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
-\pgf@pt@x=\dimen167
-\pgf@pt@y=\dimen168
-\pgf@pt@temp=\dimen169
+\pgf@pt@x=\dimen158
+\pgf@pt@y=\dimen159
+\pgf@pt@temp=\dimen160
 )
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \basiclayer\pgfcorequick.code.tex
@@ -457,13 +393,13 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
-\pgfarrowsep=\dimen170
+\pgfarrowsep=\dimen161
 )
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen171
-\pgf@sys@shading@range@num=\count117
+\pgf@max=\dimen162
+\pgf@sys@shading@range@num=\count105
 )
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \basiclayer\pgfcoreimage.code.tex
@@ -472,7 +408,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
-\pgfexternal@startupbox=\box35
+\pgfexternal@startupbox=\box33
 ))
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \basiclayer\pgfcorelayers.code.tex
@@ -489,7 +425,7 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
-\pgfnodeparttextbox=\box36
+\pgfnodeparttextbox=\box34
 )
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \modules\pgfmoduleplot.code.tex
@@ -498,8 +434,8 @@ File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\pgf\c
 ompatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen172
-\pgf@nodesepend=\dimen173
+\pgf@nodesepstart=\dimen163
+\pgf@nodesepend=\dimen164
 )
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\pgf\c
 ompatibility\pgfcomp-version-1-18.sty
@@ -521,10 +457,10 @@ Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \math\pgfmath.code.tex)
-\pgffor@iter=\dimen174
-\pgffor@skip=\dimen175
-\pgffor@stack=\toks32
-\pgffor@toks=\toks33
+\pgffor@iter=\dimen165
+\pgffor@skip=\dimen166
+\pgffor@stack=\toks27
+\pgffor@toks=\toks28
 ))
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \frontendlayer\tikz\tikz.code.tex
@@ -533,32 +469,32 @@ Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
-\pgf@plot@mark@count=\count118
-\pgfplotmarksize=\dimen176
+\pgf@plot@mark@count=\count106
+\pgfplotmarksize=\dimen167
 )
-\tikz@lastx=\dimen177
-\tikz@lasty=\dimen178
-\tikz@lastxsaved=\dimen179
-\tikz@lastysaved=\dimen180
-\tikzleveldistance=\dimen181
-\tikzsiblingdistance=\dimen182
-\tikz@figbox=\box37
-\tikz@figbox@bg=\box38
-\tikz@tempbox=\box39
-\tikz@tempbox@bg=\box40
-\tikztreelevel=\count119
-\tikznumberofchildren=\count120
-\tikznumberofcurrentchild=\count121
-\tikz@fig@count=\count122
+\tikz@lastx=\dimen168
+\tikz@lasty=\dimen169
+\tikz@lastxsaved=\dimen170
+\tikz@lastysaved=\dimen171
+\tikzleveldistance=\dimen172
+\tikzsiblingdistance=\dimen173
+\tikz@figbox=\box35
+\tikz@figbox@bg=\box36
+\tikz@tempbox=\box37
+\tikz@tempbox@bg=\box38
+\tikztreelevel=\count107
+\tikznumberofchildren=\count108
+\tikznumberofcurrentchild=\count109
+\tikz@fig@count=\count110
 
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count123
-\pgfmatrixcurrentcolumn=\count124
-\pgf@matrix@numberofcolumns=\count125
+\pgfmatrixcurrentrow=\count111
+\pgfmatrixcurrentcolumn=\count112
+\pgf@matrix@numberofcolumns=\count113
 )
-\tikz@expandcount=\count126
+\tikz@expandcount=\count114
 
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
 \frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
@@ -571,49 +507,142 @@ File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\tools
 \calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count127
-\calc@Bcount=\count128
-\calc@Adimen=\dimen183
-\calc@Bdimen=\dimen184
-\calc@Askip=\skip47
-\calc@Bskip=\skip48
+\calc@Acount=\count115
+\calc@Bcount=\count116
+\calc@Adimen=\dimen174
+\calc@Bdimen=\dimen175
+\calc@Askip=\skip44
+\calc@Bskip=\skip45
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count129
-\calc@Cskip=\skip49
+\calc@Ccount=\count117
+\calc@Cskip=\skip46
 )
-\c@@todonotes@numberoftodonotes=\count130
+\c@@todonotes@numberoftodonotes=\count118
+)
+(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\cite\
+cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\amsma
+th\amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+
+(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\amsma
+th\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\amsma
+th\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks29
+\ex@=\dimen176
+))
+(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\amsma
+th\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen177
+)
+(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\amsma
+th\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count119
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count120
+\leftroot@=\count121
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count122
+\DOTSCASE@=\count123
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box39
+\strutbox@=\box40
+\big@size=\dimen178
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count124
+\c@MaxMatrixCols=\count125
+\dotsspace@=\muskip10
+\c@parentequation=\count126
+\dspbrk@lvl=\count127
+\tag@help=\toks30
+\row@=\count128
+\column@=\count129
+\maxfields@=\count130
+\andhelp@=\toks31
+\eqnshift@=\dimen179
+\alignsep@=\dimen180
+\tagshift@=\dimen181
+\tagwidth@=\dimen182
+\totwidth@=\dimen183
+\lineht@=\dimen184
+\@envbody=\toks32
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks33
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\tools
+\array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen185
+\extrarowheight=\dimen186
+\NC@list=\toks34
+\extratabsurround=\skip50
+\backup@length=\skip51
+)
+(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\base\
+fixltx2e.sty
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+LaTeX Info: The control sequence `\[' is already robust on input line 471.
+LaTeX Info: The control sequence `\]' is already robust on input line 472.
+)
+(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\sttoo
+ls\stfloats.sty
+Package: stfloats 2016/06/28 v3.2 Improve float mechanism and baselineskip sett
+ings
+\@dblbotnum=\count131
+\c@dblbotnumber=\count132
 )
 (C:\Users\jpsoliv\Documents\João\Mestrado\Artigo\IEEEtran\bare_conf.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 316.
-LaTeX Font Info:    ... okay on input line 316.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 316.
-LaTeX Font Info:    ... okay on input line 316.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 316.
-LaTeX Font Info:    ... okay on input line 316.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 316.
-LaTeX Font Info:    ... okay on input line 316.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 316.
-LaTeX Font Info:    ... okay on input line 316.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 316.
-LaTeX Font Info:    ... okay on input line 316.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 319.
+LaTeX Font Info:    ... okay on input line 319.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 319.
+LaTeX Font Info:    ... okay on input line 319.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 319.
+LaTeX Font Info:    ... okay on input line 319.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 319.
+LaTeX Font Info:    ... okay on input line 319.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 319.
+LaTeX Font Info:    ... okay on input line 319.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 319.
+LaTeX Font Info:    ... okay on input line 319.
 
 -- Lines per column: 56 (exact).
 
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\context\bas
 e\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count131
-\scratchdimen=\dimen185
+\scratchcounter=\count133
+\scratchdimen=\dimen187
 \scratchbox=\box41
-\nofMPsegments=\count132
-\nofMParguments=\count133
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count134
-\MPscratchDim=\dimen186
-\MPnumerator=\count135
-\makeMPintoPDFobject=\count136
-\everyMPtoPDFconversion=\toks35
+\nofMPsegments=\count134
+\nofMParguments=\count135
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count136
+\MPscratchDim=\dimen188
+\MPnumerator=\count137
+\makeMPintoPDFobject=\count138
+\everyMPtoPDFconversion=\toks36
 ) ABD: EveryShipout initializing macros
 (C:\Users\jpsoliv\Documents\João\Mestrado\Artigo\IEEEtran\Introduction.tex
 Missing character: There is no � in font ptmr7t!
@@ -703,19 +732,21 @@ Missing character: There is no � in font ptmr7t!
 Missing character: There is no � in font ptmr7t!
 Missing character: There is no � in font ptmr7t!
 Missing character: There is no � in font ptmr7t!
+ <Figures/compensador.png, id=4, 529.98pt x 332.74312pt>
+File: Figures/compensador.png Graphic file (type png)
+
+<use Figures/compensador.png>
+Package pdftex.def Info: Figures/compensador.png used on input line 15.
+(pdftex.def)             Requested size: 206.39685pt x 129.5865pt.
 
 
-LaTeX Warning: Reference `fig:compensador.png' on page 1 undefined on input lin
-e 11.
+LaTeX Warning: Citation `Akagi' on page 1 undefined on input line 23.
 
 
-LaTeX Warning: Citation `Akagi' on page 1 undefined on input line 22.
+LaTeX Warning: Citation `Akagi' on page 1 undefined on input line 23.
 
 
-LaTeX Warning: Citation `Akagi' on page 1 undefined on input line 22.
-
-
-LaTeX Warning: Citation `Akagi' on page 1 undefined on input line 22.
+LaTeX Warning: Citation `Akagi' on page 1 undefined on input line 23.
 
 [1{C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/pdftex/config
 /pdftex.map}
@@ -723,25 +754,25 @@ LaTeX Warning: Citation `Akagi' on page 1 undefined on input line 22.
 
 ]
 
-LaTeX Warning: Citation `Akagi' on page 2 undefined on input line 64.
+LaTeX Warning: Citation `Akagi' on page 2 undefined on input line 65.
 
 
-LaTeX Warning: Citation `Akagi' on page 2 undefined on input line 64.
+LaTeX Warning: Citation `Akagi' on page 2 undefined on input line 65.
 
 
-LaTeX Warning: Citation `Peng1996' on page 2 undefined on input line 64.
+LaTeX Warning: Citation `Peng1996' on page 2 undefined on input line 65.
 
 
-LaTeX Warning: Citation `Akagi' on page 2 undefined on input line 122.
+LaTeX Warning: Citation `Akagi' on page 2 undefined on input line 123.
 
+<Figures/diagrama_filtro.png, id=14, 635.37375pt x 429.10312pt>
+File: Figures/diagrama_filtro.png Graphic file (type png)
 
-LaTeX Warning: Reference `fig:diagrama_filtro.png' on page 2 undefined on input
- line 134.
-
-
-LaTeX Warning: Reference `fig:diagrama_filtro.png' on page 2 undefined on input
- line 145.
-
+<use Figures/diagrama_filtro.png>
+Package pdftex.def Info: Figures/diagrama_filtro.png used on input line 139.
+(pdftex.def)             Requested size: 242.52063pt x 163.78766pt.
+ [2 <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/IEEEtran/Figures/compensa
+dor.png>]
 Missing character: There is no � in font ptmr7t!
 Missing character: There is no � in font ptmr7t!
 Missing character: There is no � in font ptmr7t!
@@ -780,17 +811,17 @@ Missing character: There is no � in font ptmr7t!
 Missing character: There is no � in font ptmr7t!
 Missing character: There is no � in font ptmr7t!
 Missing character: There is no � in font ptmr7t!
-[2])
+)
 (C:\Users\jpsoliv\Documents\João\Mestrado\Artigo\IEEEtran\Simulation_of_the_Sh
 unt_Active_Filter_Operating_with_an_Electrohidraulic_Actuator.tex
-Missing character: There is no � in font ptmr7t!
-Missing character: There is no � in font ptmr7t!
-Missing character: There is no � in font ptmr7t!
-Missing character: There is no � in font ptmr7t!
-Missing character: There is no � in font ptmr7t!
-Missing character: There is no � in font ptmr7t!
-Missing character: There is no � in font ptmr7t!
-Missing character: There is no � in font ptmr7t!
+<Figures/filtro_blocos.png, id=25, 970.3753pt x 532.23843pt>
+File: Figures/filtro_blocos.png Graphic file (type png)
+
+<use Figures/filtro_blocos.png>
+Package pdftex.def Info: Figures/filtro_blocos.png used on input line 13.
+(pdftex.def)             Requested size: 438.60315pt x 240.56897pt.
+ [3 <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/IEEEtran/Figures/diagrama
+_filtro.png>]
 Missing character: There is no � in font ptmr7t!
 Missing character: There is no � in font ptmr7t!
 Missing character: There is no � in font ptmr7t!
@@ -848,18 +879,18 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3
-
-] (C:\Users\jpsoliv\Documents\João\Mestrado\Artigo\IEEEtran\bare_conf.aux)
+[4 <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/IEEEtran/Figures/filtro_bl
+ocos.png>]
+(C:\Users\jpsoliv\Documents\João\Mestrado\Artigo\IEEEtran\bare_conf.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 12948 strings out of 493921
- 266424 string characters out of 3125104
- 306882 words of memory out of 3000000
- 16008 multiletter control sequences out of 15000+200000
+ 13145 strings out of 493921
+ 269624 string characters out of 3125104
+ 309138 words of memory out of 3000000
+ 16188 multiletter control sequences out of 15000+200000
  40739 words of font info for 77 fonts, out of 3000000 for 9000
  844 hyphenation exceptions out of 8191
  62i,15n,80p,1005b,598s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -878,9 +909,9 @@ ble/fonts/type1/urw/times/utmb8a.pfb><C:/Users/jpsoliv/Documents/João/Mestrado
 ents/João/Mestrado/Latex/MikTexPortable/fonts/type1/urw/times/utmr8a.pfb><C:/U
 sers/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on bare_conf.pdf (3 pages, 121212 bytes).
+Output written on bare_conf.pdf (4 pages, 314129 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
+ 65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
