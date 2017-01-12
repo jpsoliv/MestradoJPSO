@@ -24,8 +24,66 @@ The EHA is an equipment used in the aircraft aerodynamic surfaces for latero-dir
 
 \subsection{Results}
 
-\todo[inline]{colocar os resultados da simulação para o caso onde não há carga e para a máxima carga. Apenas curvas de forma de onda de tensão e corrente e espectro de frequência (se couber, também no período com pouca carga)}
+The results obtained by simulation of the system are presented below. These results show the voltages and currents waveforms measured in the PCC, as well as the frequency spectrum with the amplitude limits defined by the MIL-STD 704F standard and the TDH and IHC of the voltage waveform.
 
-Testes / ensaios. Deixe claro como foram realizados os ensaios, tipo de montagem, identifique possíveis problemas que interferiram nos resultados etc. 
-Convença o leitor que você realizou os testes / ensaios  incluindo figuras, gráficos etc.  
-Apresente os resultados e compare com trabalhos disponíveis na literatura. Discuta pontos fortes e fracos (do seu trabalho e trabalhos anteriores). Não exagere nos resultados positivos atingidos e não enfatize em demasia os pontos  negativos de outros trabalhos (o revisor do seu artigo pode ser um dos autores dos trabalhos que você está comparando).
+The test is divide in two portions: The first with the EHA not requiring any load, and the second at the EHA starting operation, where it is observed the maximum load consumption. The results also show both cases where the active filter is connecter and disconnected from the grid.
+
+For the portion where the EHA is not operating, Fig. 3 and Fig. 4 show the waveforms when the system has no active filter operating. For the same portion, Fig. 5 and Fig. 6 show the waveforms when the active filters are connected in the EHAs power input. For this case, it can be seen that the presence of the active filter degrade the power quality, since the THD increase and the frequency spectrum presents more harmonic content. This noise is inserted in the syste due to the switching commutation of the VSC. That, despite the presence of the capacitor filter in the lines, injected some high frequency content in the grid. However, despite of this adversity, the results are still inside the limits defined by aeronautical standards.
+
+For the portion where the EHA is requiring maximum load, Fig. 7 and Fig. 8 show the waveform when the active filters are not connected in the grid. For the same portion, Fig. 9 and Fig. 10 show the waveforms when the active filters are connected in the EHAs power input. For this case, it is clear the enhancement that the active filter implies in the system. The active filters operate to mitigate the harmonic content to set it inside the limits of the MIL-STD 704F.
+
+\begin{figure}[!b] %
+	\centering
+	\includegraphics[width=0.4\textwidth]{Figures/artigo_unfilt_1.eps}
+	\caption{}
+	\label{fig:artigo_unfilt_1.eps}
+\end{figure}
+
+\begin{figure}[!b] %
+	\centering
+	\includegraphics[width=0.4\textwidth]{Figures/artigo_unfilt_2.eps}
+	\caption{}
+	\label{fig:artigo_unfilt_2.eps}
+\end{figure}
+
+\begin{figure}[!b] %
+	\centering
+	\includegraphics[width=0.4\textwidth]{Figures/artigo_filt_1.eps}
+	\caption{}
+	\label{fig:artigo_filt_1.eps}
+\end{figure}
+
+\begin{figure}[!b] %
+	\centering
+	\includegraphics[width=0.4\textwidth]{Figures/artigo_filt_2.eps}
+	\caption{}
+	\label{fig:artigo_filt_2.eps}
+\end{figure}
+
+\begin{figure}[!b] %
+	\centering
+	\includegraphics[width=0.4\textwidth]{Figures/artigo_unfilt_3.eps}
+	\caption{}
+	\label{fig:artigo_unfilt_3.eps}
+\end{figure}
+
+\begin{figure}[!b] %
+	\centering
+	\includegraphics[width=0.4\textwidth]{Figures/artigo_unfilt_4.eps}
+	\caption{}
+	\label{fig:artigo_unfilt_4.eps}
+\end{figure}
+
+\begin{figure}[!b] %
+	\centering
+	\includegraphics[width=0.4\textwidth]{Figures/artigo_filt_3.eps}
+	\caption{}
+	\label{fig:artigo_filt_3.eps}
+\end{figure}
+
+\begin{figure}[!b] %
+	\centering
+	\includegraphics[width=0.4\textwidth]{Figures/artigo_filt_4.eps}
+	\caption{}
+	\label{fig:artigo_filt_4.eps}
+\end{figure}

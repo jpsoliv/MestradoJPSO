@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.23)  11 JAN 2017 16:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.23)  12 JAN 2017 13:25
 entering extended mode
 **bare_conf.tex
 (C:\Users\jpsoliv\Documents\Jo√£o\Mestrado\Artigo\IEEEtran\bare_conf.tex
@@ -520,6 +520,25 @@ LaTeX Info: Redefining \addtolength on input line 77.
 )
 \c@@todonotes@numberoftodonotes=\count118
 )
+
+! LaTeX Error: Option clash for package graphicx.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 
+     
+The package graphicx has already been loaded with options:
+  []
+There has now been an attempt to load it with options
+  [dvips]
+Adding the global options:
+  ,dvips
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
+
 (C:\Users\jpsoliv\Documents\Jo√£o\Mestrado\Latex\MikTexPortable\tex\latex\cite\
 cite.sty
 LaTeX Info: Redefining \cite on input line 302.
@@ -822,47 +841,118 @@ Package pdftex.def Info: Figures/filtro_blocos.png used on input line 13.
 (pdftex.def)             Requested size: 438.60315pt x 240.56897pt.
  [3 <C:/Users/jpsoliv/Documents/Jo√£o/Mestrado/Artigo/IEEEtran/Figures/diagrama
 _filtro.png>]
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 ....4\textwidth]{Figures/artigo_unfilt_1.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 ....4\textwidth]{Figures/artigo_unfilt_2.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...=0.4\textwidth]{Figures/artigo_filt_1.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 ...=0.4\textwidth]{Figures/artigo_filt_2.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Figures/artigo_unfilt_3.eps' not found on input line 65.
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 ....4\textwidth]{Figures/artigo_unfilt_3.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 ....4\textwidth]{Figures/artigo_unfilt_4.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Figures/artigo_filt_3.eps' not found on input line 79.
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 ...=0.4\textwidth]{Figures/artigo_filt_3.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 ...=0.4\textwidth]{Figures/artigo_filt_4.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (C:\Users\jpsoliv\Documents\Jo√£o\Mestrado\Artigo\IEEEtran\Conclusions.tex
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
 Missing character: There is no √ in font ptmr7t!
 Missing character: There is no ß in font ptmr7t!
 Missing character: There is no √ in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no £ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ° in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ° in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no £ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no © in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≠ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≠ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ß in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ° in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ≠ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no £ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no £ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ° in font ptmr7t!
-)
-(C:\Users\jpsoliv\Documents\Jo√£o\Mestrado\Artigo\IEEEtran\Conclusions.tex
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no £ in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ß in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no £ in font ptmr7t!
+
+[4 <C:/Users/jpsoliv/Documents/Jo√£o/Mestrado/Artigo/IEEEtran/Figures/filtro_bl
+ocos.png>]
 Missing character: There is no √ in font ptmr7t!
 Missing character: There is no ß in font ptmr7t!
 Missing character: There is no √ in font ptmr7t!
@@ -879,18 +969,18 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4 <C:/Users/jpsoliv/Documents/Jo√£o/Mestrado/Artigo/IEEEtran/Figures/filtro_bl
-ocos.png>]
-(C:\Users\jpsoliv\Documents\Jo√£o\Mestrado\Artigo\IEEEtran\bare_conf.aux)
+[5
+
+] (C:\Users\jpsoliv\Documents\Jo√£o\Mestrado\Artigo\IEEEtran\bare_conf.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13145 strings out of 493921
- 269624 string characters out of 3125104
- 309138 words of memory out of 3000000
- 16188 multiletter control sequences out of 15000+200000
+ 13162 strings out of 493921
+ 269917 string characters out of 3125104
+ 309177 words of memory out of 3000000
+ 16196 multiletter control sequences out of 15000+200000
  40739 words of font info for 77 fonts, out of 3000000 for 9000
  844 hyphenation exceptions out of 8191
  62i,15n,80p,1005b,598s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -909,9 +999,9 @@ ble/fonts/type1/urw/times/utmb8a.pfb><C:/Users/jpsoliv/Documents/Jo√£o/Mestrado
 ents/Jo√£o/Mestrado/Latex/MikTexPortable/fonts/type1/urw/times/utmr8a.pfb><C:/U
 sers/jpsoliv/Documents/Jo√£o/Mestrado/Latex/MikTexPortable/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on bare_conf.pdf (4 pages, 314129 bytes).
+Output written on bare_conf.pdf (5 pages, 315265 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
