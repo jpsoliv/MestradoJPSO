@@ -61,6 +61,7 @@ yyaxis right
 ylim([-400 400]);
 axesftsize(ftaxes,'time [s]','',1);
 ylim([-400 400]);
+n = get(fig,'Number');
 print(['artigo_filt_',num2str(n)],'-depsc');
 
 fig = figure(4);

@@ -6,7 +6,7 @@ The active filter operates creating waveforms to interact with the voltages and 
 \centering
 \includegraphics[width=2.8in]{Figures/compensador.png}
 \caption{Simulation Results}
-\label{fig_sim}
+\label{fig:compensador.png}
 \end{figure}
 
 %\begin{figure}
@@ -75,7 +75,7 @@ v_0		&	0			&	0\\
 0		&	v_{\beta}	&	-v_{\alpha}
 \end{bmatrix}
 \begin{bmatrix}
-i_{0}
+i_{0}\\
 i_{\alpha}\\
 i_{\beta}
 \end{bmatrix}
@@ -147,7 +147,6 @@ The filter full operation is defined by the instantaneous power $p$ and $q$ calc
 %	\label{fig:diagrama_filtro.png}
 %\end{figure}
 
-
 \subsection{Control Strategy}
 
 The active filter specified by the calculations procedure as defined in Fig (7) \ref{fig:diagrama_filtro.png} presents very effective to set the current reference to be applied in the compensator to mitigate the electrical system harmonic content. However, this calculation is valid to produce sinusoidal waveforms only when the voltages measured and used in the filter input is pure sinusoidal. This happen due to the filter operates allowing only the mean value of the active instantaneous power flowing in the circuit. Therefore, the use of a non-sinusoidal voltage waveform in the input of the filter cause the filter to creates a non-sinusoidal current waveform to order to establish the power flow without $q$ and $\tilde{p}$.
@@ -157,7 +156,4 @@ In aircraft electrical power system the voltage waveforms stated in the point of
 According to \ cite {Akagi2007}, the p-q theory proves insufficient to satisfy the non-linear loads filtering in systems with previously distorted voltages waveforms and, at the same time, to satisfy the conditions of injecting a sinusoidal current and setting a flow of a constant flow active instantaneous power.  
  
 \todo[inline]{Colocar os métodos de controle, focando no método de controle de corrente senoidal}
-\todo[inline]{Falar do controle de tensão do capacitor (se couber, ou falar bem sucintamente)}
-
-Descrição da sua proposta com detalhes. Método empregado para resolução do problema (equacionamento, pseudo código, diagrama de blocos etc.).
-Caso utilize componentes específicos na implementação (circuito integrado, sensor etc.), não exagere na descrição dos mesmos (fotos, dados técnicos, especificação etc.). O leitor pode obter estes dados na referência que você indicou.	
+\todo[inline]{Falar do controle de tensão do capacitor (se couber, ou falar bem sucintamente)}	
