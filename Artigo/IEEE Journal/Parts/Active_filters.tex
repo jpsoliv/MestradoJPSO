@@ -149,11 +149,28 @@ The filter full operation is defined by the instantaneous power $p$ and $q$ calc
 
 \subsection{Control Strategy}
 
-The active filter specified by the calculations procedure as defined in Fig (7) \ref{fig:diagrama_filtro.png} presents very effective to set the current reference to be applied in the compensator to mitigate the electrical system harmonic content. However, this calculation is valid to produce sinusoidal waveforms only when the voltages measured and used in the filter input is pure sinusoidal. This happen due to the filter operates allowing only the mean value of the active instantaneous power flowing in the circuit. Therefore, the use of a non-sinusoidal voltage waveform in the input of the filter cause the filter to creates a non-sinusoidal current waveform to order to establish the power flow without $q$ and $\tilde{p}$.
+The active filter specified in Fig (7) \ref{fig:diagrama_filtro.png} presents very effective to set the current reference to be applied in the compensator for mitigation of the electrical system harmonic content. However, this calculation is valid to produce sinusoidal current waveforms only when the voltages measured and used in the filter input is pure sine waves. This happens since the filter operates in such way that only the mean value of the active instantaneous power flows in the circuit. Therefore, the use of a non-sinusoidal voltage waveform in the input of the filter requires a non-sinusoidal current waveform to establish the power flow with only $\overline{p}$.
 
-In aircraft electrical power system the voltage waveforms stated in the point of common connection (PCC) are presented as non-sinusoidal, but still limited by the aeronautical standards. As the voltages are measured at this point, the operation of the filter is not optimal for power quality purposes, and in some cases, might decrease the power quality and operates unstably depending the levels of harmonic distortion presented in the voltages waveforms.
+In aircraft electrical power system, the voltage waveforms stated in the point of common connection (PCC) are presented as non-sinusoidal, however, they are still limited by the aeronautical standards. As the voltages used in the active filter are measured at the PCC or beyond this point, its operation is not optimal for power quality purposes, and, in some cases, it may decrease the power quality and operates unstably depending the levels of harmonic distortion presented in the voltages waveforms.
 
-According to \ cite {Akagi2007}, the p-q theory proves insufficient to satisfy the non-linear loads filtering in systems with previously distorted voltages waveforms and, at the same time, to satisfy the conditions of injecting a sinusoidal current and setting a flow of a constant flow active instantaneous power.  
- 
-\todo[inline]{Colocar os métodos de controle, focando no método de controle de corrente senoidal}
-\todo[inline]{Falar do controle de tensão do capacitor (se couber, ou falar bem sucintamente)}	
+According to \cite{Akagi2007}, the p-q theory proves insufficient to satisfy the condition to create a current sine wave and an active instantaneous power flow consisted of only the its mean value, at the same time the voltage waveforms measured and presented on the PCC are previously distorted. To overcome this situation, a control strategy based on the use of a positive-sequence voltage detector is employed to ensure a sinusoidal current control. With this, the power flow between the load and the source is not defined as the mean value of the active instantaneous power, however, the control strategy relays on the appropriate sine wave current insertion in order to establish the proper power quality at the system.
+
+This control is designed by the use of the positive-sequence voltage detector, which operates to extract the fundamental positive-sequence component from the distorted voltages. This component is required by the active filter to define the current shape to be applied in the electrical grid to create a sinusoidal waveform.
+
+The positive-sequence voltage detector operates based on the p-q dual theory where it is used a phase locked loop (PLL) and the p-q theory to extract the fundamental frequency and amplitude of the distorted voltages. The PLL is show in Fig. \ref{fig:PLL.png} and operates defining the fundamental frequency and phase. The scheme shown in Fig. \ref{fig:detector_seq_positiva.png} uses the p-q theory and the information coming from the PLL to define the amplitude of the fundamental component to be used in the active filter calculations.
+
+\begin{figure}[!th]
+	\centering
+	\includegraphics[width=3in]{Figures/PLL.png}
+	\caption{Phase locked loop}
+	\label{fig:PLL.png}
+\end{figure}
+
+\begin{figure}[!th]
+	\centering
+	\includegraphics[width=3in]{Figures/detector_seq_positiva.png}
+	\caption{Positive-sequence detector}
+	\label{fig:detector_seq_positiva.png}
+\end{figure}
+
+In the operation of the active filter, some loss is presented in the circuit, mainly due to the VSC switching devices, which cause the voltage of the capacitor, locate in the converter DC side, to decrease. To avoid this voltage drop, a closed-loop design with a PI controller is applied in the active filter to define the power to compensate the system power loss. This closed-loop error signal is processed by the compensator, causing this to manage the power flow in the VSC to hold the capacitor voltage to specifically reference.
