@@ -1,14 +1,14 @@
 \section{Simulation of the Shunt Active Filter Operating with an Electrohidraulic Actuator}
 
-A simulation is proposed to evaluate the shunt active filter operating in an aircraft electrical system. The system is composed by the generation and distribution system and some loads constituted by electrohydraulic actuators with shunt active filter connected to its respective inputs.
+A simulation was used to evaluate the shunt active filter operating in an aircraft electrical system. The system is composed by the generation and distribution system and some loads constituted by electrohydraulic actuators (EHAs) with shunt active filters connected to its respective inputs.
 
 \subsection{Active Filter Model}
 
-The shunt active filter model is composed by the current reference calculator and the compensator blocks. The reference calculator block is given by the procedure which uses the instantaneous power theory to define the proper reference to be applied in the compensator input. The compensator block consists of a voltage source converter (VSC), with its respective capacitor DC voltage regulated by a closed-loop controller. The compensator also has the hysteresis controller which creates the commands that are applied in the VSC switching devices.
+The shunt active filter is given by the current reference calculator and the compensator, as shown in the diagram presented in Fig. \ref{fig:filtro_blocos.png}. This figure shows the points where the voltages and currents measurement probes are connected in the electrical grid; the calculation algorithm, where each sub-block presents its respective signals inputs and outputs; and the compensator, which consists of the VSC.
 
-The active filter operation requires a passive capacitor filter applied in the transmission lines to eliminate the high frequency content injected in the system by the switching commutation \cite{}. As the switching commutation is set at high frequency, this passive filter might be lightweight and does not impact significantly in the aircraft system. However, the presence of capacitors in the transmission lines may decrease the power factor due to current phase shift. To eliminate this problem some inductor may be applied in the lines to compensate the reactive power flow.
+The reference calculator block defines the proper reference to be applied in the compensator. Its inputs are the load currents and the grid voltages measurements, while its output is the reference applied to the compensator. The compensator block consists of a VSC with its capacitor DC voltage regulated by a closed-loop controller. The compensator also has the hysteresis controller, which creates the commands applied to the VSC switching devices.
 
-The shunt active filter diagram is presented in Fig. \ref{fig:filtro_blocos.png}. This figure shows the blocks where each calculation step is accomplished, and the points where the active filter with its respective voltage and current measurement probes are connected to the electrical grid.
+The active filter operation requires a passive capacitor filter applied in the transmission lines to eliminate the high frequency content injected in the system by the switching commutation \cite{Akagi2007}. Due to high switching commutation frequency, the passive filter is lightweight and does not impact significantly in the aircraft system. However, the presence of capacitors in the transmission lines may decrease the power factor due to current phase shift. To eliminate this, inductors may be applied in the lines to compensate the reactive power flow.
 
 \begin{figure*}[!tb] %
 	\centering
@@ -19,13 +19,13 @@ The shunt active filter diagram is presented in Fig. \ref{fig:filtro_blocos.png}
 
 \subsection{Electrical System Model}
 
-The aircraft electrical system was modeled based on the operation of the generation and distribution system with it respective non-idealities, which affect the power quality due to voltage drop. The simulation presents a generator system, a power distribution system and three EHAs connected in parallel as the loads, as shown in Fig. \ref{fig:simulacao_simulink.png}.
+The aircraft electrical system model considers the operation of the generation and distribution system with its respective non-idealities, which affect the power quality due to voltage drop. The simulation has a generator system, a power distribution system and three EHAs connected in parallel as the loads. The electrical system model is shown in Fig. \ref{fig:simulacao_simulink.png}.
 
-The generator system is compound of a synchronous machine and a generator control unit (GCU). The GCU works as a field excitation controller to set the proper voltage in the PCC. The synchronous machine also has resistive and inductive reactance connected in series with the voltage source to model the resistance and the inductance presented in the generator coils.
+The generator system consists of a synchronous machine and a generator control unit (GCU). The GCU works as a field excitation controller to set the proper voltage in the PCC. The synchronous machine also has resistive and inductive reactance connected in series with the voltage source to model the resistance and the inductance presented in the generator coils.
 
-The power distribution system is composed by the transmission lines between the generator and the PCC and between the PCC and EHAs. In the PCC, it is located the probes which measure the system voltages levels to be sent as the reference input to the GCU. The power transmission lines are modeled as resistive and inductive reactance in series for each of the 3 phase lines.
+The power distribution system is composed by the transmission lines between the generator and the PCC and between the PCC and EHAs. Probes in the PCC measure the system voltages levels to be sent as the reference input to the GCU. The power transmission lines are modeled as resistive and inductive reactance in series for each of the 3 phase lines.
 
-The EHA is an equipment used in the aircraft aerodynamic surfaces for latero-directional and longitudinal control. This equipment is a non-linear load, since in its input has a 3-phase diode bridge. The EHAs modeled has a 3 phase Graetz diode bridge with a current controlled source placed in its respective DC side. The controlled current source is defined to operate in such way to recreates the apparent power consumption of a real EHA. Thereby, this guarantees the application of the distorted current waveforms generated by the EHA in real operation.
+The EHA controls the latero-directional and longitudinal aerodynamics surfaces. This equipment is a non-linear load, since its input has a 3-phase diode bridge. The EHAs model has a 3 phase Graetz diode bridge with a controlled current source placed in its respective DC side. The controlled current source is defined to operate in such way to recreates the apparent power consumption of a real EHA. Thereby, this guarantees the simulation of the distorted current waveforms generated by the EHA in real operation.
 
 \begin{figure*}[!tb] %
 	\centering
@@ -36,14 +36,14 @@ The EHA is an equipment used in the aircraft aerodynamic surfaces for latero-dir
 
 \subsection{Results}
 
-The results obtained by the simulation of the system are presented below. These results show the voltages and currents waveforms measured in the PCC, as well as the frequency spectrum with the amplitude limits defined by the MIL-STD 704F together with the calculated value of the voltage THD and IHC.
+The simulation results show the voltages and currents waveforms measured in the PCC, the voltage frequency spectrum, the amplitude constraints defined by the MIL-STD 704F, and the calculated value of the voltage THD and IHC.
 
-The test is divide in two portions: The first part is given with the EHAs not requiring any load, and the second part is given when EHAs are starting their operation, where it is observed the maximum load consumption. The results also show the cases where the active filters are connected and disconnected from the EHAs power input.
+The test is divided in two conditions:  the EHAs without operating and the EHAs starting their operation (maximum load). The results also show the cases where the active filters are connected and disconnected from the EHAs power input.
 
-For the portion where the EHAs are not operating, Fig. \ref{fig:artigo_unfilt_1.eps} and Fig. \ref{fig:artigo_unfilt_2.eps} show the waveforms when the system has no active filters operating. For the same period, Fig. \ref{fig:artigo_filt_1.eps} and Fig. \ref{fig:artigo_filt_2.eps} show the waveforms when the active filters are connected in the EHAs power input. For this interval, the presence of the active filters degrades the power quality, since the THD increases, and the frequency spectrum presents more harmonic content. This noise is inserted in the system due to the commutation of the VSC switching devices. Thus, even with the presence of the capacitor filter in the lines, it was observed some high frequency content injected in the grid. However, despite of this adversity, the results are still inside the limits defined by aeronautical standards.
+For the condition where the EHAs are not operating, Fig. \ref{fig:artigo_unfilt_1.eps} and Fig. \ref{fig:artigo_unfilt_2.eps} show the waveforms when the system has no active filters connected in the EHAs power inputs. For the same period, Fig. \ref{fig:artigo_filt_1.eps} and Fig. \ref{fig:artigo_filt_2.eps} show the waveforms when the active filters are connected to the EHAs power input. During this time interval, the presence of the active filters degrades the power quality, since the THD increases and the frequency spectrum presents more harmonic content. 
+This noise is inserted in the system due to the commutation of the VSC switching devices. Thus, even with the presence of the capacitor filter in the lines, it was observed some high frequency content injected in the grid. However, despite of this adversity, the results are still inside the limits defined by aeronautical standards.
 
-For the portion where the EHA is requiring maximum load, Fig. \ref{fig:artigo_unfilt_3.eps} and Fig. \ref{fig:artigo_unfilt_4.eps} show the waveform when the active filters are not connected in the grid. In the same period, Fig. \ref{fig:artigo_filt_3.eps} and Fig. \ref{fig:artigo_filt_4.eps} show the waveforms when the active filters are connected in the EHAs power input. In this interval, it is clear the enhancement that the active filter implies in the system power quality. Considering these results, the active filters operate to mitigate the harmonic content and set it inside the limits of the MIL-STD 704F.
-
+For the condition where the EHAs are requiring maximum current, Fig. \ref{fig:artigo_unfilt_3.eps} and Fig. \ref{fig:artigo_unfilt_4.eps} show the waveform when the active filters are not connected in the grid. In the same time interval, Fig. \ref{fig:artigo_filt_3.eps} and Fig. \ref{fig:artigo_filt_4.eps} show the waveforms when the active filters are connected to the EHAs power input. In this interval, it is clear the active filter enhancement in the system power quality. Considering these results, the active filter mitigates the harmonic content and set it within the limits of the MIL-STD 704F.
 
 \begin{figure}[!h] %
 	\centering
