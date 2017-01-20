@@ -1,0 +1,110 @@
+\begin{thebibliography}{15}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abdel-Hafez and Forsyth(2009)]{Abdelhafez2009}
+A.~Abdel-Hafez and A.~Forsyth.
+\newblock A review of more-electric aircraft.
+\newblock In \emph{13th International Conference on Aerospace Science \&
+  Aviation Technology (ASAT-13)}, Cairo, 2009. Military Technical College.
+
+\bibitem[Akagi(2006)]{Akagi2006}
+H.~Akagi.
+\newblock Modern active filters and traditional passive filters.
+\newblock \emph{Bulletin of the Polish Academy of Sciences, Technical
+  Sciences}, 54\penalty0 (3), 2006.
+
+\bibitem[Akagi et~al.(1984)Akagi, Kanazawa, and Nabae]{Akagi1984}
+H.~Akagi, Y.~Kanazawa, and A.~Nabae.
+\newblock Instantaneous reactive power compensators comprising switching
+  devices without energy storage components.
+\newblock \emph{IEEE Transactions on industry applications}, \penalty0
+  (3):\penalty0 625--630, 1984.
+
+\bibitem[Akagi et~al.(2007)Akagi, Watanabe, and Aredes]{Akagi2007}
+H.~Akagi, E.~H. Watanabe, and M.~Aredes.
+\newblock \emph{Instantaneous Power Theory and Applications to Power
+  Conditioning}, volume~31.
+\newblock John Wiley \& Sons, 2007.
+
+\bibitem[Babikian et~al.(2002)Babikian, Lukachko, and Waitz]{Babikian2002}
+R.~Babikian, S.~P. Lukachko, and I.~A. Waitz.
+\newblock The historical fuel efficiency characteristics of regional aircraft
+  from technological, operational, and cost perspectives.
+\newblock \emph{Journal of Air Transport Management}, 8\penalty0 (6):\penalty0
+  389--400, 2002.
+
+\bibitem[Chen and Chen(2012)]{Chen2012novel}
+Z.~Chen and M.~Chen.
+\newblock A novel 400hz shunt active power filter for aircraft electrical power
+  system.
+\newblock In \emph{2012 7th International Power Electronics and Motion Control
+  Conference (IPEMC)}, volume~4, pages 2838--2843. IEEE, 2012.
+
+\bibitem[Chen et~al.(2012{\natexlab{a}})Chen, Luo, and Chen]{Chen2012control}
+Z.~Chen, Y.~Luo, and M.~Chen.
+\newblock Control and performance of a cascaded shunt active power filter for
+  aircraft electric power system.
+\newblock \emph{IEEE Transactions on Industrial electronics}, 59\penalty0
+  (9):\penalty0 3614--3623, 2012{\natexlab{a}}.
+
+\bibitem[Chen et~al.(2012{\natexlab{b}})Chen, Wang, Chen, and
+  Li]{Chen2012research}
+Z.~Chen, C.~Wang, M.~Chen, and J.~Li.
+\newblock A research on cascade five-level aeronautical active power filter.
+\newblock In \emph{2012 7th International Power Electronics and Motion Control
+  Conference (IPEMC)}, volume~4, pages 2732--2737. IEEE, 2012{\natexlab{b}}.
+
+\bibitem[Gong et~al.(2003)Gong, Drofenik, and Kolar]{Gong2003}
+G.~Gong, U.~Drofenik, and J.~Kolar.
+\newblock 12-pulse rectifier for more electric aircraft applications.
+\newblock In \emph{2003 IEEE International Conference on Industrial
+  Technology}, volume~2, pages 1096--1101, Maribor, 2003. IEEE.
+
+\bibitem[Gong et~al.(2005)Gong, Heldwein, Drofenik, Minib{\"o}ck, Mino, and
+  Kolar]{Lobo2005}
+G.~Gong, M.~L. Heldwein, U.~Drofenik, J.~Minib{\"o}ck, K.~Mino, and J.~W.
+  Kolar.
+\newblock Comparative evaluation of three-phase high-power-factor ac-dc
+  coverter concepts for application in future more electric aircraft.
+\newblock \emph{IEEE Transactions on Industrial Electronics}, 52\penalty0
+  (3):\penalty0 727--737, 2005.
+
+\bibitem[Karatzaferis et~al.(2013)Karatzaferis, Papanikolaou, Tatakis, Loupis,
+  and Spanoudakis]{Karatzaferis2013}
+J.~Karatzaferis, N.~Papanikolaou, E.~Tatakis, M.~Loupis, and J.~Spanoudakis.
+\newblock Comparison and evaluation of power factor correction topologies for
+  industrial applications.
+\newblock \emph{Energy and Power Engineering}, 5\penalty0 (6), 2013.
+
+\bibitem[Moir(1999)]{Moir1999}
+I.~Moir.
+\newblock More-electric aircraft-system considerations.
+\newblock In \emph{IEE Colloquium on Electrical Machines and Systems for the
+  More Electric Aircraft}, Londres, 1999. IET.
+
+\bibitem[Peng and Lai(1996)]{Peng1996}
+F.~Z. Peng and J.-S. Lai.
+\newblock Generalized instantaneous reactive power theory for three-phase power
+  systems.
+\newblock \emph{IEEE Transactions on Instrumentation and Measurement},
+  45\penalty0 (1):\penalty0 293--297, 1996.
+
+\bibitem[Singer et~al.(2012)Singer, Guernsey, Gousy, III, and
+  Frerichs]{Singer2012}
+C.~Singer, C.~M. Guernsey, J.~Gousy, J.~D.~C. III, and J.~Frerichs.
+\newblock Aircraft electrical power systems and nonlinear dynamic loads.
+\newblock \emph{SAE International Journal of Aerospace}, 5\penalty0
+  (2):\penalty0 447--454, 2012.
+\newblock \doi{10.4271/2012-01-2182}.
+
+\bibitem[Zhu and Ma(2014)]{Zhu2014}
+S.~Zhu and W.~Ma.
+\newblock Methods of aircraft grid harmonic reduction: A review.
+\newblock \emph{Scholars Journal of Engineering and Technology (SJET)},
+  2:\penalty0 270--275, 2014.
+
+\end{thebibliography}

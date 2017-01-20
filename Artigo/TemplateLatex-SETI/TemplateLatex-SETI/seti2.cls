@@ -35,7 +35,7 @@
 		\fi
 		\RequirePackage[margin=2.5cm,top=2.5cm,left=2.5cm,right=2.5cm,bottom=2.0cm,headheight=\baselineskip]%
                 {geometry}% page layout
-		\RequirePackage{overcite}% superscript, sorted, compressed citation commands
+		\RequirePackage{natbib}% superscript, sorted, compressed citation commands
 \fi
 
 \RequirePackage{fancyhdr}% simple control of headers and footers
@@ -132,7 +132,7 @@
 			\renewcommand\maketitle{\par
 					\begingroup
 							\renewcommand\thefootnote{\@fnsymbol\c@footnote}%
-							\def\@makefnmark{\rlap{\@textsuperscript{\normalfont\@thefnmark}}}%
+							\def\@makefnmark{\rlap{\@texterscript{\normalfont\@thefnmark}}}%
 							\long\def\@makefntext##1{\parindent 1em\noindent
 											\hb@xt@1.8em{%
 													\hss\@textsuperscript{\normalfont\@thefnmark}}##1}%

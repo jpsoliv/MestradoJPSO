@@ -1,0 +1,177 @@
+\section{Active Filters}
+
+The active filter operates creating waveforms to interact with the voltages and currents presented in the electrical grid to establish a power factor equal to one. This is accomplished by measuring the voltage waveforms from the power source and the current waveforms from the load, and then using these parameters on the instantaneous power theory to determine the current reference as an input to be set in a compensator \citep{Akagi2006}. The compensator injects current waveforms in the circuit with symmetrical values of the components which degrades the power factor. The typical system compounded by a non-linear load with a shunt active filter is presented in Fig. \ref{fig:compensador.png}.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.5\textwidth]{Figures/compensador.png}
+\caption{Simulation Results}
+\label{fig:compensador.png}
+\end{figure}
+
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.4\textwidth]{Figures/compensador.png}
+%	\caption{Simulation Results}
+%	\label{fig:compensador.png}
+%\end{figure}
+
+
+\subsection{Instantaneous Power Theory}
+
+The instantaneous power theory was presented by Akagi \citep{Akagi1984}, which proposed some new concepts for the instantaneous active and reactive power. This theory can be used in three phase, three or four wire system and in steady or transient state \citep{Akagi2007}. In this theory, the manipulation of the active and reactive power calculations brings a tool to determine the currents that carry some content which degrade the power factor, such as harmonic distortion and phase shift.
+
+Considering a three-phase system, composed by the phases $a$, $b$ and $c$, the instantaneous power theory is based in the coordinates transformation from the $abc$ to $\alpha \beta 0 $. This is known as the Clarke Transformation and is shown in eq. \ref{eq:Clarke}.
+
+
+\begin{equation}
+\begin{bmatrix}
+v_0\\
+v_\alpha\\
+v_\beta
+\end{bmatrix}
+= \sqrt{\dfrac{2}{3}}
+\begin{bmatrix}
+\dfrac{1}{\sqrt{2}}	& \dfrac{1}{\sqrt{2}}	& \dfrac{1}{\sqrt{2}}		\\[2ex]
+1					& -\dfrac{1}{2}			& -\dfrac{1}{2}				\\[2ex]
+0					& \dfrac{\sqrt{3}}{2}	& -\dfrac{\sqrt{3}}{2}
+\end{bmatrix}
+\begin{bmatrix}
+v_a\\
+v_b\\
+v_c
+\end{bmatrix}
+\; ;
+\begin{bmatrix}
+i_0\\
+i_\alpha\\
+i_\beta
+\end{bmatrix}
+= \sqrt{\dfrac{2}{3}}
+\begin{bmatrix}
+\dfrac{1}{\sqrt{2}}	& \dfrac{1}{\sqrt{2}}	& \dfrac{1}{\sqrt{2}}		\\[2ex]
+1					& -\dfrac{1}{2}			& -\dfrac{1}{2}				\\[2ex]
+0					& \dfrac{\sqrt{3}}{2}	& -\dfrac{\sqrt{3}}{2}
+\end{bmatrix}
+\begin{bmatrix}
+i_a\\
+i_b\\
+i_c
+\end{bmatrix}
+\label{eq:Clarke}
+\end{equation} 
+
+According to \citep{Akagi2007}, the instantaneous power is defined as shown in eq (3) \ref{eq:pq_0}, where the $p_0$, $p$ and $q$ are the instantaneous zero-sequence power, the active instantaneous power and the reactive instantaneous power, respectively \citep{Akagi2007,Peng1996}.
+
+\begin{equation}
+\begin{bmatrix}
+p_0\\
+p\\
+q
+\end{bmatrix}=
+\begin{bmatrix}
+v_0		&	0			&	0\\
+0		&	v_{\alpha}	&	v_{\beta}\\
+0		&	v_{\beta}	&	-v_{\alpha}
+\end{bmatrix}
+\begin{bmatrix}
+i_{0}\\
+i_{\alpha}\\
+i_{\beta}
+\end{bmatrix}
+\label{eq:pq_0}
+\end{equation} 
+
+Considering a system without zero-sequence voltage and/or current, such as the aircraft electrical system, the eq \ref{eq:pq_0} can be simplified as the eq \ref{eq:pq}, where the instantaneous zero-sequence power is absent.
+
+\begin{equation}
+\begin{bmatrix}
+p\\
+q
+\end{bmatrix}=
+\begin{bmatrix}
+v_{\alpha}	&	v_{\beta}\\
+v_{\beta}	&	-v_{\alpha}
+\end{bmatrix}
+\begin{bmatrix}
+i_{\alpha}\\
+i_{\beta}
+\end{bmatrix}
+\label{eq:pq}
+\end{equation} 
+
+The reverse calculation, i.e., the determination of the currents $i_{\alpha}$ and $i_{\beta}$ when the voltages $v_{alpha}$ and $v_{\beta}$ and the instantaneous power $p$ and $q$ are known is presented in eq. \ref{eq:i_alphabeta}.
+
+\begin{equation}
+\begin{bmatrix}
+i_{\alpha}\\
+i_{\beta}
+\end{bmatrix}=
+\dfrac{1}{v_{\alpha}^2+v_{\beta}^2}
+\begin{bmatrix}
+v_{\alpha}	&	v_{\beta}\\
+v_{\beta}	&	-v_{\alpha}
+\end{bmatrix}
+\begin{bmatrix}
+p\\
+q
+\end{bmatrix}
+\label{eq:i_alphabeta}
+\end{equation}
+
+By definition, the active instantaneous power is composed by the energy that is swapped between two subsystems, whereas the reactive power is composed by the energy being swapped between the 3 phases of the system \citep{Akagi1984,Peng1996}. Furthermore, both $p$ and $q$ can be defined as a composition of an average ($\overline{p}$ and $\overline{q}$) and an oscillating ($\tilde{p}$ and $\tilde{q}$) values, as defined in eq. \ref{eq:pq_m_o}.
+
+\begin{equation}
+\begin{aligned}
+p = \overline{p} + \tilde{p}\\
+q = \overline{q} + \tilde{q} 
+\end{aligned}
+\label{eq:pq_m_o}
+\end{equation} 
+
+To create an active filter to coordinate a power factor equal to 1, the only permitted power flowing in the transmission lines is the average value of the instantaneous active power ($\overline{p}$). To ensure this condition, the filter must inject in the lines currents which contain the symmetrical values of the instantaneous reactive power ($q$) and the oscillating portion of the instantaneous active power ($\tilde{p}$) created by the non-linear load. By doing this, these powers are canceled in the same way as the current harmonic content. Thereby, the selection of power to be compensate and processed by the filter must contains the values of the $-\tilde{p}$ and $-q$ only.
+
+The filter full operation is defined by the instantaneous power $p$ and $q$ calculation, followed by the selection of the power to be compensated, i.e., $-\tilde{p}$ and $-q$. Afterwards, the currents $i_{\alpha}$ and $i_{\beta}$ are calculated using the eq (5) \ref{eq:i_alphabeta} with the values $-\tilde{p}$ and $-q$, followed by the inverse Clarke transformation to acquire the current in $abc$ coordinates to be applied as a reference in the compensator. The whole active filter reference definition is shown in Fig. \ref{fig:diagrama_filtro.png}.
+
+
+\begin{figure}[!th]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Figures/diagrama_filtro.png}
+	\caption{Active filter reference calculator}
+	\label{fig:diagrama_filtro.png}
+\end{figure}
+
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.47\textwidth]{Figures/diagrama_filtro.png}
+%	\caption{Active filter reference definition}
+%	\label{fig:diagrama_filtro.png}
+%\end{figure}
+
+\subsection{Control Strategy}
+
+The active filter specified in Fig (7) \ref{fig:diagrama_filtro.png} presents very effective to set the current reference to be applied in the compensator for mitigation of the electrical system harmonic content. However, this calculation is valid to produce sinusoidal current waveforms only when the voltages measured and used in the filter input is pure sine waves \citep{Akagi2007}. This happens insofar as the filter operates in such way that only the mean value of the active instantaneous power flows in the circuit. Therefore, the use of a non-sinusoidal voltage waveform in the input of the filter requires a non-sinusoidal current waveform to establish the power flow with only $\overline{p}$.
+
+In aircraft electrical system, the voltage waveforms stated in the point of common connection (PCC) are presented as non-sinusoidal, however, they are still limited by the aeronautical standards. As the voltages used in the active filter are measured at the PCC or beyond this point, the filter defined as per Fig \ref{fig:diagrama_filtro.png} is not optimal for power quality purposes, and, in some cases, it may decrease the power quality and operates unstably depending the levels of harmonic distortion presented in the voltages waveforms \citep{Akagi2007}.
+
+According to \citep{Akagi2007}, the p-q theory proves insufficient to satisfy the condition to create a current sine wave and a flow consisted of the mean value of the active instantaneous power, at the same time the voltage waveforms measured on the PCC are previously distorted. To overcome this situation, a control strategy based on the use of a positive-sequence voltage detector is employed to ensure a sinusoidal current control. With this, the power flow between the load and the source is not defined as the mean value of the active instantaneous power, however, the control strategy relays on the appropriate sine wave current insertion to establish the proper power quality at the system.
+
+This control is designed using the positive-sequence voltage detector, which operates to extract the fundamental positive-sequence component from the distorted voltages. This component is required by the active filter to define the current shape to be applied in the electrical grid to create a sinusoidal waveform. 
+The positive-sequence voltage detector operates based on the p-q dual theory where it is used a phase locked loop (PLL) and the p-q theory to extract the fundamental frequency and amplitude of the distorted voltages. The PLL is show in Fig. \ref{fig:PLL.png} and operates defining the fundamental frequency and phase. The scheme shown in Fig. \ref{fig:detector_seq_positiva.png} uses the p-q theory and the information coming from the PLL to define the amplitude of the fundamental voltages component to be used in the active filter calculations.
+
+
+\begin{figure}[!b]
+	\centering
+	\includegraphics[width=0.62\textwidth]{Figures/PLL.png}
+	\caption{Phase locked loop}
+	\label{fig:PLL.png}
+\end{figure}
+
+\begin{figure}[!b]
+	\centering
+	\includegraphics[width=0.47\textwidth]{Figures/detector_seq_positiva.png}
+	\caption{Positive-sequence detector}
+	\label{fig:detector_seq_positiva.png}
+\end{figure}
+
+In the operation of the active filter, some loss is presented in the circuit, mainly due to the VSC switching devices, which cause the voltage of the capacitor, locate in the VSC DC side, to decrease. To avoid this voltage drop, a closed-loop design with a PI controller is applied in the active filter to define the power to compensate the system power loss. This closed-loop error signal is processed by the compensator, causing this to manage the power flow in the VSC to hold the capacitor voltage to a specifically reference.
