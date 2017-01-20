@@ -75,28 +75,28 @@
 
 % Autor do trabalho: Nome Sobrenome
 \author{João Paulo}{de Souza Oliveira}
-\itaauthoraddress{Av. Cidade Jardim, 679}{12.233-066}{São José dos Campos--SP}
+\itaauthoraddress{Rua Expedicionários do Brasil, 2031}{14801-360}{Araraquara--SP}
 
 % Titulo da Tese/Dissertação
-\title{Modelagem de um Controlador de Atuador Eletrohidráulico para Estimativa de Demanda de Potência Elétrica, Fator de Potência e \textit{Total Harmonic Distortion}}
+\title{Simulação de Filtro Ativo do tipo \textit{Shunt} para Correção de Fator de Potência em Sistema Elétricos Aeronáuticos}
 
 % Orientador
 \advisor{Prof.~Dr.}{Roberto D'amore}
 
 % Co-orientador opcional
-\coadvisor{Eng.~MSc.}{Andre Domingues Rocha de Oliveira}{Embraer}
+\coadvisor{Eng.~MSc.}{André Domingues Rocha de Oliveira}{Embraer}
 
 % Pró-reitor da Pós-graduação
-\boss{Prof.~Dr.}{John von Neumann}
+\boss{Prof.~Dr.}{Luiz Carlos Sandoval Góes}
 
 % Palavras-Chaves informadas pela Biblioteca -> utilizada na CIP
-\kwcip{Cupim}
-\kwcip{Dilema}
-\kwcip{Construção}
+\kwcip{Filtro Ativo}
+\kwcip{Fator de Potência}
+\kwcip{Sistema El\'etrico}
 
 % membros da banca examinadora
 
-\examiner{Prof. Dr.}{Alan Turing}{Presidente}{ITA}
+\examiner{Prof. Dr.}{Roberto D'amore}{Presidente}{ITA}
 \examiner{Prof. Dr.}{Linus Torwald}{}{UXXX}
 \examiner{Prof. Dr.}{Richard Stallman}{}{UYYY}
 \examiner{Prof. Dr.}{Donald Duck}{}{DYSNEY}
@@ -111,33 +111,33 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% DOCUMENTO COMEÇA AQUI %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-%% Folha de Rosto
+% Folha de Rosto
+
+\maketitle
 %
-%\maketitle
-%%
-%% Dedicatoria: Nao esqueca essa secao ... :-)
-%\begin{itadedication}
-%Aos esforçados alunos de Pós-Graduação do ITA, por criarem este magnífico template \LaTeX, permitindo que eu ficasse ainda mais longe do Word :-)
-%
-%E a um cara do INPE, que apesar de já ser doutor, ainda se rebaixa a essas coisas de mexer com templates :O).....(Agradeça até ao seu animal de estimação, caso queira.) João
-%\end{itadedication}
-%
-%% Agradecimentos
-%\begin{itathanks}
-%\input{Pre_Textuais/agradecimentos}
-%\end{itathanks}
-%
-%% Epígrafe
-%\thispagestyle{myheadings}
-%\ifhyperref\pdfbookmark[0]{\nameepigraphe}{epigrafe}\fi
-%\begin{flushright}
-%\begin{spacing}{1}
-%\mbox{}\vfill
-%{\sffamily\itshape
-%``The mind that opens to a new idea\\ never returns to its original size.''\\}
-%--- \textsc{Albert Einstein}
-%\end{spacing}
-%\end{flushright}
+% Dedicatoria: Nao esqueca essa secao ... :-)
+\begin{itadedication}
+Aos esforçados alunos de Pós-Graduação do ITA, por criarem este magnífico template \LaTeX, permitindo que eu ficasse ainda mais longe do Word :-)
+
+E a um cara do INPE, que apesar de já ser doutor, ainda se rebaixa a essas coisas de mexer com templates :O).....(Agradeça até ao seu animal de estimação, caso queira.) João
+\end{itadedication}
+
+% Agradecimentos
+\begin{itathanks}
+\input{Pre_Textuais/agradecimentos}
+\end{itathanks}
+
+% Epígrafe
+\thispagestyle{myheadings}
+\ifhyperref\pdfbookmark[0]{\nameepigraphe}{epigrafe}\fi
+\begin{flushright}
+\begin{spacing}{1}
+\mbox{}\vfill
+{\sffamily\itshape
+``The mind that opens to a new idea\\ never returns to its original size.''\\}
+--- \textsc{Albert Einstein}
+\end{spacing}
+\end{flushright}
 %
 % Resumo
 \begin{abstract}
@@ -250,8 +250,8 @@
 %\end{comment} %%%% Comentário de apendice e anexo
 
 % Glossario
-%\itaglossary
-%\printglossary
+\itaglossary
+\printglossary
 
 % Folha de Registro do Documento
 % Valores dos campos do formulario
@@ -259,7 +259,7 @@
 \FRDitadata{25 de março de 2015}
 \FRDitadocnro{DCTA/ITA/TD-018/2015} %(o número de registro você solicita a biblioteca)
 \FRDitaorgaointerno{Instituto Tecnol\'ogico de Aeron\'autica -- ITA}
-\FRDitapalavrasautor{Cupim; Cimento; Estruturas}
+\FRDitapalavrasautor{Filtro Ativo; Fator de Pot\^encia; Sistema El\'etrico}
 \FRDitapalavrasresult{Cupim; Dilema; Construção}
 \FRDitapalavraapresentacao{ITA, São José dos Campos. Curso de Doutorado. Programa de Pós-Graduação em Engenharia Aeronáutica e Mecânica. Área de Sistemas Aeroespaciais e Mecatrônica. Orientador: Prof.~Dr. Adalberto Santos Dupont. Defesa em 05/03/2015. Publicada em 25/03/2015.}
 \FRDitaresumo{\input{Pre_Textuais/resumo}}
@@ -267,7 +267,7 @@
 %  Segundo parametro: Ostensivo, Reservado, Confidencial ou Secreto -- O/R/C/S
 \FRDitaOpcoes{N}{O}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Cria o formulario
-%\itaFRD
+\itaFRD
 
 
 \end{document}
