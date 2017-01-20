@@ -129,7 +129,7 @@ Dispon{\'\i}vel em:
 \bibitem{Manousaka2013}
 \abntrefinfo{Manousaka}{MANOUSAKA}{2013}
 {MANOUSAKA, E.
-\emph{DC-DC Buck Converter with Inrush Current Limiter}.
+\emph{{DC-DC} Buck Converter with Inrush Current Limiter}.
 Dissertação (Mestrado) --- Faculty of Applied Sciences, Lorentzweg, 2013.}
 
 \bibitem{Notches}
@@ -151,7 +151,8 @@ Dispon{\'\i}vel em:
 {VICTORINO, A. \emph{Fator de Pot\^encia e Distor\c{c}\~ao Harm\^onica}. 2011.
 Acessado em 18/06/2016.
 Dispon{\'\i}vel em:
-  $<$http://www.joinville.ifsc.edu.br/~aryvictorino/leituras\_SIP\_2011-1/sugest\%c3\%a3o\%20de\%20leitura\%20da\%20aula\%2015\%20-\%20fator\%20de\%20pot\%c3\%aancia\%20e\%20distor\%c3\%a7\%c3\%a3o\%20harm\%c3\%b4nica.doc$>$.}
+  $<$http://www.joinville.ifsc.edu.br/~aryvictorino/leituras\_SIP\_2011-1/sugest\%c3\%a3o\%20de\%20leitura\%20da\%20aula\%2015\%20-\%20fator\%20de\%20pot\%c3\%aancia\%20e\%20distor\%c3\%a7\%c3\%a3o\%20harm\%c3\%b4
+  nica.doc$>$.}
 
 \bibitem{AN779}
 \abntrefinfo{Lacanette}{LACANETTE}{1991}
@@ -162,14 +163,14 @@ AN779.}
 
 \bibitem{Mussoi2004}
 \abntrefinfo{Mussoi e Esperan{\c{c}}a}{MUSSOI; ESPERAN{\c{C}}A}{2004}
-{MUSSOI, F.~L.; ESPERAN{\c{C}}A, C. \emph{Resposta em frequ{\^e}ncia: Filtros
+{MUSSOI, F.~L.; ESPERAN{\c{C}}A, C. \emph{Resposta em Frequ{\^e}ncia: Filtros
   passivos}.
 2. ed. Florian{\'o}polis, 2004. Centro Federal de Educa{\c{c}}{\~a}o
   Tecnol{\'o}gica de Santa Catarina.}
 
 \bibitem{Singh2008}
 \abntrefinfo{Singh et al.}{SINGH et al.}{2008}
-{SINGH, B. et al. Multipulse ac--dc converters for improving power quality: a
+{SINGH, B. et al. Multipulse {AC-DC} converters for improving power quality: a
   review.
 \emph{IEEE Transactions on Power Electronics}, IEEE, v.~23, n.~1, p. 260--281,
   2008.}
@@ -182,14 +183,14 @@ AN779.}
 
 \bibitem{Lobo2005}
 \abntrefinfo{Gong et al.}{GONG et al.}{2005}
-{GONG, G. et al. Comparative evaluation of three-phase high-power-factor ac-dc
-  coverter concepts for application in future more electric aircraft.
+{GONG, G. et al. Comparative evaluation of three-phase high-power-factor
+  {AC-DC} coverter concepts for application in future more electric aircraft.
 \emph{IEEE Transactions on Industrial Electronics}, IEEE, v.~52, n.~3, p.
   727--737, 2005.}
 
 \bibitem{Kolar2011}
 \abntrefinfo{Kolar e Friedli}{KOLAR; FRIEDLI}{2011}
-{KOLAR, J.~W.; FRIEDLI, T. The essence of three-phase pfc rectifier systems.
+{KOLAR, J.~W.; FRIEDLI, T. The essence of three-phase {PFC} rectifier systems.
   In:  IEEE. \emph{2011 IEEE 33rd International Telecommunications Energy
   Conference (INTELEC)}. Amsterdam, 2011. p. 1--27.}
 
@@ -239,7 +240,7 @@ Ohio, 1996. AFRL Propulsion Directorate - Wright-Patterson Air Force Base.}
 
 \bibitem{Chen2012research}
 \abntrefinfo{Chen et al.}{CHEN et al.}{2012}
-{CHEN, Z. et al. A research on cascade five-level aeronautical active power
+{CHEN, Z. et al. A rresearch on cascade five-level aeronautical active power
   filter. In:  IEEE. \emph{2012 7th International Power Electronics and Motion
   Control Conference (IPEMC)}. [S.l.], 2012. v.~4, p. 2732--2737.}
 
@@ -281,13 +282,13 @@ Dispon{\'\i}vel em:
 
 \bibitem{Staudt2008}
 \abntrefinfo{Staudt}{STAUDT}{2008}
-{STAUDT, V. Fryze-buchholz-depenbrock: A time-domain power theory. In:  IEEE.
+{STAUDT, V. {Fryze-Buchholz-Depenbrock:} a time-domain power theory. In:  IEEE.
   \emph{2008 International School on Nonsinusoidal Currents and Compensation}.
   [S.l.], 2008. p. 1--12.}
 
 \bibitem{Czarnecki1997}
 \abntrefinfo{Czarnecki}{CZARNECKI}{1997}
-{CZARNECKI, L. Budeanu and fryze: Two frameworks for interpreting power
+{CZARNECKI, L. {Budeanu and Fryze}: Two frameworks for interpreting power
   properties of circuits with nonsinusoidal voltages and currents.
 \emph{Electrical Engineering}, Springer, v.~80, n.~6, p. 359--367, 1997.}
 
@@ -299,7 +300,7 @@ Dispon{\'\i}vel em:
 
 \bibitem{Czarnecki1987}
 \abntrefinfo{Czarnecki}{CZARNECKI}{1987}
-{CZARNECKI, L.~S. What is wrong with the budeanu concept of reactive and
+{CZARNECKI, L.~S. What is wrong with the {Budeanu} concept of reactive and
   distortion power and why it should be abandoned.
 \emph{IEEE Transactions on Instrumentation and measurement}, IEEE, v.~1001,
   n.~3, p. 834--837, 1987.}
@@ -327,7 +328,7 @@ Dispon{\'\i}vel em:
 \bibitem{Haberberger2004}
 \abntrefinfo{Haberberger e Fuchs}{HABERBERGER; FUCHS}{2004}
 {HABERBERGER, M.; FUCHS, F.~W. Novel protection strategy for current
-  interruptions in igbt current source inverters. In:  IEEE. \emph{2004 IEEE
+  interruptions in {IGBT} current source inverters. In:  IEEE. \emph{2004 IEEE
   35th Annual Power Electronics Specialists Conference. PESC 04.} [S.l.], 2004.
   v.~1, p. 558--564.}
 
@@ -340,7 +341,7 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Thekkevalappil}{THEKKEVALAPPIL}{2005}
 {THEKKEVALAPPIL, S.~N.
 Master Thesis, \emph{Hysteretic Pulse Width Modulation with Internally
-  Generated Carrier for a Boost Dc-dc Converter}. Gainesville: University of
+  Generated Carrier for a Boost {DC-DC} Converter}. Gainesville: University of
   Florida, 2005.}
 
 \bibitem{Watanabe1993}
@@ -374,7 +375,7 @@ Dispon{\'\i}vel em:
 \bibitem{Dinca2014}
 \abntrefinfo{Dinca et al.}{DINCA et al.}{2014}
 {DINCA, L. et al. Mathematical modeling and analysis of an electro-hydrostatic
-  servo actuator with brushless dc motor. In:  BUZATU, C. (Ed.). \emph{Modern
+  servo actuator with brushless {DC} motor. In:  BUZATU, C. (Ed.). \emph{Modern
   Computer Applications in Science and Education}. Cambridge, MA, USA: WSEAS
   Press, 2014. p. 157--163.}
 

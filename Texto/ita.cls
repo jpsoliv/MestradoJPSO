@@ -1,7 +1,7 @@
 %==============================================================================
-% This is the ITA LateX class - classe de documento com padrï¿½es do ITA
+% This is the ITA LateX class - classe de documento com padrões do ITA
 % written by
-%              Fï¿½bio Fagundes Silveira   -  ffs [at] ita [dot] br
+%              Fábio Fagundes Silveira   -  ffs [at] ita [dot] br
 %
 %              Benedito C. O. Maciel     -  bcmaciel [at] ita [dot] br
 %              Giovani Volnei Meinertz   -  giovani [at] ita [dot] br
@@ -37,10 +37,10 @@
 
 %==============================================================================
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{ita}[2006/03/10 v2.0 Classe de documento com padrï¿½es do ITA]
+\ProvidesClass{ita}[2006/03/10 v2.0 Classe de documento com padrões do ITA]
 
 % % --------------------------------------------------------------------
-% %  Verificaï¿½ï¿½o se alvo serï¿½ gerado pelo PDFLaTeX ou nï¿½o
+% %  Verificação se alvo será gerado pelo PDFLaTeX ou não
 % % --------------------------------------------------------------------
 \IfFileExists{ifpdf.sty}{\RequirePackage{ifpdf}}{\newif\ifpdf}
 %\newif\ifpdf
@@ -89,7 +89,7 @@
 }
 
 %==============================================================================
-%%% dv: 'draft version': imprime ï¿½Versao Preliminarï¿½ + data da impressao
+%%% dv: 'draft version': imprime ´Versao Preliminar´ + data da impressao
 %==============================================================================
 \newif\if@dv
 \DeclareOption{dv}{
@@ -135,15 +135,15 @@
 \RequirePackage{titlesec}
 
 %==============================================================================
-%%% Glossï¿½rio
+%%% Glossário
 \usepackage{makeglo}
 \renewcommand{\glossmaxlabelwidth}{\hspace{3cm}}
 
 %% opcoes de cores
 %% linkcolor=blue,citecolor=gray,urlcolor=cyan
 \RequirePackage{color}        %% aplicar cores no texto
-\RequirePackage{hyphenat}     %% hifenizaï¿½ï¿½o
-\RequirePackage{makeidx}      %% ï¿½NDICE
+\RequirePackage{hyphenat}     %% hifenização
+\RequirePackage{makeidx}      %% ÍNDICE
 
 %==============================================================================
 %%% Hyperref
@@ -180,7 +180,7 @@
 %==============================================================================
 
 %==============================================================================
-% Redefiniï¿½ï¿½o da data (para ter mï¿½s e ano separados)
+% Redefinição da data (para ter mês e ano separados)
 %==============================================================================
 \renewcommand{\date}[2]{
         \gdef\@publmonth{#1}
@@ -266,9 +266,9 @@
    \noindent
    \center
    \begin{spacing}{1.5}
-      {\Large \itanametitlequalibabel } \\        %  ITA -- \textsc{Instituto Tecnolï¿½gico de Aeronï¿½utica}} \\
-      {\Large \itaposnametitlequalibabel } \\     %  \textsc{Pï¿½s-Graduaï¿½ï¿½o em \itaworkcourse}} \\
-      {\large \itaarenametitlequalibabel }        %  \textsc{ï¿½rea de \itaworkarea}}
+      {\Large \itanametitlequalibabel } \\        %  ITA -- \textsc{Instituto Tecnológico de Aeronáutica}} \\
+      {\Large \itaposnametitlequalibabel } \\     %  \textsc{Pós-Graduação em \itaworkcourse}} \\
+      {\large \itaarenametitlequalibabel }        %  \textsc{Área de \itaworkarea}}
     \end{spacing}
 
     \vfill
@@ -393,7 +393,7 @@
         \vfill
 
 }
-% definiï¿½ï¿½o do quadro
+% definição do quadro
 \def\@cipwindow{%
         \framebox[\textwidth]{%
         \begin{minipage}{\textwidth - 10mm}%
@@ -483,7 +483,7 @@
 }
 
 %==============================================================================
-%%% Dedicatï¿½ria...
+%%% Dedicatória...
 %==============================================================================
 \newenvironment{itadedication}
 {\thispagestyle{myheadings}%
@@ -610,7 +610,7 @@
     \end{spacing}   %ita
     }
 
-% Redefinicao do Sumï¿½rio...
+% Redefinicao do Sumário...
 \renewcommand\tableofcontents{%
     \begin{spacing}{1.5}   %ita
     \if@twocolumn
@@ -627,7 +627,7 @@
     \end{spacing}   %ita
     }
 
-% Lista de Sï¿½mbolos...
+% % Lista de Símbolos...
 \newcommand\listofsymbols{%
     \begin{spacing}{1.5}   %ita
     \if@twocolumn
@@ -707,7 +707,7 @@
 }
 
 %==============================================================================
-%%% Cabecalhos e Rodapï¿½s
+%%% Cabecalhos e Rodapés
 %==============================================================================
 \pagestyle{myheadings}
 \lhead{\leftmark}
@@ -739,7 +739,7 @@
                                 % \itaadvisortitle   & \itaadvisorname  & \hspace{1cm} \itaadvisorwordbabelll\ & - \hspace{0.5cm} ITA       
 
 %      \@ifundefined{@coadvisor}{}  {\\ \@itacoadvisortitle   & \@itacoadvisorname  & \hspace{1cm} \itacoadvisorwordbabelll & - \hspace{0.5cm} \@itacoadvisorinst }
-      \@ifundefined{@coadvisor}{}  {\@itacoadvisortitle   & \@itacoadvisorname  & \hspace{1cm} \itacoadvisorwordbabelll & - \hspace{0.5cm} \@itacoadvisorinst } 	%MODIFICADO. Para voltar a versÃ£o original, deve-se comentar essa linha e descomentae as duas subsequentes. Ess trÃ¢mite Ã© realizado para colocar na lista de mebros da banca o professor orientador como presidente.
+      \@ifundefined{@coadvisor}{}  {\@itacoadvisortitle   & \@itacoadvisorname  & \hspace{1cm} \itacoadvisorwordbabelll & - \hspace{0.5cm} \@itacoadvisorinst } 	%MODIFICADO. Para voltar a versão original, deve-se comentar essa linha e descomentae as duas subsequentes. Ess trâmite é realizado para colocar na lista de mebros da banca o professor orientador como presidente.
       \@ifundefined{metitleb}{}    {\\ \metitleb\@ & \menameb\@ & \hspace{1cm} \meroleb\@ & - \hspace{0.5cm} \meinstb\@ } \\
       \@ifundefined{metitlec}{}    {\metitlec\@ & \menamec\@ & \hspace{1cm} \merolec\@ & - \hspace{0.5cm} \meinstc\@ } \\
       \@ifundefined{metitled}{}    {\metitled\@ & \menamed\@ & \hspace{1cm} \meroled\@ & - \hspace{0.5cm} \meinstd\@ } \\
@@ -765,7 +765,7 @@
 }
 
 %==============================================================================
-% Definiï¿½ï¿½o das palavras-chave para CIP (informado pela Biblioteca)
+% Definição das palavras-chave para CIP (informado pela Biblioteca)
 %==============================================================================
 \newcounter{kwcipcounter}
 \newcommand{\kwcip}[1]{
@@ -787,7 +787,7 @@
 
 %==============================================================================
 %%% Hack: Centralizando \chapter*
-%%% \@makeschapterhead ï¿½ chamado por \chapter*
+%%% \@makeschapterhead é chamado por \chapter*
 %==============================================================================
 \def\@makeschapterhead#1{%
   \vspace*{-30\p@}%
@@ -800,7 +800,7 @@
 %\titleformat{\chapter}[hang]{\normalfont\fontsize{18pt}{0}\bfseries}{\thechapter1}{0.8cm}{}{}
 %\titlespacing*{\chapter}{0pt}{-10pt}{36pt}
 %==============================================================================
-%%% Redefinicao do comando \appendix para mostrar 'Apï¿½ndice' ou 'Anexo'
+%%% Redefinicao do comando \appendix para mostrar 'Apêndice' ou 'Anexo'
 %%% no Sumario
 %==============================================================================
 \renewcommand{\appendix}{%
@@ -981,24 +981,24 @@
      \if@openright\cleardoublepage\else\clearpage\fi
      
      %Redefinicao das margens ...
-	\setlength{\hoffset}{-1in}        % remove padrï¿½o do LaTeX
-	\setlength{\voffset}{-1in}        % remove padrï¿½o do LaTeX
-	\setlength{\oddsidemargin}{1cm}   % margem esquerda, pï¿½ginas ï¿½mpares
-	\setlength{\evensidemargin}{1cm}  % margem esquerda, pï¿½ginas pares
+	\setlength{\hoffset}{-1in}        % remove padrão do LaTeX
+	\setlength{\voffset}{-1in}        % remove padrão do LaTeX
+	\setlength{\oddsidemargin}{1cm}   % margem esquerda, páginas ímpares
+	\setlength{\evensidemargin}{1cm}  % margem esquerda, páginas pares
 	\setlength{\topmargin}{3cm}       % margem superior
-	\newlength{\bottommargin}         % margem inferior ï¿½ deduzida em LaTeX
+	\newlength{\bottommargin}         % margem inferior é deduzida em LaTeX
 	\setlength{\bottommargin}{2cm}    % margem inferior
-	\setlength{\headheight}{0pt}      % altura do cabeï¿½alho
-	\setlength{\headsep}{0pt}         % espaï¿½o entre cabeï¿½alho e texto
-	\setlength{\footskip}{0mm}        % espaï¿½o entre rodapï¿½ e texto
-	\setlength\textheight{            % altura disponï¿½vel para texto
+	\setlength{\headheight}{0pt}      % altura do cabeçalho
+	\setlength{\headsep}{0pt}         % espaço entre cabeçalho e texto
+	\setlength{\footskip}{0mm}        % espaço entre rodapé e texto
+	\setlength\textheight{            % altura disponível para texto
 		\paperheight-\topmargin-\bottommargin-\headheight-\headsep-\footskip
 	}
-	% margem direita ï¿½ deduzida em LaTeX... alterando isso...
+	% margem direita é deduzida em LaTeX... alterando isso...
 	\newlength{\rightmarginn}        
 	\setlength{\rightmarginn}{2cm}    % margem direita
 
-	\setlength\textwidth{             % largura disponï¿½vel para texto
+	\setlength\textwidth{             % largura disponível para texto
 		\paperwidth-\oddsidemargin-\rightmarginn
 	}
 
@@ -1020,10 +1020,10 @@
 	\multicolumn{ 4}{|c|}{} \\
 	\hline
 	
-	$^{1.}$ \scriptsize CLASSIFICAï¿½ï¿½O/TIPO & 
+	$^{1.}$ \scriptsize CLASSIFICAÇÃO/TIPO & 
 	$^{2.}$ \scriptsize DATA               & 
-	$^{3.}$ \scriptsize DOCUMENTO Nï¿½       & 
-	$^{4.}$ \scriptsize Nï¿½ DE Pï¿½GINAS             \tabularnewline 
+	$^{3.}$ \scriptsize DOCUMENTO Nº       & 
+	$^{4.}$ \scriptsize Nº DE PÁGINAS		\tabularnewline 
 	
 	\centering{\ifthenelse{\equal{\itaoptionlevel}{msc}}{TM}{TD}}  & 
 	\centering{\FRDitadatababel}   & 
@@ -1031,23 +1031,22 @@
 	\centering\NumPenultimaPagina                  \tabularnewline[\esp]
 	\hline
 	
-	\multicolumn{ 4}{|p{17cm}|}{$^{5.}$ \scriptsize Tï¿½TULO E SUBTï¿½TULO:} \\
+	\multicolumn{ 4}{|p{17cm}|}{$^{5.}$ \scriptsize TÍTULO E SUBTÍTULO:} \\
 	\multicolumn{ 4}{|l|}{\nh{\parbox[b]{.95\textwidth}{\@title}}} \\[\esp]
 	\hline
 	\multicolumn{ 4}{|l|}{$^{6.}$ \scriptsize AUTOR(ES):} \\
 	\multicolumn{ 4}{|l|}{\textbf{\@authorfirst\ \@authorlast}} \\[\esp]
 	\hline
-	\multicolumn{ 4}{|l|}{$^{7.}$ \scriptsize INSTITUIï¿½ï¿½O(ï¿½ES)/ï¿½RGï¿½O(S) 
-	    INTERNO(S)/DIVISï¿½O(ï¿½ES):} \\
+	\multicolumn{ 4}{|l|}{$^{7.}$ \scriptsize INSTITUIÇÃO(ÕES)/ÓRGÃO(S) INTERNO(S)/DIVISÃO(ÕES):} \\
 	\multicolumn{ 4}{|l|}{\FRDitaorgaointernobabel} \\[\esp]
 	\hline
 	\multicolumn{ 4}{|l|}{$^{8.}$ \scriptsize PALAVRAS-CHAVE SUGERIDAS PELO AUTOR:} \\
 	\multicolumn{ 4}{|p{17cm}|}{\FRDitapalavrasautorbabel} \\[\esp]
 	\hline
-	\multicolumn{ 4}{|l|}{$^{9.}$ \scriptsize PALAVRAS-CHAVE RESULTANTES DE INDEXAï¿½ï¿½O:} \\
+	\multicolumn{ 4}{|l|}{$^{9.}$ \scriptsize PALAVRAS-CHAVE RESULTANTES DE INDEXAÇÃO:} \\
 	\multicolumn{ 4}{|p{17cm}|}{\FRDitapalavrasresultbabel} \\[\esp]
 	\hline
-	\multicolumn{ 4}{|l|}{$^{10.}$ {\scriptsize APRESENTAï¿½ï¿½O:}  \hfill 
+	\multicolumn{ 4}{|l|}{$^{10.}$ {\scriptsize APRESENTAÇÃO:}  \hfill 
 		(\N) \textbf{Nacional} \ \ \ 
 		(\I) \textbf{Internacional} } \\
 	\multicolumn{ 4}{|p{17cm}|}{\FRDitapalavraapresentacaobabel} \\[\esp]
@@ -1068,7 +1067,7 @@
 
 %==============================================================================
 %%% Hack: Retirando a palavra Capitulo mas mantendo Anexo e Apendice...
-%%% \@makechapterhead ï¿½ chamado por \chapter
+%%% \@makechapterhead é chamado por \chapter
 %==============================================================================
 \def\@makechapterhead#1{%
   \vspace*{-30\p@}%
@@ -1093,7 +1092,7 @@
  
   
 %==============================================================================
-%%% Obtendo o numero da penultima pagina, visto que a FRD nao ï¿½ contada ...
+%%% Obtendo o numero da penultima pagina, visto que a FRD nao é contada ...
 %%% Thanks to Dr. Miguel V. S. Frasson!! :-)
 %==============================================================================
 \def\deixasosegundo#1#2#3!{#2}
