@@ -33,10 +33,8 @@
 %--------------------------------------------------------
 %Tese
 %--------------------------------------------------------
-\gdef\itatitletextbabel{\nh{\itaworklevel\ apresentada {\`a} Pr{\'o}-Reitoria de 
-          P{\'o}s-Gradua{\c{c}}{\~a}o e Pesquisa do Instituto Tecnol{\'o}gico de Aeron{\'a}utica, como parte dos requisitos para obten{\c{c}}{\~a}o do 
-	  t{\'\i}tulo de \itaauthortitle\ em Ci{\^e}ncias no Curso de \itaworkcourse, 
-	  {\'A}rea de \itaworkarea}.}
+\gdef\itatitletextbabel{\nh{\itaworklevel\ apresentada {\`a} Pr{\'o}-Reitoria de P{\'o}s-Gradua{\c{c}}{\~a}o e Pesquisa do Instituto Tecnol{\'o}gico de Aeron{\'a}utica, como parte dos requisitos para obten{\c{c}}{\~a}o do t{\'\i}tulo de \itaauthortitle\ em Engenharia do Curso de \itaworkcourse\ em \itaworkarea\ no Programa de P\'os-Gradua{\c{c}}{\~a}o em Engenharia Aeron\'autica e Mec\^anica}.} 
+%	  {\'A}rea de \itaworkarea}.}
 	  
 \gdef\itathesisapprovedmembersbabel{\itaworklevel\ aprovada em sua vers\~{a}o final 
           pelos abaixo assinados:}
@@ -112,7 +110,7 @@
 
 \gdef\itarefbibnamecipbabel{REFER\^{E}NCIA BIBLIOGR\'{A}FICA}
 
-\gdef\itacip2babel {\itaworklevel\ de \itaoptioncourse\ -- Instituto Tecnol\'{o}gico de Aeron\'{a}utica, 
+\gdef\itacip2babel {\itaworklevel\ de \itaoptioncourse\ em \itaworkarea\ -- Instituto Tecnol\'{o}gico de Aeron\'{a}utica, 
         S\~{a}o Jos\'{e} dos Campos.}
 
 \gdef\itacedirnamebabel{CESS\~{A}O DE DIREITOS}

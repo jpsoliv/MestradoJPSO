@@ -1025,7 +1025,7 @@
 	$^{3.}$ \scriptsize DOCUMENTO Nº       & 
 	$^{4.}$ \scriptsize Nº DE PÁGINAS		\tabularnewline 
 	
-	\centering{\ifthenelse{\equal{\itaoptionlevel}{msc}}{TM}{TD}}  & 
+	\centering{\ifthenelse{\equal{\itaoptionlevel}{msc}}{DP}{TD}}  & 
 	\centering{\FRDitadatababel}   & 
 	\centering\scriptsize \FRDitadocnrobabel  &  
 	\centering\NumPenultimaPagina                  \tabularnewline[\esp]
@@ -1052,7 +1052,7 @@
 	\multicolumn{ 4}{|p{17cm}|}{\FRDitapalavraapresentacaobabel} \\[\esp]
 	\hline
 	\multicolumn{ 4}{|l|}{$^{11.}$ \scriptsize RESUMO:} \\
-	\multicolumn{ 4}{|c|}{\parbox[t][12cm]{.95\textwidth}{\FDRitaabstractcontent}} \\[\esp]
+	\multicolumn{ 4}{|c|}{\parbox[t][8cm]{.95\textwidth}{\FDRitaabstractcontent}} \\[\esp]
 	\hline
 	\multicolumn{ 4}{|l|}{$^{12.}$ \scriptsize GRAU DE SIGILO:} \\
 	\multicolumn{ 4}{| l|}{(\O) \textbf{OSTENSIVO} \hfill 
