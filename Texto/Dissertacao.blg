@@ -1,5 +1,13 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Dissertacao.aux
-I found no \citation commands---while reading file Dissertacao.aux
-I found no \bibdata command---while reading file Dissertacao.aux
-I found no \bibstyle command---while reading file Dissertacao.aux
-(There were 3 error messages)
+The style file: abnt-num.bst
+Database file #1: Referencias_Bibliograficas/Bibliografia.bib
+Warning--entry type for "Linear" isn't style-file defined
+--line 376 of file Referencias_Bibliograficas/Bibliografia.bib
+Warning--entry type for "Thekkevalappil2005" isn't style-file defined
+--line 524 of file Referencias_Bibliograficas/Bibliografia.bib
++---------------------------------------------------------+
+| Estilo bibliográfico abnt-num.bst versão 1.42.2.1           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://abntex.codigolivre.org.br                        |
++---------------------------------------------------------+
+(There were 2 warnings)
