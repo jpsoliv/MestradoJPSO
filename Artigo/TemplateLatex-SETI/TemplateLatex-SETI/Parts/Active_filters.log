@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.23)  20 JAN 2017 09:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.23)  13 JAN 2017 15:30
 entering extended mode
 **Active_filters.tex
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Artigo\TemplateLatex-SETI\TemplateLa
-tex-SETI\Parts\Active_filters.tex
+("C:\Users\jpsoliv\Documents\João\Mestrado\Artigo\IEEE Journal\Parts\Active_fi
+lters.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -421,23 +421,6 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no [ in font nullfont!
-\citation{Akagi2006}
-! Undefined control sequence.
-<write> ...: Citation `\@citeb ' on page \thepage 
-                                                  \space undefined\on@line .
-l.3 ...to be set in a compensator \cite{Akagi2006}
-                                                  . The compensator injects ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Citation `Akagi2006' on page  undefined on input line 3.
-
-Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -600,11 +583,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -656,11 +635,6 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 3--4
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 3--4
-[]
- []
-
-
 Overfull \hbox (10.86105pt too wide) in paragraph at lines 3--4
 [] 
  []
@@ -673,7 +647,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.5 \begin{figure}
-                  [!h]
+                  [!t]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -686,17 +660,17 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.5 \begin{figure}[
-                   !h]
+                   !t]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no [ in font nullfont!
 Missing character: There is no ! in font nullfont!
-Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.7 \includegraphics
-                    [width=0.44\textwidth]{Figures/compensador.png}
+                    [width=2.8in]{Figures/compensador.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -710,31 +684,11 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no 0 in font nullfont!
+Missing character: There is no 2 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-! Missing number, treated as zero.
-<to be read again> 
-                   ]
-l.7 \includegraphics[width=0.44\textwidth]
-                                          {Figures/compensador.png}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   ]
-l.7 \includegraphics[width=0.44\textwidth]
-                                          {Figures/compensador.png}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no F in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -864,7 +818,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.22 T
-      he instantaneous power theory was presented by Akagi \cite{Akagi1984},...
+      he instantaneous power theory was presented by Akagi \cite{Akagi}, whi...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -916,11 +870,11 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no [ in font nullfont!
-\citation{Akagi1984}
+\citation{Akagi}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.22 ...ry was presented by Akagi \cite{Akagi1984}
+l.22 ...theory was presented by Akagi \cite{Akagi}
                                                   , which proposed some new ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -929,7 +883,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Akagi1984' on page  undefined on input line 22.
+LaTeX Warning: Citation `Akagi' on page  undefined on input line 22.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no , in font nullfont!
@@ -1084,11 +1038,11 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no [ in font nullfont!
-\citation{Akagi2007}
+\citation{Akagi}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.22 ...steady or transient state \cite{Akagi2007}
+l.22 ...eady or transient state \cite{Akagi,Akagi}
                                                   . In this theory, the mani...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1097,7 +1051,23 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Akagi2007' on page  undefined on input line 22.
+LaTeX Warning: Citation `Akagi' on page  undefined on input line 22.
+
+Missing character: There is no , in font nullfont!
+\citation{Akagi}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.22 ...eady or transient state \cite{Akagi,Akagi}
+                                                  . In this theory, the mani...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Akagi' on page  undefined on input line 22.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -1286,34 +1256,6 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 22--23
-[][]
- []
-
-
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 22--23
-[]
- []
-
-
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 22--23
-[]
- []
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 C
-      onsidering a three-phase system, composed by the phases $a$, $b$ and $...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Missing character: There is no C in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -1364,9 +1306,9 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 24.
+(Font)              <7> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 24.
+(Font)              <5> on input line 23.
 Missing character: There is no , in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -1497,10 +1439,13 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no q in font nullfont!
 Missing character: There is no . in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
 <write> ...Reference `eq:Clarke' on page \thepage 
                                                   \space undefined\on@line .
-l.24 ...mation and is shown in eq. \ref{eq:Clarke}
+l.23 ...on and is shown in eq. (2) \ref{eq:Clarke}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1509,41 +1454,56 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `eq:Clarke' on page  undefined on input line 24.
+LaTeX Warning: Reference `eq:Clarke' on page  undefined on input line 23.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 24--25
+Overfull \hbox (20.0pt too wide) in paragraph at lines 22--24
 [][]
  []
 
 
-Overfull \hbox (5.28589pt too wide) in paragraph at lines 24--25
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 22--24
+[]
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 22--24
+[]
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 22--24
+[]
+ []
+
+
+Overfull \hbox (5.28589pt too wide) in paragraph at lines 22--24
 \OML/cmm/m/it/10 a$
  []
 
 
-Overfull \hbox (4.29166pt too wide) in paragraph at lines 24--25
+Overfull \hbox (4.29166pt too wide) in paragraph at lines 22--24
 \OML/cmm/m/it/10 b$
  []
 
 
-Overfull \hbox (4.32756pt too wide) in paragraph at lines 24--25
+Overfull \hbox (4.32756pt too wide) in paragraph at lines 22--24
 \OML/cmm/m/it/10 c$
  []
 
 
-Overfull \hbox (13.9051pt too wide) in paragraph at lines 24--25
+Overfull \hbox (13.9051pt too wide) in paragraph at lines 22--24
 \OML/cmm/m/it/10 abc$
  []
 
 
-Overfull \hbox (17.61807pt too wide) in paragraph at lines 24--25
+Overfull \hbox (17.61807pt too wide) in paragraph at lines 22--24
 \OML/cmm/m/it/10 \OT1/cmr/m/n/10 0$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 24--25
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 22--24
 [] 
  []
 
@@ -1554,15 +1514,28 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 \begin{equation}
+l.25 \begin{equation}
                      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 27--27
+Overfull \hbox (20.0pt too wide) in paragraph at lines 25--25
 [][] 
  []
+
+
+! LaTeX Error: Environment aligned undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \begin{aligned}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
 ! LaTeX Error: Environment bmatrix undefined.
@@ -1571,27 +1544,27 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 \begin{bmatrix}
+l.27 \begin{bmatrix}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{equation} on input line 27 ended by \end{bmatrix}.
+! LaTeX Error: \begin{equation} on input line 25 ended by \end{bmatrix}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 \end{bmatrix}
+l.31 \end{bmatrix}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.33 &
+l.32 &
        = \sqrt{\dfrac{2}{3}}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1601,7 +1574,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.33 & = \sqrt{\dfrac
+l.32 & = \sqrt{\dfrac
                      {2}{3}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1616,14 +1589,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 \begin{bmatrix}
+l.33 \begin{bmatrix}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.35 \dfrac
+l.34 \dfrac
            {1}{\sqrt{2}}	& \dfrac{1}{\sqrt{2}}	& \dfrac{1}{\sqrt{2}}		\\[2ex]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1632,7 +1605,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Misplaced alignment tab character &.
-l.35 \dfrac{1}{\sqrt{2}}	&
+l.34 \dfrac{1}{\sqrt{2}}	&
                            \dfrac{1}{\sqrt{2}}	& \dfrac{1}{\sqrt{2}}		\\[2ex]
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1642,7 +1615,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.35 \dfrac{1}{\sqrt{2}}	& \dfrac
+l.34 \dfrac{1}{\sqrt{2}}	& \dfrac
                                  {1}{\sqrt{2}}	& \dfrac{1}{\sqrt{2}}		\\[2ex]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1651,7 +1624,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Misplaced alignment tab character &.
-l.35 \dfrac{1}{\sqrt{2}}	& \dfrac{1}{\sqrt{2}}	&
+l.34 \dfrac{1}{\sqrt{2}}	& \dfrac{1}{\sqrt{2}}	&
                                                  \dfrac{1}{\sqrt{2}}		\\[2ex]
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1661,7 +1634,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.35 ...}{\sqrt{2}}	& \dfrac{1}{\sqrt{2}}	& \dfrac
+l.34 ...}{\sqrt{2}}	& \dfrac{1}{\sqrt{2}}	& \dfrac
                                                   {1}{\sqrt{2}}		\\[2ex]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1670,7 +1643,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Misplaced alignment tab character &.
-l.36 1					&
+l.35 1					&
              -\dfrac{1}{2}			& -\dfrac{1}{2}				\\[2ex]
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1680,7 +1653,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.36 1					& -\dfrac
+l.35 1					& -\dfrac
                     {1}{2}			& -\dfrac{1}{2}				\\[2ex]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1689,7 +1662,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Misplaced alignment tab character &.
-l.36 1					& -\dfrac{1}{2}			&
+l.35 1					& -\dfrac{1}{2}			&
                                -\dfrac{1}{2}				\\[2ex]
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1699,7 +1672,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.36 1					& -\dfrac{1}{2}			& -\dfrac
+l.35 1					& -\dfrac{1}{2}			& -\dfrac
                                       {1}{2}				\\[2ex]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1708,7 +1681,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Misplaced alignment tab character &.
-l.37 0					&
+l.36 0					&
              \dfrac{\sqrt{3}}{2}	& -\dfrac{\sqrt{3}}{2}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1718,7 +1691,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.37 0					& \dfrac
+l.36 0					& \dfrac
                    {\sqrt{3}}{2}	& -\dfrac{\sqrt{3}}{2}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1727,7 +1700,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Misplaced alignment tab character &.
-l.37 0					& \dfrac{\sqrt{3}}{2}	&
+l.36 0					& \dfrac{\sqrt{3}}{2}	&
                                    -\dfrac{\sqrt{3}}{2}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1737,7 +1710,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.37 0					& \dfrac{\sqrt{3}}{2}	& -\dfrac
+l.36 0					& \dfrac{\sqrt{3}}{2}	& -\dfrac
                                           {\sqrt{3}}{2}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1746,13 +1719,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-! LaTeX Error: \begin{equation} on input line 27 ended by \end{bmatrix}.
+! LaTeX Error: \begin{equation} on input line 25 ended by \end{bmatrix}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 \end{bmatrix}
+l.37 \end{bmatrix}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1765,20 +1738,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 \begin{bmatrix}
+l.38 \begin{bmatrix}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{equation} on input line 27 ended by \end{bmatrix}.
+! LaTeX Error: \begin{equation} on input line 25 ended by \end{bmatrix}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43 \end{bmatrix}
+l.42 \end{bmatrix}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1798,7 +1771,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{equation} on input line 27 ended by \end{bmatrix}.
+! LaTeX Error: \begin{equation} on input line 25 ended by \end{bmatrix}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1966,7 +1939,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-! LaTeX Error: \begin{equation} on input line 27 ended by \end{bmatrix}.
+! LaTeX Error: \begin{equation} on input line 25 ended by \end{bmatrix}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1992,7 +1965,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{equation} on input line 27 ended by \end{bmatrix}.
+! LaTeX Error: \begin{equation} on input line 25 ended by \end{bmatrix}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -2005,13 +1978,26 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (460.10242pt too wide) detected at line 61
+! LaTeX Error: \begin{equation} on input line 25 ended by \end{aligned}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 \end{aligned}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (464.54683pt too wide) detected at line 62
 \OML/cmm/m/it/10 v[][] v[][] v[] \OT1/cmr/m/n/10 = []1[]1[]1[] 1 \OMS/cmsy/m/n/
 10   \OT1/cmr/m/n/10 12 \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 12 0[]2 \OMS/cmsy/m/
-n/10   []\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 v[][] v[][] v[]i[][] i[][] i[] \OT1/
-cmr/m/n/10 = []1[]1[]1[] 1 \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 12 \OMS/cmsy/m/n/
-10   \OT1/cmr/m/n/10 12 0[]2 \OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 2\OML/cmm/m/i
-t/10 i[][] i[][] i[][]
+n/10   []\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 v[][] v[][] v[]\OT1/cmr/m/n/10 ; [] 
+\OML/cmm/m/it/10 i[][] i[][] i[] \OT1/cmr/m/n/10 = []1[]1[]1[] 1 \OMS/cmsy/m/n/
+10   \OT1/cmr/m/n/10 12 \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 12 0[]2 \OMS/cmsy/m/
+n/10   []\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 i[][] i[][] i[][]
  []
 
 
@@ -2021,8 +2007,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.63 A
-      ccording to \cite{Akagi2007}, the instantaneous power is defined as sh...
+l.64 A
+      ccording to \cite{Akagi}, the instantaneous power is defined as shown ...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2039,12 +2025,12 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no [ in font nullfont!
-\citation{Akagi2007}
+\citation{Akagi}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.63 According to \cite{Akagi2007}
-                                  , the instantaneous power is defined as sh...
+l.64 According to \cite{Akagi}
+                              , the instantaneous power is defined as shown ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2052,7 +2038,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Akagi2007' on page  undefined on input line 63.
+LaTeX Warning: Citation `Akagi' on page  undefined on input line 64.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no , in font nullfont!
@@ -2103,7 +2089,7 @@ Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
 <write> ...: Reference `eq:pq_0' on page \thepage 
                                                   \space undefined\on@line .
-l.63 ...s defined as shown in eq (3) \ref{eq:pq_0}
+l.64 ...s defined as shown in eq (3) \ref{eq:pq_0}
                                                   , where the $p_0$, $p$ and...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2112,7 +2098,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `eq:pq_0' on page  undefined on input line 63.
+LaTeX Warning: Reference `eq:pq_0' on page  undefined on input line 64.
 
 Missing character: There is no , in font nullfont!
 Missing character: There is no w in font nullfont!
@@ -2238,11 +2224,11 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no [ in font nullfont!
-\citation{Akagi2007}
+\citation{Akagi}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.63 ...er, respectively \cite{Akagi2007,Peng1996}
+l.64 ... power, respectively \cite{Akagi,Peng1996}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2251,14 +2237,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Akagi2007' on page  undefined on input line 63.
+LaTeX Warning: Citation `Akagi' on page  undefined on input line 64.
 
 Missing character: There is no , in font nullfont!
 \citation{Peng1996}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.63 ...er, respectively \cite{Akagi2007,Peng1996}
+l.64 ... power, respectively \cite{Akagi,Peng1996}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2267,47 +2253,47 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Peng1996' on page  undefined on input line 63.
+LaTeX Warning: Citation `Peng1996' on page  undefined on input line 64.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 63--64
+Overfull \hbox (20.0pt too wide) in paragraph at lines 64--65
 [][]
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 63--64
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 64--65
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 63--64
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 64--65
 []
  []
 
 
-Overfull \hbox (9.51738pt too wide) in paragraph at lines 63--64
+Overfull \hbox (9.51738pt too wide) in paragraph at lines 64--65
 \OML/cmm/m/it/10 p[]$
  []
 
 
-Overfull \hbox (5.03125pt too wide) in paragraph at lines 63--64
+Overfull \hbox (5.03125pt too wide) in paragraph at lines 64--65
 \OML/cmm/m/it/10 p$
  []
 
 
-Overfull \hbox (4.8229pt too wide) in paragraph at lines 63--64
+Overfull \hbox (4.8229pt too wide) in paragraph at lines 64--65
 \OML/cmm/m/it/10 q$
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 63--64
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 64--65
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 63--64
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 64--65
 [] 
  []
 
@@ -2318,13 +2304,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 \begin{equation}
+l.66 \begin{equation}
                      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 65--65
+Overfull \hbox (20.0pt too wide) in paragraph at lines 66--66
 [][] 
  []
 
@@ -2335,20 +2321,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 \begin{bmatrix}
+l.67 \begin{bmatrix}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{equation} on input line 65 ended by \end{bmatrix}.
+! LaTeX Error: \begin{equation} on input line 66 ended by \end{bmatrix}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \end{bmatrix}
+l.71 \end{bmatrix}
                   =
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2361,14 +2347,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 \begin{bmatrix}
+l.72 \begin{bmatrix}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.72 v_0		&
+l.73 v_0		&
            	0			&	0\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2378,7 +2364,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.72 v_0		&	0			&
+l.73 v_0		&	0			&
                  	0\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2388,7 +2374,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.73 0		&
+l.74 0		&
          	v_{\alpha}	&	v_{\beta}\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2398,7 +2384,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.73 0		&	v_{\alpha}	&
+l.74 0		&	v_{\alpha}	&
                       	v_{\beta}\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2408,7 +2394,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.74 0		&
+l.75 0		&
          	v_{\beta}	&	-v_{\alpha}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2418,7 +2404,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.74 0		&	v_{\beta}	&
+l.75 0		&	v_{\beta}	&
                      	-v_{\alpha}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2428,13 +2414,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 65 ended by \end{bmatrix}.
+! LaTeX Error: \begin{equation} on input line 66 ended by \end{bmatrix}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.75 \end{bmatrix}
+l.76 \end{bmatrix}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2447,27 +2433,27 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.76 \begin{bmatrix}
+l.77 \begin{bmatrix}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{equation} on input line 65 ended by \end{bmatrix}.
+! LaTeX Error: \begin{equation} on input line 66 ended by \end{bmatrix}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \end{bmatrix}
+l.81 \end{bmatrix}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (137.3051pt too wide) detected at line 82
+Overfull \hbox (137.3051pt too wide) detected at line 83
 \OML/cmm/m/it/10 p[][] p[] q \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 v[]\OT1/cmr/m/n
 /10 00[] 0\OML/cmm/m/it/10 v[]v[][] \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 v[] \OMS/
 cmsy/m/n/10   \OML/cmm/m/it/10 v[]i[][] i[][] i[][]
@@ -2480,7 +2466,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84 C
+l.85 C
       onsidering a system without zero-sequence voltage and/or current, such...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -2584,20 +2570,9 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no q in font nullfont!
-! Undefined control sequence.
-<write> ...: Reference `eq:pq_0' on page \thepage 
-                                                  \space undefined\on@line .
-l.84 ...ft electrical system, the eq \ref{eq:pq_0}
-                                                   can be simplified as the ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `eq:pq_0' on page  undefined on input line 84.
-
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no ) in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -2620,20 +2595,9 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no q in font nullfont!
-! Undefined control sequence.
-<write> ...ng: Reference `eq:pq' on page \thepage 
-                                                  \space undefined\on@line .
-l.84 ...0} can be simplified as the eq \ref{eq:pq}
-                                                  , where the instantaneous ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `eq:pq' on page  undefined on input line 84.
-
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no ) in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -2684,18 +2648,8 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 84--85
+Overfull \hbox (20.0pt too wide) in paragraph at lines 85--86
 [][]
- []
-
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 84--85
-[]
- []
-
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 84--85
-[]
  []
 
 
@@ -2705,13 +2659,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.86 \begin{equation}
+l.87 \begin{equation}
                      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 86--86
+Overfull \hbox (20.0pt too wide) in paragraph at lines 87--87
 [][] 
  []
 
@@ -2722,20 +2676,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87 \begin{bmatrix}
+l.88 \begin{bmatrix}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{equation} on input line 86 ended by \end{bmatrix}.
+! LaTeX Error: \begin{equation} on input line 87 ended by \end{bmatrix}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.90 \end{bmatrix}
+l.91 \end{bmatrix}
                   =
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2748,14 +2702,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 \begin{bmatrix}
+l.92 \begin{bmatrix}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.92 v_{\alpha}	&
+l.93 v_{\alpha}	&
                  	v_{\beta}\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2765,7 +2719,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.93 v_{\beta}	&
+l.94 v_{\beta}	&
                 	-v_{\alpha}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2775,13 +2729,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 86 ended by \end{bmatrix}.
+! LaTeX Error: \begin{equation} on input line 87 ended by \end{bmatrix}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94 \end{bmatrix}
+l.95 \end{bmatrix}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2794,27 +2748,27 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95 \begin{bmatrix}
+l.96 \begin{bmatrix}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{equation} on input line 86 ended by \end{bmatrix}.
+! LaTeX Error: \begin{equation} on input line 87 ended by \end{bmatrix}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 \end{bmatrix}
+l.99 \end{bmatrix}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (90.52304pt too wide) detected at line 100
+Overfull \hbox (90.52304pt too wide) detected at line 101
 \OML/cmm/m/it/10 p[] q \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 v[]v[][] v[] \OMS/cms
 y/m/n/10   \OML/cmm/m/it/10 v[]i[][] i[][]
  []
@@ -2826,7 +2780,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.102 T
+l.103 T
        he reverse calculation, i.e., the determination of the currents $i_{\...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -2960,10 +2914,13 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no q in font nullfont!
 Missing character: There is no . in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
 <write> ...ence `eq:i_alphabeta' on page \thepage 
                                                   \space undefined\on@line .
-l.102 ... is presented in eq. \ref{eq:i_alphabeta}
+l.103 ...presented in eq. (5) \ref{eq:i_alphabeta}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2972,47 +2929,47 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `eq:i_alphabeta' on page  undefined on input line 102.
+LaTeX Warning: Reference `eq:i_alphabeta' on page  undefined on input line 103.
 
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 102--103
+Overfull \hbox (20.0pt too wide) in paragraph at lines 103--104
 [][]
  []
 
 
-Overfull \hbox (9.14389pt too wide) in paragraph at lines 102--103
+Overfull \hbox (9.14389pt too wide) in paragraph at lines 103--104
 \OML/cmm/m/it/10 i[]$
  []
 
 
-Overfull \hbox (8.83926pt too wide) in paragraph at lines 102--103
+Overfull \hbox (8.83926pt too wide) in paragraph at lines 103--104
 \OML/cmm/m/it/10 i[]$
  []
 
 
-Overfull \hbox (25.39607pt too wide) in paragraph at lines 102--103
+Overfull \hbox (25.39607pt too wide) in paragraph at lines 103--104
 \OML/cmm/m/it/10 v[]$
  []
 
 
-Overfull \hbox (10.24136pt too wide) in paragraph at lines 102--103
+Overfull \hbox (10.24136pt too wide) in paragraph at lines 103--104
 \OML/cmm/m/it/10 v[]$
  []
 
 
-Overfull \hbox (5.03125pt too wide) in paragraph at lines 102--103
+Overfull \hbox (5.03125pt too wide) in paragraph at lines 103--104
 \OML/cmm/m/it/10 p$
  []
 
 
-Overfull \hbox (4.8229pt too wide) in paragraph at lines 102--103
+Overfull \hbox (4.8229pt too wide) in paragraph at lines 103--104
 \OML/cmm/m/it/10 q$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 102--103
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 103--104
 [] 
  []
 
@@ -3023,13 +2980,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 \begin{equation}
+l.105 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 104--104
+Overfull \hbox (20.0pt too wide) in paragraph at lines 105--105
 [][] 
  []
 
@@ -3040,27 +2997,27 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.105 \begin{bmatrix}
+l.106 \begin{bmatrix}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{equation} on input line 104 ended by \end{bmatrix}.
+! LaTeX Error: \begin{equation} on input line 105 ended by \end{bmatrix}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 \end{bmatrix}
+l.109 \end{bmatrix}
                    =
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.109 \dfrac
+l.110 \dfrac
             {1}{v_{\alpha}^2+v_{\beta}^2}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3075,14 +3032,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 \begin{bmatrix}
+l.111 \begin{bmatrix}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.111 v_{\alpha}	&
+l.112 v_{\alpha}	&
                   	v_{\beta}\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3092,7 +3049,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.112 v_{\beta}	&
+l.113 v_{\beta}	&
                  	-v_{\alpha}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3102,13 +3059,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 104 ended by \end{bmatrix}.
+! LaTeX Error: \begin{equation} on input line 105 ended by \end{bmatrix}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.113 \end{bmatrix}
+l.114 \end{bmatrix}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3121,27 +3078,27 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 \begin{bmatrix}
+l.115 \begin{bmatrix}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{equation} on input line 104 ended by \end{bmatrix}.
+! LaTeX Error: \begin{equation} on input line 105 ended by \end{bmatrix}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.117 \end{bmatrix}
+l.118 \end{bmatrix}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (128.53255pt too wide) detected at line 119
+Overfull \hbox (128.53255pt too wide) detected at line 120
 \OML/cmm/m/it/10 i[][] i[] \OT1/cmr/m/n/10 = 1[]\OML/cmm/m/it/10 v[]v[][] v[] \
 OMS/cmsy/m/n/10   \OML/cmm/m/it/10 v[]p[] q[]
  []
@@ -3153,7 +3110,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.121 B
+l.122 B
        y definition, the active instantaneous power is composed by the energ...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -3339,11 +3296,11 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no [ in font nullfont!
-\citation{Akagi1984}
+\citation{Akagi}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.121 ...s of the system \cite{Akagi1984,Peng1996}
+l.122 ...n the 3 phases of the system \cite{Akagi}
                                                   . Furthermore, both $p$ an...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3352,23 +3309,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Akagi1984' on page  undefined on input line 121.
-
-Missing character: There is no , in font nullfont!
-\citation{Peng1996}
-! Undefined control sequence.
-<write> ...: Citation `\@citeb ' on page \thepage 
-                                                  \space undefined\on@line .
-l.121 ...s of the system \cite{Akagi1984,Peng1996}
-                                                  . Furthermore, both $p$ an...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Citation `Peng1996' on page  undefined on input line 121.
+LaTeX Warning: Citation `Akagi' on page  undefined on input line 122.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -3475,10 +3416,13 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no q in font nullfont!
 Missing character: There is no . in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
 <write> ...Reference `eq:pq_m_o' on page \thepage 
                                                   \space undefined\on@line .
-l.121 ...values, as defined in eq. \ref{eq:pq_m_o}
+l.122 ...es, as defined in eq. (6) \ref{eq:pq_m_o}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3487,56 +3431,51 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `eq:pq_m_o' on page  undefined on input line 121.
+LaTeX Warning: Reference `eq:pq_m_o' on page  undefined on input line 122.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 121--122
+Overfull \hbox (20.0pt too wide) in paragraph at lines 122--123
 [][]
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 121--122
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 122--123
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 121--122
-[]
- []
-
-
-Overfull \hbox (5.03125pt too wide) in paragraph at lines 121--122
+Overfull \hbox (5.03125pt too wide) in paragraph at lines 122--123
 \OML/cmm/m/it/10 p$
  []
 
 
-Overfull \hbox (4.8229pt too wide) in paragraph at lines 121--122
+Overfull \hbox (4.8229pt too wide) in paragraph at lines 122--123
 \OML/cmm/m/it/10 q$
  []
 
 
-Overfull \hbox (5.03125pt too wide) in paragraph at lines 121--122
+Overfull \hbox (5.03125pt too wide) in paragraph at lines 122--123
 []$
  []
 
 
-Overfull \hbox (4.8229pt too wide) in paragraph at lines 121--122
+Overfull \hbox (4.8229pt too wide) in paragraph at lines 122--123
 []$
  []
 
 
-Overfull \hbox (5.03125pt too wide) in paragraph at lines 121--122
+Overfull \hbox (5.03125pt too wide) in paragraph at lines 122--123
 []$
  []
 
 
-Overfull \hbox (4.8229pt too wide) in paragraph at lines 121--122
+Overfull \hbox (4.8229pt too wide) in paragraph at lines 122--123
 []$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 121--122
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 122--123
 [] 
  []
 
@@ -3547,13 +3486,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.123 \begin{equation}
+l.124 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 123--123
+Overfull \hbox (20.0pt too wide) in paragraph at lines 124--124
 [][] 
  []
 
@@ -3564,27 +3503,27 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.124 \begin{aligned}
+l.125 \begin{aligned}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{equation} on input line 123 ended by \end{aligned}.
+! LaTeX Error: \begin{equation} on input line 124 ended by \end{aligned}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 \end{aligned}
+l.128 \end{aligned}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (71.78452pt too wide) detected at line 129
+Overfull \hbox (71.78452pt too wide) detected at line 130
 \OML/cmm/m/it/10 p \OT1/cmr/m/n/10 = [] + [][] \OML/cmm/m/it/10 q \OT1/cmr/m/n/
 10 = [] + [][]
  []
@@ -3596,7 +3535,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.131 T
+l.132 T
        o create an active filter to coordinate a power factor equal to 1, th...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -3827,6 +3766,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -3994,6 +3934,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -4135,32 +4076,32 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 131--132
+Overfull \hbox (20.0pt too wide) in paragraph at lines 132--133
 [][]
  []
 
 
-Overfull \hbox (5.03125pt too wide) in paragraph at lines 131--132
+Overfull \hbox (5.03125pt too wide) in paragraph at lines 132--133
 []$
  []
 
 
-Overfull \hbox (4.8229pt too wide) in paragraph at lines 131--132
+Overfull \hbox (4.8229pt too wide) in paragraph at lines 132--133
 \OML/cmm/m/it/10 q$
  []
 
 
-Overfull \hbox (5.03125pt too wide) in paragraph at lines 131--132
+Overfull \hbox (5.03125pt too wide) in paragraph at lines 132--133
 []$
  []
 
 
-Overfull \hbox (12.80905pt too wide) in paragraph at lines 131--132
+Overfull \hbox (12.80905pt too wide) in paragraph at lines 132--133
 \OMS/cmsy/m/n/10  []$
  []
 
 
-Overfull \hbox (12.60071pt too wide) in paragraph at lines 131--132
+Overfull \hbox (12.60071pt too wide) in paragraph at lines 132--133
 \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q$
  []
 
@@ -4171,7 +4112,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 T
+l.134 T
        he filter full operation is defined by the instantaneous power $p$ an...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -4357,7 +4298,7 @@ Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
 <write> ...ence `eq:i_alphabeta' on page \thepage 
                                                   \space undefined\on@line .
-l.133 ...ted using the eq (5) \ref{eq:i_alphabeta}
+l.134 ...ted using the eq (5) \ref{eq:i_alphabeta}
                                                    with the values $-\tilde{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4366,7 +4307,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `eq:i_alphabeta' on page  undefined on input line 133.
+LaTeX Warning: Reference `eq:i_alphabeta' on page  undefined on input line 134.
 
 
 Missing character: There is no w in font nullfont!
@@ -4553,7 +4494,7 @@ Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
 <write> ...:diagrama_filtro.png' on page \thepage 
                                                   \space undefined\on@line .
-l.133 ...own in Fig. \ref{fig:diagrama_filtro.png}
+l.134 ...own in Fig. \ref{fig:diagrama_filtro.png}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4563,66 +4504,66 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `fig:diagrama_filtro.png' on page  undefined on input 
-line 133.
+line 134.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 133--134
+Overfull \hbox (20.0pt too wide) in paragraph at lines 134--135
 [][]
  []
 
 
-Overfull \hbox (5.03125pt too wide) in paragraph at lines 133--134
+Overfull \hbox (5.03125pt too wide) in paragraph at lines 134--135
 \OML/cmm/m/it/10 p$
  []
 
 
-Overfull \hbox (4.8229pt too wide) in paragraph at lines 133--134
+Overfull \hbox (4.8229pt too wide) in paragraph at lines 134--135
 \OML/cmm/m/it/10 q$
  []
 
 
-Overfull \hbox (12.80905pt too wide) in paragraph at lines 133--134
+Overfull \hbox (12.80905pt too wide) in paragraph at lines 134--135
 \OMS/cmsy/m/n/10  []$
  []
 
 
-Overfull \hbox (12.60071pt too wide) in paragraph at lines 133--134
+Overfull \hbox (12.60071pt too wide) in paragraph at lines 134--135
 \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q$
  []
 
 
-Overfull \hbox (9.14389pt too wide) in paragraph at lines 133--134
+Overfull \hbox (9.14389pt too wide) in paragraph at lines 134--135
 \OML/cmm/m/it/10 i[]$
  []
 
 
-Overfull \hbox (8.83926pt too wide) in paragraph at lines 133--134
+Overfull \hbox (8.83926pt too wide) in paragraph at lines 134--135
 \OML/cmm/m/it/10 i[]$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 133--134
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 134--135
 []
  []
 
 
-Overfull \hbox (12.80905pt too wide) in paragraph at lines 133--134
+Overfull \hbox (12.80905pt too wide) in paragraph at lines 134--135
 \OMS/cmsy/m/n/10  []$
  []
 
 
-Overfull \hbox (12.60071pt too wide) in paragraph at lines 133--134
+Overfull \hbox (12.60071pt too wide) in paragraph at lines 134--135
 \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q$
  []
 
 
-Overfull \hbox (13.9051pt too wide) in paragraph at lines 133--134
+Overfull \hbox (13.9051pt too wide) in paragraph at lines 134--135
 \OML/cmm/m/it/10 abc$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 133--134
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 134--135
 [] 
  []
 
@@ -4658,7 +4599,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.138 	\includegraphics
-                       [width=0.48\textwidth]{Figures/diagrama_filtro.png}
+                       [width=3in]{Figures/diagrama_filtro.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4672,31 +4613,9 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-! Missing number, treated as zero.
-<to be read again> 
-                   ]
-l.138 	\includegraphics[width=0.48\textwidth]
-                                             {Figures/diagrama_filtro.png}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   ]
-l.138 	\includegraphics[width=0.48\textwidth]
-                                             {Figures/diagrama_filtro.png}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no F in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -4717,13 +4636,13 @@ Missing character: There is no a in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.138 ...s[width=0.48\textwidth]{Figures/diagrama_
+l.138 ...ludegraphics[width=3in]{Figures/diagrama_
                                                   filtro.png}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.138 ...8\textwidth]{Figures/diagrama_filtro.png}
+l.138 ...s[width=3in]{Figures/diagrama_filtro.png}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4739,7 +4658,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.139 	\caption
-               {Active filter reference calculator}
+               {Simulation Results}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4784,7 +4703,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 136--142
  []
 
 
-Overfull \hbox (187.46445pt too wide) in paragraph at lines 136--142
+Overfull \hbox (129.24547pt too wide) in paragraph at lines 136--142
 []\OML/cmm/m/it/10 iltro:png[][]$ 
  []
 
@@ -5141,23 +5060,6 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no v in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no [ in font nullfont!
-\citation{Akagi2007}
-! Undefined control sequence.
-<write> ...: Citation `\@citeb ' on page \thepage 
-                                                  \space undefined\on@line .
-l.152 ...input is pure sine waves \cite{Akagi2007}
-                                                  . This happens insofar as ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Citation `Akagi2007' on page  undefined on input line 152.
-
-Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -5170,15 +5072,11 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -5422,11 +5320,6 @@ Overfull \hbox (10.86105pt too wide) in paragraph at lines 152--153
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 152--153
-[]
- []
-
-
 Overfull \hbox (5.03125pt too wide) in paragraph at lines 152--153
 []$ 
  []
@@ -5439,7 +5332,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.154 I
-       n aircraft electrical system, the voltage waveforms stated in the poi...
+       n aircraft electrical power system, the voltage waveforms stated in t...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5464,6 +5357,11 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -5683,45 +5581,18 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no , in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no l in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no F in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no g in font nullfont!
-! Undefined control sequence.
-<write> ...:diagrama_filtro.png' on page \thepage 
-                                                  \space undefined\on@line .
-l.154 ... as per Fig \ref{fig:diagrama_filtro.png}
-                                                   is not optimal for power ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `fig:diagrama_filtro.png' on page  undefined on input 
-line 154.
-
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -5890,37 +5761,10 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no [ in font nullfont!
-\citation{Akagi2007}
-! Undefined control sequence.
-<write> ...: Citation `\@citeb ' on page \thepage 
-                                                  \space undefined\on@line .
-l.154 ...n the voltages waveforms \cite{Akagi2007}
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Citation `Akagi2007' on page  undefined on input line 154.
-
-Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 154--155
 [][]
- []
-
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 154--155
-[]
- []
-
-
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 154--155
-[] 
  []
 
 
@@ -6044,38 +5888,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -6100,6 +5913,40 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -6139,6 +5986,18 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -6479,6 +6338,13 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -6541,7 +6407,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.158 T
-       his control is designed using the positive-sequence voltage detector,...
+       his control is designed by the use of the positive-sequence voltage d...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6567,11 +6433,16 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -6816,6 +6687,24 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no . in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 158--159
+[][]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 T
+       he positive-sequence voltage detector operates based on the p-q dual ...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -7016,20 +6905,6 @@ Missing character: There is no F in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no . in font nullfont!
-! Undefined control sequence.
-<write> ...ference `fig:PLL.png' on page \thepage 
-                                                  \space undefined\on@line .
-l.159 ...The PLL is show in Fig. \ref{fig:PLL.png}
-                                                   and operates defining the...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `fig:PLL.png' on page  undefined on input line 159.
-
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
@@ -7101,21 +6976,6 @@ Missing character: There is no F in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no . in font nullfont!
-! Undefined control sequence.
-<write> ...tor_seq_positiva.png' on page \thepage 
-                                                  \space undefined\on@line .
-l.159 ... Fig. \ref{fig:detector_seq_positiva.png}
-                                                   uses the p-q theory and t...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `fig:detector_seq_positiva.png' on page  undefined on 
-input line 159.
-
 Missing character: There is no u in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -7132,39 +6992,6 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no y in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no L in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
@@ -7201,14 +7028,6 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no m in font nullfont!
@@ -7257,310 +7076,8 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 158--160
+Overfull \hbox (20.0pt too wide) in paragraph at lines 160--161
 [][]
- []
-
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 158--160
-[]
- []
-
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 158--160
-[]
- []
-
-
-! LaTeX Error: Environment figure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.162 \begin{figure}
-                    [!b]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.162 \begin{figure}[
-                     !b]
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no ] in font nullfont!
-! Undefined control sequence.
-l.164 	\includegraphics
-                       [width=0.48\textwidth]{Figures/PLL.png}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-! Missing number, treated as zero.
-<to be read again> 
-                   ]
-l.164 	\includegraphics[width=0.48\textwidth]
-                                             {Figures/PLL.png}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   ]
-l.164 	\includegraphics[width=0.48\textwidth]
-                                             {Figures/PLL.png}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no ] in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no / in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-
-! LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.165 	\caption
-               {Phase locked loop}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no P in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no p in font nullfont!
-
-! LaTeX Error: \begin{document} ended by \end{figure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.167 \end{figure}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 162--168
-[][]
- []
-
-
-! LaTeX Error: Environment figure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169 \begin{figure}
-                    [!b]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169 \begin{figure}[
-                     !b]
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no ] in font nullfont!
-! Undefined control sequence.
-l.171 	\includegraphics
-                       [width=0.44\textwidth]{Figures/detector_seq_positiva....
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-! Missing number, treated as zero.
-<to be read again> 
-                   ]
-l.171 	\includegraphics[width=0.44\textwidth]
-                                             {Figures/detector_seq_positiva....
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   ]
-l.171 	\includegraphics[width=0.44\textwidth]
-                                             {Figures/detector_seq_positiva....
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no ] in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no / in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.171 ...s[width=0.44\textwidth]{Figures/detector_
-                                                  seq_positiva.png}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.171 ...width]{Figures/detector_seq_positiva.png}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.172 	\caption
-               {Positive-sequence detector}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \begin{document} ended by \end{figure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.174 \end{figure}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.174 \end{figure}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.174 \end{figure}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 169--175
-[][]
- []
-
-
-Overfull \hbox (192.65193pt too wide) in paragraph at lines 169--175
-[]\OML/cmm/m/it/10 eq[]ositiva:png[][]$ 
  []
 
 
@@ -7570,7 +7087,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176 I
+l.162 I
        n the operation of the active filter, some loss is presented in the c...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -7720,9 +7237,15 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no V in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no C in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -7992,7 +7515,6 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -8023,11 +7545,11 @@ Missing character: There is no . in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 31 strings out of 493921
- 690 string characters out of 3125104
+ 27 strings out of 493921
+ 549 string characters out of 3125104
  55031 words of memory out of 3000000
- 3423 multiletter control sequences out of 15000+200000
+ 3419 multiletter control sequences out of 15000+200000
  3948 words of font info for 15 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 20i,3n,26p,749b,92s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 19i,3n,21p,761b,89s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

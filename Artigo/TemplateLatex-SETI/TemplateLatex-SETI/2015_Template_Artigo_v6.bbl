@@ -1,4 +1,4 @@
-\begin{thebibliography}{15}
+\begin{thebibliography}{16}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -36,6 +36,13 @@ R.~Babikian, S.~P. Lukachko, and I.~A. Waitz.
   from technological, operational, and cost perspectives.
 \newblock \emph{Journal of Air Transport Management}, 8\penalty0 (6):\penalty0
   389--400, 2002.
+
+\bibitem[Barruel et~al.(2004)Barruel, Schanen, and Retiere]{Barruel2004}
+F.~Barruel, J.~Schanen, and N.~Retiere.
+\newblock Volumetric optimization of passive filter for power electronics input
+  stage in the more electrical aircraft.
+\newblock In \emph{2004. PESC 04. 2004 IEEE 35th Annual Power Electronics
+  Specialists Conference}, volume~1, pages 433--438. IEEE, 2004.
 
 \bibitem[Chen and Chen(2012)]{Chen2012novel}
 Z.~Chen and M.~Chen.

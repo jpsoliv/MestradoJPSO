@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.23)  20 JAN 2017 15:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.23)  25 JAN 2017 16:05
 entering extended mode
 **2015_Template_Artigo_v6.tex
 
@@ -742,51 +742,51 @@ File: Figures/compensador.png Graphic file (type png)
 
 <use Figures/compensador.png>
 Package pdftex.def Info: Figures/compensador.png used on input line 7.
-(pdftex.def)             Requested size: 227.61989pt x 133.1473pt.
+(pdftex.def)             Requested size: 295.90321pt x 173.08994pt.
  [3 <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/TemplateLatex-SETI/Templa
 teLatex-SETI/Figures/compensador.png>]
 <Figures/diagrama_filtro.png, id=24, 635.37375pt x 435.12563pt>
 File: Figures/diagrama_filtro.png Graphic file (type png)
 
 <use Figures/diagrama_filtro.png>
-Package pdftex.def Info: Figures/diagrama_filtro.png used on input line 139.
-(pdftex.def)             Requested size: 273.1569pt x 187.06717pt.
- [4 <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/TemplateLatex-SETI/Templa
-teLatex-SETI/Figures/diagrama_filtro.png>]
-<Figures/PLL.png, id=29, 1139.75812pt x 368.87813pt>
+Package pdftex.def Info: Figures/diagrama_filtro.png used on input line 140.
+(pdftex.def)             Requested size: 341.43886pt x 233.82898pt.
+ [4]
+<Figures/PLL.png, id=28, 1139.75812pt x 368.87813pt>
 File: Figures/PLL.png Graphic file (type png)
  <use Figures/PLL.png>
-Package pdftex.def Info: Figures/PLL.png used on input line 165.
-(pdftex.def)             Requested size: 282.24318pt x 91.34686pt.
+Package pdftex.def Info: Figures/PLL.png used on input line 167.
+(pdftex.def)             Requested size: 318.66054pt x 103.1332pt.
 
-<Figures/detector_seq_positiva.png, id=30, 578.91281pt x 563.10374pt>
+<Figures/detector_seq_positiva.png, id=29, 578.91281pt x 563.10374pt>
 File: Figures/detector_seq_positiva.png Graphic file (type png)
 
 <use Figures/detector_seq_positiva.png>
 Package pdftex.def Info: Figures/detector_seq_positiva.png used on input line 1
-72.
-(pdftex.def)             Requested size: 213.9647pt x 208.12172pt.
-) [5 <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/TemplateLatex-SETI/Templ
-ateLatex-SETI/Figures/PLL.png>]
+74.
+(pdftex.def)             Requested size: 250.38518pt x 243.5476pt.
+)
 (C:\Users\jpsoliv\Documents\João\Mestrado\Artigo\TemplateLatex-SETI\TemplateLa
 tex-SETI\Parts/Simulation_of_the_Shunt_Active_Filter_Operating_with_an_Electroh
-idraulic_Actuator.tex
-<Figures/filtro_blocos.png, id=35, 1844.39063pt x 1052.43187pt>
-File: Figures/filtro_blocos.png Graphic file (type png)
+idraulic_Actuator.tex [5 <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/Temp
+lateLatex-SETI/TemplateLatex-SETI/Figures/diagrama_filtro.png>] [6 <C:/Users/jp
+soliv/Documents/João/Mestrado/Artigo/TemplateLatex-SETI/TemplateLatex-SETI/Fig
+ures/PLL.png> <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/TemplateLatex-S
+ETI/TemplateLatex-SETI/Figures/detector_seq_positiva.png>]
+<Figures/filtro_blocos_1.png, id=39, 1889.55937pt x 1081.03876pt>
+File: Figures/filtro_blocos_1.png Graphic file (type png)
 
-<use Figures/filtro_blocos.png>
-Package pdftex.def Info: Figures/filtro_blocos.png used on input line 15.
-(pdftex.def)             Requested size: 450.68358pt x 257.16556pt.
- [6 <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/TemplateLatex-SETI/Templa
-teLatex-SETI/Figures/detector_seq_positiva.png>] <Figures/simulacao_simulink.pn
-g, id=40, 1211.27531pt x 522.45187pt>
+<use Figures/filtro_blocos_1.png>
+Package pdftex.def Info: Figures/filtro_blocos_1.png used on input line 15.
+(pdftex.def)             Requested size: 450.67795pt x 257.83806pt.
+ [7 <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/TemplateLatex-SETI/Templa
+teLatex-SETI/Figures/filtro_blocos_1.png>]
+<Figures/simulacao_simulink.png, id=45, 1211.27531pt x 522.45187pt>
 File: Figures/simulacao_simulink.png Graphic file (type png)
 
 <use Figures/simulacao_simulink.png>
 Package pdftex.def Info: Figures/simulacao_simulink.png used on input line 32.
-(pdftex.def)             Requested size: 364.19864pt x 157.08752pt.
- [7 <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/TemplateLatex-SETI/Templa
-teLatex-SETI/Figures/filtro_blocos.png>]
+(pdftex.def)             Requested size: 409.72115pt x 176.72247pt.
 Package epstopdf Info: Source file: <Figures/artigo_unfilt_1.eps>
 (epstopdf)                    date: 2017-01-13 08:09:20
 (epstopdf)                    size: 204138 bytes
@@ -796,7 +796,7 @@ df>
 (epstopdf)                    size: 35088 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/artigo_unfilt_1-eps
 -converted-to.pdf Figures/artigo_unfilt_1.eps>
-(epstopdf)             \includegraphics on input line 56.
+(epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figures/artigo_unfilt_1-eps-converted-to.pdf, id=46, 419.5675pt x 293.095pt>
@@ -804,7 +804,7 @@ File: Figures/artigo_unfilt_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/artigo_unfilt_1-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/artigo_unfilt_1-eps-converted-to.pdf used on i
-nput line 56.
+nput line 55.
 (pdftex.def)             Requested size: 224.01505pt x 156.48897pt.
 Package epstopdf Info: Source file: <Figures/artigo_unfilt_2.eps>
 (epstopdf)                    date: 2017-01-13 08:09:20
@@ -815,7 +815,7 @@ df>
 (epstopdf)                    size: 8609 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/artigo_unfilt_2-eps
 -converted-to.pdf Figures/artigo_unfilt_2.eps>
-(epstopdf)             \includegraphics on input line 63.
+(epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figures/artigo_unfilt_2-eps-converted-to.pdf, id=47, 387.4475pt x 293.095pt>
@@ -823,7 +823,7 @@ File: Figures/artigo_unfilt_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/artigo_unfilt_2-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/artigo_unfilt_2-eps-converted-to.pdf used on i
-nput line 63.
+nput line 62.
 (pdftex.def)             Requested size: 206.86557pt x 156.48897pt.
 Package epstopdf Info: Source file: <Figures/artigo_filt_1.eps>
 (epstopdf)                    date: 2017-01-13 08:09:20
@@ -834,7 +834,7 @@ Package epstopdf Info: Source file: <Figures/artigo_filt_1.eps>
 (epstopdf)                    size: 69283 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/artigo_filt_1-eps-c
 onverted-to.pdf Figures/artigo_filt_1.eps>
-(epstopdf)             \includegraphics on input line 75.
+(epstopdf)             \includegraphics on input line 74.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figures/artigo_filt_1-eps-converted-to.pdf, id=48, 419.5675pt x 293.095pt>
@@ -842,7 +842,7 @@ File: Figures/artigo_filt_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/artigo_filt_1-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/artigo_filt_1-eps-converted-to.pdf used on inp
-ut line 75.
+ut line 74.
 (pdftex.def)             Requested size: 224.01505pt x 156.48897pt.
 Package epstopdf Info: Source file: <Figures/artigo_filt_2.eps>
 (epstopdf)                    date: 2017-01-13 08:09:20
@@ -853,7 +853,7 @@ Package epstopdf Info: Source file: <Figures/artigo_filt_2.eps>
 (epstopdf)                    size: 9542 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/artigo_filt_2-eps-c
 onverted-to.pdf Figures/artigo_filt_2.eps>
-(epstopdf)             \includegraphics on input line 82.
+(epstopdf)             \includegraphics on input line 81.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figures/artigo_filt_2-eps-converted-to.pdf, id=49, 387.4475pt x 293.095pt>
@@ -861,7 +861,7 @@ File: Figures/artigo_filt_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/artigo_filt_2-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/artigo_filt_2-eps-converted-to.pdf used on inp
-ut line 82.
+ut line 81.
 (pdftex.def)             Requested size: 206.86557pt x 156.48897pt.
 Package epstopdf Info: Source file: <Figures/artigo_unfilt_3.eps>
 (epstopdf)                    date: 2017-01-13 08:09:20
@@ -872,7 +872,7 @@ df>
 (epstopdf)                    size: 41585 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/artigo_unfilt_3-eps
 -converted-to.pdf Figures/artigo_unfilt_3.eps>
-(epstopdf)             \includegraphics on input line 94.
+(epstopdf)             \includegraphics on input line 93.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figures/artigo_unfilt_3-eps-converted-to.pdf, id=50, 422.57875pt x 296.10625pt
@@ -880,7 +880,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: Figures/artigo_unfilt_3-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/artigo_unfilt_3-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/artigo_unfilt_3-eps-converted-to.pdf used on i
-nput line 94.
+nput line 93.
 (pdftex.def)             Requested size: 223.33376pt x 156.49277pt.
 Package epstopdf Info: Source file: <Figures/artigo_unfilt_4.eps>
 (epstopdf)                    date: 2017-01-13 08:09:20
@@ -891,7 +891,7 @@ df>
 (epstopdf)                    size: 12860 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/artigo_unfilt_4-eps
 -converted-to.pdf Figures/artigo_unfilt_4.eps>
-(epstopdf)             \includegraphics on input line 101.
+(epstopdf)             \includegraphics on input line 100.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figures/artigo_unfilt_4-eps-converted-to.pdf, id=51, 387.4475pt x 293.095pt>
@@ -899,7 +899,7 @@ File: Figures/artigo_unfilt_4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/artigo_unfilt_4-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/artigo_unfilt_4-eps-converted-to.pdf used on i
-nput line 101.
+nput line 100.
 (pdftex.def)             Requested size: 206.86557pt x 156.48897pt.
 Package epstopdf Info: Source file: <Figures/artigo_filt_3.eps>
 (epstopdf)                    date: 2017-01-13 08:09:20
@@ -910,7 +910,7 @@ Package epstopdf Info: Source file: <Figures/artigo_filt_3.eps>
 (epstopdf)                    size: 65530 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/artigo_filt_3-eps-c
 onverted-to.pdf Figures/artigo_filt_3.eps>
-(epstopdf)             \includegraphics on input line 113.
+(epstopdf)             \includegraphics on input line 112.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figures/artigo_filt_3-eps-converted-to.pdf, id=52, 422.57875pt x 296.10625pt>
@@ -918,7 +918,7 @@ File: Figures/artigo_filt_3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/artigo_filt_3-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/artigo_filt_3-eps-converted-to.pdf used on inp
-ut line 113.
+ut line 112.
 (pdftex.def)             Requested size: 223.33376pt x 156.49277pt.
 Package epstopdf Info: Source file: <Figures/artigo_filt_4.eps>
 (epstopdf)                    date: 2017-01-13 08:09:20
@@ -929,7 +929,7 @@ Package epstopdf Info: Source file: <Figures/artigo_filt_4.eps>
 (epstopdf)                    size: 9998 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/artigo_filt_4-eps-c
 onverted-to.pdf Figures/artigo_filt_4.eps>
-(epstopdf)             \includegraphics on input line 120.
+(epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figures/artigo_filt_4-eps-converted-to.pdf, id=53, 387.4475pt x 293.095pt>
@@ -937,25 +937,25 @@ File: Figures/artigo_filt_4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/artigo_filt_4-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/artigo_filt_4-eps-converted-to.pdf used on inp
-ut line 120.
+ut line 119.
 (pdftex.def)             Requested size: 206.86557pt x 156.48897pt.
 ) [8 <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/TemplateLatex-SETI/Templ
-ateLatex-SETI/Figures/simulacao_simulink.png> <C:/Users/jpsoliv/Documents/João
-/Mestrado/Artigo/TemplateLatex-SETI/TemplateLatex-SETI/Figures/artigo_unfilt_1-
-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/Templat
-eLatex-SETI/TemplateLatex-SETI/Figures/artigo_unfilt_2-eps-converted-to.pdf>]
+ateLatex-SETI/Figures/simulacao_simulink.png>]
 (C:\Users\jpsoliv\Documents\João\Mestrado\Artigo\TemplateLatex-SETI\TemplateLa
 tex-SETI\Parts/Conclusions.tex [9 <C:/Users/jpsoliv/Documents/João/Mestrado/Ar
-tigo/TemplateLatex-SETI/TemplateLatex-SETI/Figures/artigo_filt_1-eps-converted-
-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/TemplateLatex-SETI/Te
-mplateLatex-SETI/Figures/artigo_filt_2-eps-converted-to.pdf> <C:/Users/jpsoliv/
-Documents/João/Mestrado/Artigo/TemplateLatex-SETI/TemplateLatex-SETI/Figures/a
-rtigo_unfilt_3-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado
-/Artigo/TemplateLatex-SETI/TemplateLatex-SETI/Figures/artigo_unfilt_4-eps-conve
+tigo/TemplateLatex-SETI/TemplateLatex-SETI/Figures/artigo_unfilt_1-eps-converte
+d-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/TemplateLatex-SETI/
+TemplateLatex-SETI/Figures/artigo_unfilt_2-eps-converted-to.pdf> <C:/Users/jpso
+liv/Documents/João/Mestrado/Artigo/TemplateLatex-SETI/TemplateLatex-SETI/Figur
+es/artigo_filt_1-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestra
+do/Artigo/TemplateLatex-SETI/TemplateLatex-SETI/Figures/artigo_filt_2-eps-conve
 rted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/TemplateLatex-SE
-TI/TemplateLatex-SETI/Figures/artigo_filt_3-eps-converted-to.pdf> <C:/Users/jps
-oliv/Documents/João/Mestrado/Artigo/TemplateLatex-SETI/TemplateLatex-SETI/Figu
-res/artigo_filt_4-eps-converted-to.pdf>]) [10]
+TI/TemplateLatex-SETI/Figures/artigo_unfilt_3-eps-converted-to.pdf> <C:/Users/j
+psoliv/Documents/João/Mestrado/Artigo/TemplateLatex-SETI/TemplateLatex-SETI/Fi
+gures/artigo_unfilt_4-eps-converted-to.pdf>]) [10 <C:/Users/jpsoliv/Documents/J
+oão/Mestrado/Artigo/TemplateLatex-SETI/TemplateLatex-SETI/Figures/artigo_filt_
+3-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/Templ
+ateLatex-SETI/TemplateLatex-SETI/Figures/artigo_filt_4-eps-converted-to.pdf>]
 (C:\Users\jpsoliv\Documents\João\Mestrado\Artigo\TemplateLatex-SETI\TemplateLa
 tex-SETI\2015_Template_Artigo_v6.bbl) 
 AED: lastpage setting LastPage
@@ -965,13 +965,13 @@ AED: lastpage setting LastPage
 (C:\Users\jpsoliv\Documents\João\Mestrado\Artigo\TemplateLatex-SETI\TemplateLa
 tex-SETI\2015_Template_Artigo_v6.aux) ) 
 Here is how much of TeX's memory you used:
- 5794 strings out of 493921
- 91863 string characters out of 3125104
- 164888 words of memory out of 3000000
- 8927 multiletter control sequences out of 15000+200000
+ 5798 strings out of 493921
+ 91951 string characters out of 3125104
+ 162965 words of memory out of 3000000
+ 8931 multiletter control sequences out of 15000+200000
  12134 words of font info for 43 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,12n,45p,1097b,489s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,15n,45p,1047b,489s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/jpsoliv/Documents/João/Mestra
 do/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jps
 oliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfonts/
@@ -989,7 +989,7 @@ trado/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
 jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfon
 ts/cm/cmti10.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortabl
 e/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on 2015_Template_Artigo_v6.pdf (11 pages, 945446 bytes).
+Output written on 2015_Template_Artigo_v6.pdf (11 pages, 960886 bytes).
 PDF statistics:
  170 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

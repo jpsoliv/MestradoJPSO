@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.23)  20 JAN 2017 09:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.23)  25 JAN 2017 15:30
 entering extended mode
 **main.tex
 ("C:\Users\jpsoliv\Documents\João\Mestrado\Artigo\IEEE Journal\main.tex"
@@ -740,13 +740,6 @@ Package caption Info: Unknown document class (or package),
 \sf@top=\skip60
 \sf@bottom=\skip61
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\base\
-fixltx2e.sty
-Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
-LaTeX Info: Redefining \em on input line 420.
-LaTeX Info: The control sequence `\[' is already robust on input line 471.
-LaTeX Info: The control sequence `\]' is already robust on input line 472.
-)
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\sttoo
 ls\stfloats.sty
 Package: stfloats 2016/06/28 v3.2 Improve float mechanism and baselineskip sett
@@ -788,7 +781,11 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 ("C:\Users\jpsoliv\Documents\João\Mestrado\Artigo\IEEE Journal\Parts/Introduct
-ion.tex")
+ion.tex"
+Missing character: There is no � in font ptmr7t!
+Missing character: There is no � in font ptmr7t!
+Missing character: There is no � in font ptmr7t!
+)
 ("C:\Users\jpsoliv\Documents\João\Mestrado\Artigo\IEEE Journal\Parts/Power_Qua
 lity_in_Aircraft.tex" [1{C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTex
 Portable/pdftex/config/pdftex.map}
@@ -801,18 +798,16 @@ File: Figures/compensador.png Graphic file (type png)
 
 <use Figures/compensador.png>
 Package pdftex.def Info: Figures/compensador.png used on input line 7.
-(pdftex.def)             Requested size: 314.46304pt x 183.94853pt.
+(pdftex.def)             Requested size: 230.60516pt x 134.89317pt.
 
-Overfull \hbox (61.41318pt too wide) in paragraph at lines 7--8
- [][][] 
- []
+Underfull \vbox (badness 5374) has occurred while \output is active []
 
-[2 <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/IEEE Journal/Figures/compe
-nsador.png>] <Figures/diagrama_filtro.png, id=24, 635.37375pt x 435.12563pt>
+ [2 <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/IEEE Journal/Figures/comp
+ensador.png>] <Figures/diagrama_filtro.png, id=24, 635.37375pt x 435.12563pt>
 File: Figures/diagrama_filtro.png Graphic file (type png)
 
 <use Figures/diagrama_filtro.png>
-Package pdftex.def Info: Figures/diagrama_filtro.png used on input line 141.
+Package pdftex.def Info: Figures/diagrama_filtro.png used on input line 140.
 (pdftex.def)             Requested size: 251.56563pt x 172.28107pt.
 
 <Figures/PLL.png, id=25, 1139.75812pt x 368.87813pt>
@@ -834,12 +829,12 @@ l/Figures/PLL.png> <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/IEEE Journ
 al/Figures/detector_seq_positiva.png>]
 ("C:\Users\jpsoliv\Documents\João\Mestrado\Artigo\IEEE Journal\Parts/Simulatio
 n_of_the_Shunt_Active_Filter_Operating_with_an_Electrohidraulic_Actuator.tex"
-<Figures/filtro_blocos.png, id=33, 1844.39063pt x 1052.43187pt>
-File: Figures/filtro_blocos.png Graphic file (type png)
+<Figures/filtro_blocos_1.png, id=33, 1889.55937pt x 1081.03876pt>
+File: Figures/filtro_blocos_1.png Graphic file (type png)
 
-<use Figures/filtro_blocos.png>
-Package pdftex.def Info: Figures/filtro_blocos.png used on input line 15.
-(pdftex.def)             Requested size: 419.28139pt x 239.24394pt.
+<use Figures/filtro_blocos_1.png>
+Package pdftex.def Info: Figures/filtro_blocos_1.png used on input line 15.
+(pdftex.def)             Requested size: 435.00374pt x 248.86461pt.
 
 <Figures/simulacao_simulink.png, id=34, 1211.27531pt x 522.45187pt>
 File: Figures/simulacao_simulink.png Graphic file (type png)
@@ -847,35 +842,6 @@ File: Figures/simulacao_simulink.png Graphic file (type png)
 <use Figures/simulacao_simulink.png>
 Package pdftex.def Info: Figures/simulacao_simulink.png used on input line 32.
 (pdftex.def)             Requested size: 314.46304pt x 135.63498pt.
-
-
-LaTeX Warning: Reference `fig:artigo_unfilt_2.eps' on page 4 undefined on input
- line 43.
-
-
-LaTeX Warning: Reference `fig:artigo_filt_1.eps' on page 4 undefined on input l
-ine 43.
-
-
-LaTeX Warning: Reference `fig:artigo_filt_2.eps' on page 4 undefined on input l
-ine 43.
-
-
-LaTeX Warning: Reference `fig:artigo_unfilt_3.eps' on page 4 undefined on input
- line 46.
-
-
-LaTeX Warning: Reference `fig:artigo_unfilt_4.eps' on page 4 undefined on input
- line 46.
-
-
-LaTeX Warning: Reference `fig:artigo_filt_3.eps' on page 4 undefined on input l
-ine 46.
-
-
-LaTeX Warning: Reference `fig:artigo_filt_4.eps' on page 4 undefined on input l
-ine 46.
-
 Package epstopdf Info: Source file: <Figures/artigo_unfilt_1.eps>
 (epstopdf)                    date: 2017-01-13 08:09:20
 (epstopdf)                    size: 204138 bytes
@@ -885,14 +851,15 @@ df>
 (epstopdf)                    size: 35088 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/artigo_unfilt_1-eps
 -converted-to.pdf Figures/artigo_unfilt_1.eps>
-(epstopdf)             \includegraphics on input line 50.
+(epstopdf)             \includegraphics on input line 49.
 Package epstopdf Info: Output file is already uptodate.
+
 <Figures/artigo_unfilt_1-eps-converted-to.pdf, id=35, 419.5675pt x 293.095pt>
 File: Figures/artigo_unfilt_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/artigo_unfilt_1-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/artigo_unfilt_1-eps-converted-to.pdf used on i
-nput line 50.
+nput line 49.
 (pdftex.def)             Requested size: 172.26273pt x 120.33519pt.
 
 
@@ -907,14 +874,14 @@ df>
 (epstopdf)                    size: 8609 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/artigo_unfilt_2-eps
 -converted-to.pdf Figures/artigo_unfilt_2.eps>
-(epstopdf)             \includegraphics on input line 57.
+(epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/artigo_unfilt_2-eps-converted-to.pdf, id=36, 387.4475pt x 293.095pt>
 File: Figures/artigo_unfilt_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/artigo_unfilt_2-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/artigo_unfilt_2-eps-converted-to.pdf used on i
-nput line 57.
+nput line 56.
 (pdftex.def)             Requested size: 172.26273pt x 130.3128pt.
 
 
@@ -929,14 +896,14 @@ Package epstopdf Info: Source file: <Figures/artigo_filt_1.eps>
 (epstopdf)                    size: 69283 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/artigo_filt_1-eps-c
 onverted-to.pdf Figures/artigo_filt_1.eps>
-(epstopdf)             \includegraphics on input line 64.
+(epstopdf)             \includegraphics on input line 63.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/artigo_filt_1-eps-converted-to.pdf, id=37, 419.5675pt x 293.095pt>
 File: Figures/artigo_filt_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/artigo_filt_1-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/artigo_filt_1-eps-converted-to.pdf used on inp
-ut line 64.
+ut line 63.
 (pdftex.def)             Requested size: 172.26273pt x 120.33519pt.
 
 
@@ -951,14 +918,14 @@ Package epstopdf Info: Source file: <Figures/artigo_filt_2.eps>
 (epstopdf)                    size: 9542 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/artigo_filt_2-eps-c
 onverted-to.pdf Figures/artigo_filt_2.eps>
-(epstopdf)             \includegraphics on input line 71.
+(epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/artigo_filt_2-eps-converted-to.pdf, id=38, 387.4475pt x 293.095pt>
 File: Figures/artigo_filt_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/artigo_filt_2-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/artigo_filt_2-eps-converted-to.pdf used on inp
-ut line 71.
+ut line 70.
 (pdftex.def)             Requested size: 172.26273pt x 130.3128pt.
 
 
@@ -973,7 +940,7 @@ df>
 (epstopdf)                    size: 41585 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/artigo_unfilt_3-eps
 -converted-to.pdf Figures/artigo_unfilt_3.eps>
-(epstopdf)             \includegraphics on input line 78.
+(epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figures/artigo_unfilt_3-eps-converted-to.pdf, id=39, 422.57875pt x 296.10625pt
@@ -981,7 +948,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: Figures/artigo_unfilt_3-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/artigo_unfilt_3-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/artigo_unfilt_3-eps-converted-to.pdf used on i
-nput line 78.
+nput line 77.
 (pdftex.def)             Requested size: 172.26273pt x 120.70853pt.
 
 
@@ -996,14 +963,14 @@ df>
 (epstopdf)                    size: 12860 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/artigo_unfilt_4-eps
 -converted-to.pdf Figures/artigo_unfilt_4.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/artigo_unfilt_4-eps-converted-to.pdf, id=40, 387.4475pt x 293.095pt>
 File: Figures/artigo_unfilt_4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/artigo_unfilt_4-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/artigo_unfilt_4-eps-converted-to.pdf used on i
-nput line 85.
+nput line 84.
 (pdftex.def)             Requested size: 172.26273pt x 130.3128pt.
 
 
@@ -1018,7 +985,7 @@ Package epstopdf Info: Source file: <Figures/artigo_filt_3.eps>
 (epstopdf)                    size: 65530 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/artigo_filt_3-eps-c
 onverted-to.pdf Figures/artigo_filt_3.eps>
-(epstopdf)             \includegraphics on input line 92.
+(epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figures/artigo_filt_3-eps-converted-to.pdf, id=41, 422.57875pt x 296.10625pt>
@@ -1026,7 +993,7 @@ File: Figures/artigo_filt_3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/artigo_filt_3-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/artigo_filt_3-eps-converted-to.pdf used on inp
-ut line 92.
+ut line 91.
 (pdftex.def)             Requested size: 172.26273pt x 120.70853pt.
 
 
@@ -1041,14 +1008,14 @@ Package epstopdf Info: Source file: <Figures/artigo_filt_4.eps>
 (epstopdf)                    size: 9998 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/artigo_filt_4-eps-c
 onverted-to.pdf Figures/artigo_filt_4.eps>
-(epstopdf)             \includegraphics on input line 99.
+(epstopdf)             \includegraphics on input line 98.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/artigo_filt_4-eps-converted-to.pdf, id=42, 387.4475pt x 293.095pt>
 File: Figures/artigo_filt_4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/artigo_filt_4-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/artigo_filt_4-eps-converted-to.pdf used on inp
-ut line 99.
+ut line 98.
 (pdftex.def)             Requested size: 172.26273pt x 130.3128pt.
 
 
@@ -1056,66 +1023,63 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
 ("C:\Users\jpsoliv\Documents\João\Mestrado\Artigo\IEEE Journal\Parts/Conclusio
-ns.tex" [4])
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ns.tex" [4]
 
+LaTeX Warning: Text page 5 contains only floats.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5 <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/IEEE Journal/Figures/filt
-ro_blocos.png> <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/IEEE Journal/F
-igures/simulacao_simulink.png> <C:/Users/jpsoliv/Documents/João/Mestrado/Artig
-o/IEEE Journal/Figures/artigo_unfilt_1-eps-converted-to.pdf>]
+[5 <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/IEEE Journal/Figures/filtr
+o_blocos_1.png> <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/IEEE Journal/
+Figures/simulacao_simulink.png> <C:/Users/jpsoliv/Documents/João/Mestrado/Arti
+go/IEEE Journal/Figures/artigo_unfilt_1-eps-converted-to.pdf> <C:/Users/jpsoliv
+/Documents/João/Mestrado/Artigo/IEEE Journal/Figures/artigo_unfilt_2-eps-conve
+rted-to.pdf>])
 ("C:\Users\jpsoliv\Documents\João\Mestrado\Artigo\IEEE Journal\main.bbl"
-Underfull \hbox (badness 4168) in paragraph at lines 77--81
+Underfull \vbox (badness 6758) has occurred while \output is active []
+
+ [6 <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/IEEE Journal/Figures/arti
+go_filt_1-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/Arti
+go/IEEE Journal/Figures/artigo_filt_2-eps-converted-to.pdf> <C:/Users/jpsoliv/D
+ocuments/João/Mestrado/Artigo/IEEE Journal/Figures/artigo_unfilt_3-eps-convert
+ed-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/IEEE Journal/Figur
+es/artigo_unfilt_4-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mest
+rado/Artigo/IEEE Journal/Figures/artigo_filt_3-eps-converted-to.pdf> <C:/Users/
+jpsoliv/Documents/João/Mestrado/Artigo/IEEE Journal/Figures/artigo_filt_4-eps-
+converted-to.pdf>]
+Underfull \hbox (badness 4168) in paragraph at lines 84--88
 [][]\OT1/ptm/m/n/8 J. Karatzaferis, N. Pa-paniko-laou, E. Tatakis, M. Loupis, a
 nd
  []
 
-)
-! Infinite glue shrinkage found in box being split.
-\@outputdblcol ...\vsplit \@outputbox to\maxdimen 
-                                                  \toks@ \expandafter {\topm...
-l.705 \end{document}
-                    
-The box you are \vsplitting contains some infinitely
-shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
-Such glue doesn't belong there; but you can safely proceed,
-since the offensive shrinkability has been made finite.
+) [7
 
-[6
-
-] ("C:\Users\jpsoliv\Documents\João\Mestrado\Artigo\IEEE Journal\main.aux")
-
-LaTeX Warning: There were undefined references.
-
- ) 
+] ("C:\Users\jpsoliv\Documents\João\Mestrado\Artigo\IEEE Journal\main.aux") ) 
 Here is how much of TeX's memory you used:
- 14656 strings out of 493921
- 296754 string characters out of 3125104
- 333084 words of memory out of 3000000
- 17619 multiletter control sequences out of 15000+200000
- 38996 words of font info for 69 fonts, out of 3000000 for 9000
+ 14634 strings out of 493921
+ 296394 string characters out of 3125104
+ 332663 words of memory out of 3000000
+ 17601 multiletter control sequences out of 15000+200000
+ 37889 words of font info for 68 fonts, out of 3000000 for 9000
  844 hyphenation exceptions out of 8191
- 62i,17n,92p,1040b,276s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/enc/dvi
-ps/fontname/8r.enc}<C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPorta
-ble/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jpsoliv/Documents/João
-/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Us
-ers/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1/public/am
-sfonts/cm/cmmi7.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPort
-able/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jpsoliv/Documents/João
-/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/User
-s/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPorta
-ble/fonts/type1/urw/times/utmb8a.pfb><C:/Users/jpsoliv/Documents/João/Mestrado
-/Latex/MikTexPortable/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/jpsoliv/Docum
-ents/João/Mestrado/Latex/MikTexPortable/fonts/type1/urw/times/utmr8a.pfb><C:/U
-sers/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1/urw/time
-s/utmri8a.pfb>
-Output written on main.pdf (6 pages, 680838 bytes).
+ 62i,17n,92p,1032b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
+{
+C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/enc/dvips/
+fontname/8r.enc}<C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable
+/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jpsoliv/Documents/João/Me
+strado/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users
+/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortabl
+e/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jpsoliv/Documents/João/Me
+strado/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/j
+psoliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable
+/fonts/type1/urw/times/utmb8a.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/La
+tex/MikTexPortable/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/jpsoliv/Document
+s/João/Mestrado/Latex/MikTexPortable/fonts/type1/urw/times/utmr8a.pfb><C:/User
+s/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1/urw/times/u
+tmri8a.pfb>
+Output written on main.pdf (7 pages, 902126 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
+ 154 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
