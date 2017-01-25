@@ -64,4 +64,3 @@
 \contentsline {chapter}{\numberline {5}Conclus\~ao}{117}{chapter.5}
 \contentsline {section}{\numberline {5.1}Pr\'oximos Passos}{118}{section.5.1}
 \contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{120}{chapter.6}
-\contentsline {chapter}{Gloss\'ario}{126}{chapter.7}
