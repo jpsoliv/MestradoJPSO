@@ -61,10 +61,56 @@
 \usepackage{siunitx}
 \usepackage{placeins}
 \usepackage{notoccite}
+\usepackage{breakurl} 
+\usepackage[breaklinks]{hyperref}
 
 {\renewcommand{\arraystretch}{1.5}
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\makeatletter
+%%\renewcommand\@biblabel[1]{#1} % No brackets for the references
+%\renewenvironment{thebibliography}[1]
+%{\chapter*{\refname}%
+%	\@mkboth{\MakeUppercase\refname}{\MakeUppercase\refname}%
+%	\list{\@biblabel{\@arabic\c@enumiv}}%
+%	{\settowidth\labelwidth{\@biblabel{#1}}%
+%		\leftmargin\labelwidth
+%		\advance\leftmargin1.5cm% change 20 pt according to your needs
+%		\advance\leftmargin\labelsep
+%		\setlength\itemindent{-1.5cm}% change using the inverse of the length used before
+%		\@openbib@code
+%		\usecounter{enumiv}%
+%		\let\p@enumiv\@empty
+%		\renewcommand\theenumiv{\@arabic\c@enumiv}}%
+%	\raggedright
+%	\sloppy
+%	\clubpenalty4000
+%	\@clubpenalty \clubpenalty
+%	\widowpenalty4000%
+%	\sfcode`\.\@m}
+%{\def\@noitemerr
+%	{\@latex@warning{Empty `thebibliography' environment}}%
+%	\endlist}
+%\renewcommand\newblock{\hskip .11em\@plus.33em\@minus.07em}
+%\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\renewenvironment{thebibliography}[1]
+{\chapter*{\raggedright\refname}%
+	\@mkboth{\MakeUppercase\refname}{\MakeUppercase\refname}%
+	\begin{enumerate}[label={[\arabic{enumi}]\hspace{0.77cm}},align=right,labelwidth=1.27cm,leftmargin=1.5cm,itemindent=0cm,itemsep=2ex]
+		\raggedright
+		\@openbib@code
+		\sloppy
+		\clubpenalty4000
+		\@clubpenalty \clubpenalty
+		\widowpenalty4000
+		\sfcode`\.\@m}
+	{\def\@noitemerr
+		{\@latex@warning{Empty `thebibliography' environment}}%
+	\end{enumerate}}
+	\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 % Identificacoes
@@ -233,9 +279,11 @@ E a um cara do INPE, que apesar de já ser doutor, ainda se rebaixa a essas coisa
 \end{onehalfspacing}
 %\end{doublespacing}
 % REFERENCIAS BIBLIOGRAFICAS
-\bibliographystyle{abnt-num}
-\bibliography{Referencias_Bibliograficas/Bibliografia}
-
+%\bibliographystyle{abnt-num}
+%\bibliography{Referencias_Bibliograficas/Bibliografia}
+\begin{singlespacing}
+\input{Referencias_Bibliograficas/Bibliografia_biblioteca}
+\end{singlespacing}
 %\begin{comment} %%%% Comentário de apendice e anexo
 % Apendices
 %\appendix

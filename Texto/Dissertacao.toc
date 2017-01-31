@@ -63,4 +63,3 @@
 \contentsline {subsubsection}{\numberline {4.3.3.4}Regime Permanente}{112}{subsubsection.4.3.3.4}
 \contentsline {chapter}{\numberline {5}Conclus\~ao}{116}{chapter.5}
 \contentsline {section}{\numberline {5.1}Pr\'oximos Passos}{117}{section.5.1}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{119}{chapter.6}
