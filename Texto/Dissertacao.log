@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.23)  31 JAN 2017 16:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.23)  1 FEB 2017 14:50
 entering extended mode
 **Dissertacao.tex
 (C:\Users\jpsoliv\Documents\JoÃ£o\Mestrado\texto\Dissertacao.tex
@@ -1530,14 +1530,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count284
 Package hyperref Info: Anchor `titulo.0' on input line 163.
-
-Underfull \hbox (badness 1092) in paragraph at lines 163--163
-\T1/aer/m/n/14.4 Profissionalizante em Engenharia Aeronáutica no Programa de Pó
-s-
- []
-
 Package hyperref Info: Anchor `page.i' on input line 163.
-[1
+ [1
 
 
 
@@ -5966,7 +5960,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 322.
 Here is how much of TeX's memory you used:
  31881 strings out of 493921
  650969 string characters out of 3125104
- 763482 words of memory out of 3000000
+ 763496 words of memory out of 3000000
  33942 multiletter control sequences out of 15000+200000
  87066 words of font info for 182 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -6003,7 +5997,7 @@ ype1/public/amsfonts/cm/cmti10.pfb><C:/Users/jpsoliv/Documents/JoÃ£o/Mestrado/L
 atex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/jpsoliv
 /Documents/JoÃ£o/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfonts/symb
 ols/msam10.pfb>
-Output written on Dissertacao.pdf (124 pages, 5631515 bytes).
+Output written on Dissertacao.pdf (124 pages, 5632382 bytes).
 PDF statistics:
  2398 PDF objects out of 2487 (max. 8388607)
  407 named destinations out of 1000 (max. 500000)
