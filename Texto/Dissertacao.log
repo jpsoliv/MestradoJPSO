@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.23)  1 FEB 2017 14:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.23)  2 FEB 2017 16:52
 entering extended mode
 **Dissertacao.tex
 (C:\Users\jpsoliv\Documents\João\Mestrado\texto\Dissertacao.tex
@@ -1554,34 +1554,19 @@ Overfull \hbox (3.82007pt too wide) in paragraph at lines 163--163
 Package hyperref Info: Anchor `page.iii' on input line 163.
 [3]
 Package hyperref Info: Anchor `dedication.0' on input line 166.
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
-\T1/aer/m/n/12 ape-sar de j� ser dou-tor,
- []
-
-
-Underfull \hbox (badness 2961) in paragraph at lines 169--170
-\T1/aer/m/n/12 :O).....(Agrade�a at� ao seu
- []
-
-
-Underfull \hbox (badness 7012) in paragraph at lines 169--170
-\T1/aer/m/n/12 ani-mal de es-ti-ma-��o, caso
- []
-
-Package hyperref Info: Anchor `page.iv' on input line 170.
-[4]
-Package hyperref Info: Anchor `chapter*.1' on input line 174.
-Package hyperref Info: Anchor `acknowledgment.0' on input line 174.
+Package hyperref Info: Anchor `page.iv' on input line 168.
+ [4]
+Package hyperref Info: Anchor `chapter*.1' on input line 172.
+Package hyperref Info: Anchor `acknowledgment.0' on input line 172.
 
 (C:\Users\jpsoliv\Documents\João\Mestrado\texto\Pre_Textuais/agradecimentos.te
 x)
-Package hyperref Info: Anchor `page.v' on input line 175.
+Package hyperref Info: Anchor `page.v' on input line 173.
  [5
 
 ]
-Package hyperref Info: Anchor `epigrafe.0' on input line 179.
-LaTeX Font Info:    Try loading font information for T1+aess on input line 183.
+Package hyperref Info: Anchor `epigrafe.0' on input line 177.
+LaTeX Font Info:    Try loading font information for T1+aess on input line 181.
 
 
 (C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\ae\t1
@@ -1589,27 +1574,27 @@ aess.fd
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 )
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <12> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 183.
-Package hyperref Info: Anchor `page.vi' on input line 190.
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 181.
+Package hyperref Info: Anchor `page.vi' on input line 188.
  [6]
-Package hyperref Info: Anchor `chapter*.2' on input line 190.
-Package hyperref Info: Anchor `resumo.0' on input line 190.
+Package hyperref Info: Anchor `chapter*.2' on input line 188.
+Package hyperref Info: Anchor `resumo.0' on input line 188.
 
 (C:\Users\jpsoliv\Documents\João\Mestrado\texto\Pre_Textuais/resumo.tex)
-Package hyperref Info: Anchor `page.vii' on input line 198.
+Package hyperref Info: Anchor `page.vii' on input line 196.
 
 [7
 
 ]
-Package hyperref Info: Anchor `chapter*.3' on input line 198.
-Package hyperref Info: Anchor `abstract.0' on input line 198.
+Package hyperref Info: Anchor `chapter*.3' on input line 196.
+Package hyperref Info: Anchor `abstract.0' on input line 196.
  (C:\Users\jpsoliv\Documents\João\Mestrado\texto\Pre_Textuais/abstract.tex)
-Package hyperref Info: Anchor `page.viii' on input line 205.
+Package hyperref Info: Anchor `page.viii' on input line 203.
 [8
 
 ]
-Package hyperref Info: Anchor `chapter*.4' on input line 205.
-Package hyperref Info: Anchor `contents.0' on input line 205.
+Package hyperref Info: Anchor `chapter*.4' on input line 203.
+Package hyperref Info: Anchor `contents.0' on input line 203.
  (C:\Users\jpsoliv\Documents\João\Mestrado\texto\Dissertacao.toc
 Underfull \hbox (badness 10000) in paragraph at lines 2--2
  [][]  
@@ -1715,7 +1700,7 @@ Package hyperref Info: Reference (link) `chapter.5' on input line 64.
 Package hyperref Info: Reference (link) `section.5.1' on input line 65.
 )
 \tf@toc=\write7
-Package hyperref Info: Anchor `page.x' on input line 208.
+Package hyperref Info: Anchor `page.x' on input line 206.
  [10
 Package `hyperref' Info: End of reference (link) `subsection.3.1.1', line 25.
 Package `hyperref' Info: End of reference (link) `subsection.3.1.2', line 26.
@@ -1739,9 +1724,9 @@ Package `hyperref' Info: End of reference (link) `subsection.4.3.3', line 59.
 Package `hyperref' Info: End of reference (link) `chapter.5', line 64.
 Package `hyperref' Info: End of reference (link) `section.5.1', line 65.
 ]
-Package hyperref Info: Anchor `chapter*.5' on input line 208.
+Package hyperref Info: Anchor `chapter*.5' on input line 206.
 
-pdftex: bookmark at 208: {0} {Lista de Figuras} {chapter*.5}{0}{toc}
+pdftex: bookmark at 206: {0} {Lista de Figuras} {chapter*.5}{0}{toc}
 (C:\Users\jpsoliv\Documents\João\Mestrado\texto\Dissertacao.lof
 Package hyperref Info: Reference (link) `figure.caption.8' on input line 4.
 Package hyperref Info: Reference (cite) `cite.Frost2008' on input line 4.
@@ -1941,7 +1926,7 @@ Package hyperref Info: Reference (link) `figure.caption.100' on input line 94.
 Package hyperref Info: Reference (link) `figure.caption.101' on input line 95.
 )
 \tf@lof=\write8
-Package hyperref Info: Anchor `page.xiv' on input line 208.
+Package hyperref Info: Anchor `page.xiv' on input line 206.
  [14
 Package `hyperref' Info: End of reference (link) `figure.caption.81', line 75.
 Package `hyperref' Info: End of reference (link) `figure.caption.82', line 76.
@@ -1965,28 +1950,28 @@ Package `hyperref' Info: End of reference (link) `figure.caption.99', line 93.
 Package `hyperref' Info: End of reference (link) `figure.caption.100', line 94.
 
 ]
-Package hyperref Info: Anchor `page.xv' on input line 211.
+Package hyperref Info: Anchor `page.xv' on input line 209.
  [15
 Package `hyperref' Info: End of reference (link) `figure.caption.101', line 95.
 
 ]
-Package hyperref Info: Anchor `chapter*.6' on input line 211.
+Package hyperref Info: Anchor `chapter*.6' on input line 209.
 
-pdftex: bookmark at 211: {0} {Lista de Tabelas} {chapter*.6}{0}{toc}
+pdftex: bookmark at 209: {0} {Lista de Tabelas} {chapter*.6}{0}{toc}
 (C:\Users\jpsoliv\Documents\João\Mestrado\texto\Dissertacao.lot
 Package hyperref Info: Reference (link) `table.caption.69' on input line 6.
 Package hyperref Info: Reference (link) `table.caption.71' on input line 7.
 )
 \tf@lot=\write9
-Package hyperref Info: Anchor `page.xvi' on input line 214.
+Package hyperref Info: Anchor `page.xvi' on input line 212.
  [16
 
 Package `hyperref' Info: End of reference (link) `table.caption.69', line 6.
 Package `hyperref' Info: End of reference (link) `table.caption.71', line 7.
 ]
-Package hyperref Info: Anchor `chapter*.7' on input line 214.
+Package hyperref Info: Anchor `chapter*.7' on input line 212.
 
-pdftex: bookmark at 214: {0} {Lista de Abreviaturas e Siglas} {chapter*.7}{0}{t
+pdftex: bookmark at 212: {0} {Lista de Abreviaturas e Siglas} {chapter*.7}{0}{t
 oc}
 (C:\Users\jpsoliv\Documents\João\Mestrado\texto\Dissertacao.lof)
 \tf@lof=\write10
@@ -2000,7 +1985,7 @@ Package hyperref Info: Anchor `page.xvii' on input line 52.
 ]
 Package hyperref Info: Anchor `page.xviii' on input line 52.
  [18])
-Package hyperref Info: Anchor `page.xix' on input line 227.
+Package hyperref Info: Anchor `page.xix' on input line 225.
  [19]
 (C:\Users\jpsoliv\Documents\João\Mestrado\texto\Cap1/Capitulo_1.tex
 Package hyperref Info: Anchor `chapter.1' on input line 1.
@@ -2151,7 +2136,7 @@ Package hyperref Info: Reference (cite) `cite.Zhao2014' on input line 30.
 Package hyperref Info: Reference (cite) `cite.Zhao2014' on input line 30.
 Package hyperref Info: Reference (cite) `cite.Avery2007' on input line 30.
 )
-Package hyperref Info: Anchor `page.26' on input line 241.
+Package hyperref Info: Anchor `page.26' on input line 239.
  [26
 Package `hyperref' Info: End of reference (cite) `cite.Frost2008', line 8.
 Package `hyperref' Info: End of reference (cite) `cite.Avery2007', line 30.
@@ -2949,7 +2934,7 @@ Package pdftex.def Info: Cap2/Figuras/serie.png used on input line 252.
 pdftex: bookmark at 253: {27} {\numberline{27}{\ignorespaces Filtro ativo do ti
 po s\'erie\relax }} {figure.caption.34}{0}{lof}
 )
-Package hyperref Info: Anchor `page.48' on input line 249.
+Package hyperref Info: Anchor `page.48' on input line 247.
  [48
 Package `hyperref' Info: End of reference (cite) `cite.Afonso2013', line 241.
 Package `hyperref' Info: End of reference (link) `figure.caption.34', line 241.
@@ -2997,7 +2982,7 @@ Package hyperref Info: Reference (cite) `cite.Zhu2014' on input line 13.
 Package hyperref Info: Reference (cite) `cite.Chen2012novel' on input line 13.
 Package hyperref Info: Reference (cite) `cite.Akagi2006' on input line 13.
 )
-Package hyperref Info: Anchor `page.50' on input line 251.
+Package hyperref Info: Anchor `page.50' on input line 249.
  [50
 Package `hyperref' Info: End of reference (cite) `cite.Barruel2004', line 7.
 Package `hyperref' Info: End of reference (cite) `cite.Gong2003', line 9.
@@ -3260,7 +3245,7 @@ Package hyperref Info: Reference (cite) `cite.Paredes2012' on input line 211.
 Package hyperref Info: Reference (cite) `cite.Czarnecki1997' on input line 211.
 
 )
-Package hyperref Info: Anchor `page.60' on input line 261.
+Package hyperref Info: Anchor `page.60' on input line 259.
  [60
 Package `hyperref' Info: End of reference (cite) `cite.Paredes2012', line 184.
 Package `hyperref' Info: End of reference (link) `equation.3.1.16', line 191.
@@ -5925,19 +5910,19 @@ Package hyperref Info: Anchor `page.123' on input line 388.
  [123]
 Package hyperref Info: Anchor `cite.MILSTD' on input line 389.
 )
-Package hyperref Info: Anchor `page.124' on input line 302.
+Package hyperref Info: Anchor `page.124' on input line 300.
  [124]
-Package hyperref Info: Anchor `chapter.6' on input line 302.
+Package hyperref Info: Anchor `chapter.6' on input line 300.
 
-pdftex: bookmark at 303: {6} {Gloss\'ario} {chapter.6}{0}{toc}
+pdftex: bookmark at 301: {6} {Gloss\'ario} {chapter.6}{0}{toc}
 No file Dissertacao.gls
 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 322.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 322.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 320.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 320.
 (C:\Users\jpsoliv\Documents\João\Mestrado\texto\Dissertacao.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 322.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 322.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 320.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 320.
 Package rerunfilecheck Info: File `Dissertacao.out' has not changed.
 (rerunfilecheck)             Checksum: 35F889B147CB351D1EA12C470D5A44D5;4000.
 
@@ -5951,7 +5936,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 322.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 320.
  )
 (\end occurred inside a group at level 1)
 
@@ -5997,7 +5982,7 @@ ype1/public/amsfonts/cm/cmti10.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/L
 atex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/jpsoliv
 /Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfonts/symb
 ols/msam10.pfb>
-Output written on Dissertacao.pdf (124 pages, 5632382 bytes).
+Output written on Dissertacao.pdf (124 pages, 5631739 bytes).
 PDF statistics:
  2398 PDF objects out of 2487 (max. 8388607)
  407 named destinations out of 1000 (max. 500000)
