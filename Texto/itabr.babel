@@ -33,7 +33,7 @@
 %--------------------------------------------------------
 %Tese
 %--------------------------------------------------------
-\gdef\itatitletextbabel{\nh{\itaworklevel\ apresentada {\`a} Pr{\'o}-Reitoria de P{\'o}s-Gradua{\c{c}}{\~a}o e Pesquisa do Instituto Tecnol{\'o}gico de Aeron{\'a}utica, como parte dos requisitos para obten{\c{c}}{\~a}o do t{\'\i}tulo de \itaauthortitle\ em Engenharia do Curso de \itaworkcourse\ em \itaworkarea\ no Programa de P\'os-Gradua{\c{c}}{\~a}o em Engenharia Aeron\'autica e Mec\^anica}.} 
+\gdef\itatitletextbabel{\nh{\itaworklevel\ apresentada {\`a} Pr{\'o}-Reitoria de P{\'o}s-Gradua{\c{c}}{\~a}o e Pesquisa do Instituto Tecnol{\'o}gico de Aeron{\'a}utica, como parte dos requisitos para obten{\c{c}}{\~a}o do t{\'\i}tulo de \itaauthortitle\ em Engenharia do Curso de \itaworkcourse\ em \itaworkdept\ no Programa de P\'os-Gradua{\c{c}}{\~a}o em Engenharia Aeron\'autica e Mec\^anica}.} 
 %	  {\'A}rea de \itaworkarea}.}
 	  
 \gdef\itathesisapprovedmembersbabel{\itaworklevel\ aprovada em sua vers\~{a}o final 
