@@ -11,7 +11,7 @@ if flag == 1
     yyaxis left
     % plot(t,V(:,1));
     % ylim([-190 190]);
-    yl = ylabel('Voltage [V]');
+    yl = ylabel('Tens\~ao [V]');
     set(yl,'Interpreter','latex');
     set(yl,'FontName','Times New Roman');
     % set(yl,'FontAngle','italic');
@@ -20,7 +20,7 @@ if flag == 1
     yyaxis right
     % plot(t,I(:,1));
     % ylim([-max(I(:,1))*2 max(I(:,1))*2]);
-    yl = ylabel('Current [A]');
+    yl = ylabel('Corrente [A]');
     set(yl,'Interpreter','latex');
     set(yl,'FontName','Times New Roman');
     % set(yl,'FontAngle','italic');
