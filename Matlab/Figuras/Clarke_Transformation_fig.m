@@ -27,6 +27,17 @@ text(1/f*1.2,Vrms*1.65,'$v_a$','FontSize',20,'Interpreter','Latex');
 text(1/f*1.53,Vrms*1.65,'$v_b$','FontSize',20,'Interpreter','Latex');
 text(1/f*1.85,Vrms*1.65,'$v_c$','FontSize',20,'Interpreter','Latex');
 
+xl = xlabel('tempo [s]');
+set(xl,'Interpreter','Latex');
+set(xl,'FontName','Times New Roman');
+set(xl,'FontSize',18);
+
+y1 = ylabel('Tens\~ao [V]');
+set(y1,'Interpreter','Latex');
+set(y1,'FontName','Times New Roman');
+set(y1,'FontSize',18);
+
+
 %grid on
 set(gca,'XtickLabel',[],'YtickLabel',[]);
 lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
@@ -43,7 +54,7 @@ set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
 % Valpha = cl(1,:);
 % Vbeta = cl(2,:);
 
-figure;
+figure(2);
 plot(t,Valpha,'-',t,Vbeta,'--','LineWidth',2.5);
 % legend('V\alpha','V\beta');
 ylim([-200 200]);
@@ -53,3 +64,13 @@ text(1/f*1.48,Vrms*1.93,'$v_\beta$','FontSize',20,'Interpreter','Latex');
 set(gca,'XtickLabel',[],'YtickLabel',[]);
 lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
 set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
+
+x2 = xlabel('tempo [s]');
+set(x2,'Interpreter','Latex');
+set(x2,'FontName','Times New Roman');
+set(x2,'FontSize',18);
+
+y2 = ylabel('Tens\~ao [V]');
+set(y2,'Interpreter','Latex');
+set(y2,'FontName','Times New Roman');
+set(y2,'FontSize',18);

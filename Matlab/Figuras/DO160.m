@@ -1,4 +1,4 @@
-function DO160(time,signal,f_rede)
+function DO160(time,signal,f_rede,y_max)
 %% Definição dos Sinais
 
 % time = Vabc_S.time;
@@ -58,9 +58,11 @@ ftlegend = 12;
 % figure;
 bar(round(f(index)/f_rede),y(index)/sqrt(2));
 hold on
-plot(f/f_rede,y/sqrt(2));
+% plot(f/f_rede,y/sqrt(2));
 hold off
-xlim([0 40]);
+xlim([2 40]);
+ylim([0 y_max]);
+set(gca,'Xtick',[1:2:40]);
 
 % xl = xlabel('Harmônica');
 % set(xl,'Interpreter','tex');
@@ -76,7 +78,8 @@ xtx = get(gca,'xlim');
 xtx(1) = [];
 ytx = get(gca,'ylim');
 ytx(1) = [];
-tx = text(xtx*0.9,ytx*0.9,{['THD = ' num2str(THD,'%.2f') '%'];['IHC = ' num2str(IHC,'%.2f') '% em ' num2str(round(IHCf),'%u') ' Hz']});
+tx = text(xtx*0.9,ytx*0.9,['THD = ' num2str(THD,'%.2f') '%']);          % Retira o IHC da figura
+% tx = text(xtx*0.9,ytx*0.9,{['THD = ' num2str(THD,'%.2f') '%'];['IHC = ' num2str(IHC,'%.2f') '% em ' num2str(round(IHCf),'%u') ' Hz']});
 set(tx,'VerticalAlignment','top');
 set(tx,'HorizontalAlignment','right');
 set(tx,'Interpreter','latex');

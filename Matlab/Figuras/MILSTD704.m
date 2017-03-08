@@ -12,6 +12,13 @@ function MILSTD704(time,signal)
 
 [fs,ys] = fft_mestre(signal,time);
 
+%% Eliminação da compnente fundamental
+% as componentes de 700 Hz para menos serão aniquilados dos resultados
+
+fund = 400;
+ys(fs<2*fund-100)=[];
+fs(fs<2*fund-100)=[];
+
 %% Curvas Norma
 
 ffix = 10:10:500000;

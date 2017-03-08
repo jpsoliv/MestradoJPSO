@@ -24,16 +24,32 @@ hFig1 = figure(1);
 set(hFig1,'units','centimeters');
 set(hFig1,'Position',[6 6 13*1.61803+5.6553 13]);
 
-plot(t,V+d1,'k-.',t,I+d1,'b--',t,P+d1,'r-',t,Pp+d2,'k-.',t,Pq+d2,'b--',t,Pp+Pq+d2,'r-','LineWidth',2);
+
+p1 = plot(t,V+d1,'k-.',t,I+d1,'b--',t,P+d1,'r-',t,Pp+d2,'k-.','LineWidth',2);
+hold on
+p2 = plot(t,Pq+d2,'b--',t,Pp+Pq+d2,'r-','LineWidth',2);
+
 axis([min(t) max(t) min(Pq)+d2-0.4 max(V)+d1+0.4])
-set(gca,'XtickLabel',[],'YtickLabel',[]);
-l1 = legend('$v(t)$ $V I \cos(\phi)[1+\cos(2\omega t)]$','$i(t)$ $VI\sin(\phi)\sin(2\omega t)$','$p(t)$ P Q');
+%set(gca,'XtickLabel',[],'YtickLabel',[]);
+set(gca,'XTick',[],'YTick',[max(Pp)/2+d2 max(Pq)+d2]);
+set(gca,'YTickLabel',['P'; 'Q']);
+set(gca,'TickLabelInterpreter','Latex');
+set(gca,'FontName','Cambira');
+set(gca,'FontSize',18);
+set(gca,'Position', [0.03 0.08 0.97 0.9])
+
+xl = xlabel('tempo [s]');
+set(xl,'Interpreter','tex');
+set(xl,'FontName','Times New Roman');
+set(xl,'FontSize',18);
+
+l1 = legend('$v(t)$ $V I \cos(\phi)[1+\cos(2\omega t)]$','$i(t)$ $VI\sin(\phi)\sin(2\omega t)$','$p(t)$');
 set(l1,'Interpreter','Latex')
 set(l1,'Box','off');
 set(l1,'Location','northeastoutside');
-set(l1,'FontSize',14);
- 
+set(l1,'FontSize',16);
 set(l1,'FontName','Cambria')
+
 % set(l1,'Position',Lpos1);
 % l2 = legend('v(t) ','i(t)','p(t)');
 % set(l2,'Box','off');
@@ -61,6 +77,7 @@ set(lv1,'Color',[.0 .0 .0],'LineStyle',':','LineWidth',1);
 lv2 = line([max(t(find(P<0&t<1/f/2))) max(t(find(P<0&t<1/f/2)))], ylim);
 set(lv2,'Color',[.0 .0 .0],'LineStyle',':','LineWidth',1);
 
+hold off
 
 
 

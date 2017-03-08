@@ -37,7 +37,7 @@ S = sqrt(P.^2+Q.^2);
 
 plot(t,S,t,P,t,Q);
 
-l = legend('S  [VA]','P  [W]','Q [vai]');
+l = legend('$s$  [VA]','$p$  [W]','$q$ [vai]');
 set(l,'Interpreter','latex');
 set(l,'FontName','Times New Roman');
 set(l,'Location','SouthEast');
@@ -47,6 +47,11 @@ xl = xlabel('tempo [s]');
 set(xl,'Interpreter','latex');
 set(xl,'FontName','Times New Roman');
 set(xl,'FontSize',18);
+
+yl = ylabel('Pot\^encias Instant\^aneas');
+set(yl,'Interpreter','latex');
+set(yl,'FontName','Times New Roman');
+set(yl,'FontSize',18);
 
 v = get(gca);
 lh = line([0 0 NaN v.XLim],[v.YLim NaN 0 0 ]);

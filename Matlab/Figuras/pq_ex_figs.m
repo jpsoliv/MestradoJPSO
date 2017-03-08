@@ -88,31 +88,71 @@ q_desb = sqrt(qalpha_desb.^2+qbeta_desb.^2+q0_desb.^2);
 
 figure(1)
 plot(t,p_bal,'k','LineWidth',2.5);%title('Potência Instantânea Ativa','FontSize',24);
-set(gca,'Position',[0.05,0.05,0.9,0.9]);
+set(gca,'Position',[0.075,0.079,0.88,0.88]);
 ylim([-2600 2600])
 set(gca,'XtickLabel',[],'YtickLabel',[]);
+
+x1 = xlabel('tempo [s]');
+set(x1,'Interpreter','Latex');
+set(x1,'FontName','Times New Roman');
+set(x1,'FontSize',18);
+
+y1 = ylabel('$p$ [W]');
+set(y1,'Interpreter','Latex');
+set(y1,'FontName','Times New Roman');
+set(y1,'FontSize',18);
 
 
 figure(2)
 plot(t,q_bal,'k','LineWidth',2.5);%title('Potência Instantânea Reativa','FontSize',24);
-set(gca,'Position',[0.05,0.05,0.9,0.9]);
+set(gca,'Position',[0.075,0.079,0.88,0.88]);
 ylim([-2600 2600])
 set(gca,'XtickLabel',[],'YtickLabel',[]);
 lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
 set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
+
+x2 = xlabel('tempo [s]');
+set(x2,'Interpreter','Latex');
+set(x2,'FontName','Times New Roman');
+set(x2,'FontSize',18);
+
+y2 = ylabel('$q$ [vai]');
+set(y2,'Interpreter','Latex');
+set(y2,'FontName','Times New Roman');
+set(y2,'FontSize',18);
 
 figure(3)
 plot(t,p_desb,'k','LineWidth',2.5);%title('Potência Instantânea Ativa','FontSize',24);
-set(gca,'Position',[0.05,0.05,0.9,0.9]);
+set(gca,'Position',[0.075,0.079,0.88,0.88]);
 ylim([-2600 2600])
 set(gca,'XtickLabel',[],'YtickLabel',[]);
 lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
 set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
 
+x3 = xlabel('tempo [s]');
+set(x3,'Interpreter','Latex');
+set(x3,'FontName','Times New Roman');
+set(x3,'FontSize',18);
+
+y3 = ylabel('$p$ [W]');
+set(y3,'Interpreter','Latex');
+set(y3,'FontName','Times New Roman');
+set(y3,'FontSize',18);
+
 figure(4)
 plot(t,q_desb,'k','LineWidth',2.5);%title('Potência Instantânea Reativa','FontSize',24);
-set(gca,'Position',[0.05,0.05,0.9,0.9]);
+set(gca,'Position',[0.075,0.079,0.88,0.88]);
 ylim([-2600 2600])
 set(gca,'XtickLabel',[],'YtickLabel',[]);
 lh = line([0 0 NaN xlim],[ylim NaN 0 0 ]);
 set(lh,'Color',[.25 .25 .25],'LineStyle','-','LineWidth',1);
+
+x4 = xlabel('tempo [s]');
+set(x4,'Interpreter','Latex');
+set(x4,'FontName','Times New Roman');
+set(x4,'FontSize',18);
+
+y4 = ylabel('$q$ [vai]');
+set(y4,'Interpreter','Latex');
+set(y4,'FontName','Times New Roman');
+set(y4,'FontSize',18);

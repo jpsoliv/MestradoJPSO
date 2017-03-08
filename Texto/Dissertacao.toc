@@ -59,7 +59,7 @@
 \contentsline {subsection}{\numberline {4.3.3}Resultados}{103}{subsection.4.3.3}
 \contentsline {subsubsection}{\numberline {4.3.3.1}EHA Inoperante}{105}{subsubsection.4.3.3.1}
 \contentsline {subsubsection}{\numberline {4.3.3.2}Corrente M\'axima}{107}{subsubsection.4.3.3.2}
-\contentsline {subsubsection}{\numberline {4.3.3.3}Regime Transit\'orio}{110}{subsubsection.4.3.3.3}
+\contentsline {subsubsection}{\numberline {4.3.3.3}Regime Transit\'orio}{109}{subsubsection.4.3.3.3}
 \contentsline {subsubsection}{\numberline {4.3.3.4}Regime Permanente}{112}{subsubsection.4.3.3.4}
-\contentsline {chapter}{\numberline {5}Conclus\~ao}{116}{chapter.5}
-\contentsline {section}{\numberline {5.1}Pr\'oximos Passos}{117}{section.5.1}
+\contentsline {chapter}{\numberline {5}Conclus\~ao}{115}{chapter.5}
+\contentsline {section}{\numberline {5.1}Pr\'oximos Passos}{116}{section.5.1}

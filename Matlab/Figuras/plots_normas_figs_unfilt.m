@@ -65,7 +65,7 @@ fig = figure(3);
 xlim([t(1) t(end)]);
 set(gca,'XTick',[t(1), t(1)+(t(end)-t(1))/4, t(1)+(t(end)-t(1))/4*2, t(1)+(t(end)-t(1))/4*3, t(1)+(t(end)-t(1))/4*4],'FontSize',xtickfontsize);
 ylim([-200 200]);
-axesftsize(ftaxes,'tempo [s]','',2);
+axesftsize(ftaxes,'tempo [s]','Pot\^encias Instant\^aneas',2);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
@@ -75,7 +75,7 @@ xlim([t(end)-0.01 t(end)]);
 set(gca,'XTick',[72.935, 72.935+0.0025 72.935+2*0.0025 72.935+3*0.0025 t(end)],'FontSize',xtickfontsize);
 % xticks([72.935, 72.935+0.0025 72.935+2*0.0025 72.935+3*0.0025 t(end)]);
 ylim([-200 200]);
-axesftsize(ftaxes,'tempo [s]','',2);
+axesftsize(ftaxes,'tempo [s]','Pot\^encias Instant\^aneas',2);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
@@ -87,7 +87,7 @@ n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(6);
-DO160(t,V,f_rede);
+DO160(t,V,f_rede,0.5);
 set(gca,'FontSize',xtickfontsize);
 axesftsize(ftaxes,'Harm\^onica','Amplitude [$V_{rms}$]',2);
 n = get(fig,'Number');
@@ -127,7 +127,7 @@ fig = figure(9);
 xlim([t(1) t(end)]);
 set(gca,'FontSize',xtickfontsize);
 ylim([-3e4 6.5e4]);
-axesftsize(ftaxes,'tempo [s]','',2);
+axesftsize(ftaxes,'tempo [s]','Pot\^encias Instant\^aneas',2);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
@@ -136,7 +136,7 @@ fig = figure(10);
 xlim([73.12 73.13]);
 set(gca,'XTick',[73.12, 73.12+0.0025 73.12+2*0.0025 73.12+3*0.0025 73.13],'FontSize',xtickfontsize);
 ylim([-3e4 6.5e4]);
-axesftsize(ftaxes,'tempo [s]','',2);
+axesftsize(ftaxes,'tempo [s]','Pot\^encias Instant\^aneas',2);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
@@ -148,7 +148,7 @@ n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(12);
-DO160(t,V,f_rede);
+DO160(t,V,f_rede,17);
 set(gca,'FontSize',xtickfontsize);
 axesftsize(ftaxes,'Harm\^onica','Amplitude [$V_{rms}$]',2);
 n = get(fig,'Number');
@@ -187,7 +187,7 @@ fig = figure(15);
 xlim([t(1) t(end)]);
 set(gca,'FontSize',xtickfontsize);
 ylim([-3000 5000]);
-axesftsize(ftaxes,'tempo [s]','',2);
+axesftsize(ftaxes,'tempo [s]','Pot\^encias Instant\^aneas',2);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
@@ -196,7 +196,7 @@ fig = figure(16);
 xlim([t(1) t(1)+0.01]);
 set(gca,'XTick',[t(1), t(1)+0.0025 t(1)+2*0.0025 t(1)+3*0.0025 t(1)+0.01],'FontSize',xtickfontsize);
 ylim([-3000 5000]);
-axesftsize(ftaxes,'tempo [s]','',2);
+axesftsize(ftaxes,'tempo [s]','Pot\^encias Instant\^aneas',2);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
@@ -208,7 +208,7 @@ n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(18);
-DO160(t,V,f_rede);
+DO160(t,V,f_rede,1.5);
 set(gca,'FontSize',xtickfontsize);
 axesftsize(ftaxes,'Harm\^onica','Amplitude [$V_{rms}$]',2);
 n = get(fig,'Number');
@@ -247,7 +247,7 @@ fig = figure(21);
 xlim([t(1) t(end)]);
 set(gca,'FontSize',xtickfontsize);
 ylim([-400 850]);
-axesftsize(ftaxes,'tempo [s]','',2);
+axesftsize(ftaxes,'tempo [s]','Pot\^encias Instant\^aneas',2);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
@@ -256,7 +256,7 @@ fig = figure(22);
 xlim([t(1) t(1)+0.01]);
 set(gca,'XTick',[t(1), t(1)+0.0025 t(1)+2*0.0025 t(1)+3*0.0025 t(1)+0.01],'FontSize',xtickfontsize);
 ylim([-400 850]);
-axesftsize(ftaxes,'tempo [s]','',2);
+axesftsize(ftaxes,'tempo [s]','Pot\^encias Instant\^aneas',2);
 n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
@@ -268,7 +268,7 @@ n = get(fig,'Number');
 print(['resultados_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(24);
-DO160(t,V,f_rede);
+DO160(t,V,f_rede,0.5);
 set(gca,'FontSize',xtickfontsize);
 axesftsize(ftaxes,'Harm\^onica','Amplitude [$V_{rms}$]',2);
 n = get(fig,'Number');

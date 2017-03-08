@@ -27,7 +27,7 @@ if flag == 1
     set(yl,'FontSize',ftaxes);
 else
     yl = ylabel(ylab);
-    set(yl,'Interpreter','latex');
+    set(yl,'Interpreter','Latex');
     set(yl,'FontName','Times New Roman');
     % set(yl,'FontAngle','italic');
     set(yl,'FontSize',ftaxes);
