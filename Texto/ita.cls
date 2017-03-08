@@ -134,6 +134,7 @@
 \RequirePackage{tabularx}
 \RequirePackage{titlesec}
 
+
 %==============================================================================
 %%% Glossário
 \usepackage{makeglo}
@@ -419,6 +420,7 @@
 }
 
 % Referencia Bibliografica
+
 \def\@bibref{%
 			 
        \vspace*{\stretch{2}}
@@ -426,7 +428,7 @@
           \textbf{\itarefbibnamecipbabel} \par
 			\begin{onehalfspacing}
           {\setlength{\baselineskip}{0.7\baselineskip}
-          \MakeUppercase{\@authorlast}, \@authorfirst. \textbf{Simula\c{c}\~ao de filtro ativo do tipo \textit{shunt} para corre\c{c}\~ao de fator de pot\^encia em sistemas el\'etricos aeron\'auticos}. \@publyear.                     \NumPenultimaPagina f. \itacip2babel \\}	
+          \MakeUppercase{\@authorlast}, \@authorfirst. \textbf{Simula\c{c}\~ao de filtro ativo do tipo \textit{shunt} para melhora da qualidade de energia em sistemas el\'etricos aeron\'auticos}. \@publyear.                     \NumPenultimaPagina f. \itacip2babel \\}	
 %          \MakeUppercase{\@authorlast}, \@authorfirst. \textbf{\@title}. \@publyear.                     \NumPenultimaPagina f. \itacip2babel \\}
        \end{onehalfspacing}
 }
