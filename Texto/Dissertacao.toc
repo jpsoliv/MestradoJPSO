@@ -15,54 +15,54 @@
 \contentsline {subsection}{\numberline {2.4.1}MIL-STD 704 - \textit {Aircraft Electric Power Characteristics}}{40}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}DO-160 - \textit {Environmental Conditions and Test Procedures for Airborne Equipment - Section 16: Power Input}}{42}{subsection.2.4.2}
 \contentsline {section}{\numberline {2.5}M\'etodos de Corre\c c\~ao de Fator de Pot\^encia}{42}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Sistemas Passivos}{42}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.1}Sistemas Passivos}{43}{subsection.2.5.1}
 \contentsline {subsubsection}{\numberline {2.5.1.1}Filtros Passivos}{43}{subsubsection.2.5.1.1}
 \contentsline {subsubsection}{\numberline {2.5.1.2}Retificadores Multipulso}{46}{subsubsection.2.5.1.2}
-\contentsline {subsection}{\numberline {2.5.2}Sistemas Ativos}{48}{subsection.2.5.2}
-\contentsline {subsubsection}{\numberline {2.5.2.1}Conversores com Corre\c c\~ao de Fator de Pot\^encia}{48}{subsubsection.2.5.2.1}
+\contentsline {subsection}{\numberline {2.5.2}Sistemas Ativos}{49}{subsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.5.2.1}Conversores com Corre\c c\~ao de Fator de Pot\^encia}{49}{subsubsection.2.5.2.1}
 \contentsline {subsubsection}{\numberline {2.5.2.2}Filtros Ativos}{51}{subsubsection.2.5.2.2}
-\contentsline {section}{\numberline {2.6}Caracter\IeC {\'\i }sticas de Dispositivos de Corre\c c\~ao de Fator de Pot\^encia em Sistemas El\'etricos de Aeronaves}{53}{section.2.6}
-\contentsline {section}{\numberline {2.7}Conclus\~oes}{55}{section.2.7}
-\contentsline {chapter}{\numberline {3}Filtros Ativos para Sistemas El\'etricos}{56}{chapter.3}
-\contentsline {section}{\numberline {3.1}Pot\^encia Ativa, Reativa e Fator de Pot\^encia}{56}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Circuitos Senoidais Monof\'asicos}{57}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Circuitos N\~ao Senoidais Monof\'asicos}{61}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Pot\^encia Instant\^anea Utilizando a Teoria p-q em Circuitos Trif\'asicos}{64}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Transforma\c c\~ao de Coordenadas}{64}{subsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.1.1}Transformada de Clarke}{65}{subsubsection.3.2.1.1}
-\contentsline {subsection}{\numberline {3.2.2}Pot\^encia Instant\^anea em Coordenadas $\alpha \beta 0 $}{66}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Pot\^encia Instant\^anea em coordenadas $abc$}{70}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Teoria p-q em Sistemas Trif\'asicos a Tr\^es Fios}{71}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Significado F\IeC {\'\i }sico dos Par\^ametros da Teoria p-q}{74}{subsection.3.2.5}
-\contentsline {section}{\numberline {3.3}Filtros Ativos}{76}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Filtros Ativo Empregando a Teoria p-q}{78}{subsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.1.1}Sele\c c\~ao de Pot\^encias Compensadas}{80}{subsubsection.3.3.1.1}
-\contentsline {subsubsection}{\numberline {3.3.1.2}Concep\c c\~ao dos Filtros Ativos}{82}{subsubsection.3.3.1.2}
-\contentsline {chapter}{\numberline {4}Caracter\IeC {\'\i }stica de Filtros Ativos em Sistemas Reais}{86}{chapter.4}
-\contentsline {section}{\numberline {4.1}Inversores Est\'aticos}{86}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Tipo de Conversores}{86}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Controle do PWM}{87}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Controle de Tens\~ao no Lado DC do Inversor}{89}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Controlador}{90}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Tipos de Controle}{90}{subsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.1.1}M\'etodo de Controle de Corrente Senoidal}{91}{subsubsection.4.2.1.1}
-\contentsline {paragraph}{\numberline {4.2.1.1.1}Detector de Sequ\^encia Positiva}{92}{paragraph.4.2.1.1.1}
-\contentsline {subparagraph}{Malha de Captura de Fase (PLL)}{93}{subparagraph*.70}
-\contentsline {subparagraph}{Malha Principal}{93}{subparagraph*.72}
-\contentsline {section}{\numberline {4.3}Sistema Completo do Filtro Ativo}{96}{section.4.3}
-\contentsline {chapter}{\numberline {5}Simula\c c\~ao de Filtro Ativo \textit {Shunt} Aplicado em um Sistema El\'etrico Aeron\'autico}{98}{chapter.5}
-\contentsline {section}{\numberline {5.1}Simula\c c\~ao}{98}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Modelo do Sistema El\'etrico}{99}{subsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.1.1}Sistema de Gera\c c\~ao}{99}{subsubsection.5.1.1.1}
-\contentsline {subsubsection}{\numberline {5.1.1.2}Sistema de Distribui\c c\~ao}{100}{subsubsection.5.1.1.2}
-\contentsline {subsubsection}{\numberline {5.1.1.3}Atuador Eletrohidrost\'atico}{101}{subsubsection.5.1.1.3}
-\contentsline {subsection}{\numberline {5.1.2}Modelo do Filtro Ativo}{103}{subsection.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.2.1}Controle}{104}{subsubsection.5.1.2.1}
-\contentsline {subsubsection}{\numberline {5.1.2.2}Compensador}{106}{subsubsection.5.1.2.2}
-\contentsline {section}{\numberline {5.2}Resultados}{107}{section.5.2}
-\contentsline {subsubsection}{\numberline {5.2.0.1}EHA Inoperante}{109}{subsubsection.5.2.0.1}
-\contentsline {subsubsection}{\numberline {5.2.0.2}Corrente M\'axima}{111}{subsubsection.5.2.0.2}
-\contentsline {subsubsection}{\numberline {5.2.0.3}Regime Transit\'orio}{113}{subsubsection.5.2.0.3}
-\contentsline {subsubsection}{\numberline {5.2.0.4}Regime Permanente}{116}{subsubsection.5.2.0.4}
-\contentsline {chapter}{\numberline {6}Conclus\~ao}{119}{chapter.6}
-\contentsline {section}{\numberline {6.1}Pr\'oximos Passos}{120}{section.6.1}
+\contentsline {section}{\numberline {2.6}Caracter\IeC {\'\i }sticas de Dispositivos de Corre\c c\~ao de Fator de Pot\^encia em Sistemas El\'etricos de Aeronaves}{54}{section.2.6}
+\contentsline {section}{\numberline {2.7}Conclus\~oes}{56}{section.2.7}
+\contentsline {chapter}{\numberline {3}Filtros Ativos para Sistemas El\'etricos}{57}{chapter.3}
+\contentsline {section}{\numberline {3.1}Pot\^encia Ativa, Reativa e Fator de Pot\^encia}{57}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Circuitos Senoidais Monof\'asicos}{58}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Circuitos N\~ao Senoidais Monof\'asicos}{62}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Pot\^encia Instant\^anea Utilizando a Teoria p-q em Circuitos Trif\'asicos}{65}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Transforma\c c\~ao de Coordenadas}{65}{subsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1.1}Transformada de Clarke}{66}{subsubsection.3.2.1.1}
+\contentsline {subsection}{\numberline {3.2.2}Pot\^encia Instant\^anea em Coordenadas $\alpha \beta 0 $}{67}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Pot\^encia Instant\^anea em coordenadas $abc$}{71}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Teoria p-q em Sistemas Trif\'asicos a Tr\^es Fios}{72}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Significado F\IeC {\'\i }sico dos Par\^ametros da Teoria p-q}{75}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Filtros Ativos}{77}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Filtros Ativo Empregando a Teoria p-q}{79}{subsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Sele\c c\~ao de Pot\^encias Compensadas}{81}{subsubsection.3.3.1.1}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Concep\c c\~ao dos Filtros Ativos}{83}{subsubsection.3.3.1.2}
+\contentsline {chapter}{\numberline {4}Caracter\IeC {\'\i }stica de Filtros Ativos em Sistemas Reais}{87}{chapter.4}
+\contentsline {section}{\numberline {4.1}Inversores Est\'aticos}{87}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Tipo de Conversores}{87}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Controle do PWM}{88}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Controle de Tens\~ao no Lado DC do Inversor}{90}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Controlador}{91}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Tipos de Controle}{91}{subsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}M\'etodo de Controle de Corrente Senoidal}{92}{subsubsection.4.2.1.1}
+\contentsline {paragraph}{\numberline {4.2.1.1.1}Detector de Sequ\^encia Positiva}{93}{paragraph.4.2.1.1.1}
+\contentsline {subparagraph}{Malha de Captura de Fase (PLL)}{94}{subparagraph*.71}
+\contentsline {subparagraph}{Malha Principal}{94}{subparagraph*.73}
+\contentsline {section}{\numberline {4.3}Sistema Completo do Filtro Ativo}{97}{section.4.3}
+\contentsline {chapter}{\numberline {5}Simula\c c\~ao de Filtro Ativo \textit {Shunt} Aplicado em um Sistema El\'etrico Aeron\'autico}{99}{chapter.5}
+\contentsline {section}{\numberline {5.1}Simula\c c\~ao}{99}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Modelo do Sistema El\'etrico}{100}{subsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.1}Sistema de Gera\c c\~ao}{100}{subsubsection.5.1.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.2}Sistema de Distribui\c c\~ao}{101}{subsubsection.5.1.1.2}
+\contentsline {subsubsection}{\numberline {5.1.1.3}Atuador Eletrohidrost\'atico}{102}{subsubsection.5.1.1.3}
+\contentsline {subsection}{\numberline {5.1.2}Modelo do Filtro Ativo}{104}{subsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.2.1}Controle}{105}{subsubsection.5.1.2.1}
+\contentsline {subsubsection}{\numberline {5.1.2.2}Compensador}{107}{subsubsection.5.1.2.2}
+\contentsline {section}{\numberline {5.2}Resultados}{108}{section.5.2}
+\contentsline {subsubsection}{\numberline {5.2.0.3}EHA Inoperante}{110}{subsubsection.5.2.0.3}
+\contentsline {subsubsection}{\numberline {5.2.0.4}Corrente M\'axima}{112}{subsubsection.5.2.0.4}
+\contentsline {subsubsection}{\numberline {5.2.0.5}Regime Transit\'orio}{114}{subsubsection.5.2.0.5}
+\contentsline {subsubsection}{\numberline {5.2.0.6}Regime Permanente}{117}{subsubsection.5.2.0.6}
+\contentsline {chapter}{\numberline {6}Conclus\~ao}{120}{chapter.6}
+\contentsline {section}{\numberline {6.1}Pr\'oximos Passos}{121}{section.6.1}

@@ -1,10 +1,11 @@
 \select@language {brazil}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1}{\ignorespaces Valores de fator de distor\c c\~ao definidos pela MIL-STD 704F \cite {MILSTD}\relax }}{41}{table.caption.24}
+\contentsline {table}{\numberline {1}{\ignorespaces Valores de fator de distor\c c\~ao definidos pela MIL-STD 704F para sistemas AC \cite {MILSTD}\relax }}{41}{table.caption.24}
+\contentsline {table}{\numberline {2}{\ignorespaces Valores de fator de distor\c c\~ao definidos pela MIL-STD 704F para sistemas DC \cite {MILSTD}\relax }}{41}{table.caption.26}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2}{\ignorespaces Imped\^ancia interna do Gerador\relax }}{100}{table.caption.79}
-\contentsline {table}{\numberline {3}{\ignorespaces Imped\^ancias das linhas de distribui\c c\~ao\relax }}{101}{table.caption.81}
+\contentsline {table}{\numberline {3}{\ignorespaces Imped\^ancia interna do Gerador\relax }}{101}{table.caption.80}
+\contentsline {table}{\numberline {4}{\ignorespaces Imped\^ancias das linhas de distribui\c c\~ao\relax }}{102}{table.caption.82}
 \addvspace {10\p@ }
