@@ -26,6 +26,7 @@ ft = 30;
 fatorX = 2;
 fatorY = 0.9;
 ftaxes = 24;
+ftlegend = 28;
 
 figure(1);
 plot(y.time,y.signals.values(:,1),'r','LineWidth',2);
@@ -34,6 +35,13 @@ axis([0 12/400 -190 190]);
 hold on;
 plot(Vlinha.time,Vlinha.signals.values(:,1),'k','LineWidth',4);
 hold off;
+
+l1 = legend('$v_a$','$v_a^{\prime}$');
+set(l1,'Interpreter','Latex');
+set(l1,'FontName','Times New Roman');
+set(l1,'FontSize',ftlegend);
+set(l1,'Box','off');
+set(l1,'Location','northeastoutside');
 
 xl = xlabel('tempo [s]');
 set(xl,'Interpreter','Latex');
@@ -55,7 +63,7 @@ set(yl,'FontSize',ftaxes);
 % set(l,'Box','off');
 
 axis([0 6/400 -190 190]);
-set(gca,'Position',[0.05,0.13,0.93,0.85]);
+set(gca,'Position',[0.05,0.13,0.85,0.85]);
 pos = get(gcf,'Position');
 set(gcf,'Position',[pos(1) pos(2) fatorX*pos(3) pos(4)*fatorY]);
 set(gca,'XtickLabel',[],'YtickLabel',[]);
@@ -72,6 +80,13 @@ axis([0 12/400 -190 190]);
 hold on;
 plot(Vlinha.time,Vlinha.signals.values(:,1),'k','LineWidth',4);
 hold off;
+
+l2 = legend('$v_{a_{+1}}$','$v_a^{\prime}$');
+set(l2,'Interpreter','Latex');
+set(l2,'FontName','Times New Roman');
+set(l2,'FontSize',ftlegend);
+set(l2,'Box','off');
+set(l2,'Location','northeastoutside');
 
 xl = xlabel('tempo [s]');
 set(xl,'Interpreter','Latex');
@@ -93,7 +108,7 @@ set(yl,'FontSize',ftaxes);
 % set(l,'Box','off');
 
 axis([0 6/400 -190 190]);
-set(gca,'Position',[0.05,0.13,0.93,0.85]);
+set(gca,'Position',[0.05,0.13,0.85,0.85]);
 pos = get(gcf,'Position');
 set(gcf,'Position',[pos(1) pos(2) fatorX*pos(3) pos(4)*fatorY]);
 set(gca,'XtickLabel',[],'YtickLabel',[]);

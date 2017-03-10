@@ -20,17 +20,31 @@ A análise proferida nesse trabalho tange a qualidade de energia sob os aspectos 
 
 \begin{table}[!htb]
 	\centering
-	\begin{tabular}{|l|c|}\hline
-		\textbf{Operação do Sistema}			& 	\textbf{Valores máximos de fator de distorção}\\\hline
-		AC - 400 Hz 				&	0.05\\
-		AC - Frequência Variável	&	0.05\\
-		AC - 60 Hz					&	0.05\\
-		DC - 28 V					&	0.035\\
-		DC - 270 V					& 	0.015\\\hline
+	\begin{tabular}{|>{\centering\arraybackslash}m{5cm}|>{\centering\arraybackslash}m{4.5cm}|} \hline
+		\textbf{Tipo de tensão do sistema}		& 	\textbf{Valores máximos de fator de distorção}\\\hline
+		\raggedright AC - 400 Hz 				&	0.05\\\hline
+		\raggedright AC - Frequência Variável	&	0.05\\\hline
+		\raggedright AC - 60 Hz					&	0.05\\\hline
+		\raggedright DC - 28 V					&	0.035\\\hline
+		\raggedright DC - 270 V					& 	0.015\\\hline
 	\end{tabular}
 	\caption{Valores de fator de distorção definidos pela MIL-STD 704F \cite{MILSTD}}
 	\label{tab:dist_factor}
 \end{table}
+
+\begin{figure}[!htb] %
+	\centering
+	\includegraphics[width=0.7\textwidth]{Cap2/Figuras/MILSTD704_AC.eps}
+	\caption{Limites do espectro de frequência definidas pela MIL-STD704F para tensões AC \cite{MILSTD}}
+	\label{fig:MILSTD704_AC.eps}
+\end{figure}
+
+\begin{figure}[!htb] %
+	\centering
+	\includegraphics[width=0.7\textwidth]{Cap2/Figuras/MILSTD704_DC.eps}
+	\caption{Limites do espectro de frequência definidas pela MIL-STD704F para tensões DC \cite{MILSTD}}
+	\label{fig:MILSTD704_DC.eps}
+\end{figure}
 
 \subsection{DO-160 - \textit{Environmental Conditions and Test Procedures for Airborne Equipment - Section 16: Power Input}}
 

@@ -30,13 +30,13 @@ y270 = [10^(-10/20) 10^(10/20) 10^(10/20) 10^(-10/20) 10^(-50/20)];
 
 % close all
 ft = 30;
-factor = 400;
+factor = 350;
 ftaxes = 18;
 ftlegend = 13;
 xtickfontsize = 13;
 
 figure(1)
-loglog(f400,y400,'k',fvar,yvar,'k--',f60,y60,'k-.');
+loglog(f400,y400,'k',fvar,yvar,'k--',f60,y60,'k-.','LineWidth',1.7);
 ylim([10^(-34.44/20) 10^(20/20)]);
 xlim([1 1e6]);
 grid on
@@ -49,12 +49,12 @@ set(l1,'Box','off');
 
 axesftsize(ftaxes,'Frequ\^encia [Hz]','Amplitude [$V_{rms}$]',2);
 set(gca,'FontSize',xtickfontsize);
-set(gca,'Position',[0.11,0.14,0.87,0.823]);
+set(gca,'Position',[0.13,0.16,0.85,0.803]);
 pos = get(gcf,'Position');
 set(gcf,'Position',[pos(1),pos(2),874/524*factor,factor]);
 
 figure(2)
-loglog(f28,y28,'k',f270,y270,'k--');
+loglog(f28,y28,'k',f270,y270,'k--','LineWidth',1.7);
 ylim([10^(-60/20) 10^(20/20)]);
 xlim([10 1e6]);
 grid on
@@ -67,7 +67,7 @@ set(l1,'Box','off');
 
 axesftsize(ftaxes,'Frequ\^encia [Hz]','Amplitude [$V_{rms}$]',2);
 set(gca,'FontSize',xtickfontsize);
-set(gca,'Position',[0.11,0.14,0.87,0.823]);
+set(gca,'Position',[0.13,0.16,0.85,0.803]);
 pos = get(gcf,'Position');
 set(gcf,'Position',[pos(1),pos(2),874/524*factor,factor]);
 

@@ -1,0 +1,106 @@
+\section{Controlador}
+\todo{Meio sem contexto esse Controlador}
+O controlador empregado em um sistema de filtragem ativa é constituído pela unidade de processamento que opera os interruptores estáticos. Juntamente com os controladores são necessários sensores de tensão e corrente para alimentar a unidade de processamento com dados do sistema.
+
+\subsection{Tipos de Controle}\label{subsubsec:Tipos de Controle}
+
+A filtragem ativa nos sistemas reais atua em redes cujas tensões não são necessariamente senoidais puras ou balanceadas. A base teórica apresentada na seção \ref{sec:Filtros Ativos} é baseada na premissa de que o sistema é implementado sem distorções de tensão ou desbalanceamento entre as fases. Entretanto, este fato não se faz presentes em sistemas aeronáuticos, visto que as distorções e desbalanceamentos são presentes, porém dentro das normas aeronáuticas. Assim, a operação dos filtros ativos do tipo \textit{shunt} é sensível a estes efeitos, fazendo com que algumas considerações devam ser aplicadas para contornar tais fenômenos adversos e garantir seu correto funcionamento em todo espectro de operação. Segundo \cite{Akagi2007}, a teoria p-q mostra-se insuficiente para atender a filtragem de cargas não lineares em sistemas com tensões previamente distorcidas e, ao mesmo tempo, satisfazer as condições de uma filtragem ótima. Tais condições são descritas por:
+
+\begin{itemize}
+	\item Extrair apenas potência ativa constante da fonte de alimentação; 
+	\item Extrair uma corrente senoidal da fonte de alimentação;
+	\item Extrair uma quantidade mínima de corrente eficaz que transportaria uma mesma potência para a carga com um mínimo de energia dissipada na rede. 
+\end{itemize}
+
+Essas condições podem ser realizadas ao mesmo tempo em um sistema ideal sem que haja distorções na rede, porém esse caso não é realizável em sistemas reais. Portanto, métodos distintos de filtros ativos do tipo \textit{shunt} são propostos para atender pelo menos uma destas condições ótimas. 
+
+O método apresentado na seção \ref{sec:Filtros Ativos} visa extrair apenas potência ativa constante da fonte de alimentação. A aplicação deste método para criar correntes senoidais puras exige a condição de que o sistema seja composto de tensões senoidais puras. Seu emprego em sistemas cujas tensões apresentam-se como distorcidas necessitariam de correntes também distorcidas para criar um fluxo potência ativa constante. Com isso, esse método pode apresentar instabilidade dependendo dos níveis de distorção, visto que as correntes distorcidas necessária para conceber um fluxo de potência constante elevariam ainda mais a inserção de harmônicas nas formas de onda de tensão. Desse modo, o método de filtragem o qual garante uma corrente senoidal nos terminais da carga é requerido para adequar a qualidade de energia e manter o sistema estável. Assim sendo, alguns incrementos devem ser inseridos na concepção dos filtros explanados na seção \ref{sec:Filtros Ativos} para garantir a condição de corrente senoidal nos terminais da carga.
+
+\subsubsection{Método de Controle de Corrente Senoidal}
+
+O método de controle de corrente senoidal é dado pela filtragem ativa em que o compensador insere componentes de corrente nas linhas do sistema, de modo a obter uma forma de onda das correntes no lado da fonte de alimentação sendo senoidal e balanceada. Este método aplicado em sistema em que a tensão apresenta-se sendo distorcida não ostenta um fluxo de potência constante sendo drenado da fonte. Além do mais, não é possível absorver uma quantidade constante de potência ativa e garantir uma corrente senoidal em um sistema cuja tensão apresenta distorção harmônica \cite{Akagi2007}.
+
+Para conseguir um fluxo de corrente senoidal e balanceado extraído da fonte, é necessário adequar o filtro ativo para que este compense todas as componentes harmônicas, bem como as componentes fundamentais que diferem da componente fundamental de sequência positiva $\dot{I}_{+1}$. Essa condição é realizada através da implementação de um detector de sequência positiva na entrada de tensão de um filtro ativo. O esquema do filtro ativo apresentado na seção \ref{subssec:Concepção dos Filtros Ativos}, e ilustrado na Figura \ref{fig:con_alto_nivel.png}, não é fundamentalmente modificado para o controle de corrente senoidal. A implementação deste método é realizado com a inserção do detector de sequência positiva na medição das tensões advindas da fonte, como mostra a Figura \ref{fig:esquema_controle_senoidal.png}. Dessa maneira, as tensões utilizadas no cálculo das correntes de referência do compensador são compostas apenas pela fundamental de sequência positiva da tensão.
+
+\begin{figure}[!htbp] %Esquema de um filtro passivo genérico
+	\centering
+	\includegraphics[width=0.99\textwidth]{Cap4/Figuras/esquema_controle_senoidal.png}
+	\caption{Filtro ativo com controle de corrente senoidal}
+	\label{fig:esquema_controle_senoidal.png}
+\end{figure}
+
+\paragraph{Detector de Sequência Positiva} \mbox{}\\
+O detector de sequência positiva é empregado para encontrar a componente fundamental de sequência positiva das tensões advindas da fonte de alimentação de um sistema trifásico. Considerando as tensões $v_{Sa}$, $v_{Sb}$ e $v_{Sc}$ do sistema como sendo definidas pela composição da soma de componentes fundamentais e harmônicas de sequência positiva e negativa, ou ainda, fazendo $\dot{V}_{k_{+n}}$ o fasor da n-ésima componente fundamental de sequência positiva e $\dot{V}_{k_{-n}}$ o fasor da n-ésima componente fundamental de sequência negativa da fase $k=a,b,c$, a relação a seguir pode ser verificada:
+
+\begin{equation}
+\begin{aligned}
+\dot{V}_k = \sum_{n=1}^{\infty}\dot{V}_{k_{+n}}+\dot{V}_{k_{-n}}\qquad k=a,b,c
+\end{aligned}
+\end{equation}
+
+Já as tensões $v_a'$, $v_b'$ e $v_c'$ advindas do detector de sequência positiva são constituídas apenas por $\dot{V}_{k_{+1}}$. Estas, por sua vez, são utilizadas no cálculo das correntes de referência de um filtro ativo do tipo \textit{shunt}, como mostrado na Figura \ref{fig:diagrama_filtro.png}. As tensões $v_a'$, $v_b'$ e $v_c'$ na entrada do filtro são utilizadas no cálculo das potências instantâneas $p$ e $q$, a qual serão utilizadas na determinação das parcelas de potências a serem compensadas, e também na determinação das correntes de referência nas coordenadas $\alpha \beta$. Em termos de componentes simétricos e, dado que somente $\dot{V}_{+1}$ é considerada nos cálculos das potências instantâneas, as potências $\tilde{p}$ e $\tilde{q}$ são relacionadas com todas as harmônicas de sequência positiva e componentes de sequência negativas das correntes das linhas, sendo que apenas $\dot{I}_{+1}$ produz as parcelas $\bar{p}$ e $\bar{q}$. Com isso, operando o filtro de modo a compensar as parcelas da potência $\tilde{p}$ e $\tilde{q}$, as componentes harmônicas de sequência positiva e negativas diferentes de $\dot{I}_{+1}$ são compensadas. Assim, a operação do filtro produz apenas as componentes fundamentais da corrente para cada fase individualmente e em fase com as componentes fundamentais das tensões do sistema \cite{Akagi2007}.
+
+A estrutura de um sistema de um detector de sequência positiva consiste em dois principais blocos. O primeiro representa um sistema de malha de captura de fase, ou \textit{Phase Locked Loop} (PLL), e o segundo consiste na Malha Principal de determinação de $v_a'$, $v_b'$ e $v_c'$ com a utilização da teoria p-q.
+
+\subparagraph{Malha de Captura de Fase (PLL)}
+
+Um sistema PLL opera rastreando continuamente a componente de sequência positiva e o angulo de fase das tensões de um sistema trifásico. Seu funcionamento, quando corretamente projetado, proporciona bons resultados mesmo sob forte distorção harmônica e desbalanceamento \cite{Akagi2007}. 
+
+A Figura \ref{fig:PLL.png} mostra o esquemático de um circuito PLL. Nesta figura são observados os pontos onde se obtém os valores da frequência angular da componente fundamental das tensões de entrada. As tensões $v_{ab}$ e $v_{cb} $ são referentes à diferença de potencial proporcionadas por $v_a-v_b$ e $v_c-v_b$, respectivamente. A operação ainda faz do uso de uma malha fechada onde são utilizadas $i_a'$ e $i_c'$ para determinar uma potência fictícia denotada por $p_{3\phi}'$. 
+
+\begin{figure}[!htbp] %Esquema de um filtro passivo genérico
+	\centering
+	\includegraphics[width=0.8\textwidth]{Cap4/Figuras/PLL.png}
+	\caption[Malha de captura de fase (PLL) \cite{Akagi2007}]{Malha de captura de fase (PLL) \cite{Akagi2007}}
+	\label{fig:PLL.png}
+\end{figure}
+
+Uma importante característica do PLL é a ausência de informação quanto à amplitude do sinal. Dessa maneira, a saída deste sistema é integrada à Malha Principal para determinar todas as informações da fundamental de sequência positiva. Isso é realizado utilizando a informação provida pelo PLL em termos das correntes nas coordenadas $\alpha \beta$. Sendo assim, além da determinação da frequência angular $\omega t$, esta variável é utilizada pelos blocos $\sin(\omega t - \pi/2)$ e $-\cos(\omega t - \pi/2 )$ na obtenção de $i_\alpha'$ e $i_\beta'$, respectivamente.
+
+\subparagraph{Malha Principal}
+
+A Malha Principal consiste em um sistema onde se utiliza a teoria da potência instantânea p-q, juntamente com o sinal advindo do PLL, para a determinação das tensões $v_a'$, $v_b'$ e $v_c'$, as quais são compostas apenas pela componente de sequência positiva dos sinais de tensão da rede. A arquitetura da Malha Principal é mostrada na Figura \ref{fig:detector_seq_pos.png}.
+
+\begin{figure}[!htbp] %Esquema de um filtro passivo genérico
+	\centering
+	\includegraphics[width=0.85\textwidth]{Cap4/Figuras/detector_seq_pos.png}
+	\caption[Malha Principal\cite{Akagi2007}]{Malha Principal\cite{Akagi2007}}
+	\label{fig:detector_seq_pos.png}
+\end{figure}
+
+O sinal advindo do PLL é dado por $i_\alpha' = \sin(\omega t)$ e $i_\beta'=-\cos(\omega t)$. Sendo estes desprovidos de informação quanto à amplitude das tensões de entrada. O uso destes valores no cálculo de potências instantâneas produz $p'$ e $q'$, as quais não possuem magnitudes relevantes quanto à significados físicos do sistema, mas carregam consigo informações quanto à amplitude de $\dot{V}_{+1}$. Sendo assim, segundo \cite{Akagi2007}, a componente fundamental $\dot{V}_{+1}$ é a única que contribui no valor médio das potências auxiliares $p'$ e $q'$, isto é, através dos valores $\bar{p}'$ e $\bar{q}'$. Isso ocorre visto que apenas a componente da corrente auxiliar advinda do PLL, das quais são compostas por $\dot {I}_{+1}$, são utilizadas nos cálculos. Dessa maneira, o emprego de um filtro passa baixa para a extração dos valores médios de $p'$ e $q'$ é feito para obtenção de $\bar{p}'$ e $\bar{q}'$, e utilizando a relação \ref{eq:seq_pos_calc} encontram-se as componentes de fundamentais das tensões nas coordenadas $\alpha \beta$. Em seguida, os valores de $v_a'$, $v_b'$ e $v_c'$ são facilmente obtidos com a realização da transformada inversa de Clarke.
+
+\begin{equation}
+\begin{bmatrix}
+v_\alpha'\\
+v_\beta'
+\end{bmatrix}
+=
+\dfrac{1}{i_\alpha'^2+i_\beta'^2}
+\begin{bmatrix}
+i_\alpha'	&	-i_\beta'\\
+i_\beta'		&	i_\alpha'
+\end{bmatrix}
+\begin{bmatrix}
+\bar{p}'\\
+\bar{q}'
+\end{bmatrix}
+\label{eq:seq_pos_calc}
+\end{equation}
+
+Como forma de ilustrar a atuação de um detector de sequência positiva, foi elaborado uma simulação do sistema da Figura \ref{fig:detector_seq_pos.png} em Simulink para a geração das formas de ondas apresentadas nas figuras \ref{fig:detector_seq_pos.eps} e \ref{fig:detector_seq_pos_1.eps}. A análise das figuras \ref{fig:detector_seq_pos.eps} e \ref{fig:detector_seq_pos_1.eps} retrata a eficácia de um detector de sequência positiva. Tais figuras apresentam somente as formas de onda referente a fase $a$, sendo que as outras fases, defasadas em $\pm$ \ang{120}, estão presentes nos cálculos mas eximidas das figuras para facilitar a visualização. A Figura \ref{fig:detector_seq_pos.eps} apresenta a forma de onda da tensão $v_a$ em vermelho, ao passo que a saída de detector de sequência positiva, $v_a'$, é representado em preto. A Figura \ref{fig:detector_seq_pos_1.eps} exibe em vermelho a componente fundamental de sequência positiva da fase $a$, ou $\dot{V}_{a_{+1}}$, juntamente com saída $v_a'$, em preto. Essas figuras ilustram como em poucos ciclos as tensões $v_a'$, $v_b'$ e $v_c'$ tornam-se suficientemente próximas das tensões de sequência positiva dos sinais de entrada. 
+
+\begin{figure}[!htbp] %Esquema de um filtro passivo genérico
+	\centering
+	\includegraphics[width=0.85\textwidth]{Cap4/Figuras/detector_seq_pos.eps}
+	\caption{Tensão de fase e tensão do detector de sequência positiva}
+	\label{fig:detector_seq_pos.eps}
+\end{figure}
+
+\begin{figure}[!htbp] %Esquema de um filtro passivo genérico
+	\centering
+	\includegraphics[width=0.85\textwidth]{Cap4/Figuras/detector_seq_pos_1.eps}
+	\caption{$\dot{V}_{a_{+1}}$ da tensão de fase e tensão do detector de sequência positiva}
+	\label{fig:detector_seq_pos_1.eps}
+\end{figure}
+\todo[backgroundcolor=blue!25]{Legenda nas Figuras FEITO}
