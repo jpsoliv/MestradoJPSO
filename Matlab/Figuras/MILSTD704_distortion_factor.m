@@ -45,7 +45,7 @@ l1 = legend('400 Hz','Freq. Var.','60 Hz');
 set(l1,'Interpreter','latex');
 set(l1,'FontName','Times New Roman');
 set(l1,'FontSize',ftlegend);
-set(l1,'Box','off');
+set(l1,'Box','on');
 
 axesftsize(ftaxes,'Frequ\^encia [Hz]','Amplitude [$V_{rms}$]',2);
 set(gca,'FontSize',xtickfontsize);
@@ -63,7 +63,7 @@ l1 = legend('28 V','270 V');
 set(l1,'Interpreter','latex');
 set(l1,'FontName','Times New Roman');
 set(l1,'FontSize',ftlegend);
-set(l1,'Box','off');
+set(l1,'Box','on');
 
 axesftsize(ftaxes,'Frequ\^encia [Hz]','Amplitude [$V_{rms}$]',2);
 set(gca,'FontSize',xtickfontsize);
