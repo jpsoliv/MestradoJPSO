@@ -1,4 +1,4 @@
-\section{Potência Ativa, Reativa e Fator de Potência}
+\section{Potência Ativa, Reativa e Fator de Potência} \todo[backgroundcolor=red!25]{Anexo PROVAVELMENTE NÃO}
 
 O entendimento de circuitos elétricos de potência necessita de conceitos matemáticos para a interpretação das grandezas físicas envolvidas. Várias teorias foram propostas e importantes trabalhos são reconhecidamente aceitos para detalhar a relação de tensão e corrente de um circuito elétrico. Todo esse estudo deu origem à Teoria da Potência, a qual vem sendo estudada até os dias de hoje para o aprofundamento e elaboração de novos conceitos para explicar fenômenos de transferência de energia em circuitos elétricos \cite{Paredes2012}.
 
@@ -75,7 +75,7 @@ V I \sin(\phi)\sin(2 \omega t)
 \label{eq:Q_sec}
 \end{equation}
 
-Por definição, a potência ativa é definida pelo valor médio da equação \ref{eq:P_prim}, e a potência reativa é definida pelo valor de pico da equação \ref{eq:Q_sec}:
+Por definição, a potência ativa é definida pelo valor médio da expressão \ref{eq:P_prim}, e a potência reativa é definida pelo valor de pico da equação \ref{eq:Q_sec}:
 
 \begin{equation}
 P=VI\cos\phi
@@ -118,7 +118,11 @@ S=V\,I
 Considerando agora o estudo específico onde o sistema é composto por uma fonte de tensão senoidal alimentando uma carga linear, pode-se ainda obter a expressão de potência aparente como sendo expressa através dos valores de $P$ e $Q$. Analisando as equações \ref{eq:P} e \ref{eq:Q}, observa-se que estas estão defasadas em 90 graus. Com isso, pode-se obter o valor de potência aparente segundo a equação \ref{eq:S_PQ}.
 
 \begin{equation}
-S=\sqrt{P^2+Q^2} = \sqrt{(VI\cos\phi)^2+(VI\sin\phi)^2} = VI
+\begin{aligned}
+S 	&=\sqrt{P^2+Q^2}\\
+S	&= \sqrt{(VI\cos\phi)^2+(VI\sin\phi)^2}\\
+S	&= VI
+\end{aligned}
 \label{eq:S_PQ}
 \end{equation}
 
@@ -137,15 +141,6 @@ O módulo $\mathbf{S}$ leva à mesma expressão definida em \ref{eq:S_PQ}. Consider
 	\caption{Triangulo de potências}
 	\label{fig:triangulo.png}
 \end{figure}
-
-O fator de potência é um parâmetro utilizado como forma de quantificar a eficiência na transmissão de potência entre componentes geradoras e consumidoras de um sistema. O fator de potência representa a relação entre a potência que necessariamente é utilizada na transferência de energia em um determinado instante de tempo entre a fonte e a carga com o total de potência que percorre o sistema. A expressão que define o fator de potência é apresentado na equação \ref{eq:lambda}. Os possíveis valores de $\lambda$ estão contidos entre 0 e 1, ou seja, $0\leq \lambda \leq 1$. Isto ocorre visto que $S$ é uma função de $P$, e a relação $S=\sqrt{P^2+Q^2}\geq P$ é observada.
-
-\begin{equation}
-\lambda = \dfrac{P}{S}
-\label{eq:lambda}
-\end{equation}
-
-Como forma de obter a plena eficiência na transmissão de potência, o fator de potência deve ser unitário, o que implica que $Q=0$. Dessa maneira garante-se que toda a energia da fonte é transformada em trabalho na saída do sistema, ou ainda, a fonte enxerga a carga como sendo composta por resistências apenas.
 
 \subsection{Circuitos Não Senoidais Monofásicos}
 
@@ -199,7 +194,7 @@ Utilizando equações \ref{eq:i_Fryze} e \ref{eq:i_p(t)} e realizando o produto in
 \end{aligned}
 \end{equation}
 
-Isso leva a uma característica importante sobre a ortogonalidade apresentada entre $i_p$ e $i_q$. Por serem ortogonais, a seguinte implicação é valida:
+Isso leva a uma característica importante sobre a ortogonalidade apresentada entre $i_p$ e $i_q$. Por serem ortogonais, a seguinte implicação é válida:
 
 \begin{equation}
 I^2 = I_p^2+I_q^2
@@ -209,3 +204,78 @@ I^2 = I_p^2+I_q^2
 Ainda, Fryze definiu o valor da potência reativa como sendo o produto dos valores eficazes da tensão e da corrente reativa, ou seja, $Q = V I_q$. Com essa relação, e pela propriedade da ortogonalidade entre $i_p(t)$ e $i_q(t)$, tem-se que a relação $S^2=P^2+Q^2$, tal qual apresentada na equação \ref{eq:S_PQ}, é válida para a teoria de Fryze.
 
 Com sua teoria, Fryze foi capaz de quantificar o total de energia não útil que percorre o sistema na forma de corrente reativa. Com isso foi possível introduzir o conceito de compensadores ativos, visto que se tem conhecimento da parcela da corrente a qual deve ser anulada \cite{Paredes2012}. Entretanto, sua teoria possui algumas limitações quanto à interpretação da corrente reativa, visto que não é possível classificar as características dos distúrbios presentes na corrente, além de que a definição de potência ativa proposto pela condutância equivalente não necessariamente é observada como de fato potência útil \cite{Czarnecki1997}.
+
+\subsection{Fator de Potência}
+
+O fator de potência é um parâmetro utilizado como forma de quantificar a eficiência na transmissão de potência entre componentes geradoras e consumidoras de um sistema. O fator de potência representa a relação entre a potência que necessariamente é utilizada na transferência de energia em um determinado instante de tempo entre a fonte e a carga com o total de potência que percorre o sistema. A expressão que define o fator de potência é apresentado na equação \ref{eq:lambda}. %Os possíveis valores de $\lambda$ estão contidos entre 0 e 1, ou seja, $0\leq \lambda \leq 1$. Isto ocorre visto que $S$ é uma função de $P$, e a relação $S=\sqrt{P^2+Q^2}\geq P$ é observada.
+
+\begin{equation}
+FP = \dfrac{P}{S} = \dfrac{P}{V_{rms}I_{rms}}
+\label{eq:lambda}
+\end{equation}
+
+Aplicando a definição de de $P$ e $S$ na equação \ref{eq:lambda}, obtem-se:
+
+\begin{equation}
+FP = \dfrac{\frac{1}{T} \int_{0}^{T} v(t)i(t)dt}{\sqrt{\frac{1}{T} \int_{0}^{T} v(t)^2dt}\sqrt{\frac{1}{T} \int_{0}^{T} i(t)^2dt}}
+\label{eq:FP_geral}
+\end{equation}
+
+Considerando as tensões e corrente expressas pela série de Fourier, as funções $v(t)$ e $i(t)$ são apresentadas por \ref{eq:vi_fourier}.
+
+\begin{equation}
+\begin{aligned}
+v(t) &= \sqrt{2}V_{1_{rms}}\cos{(\omega t + \varTheta_{v_1})} + \sqrt{2}V_{2_{rms}}\cos{(2 \omega t + \varTheta_{v_2})} + \sqrt{2}V_{3_{rms}}\cos{(3\omega t + \varTheta_{v_3})}+...\\
+i(t) &= \sqrt{2}I_{1_{rms}}\cos{(\omega t + \varTheta_{i_1})} + \sqrt{2}I_{2_{rms}}\cos{(2 \omega t + \varTheta_{i_2})} + \sqrt{2}I_{3_{rms}}\cos{(3\omega t + \varTheta_{i_3})}+...
+\end{aligned}
+\label{eq:vi_fourier}
+\end{equation}
+
+Substituindo os valores de $v(t)$ e $i_(t)$ da expressão \ref{eq:vi_fourier} na definição de fator de potência da equação \ref{eq:FP_geral} obtém-se:
+
+\begin{equation}
+FP = \dfrac{V_{1_{rms}}I_{1_{rms}}\cos{(\varTheta_{v_1}-\varTheta_{i_1})}+V_{2_{rms}}I_{2_{rms}}\cos{(\varTheta_{v_2}-\varTheta_{i_2})}+...}{\sqrt{V_{1_{rms}}^2 + V_{2_{rms}}^2 + V_{3_{rms}}^2+...}\sqrt{I_{1_{rms}}^2 + I_{2_{rms}}^2 + I_{3_{rms}}^2+...}}
+\label{eq:FP_GERAL_expandida}
+\end{equation}
+
+A equação \ref{eq:FP_GERAL_expandida} apresenta a expressão para o cálculo do fator de potência para qualquer forma de onda da tensão e corrente periódicas, sejam senoidais ou distorcidas.
+
+\subsubsection{Sistemas Senoidais}
+
+Avaliando a equação \ref{eq:FP_GERAL_expandida} para o caso particular onde se considera a operação de circuitos senoidais, as componentes harmônicas são desconsideradas, visto que suas amplitude são zero. Dessa maneira, a equação \ref{eq:FP_GERAL_expandida} pode ser expressa segundo:
+
+\begin{equation}
+FP = \dfrac{ V_{1_{rms}} {I_{1_{rms}}} \cos{(\varTheta_{v_1}-\varTheta_{i_1})}}{V_{1_{rms}}{I_{1_{rms}}}} = \cos{\phi_1}
+\label{eq:FP_desl}
+\end{equation}
+
+\todo{falar mais sobre isso que é o cosseno e igual a triangulo de pontencia e tal}
+
+\subsubsection{Sistemas não Lineares com Tensão Senoidal}
+
+\begin{equation}
+FP = \dfrac{V_{1_{rms}}I_{1_{rms}}\cos{(\varTheta_{v_1}-\varTheta_{i_1})}}{V_{1_{rms}}\sqrt{I_{1_{rms}}^2 + I_{2_{rms}}^2 + I_{3_{rms}}^2+...}} = \dfrac{I_{1_{rms}}\cos{(\phi_1)}}{\sqrt{I_{1_{rms}}^2 + I_{2_{rms}}^2 + I_{3_{rms}}^2+...}}
+\label{eq:FP_naolinear_expandida}
+\end{equation}
+
+Levando em consideração a definição de THD segundo a expressão \ref{eq:THD} \ref{eq:FP_naolinear_expandida}
+
+\begin{equation}
+FP = \dfrac{\cos{\phi_1}}{\sqrt{1+THD_i}}
+\label{eq:FP_naolinear}
+\end{equation}
+
+Definindo o fator de deslocamento como $FDesl=\cos{\phi_1}$ e o fator de distorção $FDist_i = \sfrac{1}{\sqrt{1+THD_i}}$
+\cite{Kassick2010}
+
+\begin{equation}
+\begin{aligned}
+FP &= FDesl*FDist_i\\
+FP &= \dfrac{\cos{\phi_1}}{\sqrt{1+THD_i}}
+\end{aligned}
+\label{eq:FP}
+\end{equation}
+
+Como forma de obter a plena eficiência na transmissão de potência, o fator de potência deve ser unitário, o que implica que $Q=0$. Dessa maneira garante-se que toda a energia da fonte é transformada em trabalho na saída do sistema, ou ainda, a fonte enxerga a carga como sendo composta por resistências apenas.
+
+\todo[backgroundcolor=red!25]{Faltou a definição genérica do fator de potência em sistema não linear}

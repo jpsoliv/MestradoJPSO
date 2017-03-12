@@ -62,7 +62,7 @@ hold on
 hold off
 xlim([2 40]);
 ylim([0 y_max]);
-set(gca,'Xtick',[1:2:40]);
+set(gca,'Xtick',[0:5:40]);
 
 % xl = xlabel('Harmônica');
 % set(xl,'Interpreter','tex');

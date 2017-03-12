@@ -64,14 +64,15 @@ fatorY = 0.9;
 ftaxes = 50;
 ftlegend = 12;
 
-loglog(ffix,yfix,'k',fvar,yvar,'k--');
+% loglog(ffix,yfix,'k',fvar,yvar,'k--');
+loglog(ffix,yfix,'k')
 hold on
 plot(fs,ys/sqrt(2));
 hold off
-ylim([10^(-34.44/20) 200]);
+ylim([10^(-34.44/20) 10^(20/20)]);
 xlim([10 1e6]);
 
-l = legend('MIL-STD 704F - 400 Hz','MIL-STD 704F - Freq. Var.');
+l = legend('MIL-STD 704F - 400 Hz');
 set(l,'Interpreter','latex');
 set(l,'FontName','Times New Roman');
 set(l,'FontSize',ftlegend);

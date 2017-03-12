@@ -11,16 +11,17 @@ As formas de onda exigida pelas cargas são produzidas pela operação das pontes d
 
 Nesta figura pode-se observar que durante o acionamento do EHA existe uma grande variação de corrente sendo solicitada pelo atuador. Com isso, para examinar o comportamento do sistema, com e sem a presença do filtro ativo, a analise foi dividida em quatro principais períodos, sendo estes:
 
-\begin{itemize}
+\begin{enumerate}[1),leftmargin=1.75cm,itemindent=0cm]
 	\item EHA Inoperante: não há solicitação de uso de corrente pelo motor do EHA, sendo que a corrente apresentada é referente à fuga nos semicondutores da ponte retificadora do EHA;
 	\item Corrente Máxima: Período onde existe a máxima extração de corrente do sistema, onde existe à partida do motor elétrico do atuador;
 	\item Regime Transitório: período com oscilação de corrente após o período de máxima corrente.
 	\item Regime Permanente: Período sem oscilação, mas com certa corrente sendo extraída do sistema de geração.
-\end{itemize}
+\end{enumerate}
 
 A divisão do período em quatro permite estudar as características de operação do filtro em períodos com variação abrupta da corrente de carga, possibilitando verificar o atendimento às propriedades do filtro ativo tal como apresentadas na seção \ref{sec:Caracteristicas de Dispositivos de Correcao de Fator de Potencia em Sistemas Eletricos de Aeronaves}. Além disso, a visualização da análise é facilitada pela divisão, dada a grande discrepância entre os valores da corrente observado no período de corrente máxima com outros períodos.
 
-Os resultados da simulação apresentados nas próximas seções são referentes às formas de ondas das tensões e correntes medidos na PDU. Além disso, é realizado o cálculo das potências instantâneas em função do tempo nesse ponto. Ainda, para avaliar a condição da qualidade de energia na PDU é realizado o cálculo do espectro de frequência da tensão, cujo intuito é de comparar o resultado com as normas aeronáuticas. A norma seguida como referência é a MIL-STD 704F \cite{MILSTD}, a qual propõe um limite para as distorções em função da frequência, além de restringir o THD. Nos resultados da simulação são desenhados os limites máximos das amplitudes em função da frequência para sistemas operando em 400 Hz e frequência variável. Além disso, a MIL-STD 704F estabelece um THD máximo de 0.05 (5\%) máximo. Cabe a observação que os espectros de frequência presentes nesse trabalho ilustram o pico de tensão da fundamental. Esse pico é estabelecido em 400 Hz e deve ser desconsiderado na análise de qualidade de energia.
+Os resultados da simulação apresentados nas próximas seções são referentes às formas de ondas das tensões e correntes estimados na PDU. Além disso, é realizado o cálculo das potências instantâneas em função do tempo nesse ponto. Ainda, para avaliar a condição da qualidade de energia na PDU é realizado o cálculo do espectro de frequência da tensão, cujo intuito é de comparar o resultado com as normas aeronáuticas. A norma seguida como referência é a MIL-STD 704F \cite{MILSTD}, a qual propõe um limite para as distorções em função da frequência, além de restringir o THD. Nos resultados da simulação são desenhados os limites máximos das amplitudes em função da frequência para sistemas operando em 400 Hz. Além disso, a MIL-STD 704F estabelece um THD máximo de 0.05 (5\%). A escolha de utilizar a MIL-STD 704 ao invés da DO-160 como norma padrão para comparação dos resultado é dado visto que a simulação contempla o sistema de geração distribuição, ou seja, não é relacionado com a qualificação do equipamento em si, mas sim do sistema elétrico aeronáutico.
+\todo{falar o porque da MIL em vez da DO FEITO}
 
 A apresentação das figuras seguintes está disposta com os resultados com e sem a atuação do filtro ativo para comparação. As figuras localizadas no lado esquerdo são referentes ao sistema sem o filtro ativo, ao passo que as do lado direito são com a presença do filtro ativo.
 
@@ -32,21 +33,21 @@ A Figura \ref{fig:2} apresenta as tensões e correntes medidas na PDU em um peque
 
 Os espectros de frequência podem ser analisados nas figuras \ref{fig:5} e \ref{fig:6}. Nessas figuras pode ser observado que a presença do filtro ativo deteriora a qualidade de energia, porém os níveis de tensão do espectro de frequência e o THD atendem os limites da MIL-STD 704F.
 
-\todo{Alterar o texto de acordo com a modificação nas figuras de acordo com as propostas da banca, }
+\todo{Alterar o texto de acordo com a modificação nas figuras de acordo com as propostas da banca, FEITO}
 
 %\begin{figure*}[!htb] %Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 %	\centering
 %	\begin{subfigure}[b]{0.48\textwidth}
 %		\centering
 %		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_1.eps}
-%		\caption{Medições realizadas sem filtro ativo} 
+%		\caption{Resultados realizadas sem filtro ativo} 
 %		\label{fig:VSC.png}
 %	\end{subfigure}%
 %		\hfill
 %	\begin{subfigure}[b]{0.48\textwidth}
 %		\centering 
 %		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_1.eps}
-%		\caption{Medições realizadas com filtro ativo}
+%		\caption{Resultados realizadas com filtro ativo}
 %		\label{fig:CSC.png}
 %	\end{subfigure}%
 %	\caption{Formas de onda de corrente em regime de Máxima Corrente}
@@ -58,14 +59,14 @@ Os espectros de frequência podem ser analisados nas figuras \ref{fig:5} e \ref{f
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_2.eps}
-		\caption{Medições realizadas sem filtro ativo} 
+		\caption{Resultados realizadas sem filtro ativo} 
 		\label{fig:resultados_unfilt_2.eps}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering 
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_2.eps}
-		\caption{Medições realizadas com filtro ativo}
+		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_2.eps}
 	\end{subfigure}%
 	\caption{Formas de onda de tensão e corrente em regime de EHA Inoperante}
@@ -77,14 +78,14 @@ Os espectros de frequência podem ser analisados nas figuras \ref{fig:5} e \ref{f
 %	\begin{subfigure}[b]{0.47\textwidth}
 %		\centering
 %		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_3.eps}
-%		\caption{Medições realizadas sem filtro ativo} 
+%		\caption{Resultados realizadas sem filtro ativo} 
 %		\label{fig:VSC.png}
 %	\end{subfigure}%
 %		\hfill
 %	\begin{subfigure}[b]{0.47\textwidth}
 %		\centering 
 %		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_3.eps}
-%		\caption{Medições realizadas com filtro ativo}
+%		\caption{Resultados realizadas com filtro ativo}
 %		\label{fig:CSC.png}
 %	\end{subfigure}%
 %	\caption{Potências instantâneas em regime de EHA Inoperante}
@@ -96,14 +97,14 @@ Os espectros de frequência podem ser analisados nas figuras \ref{fig:5} e \ref{f
 	\begin{subfigure}[b]{0.47\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_4.eps}
-		\caption{Medições realizadas sem filtro ativo} 
+		\caption{Resultados realizadas sem filtro ativo} 
 		\label{fig:resultados_unfilt_4.eps}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.47\textwidth}
 		\centering 
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_4.eps}
-		\caption{Medições realizadas com filtro ativo}
+		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_4.eps}
 	\end{subfigure}%
 	\caption{Detalhe das potências instantâneas em regime de EHA Inoperante}
@@ -115,14 +116,14 @@ Os espectros de frequência podem ser analisados nas figuras \ref{fig:5} e \ref{f
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_5.eps}
-		\caption{Medições realizadas sem filtro ativo} 
+		\caption{Resultados realizadas sem filtro ativo} 
 		\label{fig:resultados_unfilt_5.eps}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering 
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_5.eps}
-		\caption{Medições realizadas com filtro ativo}
+		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_5.eps}
 	\end{subfigure}%
 	\caption{Espectro de frequência da tensão em regime de EHA Inoperante e delimitação definida pela norma MIL-STD 704F}
@@ -134,14 +135,14 @@ Os espectros de frequência podem ser analisados nas figuras \ref{fig:5} e \ref{f
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_6.eps}
-		\caption{Medições realizadas sem filtro ativo} 
+		\caption{Resultados realizadas sem filtro ativo} 
 		\label{fig:resultados_unfilt_6.eps}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering 
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_6.eps}
-		\caption{Medições realizadas com filtro ativo}
+		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_6.eps}
 	\end{subfigure}%
 	\caption{Amplitude das componentes harmônicas em regime de EHA Inoperante}
@@ -165,14 +166,14 @@ A análise dos espectros de frequência das tensões mostra que a qualidade de ener
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_7.eps}
-		\caption{Medições realizadas sem filtro ativo} 
+		\caption{Resultados realizadas sem filtro ativo} 
 		\label{fig:resultados_unfilt_7.eps}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering 
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_7.eps}
-		\caption{Medições realizadas com filtro ativo}
+		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_7.eps}
 	\end{subfigure}%
 	\caption{Formas de onda de corrente em regime de Corrente Máxima}
@@ -184,14 +185,14 @@ A análise dos espectros de frequência das tensões mostra que a qualidade de ener
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_8.eps}
-		\caption{Medições realizadas sem filtro ativo} 
+		\caption{Resultados realizadas sem filtro ativo} 
 		\label{fig:resultados_unfilt_8.eps}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering 
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_8.eps}
-		\caption{Medições realizadas com filtro ativo}
+		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_8.eps}
 	\end{subfigure}%
 	\caption{Formas de onda de tensão e corrente em regime de Corrente Máxima}
@@ -203,14 +204,14 @@ A análise dos espectros de frequência das tensões mostra que a qualidade de ener
 	\begin{subfigure}[b]{0.47\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_9.eps}
-		\caption{Medições realizadas sem filtro ativo} 
+		\caption{Resultados realizadas sem filtro ativo} 
 		\label{fig:resultados_unfilt_9.eps}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.47\textwidth}
 		\centering 
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_9.eps}
-		\caption{Medições realizadas com filtro ativo}
+		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_9.eps}
 	\end{subfigure}%
 	\caption{Potências instantâneas em regime de Corrente Máxima}
@@ -222,14 +223,14 @@ A análise dos espectros de frequência das tensões mostra que a qualidade de ener
 	\begin{subfigure}[b]{0.47\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_10.eps}
-		\caption{Medições realizadas sem filtro ativo} 
+		\caption{Resultados realizadas sem filtro ativo} 
 		\label{fig:resultados_unfilt_10.eps}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.47\textwidth}
 		\centering 
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_10.eps}
-		\caption{Medições realizadas com filtro ativo}
+		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_10.eps}
 	\end{subfigure}%
 	\caption{Detalhe das potências instantâneas em regime de Corrente Máxima}
@@ -241,14 +242,14 @@ A análise dos espectros de frequência das tensões mostra que a qualidade de ener
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_11.eps}
-		\caption{Medições realizadas sem filtro ativo} 
+		\caption{Resultados realizadas sem filtro ativo} 
 		\label{fig:resultados_unfilt_11.eps}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering 
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_11.eps}
-		\caption{Medições realizadas com filtro ativo}
+		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_11.eps}
 	\end{subfigure}%
 	\caption{Espectro de frequência da tensão em regime de Corrente Máxima e delimitação definida pela norma MIL-STD 704F}
@@ -260,14 +261,14 @@ A análise dos espectros de frequência das tensões mostra que a qualidade de ener
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_12.eps}
-		\caption{Medições realizadas sem filtro ativo} 
+		\caption{Resultados realizadas sem filtro ativo} 
 		\label{fig:resultados_unfilt_12.eps}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering 
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_12.eps}
-		\caption{Medições realizadas com filtro ativo}
+		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_12.eps}
 	\end{subfigure}%
 	\caption{Amplitude das componentes harmônicas em regime de Corrente Máxima}
@@ -291,14 +292,14 @@ A análise do espectro de frequência das tensões, através das figuras \ref{fig:17
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_13.eps}
-		\caption{Medições realizadas sem filtro ativo} 
+		\caption{Resultados realizadas sem filtro ativo} 
 		\label{fig:resultados_unfilt_13.eps}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering 
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_13.eps}
-		\caption{Medições realizadas com filtro ativo}
+		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_13.eps}
 	\end{subfigure}%
 	\caption{Formas de onda de corrente em regime Regime Transitório}
@@ -310,14 +311,14 @@ A análise do espectro de frequência das tensões, através das figuras \ref{fig:17
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_14.eps}
-		\caption{Medições realizadas sem filtro ativo} 
+		\caption{Resultados realizadas sem filtro ativo} 
 		\label{fig:resultados_unfilt_14.eps}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering 
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_14.eps}
-		\caption{Medições realizadas com filtro ativo}
+		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_14.eps}
 	\end{subfigure}%
 	\caption{Formas de onda de tensão e corrente em regime Regime Transitório}
@@ -329,14 +330,14 @@ A análise do espectro de frequência das tensões, através das figuras \ref{fig:17
 	\begin{subfigure}[b]{0.47\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_15.eps}
-		\caption{Medições realizadas sem filtro ativo} 
+		\caption{Resultados realizadas sem filtro ativo} 
 		\label{fig:resultados_unfilt_15.eps}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.47\textwidth}
 		\centering 
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_15.eps}
-		\caption{Medições realizadas com filtro ativo}
+		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_15.eps}
 	\end{subfigure}%
 	\caption{Potências instantâneas em regime Regime Transitório}
@@ -348,14 +349,14 @@ A análise do espectro de frequência das tensões, através das figuras \ref{fig:17
 	\begin{subfigure}[b]{0.47\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_16.eps}
-		\caption{Medições realizadas sem filtro ativo} 
+		\caption{Resultados realizadas sem filtro ativo} 
 		\label{fig:resultados_unfilt_16.eps}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.47\textwidth}
 		\centering 
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_16.eps}
-		\caption{Medições realizadas com filtro ativo}
+		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_16.eps}
 	\end{subfigure}%
 	\caption{Detalhe das potências instantâneas em regime Regime Transitório}
@@ -367,14 +368,14 @@ A análise do espectro de frequência das tensões, através das figuras \ref{fig:17
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_17.eps}
-		\caption{Medições realizadas sem filtro ativo} 
+		\caption{Resultados realizadas sem filtro ativo} 
 		\label{fig:resultados_unfilt_17.eps}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering 
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_17.eps}
-		\caption{Medições realizadas com filtro ativo}
+		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_17.eps}
 	\end{subfigure}%
 	\caption{Espectro de frequência da tensão em regime Regime Transitório e delimitação definida pela norma MIL-STD 704F}
@@ -386,14 +387,14 @@ A análise do espectro de frequência das tensões, através das figuras \ref{fig:17
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_18.eps}
-		\caption{Medições realizadas sem filtro ativo} 
+		\caption{Resultados realizadas sem filtro ativo} 
 		\label{fig:resultados_unfilt_18.eps}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering 
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_18.eps}
-		\caption{Medições realizadas com filtro ativo}
+		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_18.eps}
 	\end{subfigure}%
 	\caption{Amplitude das componentes harmônicas em regime Regime Transitório}
@@ -410,21 +411,21 @@ As observações nesse período são semelhantes às verificadas durante o regime tra
 
 As figuras \ref{fig:21} e \ref{fig:22} mostram as formas de onda das potências instantâneas, onde se pode observar que $q$ é diminuído quando há a presença do filtro ativo. Ainda, observa-se que, nesse caso, há a inserção de ruído devido à comutação dos semicondutores do compensador. 
 
-Por fim, as figuras \ref{fig:23} e \ref{fig:24} mostram o ganho quanto a elevação da qualidade de energia no período de regime permanente com a presença do filtro. Isso é verificado com a diminuição das amplitudes das componentes de frequência e do THD. Deve-se observar, entretanto, que mesmo sem presença do filtro não há a transposição dos limites das normas aeronáuticas.
+Por fim, as figuras \ref{fig:23} e \ref{fig:24} mostram o ganho quanto a elevação da qualidade de energia no período de regime permanente com a presença do filtro. Isso é verificado com a diminuição das amplitudes das componentes de frequência e do THD. Deve-se observar, entretanto, que mesmo sem presença do filtro não há a violação dos limites das normas aeronáuticas.
 
 \begin{figure*}[!htb] %Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_19.eps}
-		\caption{Medições realizadas sem filtro ativo} 
+		\caption{Resultados realizadas sem filtro ativo} 
 		\label{fig:resultados_unfilt_19.eps}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering 
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_19.eps}
-		\caption{Medições realizadas com filtro ativo}
+		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_19.eps}
 	\end{subfigure}%
 	\caption{Formas de onda de corrente em regime Regime Permanente}
@@ -436,14 +437,14 @@ Por fim, as figuras \ref{fig:23} e \ref{fig:24} mostram o ganho quanto a elevaçã
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_20.eps}
-		\caption{Medições realizadas sem filtro ativo} 
+		\caption{Resultados realizadas sem filtro ativo} 
 		\label{fig:resultados_unfilt_20.eps}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering 
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_20.eps}
-		\caption{Medições realizadas com filtro ativo}
+		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_20.eps}
 	\end{subfigure}%
 	\caption{Formas de onda de tensão e corrente em regime Regime Permanente}
@@ -455,14 +456,14 @@ Por fim, as figuras \ref{fig:23} e \ref{fig:24} mostram o ganho quanto a elevaçã
 	\begin{subfigure}[b]{0.47\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_21.eps}
-		\caption{Medições realizadas sem filtro ativo} 
+		\caption{Resultados realizadas sem filtro ativo} 
 		\label{fig:resultados_unfilt_21.eps}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.47\textwidth}
 		\centering 
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_21.eps}
-		\caption{Medições realizadas com filtro ativo}
+		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_21.eps}
 	\end{subfigure}%
 	\caption{Potências instantâneas em regime Regime Permanente}
@@ -474,14 +475,14 @@ Por fim, as figuras \ref{fig:23} e \ref{fig:24} mostram o ganho quanto a elevaçã
 	\begin{subfigure}[b]{0.47\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_22.eps}
-		\caption{Medições realizadas sem filtro ativo} 
+		\caption{Resultados realizadas sem filtro ativo} 
 		\label{fig:resultados_unfilt_22.eps}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.47\textwidth}
 		\centering 
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_22.eps}
-		\caption{Medições realizadas com filtro ativo}
+		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_22.eps}
 	\end{subfigure}%
 	\caption{Detalhe das potências instantâneas em regime Regime Permanente}
@@ -493,14 +494,14 @@ Por fim, as figuras \ref{fig:23} e \ref{fig:24} mostram o ganho quanto a elevaçã
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_23.eps}
-		\caption{Medições realizadas sem filtro ativo} 
+		\caption{Resultados realizadas sem filtro ativo} 
 		\label{fig:resultados_unfilt_23.eps}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering 
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_23.eps}
-		\caption{Medições realizadas com filtro ativo}
+		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_23.eps}
 	\end{subfigure}%
 	\caption{Espectro de frequência da tensão em regime Regime Permanente e delimitação definida pela norma MIL-STD 704F}
@@ -512,14 +513,14 @@ Por fim, as figuras \ref{fig:23} e \ref{fig:24} mostram o ganho quanto a elevaçã
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_unfilt_24.eps}
-		\caption{Medições realizadas sem filtro ativo} 
+		\caption{Resultados realizadas sem filtro ativo} 
 		\label{fig:resultados_unfilt_24.eps}
 	\end{subfigure}%
-		\hfill
+	\hfill
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering 
 		\includegraphics[width=\textwidth]{Cap5/Figuras/resultados_filt_24.eps}
-		\caption{Medições realizadas com filtro ativo}
+		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_24.eps}
 	\end{subfigure}%
 	\caption{Amplitude das componentes harmônicas em regime Regime Permanente}
