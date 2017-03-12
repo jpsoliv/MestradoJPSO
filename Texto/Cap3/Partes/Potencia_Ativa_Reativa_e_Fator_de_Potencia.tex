@@ -261,17 +261,17 @@ FP = \dfrac{V_{1_{rms}}I_{1_{rms}}\cos{(\varTheta_{v_1}-\varTheta_{i_1})}}{V_{1_
 Levando em consideração a definição de THD segundo a expressão \ref{eq:THD} \ref{eq:FP_naolinear_expandida}
 
 \begin{equation}
-FP = \dfrac{\cos{\phi_1}}{\sqrt{1+THD_i}}
+FP = \dfrac{\cos{\phi_1}}{\sqrt{1+THD_i^2}}
 \label{eq:FP_naolinear}
 \end{equation}
 
-Definindo o fator de deslocamento como $FDesl=\cos{\phi_1}$ e o fator de distorção $FDist_i = \sfrac{1}{\sqrt{1+THD_i}}$
+Definindo o fator de deslocamento como $FDesl=\cos{\phi_1}$ e o fator de distorção $FDist_i = \sfrac{1}{\sqrt{1+THD_i^2}}$
 \cite{Kassick2010}
 
 \begin{equation}
 \begin{aligned}
 FP &= FDesl*FDist_i\\
-FP &= \dfrac{\cos{\phi_1}}{\sqrt{1+THD_i}}
+FP &= \dfrac{\cos{\phi_1}}{\sqrt{1+THD_i^2}}
 \end{aligned}
 \label{eq:FP}
 \end{equation}

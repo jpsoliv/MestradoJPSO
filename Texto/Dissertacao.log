@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.7)  12 MAR 2017 19:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.7)  12 MAR 2017 20:32
 entering extended mode
 **./Dissertacao.tex
 (Dissertacao.tex
@@ -3816,7 +3816,7 @@ Package hyperref Info: Reference (cite) `cite.Peng1996' on input line 11.
 Package hyperref Info: Anchor `subsubsection.3.2.1.1' on input line 13.
 pdftex: bookmark at 13: {3.2.1.1} {\numberline{3.2.1.1}Transformada de Clarke} 
 {subsubsection.3.2.1.1}{3}{toc}
-Package hyperref Info: Reference (link) `equation.3.2.29' on input line 15.
+Package hyperref Info: Reference (link) `equation.3.2.28' on input line 15.
 Package hyperref Info: Anchor `equation.3.2.28' on input line 17.
 Package hyperref Info: Anchor `equation.3.2.29' on input line 39.
 Package babel Info: Redefining portuges shorthand "|
@@ -3828,9 +3828,9 @@ Package hyperref Info: Anchor `page.68' on input line 57.
 Package `hyperref' Info: End of reference (cite) `cite.AredesSD', line 7.
 Package `hyperref' Info: End of reference (cite) `cite.Akagi1984', line 11.
 Package `hyperref' Info: End of reference (cite) `cite.Peng1996', line 11.
-Package `hyperref' Info: End of reference (link) `equation.3.2.29', line 15.
+Package `hyperref' Info: End of reference (link) `equation.3.2.28', line 15.
 ]
-Package hyperref Info: Reference (link) `equation.3.2.31' on input line 59.
+Package hyperref Info: Reference (link) `equation.3.2.30' on input line 59.
 Package hyperref Info: Anchor `equation.3.2.30' on input line 61.
 Package hyperref Info: Anchor `equation.3.2.31' on input line 83.
 Package hyperref Info: Reference (link) `figure.caption.56' on input line 105.
@@ -3845,7 +3845,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 106.
 Package hyperref Info: Anchor `page.69' on input line 106.
  [69
-Package `hyperref' Info: End of reference (link) `equation.3.2.31', line 59.
+Package `hyperref' Info: End of reference (link) `equation.3.2.30', line 59.
 Package `hyperref' Info: End of reference (link) `figure.caption.56', line 105.
 
 Package `hyperref' Info: End of reference (link) `figure.caption.57', line 105.
@@ -3872,7 +3872,7 @@ onverted-to.pdf Cap3/Figuras/va_vb_vc.eps>
 (epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap3/Figuras/va_vb_vc-eps-converted-to.pdf, id=1346, 421.575pt x 316.18124pt>
+<Cap3/Figuras/va_vb_vc-eps-converted-to.pdf, id=1347, 421.575pt x 316.18124pt>
 File: Cap3/Figuras/va_vb_vc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Cap3/Figuras/va_vb_vc-eps-converted-to.pdf>
@@ -3880,7 +3880,7 @@ Package pdftex.def Info: Cap3/Figuras/va_vb_vc-eps-converted-to.pdf used on inp
 ut line 111.
 (pdftex.def)             Requested size: 218.51521pt x 163.88931pt.
 
-<Cap3/Figuras/va_vb_vc_fasor.png, id=1347, 502.12593pt x 572.1375pt>
+<Cap3/Figuras/va_vb_vc_fasor.png, id=1348, 502.12593pt x 572.1375pt>
 File: Cap3/Figuras/va_vb_vc_fasor.png Graphic file (type png)
 
 <use Cap3/Figuras/va_vb_vc_fasor.png>
@@ -3903,7 +3903,7 @@ df>
 (epstopdf)             \includegraphics on input line 130.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap3/Figuras/alpha_beta-eps-converted-to.pdf, id=1348, 421.575pt x 316.18124pt
+<Cap3/Figuras/alpha_beta-eps-converted-to.pdf, id=1349, 421.575pt x 316.18124pt
 >
 File: Cap3/Figuras/alpha_beta-eps-converted-to.pdf Graphic file (type pdf)
  <use Cap3/Figuras/alpha_beta-eps-converted-to.pdf>
@@ -3911,7 +3911,7 @@ Package pdftex.def Info: Cap3/Figuras/alpha_beta-eps-converted-to.pdf used on i
 nput line 130.
 (pdftex.def)             Requested size: 218.51521pt x 163.88931pt.
 
-<Cap3/Figuras/valpha_vbeta_fasor.png, id=1349, 401.0985pt x 383.031pt>
+<Cap3/Figuras/valpha_vbeta_fasor.png, id=1350, 401.0985pt x 383.031pt>
 File: Cap3/Figuras/valpha_vbeta_fasor.png Graphic file (type png)
 
 <use Cap3/Figuras/valpha_vbeta_fasor.png>
@@ -3943,7 +3943,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 pdftex: bookmark at 145: {3.2.2} {\numberline{3.2.2}Pot\^encia Instant\^anea em
  Coordenadas $\alpha \beta 0 $} {subsection.3.2.2}{2}{toc}
-Package hyperref Info: Reference (link) `equation.3.2.33' on input line 147.
+Package hyperref Info: Reference (link) `equation.3.2.32' on input line 147.
 Package hyperref Info: Anchor `equation.3.2.32' on input line 149.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 155.
@@ -3954,13 +3954,13 @@ Package hyperref Info: Anchor `page.70' on input line 155.
 or.png> <./Cap3/Figuras/alpha_beta-eps-converted-to.pdf> <./Cap3/Figuras/valpha
 _vbeta_fasor.png>]
 Package hyperref Info: Anchor `equation.3.2.33' on input line 160.
+Package hyperref Info: Reference (link) `equation.3.2.33' on input line 165.
 Package hyperref Info: Reference (link) `equation.3.2.34' on input line 165.
-Package hyperref Info: Reference (link) `equation.3.2.35' on input line 165.
 Package hyperref Info: Anchor `equation.3.2.34' on input line 167.
-Package hyperref Info: Reference (link) `equation.3.2.36' on input line 183.
+Package hyperref Info: Reference (link) `equation.3.2.35' on input line 183.
 Package hyperref Info: Anchor `equation.3.2.35' on input line 185.
+Package hyperref Info: Reference (link) `equation.3.2.36' on input line 190.
 Package hyperref Info: Reference (link) `equation.3.2.37' on input line 190.
-Package hyperref Info: Reference (link) `equation.3.2.38' on input line 190.
 Package hyperref Info: Anchor `equation.3.2.36' on input line 192.
 Package hyperref Info: Anchor `equation.3.2.37' on input line 204.
 Package hyperref Info: Reference (link) `equation.3.1.10' on input line 216.
@@ -3972,20 +3972,20 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 217.
 Package hyperref Info: Anchor `page.71' on input line 217.
  [71
-Package `hyperref' Info: End of reference (link) `equation.3.2.33', line 147.
+Package `hyperref' Info: End of reference (link) `equation.3.2.32', line 147.
+Package `hyperref' Info: End of reference (link) `equation.3.2.33', line 165.
 Package `hyperref' Info: End of reference (link) `equation.3.2.34', line 165.
-Package `hyperref' Info: End of reference (link) `equation.3.2.35', line 165.
-Package `hyperref' Info: End of reference (link) `equation.3.2.36', line 183.
+Package `hyperref' Info: End of reference (link) `equation.3.2.35', line 183.
+Package `hyperref' Info: End of reference (link) `equation.3.2.36', line 190.
 Package `hyperref' Info: End of reference (link) `equation.3.2.37', line 190.
-Package `hyperref' Info: End of reference (link) `equation.3.2.38', line 190.
 ]
+Package hyperref Info: Reference (link) `equation.3.2.36' on input line 218.
 Package hyperref Info: Reference (link) `equation.3.2.37' on input line 218.
 Package hyperref Info: Reference (link) `equation.3.2.38' on input line 218.
-Package hyperref Info: Reference (link) `equation.3.2.39' on input line 218.
 Package hyperref Info: Anchor `equation.3.2.38' on input line 220.
-Package hyperref Info: Reference (link) `equation.3.2.40' on input line 244.
+Package hyperref Info: Reference (link) `equation.3.2.39' on input line 244.
 Package hyperref Info: Anchor `equation.3.2.39' on input line 246.
-Package hyperref Info: Reference (link) `equation.3.2.41' on input line 251.
+Package hyperref Info: Reference (link) `equation.3.2.40' on input line 251.
 Package hyperref Info: Reference (cite) `cite.Akagi1984' on input line 251.
 Package hyperref Info: Anchor `equation.3.2.40' on input line 253.
 Package babel Info: Redefining portuges shorthand "|
@@ -3997,14 +3997,14 @@ Package hyperref Info: Anchor `page.72' on input line 262.
 Package `hyperref' Info: End of reference (link) `equation.3.1.10', line 216.
 Package `hyperref' Info: End of reference (link) `equation.3.1.20', line 216.
 Package `hyperref' Info: End of reference (cite) `cite.Peng1996', line 216.
+Package `hyperref' Info: End of reference (link) `equation.3.2.36', line 218.
 Package `hyperref' Info: End of reference (link) `equation.3.2.37', line 218.
 Package `hyperref' Info: End of reference (link) `equation.3.2.38', line 218.
-Package `hyperref' Info: End of reference (link) `equation.3.2.39', line 218.
-Package `hyperref' Info: End of reference (link) `equation.3.2.40', line 244.
-Package `hyperref' Info: End of reference (link) `equation.3.2.41', line 251.
+Package `hyperref' Info: End of reference (link) `equation.3.2.39', line 244.
+Package `hyperref' Info: End of reference (link) `equation.3.2.40', line 251.
 ]
+Package hyperref Info: Reference (link) `equation.3.2.39' on input line 264.
 Package hyperref Info: Reference (link) `equation.3.2.40' on input line 264.
-Package hyperref Info: Reference (link) `equation.3.2.41' on input line 264.
 Package hyperref Info: Anchor `equation.3.2.41' on input line 266.
 Package hyperref Info: Anchor `subsection.3.2.3' on input line 277.
 Package babel Info: Redefining portuges shorthand "|
@@ -4020,8 +4020,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 pdftex: bookmark at 277: {3.2.3} {\numberline{3.2.3}Pot\^encia Instant\^anea em
  coordenadas $abc$} {subsection.3.2.3}{2}{toc}
+Package hyperref Info: Reference (link) `equation.3.2.32' on input line 279.
 Package hyperref Info: Reference (link) `equation.3.2.33' on input line 279.
-Package hyperref Info: Reference (link) `equation.3.2.34' on input line 279.
 Package hyperref Info: Anchor `equation.3.2.42' on input line 281.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 287.
@@ -4030,10 +4030,10 @@ Package babel Info: Redefining portuges shorthand "|
 Package hyperref Info: Anchor `page.73' on input line 287.
 [73
 Package `hyperref' Info: End of reference (cite) `cite.Akagi1984', line 251.
+Package `hyperref' Info: End of reference (link) `equation.3.2.39', line 264.
 Package `hyperref' Info: End of reference (link) `equation.3.2.40', line 264.
-Package `hyperref' Info: End of reference (link) `equation.3.2.41', line 264.
+Package `hyperref' Info: End of reference (link) `equation.3.2.32', line 279.
 Package `hyperref' Info: End of reference (link) `equation.3.2.33', line 279.
-Package `hyperref' Info: End of reference (link) `equation.3.2.34', line 279.
 ]
 Package hyperref Info: Anchor `equation.3.2.43' on input line 289.
 Package hyperref Info: Anchor `subsection.3.2.4' on input line 304.
@@ -4053,7 +4053,7 @@ Package hyperref Info: Anchor `Item.2' on input line 312.
 Package hyperref Info: Reference (link) `figure.caption.58' on input line 317.
 Package hyperref Info: Reference (link) `figure.caption.59' on input line 317.
 Package hyperref Info: Anchor `figure.caption.58' on input line 319.
- <Cap3/Figuras/Graetz.png, id=1431, 648.92438pt x 344.03531pt>
+ <Cap3/Figuras/Graetz.png, id=1432, 648.92438pt x 344.03531pt>
 File: Cap3/Figuras/Graetz.png Graphic file (type png)
 
 <use Cap3/Figuras/Graetz.png>
@@ -4063,7 +4063,7 @@ Package pdftex.def Info: Cap3/Figuras/Graetz.png used on input line 321.
 pdftex: bookmark at 322: {35} {\numberline{35}{\ignorespaces Retificador trif\'
 asico por ponte de Graetz\relax }} {figure.caption.58}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.59' on input line 326.
-<Cap3/Figuras/12pulse.png, id=1432, 1171.37625pt x 483.30562pt>
+<Cap3/Figuras/12pulse.png, id=1433, 1171.37625pt x 483.30562pt>
 File: Cap3/Figuras/12pulse.png Graphic file (type png)
 
 <use Cap3/Figuras/12pulse.png>
@@ -4072,8 +4072,8 @@ Package pdftex.def Info: Cap3/Figuras/12pulse.png used on input line 328.
 
 pdftex: bookmark at 329: {36} {\numberline{36}{\ignorespaces Retificador trif\'
 asico com neutro\relax }} {figure.caption.59}{0}{lof}
+Package hyperref Info: Reference (link) `equation.3.2.32' on input line 333.
 Package hyperref Info: Reference (link) `equation.3.2.33' on input line 333.
-Package hyperref Info: Reference (link) `equation.3.2.34' on input line 333.
 Package hyperref Info: Anchor `equation.3.2.44' on input line 335.
 Package hyperref Info: Anchor `equation.3.2.45' on input line 340.
 Package babel Info: Redefining portuges shorthand "|
@@ -4086,12 +4086,12 @@ Package `hyperref' Info: End of reference (link) `figure.caption.58', line 317.
 
 Package `hyperref' Info: End of reference (link) `figure.caption.59', line 317.
 
+Package `hyperref' Info: End of reference (link) `equation.3.2.32', line 333.
 Package `hyperref' Info: End of reference (link) `equation.3.2.33', line 333.
-Package `hyperref' Info: End of reference (link) `equation.3.2.34', line 333.
  <./Cap3/Figuras/Graetz.png>]
-Package hyperref Info: Reference (link) `equation.3.2.36' on input line 355.
+Package hyperref Info: Reference (link) `equation.3.2.35' on input line 355.
 Package hyperref Info: Anchor `equation.3.2.46' on input line 357.
-Package hyperref Info: Reference (link) `equation.3.2.48' on input line 362.
+Package hyperref Info: Reference (link) `equation.3.2.47' on input line 362.
 Package hyperref Info: Anchor `equation.3.2.47' on input line 364.
 Package hyperref Info: Anchor `equation.3.2.48' on input line 407.
 Package hyperref Info: Anchor `equation.3.2.49' on input line 412.
@@ -4101,17 +4101,17 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 415.
 Package hyperref Info: Anchor `page.76' on input line 415.
  [76
-Package `hyperref' Info: End of reference (link) `equation.3.2.36', line 355.
-Package `hyperref' Info: End of reference (link) `equation.3.2.48', line 362.
+Package `hyperref' Info: End of reference (link) `equation.3.2.35', line 355.
+Package `hyperref' Info: End of reference (link) `equation.3.2.47', line 362.
  <./Cap3/Figuras/12pulse.png>]
 Package hyperref Info: Anchor `equation.3.2.50' on input line 419.
-Package hyperref Info: Reference (link) `equation.3.2.51' on input line 424.
+Package hyperref Info: Reference (link) `equation.3.2.50' on input line 424.
 Package hyperref Info: Anchor `equation.3.2.51' on input line 426.
 Package hyperref Info: Reference (cite) `cite.Akagi1984' on input line 442.
-Package hyperref Info: Reference (link) `equation.3.2.48' on input line 442.
-Package hyperref Info: Reference (link) `equation.3.2.52' on input line 442.
+Package hyperref Info: Reference (link) `equation.3.2.47' on input line 442.
+Package hyperref Info: Reference (link) `equation.3.2.51' on input line 442.
 Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 442.
-Package hyperref Info: Reference (link) `equation.3.2.52' on input line 442.
+Package hyperref Info: Reference (link) `equation.3.2.51' on input line 442.
 Package hyperref Info: Anchor `subsection.3.2.5' on input line 444.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 444.
@@ -4126,12 +4126,12 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 451.
 Package hyperref Info: Anchor `page.77' on input line 451.
 [77
-Package `hyperref' Info: End of reference (link) `equation.3.2.51', line 424.
+Package `hyperref' Info: End of reference (link) `equation.3.2.50', line 424.
 Package `hyperref' Info: End of reference (cite) `cite.Akagi1984', line 442.
-Package `hyperref' Info: End of reference (link) `equation.3.2.48', line 442.
-Package `hyperref' Info: End of reference (link) `equation.3.2.52', line 442.
+Package `hyperref' Info: End of reference (link) `equation.3.2.47', line 442.
+Package `hyperref' Info: End of reference (link) `equation.3.2.51', line 442.
 Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 442.
-Package `hyperref' Info: End of reference (link) `equation.3.2.52', line 442.
+Package `hyperref' Info: End of reference (link) `equation.3.2.51', line 442.
 Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 448.
 ]
 Package hyperref Info: Anchor `figure.caption.60' on input line 452.
@@ -4292,8 +4292,8 @@ Package babel Info: Redefining portuges shorthand "|
 pdftex: bookmark at 17: {3.3.1} {\numberline{3.3.1}Filtros Ativo Empregando a T
 eoria p-q} {subsection.3.3.1}{2}{toc}
 Package hyperref Info: Reference (cite) `cite.Afonso2000' on input line 19.
-Package hyperref Info: Reference (link) `equation.3.2.48' on input line 21.
-Package hyperref Info: Reference (link) `equation.3.3.53' on input line 21.
+Package hyperref Info: Reference (link) `equation.3.2.47' on input line 21.
+Package hyperref Info: Reference (link) `equation.3.3.52' on input line 21.
 Package hyperref Info: Anchor `equation.3.3.52' on input line 23.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 42.
@@ -4302,15 +4302,15 @@ Package babel Info: Redefining portuges shorthand "|
 Package hyperref Info: Anchor `page.81' on input line 42.
 [81
 Package `hyperref' Info: End of reference (cite) `cite.Afonso2000', line 19.
-Package `hyperref' Info: End of reference (link) `equation.3.2.48', line 21.
+Package `hyperref' Info: End of reference (link) `equation.3.2.47', line 21.
 ]
-Package hyperref Info: Reference (link) `equation.3.3.54' on input line 44.
+Package hyperref Info: Reference (link) `equation.3.3.53' on input line 44.
 Package hyperref Info: Anchor `equation.3.3.53' on input line 46.
-Package hyperref Info: Reference (link) `equation.3.3.54' on input line 63.
-Package hyperref Info: Reference (link) `equation.3.2.52' on input line 63.
-Package hyperref Info: Reference (link) `equation.3.2.32' on input line 63.
+Package hyperref Info: Reference (link) `equation.3.3.53' on input line 63.
+Package hyperref Info: Reference (link) `equation.3.2.51' on input line 63.
+Package hyperref Info: Reference (link) `equation.3.2.31' on input line 63.
 Package hyperref Info: Reference (link) `figure.caption.64' on input line 65.
-Package hyperref Info: Reference (link) `equation.3.3.54' on input line 65.
+Package hyperref Info: Reference (link) `equation.3.3.53' on input line 65.
 Package hyperref Info: Reference (link) `figure.caption.65' on input line 65.
 Package hyperref Info: Anchor `figure.caption.64' on input line 67.
  <Cap3/Figuras/compensador.png, id=1545, 529.98pt x 332.74312pt>
@@ -4347,16 +4347,16 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 84.
 Package hyperref Info: Anchor `page.82' on input line 84.
 [82
-Package `hyperref' Info: End of reference (link) `equation.3.3.53', line 21.
-Package `hyperref' Info: End of reference (link) `equation.3.3.54', line 44.
-Package `hyperref' Info: End of reference (link) `equation.3.3.54', line 63.
-Package `hyperref' Info: End of reference (link) `equation.3.2.52', line 63.
-Package `hyperref' Info: End of reference (link) `equation.3.2.32', line 63.
+Package `hyperref' Info: End of reference (link) `equation.3.3.52', line 21.
+Package `hyperref' Info: End of reference (link) `equation.3.3.53', line 44.
+Package `hyperref' Info: End of reference (link) `equation.3.3.53', line 63.
+Package `hyperref' Info: End of reference (link) `equation.3.2.51', line 63.
+Package `hyperref' Info: End of reference (link) `equation.3.2.31', line 63.
 Package `hyperref' Info: End of reference (link) `figure.caption.64', line 65.
-Package `hyperref' Info: End of reference (link) `equation.3.3.54', line 65.
+Package `hyperref' Info: End of reference (link) `equation.3.3.53', line 65.
 Package `hyperref' Info: End of reference (link) `figure.caption.65', line 65.
 ]
-Package hyperref Info: Reference (link) `equation.3.3.55' on input line 85.
+Package hyperref Info: Reference (link) `equation.3.3.54' on input line 85.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 86.
 Package babel Info: Redefining portuges shorthand "|
@@ -4368,21 +4368,21 @@ Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 77.
  <./Cap3/Figuras/compensador.png> <./Cap3/Figuras/metodo_controle.png>]
 Package hyperref Info: Anchor `equation.3.3.54' on input line 87.
 Package hyperref Info: Reference (link) `subsection.3.2.5' on input line 95.
-Package hyperref Info: Reference (link) `equation.3.3.56' on input line 95.
+Package hyperref Info: Reference (link) `equation.3.3.55' on input line 95.
 Package hyperref Info: Anchor `equation.3.3.55' on input line 97.
 Package hyperref Info: Reference (link) `equation.3.1.20' on input line 104.
-Package hyperref Info: Reference (link) `equation.3.3.56' on input line 104.
+Package hyperref Info: Reference (link) `equation.3.3.55' on input line 104.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 107.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 107.
 Package hyperref Info: Anchor `page.84' on input line 107.
 [84
-Package `hyperref' Info: End of reference (link) `equation.3.3.55', line 85.
+Package `hyperref' Info: End of reference (link) `equation.3.3.54', line 85.
 Package `hyperref' Info: End of reference (link) `subsection.3.2.5', line 95.
-Package `hyperref' Info: End of reference (link) `equation.3.3.56', line 95.
+Package `hyperref' Info: End of reference (link) `equation.3.3.55', line 95.
 Package `hyperref' Info: End of reference (link) `equation.3.1.20', line 104.
-Package `hyperref' Info: End of reference (link) `equation.3.3.56', line 104.
+Package `hyperref' Info: End of reference (link) `equation.3.3.55', line 104.
 ]
 Package hyperref Info: Anchor `subsubsection.3.3.1.2' on input line 108.
 
@@ -4390,7 +4390,7 @@ pdftex: bookmark at 108: {3.3.1.2} {\numberline{3.3.1.2}Concep\c c\~ao dos Filt
 ros Ativos} {subsubsection.3.3.1.2}{3}{toc}
 Package hyperref Info: Reference (link) `figure.caption.66' on input line 112.
 Package hyperref Info: Anchor `figure.caption.66' on input line 114.
-<Cap3/Figuras/con_alto_nivel.png, id=1576, 529.98pt x 354.57469pt>
+<Cap3/Figuras/con_alto_nivel.png, id=1575, 529.98pt x 354.57469pt>
 File: Cap3/Figuras/con_alto_nivel.png Graphic file (type png)
 
 <use Cap3/Figuras/con_alto_nivel.png>
@@ -4423,7 +4423,7 @@ LaTeX Warning: Reference `sec:Caracter\IeC {\'\i }sticas de Filtros Ativos em S
 istemas Reais' on page 86 undefined on input line 123.
 
 Package hyperref Info: Anchor `figure.caption.67' on input line 125.
-<Cap3/Figuras/diagrama_filtro.png, id=1588, 635.37375pt x 429.10312pt>
+<Cap3/Figuras/diagrama_filtro.png, id=1587, 635.37375pt x 429.10312pt>
 File: Cap3/Figuras/diagrama_filtro.png Graphic file (type png)
 
 <use Cap3/Figuras/diagrama_filtro.png>
@@ -4471,7 +4471,7 @@ eps-converted-to.pdf Cap3/Figuras/onda_filtro_1.eps>
 (epstopdf)             \includegraphics on input line 144.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap3/Figuras/onda_filtro_1-eps-converted-to.pdf, id=1604, 927.465pt x 285.065p
+<Cap3/Figuras/onda_filtro_1-eps-converted-to.pdf, id=1603, 927.465pt x 285.065p
 t>
 File: Cap3/Figuras/onda_filtro_1-eps-converted-to.pdf Graphic file (type pdf)
  <use Cap3/Figuras/onda_filtro_1-eps-converted-to.pdf>
@@ -4494,7 +4494,7 @@ eps-converted-to.pdf Cap3/Figuras/onda_filtro_2.eps>
 (epstopdf)             \includegraphics on input line 151.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap3/Figuras/onda_filtro_2-eps-converted-to.pdf, id=1605, 927.465pt x 285.065p
+<Cap3/Figuras/onda_filtro_2-eps-converted-to.pdf, id=1604, 927.465pt x 285.065p
 t>
 File: Cap3/Figuras/onda_filtro_2-eps-converted-to.pdf Graphic file (type pdf)
  <use Cap3/Figuras/onda_filtro_2-eps-converted-to.pdf>
@@ -4517,7 +4517,7 @@ eps-converted-to.pdf Cap3/Figuras/onda_filtro_3.eps>
 (epstopdf)             \includegraphics on input line 158.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap3/Figuras/onda_filtro_3-eps-converted-to.pdf, id=1606, 927.465pt x 285.065p
+<Cap3/Figuras/onda_filtro_3-eps-converted-to.pdf, id=1605, 927.465pt x 285.065p
 t>
 File: Cap3/Figuras/onda_filtro_3-eps-converted-to.pdf Graphic file (type pdf)
  <use Cap3/Figuras/onda_filtro_3-eps-converted-to.pdf>
@@ -4541,7 +4541,7 @@ eps-converted-to.pdf Cap3/Figuras/onda_filtro_4.eps>
 (epstopdf)             \includegraphics on input line 165.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap3/Figuras/onda_filtro_4-eps-converted-to.pdf, id=1607, 927.465pt x 285.065p
+<Cap3/Figuras/onda_filtro_4-eps-converted-to.pdf, id=1606, 927.465pt x 285.065p
 t>
 File: Cap3/Figuras/onda_filtro_4-eps-converted-to.pdf Graphic file (type pdf)
  <use Cap3/Figuras/onda_filtro_4-eps-converted-to.pdf>
@@ -4565,7 +4565,7 @@ eps-converted-to.pdf Cap3/Figuras/onda_filtro_6.eps>
 (epstopdf)             \includegraphics on input line 179.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap3/Figuras/onda_filtro_6-eps-converted-to.pdf, id=1608, 927.465pt x 285.065p
+<Cap3/Figuras/onda_filtro_6-eps-converted-to.pdf, id=1607, 927.465pt x 285.065p
 t>
 File: Cap3/Figuras/onda_filtro_6-eps-converted-to.pdf Graphic file (type pdf)
  <use Cap3/Figuras/onda_filtro_6-eps-converted-to.pdf>
@@ -4589,7 +4589,7 @@ eps-converted-to.pdf Cap3/Figuras/onda_filtro_7.eps>
 (epstopdf)             \includegraphics on input line 186.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap3/Figuras/onda_filtro_7-eps-converted-to.pdf, id=1609, 927.465pt x 285.065p
+<Cap3/Figuras/onda_filtro_7-eps-converted-to.pdf, id=1608, 927.465pt x 285.065p
 t>
 File: Cap3/Figuras/onda_filtro_7-eps-converted-to.pdf Graphic file (type pdf)
  <use Cap3/Figuras/onda_filtro_7-eps-converted-to.pdf>
@@ -4679,14 +4679,14 @@ Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 7.
 Package hyperref Info: Reference (link) `figure.caption.75' on input line 7.
 Package hyperref Info: Reference (link) `figure.caption.75' on input line 7.
 Package hyperref Info: Anchor `figure.caption.75' on input line 9.
-<Cap4/Figuras/VSC.png, id=1682, 764.8575pt x 621.82312pt>
+<Cap4/Figuras/VSC.png, id=1681, 764.8575pt x 621.82312pt>
 File: Cap4/Figuras/VSC.png Graphic file (type png)
 
 <use Cap4/Figuras/VSC.png>
 Package pdftex.def Info: Cap4/Figuras/VSC.png used on input line 13.
 (pdftex.def)             Requested size: 204.85846pt x 166.54715pt.
 
-<Cap4/Figuras/CSC.png, id=1683, 660.21657pt x 686.565pt>
+<Cap4/Figuras/CSC.png, id=1682, 660.21657pt x 686.565pt>
 File: Cap4/Figuras/CSC.png Graphic file (type png)
 
 <use Cap4/Figuras/CSC.png>
@@ -4724,7 +4724,7 @@ Package hyperref Info: Reference (link) `figure.caption.76' on input line 32.
 Package hyperref Info: Reference (cite) `cite.Thekkevalappil2005' on input line
  32.
 Package hyperref Info: Anchor `figure.caption.76' on input line 34.
-<Cap4/Figuras/histerese.png, id=1695, 1033.61156pt x 520.19344pt>
+<Cap4/Figuras/histerese.png, id=1694, 1033.61156pt x 520.19344pt>
 File: Cap4/Figuras/histerese.png Graphic file (type png)
 
 <use Cap4/Figuras/histerese.png>
@@ -4764,7 +4764,7 @@ e 37.
 Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 41.
  <./Cap4/Figuras/histerese.png>]
 Package hyperref Info: Anchor `figure.caption.77' on input line 49.
- <Cap4/Figuras/conversor.png, id=1714, 729.47531pt x 340.27126pt>
+ <Cap4/Figuras/conversor.png, id=1713, 729.47531pt x 340.27126pt>
 File: Cap4/Figuras/conversor.png Graphic file (type png)
 
 <use Cap4/Figuras/conversor.png>
@@ -4798,7 +4798,7 @@ Package `hyperref' Info: End of reference (cite) `cite.Watanabe1993', line 58.
  <./Cap4/Figuras/conversor.png>]
 Package hyperref Info: Anchor `figure.caption.78' on input line 64.
 
-<Cap4/Figuras/controle_Cap.png, id=1726, 1210.5225pt x 665.48625pt>
+<Cap4/Figuras/controle_Cap.png, id=1725, 1210.5225pt x 665.48625pt>
 File: Cap4/Figuras/controle_Cap.png Graphic file (type png)
 
 <use Cap4/Figuras/controle_Cap.png>
@@ -4857,7 +4857,7 @@ Package `hyperref' Info: End of reference (link) `figure.caption.66', line 23.
 ]
 Package hyperref Info: Anchor `figure.caption.79' on input line 25.
 
-<Cap4/Figuras/esquema_controle_senoidal.png, id=1747, 1276.01718pt x 340.27126p
+<Cap4/Figuras/esquema_controle_senoidal.png, id=1746, 1276.01718pt x 340.27126p
 t>
 File: Cap4/Figuras/esquema_controle_senoidal.png Graphic file (type png)
  <use Cap4/Figuras/esquema_controle_senoidal.png>
@@ -4889,7 +4889,7 @@ Fase (PLL)} {paragraph.4.2.1.1.1}{4}{toc}
 Package hyperref Info: Reference (cite) `cite.Akagi2007' on input line 47.
 Package hyperref Info: Reference (link) `figure.caption.80' on input line 49.
 Package hyperref Info: Anchor `figure.caption.80' on input line 51.
-<Cap4/Figuras/PLL.png, id=1760, 1139.75812pt x 368.87813pt>
+<Cap4/Figuras/PLL.png, id=1759, 1139.75812pt x 368.87813pt>
 File: Cap4/Figuras/PLL.png Graphic file (type png)
 
 <use Cap4/Figuras/PLL.png>
@@ -4905,7 +4905,7 @@ pdftex: bookmark at 60: {4.2.1.1.2} {\numberline{4.2.1.1.2}Malha Principal} {pa
 ragraph.4.2.1.1.2}{4}{toc}
 Package hyperref Info: Reference (link) `figure.caption.81' on input line 62.
 Package hyperref Info: Anchor `figure.caption.81' on input line 64.
-<Cap4/Figuras/detector_seq_pos.png, id=1764, 944.02687pt x 831.85782pt>
+<Cap4/Figuras/detector_seq_pos.png, id=1763, 944.02687pt x 831.85782pt>
 File: Cap4/Figuras/detector_seq_pos.png Graphic file (type png)
 
 <use Cap4/Figuras/detector_seq_pos.png>
@@ -4962,7 +4962,7 @@ os-eps-converted-to.pdf Cap4/Figuras/detector_seq_pos.eps>
 (epstopdf)             \includegraphics on input line 95.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/detector_seq_pos-eps-converted-to.pdf, id=1789, 843.15pt x 285.06
+<Cap4/Figuras/detector_seq_pos-eps-converted-to.pdf, id=1788, 843.15pt x 285.06
 5pt>
 File: Cap4/Figuras/detector_seq_pos-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -4987,7 +4987,7 @@ os_1-eps-converted-to.pdf Cap4/Figuras/detector_seq_pos_1.eps>
 (epstopdf)             \includegraphics on input line 102.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap4/Figuras/detector_seq_pos_1-eps-converted-to.pdf, id=1790, 843.15pt x 285.
+<Cap4/Figuras/detector_seq_pos_1-eps-converted-to.pdf, id=1789, 843.15pt x 285.
 065pt>
 File: Cap4/Figuras/detector_seq_pos_1-eps-converted-to.pdf Graphic file (type p
 df)
@@ -5027,7 +5027,7 @@ Package `hyperref' Info: End of reference (link) `figure.caption.83', line 91.
 r_seq_pos_1-eps-converted-to.pdf>]
 Package hyperref Info: Anchor `figure.caption.85' on input line 5.
 
-<Cap4/Figuras/Tudao_lado_1.png, id=1827, 1062.97125pt x 1869.98625pt>
+<Cap4/Figuras/Tudao_lado_1.png, id=1826, 1062.97125pt x 1869.98625pt>
 File: Cap4/Figuras/Tudao_lado_1.png Graphic file (type png)
 
 <use Cap4/Figuras/Tudao_lado_1.png>
@@ -5091,7 +5091,7 @@ Package hyperref Info: Anchor `page.102' on input line 12.
 ]
 Package hyperref Info: Reference (link) `figure.caption.87' on input line 13.
 Package hyperref Info: Anchor `figure.caption.87' on input line 15.
- <Cap5/Figuras/GEN_GCU.png, id=1845, 1007.26312pt x 652.68843pt>
+ <Cap5/Figuras/GEN_GCU.png, id=1844, 1007.26312pt x 652.68843pt>
 File: Cap5/Figuras/GEN_GCU.png Graphic file (type png)
 
 <use Cap5/Figuras/GEN_GCU.png>
@@ -5125,7 +5125,7 @@ pdftex: bookmark at 38: {5.1.1.2} {\numberline{5.1.1.2}Sistema de Distribui\c c
 \~ao} {subsubsection.5.1.1.2}{3}{toc}
 Package hyperref Info: Reference (link) `figure.caption.90' on input line 42.
 Package hyperref Info: Anchor `figure.caption.90' on input line 44.
-<Cap5/Figuras/dist.png, id=1858, 1181.91562pt x 523.9575pt>
+<Cap5/Figuras/dist.png, id=1857, 1181.91562pt x 523.9575pt>
 File: Cap5/Figuras/dist.png Graphic file (type png)
 
 <use Cap5/Figuras/dist.png>
@@ -5174,7 +5174,7 @@ Package `hyperref' Info: End of reference (link) `table.caption.92', line 51.
  <./Cap5/Figuras/dist.png>]
 Package hyperref Info: Anchor `figure.caption.93' on input line 73.
 
-<Cap5/Figuras/EHA_elec.png, id=1880, 795.72281pt x 381.67593pt>
+<Cap5/Figuras/EHA_elec.png, id=1879, 795.72281pt x 381.67593pt>
 File: Cap5/Figuras/EHA_elec.png Graphic file (type png)
 
 <use Cap5/Figuras/EHA_elec.png>
@@ -5185,7 +5185,7 @@ pdftex: bookmark at 76: {63} {\numberline{63}{\ignorespaces Subsistema el\'etri
 co de um EHA\relax }} {figure.caption.93}{0}{lof}
 Package hyperref Info: Reference (link) `figure.caption.94' on input line 80.
 Package hyperref Info: Anchor `figure.caption.94' on input line 82.
-<Cap5/Figuras/EHA.png, id=1882, 989.94844pt x 499.11469pt>
+<Cap5/Figuras/EHA.png, id=1881, 989.94844pt x 499.11469pt>
 File: Cap5/Figuras/EHA.png Graphic file (type png)
 
 <use Cap5/Figuras/EHA.png>
@@ -5219,7 +5219,7 @@ olada_EHA-eps-converted-to.pdf Cap5/Figuras/corrente_controlada_EHA.eps>
 (epstopdf)             \includegraphics on input line 93.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/corrente_controlada_EHA-eps-converted-to.pdf, id=1890, 843.15pt x
+<Cap5/Figuras/corrente_controlada_EHA-eps-converted-to.pdf, id=1889, 843.15pt x
  285.065pt>
 File: Cap5/Figuras/corrente_controlada_EHA-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -5262,7 +5262,7 @@ LaTeX Warning: Reference `subsubsec:Tipos de Controle' on page 108 undefined on
 
 Package hyperref Info: Reference (link) `chapter.3' on input line 110.
 Package hyperref Info: Anchor `figure.caption.96' on input line 112.
-<Cap5/Figuras/controlador.png, id=1905, 1026.83624pt x 706.89093pt>
+<Cap5/Figuras/controlador.png, id=1904, 1026.83624pt x 706.89093pt>
 File: Cap5/Figuras/controlador.png Graphic file (type png)
 
 <use Cap5/Figuras/controlador.png>
@@ -5293,7 +5293,7 @@ Package `hyperref' Info: End of reference (link) `chapter.3', line 110.
 LaTeX Warning: Marginpar on page 109 moved.
 
 Package hyperref Info: Anchor `figure.caption.98' on input line 123.
-<Cap5/Figuras/histerese_sim.png, id=1915, 1138.2525pt x 607.51968pt>
+<Cap5/Figuras/histerese_sim.png, id=1914, 1138.2525pt x 607.51968pt>
 File: Cap5/Figuras/histerese_sim.png Graphic file (type png)
 
 <use Cap5/Figuras/histerese_sim.png>
@@ -5307,7 +5307,7 @@ ption.98}{0}{lof}
 Package hyperref Info: Reference (link) `figure.caption.99' on input line 130.
 Package hyperref Info: Reference (link) `figure.caption.96' on input line 130.
 Package hyperref Info: Anchor `figure.caption.99' on input line 134.
-<Cap5/Figuras/PI_sim.png, id=1918, 795.72281pt x 386.94562pt>
+<Cap5/Figuras/PI_sim.png, id=1917, 795.72281pt x 386.94562pt>
 File: Cap5/Figuras/PI_sim.png Graphic file (type png)
 
 <use Cap5/Figuras/PI_sim.png>
@@ -5339,7 +5339,7 @@ Package hyperref Info: Reference (link) `figure.caption.100' on input line 145.
 Package hyperref Info: Reference (link) `figure.caption.75' on input line 145.
 Package hyperref Info: Anchor `figure.caption.100' on input line 149.
 
-<Cap5/Figuras/Inversor.png, id=1926, 1433.355pt x 766.36313pt>
+<Cap5/Figuras/Inversor.png, id=1925, 1433.355pt x 766.36313pt>
 File: Cap5/Figuras/Inversor.png Graphic file (type png)
 
 <use Cap5/Figuras/Inversor.png>
@@ -5379,7 +5379,7 @@ verted-to.pdf Cap5/Figuras/perfil.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/perfil-eps-converted-to.pdf, id=1933, 843.15pt x 395.4775pt>
+<Cap5/Figuras/perfil-eps-converted-to.pdf, id=1932, 843.15pt x 395.4775pt>
 File: Cap5/Figuras/perfil-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Cap5/Figuras/perfil-eps-converted-to.pdf>
@@ -5445,7 +5445,7 @@ ilt_2-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_2.eps>
 (epstopdf)             \includegraphics on input line 61.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_unfilt_2-eps-converted-to.pdf, id=1962, 422.57875pt x 
+<Cap5/Figuras/resultados_unfilt_2-eps-converted-to.pdf, id=1961, 422.57875pt x 
 293.095pt>
 File: Cap5/Figuras/resultados_unfilt_2-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -5465,7 +5465,7 @@ t_2-eps-converted-to.pdf Cap5/Figuras/resultados_filt_2.eps>
 (epstopdf)             \includegraphics on input line 68.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_filt_2-eps-converted-to.pdf, id=1963, 422.57875pt x 29
+<Cap5/Figuras/resultados_filt_2-eps-converted-to.pdf, id=1962, 422.57875pt x 29
 3.095pt>
 File: Cap5/Figuras/resultados_filt_2-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -5490,7 +5490,7 @@ ilt_4-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_4.eps>
 (epstopdf)             \includegraphics on input line 99.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_unfilt_4-eps-converted-to.pdf, id=1964, 398.48875pt x 
+<Cap5/Figuras/resultados_unfilt_4-eps-converted-to.pdf, id=1963, 398.48875pt x 
 296.10625pt>
 File: Cap5/Figuras/resultados_unfilt_4-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -5510,7 +5510,7 @@ t_4-eps-converted-to.pdf Cap5/Figuras/resultados_filt_4.eps>
 (epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_filt_4-eps-converted-to.pdf, id=1965, 398.48875pt x 29
+<Cap5/Figuras/resultados_filt_4-eps-converted-to.pdf, id=1964, 398.48875pt x 29
 6.10625pt>
 File: Cap5/Figuras/resultados_filt_4-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -5535,7 +5535,7 @@ ilt_5-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_5.eps>
 (epstopdf)             \includegraphics on input line 118.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_unfilt_5-eps-converted-to.pdf, id=1966, 387.4475pt x 2
+<Cap5/Figuras/resultados_unfilt_5-eps-converted-to.pdf, id=1965, 387.4475pt x 2
 99.1175pt>
 File: Cap5/Figuras/resultados_unfilt_5-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -5555,7 +5555,7 @@ t_5-eps-converted-to.pdf Cap5/Figuras/resultados_filt_5.eps>
 (epstopdf)             \includegraphics on input line 125.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_filt_5-eps-converted-to.pdf, id=1967, 387.4475pt x 299
+<Cap5/Figuras/resultados_filt_5-eps-converted-to.pdf, id=1966, 387.4475pt x 299
 .1175pt>
 File: Cap5/Figuras/resultados_filt_5-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -5580,7 +5580,7 @@ ilt_6-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_6.eps>
 (epstopdf)             \includegraphics on input line 137.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_unfilt_6-eps-converted-to.pdf, id=1968, 379.4175pt x 2
+<Cap5/Figuras/resultados_unfilt_6-eps-converted-to.pdf, id=1967, 379.4175pt x 2
 91.0875pt>
 File: Cap5/Figuras/resultados_unfilt_6-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -5600,7 +5600,7 @@ t_6-eps-converted-to.pdf Cap5/Figuras/resultados_filt_6.eps>
 (epstopdf)             \includegraphics on input line 144.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_filt_6-eps-converted-to.pdf, id=1969, 379.4175pt x 291
+<Cap5/Figuras/resultados_filt_6-eps-converted-to.pdf, id=1968, 379.4175pt x 291
 .0875pt>
 File: Cap5/Figuras/resultados_filt_6-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -5683,7 +5683,7 @@ ilt_7-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_7.eps>
 (epstopdf)             \includegraphics on input line 168.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_unfilt_7-eps-converted-to.pdf, id=2066, 418.56375pt x 
+<Cap5/Figuras/resultados_unfilt_7-eps-converted-to.pdf, id=2065, 418.56375pt x 
 296.10625pt>
 File: Cap5/Figuras/resultados_unfilt_7-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -5703,7 +5703,7 @@ t_7-eps-converted-to.pdf Cap5/Figuras/resultados_filt_7.eps>
 (epstopdf)             \includegraphics on input line 175.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_filt_7-eps-converted-to.pdf, id=2067, 418.56375pt x 29
+<Cap5/Figuras/resultados_filt_7-eps-converted-to.pdf, id=2066, 418.56375pt x 29
 6.10625pt>
 File: Cap5/Figuras/resultados_filt_7-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -5727,7 +5727,7 @@ ilt_8-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_8.eps>
 (epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_unfilt_8-eps-converted-to.pdf, id=2068, 422.57875pt x 
+<Cap5/Figuras/resultados_unfilt_8-eps-converted-to.pdf, id=2067, 422.57875pt x 
 296.10625pt>
 File: Cap5/Figuras/resultados_unfilt_8-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -5747,7 +5747,7 @@ t_8-eps-converted-to.pdf Cap5/Figuras/resultados_filt_8.eps>
 (epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_filt_8-eps-converted-to.pdf, id=2069, 422.57875pt x 29
+<Cap5/Figuras/resultados_filt_8-eps-converted-to.pdf, id=2068, 422.57875pt x 29
 6.10625pt>
 File: Cap5/Figuras/resultados_filt_8-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -5772,7 +5772,7 @@ ilt_9-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_9.eps>
 (epstopdf)             \includegraphics on input line 206.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_unfilt_9-eps-converted-to.pdf, id=2070, 377.41pt x 308
+<Cap5/Figuras/resultados_unfilt_9-eps-converted-to.pdf, id=2069, 377.41pt x 308
 .15125pt>
 File: Cap5/Figuras/resultados_unfilt_9-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -5792,7 +5792,7 @@ t_9-eps-converted-to.pdf Cap5/Figuras/resultados_filt_9.eps>
 (epstopdf)             \includegraphics on input line 213.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_filt_9-eps-converted-to.pdf, id=2071, 377.41pt x 308.1
+<Cap5/Figuras/resultados_filt_9-eps-converted-to.pdf, id=2070, 377.41pt x 308.1
 5125pt>
 File: Cap5/Figuras/resultados_filt_9-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -5816,7 +5816,7 @@ ilt_10-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_10.eps>
 (epstopdf)             \includegraphics on input line 225.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_unfilt_10-eps-converted-to.pdf, id=2072, 380.42125pt x
+<Cap5/Figuras/resultados_unfilt_10-eps-converted-to.pdf, id=2071, 380.42125pt x
  308.15125pt>
 File: Cap5/Figuras/resultados_unfilt_10-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -5836,7 +5836,7 @@ t_10-eps-converted-to.pdf Cap5/Figuras/resultados_filt_10.eps>
 (epstopdf)             \includegraphics on input line 232.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_filt_10-eps-converted-to.pdf, id=2073, 380.42125pt x 3
+<Cap5/Figuras/resultados_filt_10-eps-converted-to.pdf, id=2072, 380.42125pt x 3
 08.15125pt>
 File: Cap5/Figuras/resultados_filt_10-eps-converted-to.pdf Graphic file (type p
 df)
@@ -5861,7 +5861,7 @@ ilt_11-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_11.eps>
 (epstopdf)             \includegraphics on input line 244.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_unfilt_11-eps-converted-to.pdf, id=2074, 387.4475pt x 
+<Cap5/Figuras/resultados_unfilt_11-eps-converted-to.pdf, id=2073, 387.4475pt x 
 299.1175pt>
 File: Cap5/Figuras/resultados_unfilt_11-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -5881,7 +5881,7 @@ t_11-eps-converted-to.pdf Cap5/Figuras/resultados_filt_11.eps>
 (epstopdf)             \includegraphics on input line 251.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_filt_11-eps-converted-to.pdf, id=2075, 387.4475pt x 29
+<Cap5/Figuras/resultados_filt_11-eps-converted-to.pdf, id=2074, 387.4475pt x 29
 9.1175pt>
 File: Cap5/Figuras/resultados_filt_11-eps-converted-to.pdf Graphic file (type p
 df)
@@ -5906,7 +5906,7 @@ ilt_12-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_12.eps>
 (epstopdf)             \includegraphics on input line 263.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_unfilt_12-eps-converted-to.pdf, id=2076, 376.40625pt x
+<Cap5/Figuras/resultados_unfilt_12-eps-converted-to.pdf, id=2075, 376.40625pt x
  288.07625pt>
 File: Cap5/Figuras/resultados_unfilt_12-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -5926,7 +5926,7 @@ t_12-eps-converted-to.pdf Cap5/Figuras/resultados_filt_12.eps>
 (epstopdf)             \includegraphics on input line 270.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_filt_12-eps-converted-to.pdf, id=2077, 376.40625pt x 2
+<Cap5/Figuras/resultados_filt_12-eps-converted-to.pdf, id=2076, 376.40625pt x 2
 88.07625pt>
 File: Cap5/Figuras/resultados_filt_12-eps-converted-to.pdf Graphic file (type p
 df)
@@ -6032,7 +6032,7 @@ ilt_13-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_13.eps>
 (epstopdf)             \includegraphics on input line 294.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_unfilt_13-eps-converted-to.pdf, id=2227, 418.56375pt x
+<Cap5/Figuras/resultados_unfilt_13-eps-converted-to.pdf, id=2226, 418.56375pt x
  296.10625pt>
 File: Cap5/Figuras/resultados_unfilt_13-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -6052,7 +6052,7 @@ t_13-eps-converted-to.pdf Cap5/Figuras/resultados_filt_13.eps>
 (epstopdf)             \includegraphics on input line 301.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_filt_13-eps-converted-to.pdf, id=2228, 418.56375pt x 2
+<Cap5/Figuras/resultados_filt_13-eps-converted-to.pdf, id=2227, 418.56375pt x 2
 96.10625pt>
 File: Cap5/Figuras/resultados_filt_13-eps-converted-to.pdf Graphic file (type p
 df)
@@ -6076,7 +6076,7 @@ ilt_14-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_14.eps>
 (epstopdf)             \includegraphics on input line 313.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_unfilt_14-eps-converted-to.pdf, id=2229, 421.575pt x 2
+<Cap5/Figuras/resultados_unfilt_14-eps-converted-to.pdf, id=2228, 421.575pt x 2
 96.10625pt>
 File: Cap5/Figuras/resultados_unfilt_14-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -6096,7 +6096,7 @@ t_14-eps-converted-to.pdf Cap5/Figuras/resultados_filt_14.eps>
 (epstopdf)             \includegraphics on input line 320.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_filt_14-eps-converted-to.pdf, id=2230, 421.575pt x 296
+<Cap5/Figuras/resultados_filt_14-eps-converted-to.pdf, id=2229, 421.575pt x 296
 .10625pt>
 File: Cap5/Figuras/resultados_filt_14-eps-converted-to.pdf Graphic file (type p
 df)
@@ -6121,7 +6121,7 @@ ilt_15-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_15.eps>
 (epstopdf)             \includegraphics on input line 332.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_unfilt_15-eps-converted-to.pdf, id=2231, 391.4625pt x 
+<Cap5/Figuras/resultados_unfilt_15-eps-converted-to.pdf, id=2230, 391.4625pt x 
 296.10625pt>
 File: Cap5/Figuras/resultados_unfilt_15-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -6141,7 +6141,7 @@ t_15-eps-converted-to.pdf Cap5/Figuras/resultados_filt_15.eps>
 (epstopdf)             \includegraphics on input line 339.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_filt_15-eps-converted-to.pdf, id=2232, 391.4625pt x 29
+<Cap5/Figuras/resultados_filt_15-eps-converted-to.pdf, id=2231, 391.4625pt x 29
 6.10625pt>
 File: Cap5/Figuras/resultados_filt_15-eps-converted-to.pdf Graphic file (type p
 df)
@@ -6165,7 +6165,7 @@ ilt_16-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_16.eps>
 (epstopdf)             \includegraphics on input line 351.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_unfilt_16-eps-converted-to.pdf, id=2233, 392.46625pt x
+<Cap5/Figuras/resultados_unfilt_16-eps-converted-to.pdf, id=2232, 392.46625pt x
  296.10625pt>
 File: Cap5/Figuras/resultados_unfilt_16-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -6185,7 +6185,7 @@ t_16-eps-converted-to.pdf Cap5/Figuras/resultados_filt_16.eps>
 (epstopdf)             \includegraphics on input line 358.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_filt_16-eps-converted-to.pdf, id=2234, 392.46625pt x 2
+<Cap5/Figuras/resultados_filt_16-eps-converted-to.pdf, id=2233, 392.46625pt x 2
 96.10625pt>
 File: Cap5/Figuras/resultados_filt_16-eps-converted-to.pdf Graphic file (type p
 df)
@@ -6210,7 +6210,7 @@ ilt_17-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_17.eps>
 (epstopdf)             \includegraphics on input line 370.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_unfilt_17-eps-converted-to.pdf, id=2235, 387.4475pt x 
+<Cap5/Figuras/resultados_unfilt_17-eps-converted-to.pdf, id=2234, 387.4475pt x 
 299.1175pt>
 File: Cap5/Figuras/resultados_unfilt_17-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -6230,7 +6230,7 @@ t_17-eps-converted-to.pdf Cap5/Figuras/resultados_filt_17.eps>
 (epstopdf)             \includegraphics on input line 377.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_filt_17-eps-converted-to.pdf, id=2236, 387.4475pt x 29
+<Cap5/Figuras/resultados_filt_17-eps-converted-to.pdf, id=2235, 387.4475pt x 29
 9.1175pt>
 File: Cap5/Figuras/resultados_filt_17-eps-converted-to.pdf Graphic file (type p
 df)
@@ -6255,7 +6255,7 @@ ilt_18-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_18.eps>
 (epstopdf)             \includegraphics on input line 389.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_unfilt_18-eps-converted-to.pdf, id=2237, 379.4175pt x 
+<Cap5/Figuras/resultados_unfilt_18-eps-converted-to.pdf, id=2236, 379.4175pt x 
 291.0875pt>
 File: Cap5/Figuras/resultados_unfilt_18-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -6275,7 +6275,7 @@ t_18-eps-converted-to.pdf Cap5/Figuras/resultados_filt_18.eps>
 (epstopdf)             \includegraphics on input line 396.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_filt_18-eps-converted-to.pdf, id=2238, 379.4175pt x 29
+<Cap5/Figuras/resultados_filt_18-eps-converted-to.pdf, id=2237, 379.4175pt x 29
 1.0875pt>
 File: Cap5/Figuras/resultados_filt_18-eps-converted-to.pdf Graphic file (type p
 df)
@@ -6342,7 +6342,7 @@ ilt_19-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_19.eps>
 (epstopdf)             \includegraphics on input line 420.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_unfilt_19-eps-converted-to.pdf, id=2341, 421.575pt x 2
+<Cap5/Figuras/resultados_unfilt_19-eps-converted-to.pdf, id=2340, 421.575pt x 2
 96.10625pt>
 File: Cap5/Figuras/resultados_unfilt_19-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -6362,7 +6362,7 @@ t_19-eps-converted-to.pdf Cap5/Figuras/resultados_filt_19.eps>
 (epstopdf)             \includegraphics on input line 427.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_filt_19-eps-converted-to.pdf, id=2342, 418.56375pt x 2
+<Cap5/Figuras/resultados_filt_19-eps-converted-to.pdf, id=2341, 418.56375pt x 2
 96.10625pt>
 File: Cap5/Figuras/resultados_filt_19-eps-converted-to.pdf Graphic file (type p
 df)
@@ -6386,7 +6386,7 @@ ilt_20-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_20.eps>
 (epstopdf)             \includegraphics on input line 439.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_unfilt_20-eps-converted-to.pdf, id=2343, 421.575pt x 2
+<Cap5/Figuras/resultados_unfilt_20-eps-converted-to.pdf, id=2342, 421.575pt x 2
 96.10625pt>
 File: Cap5/Figuras/resultados_unfilt_20-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -6406,7 +6406,7 @@ t_20-eps-converted-to.pdf Cap5/Figuras/resultados_filt_20.eps>
 (epstopdf)             \includegraphics on input line 446.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_filt_20-eps-converted-to.pdf, id=2344, 421.575pt x 296
+<Cap5/Figuras/resultados_filt_20-eps-converted-to.pdf, id=2343, 421.575pt x 296
 .10625pt>
 File: Cap5/Figuras/resultados_filt_20-eps-converted-to.pdf Graphic file (type p
 df)
@@ -6431,7 +6431,7 @@ ilt_21-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_21.eps>
 (epstopdf)             \includegraphics on input line 458.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_unfilt_21-eps-converted-to.pdf, id=2345, 391.4625pt x 
+<Cap5/Figuras/resultados_unfilt_21-eps-converted-to.pdf, id=2344, 391.4625pt x 
 293.095pt>
 File: Cap5/Figuras/resultados_unfilt_21-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -6451,7 +6451,7 @@ t_21-eps-converted-to.pdf Cap5/Figuras/resultados_filt_21.eps>
 (epstopdf)             \includegraphics on input line 465.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_filt_21-eps-converted-to.pdf, id=2346, 391.4625pt x 29
+<Cap5/Figuras/resultados_filt_21-eps-converted-to.pdf, id=2345, 391.4625pt x 29
 3.095pt>
 File: Cap5/Figuras/resultados_filt_21-eps-converted-to.pdf Graphic file (type p
 df)
@@ -6475,7 +6475,7 @@ ilt_22-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_22.eps>
 (epstopdf)             \includegraphics on input line 477.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_unfilt_22-eps-converted-to.pdf, id=2347, 392.46625pt x
+<Cap5/Figuras/resultados_unfilt_22-eps-converted-to.pdf, id=2346, 392.46625pt x
  293.095pt>
 File: Cap5/Figuras/resultados_unfilt_22-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -6495,7 +6495,7 @@ t_22-eps-converted-to.pdf Cap5/Figuras/resultados_filt_22.eps>
 (epstopdf)             \includegraphics on input line 484.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_filt_22-eps-converted-to.pdf, id=2348, 392.46625pt x 2
+<Cap5/Figuras/resultados_filt_22-eps-converted-to.pdf, id=2347, 392.46625pt x 2
 93.095pt>
 File: Cap5/Figuras/resultados_filt_22-eps-converted-to.pdf Graphic file (type p
 df)
@@ -6520,7 +6520,7 @@ ilt_23-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_23.eps>
 (epstopdf)             \includegraphics on input line 496.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_unfilt_23-eps-converted-to.pdf, id=2349, 387.4475pt x 
+<Cap5/Figuras/resultados_unfilt_23-eps-converted-to.pdf, id=2348, 387.4475pt x 
 299.1175pt>
 File: Cap5/Figuras/resultados_unfilt_23-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -6540,7 +6540,7 @@ t_23-eps-converted-to.pdf Cap5/Figuras/resultados_filt_23.eps>
 (epstopdf)             \includegraphics on input line 503.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_filt_23-eps-converted-to.pdf, id=2350, 387.4475pt x 29
+<Cap5/Figuras/resultados_filt_23-eps-converted-to.pdf, id=2349, 387.4475pt x 29
 9.1175pt>
 File: Cap5/Figuras/resultados_filt_23-eps-converted-to.pdf Graphic file (type p
 df)
@@ -6565,7 +6565,7 @@ ilt_24-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_24.eps>
 (epstopdf)             \includegraphics on input line 515.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_unfilt_24-eps-converted-to.pdf, id=2351, 379.4175pt x 
+<Cap5/Figuras/resultados_unfilt_24-eps-converted-to.pdf, id=2350, 379.4175pt x 
 291.0875pt>
 File: Cap5/Figuras/resultados_unfilt_24-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -6585,7 +6585,7 @@ t_24-eps-converted-to.pdf Cap5/Figuras/resultados_filt_24.eps>
 (epstopdf)             \includegraphics on input line 522.
 Package epstopdf Info: Output file is already uptodate.
 
-<Cap5/Figuras/resultados_filt_24-eps-converted-to.pdf, id=2352, 379.4175pt x 29
+<Cap5/Figuras/resultados_filt_24-eps-converted-to.pdf, id=2351, 379.4175pt x 29
 1.0875pt>
 File: Cap5/Figuras/resultados_filt_24-eps-converted-to.pdf Graphic file (type p
 df)
@@ -6829,45 +6829,40 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 300.
 ### simple group (level 1) entered at line 67 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 32434 strings out of 493335
- 647402 string characters out of 3136684
- 808900 words of memory out of 3000000
- 34661 multiletter control sequences out of 15000+200000
+ 32431 strings out of 493335
+ 647362 string characters out of 3136684
+ 807826 words of memory out of 3000000
+ 34660 multiletter control sequences out of 15000+200000
  87716 words of font info for 184 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,77p,10385b,3420s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{equation.3.3.56} has been reference
-d but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.3.2.52} has been referenced but does not e
-xist, replaced by a fixed one
-
- <C:\Users\Joao\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcr
-m1200.pk> <C:\Users\Joao\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
-pi600\tcrm1095.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmbx8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-bxti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-csc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cme
-x10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.
-pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb
-><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Dissertacao.pdf (131 pages, 5641904 bytes).
+ <C:\Users\Joao\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
+en\ec\dpi600\tcrm1200.pk> <C:\Users\Joao\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
+ur\jknappen\ec\dpi600\tcrm1095.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmbx8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmbxti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cmextra/cmex8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pf
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Dissertacao.pdf (131 pages, 5649137 bytes).
 PDF statistics:
- 2714 PDF objects out of 2984 (max. 8388607)
- 466 named destinations out of 1000 (max. 500000)
+ 2716 PDF objects out of 2984 (max. 8388607)
+ 464 named destinations out of 1000 (max. 500000)
  1094 words of extra memory for PDF output out of 10000 (max. 10000000)
 
