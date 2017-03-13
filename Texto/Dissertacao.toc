@@ -11,12 +11,12 @@
 \contentsline {subsection}{\numberline {2.2.1}Linearidade em Sistemas El\'etricos}{29}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Problemas Causados por Cargas N\~ao Lineares na Rede}{31}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}Efeitos da Distor\c c\~ao Harm\^onica em Equipamentos}{36}{section.2.3}
-\contentsline {section}{\numberline {2.4}Normas para Qualifica\c c\~ao de Produto Aeron\'autico}{39}{section.2.4}
+\contentsline {section}{\numberline {2.4}Normas de Qualifica\c c\~ao de Produto Aeron\'autico}{39}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}MIL-STD 704 - \textit {Aircraft Electric Power Characteristics}}{40}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}DO-160 - \textit {Environmental Conditions and Test Procedures for Airborne Equipment - Section 16: Power Input}}{42}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}M\'etodos de Corre\c c\~ao de Fator de Pot\^encia}{43}{section.2.5}
+\contentsline {section}{\numberline {2.5}M\'etodos de Corre\c c\~ao de Fator de Pot\^encia}{44}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Sistemas Passivos}{44}{subsection.2.5.1}
-\contentsline {subsubsection}{\numberline {2.5.1.1}Filtros Passivos}{44}{subsubsection.2.5.1.1}
+\contentsline {subsubsection}{\numberline {2.5.1.1}Filtros Passivos}{45}{subsubsection.2.5.1.1}
 \contentsline {subsubsection}{\numberline {2.5.1.2}Retificadores Multipulso}{48}{subsubsection.2.5.1.2}
 \contentsline {subsection}{\numberline {2.5.2}Sistemas Ativos}{50}{subsection.2.5.2}
 \contentsline {subsubsection}{\numberline {2.5.2.1}Conversores com Corre\c c\~ao de Fator de Pot\^encia}{50}{subsubsection.2.5.2.1}
@@ -29,17 +29,17 @@
 \contentsline {subsection}{\numberline {3.1.2}Circuitos N\~ao Senoidais Monof\'asicos}{63}{subsection.3.1.2}
 \contentsline {subsection}{\numberline {3.1.3}Fator de Pot\^encia}{65}{subsection.3.1.3}
 \contentsline {subsubsection}{\numberline {3.1.3.1}Sistemas Senoidais}{66}{subsubsection.3.1.3.1}
-\contentsline {subsubsection}{\numberline {3.1.3.2}Sistemas n\~ao Lineares com Tens\~ao Senoidal}{66}{subsubsection.3.1.3.2}
+\contentsline {subsubsection}{\numberline {3.1.3.2}Sistemas n\~ao Lineares com Tens\~ao Senoidal}{67}{subsubsection.3.1.3.2}
 \contentsline {section}{\numberline {3.2}Pot\^encia Instant\^anea Utilizando a Teoria p-q em Circuitos Trif\'asicos}{67}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Transforma\c c\~ao de Coordenadas}{68}{subsection.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.1.1}Transformada de Clarke}{68}{subsubsection.3.2.1.1}
-\contentsline {subsection}{\numberline {3.2.2}Pot\^encia Instant\^anea em Coordenadas $\alpha \beta 0 $}{70}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Pot\^encia Instant\^anea em coordenadas $abc$}{73}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Teoria p-q em Sistemas Trif\'asicos a Tr\^es Fios}{74}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Significado F\IeC {\'\i }sico dos Par\^ametros da Teoria p-q}{77}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.2}Pot\^encia Instant\^anea em Coordenadas $\alpha \beta 0 $}{71}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Pot\^encia Instant\^anea em coordenadas $abc$}{74}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Teoria p-q em Sistemas Trif\'asicos a Tr\^es Fios}{75}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Significado F\IeC {\'\i }sico dos Par\^ametros da Teoria p-q}{78}{subsection.3.2.5}
 \contentsline {section}{\numberline {3.3}Filtros Ativos}{80}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Filtros Ativo Empregando a Teoria p-q}{81}{subsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.1.1}Sele\c c\~ao de Pot\^encias Compensadas}{82}{subsubsection.3.3.1.1}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Sele\c c\~ao de Pot\^encias Compensadas}{84}{subsubsection.3.3.1.1}
 \contentsline {subsubsection}{\numberline {3.3.1.2}Concep\c c\~ao dos Filtros Ativos}{85}{subsubsection.3.3.1.2}
 \contentsline {chapter}{\numberline {4}Caracter\IeC {\'\i }stica de Filtros Ativos em Sistemas Reais}{90}{chapter.4}
 \contentsline {section}{\numberline {4.1}Inversores Est\'aticos}{90}{section.4.1}
@@ -62,9 +62,9 @@
 \contentsline {subsubsection}{\numberline {5.1.2.1}Controle}{108}{subsubsection.5.1.2.1}
 \contentsline {subsubsection}{\numberline {5.1.2.2}Compensador}{110}{subsubsection.5.1.2.2}
 \contentsline {section}{\numberline {5.2}Resultados}{111}{section.5.2}
-\contentsline {subsubsection}{\numberline {5.2.0.1}EHA Inoperante}{113}{subsubsection.5.2.0.1}
-\contentsline {subsubsection}{\numberline {5.2.0.2}Corrente M\'axima}{115}{subsubsection.5.2.0.2}
-\contentsline {subsubsection}{\numberline {5.2.0.3}Regime Transit\'orio}{117}{subsubsection.5.2.0.3}
-\contentsline {subsubsection}{\numberline {5.2.0.4}Regime Permanente}{120}{subsubsection.5.2.0.4}
-\contentsline {chapter}{\numberline {6}Conclus\~ao}{123}{chapter.6}
-\contentsline {section}{\numberline {6.1}Pr\'oximos Passos}{124}{section.6.1}
+\contentsline {subsubsection}{\numberline {5.2.0.3}EHA Inoperante}{113}{subsubsection.5.2.0.3}
+\contentsline {subsubsection}{\numberline {5.2.0.4}Corrente M\'axima}{115}{subsubsection.5.2.0.4}
+\contentsline {subsubsection}{\numberline {5.2.0.5}Regime Transit\'orio}{119}{subsubsection.5.2.0.5}
+\contentsline {subsubsection}{\numberline {5.2.0.6}Regime Permanente}{122}{subsubsection.5.2.0.6}
+\contentsline {chapter}{\numberline {6}Conclus\~ao}{125}{chapter.6}
+\contentsline {section}{\numberline {6.1}Pr\'oximos Passos}{126}{section.6.1}
