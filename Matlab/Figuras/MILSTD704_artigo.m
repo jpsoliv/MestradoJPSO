@@ -68,6 +68,8 @@ IHCf = IHCf(max(y1)==ys(index));
 
 %% plots
 
+ys(fs>393&fs<407)=nan; %Elimina as componetens entre 393 e 407 Hz visto que estas estão dentro da MIL-STD 704F
+
 % close all
 ft = 30;
 fatorX = 2;
@@ -75,7 +77,7 @@ fatorY = 0.9;
 ftaxes = 50;
 ftlegend = 12;
 
-loglog(ffix,yfix,'k',fvar,yvar,'k--');
+loglog(ffix,yfix,'k');
 hold on
 plot(fs,ys/sqrt(2));
 hold off
@@ -92,7 +94,7 @@ xtx = get(gca,'xlim');
 xtx(1) = [];
 ytx = get(gca,'ylim');
 ytx(1) = [];
-tx = text(xtx*0.5,ytx*0.5,{['THD = ' num2str(THD,'%.2f') '%'];['IHC = ' num2str(IHC,'%.2f') '% @ ' num2str(round(IHCf),'%u') ' Hz']});
+tx = text(xtx*0.5,ytx*0.5,['THD = ' num2str(THD,'%.2f') '%']);
 set(tx,'VerticalAlignment','top');
 set(tx,'HorizontalAlignment','right');
 set(tx,'Interpreter','latex');

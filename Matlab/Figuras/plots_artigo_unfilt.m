@@ -28,17 +28,17 @@ ftaxes = 18;            % tamanho dos labels do eixo x e y
 
 [V,I,t] = periodo(Vsignal,Isignal,time,ti_inop,tf_inop);
 
-fig = figure(1);
-tensaocorrente(V,I,t);
-xlim([t(end)-0.01 t(end)]);
-set(gca,'XTick',[72.935, 72.935+0.0025 72.935+2*0.0025 72.935+3*0.0025 t(end)],'FontSize',xtickfontsize);
-yyaxis left
-ylim([-190 190]);
-yyaxis right
-ylim([-1.3 1.3]);
-axesftsize(ftaxes,'time [s]','',1);
-n = get(fig,'Number');
-print(['artigo_unfilt_',num2str(n)],'-depsc');
+% fig = figure(1);
+% tensaocorrente(V,I,t);
+% xlim([t(end)-0.01 t(end)]);
+% set(gca,'XTick',[72.935, 72.935+0.0025 72.935+2*0.0025 72.935+3*0.0025 t(end)],'FontSize',xtickfontsize);
+% yyaxis left
+% ylim([-190 190]);
+% yyaxis right
+% ylim([-1.3 1.3]);
+% axesftsize(ftaxes,'time [s]','',1);
+% n = get(fig,'Number');
+% print(['artigo_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(2);
 MILSTD704_artigo(t,V,f_rede);
@@ -51,18 +51,18 @@ print(['artigo_unfilt_',num2str(n)],'-depsc');
 
 [V,I,t] = periodo(Vsignal,Isignal,time,ti_max,tf_max);
 
-fig = figure(3);
-tensaocorrente(V,I,t);
-xlim([73.12 73.13]);
-set(gca,'XTick',[73.12, 73.12+0.0025 73.12+2*0.0025 73.12+3*0.0025 73.13],'FontSize',xtickfontsize);
-yyaxis left
-ylim([-190 190]);
-yyaxis right
-ylim([-400 400]);
-axesftsize(ftaxes,'time [s]','',1);
-ylim([-400 400]);
-n = get(fig,'Number');
-print(['artigo_unfilt_',num2str(n)],'-depsc');
+% fig = figure(3);
+% tensaocorrente(V,I,t);
+% xlim([73.12 73.13]);
+% set(gca,'XTick',[73.12, 73.12+0.0025 73.12+2*0.0025 73.12+3*0.0025 73.13],'FontSize',xtickfontsize);
+% yyaxis left
+% ylim([-190 190]);
+% yyaxis right
+% ylim([-400 400]);
+% axesftsize(ftaxes,'time [s]','',1);
+% ylim([-400 400]);
+% n = get(fig,'Number');
+% print(['artigo_unfilt_',num2str(n)],'-depsc');
 
 fig = figure(4);
 MILSTD704_artigo(t,V,f_rede);
