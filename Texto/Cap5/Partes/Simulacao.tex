@@ -99,7 +99,7 @@ O sinal de controle da fonte de corrente do lado DC é realizado de maneira a pro
 
 O filtro ativo modelado em ambiente Simulink tem como objetivo simular a operação do controle do compensador de maneira a avaliar a eficácia da filtragem e seu emprego no setor aeronáutico. Com isso, as diversas características que viabilizam o emprego desse tipo de filtro podem ser analisadas.
 
-O modelo é composto por diversos blocos criados para cada função de um filtro. A teoria de potência instantânea apresentadas no Capítulo \ref{cap:Filtros Ativos para Sistemas Elétricos} será implementada em um desses blocos para realizar os cálculos das correntes de referências do compensador. O compensador será implementada em outro bloco segundo as definições apresentadas no Capítulo \ref{cap:Característica de Filtros Ativos em Sistemas Reais}. A operação conjunta do compensador com o controle concebe o filtro ativo como todo.
+O modelo é composto por diversos blocos criados para cada função de um filtro. A teoria de potência instantânea apresentadas no Capítulo \ref{cap:Filtros Ativos para Sistemas Elétricos} será implementada em um desses blocos para realizar os cálculos das correntes de referências do compensador. O compensador será implementado em outro bloco segundo as definições apresentadas no Capítulo \ref{cap:Característica de Filtros Ativos em Sistemas Reais}. A operação conjunta do compensador com o controle concebe o filtro ativo como todo.
 
 \subsubsection{Controle}
 
@@ -112,7 +112,7 @@ O sub-bloco que determina as correntes de referência é constituído de duas parte
 \begin{figure}[!htb] %
 	\centering
 	\includegraphics[width=0.99\textwidth]{Cap5/Figuras/controlador.png}
-	\caption{Sub-bloco para determinação das corrente de referência}
+	\caption{Sub-bloco para determinação das correntes de referência}
 	\label{fig:controladador.png}
 \end{figure}
 
@@ -127,7 +127,7 @@ A operação deste bloco é realizada pela comparação do sinal de referência com a 
 	\label{fig:histerese_sim.png}
 \end{figure}
 
-O controle de tensão do capacitor disposto no lado DC do inversor é mostrado na Figura \ref{fig:PI_sim.png}. Este sub-bloco tem em sua entrada a medida de tensão do capacitor, ao passo que em sua saída é disponibilizado o sinal de potência das perdas ocorridas na operação do inversor. Tal sinal de saída é direcionado para o cálculo das potências instantâneas do sub-bloco de determinação de correntes de referência (Figra \ref{fig:controladador.png}).
+O controle de tensão do capacitor disposto no lado DC do inversor é mostrado na Figura \ref{fig:PI_sim.png}. Este sub-bloco tem em sua entrada a medida de tensão do capacitor, ao passo que em sua saída é disponibilizado o sinal de potência das perdas ocorridas na operação do inversor. Tal sinal de saída é direcionado para o cálculo das potências instantâneas do sub-bloco de determinação de correntes de referência (Figura \ref{fig:controladador.png}).
 
 Este bloco constitui de um controlador proporcional-integral (PI), onde os valores de $P$ e $I$ são escolhidos de maneira a apresentar uma resposta do controlador adequada ao funcionamento do sistema. Para a simulação em questão, os valores de $P$ e $I$ foram escolhidos de maneira arbitrária e teve seus valores refinados baseados na resposta dinâmica da tensão do capacitor. A referência é obtida como um sinal degrau com amplitude fixa, a qual é gerado pela \textit{Signal Builder} do Simulink. 
 

@@ -62,9 +62,9 @@
 \contentsline {subsubsection}{\numberline {5.1.2.1}Controle}{108}{subsubsection.5.1.2.1}
 \contentsline {subsubsection}{\numberline {5.1.2.2}Compensador}{110}{subsubsection.5.1.2.2}
 \contentsline {section}{\numberline {5.2}Resultados}{111}{section.5.2}
-\contentsline {subsubsection}{\numberline {5.2.0.1}EHA Inoperante}{113}{subsubsection.5.2.0.1}
-\contentsline {subsubsection}{\numberline {5.2.0.2}Corrente M\'axima}{115}{subsubsection.5.2.0.2}
-\contentsline {subsubsection}{\numberline {5.2.0.3}Regime Transit\'orio}{119}{subsubsection.5.2.0.3}
-\contentsline {subsubsection}{\numberline {5.2.0.4}Regime Permanente}{122}{subsubsection.5.2.0.4}
+\contentsline {subsubsection}{\numberline {5.2.0.3}EHA Inoperante}{113}{subsubsection.5.2.0.3}
+\contentsline {subsubsection}{\numberline {5.2.0.4}Corrente M\'axima}{115}{subsubsection.5.2.0.4}
+\contentsline {subsubsection}{\numberline {5.2.0.5}Regime Transit\'orio}{119}{subsubsection.5.2.0.5}
+\contentsline {subsubsection}{\numberline {5.2.0.6}Regime Permanente}{122}{subsubsection.5.2.0.6}
 \contentsline {chapter}{\numberline {6}Conclus\~ao}{125}{chapter.6}
 \contentsline {section}{\numberline {6.1}Pr\'oximos Passos}{126}{section.6.1}

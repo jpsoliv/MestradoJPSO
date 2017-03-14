@@ -397,17 +397,17 @@
 % definição do quadro
 \def\@cipwindow{%
         \framebox[\textwidth]{%
-        \begin{minipage}{\textwidth - 10mm}%
+        \begin{minipage}{\textwidth - 15mm}%
 	   \begin{flushleft}
 	   	\vspace*{0.4ex}
-                \setlength{\parindent}{0.5em}%
+                \setlength{\parindent}{0.5cm}%
 		\begin{footnotesize}
  		   \begin{onehalfspacing}
  		    \setlength{\baselineskip}{0.7\baselineskip}
 		    \noindent\@authorlast, \@authorfirst\par
                     \@title\ / \@authorfirst\ \@authorlast.\\
                     \noindent S\~{a}o Jos\'{e} dos Campos, \@publyear.\par
-                    \NumPenultimaPagina f.\par
+                    \noindent \NumPenultimaPagina f.\par
 		    \vspace{\baselineskip}
 		    \itacipdata1babel
                     \vspace{0.4ex}
@@ -1018,9 +1018,9 @@
      
      \begin{tabularx}{\textwidth}{|X|X|X|X|}
 	\hline
-	\multicolumn{ 4}{|c|}{} \\
-	\multicolumn{ 4}{|c|}{\normalsize FOLHA DE REGISTRO DO DOCUMENTO} \\
-	\multicolumn{ 4}{|c|}{} \\
+	%\multicolumn{ 4}{|c|}{} \
+	\multicolumn{ 4}{|c|}{\normalsize FOLHA DE REGISTRO DO DOCUMENTO} \\[1.4cm]
+	%\multicolumn{ 4}{|c|}{} \\
 	\hline
 	
 	$^{1.}$ \scriptsize CLASSIFICAÇÃO/TIPO & 
@@ -1107,7 +1107,8 @@
   \else
     \newcounter{butlastpage}%
     \setcounter{butlastpage}{\expandafter\deixasosegundo\r@LastPage!}%
-    \addtocounter{butlastpage}{-1}%
+    \addtocounter{butlastpage}{0}%
+%    \addtocounter{butlastpage}{-1}%
     \newcommand\NumPenultimaPagina{}%
     \edef\NumPenultimaPagina{\arabic{butlastpage}}%
   \fi}

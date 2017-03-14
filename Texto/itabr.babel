@@ -98,15 +98,14 @@
 %Pagina CIP
 %--------------------------------------------------------
 \gdef\itaciptitlebabel{Dados Internacionais de Cataloga{\c{c}}{\~a}o-na-Publica{\c{c}}{\~a}o (CIP)}
-\gdef\itacipbibbabel{Divis{\~a}o Biblioteca Central do ITA/CTA}
+\gdef\itacipbibbabel{Divis{\~a}o de Informa{\c{c}}{\~a} e Documenta{\c{c}}{\~a}o}
 
-\gdef\itacipdata1babel {\itaworklevel\ de \itaoptioncourse\ -- Curso de \itaworkcourse. 
+\gdef\itacipdata1babel {\itaworklevel\ de \MakeLowercase{\itaoptioncourse}\ -- Curso de Mestrado Profissionalizante em Engenharia Aeron\'autica, 
 \'{A}rea de \itaworkarea\ -- Instituto Tecnol\'{o}gico de Aeron\'{a}utica,
 	\@publyear. Orientador: \itaadvisortitle\ \itaadvisorname. \@ifundefined{@coadvisor}{}{Coorientador:
 	\@itacoadvisortitle\ \@itacoadvisorname}.\par
 	\vspace{\baselineskip}
-	\@cipkw\ I. Centro T\'{e}cnico Aeroespacial. Instituto Tecnol\'{o}gico de Aeron\'{a}utica. Divis\~{a}o de
-	\itaworkdept. II.~T\'{\i}tulo.\par}
+	\@cipkw\ I. Instituto Tecnol\'{o}gico de Aeron\'{a}utica. II.~T\'{\i}tulo.\par}
 
 \gdef\itarefbibnamecipbabel{REFER\^{E}NCIA BIBLIOGR\'{A}FICA}
 
@@ -119,7 +118,7 @@
 \gdef\itacipworktype{TIPO DO TRABALHO/ANO:}
 
 \gdef\itacesdirtextbabel{{\'E} concedida ao Instituto Tecnol{\'o}gico de Aeron{\'a}utica permiss{\~a}o 
-        para reproduzir c{\'o}pias desta \itaworklevel\ e para emprestar ou vender c{\'o}pias somente para prop{\'o}sitos 
+        para reproduzir c{\'o}pias desta \MakeLowercase{\itaworklevel}\ e para emprestar ou vender c{\'o}pias somente para prop{\'o}sitos 
 	acad{\^e}micos e cient{\'\i}ficos. O autor reserva outros direitos de  publica{\c{c}}{\~a}o e nenhuma 
-	parte desta \itaworklevel\ pode ser reproduzida sem a autoriza{\c{c}}{\~a}o do autor.}
+	parte desta \MakeLowercase{\itaworklevel}\ pode ser reproduzida sem a sua autoriza{\c{c}}{\~a}o (do autor).}
 

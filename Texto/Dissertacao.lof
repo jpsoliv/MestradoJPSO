@@ -69,35 +69,35 @@
 \contentsline {figure}{\numberline {63}{\ignorespaces Subsistema el\'etrico de um EHA\relax }}{106}{figure.caption.76}
 \contentsline {figure}{\numberline {64}{\ignorespaces Modelo do EHA empregado no Simulink\relax }}{107}{figure.caption.77}
 \contentsline {figure}{\numberline {65}{\ignorespaces Valores estipulados na fonte de corrente controlada\relax }}{107}{figure.caption.78}
-\contentsline {figure}{\numberline {66}{\ignorespaces Sub-bloco para determina\c c\~ao das corrente de refer\^encia\relax }}{108}{figure.caption.79}
+\contentsline {figure}{\numberline {66}{\ignorespaces Sub-bloco para determina\c c\~ao das correntes de refer\^encia\relax }}{108}{figure.caption.79}
 \contentsline {figure}{\numberline {67}{\ignorespaces Obten\c c\~ao do sinal de comando dos interruptores por controle de histerese\relax }}{109}{figure.caption.80}
 \contentsline {figure}{\numberline {68}{\ignorespaces Sub-bloco de controle de tens\~ao do capacitor\relax }}{110}{figure.caption.81}
 \contentsline {figure}{\numberline {69}{\ignorespaces Bloco do compensador\relax }}{111}{figure.caption.82}
 \contentsline {figure}{\numberline {70}{\ignorespaces Perfil de amplitude da corrente de carga na opera\c c\~ao de tr\^es EHAs\relax }}{112}{figure.caption.83}
-\contentsline {figure}{\numberline {71}{\ignorespaces Per\IeC {\'\i }odo simulado com EHA inoperante\relax }}{113}{figure.caption.84}
+\contentsline {figure}{\numberline {71}{\ignorespaces Per\IeC {\'\i }odo simulado com EHA Inoperante\relax }}{113}{figure.caption.84}
 \contentsline {figure}{\numberline {72}{\ignorespaces Formas de onda de tens\~ao e corrente em regime de EHA Inoperante\relax }}{114}{figure.caption.85}
 \contentsline {figure}{\numberline {73}{\ignorespaces Detalhe das pot\^encias instant\^aneas em regime de EHA Inoperante\relax }}{114}{figure.caption.86}
 \contentsline {figure}{\numberline {74}{\ignorespaces Espectro de frequ\^encia da tens\~ao em regime de EHA Inoperante e delimita\c c\~ao definida pela norma MIL-STD 704F\relax }}{114}{figure.caption.87}
 \contentsline {figure}{\numberline {75}{\ignorespaces Amplitude das componentes harm\^onicas em regime de EHA Inoperante\relax }}{115}{figure.caption.88}
-\contentsline {figure}{\numberline {76}{\ignorespaces Per\IeC {\'\i }odo simulado com EHA requisitando corrente m\'axima\relax }}{116}{figure.caption.89}
+\contentsline {figure}{\numberline {76}{\ignorespaces Per\IeC {\'\i }odo simulado com EHA requisitando Corrente M\'axima\relax }}{116}{figure.caption.89}
 \contentsline {figure}{\numberline {77}{\ignorespaces Formas de onda de corrente em regime de Corrente M\'axima\relax }}{116}{figure.caption.90}
 \contentsline {figure}{\numberline {78}{\ignorespaces Formas de onda de tens\~ao e corrente em regime de Corrente M\'axima\relax }}{116}{figure.caption.91}
 \contentsline {figure}{\numberline {79}{\ignorespaces Pot\^encias instant\^aneas em regime de Corrente M\'axima\relax }}{117}{figure.caption.92}
 \contentsline {figure}{\numberline {80}{\ignorespaces Detalhe das pot\^encias instant\^aneas em regime de Corrente M\'axima\relax }}{117}{figure.caption.93}
 \contentsline {figure}{\numberline {81}{\ignorespaces Espectro de frequ\^encia da tens\~ao em regime de Corrente M\'axima e delimita\c c\~ao definida pela norma MIL-STD 704F\relax }}{117}{figure.caption.94}
 \contentsline {figure}{\numberline {82}{\ignorespaces Amplitude das componentes harm\^onicas em regime de Corrente M\'axima\relax }}{118}{figure.caption.95}
-\contentsline {figure}{\numberline {83}{\ignorespaces Per\IeC {\'\i }odo simulado com EHA em regime transit\'orio\relax }}{119}{figure.caption.96}
-\contentsline {figure}{\numberline {84}{\ignorespaces Formas de onda de corrente em regime Regime Transit\'orio\relax }}{120}{figure.caption.97}
-\contentsline {figure}{\numberline {85}{\ignorespaces Formas de onda de tens\~ao e corrente em regime Regime Transit\'orio\relax }}{120}{figure.caption.98}
-\contentsline {figure}{\numberline {86}{\ignorespaces Pot\^encias instant\^aneas em regime Regime Transit\'orio\relax }}{120}{figure.caption.99}
-\contentsline {figure}{\numberline {87}{\ignorespaces Detalhe das pot\^encias instant\^aneas em regime Regime Transit\'orio\relax }}{121}{figure.caption.100}
-\contentsline {figure}{\numberline {88}{\ignorespaces Espectro de frequ\^encia da tens\~ao em regime Regime Transit\'orio e delimita\c c\~ao definida pela norma MIL-STD 704F\relax }}{121}{figure.caption.101}
-\contentsline {figure}{\numberline {89}{\ignorespaces Amplitude das componentes harm\^onicas em regime Regime Transit\'orio\relax }}{121}{figure.caption.102}
-\contentsline {figure}{\numberline {90}{\ignorespaces Per\IeC {\'\i }odo simulado com EHA em regime permanente\relax }}{122}{figure.caption.103}
-\contentsline {figure}{\numberline {91}{\ignorespaces Formas de onda de corrente em regime Regime Permanente\relax }}{123}{figure.caption.104}
-\contentsline {figure}{\numberline {92}{\ignorespaces Formas de onda de tens\~ao e corrente em regime Regime Permanente\relax }}{123}{figure.caption.105}
-\contentsline {figure}{\numberline {93}{\ignorespaces Pot\^encias instant\^aneas em regime Regime Permanente\relax }}{123}{figure.caption.106}
-\contentsline {figure}{\numberline {94}{\ignorespaces Detalhe das pot\^encias instant\^aneas em regime Regime Permanente\relax }}{124}{figure.caption.107}
-\contentsline {figure}{\numberline {95}{\ignorespaces Espectro de frequ\^encia da tens\~ao em regime Regime Permanente e delimita\c c\~ao definida pela norma MIL-STD 704F\relax }}{124}{figure.caption.108}
-\contentsline {figure}{\numberline {96}{\ignorespaces Amplitude das componentes harm\^onicas em regime Regime Permanente\relax }}{124}{figure.caption.109}
+\contentsline {figure}{\numberline {83}{\ignorespaces Per\IeC {\'\i }odo simulado com EHA em Regime Transit\'orio\relax }}{119}{figure.caption.96}
+\contentsline {figure}{\numberline {84}{\ignorespaces Formas de onda de corrente durante o Regime Transit\'orio\relax }}{120}{figure.caption.97}
+\contentsline {figure}{\numberline {85}{\ignorespaces Formas de onda de tens\~ao e corrente durante o Regime Transit\'orio\relax }}{120}{figure.caption.98}
+\contentsline {figure}{\numberline {86}{\ignorespaces Pot\^encias instant\^aneas durante o Regime Transit\'orio\relax }}{120}{figure.caption.99}
+\contentsline {figure}{\numberline {87}{\ignorespaces Detalhe das pot\^encias instant\^aneas durante o Regime Transit\'orio\relax }}{121}{figure.caption.100}
+\contentsline {figure}{\numberline {88}{\ignorespaces Espectro de frequ\^encia da tens\~ao durante o Regime Transit\'orio e delimita\c c\~ao definida pela norma MIL-STD 704F\relax }}{121}{figure.caption.101}
+\contentsline {figure}{\numberline {89}{\ignorespaces Amplitude das componentes harm\^onicas durante o Regime Transit\'orio\relax }}{121}{figure.caption.102}
+\contentsline {figure}{\numberline {90}{\ignorespaces Per\IeC {\'\i }odo simulado com EHA em Regime Permanente\relax }}{122}{figure.caption.103}
+\contentsline {figure}{\numberline {91}{\ignorespaces Formas de onda de corrente durante o Regime Permanente\relax }}{123}{figure.caption.104}
+\contentsline {figure}{\numberline {92}{\ignorespaces Formas de onda de tens\~ao e corrente durante o Regime Permanente\relax }}{123}{figure.caption.105}
+\contentsline {figure}{\numberline {93}{\ignorespaces Pot\^encias instant\^aneas durante o Regime Permanente\relax }}{123}{figure.caption.106}
+\contentsline {figure}{\numberline {94}{\ignorespaces Detalhe das pot\^encias instant\^aneas durante o Regime Permanente\relax }}{124}{figure.caption.107}
+\contentsline {figure}{\numberline {95}{\ignorespaces Espectro de frequ\^encia da tens\~ao durante o Regime Permanente e delimita\c c\~ao definida pela norma MIL-STD 704F\relax }}{124}{figure.caption.108}
+\contentsline {figure}{\numberline {96}{\ignorespaces Amplitude das componentes harm\^onicas durante o Regime Permanente\relax }}{124}{figure.caption.109}
 \addvspace {10\p@ }

@@ -21,7 +21,7 @@ Filtros passivos são circuitos dotados de componentes elétricos passivos lineare
 
 Conceitualmente, pode-se considerar a concepção de filtros ideais e reais. De maneira simplificada, os filtros ideais são tais que em determinadas frequências a atenuação de um sinal é nula e em outras é infinita, ou seja, as amplitudes dos componentes do espectro não se alteram em determinadas frequências, mas em outras são levadas a zero, respectivamente. Tais filtros não são realizáveis e na prática são utilizados filtros reais. Esses filtros não possuem uma atenuação infinita, e a diminuição das respectivas amplitudes em função da frequência é dada segundo a ordem do filtro. De maneira geral, a ordem do filtro é dada de acordo com o número de elementos armazenadores de energia concebidos no circuito. Assim, para que o filtro real tenha o mesmo comportamento que o ideal haveria de ter ordem infinita, o que o torna inconcebível. 
 
-A frequência de corte ($f_c$) dos filtros reais é definida sendo a frequência onde a potência do sinal de saída é igual a metade da potência do sinal de entrada. A definição pode ser estendida como a frequência a qual a razão dos sinais de entrada e saída é igual $\sfrac{1}{\sqrt{2}}$, ou seja, -3 decibéis.
+A frequência de corte ($f_c$) dos filtros reais é definida sendo a frequência onde a potência do sinal de saída é igual à metade da potência do sinal de entrada. A definição pode ser estendida como a frequência a qual a razão dos sinais de entrada e saída é igual $\sfrac{1}{\sqrt{2}}$, ou seja, -3 decibéis.
 
 Os filtros passivos podem ser divididos em quatro tipos: Passa Baixa, Passa Alta, Passa Faixa e Rejeita Faixa.
 
@@ -151,7 +151,7 @@ Os retificadores são comumente encontrados com as topologias de 12, 18, 24 e 30 
 	\label{fig:18_pulse}
 \end{figure*}
 
-Uma característica importante quanto à operação de retificadores multipulso é o fato de que a tensão na entrada do retificador pode ter sua frequência variável. Sendo assim, o fator de potência é elevado no sistema independente da frequência em seus terminais \cite{Gong2003,Lobo2005}. Cabe lembrar, porém, que o desenvolvimento de um conversor multipulso deve contemplar o fato deste operar em frequência variável desde a fase de projeto, para adequar a operação do autotransformador altamente dependente da frequência de operação.
+Uma característica importante quanto à operação de retificadores multipulso é o fato de que a tensão na entrada do retificador pode ter sua frequência variável. Sendo assim, o fator de potência é elevado no sistema independente da frequência em seus terminais \cite{Gong2003,Lobo2005}. Cabe lembrar, porém, que o desenvolvimento de um conversor multipulso deve contemplar o fato de este operar em frequência variável desde a fase de projeto, para adequar a operação do autotransformador altamente dependente da frequência de operação.
 
 \subsection{Sistemas Ativos}
 
@@ -211,7 +211,7 @@ Encontram-se inúmeras topologias de conversores com correção de fator de potênci
 %	\label{fig:rectifiers}
 %\end{figure*}
 
-Como resultado da operação do conversor Prasad-Ziogas, as formas de onda nos indutores de entrada são mostradas na Figura \ref{fig:PFC_waveforms}. Como mencionado, a forma de onda apresenta modulação em amplitude (Figura \ref{fig:PFC_unfilt}), assim, o espectro de frequência da corrente de entrada apresenta um pico na componente fundamental juntamente com harmônicas nas altas frequências. Com a implementação de filtros passa-baixo, são atenuadas as componentes de alta frequência, sobrando majoritariamente a fundamental. A corrente de linha resultante após a filtragem é mostrada na Figura \ref{fig:PFC_filt}.
+Como resultado da operação do conversor Prasad-Ziogas, as formas de onda nos indutores de entrada são mostradas na Figura \ref{fig:PFC_waveforms}. Como mencionado, a forma de onda apresenta modulação em amplitude (Figura \ref{fig:PFC_unfilt}), assim, o espectro de frequência da corrente de entrada apresenta um pico no componente fundamental juntamente com harmônicas nas altas frequências. Com a implementação de filtros passa-baixo, são atenuadas as componentes de alta frequência, sobrando majoritariamente a fundamental. A corrente de linha resultante após a filtragem é mostrada na Figura \ref{fig:PFC_filt}.
 
 \begin{figure*}[!htb] % Corrente de entrada para o caso sem e com filtro na linha
 	\centering
