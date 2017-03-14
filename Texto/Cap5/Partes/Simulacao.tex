@@ -1,6 +1,6 @@
 \section{Simulação}
 
-A simulação do sistema composto por elementos não lineares operando juntamente com filtros ativos conectados na rede de um sistema elétrico aeronáutico é apresentada a seguir. A proposta dessa simulação é criar em ambiente Simulink um sistema típico de geração e distribuição elétrica de uma aeronave de maneira suficientemente completa para analisar os aspectos operacionais de filtros ativos, além de observar suas características operando com modelos de elementos não ideais \todo[backgroundcolor=red!25]{Reais?? FEITO} em uma rede elétrica aeronáutica. O sistema sob o ponto de vista de proteção e integração não foi modelado.
+A simulação do sistema composto por elementos não lineares operando juntamente com filtros ativos conectados na rede de um sistema elétrico aeronáutico é apresentada a seguir. A proposta dessa simulação é criar em ambiente Simulink um sistema típico de geração e distribuição elétrica de uma aeronave de maneira suficientemente completa para analisar os aspectos operacionais de filtros ativos, além de observar suas características operando com modelos de elementos não ideais em uma rede elétrica aeronáutica. O sistema sob o ponto de vista de proteção e integração não foi modelado.
 
 As características do sistema do modelo consideram uma aeronave de transporte civil com capacidade de uma média de 100 passageiros. Em tais aeronaves, o sistema de geração é composto por mais de um gerador, entretanto, em operação normal, os canais de geração são segregados, sendo que será simulado apenas um canal de geração e distribuição. Visto que o foco nesse trabalho não contempla integração de vários sistemas alimentados eletricamente, a carga será toda composta por elementos iguais e não lineares, sendo que estes devem ser propícios a operar com filtros ativos. Dessa maneira, foi determinada a carga sendo constituída por três EHAs operando simultaneamente, sob o mesmo regime de carregamento e operando no mesmo instante. Esta condição pode ocorrer em uma aeronave com a atuação de alguns EHAs em uma mesma superfície de controle.
 
@@ -34,7 +34,7 @@ O subconjunto inferior compõe o gerador. A máquina síncrona é também um bloco pr
 	\caption{Impedância interna do Gerador \cite{Olivier}}
 	\label{tab:Zgen}
 \end{table}
-\todo[backgroundcolor=red!25]{De onde vem esses valores?? REF FEITO}
+
 \subsubsection{Sistema de Distribuição}
 
 O sistema de distribuição de uma aeronave é constituído pelos condutores que transferem a energia entre os subsistemas, além dos barramentos de distribuição e equipamentos de proteção do sistema elétrico. Contudo, nesse trabalho as proteções não estão no escopo da simulação, sendo que o modelo proposto será composto apenas pelas linhas de transmissão e um barramento a qual as cargas possam ser conectadas.
@@ -48,7 +48,7 @@ O ponto de conexão em comum está localizado na PDU (\textit{Primary Distribution
 	\label{fig:dist.png}
 \end{figure}
 
-As não idealidades dos condutores são modeladas com a inserção de resistências e reatâncias indutivas conectadas em série nas linhas de transmissão do sistema. As capacitâncias entre os condutores e o plano de terra não são consideradas devidos sua insignificância frente à potência e o tamanho das cablagens \cite{Exner1953}\todo[backgroundcolor=red!25]{REF?? FEITO}. As bitolas dos fios e seus comprimentos estão adequadamente dimensionados para a corrente transmitida e o tamanho comumente encontrado em uma aeronave do porte do modelo. Sendo assim, os valores de impedância de cada seção do sistema trifásico são definidos seguindo os parâmetros encontrados em \cite{Exner1953}. A Tabela \ref{tab:Zdist} expõe as definições do modelo quanto às cablagens utilizadas e suas impedâncias em cada seção na aeronave genérica considerada para o estudo. 
+As não idealidades dos condutores são modeladas com a inserção de resistências e reatâncias indutivas conectadas em série nas linhas de transmissão do sistema. As capacitâncias entre os condutores e o plano de terra não são consideradas devidos sua insignificância frente à potência e o tamanho das cablagens \cite{Exner1953}. As bitolas dos fios e seus comprimentos estão adequadamente dimensionados para a corrente transmitida e o tamanho comumente encontrado em uma aeronave do porte do modelo. Sendo assim, os valores de impedância de cada seção do sistema trifásico são definidos seguindo os parâmetros encontrados em \cite{Exner1953}. A Tabela \ref{tab:Zdist} expõe as definições do modelo quanto às cablagens utilizadas e suas impedâncias em cada seção na aeronave genérica considerada para o estudo. 
 
 \begin{table}[!htb]
 	\centering
@@ -115,7 +115,7 @@ O sub-bloco que determina as correntes de referência é constituído de duas parte
 	\caption{Sub-bloco para determinação das corrente de referência}
 	\label{fig:controladador.png}
 \end{figure}
-\todo[backgroundcolor=red!25]{Nunca use o termo "medição" para descrever uma estimativa FEITO}
+
 O sub-bloco de comando dos interruptores estáticos do inversor, onde é empregado o controle por histerese, é mostrado na Figura \ref{fig:histerese_sim.png}. Nesse bloco, a entrada é composta pelos sinais de referência das correntes advindas do sub-bloco da Figura \ref{fig:controladador.png} (I\_ref), juntamente com a estimativa da corrente na saída do inversor (I\_meas). A saída é composta pelo sinal de comando de cada interruptor a qual é empregado no inversor.
 
 A operação deste bloco é realizada pela comparação do sinal de referência com a estimativa da corrente na saída do inversor. O sinal advindo da comparação passa por um relé programado com histerese, onde é definida a banda de histerese, e, por fim, a saída contendo um sinal binário é gerada. Os sinais de cada fase do sistema são gerados individualmente com o controle de comutação dos interruptores de cada braço do inversor. Como estes interruptores não podem ser comutados para o estado de condução simultaneamente, seus comandos devem ser complementares. Este complemento é adquirido pela lógica NOT do sub-bloco.

@@ -1,103 +1,103 @@
 \select@language {brazil}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1}{\ignorespaces Aumento capacidade de gera\c c\~ao de aeronaves \cite {Frost2008}}}{27}{figure.caption.10}
-\contentsline {figure}{\numberline {2}{\ignorespaces Aumento da capacidade de gera\c c\~ao ao longo dos anos\relax }}{27}{figure.caption.11}
-\contentsline {figure}{\numberline {3}{\ignorespaces Tend\^encia futura para o mercado de avia\c c\~ao \cite {Boeing2007}}}{28}{figure.caption.12}
-\contentsline {figure}{\numberline {4}{\ignorespaces Circuito com carga linear com as respectivas formas de onda\relax }}{30}{figure.caption.13}
-\contentsline {figure}{\numberline {5}{\ignorespaces Circuito com carga n\~ao linear com as respectivas formas de onda\relax }}{30}{figure.caption.14}
-\contentsline {figure}{\numberline {6}{\ignorespaces Equivalentes Th\'evenin\relax }}{32}{figure.caption.16}
-\contentsline {figure}{\numberline {7}{\ignorespaces Circuito real monof\'asico\relax }}{32}{figure.caption.17}
-\contentsline {figure}{\numberline {8}{\ignorespaces Corrente do gerador para o barramento\relax }}{34}{figure.caption.21}
-\contentsline {figure}{\numberline {9}{\ignorespaces Queda de tens\~ao em $v_G+v_L$ \relax }}{34}{figure.caption.22}
-\contentsline {figure}{\numberline {10}{\ignorespaces Tens\~ao $v_B$ comparativamente \`a tens\~ao $v_S$\relax }}{35}{figure.caption.23}
-\contentsline {figure}{\numberline {11}{\ignorespaces Transformada de Fourier da tens\~ao $v_B$\relax }}{35}{figure.caption.24}
-\contentsline {figure}{\numberline {12}{\ignorespaces Presen\c ca de \textit {notches} na ondula\c c\~ao de tens\~ao \cite {Notches}}}{37}{figure.caption.26}
-\contentsline {figure}{\numberline {13}{\ignorespaces Limites do espectro de frequ\^encia definidas pela MIL-STD704F para sistemas AC \cite {MILSTD}\relax }}{41}{figure.caption.29}
-\contentsline {figure}{\numberline {14}{\ignorespaces Limites do espectro de frequ\^encia definidas pela MIL-STD704F para sistemas DC \cite {MILSTD}\relax }}{41}{figure.caption.31}
-\contentsline {figure}{\numberline {15}{\ignorespaces Esquema de um filtro passivo gen\'erico\relax }}{45}{figure.caption.35}
-\contentsline {figure}{\numberline {16}{\ignorespaces Resposta em frequ\^encia de um filtro passa baixa\relax }}{46}{figure.caption.36}
-\contentsline {figure}{\numberline {17}{\ignorespaces Resposta em frequ\^encia de um filtro passa alta\relax }}{46}{figure.caption.37}
-\contentsline {figure}{\numberline {18}{\ignorespaces Resposta em frequ\^encia de um filtro passa faixa\relax }}{47}{figure.caption.38}
-\contentsline {figure}{\numberline {19}{\ignorespaces Resposta em frequ\^encia de um filtro rejeita faixa\relax }}{48}{figure.caption.39}
-\contentsline {figure}{\numberline {20}{\ignorespaces Esquema gen\'erico de um conversor multipulso\relax }}{49}{figure.caption.40}
-\contentsline {figure}{\numberline {21}{\ignorespaces Circuito t\IeC {\'\i }pico de um retificador de 12 pulsos com sua respectiva corrente de entrada\relax }}{49}{figure.caption.41}
-\contentsline {figure}{\numberline {22}{\ignorespaces Circuito t\IeC {\'\i }pico de um retificador de 18 pulsos com sua respectiva corrente de entrada\relax }}{49}{figure.caption.42}
-\contentsline {figure}{\numberline {23}{\ignorespaces Conversores AC-DC de dois est\'agios\relax }}{51}{figure.caption.43}
-\contentsline {figure}{\numberline {24}{\ignorespaces Retificador trif\'asico com ponte de diodos\relax }}{51}{figure.caption.44}
-\contentsline {figure}{\numberline {25}{\ignorespaces Conversor com corre\c c\~ao de fator de pot\^encia do tipo Prasad-Ziogas \cite {Takeuchi2008}}}{52}{figure.caption.45}
-\contentsline {figure}{\numberline {26}{\ignorespaces Diagrama b\'asico do conversor PFC\relax }}{52}{figure.caption.46}
-\contentsline {figure}{\numberline {27}{\ignorespaces Corrente de entrada para o caso sem e com filtro na linha\relax }}{52}{figure.caption.47}
-\contentsline {figure}{\numberline {28}{\ignorespaces Filtro ativo do tipo \textit {shunt}\relax }}{54}{figure.caption.48}
-\contentsline {figure}{\numberline {29}{\ignorespaces Filtro ativo do tipo s\'erie\relax }}{54}{figure.caption.49}
+\contentsline {figure}{\numberline {1}{\ignorespaces Aumento capacidade de gera\c c\~ao de aeronaves \cite {Frost2008}}}{27}{figure.caption.8}
+\contentsline {figure}{\numberline {2}{\ignorespaces Aumento da capacidade de gera\c c\~ao ao longo dos anos\relax }}{27}{figure.caption.9}
+\contentsline {figure}{\numberline {3}{\ignorespaces Tend\^encia futura para o mercado de avia\c c\~ao \cite {Boeing2007}}}{28}{figure.caption.10}
+\contentsline {figure}{\numberline {4}{\ignorespaces Circuito com carga linear com as respectivas formas de onda\relax }}{30}{figure.caption.11}
+\contentsline {figure}{\numberline {5}{\ignorespaces Circuito com carga n\~ao linear com as respectivas formas de onda\relax }}{30}{figure.caption.12}
+\contentsline {figure}{\numberline {6}{\ignorespaces Equivalentes Th\'evenin\relax }}{32}{figure.caption.13}
+\contentsline {figure}{\numberline {7}{\ignorespaces Circuito real monof\'asico\relax }}{32}{figure.caption.14}
+\contentsline {figure}{\numberline {8}{\ignorespaces Corrente do gerador para o barramento\relax }}{34}{figure.caption.15}
+\contentsline {figure}{\numberline {9}{\ignorespaces Queda de tens\~ao em $v_G+v_L$ \relax }}{34}{figure.caption.16}
+\contentsline {figure}{\numberline {10}{\ignorespaces Tens\~ao $v_B$ comparativamente \`a tens\~ao $v_S$\relax }}{35}{figure.caption.17}
+\contentsline {figure}{\numberline {11}{\ignorespaces Transformada de Fourier da tens\~ao $v_B$\relax }}{35}{figure.caption.18}
+\contentsline {figure}{\numberline {12}{\ignorespaces Presen\c ca de \textit {notches} na ondula\c c\~ao de tens\~ao \cite {Notches}}}{37}{figure.caption.19}
+\contentsline {figure}{\numberline {13}{\ignorespaces Limites do espectro de frequ\^encia definidas pela MIL-STD704F para sistemas AC \cite {MILSTD}\relax }}{41}{figure.caption.21}
+\contentsline {figure}{\numberline {14}{\ignorespaces Limites do espectro de frequ\^encia definidas pela MIL-STD704F para sistemas DC \cite {MILSTD}\relax }}{41}{figure.caption.23}
+\contentsline {figure}{\numberline {15}{\ignorespaces Esquema de um filtro passivo gen\'erico\relax }}{45}{figure.caption.26}
+\contentsline {figure}{\numberline {16}{\ignorespaces Resposta em frequ\^encia de um filtro passa baixa\relax }}{46}{figure.caption.27}
+\contentsline {figure}{\numberline {17}{\ignorespaces Resposta em frequ\^encia de um filtro passa alta\relax }}{46}{figure.caption.28}
+\contentsline {figure}{\numberline {18}{\ignorespaces Resposta em frequ\^encia de um filtro passa faixa\relax }}{47}{figure.caption.29}
+\contentsline {figure}{\numberline {19}{\ignorespaces Resposta em frequ\^encia de um filtro rejeita faixa\relax }}{48}{figure.caption.30}
+\contentsline {figure}{\numberline {20}{\ignorespaces Esquema gen\'erico de um conversor multipulso\relax }}{49}{figure.caption.31}
+\contentsline {figure}{\numberline {21}{\ignorespaces Circuito t\IeC {\'\i }pico de um retificador de 12 pulsos com sua respectiva corrente de entrada\relax }}{49}{figure.caption.32}
+\contentsline {figure}{\numberline {22}{\ignorespaces Circuito t\IeC {\'\i }pico de um retificador de 18 pulsos com sua respectiva corrente de entrada\relax }}{49}{figure.caption.33}
+\contentsline {figure}{\numberline {23}{\ignorespaces Conversores AC-DC de dois est\'agios\relax }}{50}{figure.caption.34}
+\contentsline {figure}{\numberline {24}{\ignorespaces Retificador trif\'asico com ponte de diodos\relax }}{51}{figure.caption.35}
+\contentsline {figure}{\numberline {25}{\ignorespaces Conversor com corre\c c\~ao de fator de pot\^encia do tipo Prasad-Ziogas \cite {Takeuchi2008}}}{52}{figure.caption.36}
+\contentsline {figure}{\numberline {26}{\ignorespaces Diagrama b\'asico do conversor PFC\relax }}{52}{figure.caption.37}
+\contentsline {figure}{\numberline {27}{\ignorespaces Corrente de entrada para o caso sem e com filtro na linha\relax }}{52}{figure.caption.38}
+\contentsline {figure}{\numberline {28}{\ignorespaces Filtro ativo do tipo \textit {shunt}\relax }}{54}{figure.caption.39}
+\contentsline {figure}{\numberline {29}{\ignorespaces Filtro ativo do tipo s\'erie\relax }}{54}{figure.caption.40}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {30}{\ignorespaces Circuito monof\'asico, linear e operando em regime permanente\relax }}{60}{figure.caption.51}
-\contentsline {figure}{\numberline {31}{\ignorespaces Circuito real monof\'asico\relax }}{61}{figure.caption.52}
-\contentsline {figure}{\numberline {32}{\ignorespaces Triangulo de pot\^encias\relax }}{62}{figure.caption.53}
-\contentsline {figure}{\numberline {33}{\ignorespaces Sistema trif\'asico referenciado em coordenadas $abc$\relax }}{70}{figure.caption.55}
-\contentsline {figure}{\numberline {34}{\ignorespaces Sistema trif\'asico referenciado em coordenadas $\alpha \beta 0$\relax }}{70}{figure.caption.56}
-\contentsline {figure}{\numberline {35}{\ignorespaces Retificador trif\'asico por ponte de Graetz\relax }}{76}{figure.caption.57}
-\contentsline {figure}{\numberline {36}{\ignorespaces Retificador trif\'asico com neutro\relax }}{76}{figure.caption.58}
-\contentsline {figure}{\numberline {37}{\ignorespaces Circula\c c\~ao das pot\^encias instant\^aneas em um sistemas trif\'asico \cite {Akagi2007}}}{78}{figure.caption.59}
-\contentsline {figure}{\numberline {38}{\ignorespaces Circuito trif\'asico a quatro fios\relax }}{79}{figure.caption.60}
-\contentsline {figure}{\numberline {39}{\ignorespaces Pot\^encias instant\^aneas considerando $C_1=C_2=C_3$\relax }}{79}{figure.caption.61}
-\contentsline {figure}{\numberline {40}{\ignorespaces Pot\^encias instant\^aneas considerando $C_1\not =C_2=C_3$\relax }}{80}{figure.caption.62}
-\contentsline {figure}{\numberline {41}{\ignorespaces Compensador ativo \cite {Akagi2007}}}{83}{figure.caption.63}
-\contentsline {figure}{\numberline {42}{\ignorespaces Diagrama com procedimentos de c\'alculo de um compensador \cite {Akagi2007}}}{83}{figure.caption.64}
-\contentsline {figure}{\numberline {43}{\ignorespaces Filtro ativo com inversor est\'atico \cite {Akagi2007}}}{86}{figure.caption.65}
-\contentsline {figure}{\numberline {44}{\ignorespaces Diagrama com procedimentos de c\'alculo de um compensador \cite {Akagi2007}}}{87}{figure.caption.66}
-\contentsline {figure}{\numberline {45}{\ignorespaces Tens\~ao $v_a$ e corrente $i_{La}$ na entrada da carga\relax }}{88}{figure.caption.67}
-\contentsline {figure}{\numberline {46}{\ignorespaces Pot\^encias instant\^aneas $p$ e $q$\relax }}{88}{figure.caption.68}
-\contentsline {figure}{\numberline {47}{\ignorespaces Pot\^encias instant\^aneas a serem compensadas $-\mathaccentV {tilde}07E{p}$ e $-q$\relax }}{88}{figure.caption.69}
-\contentsline {figure}{\numberline {48}{\ignorespaces Corrente de refer\^encia $i_{Ca}^*$ a ser aplicado no inversor\relax }}{88}{figure.caption.70}
-\contentsline {figure}{\numberline {49}{\ignorespaces Tens\~ao $v_a$ e corrente filtrada $i_{Sa}$ fornecida pela fonte\relax }}{89}{figure.caption.71}
-\contentsline {figure}{\numberline {50}{\ignorespaces Pot\^encia entregue pela fonte\relax }}{89}{figure.caption.72}
+\contentsline {figure}{\numberline {30}{\ignorespaces Circuito monof\'asico, linear e operando em regime permanente\relax }}{60}{figure.caption.41}
+\contentsline {figure}{\numberline {31}{\ignorespaces Circuito real monof\'asico\relax }}{61}{figure.caption.42}
+\contentsline {figure}{\numberline {32}{\ignorespaces Triangulo de pot\^encias\relax }}{62}{figure.caption.43}
+\contentsline {figure}{\numberline {33}{\ignorespaces Sistema trif\'asico referenciado em coordenadas $abc$\relax }}{70}{figure.caption.44}
+\contentsline {figure}{\numberline {34}{\ignorespaces Sistema trif\'asico referenciado em coordenadas $\alpha \beta 0$\relax }}{70}{figure.caption.45}
+\contentsline {figure}{\numberline {35}{\ignorespaces Retificador trif\'asico por ponte de Graetz\relax }}{76}{figure.caption.46}
+\contentsline {figure}{\numberline {36}{\ignorespaces Retificador trif\'asico com neutro\relax }}{76}{figure.caption.47}
+\contentsline {figure}{\numberline {37}{\ignorespaces Circula\c c\~ao das pot\^encias instant\^aneas em um sistemas trif\'asico \cite {Akagi2007}}}{78}{figure.caption.48}
+\contentsline {figure}{\numberline {38}{\ignorespaces Circuito trif\'asico a quatro fios\relax }}{79}{figure.caption.49}
+\contentsline {figure}{\numberline {39}{\ignorespaces Pot\^encias instant\^aneas considerando $C_1=C_2=C_3$\relax }}{79}{figure.caption.50}
+\contentsline {figure}{\numberline {40}{\ignorespaces Pot\^encias instant\^aneas considerando $C_1\not =C_2=C_3$\relax }}{80}{figure.caption.51}
+\contentsline {figure}{\numberline {41}{\ignorespaces Compensador ativo \cite {Akagi2007}}}{83}{figure.caption.52}
+\contentsline {figure}{\numberline {42}{\ignorespaces Diagrama com procedimentos de c\'alculo de um compensador \cite {Akagi2007}}}{83}{figure.caption.53}
+\contentsline {figure}{\numberline {43}{\ignorespaces Filtro ativo com inversor est\'atico \cite {Akagi2007}}}{86}{figure.caption.54}
+\contentsline {figure}{\numberline {44}{\ignorespaces Diagrama com procedimentos de c\'alculo de um compensador \cite {Akagi2007}}}{87}{figure.caption.55}
+\contentsline {figure}{\numberline {45}{\ignorespaces Tens\~ao $v_a$ e corrente $i_{La}$ na entrada da carga\relax }}{88}{figure.caption.56}
+\contentsline {figure}{\numberline {46}{\ignorespaces Pot\^encias instant\^aneas $p$ e $q$\relax }}{88}{figure.caption.57}
+\contentsline {figure}{\numberline {47}{\ignorespaces Pot\^encias instant\^aneas a serem compensadas $-\mathaccentV {tilde}07E{p}$ e $-q$\relax }}{88}{figure.caption.58}
+\contentsline {figure}{\numberline {48}{\ignorespaces Corrente de refer\^encia $i_{Ca}^*$ a ser aplicado no inversor\relax }}{88}{figure.caption.59}
+\contentsline {figure}{\numberline {49}{\ignorespaces Tens\~ao $v_a$ e corrente filtrada $i_{Sa}$ fornecida pela fonte\relax }}{89}{figure.caption.60}
+\contentsline {figure}{\numberline {50}{\ignorespaces Pot\^encia entregue pela fonte\relax }}{89}{figure.caption.61}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {51}{\ignorespaces Inversores de tens\~ao e corrente\relax }}{91}{figure.caption.74}
-\contentsline {figure}{\numberline {52}{\ignorespaces Controle por histerese \cite {Thekkevalappil2005}}}{92}{figure.caption.75}
-\contentsline {figure}{\numberline {53}{\ignorespaces Esquema do inversor com indutor de acoplamento e filtro capacitivo\relax }}{93}{figure.caption.76}
-\contentsline {figure}{\numberline {54}{\ignorespaces Malha de controle da tens\~ao no capacitor\relax }}{94}{figure.caption.77}
-\contentsline {figure}{\numberline {55}{\ignorespaces Filtro ativo com controle de corrente senoidal\relax }}{96}{figure.caption.78}
-\contentsline {figure}{\numberline {56}{\ignorespaces Malha de captura de fase (PLL) \cite {Akagi2007}}}{97}{figure.caption.79}
-\contentsline {figure}{\numberline {57}{\ignorespaces Malha Principal\cite {Akagi2007}}}{98}{figure.caption.80}
-\contentsline {figure}{\numberline {58}{\ignorespaces Tens\~ao de fase e tens\~ao do detector de sequ\^encia positiva\relax }}{99}{figure.caption.81}
-\contentsline {figure}{\numberline {59}{\ignorespaces $\mathaccentV {dot}05F{V}_{a_{+1}}$ da tens\~ao de fase e tens\~ao do detector de sequ\^encia positiva\relax }}{99}{figure.caption.82}
-\contentsline {figure}{\numberline {60}{\ignorespaces Sistema completo\relax }}{101}{figure.caption.84}
+\contentsline {figure}{\numberline {51}{\ignorespaces Inversores de tens\~ao e corrente\relax }}{91}{figure.caption.62}
+\contentsline {figure}{\numberline {52}{\ignorespaces Controle por histerese \cite {Thekkevalappil2005}}}{92}{figure.caption.63}
+\contentsline {figure}{\numberline {53}{\ignorespaces Esquema do inversor com indutor de acoplamento e filtro capacitivo\relax }}{93}{figure.caption.64}
+\contentsline {figure}{\numberline {54}{\ignorespaces Malha de controle da tens\~ao no capacitor\relax }}{94}{figure.caption.65}
+\contentsline {figure}{\numberline {55}{\ignorespaces Filtro ativo com controle de corrente senoidal\relax }}{96}{figure.caption.66}
+\contentsline {figure}{\numberline {56}{\ignorespaces Malha de captura de fase (PLL) \cite {Akagi2007}}}{97}{figure.caption.67}
+\contentsline {figure}{\numberline {57}{\ignorespaces Malha Principal\cite {Akagi2007}}}{98}{figure.caption.68}
+\contentsline {figure}{\numberline {58}{\ignorespaces Tens\~ao de fase e tens\~ao do detector de sequ\^encia positiva\relax }}{99}{figure.caption.69}
+\contentsline {figure}{\numberline {59}{\ignorespaces $\mathaccentV {dot}05F{V}_{a_{+1}}$ da tens\~ao de fase e tens\~ao do detector de sequ\^encia positiva\relax }}{99}{figure.caption.70}
+\contentsline {figure}{\numberline {60}{\ignorespaces Sistema completo\relax }}{101}{figure.caption.71}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {61}{\ignorespaces Modelo do sistema de gera\c c\~ao\relax }}{103}{figure.caption.86}
-\contentsline {figure}{\numberline {62}{\ignorespaces Sistema de Distribui\c c\~ao\relax }}{105}{figure.caption.89}
-\contentsline {figure}{\numberline {63}{\ignorespaces Subsistema el\'etrico de um EHA\relax }}{106}{figure.caption.92}
-\contentsline {figure}{\numberline {64}{\ignorespaces Modelo do EHA empregado no Simulink\relax }}{107}{figure.caption.93}
-\contentsline {figure}{\numberline {65}{\ignorespaces Valores estipulados na fonte de corrente controlada\relax }}{107}{figure.caption.94}
-\contentsline {figure}{\numberline {66}{\ignorespaces Sub-bloco para determina\c c\~ao das corrente de refer\^encia\relax }}{108}{figure.caption.95}
-\contentsline {figure}{\numberline {67}{\ignorespaces Obten\c c\~ao do sinal de comando dos interruptores por controle de histerese\relax }}{109}{figure.caption.97}
-\contentsline {figure}{\numberline {68}{\ignorespaces Sub-bloco de controle de tens\~ao do capacitor\relax }}{110}{figure.caption.98}
-\contentsline {figure}{\numberline {69}{\ignorespaces Bloco do compensador\relax }}{111}{figure.caption.99}
-\contentsline {figure}{\numberline {70}{\ignorespaces Perfil de amplitude da corrente de carga na opera\c c\~ao de tr\^es EHAs\relax }}{112}{figure.caption.100}
-\contentsline {figure}{\numberline {71}{\ignorespaces Per\IeC {\'\i }odo simulado com EHA inoperante\relax }}{113}{figure.caption.103}
-\contentsline {figure}{\numberline {72}{\ignorespaces Formas de onda de tens\~ao e corrente em regime de EHA Inoperante\relax }}{114}{figure.caption.104}
-\contentsline {figure}{\numberline {73}{\ignorespaces Detalhe das pot\^encias instant\^aneas em regime de EHA Inoperante\relax }}{114}{figure.caption.105}
-\contentsline {figure}{\numberline {74}{\ignorespaces Espectro de frequ\^encia da tens\~ao em regime de EHA Inoperante e delimita\c c\~ao definida pela norma MIL-STD 704F\relax }}{114}{figure.caption.106}
-\contentsline {figure}{\numberline {75}{\ignorespaces Amplitude das componentes harm\^onicas em regime de EHA Inoperante\relax }}{115}{figure.caption.107}
-\contentsline {figure}{\numberline {76}{\ignorespaces Per\IeC {\'\i }odo simulado com EHA requisitando corrente m\'axima\relax }}{116}{figure.caption.108}
-\contentsline {figure}{\numberline {77}{\ignorespaces Formas de onda de corrente em regime de Corrente M\'axima\relax }}{116}{figure.caption.109}
-\contentsline {figure}{\numberline {78}{\ignorespaces Formas de onda de tens\~ao e corrente em regime de Corrente M\'axima\relax }}{116}{figure.caption.110}
-\contentsline {figure}{\numberline {79}{\ignorespaces Pot\^encias instant\^aneas em regime de Corrente M\'axima\relax }}{117}{figure.caption.111}
-\contentsline {figure}{\numberline {80}{\ignorespaces Detalhe das pot\^encias instant\^aneas em regime de Corrente M\'axima\relax }}{117}{figure.caption.112}
-\contentsline {figure}{\numberline {81}{\ignorespaces Espectro de frequ\^encia da tens\~ao em regime de Corrente M\'axima e delimita\c c\~ao definida pela norma MIL-STD 704F\relax }}{117}{figure.caption.113}
-\contentsline {figure}{\numberline {82}{\ignorespaces Amplitude das componentes harm\^onicas em regime de Corrente M\'axima\relax }}{118}{figure.caption.114}
-\contentsline {figure}{\numberline {83}{\ignorespaces Per\IeC {\'\i }odo simulado com EHA em regime transit\'orio\relax }}{119}{figure.caption.115}
-\contentsline {figure}{\numberline {84}{\ignorespaces Formas de onda de corrente em regime Regime Transit\'orio\relax }}{120}{figure.caption.116}
-\contentsline {figure}{\numberline {85}{\ignorespaces Formas de onda de tens\~ao e corrente em regime Regime Transit\'orio\relax }}{120}{figure.caption.117}
-\contentsline {figure}{\numberline {86}{\ignorespaces Pot\^encias instant\^aneas em regime Regime Transit\'orio\relax }}{120}{figure.caption.118}
-\contentsline {figure}{\numberline {87}{\ignorespaces Detalhe das pot\^encias instant\^aneas em regime Regime Transit\'orio\relax }}{121}{figure.caption.119}
-\contentsline {figure}{\numberline {88}{\ignorespaces Espectro de frequ\^encia da tens\~ao em regime Regime Transit\'orio e delimita\c c\~ao definida pela norma MIL-STD 704F\relax }}{121}{figure.caption.120}
-\contentsline {figure}{\numberline {89}{\ignorespaces Amplitude das componentes harm\^onicas em regime Regime Transit\'orio\relax }}{121}{figure.caption.121}
-\contentsline {figure}{\numberline {90}{\ignorespaces Per\IeC {\'\i }odo simulado com EHA em regime permanente\relax }}{122}{figure.caption.122}
-\contentsline {figure}{\numberline {91}{\ignorespaces Formas de onda de corrente em regime Regime Permanente\relax }}{123}{figure.caption.123}
-\contentsline {figure}{\numberline {92}{\ignorespaces Formas de onda de tens\~ao e corrente em regime Regime Permanente\relax }}{123}{figure.caption.124}
-\contentsline {figure}{\numberline {93}{\ignorespaces Pot\^encias instant\^aneas em regime Regime Permanente\relax }}{123}{figure.caption.125}
-\contentsline {figure}{\numberline {94}{\ignorespaces Detalhe das pot\^encias instant\^aneas em regime Regime Permanente\relax }}{124}{figure.caption.126}
-\contentsline {figure}{\numberline {95}{\ignorespaces Espectro de frequ\^encia da tens\~ao em regime Regime Permanente e delimita\c c\~ao definida pela norma MIL-STD 704F\relax }}{124}{figure.caption.127}
-\contentsline {figure}{\numberline {96}{\ignorespaces Amplitude das componentes harm\^onicas em regime Regime Permanente\relax }}{124}{figure.caption.128}
+\contentsline {figure}{\numberline {61}{\ignorespaces Modelo do sistema de gera\c c\~ao\relax }}{103}{figure.caption.72}
+\contentsline {figure}{\numberline {62}{\ignorespaces Sistema de Distribui\c c\~ao\relax }}{105}{figure.caption.74}
+\contentsline {figure}{\numberline {63}{\ignorespaces Subsistema el\'etrico de um EHA\relax }}{106}{figure.caption.76}
+\contentsline {figure}{\numberline {64}{\ignorespaces Modelo do EHA empregado no Simulink\relax }}{107}{figure.caption.77}
+\contentsline {figure}{\numberline {65}{\ignorespaces Valores estipulados na fonte de corrente controlada\relax }}{107}{figure.caption.78}
+\contentsline {figure}{\numberline {66}{\ignorespaces Sub-bloco para determina\c c\~ao das corrente de refer\^encia\relax }}{108}{figure.caption.79}
+\contentsline {figure}{\numberline {67}{\ignorespaces Obten\c c\~ao do sinal de comando dos interruptores por controle de histerese\relax }}{109}{figure.caption.80}
+\contentsline {figure}{\numberline {68}{\ignorespaces Sub-bloco de controle de tens\~ao do capacitor\relax }}{110}{figure.caption.81}
+\contentsline {figure}{\numberline {69}{\ignorespaces Bloco do compensador\relax }}{111}{figure.caption.82}
+\contentsline {figure}{\numberline {70}{\ignorespaces Perfil de amplitude da corrente de carga na opera\c c\~ao de tr\^es EHAs\relax }}{112}{figure.caption.83}
+\contentsline {figure}{\numberline {71}{\ignorespaces Per\IeC {\'\i }odo simulado com EHA inoperante\relax }}{113}{figure.caption.84}
+\contentsline {figure}{\numberline {72}{\ignorespaces Formas de onda de tens\~ao e corrente em regime de EHA Inoperante\relax }}{114}{figure.caption.85}
+\contentsline {figure}{\numberline {73}{\ignorespaces Detalhe das pot\^encias instant\^aneas em regime de EHA Inoperante\relax }}{114}{figure.caption.86}
+\contentsline {figure}{\numberline {74}{\ignorespaces Espectro de frequ\^encia da tens\~ao em regime de EHA Inoperante e delimita\c c\~ao definida pela norma MIL-STD 704F\relax }}{114}{figure.caption.87}
+\contentsline {figure}{\numberline {75}{\ignorespaces Amplitude das componentes harm\^onicas em regime de EHA Inoperante\relax }}{115}{figure.caption.88}
+\contentsline {figure}{\numberline {76}{\ignorespaces Per\IeC {\'\i }odo simulado com EHA requisitando corrente m\'axima\relax }}{116}{figure.caption.89}
+\contentsline {figure}{\numberline {77}{\ignorespaces Formas de onda de corrente em regime de Corrente M\'axima\relax }}{116}{figure.caption.90}
+\contentsline {figure}{\numberline {78}{\ignorespaces Formas de onda de tens\~ao e corrente em regime de Corrente M\'axima\relax }}{116}{figure.caption.91}
+\contentsline {figure}{\numberline {79}{\ignorespaces Pot\^encias instant\^aneas em regime de Corrente M\'axima\relax }}{117}{figure.caption.92}
+\contentsline {figure}{\numberline {80}{\ignorespaces Detalhe das pot\^encias instant\^aneas em regime de Corrente M\'axima\relax }}{117}{figure.caption.93}
+\contentsline {figure}{\numberline {81}{\ignorespaces Espectro de frequ\^encia da tens\~ao em regime de Corrente M\'axima e delimita\c c\~ao definida pela norma MIL-STD 704F\relax }}{117}{figure.caption.94}
+\contentsline {figure}{\numberline {82}{\ignorespaces Amplitude das componentes harm\^onicas em regime de Corrente M\'axima\relax }}{118}{figure.caption.95}
+\contentsline {figure}{\numberline {83}{\ignorespaces Per\IeC {\'\i }odo simulado com EHA em regime transit\'orio\relax }}{119}{figure.caption.96}
+\contentsline {figure}{\numberline {84}{\ignorespaces Formas de onda de corrente em regime Regime Transit\'orio\relax }}{120}{figure.caption.97}
+\contentsline {figure}{\numberline {85}{\ignorespaces Formas de onda de tens\~ao e corrente em regime Regime Transit\'orio\relax }}{120}{figure.caption.98}
+\contentsline {figure}{\numberline {86}{\ignorespaces Pot\^encias instant\^aneas em regime Regime Transit\'orio\relax }}{120}{figure.caption.99}
+\contentsline {figure}{\numberline {87}{\ignorespaces Detalhe das pot\^encias instant\^aneas em regime Regime Transit\'orio\relax }}{121}{figure.caption.100}
+\contentsline {figure}{\numberline {88}{\ignorespaces Espectro de frequ\^encia da tens\~ao em regime Regime Transit\'orio e delimita\c c\~ao definida pela norma MIL-STD 704F\relax }}{121}{figure.caption.101}
+\contentsline {figure}{\numberline {89}{\ignorespaces Amplitude das componentes harm\^onicas em regime Regime Transit\'orio\relax }}{121}{figure.caption.102}
+\contentsline {figure}{\numberline {90}{\ignorespaces Per\IeC {\'\i }odo simulado com EHA em regime permanente\relax }}{122}{figure.caption.103}
+\contentsline {figure}{\numberline {91}{\ignorespaces Formas de onda de corrente em regime Regime Permanente\relax }}{123}{figure.caption.104}
+\contentsline {figure}{\numberline {92}{\ignorespaces Formas de onda de tens\~ao e corrente em regime Regime Permanente\relax }}{123}{figure.caption.105}
+\contentsline {figure}{\numberline {93}{\ignorespaces Pot\^encias instant\^aneas em regime Regime Permanente\relax }}{123}{figure.caption.106}
+\contentsline {figure}{\numberline {94}{\ignorespaces Detalhe das pot\^encias instant\^aneas em regime Regime Permanente\relax }}{124}{figure.caption.107}
+\contentsline {figure}{\numberline {95}{\ignorespaces Espectro de frequ\^encia da tens\~ao em regime Regime Permanente e delimita\c c\~ao definida pela norma MIL-STD 704F\relax }}{124}{figure.caption.108}
+\contentsline {figure}{\numberline {96}{\ignorespaces Amplitude das componentes harm\^onicas em regime Regime Permanente\relax }}{124}{figure.caption.109}
 \addvspace {10\p@ }

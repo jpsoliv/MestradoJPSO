@@ -12,17 +12,17 @@
 \contentsline {subsection}{\numberline {2.2.2}Problemas Causados por Cargas N\~ao Lineares na Rede}{31}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}Efeitos da Distor\c c\~ao Harm\^onica em Equipamentos}{36}{section.2.3}
 \contentsline {section}{\numberline {2.4}Normas de Qualifica\c c\~ao de Produto Aeron\'autico}{39}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}MIL-STD 704 - \textit {Aircraft Electric Power Characteristics}}{40}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.1}MIL-STD 704 - \textit {Aircraft Electric Power Characteristics}}{39}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}DO-160 - \textit {Environmental Conditions and Test Procedures for Airborne Equipment - Section 16: Power Input}}{42}{subsection.2.4.2}
 \contentsline {section}{\numberline {2.5}M\'etodos de Corre\c c\~ao de Fator de Pot\^encia}{44}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Sistemas Passivos}{44}{subsection.2.5.1}
 \contentsline {subsubsection}{\numberline {2.5.1.1}Filtros Passivos}{45}{subsubsection.2.5.1.1}
-\contentsline {subsubsection}{\numberline {2.5.1.2}Retificadores Multipulso}{48}{subsubsection.2.5.1.2}
+\contentsline {subsubsection}{\numberline {2.5.1.2}Retificadores Multipulso}{47}{subsubsection.2.5.1.2}
 \contentsline {subsection}{\numberline {2.5.2}Sistemas Ativos}{50}{subsection.2.5.2}
 \contentsline {subsubsection}{\numberline {2.5.2.1}Conversores com Corre\c c\~ao de Fator de Pot\^encia}{50}{subsubsection.2.5.2.1}
-\contentsline {subsubsection}{\numberline {2.5.2.2}Filtros Ativos}{53}{subsubsection.2.5.2.2}
-\contentsline {section}{\numberline {2.6}Caracter\IeC {\'\i }sticas de Dispositivos de Corre\c c\~ao de Fator de Pot\^encia em Sistemas El\'etricos de Aeronaves}{55}{section.2.6}
-\contentsline {section}{\numberline {2.7}Conclus\~oes}{57}{section.2.7}
+\contentsline {subsubsection}{\numberline {2.5.2.2}Filtros Ativos}{52}{subsubsection.2.5.2.2}
+\contentsline {section}{\numberline {2.6}Caracter\IeC {\'\i }sticas de Dispositivos de Corre\c c\~ao de Fator de Pot\^encia em Sistemas El\'etricos de Aeronaves}{54}{section.2.6}
+\contentsline {section}{\numberline {2.7}Conclus\~oes}{56}{section.2.7}
 \contentsline {chapter}{\numberline {3}Filtros Ativos para Sistemas El\'etricos}{58}{chapter.3}
 \contentsline {section}{\numberline {3.1}Pot\^encia Ativa, Reativa e Fator de Pot\^encia}{58}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Circuitos Senoidais Monof\'asicos}{59}{subsection.3.1.1}
@@ -62,9 +62,9 @@
 \contentsline {subsubsection}{\numberline {5.1.2.1}Controle}{108}{subsubsection.5.1.2.1}
 \contentsline {subsubsection}{\numberline {5.1.2.2}Compensador}{110}{subsubsection.5.1.2.2}
 \contentsline {section}{\numberline {5.2}Resultados}{111}{section.5.2}
-\contentsline {subsubsection}{\numberline {5.2.0.3}EHA Inoperante}{113}{subsubsection.5.2.0.3}
-\contentsline {subsubsection}{\numberline {5.2.0.4}Corrente M\'axima}{115}{subsubsection.5.2.0.4}
-\contentsline {subsubsection}{\numberline {5.2.0.5}Regime Transit\'orio}{119}{subsubsection.5.2.0.5}
-\contentsline {subsubsection}{\numberline {5.2.0.6}Regime Permanente}{122}{subsubsection.5.2.0.6}
+\contentsline {subsubsection}{\numberline {5.2.0.1}EHA Inoperante}{113}{subsubsection.5.2.0.1}
+\contentsline {subsubsection}{\numberline {5.2.0.2}Corrente M\'axima}{115}{subsubsection.5.2.0.2}
+\contentsline {subsubsection}{\numberline {5.2.0.3}Regime Transit\'orio}{119}{subsubsection.5.2.0.3}
+\contentsline {subsubsection}{\numberline {5.2.0.4}Regime Permanente}{122}{subsubsection.5.2.0.4}
 \contentsline {chapter}{\numberline {6}Conclus\~ao}{125}{chapter.6}
 \contentsline {section}{\numberline {6.1}Pr\'oximos Passos}{126}{section.6.1}

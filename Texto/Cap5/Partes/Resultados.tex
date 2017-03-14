@@ -21,7 +21,6 @@ Nesta figura pode-se observar que durante o acionamento do EHA existe uma grande
 A divisão do período em quatro permite estudar as características de operação do filtro em períodos com variação abrupta da corrente de carga, possibilitando verificar o atendimento às propriedades do filtro ativo tal como apresentadas na seção \ref{sec:Caracteristicas de Dispositivos de Correcao de Fator de Potencia em Sistemas Eletricos de Aeronaves}. Além disso, a visualização da análise é facilitada pela divisão, dada a grande discrepância entre os valores da corrente observado no período de corrente máxima com outros períodos.
 
 Os resultados da simulação apresentados nas próximas seções são referentes às formas de ondas das tensões e correntes estimados na PDU. Além disso, é realizado o cálculo das potências instantâneas em função do tempo nesse ponto. Ainda, para avaliar a condição da qualidade de energia na PDU é realizado o cálculo do espectro de frequência da tensão, cujo intuito é de comparar o resultado com as normas aeronáuticas. A norma seguida como referência é a MIL-STD 704F \cite{MILSTD}, a qual propõe um limite para as distorções em função da frequência, além de restringir o THD. Nos resultados da simulação são desenhados os limites máximos das amplitudes em função da frequência para sistemas operando em 400 Hz. Além disso, a MIL-STD 704F estabelece um THD máximo de 0.05 (5\%). A escolha de utilizar a MIL-STD 704 ao invés da DO-160 como norma padrão para comparação dos resultado é dado visto que a simulação contempla o sistema de geração distribuição, ou seja, não é relacionado com a qualificação do equipamento em si, mas sim do sistema elétrico aeronáutico.
-\todo{falar o porque da MIL em vez da DO FEITO}
 
 A apresentação das figuras seguintes está disposta com os resultados com e sem a atuação do filtro ativo para comparação. As figuras localizadas no lado esquerdo são referentes ao sistema sem o filtro ativo, ao passo que as do lado direito são com a presença do filtro ativo.
 
@@ -33,12 +32,10 @@ A Figura \ref{fig:perfil_inoperante.png} mostra, em destaque, o período o qual o
 
 Os espectros de frequência podem ser analisados nas figuras \ref{fig:5} e \ref{fig:6}. Nessas figuras pode ser observado que a presença do filtro ativo deteriora a qualidade de energia, porém os níveis de tensão do espectro de frequência e o THD atendem os limites da MIL-STD 704F.
 
-\todo{Alterar o texto de acordo com a modificação nas figuras de acordo com as propostas da banca, FEITO}
-
 \begin{figure}[!htb] %
 	\centering
 	\includegraphics[width=0.72\textwidth]{Cap5/Figuras/perfil_inoperante.png}
-	\caption{Período simulado com EHA inoperante}
+	\caption{Período simulado com EHA Inoperante}
 	\label{fig:perfil_inoperante.png}
 \end{figure}
 %\begin{figure*}[!htb] %Circuito típico de um retificador de 12 pulsos com sua respectiva corrente de entrada
@@ -170,7 +167,7 @@ A análise dos espectros de frequência das tensões mostra que a qualidade de ener
 \begin{figure}[!htb] %
 	\centering
 	\includegraphics[width=0.72\textwidth]{Cap5/Figuras/perfil_maxima.png}
-	\caption{Período simulado com EHA requisitando corrente máxima}
+	\caption{Período simulado com EHA requisitando Corrente Máxima}
 	\label{fig:perfil_maxima.png}
 \end{figure}
 
@@ -303,7 +300,7 @@ A análise do espectro de frequência das tensões, através das figuras \ref{fig:17
 \begin{figure}[!htb] %
 	\centering
 	\includegraphics[width=0.72\textwidth]{Cap5/Figuras/perfil_transitorio.png}
-	\caption{Período simulado com EHA em regime transitório}
+	\caption{Período simulado com EHA em Regime Transitório}
 	\label{fig:perfil_transitorio.png}
 \end{figure}
 
@@ -322,7 +319,7 @@ A análise do espectro de frequência das tensões, através das figuras \ref{fig:17
 		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_13.eps}
 	\end{subfigure}%
-	\caption{Formas de onda de corrente em regime Regime Transitório}
+	\caption{Formas de onda de corrente durante o Regime Transitório}
 	\label{fig:13}
 \end{figure*}
 
@@ -341,7 +338,7 @@ A análise do espectro de frequência das tensões, através das figuras \ref{fig:17
 		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_14.eps}
 	\end{subfigure}%
-	\caption{Formas de onda de tensão e corrente em regime Regime Transitório}
+	\caption{Formas de onda de tensão e corrente durante o Regime Transitório}
 	\label{fig:14}
 \end{figure*}
 
@@ -360,7 +357,7 @@ A análise do espectro de frequência das tensões, através das figuras \ref{fig:17
 		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_15.eps}
 	\end{subfigure}%
-	\caption{Potências instantâneas em regime Regime Transitório}
+	\caption{Potências instantâneas durante o Regime Transitório}
 	\label{fig:15}
 \end{figure*}
 
@@ -379,7 +376,7 @@ A análise do espectro de frequência das tensões, através das figuras \ref{fig:17
 		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_16.eps}
 	\end{subfigure}%
-	\caption{Detalhe das potências instantâneas em regime Regime Transitório}
+	\caption{Detalhe das potências instantâneas durante o Regime Transitório}
 	\label{fig:16}
 \end{figure*}
 
@@ -398,7 +395,7 @@ A análise do espectro de frequência das tensões, através das figuras \ref{fig:17
 		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_17.eps}
 	\end{subfigure}%
-	\caption{Espectro de frequência da tensão em regime Regime Transitório e delimitação definida pela norma MIL-STD 704F}
+	\caption{Espectro de frequência da tensão durante o Regime Transitório e delimitação definida pela norma MIL-STD 704F}
 	\label{fig:17}
 \end{figure*}
 
@@ -417,7 +414,7 @@ A análise do espectro de frequência das tensões, através das figuras \ref{fig:17
 		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_18.eps}
 	\end{subfigure}%
-	\caption{Amplitude das componentes harmônicas em regime Regime Transitório}
+	\caption{Amplitude das componentes harmônicas durante o Regime Transitório}
 	\label{fig:18}
 \end{figure*}
 
@@ -436,7 +433,7 @@ Por fim, as figuras \ref{fig:23} e \ref{fig:24} mostram o ganho quanto a elevaçã
 \begin{figure}[!htb] %
 	\centering
 	\includegraphics[width=0.72\textwidth]{Cap5/Figuras/perfil_permanente.png}
-	\caption{Período simulado com EHA em regime permanente}
+	\caption{Período simulado com EHA em Regime Permanente}
 	\label{fig:perfil_permanente.png}
 \end{figure}
 
@@ -455,7 +452,7 @@ Por fim, as figuras \ref{fig:23} e \ref{fig:24} mostram o ganho quanto a elevaçã
 		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_19.eps}
 	\end{subfigure}%
-	\caption{Formas de onda de corrente em regime Regime Permanente}
+	\caption{Formas de onda de corrente durante o Regime Permanente}
 	\label{fig:19}
 \end{figure*}
 
@@ -474,7 +471,7 @@ Por fim, as figuras \ref{fig:23} e \ref{fig:24} mostram o ganho quanto a elevaçã
 		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_20.eps}
 	\end{subfigure}%
-	\caption{Formas de onda de tensão e corrente em regime Regime Permanente}
+	\caption{Formas de onda de tensão e corrente durante o Regime Permanente}
 	\label{fig:20}
 \end{figure*}
 
@@ -493,7 +490,7 @@ Por fim, as figuras \ref{fig:23} e \ref{fig:24} mostram o ganho quanto a elevaçã
 		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_21.eps}
 	\end{subfigure}%
-	\caption{Potências instantâneas em regime Regime Permanente}
+	\caption{Potências instantâneas durante o Regime Permanente}
 	\label{fig:21}
 \end{figure*}
 
@@ -512,7 +509,7 @@ Por fim, as figuras \ref{fig:23} e \ref{fig:24} mostram o ganho quanto a elevaçã
 		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_22.eps}
 	\end{subfigure}%
-	\caption{Detalhe das potências instantâneas em regime Regime Permanente}
+	\caption{Detalhe das potências instantâneas durante o Regime Permanente}
 	\label{fig:22}
 \end{figure*}
 
@@ -531,7 +528,7 @@ Por fim, as figuras \ref{fig:23} e \ref{fig:24} mostram o ganho quanto a elevaçã
 		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_23.eps}
 	\end{subfigure}%
-	\caption{Espectro de frequência da tensão em regime Regime Permanente e delimitação definida pela norma MIL-STD 704F}
+	\caption{Espectro de frequência da tensão durante o Regime Permanente e delimitação definida pela norma MIL-STD 704F}
 	\label{fig:23}
 \end{figure*}
 
@@ -550,7 +547,7 @@ Por fim, as figuras \ref{fig:23} e \ref{fig:24} mostram o ganho quanto a elevaçã
 		\caption{Resultados realizadas com filtro ativo}
 		\label{fig:resultados_filt_24.eps}
 	\end{subfigure}%
-	\caption{Amplitude das componentes harmônicas em regime Regime Permanente}
+	\caption{Amplitude das componentes harmônicas durante o Regime Permanente}
 	\label{fig:24}
 \end{figure*}
 
