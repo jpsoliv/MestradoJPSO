@@ -1,10 +1,10 @@
 \section{Active Filters}
 
-The operation of active filters is based on the generation of voltages/currents to interact with the electrical grid waveforms to achieve a power factor equal to one. This is accomplished by measuring the voltage waveforms from the source and the current waveforms from the load to determine a reference current to be set in a compensator, see Fig. \ref{fig:compensador.png} \citep{Akagi2006}. The compensator injects current waveforms with symmetrical harmonic components values to compensate the harmonic content responsible for the power factor degradation.
+The operation of active filters is based on the generation of voltages/currents to interact with the electrical grid waveforms to achieve a power factor equal to one. This is accomplished by measuring the voltage waveforms from the source and the current waveforms from the load to determine a reference currents to be set in a compensator, see Fig. \ref{fig:compensador.png} \citep{Akagi2006}. The compensator, which is a voltage source converter (VSC), injects current waveforms with symmetrical harmonic components values to compensate the harmonic content responsible for the power factor degradation.
 
 \begin{figure}[!h]
 \centering
-\includegraphics[width=0.65\textwidth]{Figures/compensador.png}
+\includegraphics[width=0.78\textwidth]{Figures/compensador.png}
 \caption{Simulation Results}
 \label{fig:compensador.png}
 \end{figure}
@@ -21,7 +21,7 @@ The operation of active filters is based on the generation of voltages/currents 
 
 The instantaneous power theory was presented by Akagi \citep{Akagi1984}, which proposed new concepts for the instantaneous active and reactive power. It can be used in three phase, three or four wire system and in steady or transient state \citep{Akagi2007}. In this theory, the manipulation of the active and reactive power calculations furnishes a tool to determine the currents that carry some content which degrade the power factor, such as harmonic distortion and phase shift.
 
-Considering a three-phase system, composed by the phases $a$, $b$ and $c$, the instantaneous power theory is based in the coordinates transformation from the $abc$ to $\alpha \beta 0 $. This is known as the Clarke Transformation and is shown in eq. \ref{eq:Clarke}.
+Considering a three-phase system, composed of the phases $a$, $b$ and $c$, the instantaneous power theory is based in the coordinates transformation from the $abc$ to $\alpha \beta 0 $. This is known as the Clarke Transformation and is shown in eq. \ref{eq:Clarke}.
 
 
 \begin{equation}
@@ -121,7 +121,7 @@ q
 \label{eq:i_alphabeta}
 \end{equation}
 
-By definition, the active instantaneous power is composed by the energy that is swapped between two subsystems, whereas the reactive power is composed by the energy being swapped between the 3 phases of the system \citep{Akagi1984,Peng1996}. Furthermore, both $p$ and $q$ are defined as a composition of an average ($\overline{p}$ and $\overline{q}$) and an oscillating ($\tilde{p}$ and $\tilde{q}$) values, as defined in eq. \ref{eq:pq_m_o}.
+By definition, the active instantaneous power is composed of the energy that is swapped between two subsystems, whereas the reactive power is composed of the energy being swapped between the 3 phases of the system \citep{Akagi1984,Peng1996}. Furthermore, both $p$ and $q$ are defined as a composition of an average ($\overline{p}$ and $\overline{q}$) and an oscillating ($\tilde{p}$ and $\tilde{q}$) values, as defined in eq. \ref{eq:pq_m_o}.
 
 \begin{equation}
 \begin{aligned}
@@ -131,7 +131,7 @@ q = \overline{q} + \tilde{q}
 \label{eq:pq_m_o}
 \end{equation} 
 
-To create an active filter to achieve a power factor equal to 1, the only permitted power flowing in the transmission lines is the average value of the instantaneous active power ($\overline{p}$). To ensure this condition, the filter must inject in the lines currents with symmetrical values of the instantaneous reactive power ($q$) and the oscillating portion of the instantaneous active power ($\tilde{p}$) created by the non-linear load. By doing this, these powers are cancelled in the same way as the current harmonic content. Thereby, the selection of power to be compensate and processed by the filter must contains the values of $-\tilde{p}$ and $-q$ only.
+To create an active filter to achieve a power factor equal to 1, the only permitted power flowing in the transmission lines is the average value of the instantaneous active power ($\overline{p}$). To ensure this condition, the filter must inject in the lines currents with symmetrical values of the instantaneous reactive power ($q$) and the oscillating portion of the instantaneous active power ($\tilde{p}$) created by the non-linear load. By doing this, these powers are cancelled in the same way as the current harmonic content. Thereby, the selection of power to be compensated and processed by the filter must contains the values of $-\tilde{p}$ and $-q$ only.
 
 The filter full operation is defined by the instantaneous power $p$ and $q$ calculation, followed by the selection of the power to be compensated, i.e., $-\tilde{p}$ and $-q$. Afterwards, the currents $i_{\alpha}$ and $i_{\beta}$ are calculated using the eq. \ref{eq:i_alphabeta} with the values $-\tilde{p}$ and $-q$, followed by the inverse Clarke transformation to acquire the current in $abc$ coordinates to be applied as a reference in the compensator. The whole active filter reference definition is shown in Fig. \ref{fig:diagrama_filtro.png}.
 
@@ -153,13 +153,13 @@ The filter full operation is defined by the instantaneous power $p$ and $q$ calc
 
 The active filter specified in Fig. \ref{fig:diagrama_filtro.png} presents very effective to set the current reference to be applied in the compensator for mitigation of the electrical system harmonic content. However, this calculation is valid to produce sinusoidal current waveforms only when the voltages measured and used in the filter input are pure sine waves \citep{Akagi2007}. This happens insofar as the filter operates allowing only the mean value of the active instantaneous power flowing in the circuit. Therefore, the use of a non-sinusoidal voltage waveform in the input of the filter requires a non-sinusoidal current waveform to establish the power flow consisted of $\overline{p}$.
 
-In aircraft electrical system, the voltage waveforms in the point of common connection (PCC) are presented as non-sinusoidal, however, they are still limited by aeronautical standards. As the voltages used in the active filter are measured at the PCC or beyond this point, the filter defined as per Fig. \ref{fig:diagrama_filtro.png} is not optimal for power quality purposes. In some cases, it may decrease the power quality and have an unstable operation depending the levels of harmonic distortion presented in the voltages waveforms \citep{Akagi2007}.
+In aircraft electrical system, the voltage waveforms in the load terminals are presented as non-sinusoidal, however, they are still limited by aeronautical standards. As the voltages used in the active filter are measured at this point, the filter defined as per Fig. \ref{fig:diagrama_filtro.png} is not optimal for power quality purposes. In some cases, it may decrease the power quality and have an unstable operation depending the levels of harmonic distortion presented in the voltages waveforms \citep{Akagi2007}.
 
-According to \citep{Akagi2007}, the p-q theory proves insufficient to create a current sine wave and a mean value of the active instantaneous power flow, simultaneously when distorted voltage waveforms are measured on the PCC. To overcome this problem, a control strategy based on the use of a positive-sequence voltage detector is employed to ensure a sinusoidal current control. This way, the power flow between the load and the source is not defined as the mean value of the active instantaneous power, in contrast, the control strategy relays on the appropriate sine wave current insertion to establish the proper power quality at the system.
+According to \citep{Akagi2007}, the p-q theory proves insufficient to create a current sine wave and a mean value of the active instantaneous power flow, simultaneously when distorted voltage waveforms are measured by the filter voltages probes. To overcome this problem, a control strategy based on the use of a positive-sequence voltage detector is employed to ensure a sinusoidal current control. This way, the power flow between the load and the source is not defined as the mean value of the active instantaneous power, in contrast, the control strategy relies on the appropriate sine wave current insertion to establish the proper power quality at the system.
 
 The sinusoidal current control is designed using the positive-sequence voltage detector, which operates to extract the fundamental positive-sequence component from the distorted voltages. This component is required by the active filter to define the current shape to be applied in the electrical grid to create a sinusoidal waveform. 
 
-The positive-sequence voltage detector operates based on the p-q dual theory, where it is used a phase locked loop (PLL) and the p-q theory to extract the fundamental frequency and amplitude of the distorted voltages \citep{Akagi2007}. The PLL is show in Fig. \ref{fig:PLL.png} and operates acquiring the fundamental frequency and phase. The scheme shown in Fig. \ref{fig:detector_seq_positiva.png} uses the p-q theory and the information coming from the PLL to define the amplitude of the fundamental voltages component to be used in the active filter calculations.
+The positive-sequence voltage detector operates based on the p-q dual theory, where it is used a phase locked loop (PLL) and the p-q theory to extract the fundamental frequency and amplitude of the distorted voltages \citep{Akagi2007}. The PLL is shown in Fig. \ref{fig:PLL.png} and operates acquiring the fundamental frequency and phase. The scheme shown in Fig. \ref{fig:detector_seq_positiva.png} uses the p-q theory and the information coming from the PLL to define the amplitude of the fundamental voltages component to be used in the active filter calculations.
 
 
 \begin{figure}[!b]
