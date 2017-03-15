@@ -1,8 +1,8 @@
 \section{Métodos de Correção de Fator de Potência} \label{sec:Metodos de Correcao de Fator de Potencia}
 
-O fator de potência é um parâmetro de circuitos elétricos cuja definição é dada pela a relação entre a potência ativa e a potência aparente consumidas por um dispositivo ou equipamento, independentemente das formas que as ondas de tensão e corrente apresentem \cite{Ary2011}. O valor deste parâmetro é usado tanto em circuitos lineares quanto nos não lineares, e o conhecimento de seu valor é de grande importância para determinação da eficiência do uso de energia. Para o caso de cargas não lineares alimentadas por uma fonte de tensão senoidal, o fator de potência é dado como um indicador para determinar a qualidade de energia do sistema, visto que seu cálculo leva em conta as amplitudes das componentes harmônicas presentes no sistema. Sendo assim, quanto mais próximo da unidade o fator de potência estiver, melhor será qualidade de energia do sistema.
+O fator de potência é um parâmetro de circuitos elétricos cuja definição é dada pela a relação entre a potência ativa e a potência aparente consumidas por um dispositivo ou equipamento, independentemente das formas que as ondas de tensão e corrente apresentem \cite{Ary2011}. O valor deste parâmetro é usado tanto em circuitos lineares quanto nos não lineares, e o conhecimento de seu valor é de grande importância para determinação da eficiência do uso de energia elétrica. Para o caso de cargas não lineares alimentadas por uma fonte de tensão senoidal, o fator de potência é dado como um indicador para determinar a qualidade de energia do sistema, visto que seu cálculo leva em conta as amplitudes das componentes harmônicas presentes na rede. Sendo assim, quanto mais próximo da unidade o fator de potência estiver, melhor será qualidade de energia do sistema.
 
-Existem métodos na literatura de mitigação de distorções harmônicas em sistemas elétricos. Em um sistema de geração senoidal pura, a fonte de distorção nas tensões dá-se pela presença de cargas não lineares na rede elétrica, como descrito nas seções \ref{subsec:Linearidade em Sistemas Eletricos} e \ref{subsec:Problemas Causados por Cargas Nao Lineares na Rede}. Com isso, o método para mitigar o problema da distorção nos níveis de tensão é dado pela inclusão de filtros nas linhas ou tratamento dos equipamentos injetores de componentes harmônicos do sistema. A inserção dos filtros na rede elétrica é para casos onde a origem das distorções harmônicas vão desde retificadores a equipamentos eletrônicos interferindo na qualidade de energia. Dentre as cargas que mais influenciam na geração de componentes harmônicas, os retificadores são os que mais afetam a qualidade de energia. Isto deve-se principalmente à necessidade de equipamentos eletrônicos serem alimentados por tensão contínua, o que torna abundante a presença de retificadores em sistemas elétricos. Deste modo o foco do estudo dos métodos de atenuação de harmônicas não se dá apenas no estudo de filtros, mas também no estudo de retificadores cuja operação apresenta alto fator de potência.
+Existem métodos na literatura sobre mitigação de distorções harmônicas em sistemas elétricos. Em um sistema de geração senoidal pura, a fonte de distorção nas tensões dá-se pela presença de cargas não lineares na rede elétrica, como descrito nas seções \ref{subsec:Linearidade em Sistemas Eletricos} e \ref{subsec:Problemas Causados por Cargas Nao Lineares na Rede}. Com isso, o método para mitigar o problema da distorção nos níveis de tensão é dado pela inclusão de filtros nas linhas ou tratamento dos equipamentos injetores de componentes harmônicas do sistema. A inserção dos filtros na rede elétrica é para os casos onde as distorções harmônicas originam-se nos retificadores e equipamentos eletrônicos que interferem na qualidade de energia. Dentre as cargas que mais influenciam na geração de componentes harmônicas, os retificadores são os que mais afetam a qualidade de energia. Isto deve-se principalmente à necessidade de equipamentos eletrônicos serem alimentados por tensão contínua, o que torna abundante a presença de retificadores em sistemas elétricos. Deste modo o foco do estudo dos métodos de atenuação de harmônicas não se dá apenas no estudo de filtros, mas também no estudo de retificadores cuja operação apresenta alto fator de potência.
 
 \subsection{Sistemas Passivos}
 
@@ -10,7 +10,7 @@ A caracterização de um sistema passivo dá-se pela ausência de uma fonte dedicada
 
 \subsubsection{Filtros Passivos}
 
-Filtros passivos são circuitos dotados de componentes elétricos passivos lineares, como indutores, capacitores e resistores, concebidos com objetivo de obter uma função de transferência cujo comportamento típico é atenuar componentes de frequências senoidais específicas. Os filtros são basicamente compostos por impedâncias interligadas e o comportamento destes circuitos depende do valor e da disposição dos elementos lineares envolvidos \cite{Mussoi2004,Kassick2010}. A implementação de filtros passivos em uma rede de sistemas elétrico dá-se pelo arranjo dos elementos lineares de forma a criar impedâncias que são realizadas em série e/ou paralelo de modo a criar passagem de alta e/ou baixa impedância para um sinal qualquer. De maneira geral, a Figura \ref{fig:sch_filtro_passivo} mostra um sistema de filtragem passiva em uma rede trifásica, juntamente com a presença de uma carga não linear.
+Filtros passivos são circuitos dotados de componentes elétricos passivos lineares, como indutores, capacitores e resistores, concebidos com objetivo de obter uma função de transferência, cujo comportamento típico é atenuar componentes de frequências senoidais específicas. A implementação de filtros passivos em uma rede de sistemas elétrico dá-se pelo arranjo dos elementos lineares de forma a criar impedâncias que são realizadas em série e/ou paralelo de modo a criar passagem de alta e/ou baixa impedância para um sinal qualquer \cite{Mussoi2004,Kassick2010}. De maneira geral, a Figura \ref{fig:sch_filtro_passivo} mostra um sistema de filtragem passiva em uma rede trifásica, juntamente com a presença de uma carga não linear.
 
 \begin{figure}[!htbp] %Esquema de um filtro passivo genérico
 	\centering
@@ -23,11 +23,13 @@ Conceitualmente, pode-se considerar a concepção de filtros ideais e reais. De ma
 
 A frequência de corte ($f_c$) dos filtros reais é definida sendo a frequência onde a potência do sinal de saída é igual à metade da potência do sinal de entrada. A definição pode ser estendida como a frequência a qual a razão dos sinais de entrada e saída é igual $\sfrac{1}{\sqrt{2}}$, ou seja, -3 decibéis.
 
-Os filtros passivos podem ser divididos em quatro tipos: Passa Baixa, Passa Alta, Passa Faixa e Rejeita Faixa.
+Os filtros passivos podem ser divididos em quatro tipos: Passa Baixa, Passa Alta, Passa Faixa e Rejeita Faixa. 
+
+A concepção de um filtro passa baixa cria caminhos de alta impedância entre a entrada e saída do sistema para frequências mais elevadas que $f_c$ \cite{Kassick2010}. Desse modo, comparativamente ao sinal da entrada, a saída possui a mesma característica de amplitude e potência para frequências menores que $f_c$, mas atenuam componentes do espectro cujo valor é maior que a frequência de corte, ou seja, para $f>f_c$. Ainda, deve-se ter em mente que, no regime de corte, quanto maior o valor da frequência das componentes que compõem o sinal, maior a redução em suas amplitudes \cite{Mussoi2004}. A resposta em módulo do sistema de um filtro passa baixa pode ser visto na Figura \ref{fig:LP_filter}. Com isso, devido as suas características, os filtros passa baixa são os mais indicados na questão de aumentar a qualidade de energia nos sistemas elétricos. Isso se deve pois são as componentes harmônicas de frequência mais elevada que a fundamental que acabam por degradar a qualidade de energia da rede. 
 
 %\begin{enumerate}[i),leftmargin=1.75cm,itemindent=0cm] % PODE SER ADULTERADO \begin{enumerate}[i),leftmargin=1.75cm,itemindent=0cm] ou \begin{enumerate}[i),leftmargin=0cm,itemindent=1.75cm]
 %	\item 
-A concepção de um filtro passa baixa cria caminhos de alta impedância entre a entrada e saída do sistema para frequências mais elevadas que $f_c$ \cite{Kassick2010}. Desse modo, comparativamente ao sinal da entrada, a saída possui a mesma característica de amplitude e potência para frequências menores que $f_c$, mas atenuam componentes do espectro cujo valor é maior que a frequência de corte, ou seja, para $f>f_c$. Ainda, deve-se ter em mente que, no regime de corte, quanto maior o valor da frequência das componentes que compõem o sinal, maior a redução em suas amplitudes \cite{Mussoi2004}. A resposta em módulo do sistema de um filtro passa baixa pode ser visto na Figura \ref{fig:LP_filter}.
+
 	
 	\begin{figure}[!htbp] %Esquema genérico de um conversor multipulso
 		\centering
@@ -36,69 +38,67 @@ A concepção de um filtro passa baixa cria caminhos de alta impedância entre a en
 		\label{fig:LP_filter}
 	\end{figure}
 	
-Analogamente ao filtro passa baixa, os sistemas com a topologia passa alta possuem caminhos de alta impedância para componentes de baixa frequência que são aplicadas na entrada do sistema \cite{Kassick2010}. Desse modo, a saída possui um espectro com a predominância de componentes de alta frequência. Como ocorre nos filtros passa baixa, a frequência que delimita a atenuação é denominada frequência de corte \cite{Mussoi2004}. O espectro típico de um filtro passa alto pode ser visualizado na Figura \ref{fig:HP_filter}. 
-	
-	\begin{figure}[!htbp] %Esquema genérico de um conversor multipulso
-		\centering
-		\includegraphics[width=0.48\textwidth]{Cap2/Figuras/HP_filter_BW.png}
-		\caption{Resposta em frequência de um filtro passa alta}
-		\label{fig:HP_filter}
-	\end{figure}
-	
-Os filtros passa faixa são caracterizados por circuitos cuja resposta apresenta a passagem de sinais com frequências situadas numa faixa intermediária no espectro, atenuando as amplitudes dos sinais que estão fora desse intervalo. A frequências que delimitam esta faixa são denominadas frequência de corte inferior ($f_L$) e frequência de corte superior ($f_H$) \cite{Mussoi2004}. Desse modo, o comportamento do sistema caracteriza-se pela atenuação de componentes que possui frequência abaixo de $f_L$ e acima de $f_H$. Outra característica fundamental dos filtros passa faixa é a largura de banda definida pelo intervalo onde o sinal não é atenuado. Em termos numéricos, esse valor é definido por $f_H-f_L$. Ainda, existe a frequência central $f_0$, ou frequência de ressonância, a qual é a média geométrica entre a frequência de corte inferior $f_L$ e a frequência de corte superior $f_H$ da banda de passagem, ou seja, $f_0=\sqrt{f_L.f_H}$. O módulo da resposta em frequência típica de um filtro passa faixa é mostrada na Figura \ref{fig:BP_filter}.
-	
-	\begin{figure}[!htbp] %Esquema genérico de um conversor multipulso
-		\centering
-		\includegraphics[width=0.48\textwidth]{Cap2/Figuras/BP_filter_BW.png}
-		\caption{Resposta em frequência de um filtro passa faixa}
-		\label{fig:BP_filter}
-	\end{figure}
-	
-Um filtro rejeita faixa atenua componentes cujas frequências estão contidas em um determinado intervalo, enquanto as amplitudes das componentes fora deste não são alteradas.  Analogamente ao passa faixa, existe a frequência de corte inferior e superior definidas por $f_L$ e $f_H$, respectivamente \cite{Mussoi2004}. As componentes com valores de frequência menores que $f_L$ e maiores que $f_H$ são mantidas iguais ao sinal de entrada, ao passo que os componentes contidos dentro do intervalo $f_L\;-\;f_H$ possuem as amplitudes atenuadas. O espectro de frequência desse tipo de filtro pode ser visto na Figura \ref{fig:RB_filter}.
-	
-	\begin{figure}[!htbp] %Esquema genérico de um conversor multipulso
-		\centering
-		\includegraphics[width=0.48\textwidth]{Cap2/Figuras/RB_filter_BW.png}
-		\caption{Resposta em frequência de um filtro rejeita faixa}
-		\label{fig:RB_filter}
-	\end{figure}
-	
-	%	\begin{figure*}[!htbp] %Ganho em função da frequência de filtros passivos típicos
-	%		\centering
-	%		\begin{subfigure}[b]{0.48\textwidth}
-	%			\centering
-	%			\includegraphics[width=\textwidth]{Cap2/Figuras/LP_filter_BW.png}
-	%			\caption{\centering Resposta em frequência de um filtro passa baixa} 
-	%			\label{fig:LP_filter}
-	%		\end{subfigure}%
-	%		\hfill
-	%		\begin{subfigure}[b]{0.48\textwidth}  
-	%			\centering 
-	%			\includegraphics[width=\textwidth]{Cap2/Figuras/HP_filter_BW.png}
-	%			\caption{\centering Resposta em frequência de um filtro passa alta}    
-	%			\label{fig:HP_filter}
-	%		\end{subfigure}%
-	%		\vskip\baselineskip
-	%		\begin{subfigure}[b]{0.48\textwidth}   
-	%			\centering 
-	%			\includegraphics[width=\textwidth]{Cap2/Figuras/BP_filter_BW.png}
-	%			\caption{\centering Resposta em frequência de um filtro passa faixa}   
-	%			\label{fig:BP_filter}
-	%		\end{subfigure}%
-	%		\hfill
-	%		\begin{subfigure}[b]{0.48\textwidth}   
-	%			\centering 
-	%			\includegraphics[width=\textwidth]{Cap2/Figuras/RB_filter_BW.png}
-	%			\caption{\centering Resposta em frequência de um filtro rejeita faixa}   
-	%			\label{fig:RB_filter}
-	%		\end{subfigure}%
-	%		\caption{Ganho em função da frequência de filtros passivos típicos} 
-	%		\label{fig:mean and std of nets}
-	%	\end{figure*}
-	
-%\end{enumerate}
-
-Na questão de aumentar a qualidade de energia de sistemas elétricos, tem-se que a utilização de filtros passa baixa é mais adequada para o problema, pois são os componentes harmônicos de frequência mais elevada que a fundamental que acabam por degradar a qualidade de energia do sistema elétrico.
+%Analogamente ao filtro passa baixa, os sistemas com a topologia passa alta possuem caminhos de alta impedância para componentes de baixa frequência que são aplicadas na entrada do sistema \cite{Kassick2010}. Desse modo, a saída possui um espectro com a predominância de componentes de alta frequência. Como ocorre nos filtros passa baixa, a frequência que delimita a atenuação é denominada frequência de corte \cite{Mussoi2004}. O espectro típico de um filtro passa alto pode ser visualizado na Figura \ref{fig:HP_filter}. 
+%	
+%	\begin{figure}[!htbp] %Esquema genérico de um conversor multipulso
+%		\centering
+%		\includegraphics[width=0.48\textwidth]{Cap2/Figuras/HP_filter_BW.png}
+%		\caption{Resposta em frequência de um filtro passa alta}
+%		\label{fig:HP_filter}
+%	\end{figure}
+%	
+%Os filtros passa faixa são caracterizados por circuitos cuja resposta apresenta a passagem de sinais com frequências situadas numa faixa intermediária no espectro, atenuando as amplitudes dos sinais que estão fora desse intervalo. A frequências que delimitam esta faixa são denominadas frequência de corte inferior ($f_L$) e frequência de corte superior ($f_H$) \cite{Mussoi2004}. Desse modo, o comportamento do sistema caracteriza-se pela atenuação de componentes que possui frequência abaixo de $f_L$ e acima de $f_H$. Outra característica fundamental dos filtros passa faixa é a largura de banda definida pelo intervalo onde o sinal não é atenuado. Em termos numéricos, esse valor é definido por $f_H-f_L$. Ainda, existe a frequência central $f_0$, ou frequência de ressonância, a qual é a média geométrica entre a frequência de corte inferior $f_L$ e a frequência de corte superior $f_H$ da banda de passagem, ou seja, $f_0=\sqrt{f_L.f_H}$. O módulo da resposta em frequência típica de um filtro passa faixa é mostrada na Figura \ref{fig:BP_filter}.
+%	
+%	\begin{figure}[!htbp] %Esquema genérico de um conversor multipulso
+%		\centering
+%		\includegraphics[width=0.48\textwidth]{Cap2/Figuras/BP_filter_BW.png}
+%		\caption{Resposta em frequência de um filtro passa faixa}
+%		\label{fig:BP_filter}
+%	\end{figure}
+%	
+%Um filtro rejeita faixa atenua componentes cujas frequências estão contidas em um determinado intervalo, enquanto as amplitudes das componentes fora deste não são alteradas.  Analogamente ao passa faixa, existe a frequência de corte inferior e superior definidas por $f_L$ e $f_H$, respectivamente \cite{Mussoi2004}. As componentes com valores de frequência menores que $f_L$ e maiores que $f_H$ são mantidas iguais ao sinal de entrada, ao passo que os componentes contidos dentro do intervalo $f_L\;-\;f_H$ possuem as amplitudes atenuadas. O espectro de frequência desse tipo de filtro pode ser visto na Figura \ref{fig:RB_filter}.
+%	
+%	\begin{figure}[!htbp] %Esquema genérico de um conversor multipulso
+%		\centering
+%		\includegraphics[width=0.48\textwidth]{Cap2/Figuras/RB_filter_BW.png}
+%		\caption{Resposta em frequência de um filtro rejeita faixa}
+%		\label{fig:RB_filter}
+%	\end{figure}
+%	
+%	%	\begin{figure*}[!htbp] %Ganho em função da frequência de filtros passivos típicos
+%	%		\centering
+%	%		\begin{subfigure}[b]{0.48\textwidth}
+%	%			\centering
+%	%			\includegraphics[width=\textwidth]{Cap2/Figuras/LP_filter_BW.png}
+%	%			\caption{\centering Resposta em frequência de um filtro passa baixa} 
+%	%			\label{fig:LP_filter}
+%	%		\end{subfigure}%
+%	%		\hfill
+%	%		\begin{subfigure}[b]{0.48\textwidth}  
+%	%			\centering 
+%	%			\includegraphics[width=\textwidth]{Cap2/Figuras/HP_filter_BW.png}
+%	%			\caption{\centering Resposta em frequência de um filtro passa alta}    
+%	%			\label{fig:HP_filter}
+%	%		\end{subfigure}%
+%	%		\vskip\baselineskip
+%	%		\begin{subfigure}[b]{0.48\textwidth}   
+%	%			\centering 
+%	%			\includegraphics[width=\textwidth]{Cap2/Figuras/BP_filter_BW.png}
+%	%			\caption{\centering Resposta em frequência de um filtro passa faixa}   
+%	%			\label{fig:BP_filter}
+%	%		\end{subfigure}%
+%	%		\hfill
+%	%		\begin{subfigure}[b]{0.48\textwidth}   
+%	%			\centering 
+%	%			\includegraphics[width=\textwidth]{Cap2/Figuras/RB_filter_BW.png}
+%	%			\caption{\centering Resposta em frequência de um filtro rejeita faixa}   
+%	%			\label{fig:RB_filter}
+%	%		\end{subfigure}%
+%	%		\caption{Ganho em função da frequência de filtros passivos típicos} 
+%	%		\label{fig:mean and std of nets}
+%	%	\end{figure*}
+%	
+%%\end{enumerate}
 
 \subsubsection{Retificadores Multipulso}
 
@@ -151,7 +151,7 @@ Os retificadores são comumente encontrados com as topologias de 12, 18, 24 e 30 
 	\label{fig:18_pulse}
 \end{figure*}
 
-Uma característica importante quanto à operação de retificadores multipulso é o fato de que a tensão na entrada do retificador pode ter sua frequência variável. Sendo assim, o fator de potência é elevado no sistema independente da frequência em seus terminais \cite{Gong2003,Lobo2005}. Cabe lembrar, porém, que o desenvolvimento de um conversor multipulso deve contemplar o fato de este operar em frequência variável desde a fase de projeto, para adequar a operação do autotransformador altamente dependente da frequência de operação.
+%Uma característica importante quanto à operação de retificadores multipulso é o fato de que a tensão na entrada do retificador pode ter sua frequência variável. Sendo assim, o fator de potência é elevado no sistema independente da frequência em seus terminais \cite{Gong2003,Lobo2005}. Cabe lembrar, porém, que o desenvolvimento de um conversor multipulso deve contemplar o fato de este operar em frequência variável desde a fase de projeto, para adequar a operação do autotransformador altamente dependente da frequência de operação.
 
 \subsection{Sistemas Ativos}
 
@@ -176,7 +176,7 @@ A topologia de um conversor regulado com correção de fator de potência está inse
 \end{figure}
 
 
-Encontram-se inúmeras topologias de conversores com correção de fator de potência na literatura. O mais utilizado é o conversor com correção de fator de potência, ou \textit{Power Factor Correction} (PFC) do tipo \textit{boost}. Esse conversor é concebido pela ponte de diodos arranjados juntamente com interruptores comutados. Ainda, pela flexibilidade de possíveis arranjos dos semicondutores sob a ponte de diodos e pelas linhas de entrada e saída de energia, uma gama imensa de conversores do tipo \textit{PFC boost} pode ser concebido. O conversor Prasad-Ziogas (Figura \ref{fig:PFC_converter}), possui uma topologia simples e apresenta um único interruptor controlado. Para facilitar o entendimento, será explicado a operação em modo de condução descontínuo. O princípio de funcionamento é dado pelo controle do interruptor $S_1$ que, quando em estado de condução, aplica a tensão da fonte sobre os indutores de entrada $L_i,\;i=1,2,3$. Isso faz com que as correntes nos indutores cresçam de forma proporcional a tensão aplicada em seus terminais pela fonte de entrada. Quando o interruptor $S_1$ para de conduzir, as correntes dos indutores decaem à zero. Por ter a frequência de comutação muito maior que a frequência da rede, tem-se que a corrente de entrada apresenta uma forma modulada em amplitude de alta frequência, a qual pode ser facilmente filtrada com filtros passa-baixo \cite{Nairus1996, Takeuchi2008}. Dessa maneira, o circuito completo de um conversor com PFC é concebido pelo retificador com os semicondutores operando juntamente com a adição de um filtro passa baixa inserido em sua entrada. Ainda, por ter uma modulação em alta frequência, tem-se que o filtro possui frequência de corte alta e suas dimensões e peso são reduzidos. O diagrama completo de um sistema composto pelo filtro, retificador com PFC e o regulador é mostrado na Figura \ref{fig:sch_PFC}. Após a filtragem, a corrente apresenta um formato senoidal e em fase com a tensão. Na prática, o funcionamento desse conversor apresenta uma certa distorção harmônica e não opera em potências elevadas. Assim, outras topologias hibridas com circuitos \textit{PFC boost} e \textit{PFC buck} são utilizadas, bem como técnicas com controle individual do fator de potência de cada fase para aumentar a capacidade de condicionamento de energia e tornar o FP próximo da unidade \cite{Kolar2011}.
+Encontram-se inúmeras topologias de conversores com correção de fator de potência na literatura. O mais utilizado é o conversor com correção de fator de potência, ou \textit{Power Factor Correction} (PFC) do tipo \textit{boost}. Esse conversor é concebido pela ponte de diodos arranjados juntamente com interruptores comutados. Ainda, pela flexibilidade de possíveis arranjos dos semicondutores sob a ponte de diodos e pelas linhas de entrada e saída de energia, uma gama imensa de conversores do tipo \textit{PFC boost} pode ser concebido. O conversor Prasad-Ziogas (Figura \ref{fig:PFC_converter}), possui uma topologia simples e apresenta um único interruptor controlado. Para facilitar o entendimento, será explicado a operação em modo de condução descontínuo. O princípio de funcionamento é dado pelo controle do interruptor $S_1$ que, quando em estado de condução, aplica a tensão da fonte sobre os indutores de entrada $L_i,\;i=1,2,3$. Isso faz com que as correntes nos indutores cresçam de forma proporcional a tensão aplicada em seus terminais pela fonte de entrada. Quando o interruptor $S_1$ para de conduzir, as correntes dos indutores decaem à zero. Por ter a frequência de comutação muito maior que a frequência da rede, tem-se que a corrente de entrada apresenta uma forma modulada em amplitude de alta frequência, a qual pode ser facilmente filtrada com filtros passa-baixo \cite{Nairus1996, Takeuchi2008}. Dessa maneira, o circuito completo de um conversor com PFC é concebido pelo retificador com os semicondutores operando juntamente com a adição de um filtro passa baixa inserido em sua entrada. Ainda, por ter uma modulação em alta frequência, tem-se que o filtro possui frequência de corte alta e suas dimensões e peso são reduzidos. O diagrama completo de um sistema composto pelo filtro, retificador com PFC e o regulador é mostrado na Figura \ref{fig:sch_PFC}. Após a filtragem, a corrente apresenta um formato senoidal e em fase com a tensão. Na prática, o funcionamento desse conversor apresenta uma certa distorção harmônica \cite{Kolar2011}.
 
 \begin{figure}[!htb] %Conversor com correção de fator de potência do tipo Prasad-Ziogas \cite{Takeuchi2008}
 	\centering
@@ -211,7 +211,7 @@ Encontram-se inúmeras topologias de conversores com correção de fator de potênci
 %	\label{fig:rectifiers}
 %\end{figure*}
 
-Como resultado da operação do conversor Prasad-Ziogas, as formas de onda nos indutores de entrada são mostradas na Figura \ref{fig:PFC_waveforms}. Como mencionado, a forma de onda apresenta modulação em amplitude (Figura \ref{fig:PFC_unfilt}), assim, o espectro de frequência da corrente de entrada apresenta um pico no componente fundamental juntamente com harmônicas nas altas frequências. Com a implementação de filtros passa-baixo, são atenuadas as componentes de alta frequência, sobrando majoritariamente a fundamental. A corrente de linha resultante após a filtragem é mostrada na Figura \ref{fig:PFC_filt}.
+Como resultado da operação do conversor Prasad-Ziogas, as formas de onda nos indutores de entrada são mostradas na Figura \ref{fig:PFC_waveforms}. Como mencionado, a forma de onda apresenta modulação em amplitude (Figura \ref{fig:PFC_unfilt}), assim, o espectro de frequência da corrente de entrada apresenta um pico na componente fundamental, juntamente com harmônicas nas altas frequências. Com a implementação de filtros passa-baixo, são atenuadas as componentes de alta frequência, sobrando majoritariamente a fundamental. A corrente de linha resultante após a filtragem é mostrada na Figura \ref{fig:PFC_filt}.
 
 \begin{figure*}[!htb] % Corrente de entrada para o caso sem e com filtro na linha
 	\centering
@@ -228,7 +228,7 @@ Como resultado da operação do conversor Prasad-Ziogas, as formas de onda nos ind
 		\caption{Corrente dos indutores de entrada com filtragem de 2º ordem}    
 		\label{fig:PFC_filt}
 	\end{subfigure}%
-	\caption{Corrente de entrada para o caso sem e com filtro na linha}
+	\caption{Corrente de entrada para o caso sem e com filtro passa baixa na linha}
 	\label{fig:PFC_waveforms}
 \end{figure*}
 

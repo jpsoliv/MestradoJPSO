@@ -68,7 +68,7 @@ IHCf = IHCf(max(y1)==ys(index));
 
 %% plots
 
-ys(fs>393&fs<407)=nan; %Elimina as componetens entre 393 e 407 Hz visto que estas estão dentro da MIL-STD 704F
+% ys(fs>393&fs<407)=nan; %Elimina as componetens entre 393 e 407 Hz visto que estas estão dentro da MIL-STD 704F
 
 % close all
 ft = 30;

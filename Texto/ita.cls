@@ -1107,8 +1107,8 @@
   \else
     \newcounter{butlastpage}%
     \setcounter{butlastpage}{\expandafter\deixasosegundo\r@LastPage!}%
-    \addtocounter{butlastpage}{0}%
-%    \addtocounter{butlastpage}{-1}%
+%    \addtocounter{butlastpage}{0}%
+    \addtocounter{butlastpage}{-1}%
     \newcommand\NumPenultimaPagina{}%
     \edef\NumPenultimaPagina{\arabic{butlastpage}}%
   \fi}
