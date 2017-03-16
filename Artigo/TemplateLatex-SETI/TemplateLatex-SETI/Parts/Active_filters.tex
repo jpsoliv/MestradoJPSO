@@ -1,12 +1,12 @@
 \section{Active Filters}
 
-The operation of active filters is based on the generation of voltages/currents to interact with the electrical grid waveforms to achieve a power factor equal to one. This is accomplished by measuring the voltage waveforms from the source and the current waveforms from the load to determine the reference currents to be set in a compensator, see Fig. \ref{fig:compensador.png} \citep{Akagi2006}. The compensator is given by a voltage source converter (VSC), and injects current waveforms with symmetrical harmonic components values to compensate the harmonic content responsible for the power factor degradation.
+The operation of active filters is based on the generation of voltages/currents to interact with the electrical grid waveforms to achieve a power factor equal to one. This is accomplished by measuring the voltage waveforms from the source and the current waveforms from the load to determine the reference currents to be set in a compensator, see Fig. \ref{fig:compensador.png} \citep{Akagi2006}. The compensator is given by a voltage source converter (VSC), and it injects current waveforms with symmetrical values of harmonic components to compensate the harmonic content responsible for the power factor degradation.
 
 \begin{figure}[!h]
-\centering
-\includegraphics[width=0.78\textwidth]{Figures/compensador.png}
-\caption{Shunt active filter}
-\label{fig:compensador.png}
+	\centering
+	\includegraphics[width=0.78\textwidth]{Figures/compensador.png}
+	\caption{Shunt active filter}
+	\label{fig:compensador.png}
 \end{figure}
 
 %\begin{figure}
@@ -19,7 +19,7 @@ The operation of active filters is based on the generation of voltages/currents 
 
 \subsection{Instantaneous Power Theory}
 
-The instantaneous power theory was presented by Akagi \citep{Akagi1984}, which proposed new concepts for the instantaneous active and reactive power. It can be used in three phase, three or four wire system and in steady or transient state \citep{Akagi2007}. In this theory, the manipulation of the active and reactive power calculations furnishes a tool to determine the currents that carry some content which degrade the power factor, such as harmonic distortion and phase shift.
+The instantaneous power theory was presented by Akagi \citep{Akagi1984}, which proposed new concepts for the instantaneous active and reactive electrical power. It can be used in three phase, three or four wire system and in steady or transient state \citep{Akagi2007}. In this theory, the manipulation of the active and reactive power calculations furnishes a tool to determine the currents that degrade the power factor, such as harmonic distortion and phase shift.
 
 Considering a three-phase system, composed of the phases $a$, $b$ and $c$, the instantaneous power theory is based in the coordinates transformation from the $abc$ to $\alpha \beta 0 $. This is known as the Clarke Transformation and is shown in eq. \ref{eq:Clarke}.
 
@@ -63,7 +63,7 @@ i_c
 \end{aligned}
 \end{equation} 
 
-According to \citep{Akagi2007}, the instantaneous power is defined as shown in eq. \ref{eq:pq_0}, where the $p_0$, $p$ and $q$ are the instantaneous zero-sequence power, the active instantaneous power and the reactive instantaneous power, respectively \citep{Akagi2006,Peng1996}.
+According to \citep{Akagi2007}, the instantaneous power is defined in eq. \ref{eq:pq_0}, where the $p_0$, $p$ and $q$ are the instantaneous zero-sequence power, the active instantaneous power and the reactive instantaneous power, respectively \citep{Akagi2006,Peng1996}.
 
 \begin{equation}
 \begin{bmatrix}
@@ -84,7 +84,7 @@ i_{\beta}
 \label{eq:pq_0}
 \end{equation} 
 
-In the aircraft EPGDS, the three-phase generator has balanced voltages in its power output and the distribution of single-phase loads are defined so that the zero voltage sequence ($v_0$) can be disregarded. With this consideration the eq. \ref{eq:pq_0} can be simplified as the eq. \ref{eq:pq}, where the instantaneous zero-sequence power is absent.
+In the aircraft EPGDS, the three-phase voltages encountered in the electrical buses are balanced and the distribution of single-phase loads are defined so that the zero voltage sequence ($v_0$) can be disregarded. With this consideration, the eq. \ref{eq:pq_0} can be simplified as the eq. \ref{eq:pq}, where the instantaneous zero-sequence power is absent.
 
 \begin{equation}
 \begin{bmatrix}
@@ -131,9 +131,9 @@ q = \overline{q} + \tilde{q}
 \label{eq:pq_m_o}
 \end{equation} 
 
-To create an active filter to achieve a power factor equal to 1, the only permitted power flowing in the transmission lines is the average value of the instantaneous active power ($\overline{p}$). To ensure this condition, the filter must inject in the lines currents with symmetrical values of the instantaneous reactive power ($q$) and the oscillating portion of the instantaneous active power ($\tilde{p}$), these injected in the grid by the non-linear loads. By doing this, these powers are canceled in the same way as the current harmonic content. Thereby, the selection of power to be compensated and processed by the filter must contains the values of $-\tilde{p}$ and $-q$ only.
+To create an active filter to achieve a power factor equal to 1, the only permitted power flowing in the transmission lines is the average value of the instantaneous active power ($\overline{p}$). To ensure this condition, the filter must inject in the lines currents with symmetrical values of the instantaneous reactive power ($q$) and the oscillating portion of the instantaneous active power ($\tilde{p}$), these ones injected in the grid by the non-linear loads. By doing this, these powers are canceled in the same way as the current harmonic content. Thereby, the selection of power to be compensated and processed by the filter must contains the values of $-\tilde{p}$ and $-q$ only.
 
-The filter full operation is defined by the instantaneous power $p$ and $q$ calculation, followed by the selection of the power to be compensated, i.e., $-\tilde{p}$ and $-q$. Afterwards, the currents $i_{\alpha}$ and $i_{\beta}$ are calculated using the eq. \ref{eq:i_alphabeta} with the values $-\tilde{p}$ and $-q$, followed by the inverse Clarke transformation to acquire the current in $abc$ coordinates to be applied as a reference in the compensator. The whole active filter reference definition is shown in Fig. \ref{fig:diagrama_filtro.png}.
+The filter full operation is defined by the instantaneous power $p$ and $q$ calculation, followed by the selection of the power to be compensated, i.e., $-\tilde{p}$ and $-q$. Afterwards, the currents $i_{\alpha}$ and $i_{\beta}$ are calculated using the eq. \ref{eq:i_alphabeta} with the values $-\tilde{p}$ and $-q$, followed by the inverse Clarke transformation to acquire the current in $abc$ coordinates to be applied as a reference in the compensator. The whole active filter reference calculator is shown in Fig. \ref{fig:diagrama_filtro.png}.
 
 \begin{figure}[!th]
 	\centering
@@ -151,13 +151,13 @@ The filter full operation is defined by the instantaneous power $p$ and $q$ calc
 
 \subsection{Control Strategy}
 
-The active filter specified in Fig. \ref{fig:diagrama_filtro.png} presents very effective to set the current reference to be applied in the compensator for mitigation of the electrical system harmonic content. However, this calculation procedure is valid to produce sinusoidal current waveforms in the grid when the voltages measured and used in the filter input are pure sine waves \citep{Akagi2007}. This happens insofar as the filter operates allowing only the mean value of the active instantaneous power flowing in the circuit. Therefore, the use of a non-sinusoidal voltage waveform in the input of the filter requires a non-sinusoidal current waveform to establish the power flow consisted of $\overline{p}$.
+The active filter specified in Fig. \ref{fig:diagrama_filtro.png} presents very effective to set the current reference at the compensator input for mitigation of the electrical system harmonic content. However, this calculation procedure is valid to produce sinusoidal current waveforms only when the voltages measured and used in the filter input are pure sine waves \citep{Akagi2007}. This happens insofar as the filter operates allowing only the mean value of the active instantaneous power flowing in the circuit. Therefore, the use of a non-sinusoidal voltage waveform in the input of the filter requires a non-sinusoidal current waveform to establish the power flow consisted of $\overline{p}$.
 
 In aircraft electrical system, the voltage waveforms in the load terminals are presented as non-sinusoidal, however, they are still limited by aeronautical standards. As the voltages used in the active filter are measured at this point, the filter defined as per Fig. \ref{fig:diagrama_filtro.png} is not optimal for power quality purposes. In some cases, it may decrease the power quality and have an unstable operation depending the levels of harmonic distortion presented in the voltages waveforms \citep{Akagi2007}.
 
-According to \citep{Akagi2007}, the p-q theory proves insufficient to create a current sine wave and a mean value of the active instantaneous power flow, simultaneously when distorted voltage waveforms are measured by the filter voltages probes. To overcome this problem, a control strategy based on the use of a positive-sequence voltage detector is employed to ensure a sinusoidal current control. This way, the power flow between the load and the source is not defined as the mean value of the active instantaneous power, in contrast, the control strategy relies on the appropriate sine wave current insertion to establish the proper power quality at the system.
+According to \citep{Akagi2007}, the p-q theory proves insufficient to create a current sine wave and a mean value of the active instantaneous power flow, simultaneously when distorted voltage waveforms are measured by the filter voltages probes. To overcome this problem, a control strategy based on the use of a positive-sequence voltage detector is employed to ensure a sinusoidal current control. This way, the power flow between the load and the source is not defined as the mean value of the active instantaneous power. In contrast, the control strategy relies on the appropriate sine wave current insertion to establish the proper power quality at the system.
 
-The sinusoidal current control is designed using the positive-sequence voltage detector (PSVD), which operates to extract the fundamental positive-sequence component from the distorted voltages. The point of PSVD connection is between the loads terminals and active filter reference calculator. This component is required by the active filter to define the current shape to be applied in the electrical grid to create a sinusoidal waveform. 
+The sinusoidal current control is designed using the positive-sequence voltage detector (PSVD), which operates to extract the fundamental positive-sequence component from the distorted voltages. The point of PSVD connection is between the loads terminals and active filter reference calculator (Fig. \ref{ fig:diagrama_filtro.png }). This component is required by the active filter to define the current shape to be applied in the electrical grid to create a sinusoidal waveform. 
 
 The positive-sequence voltage detector operates based on the p-q dual theory, where it is used a phase locked loop (PLL) and the p-q theory to extract the fundamental frequency and amplitude of the distorted voltages \citep{Akagi2007}. The PLL is shown in Fig. \ref{fig:PLL.png} and operates acquiring the fundamental frequency and phase. The scheme shown in Fig. \ref{fig:detector_seq_positiva.png} uses the p-q theory and the information coming from the PLL to define the amplitude of the fundamental voltages component to be used in the active filter calculations.
 
@@ -176,4 +176,4 @@ The positive-sequence voltage detector operates based on the p-q dual theory, wh
 	\label{fig:detector_seq_positiva.png}
 \end{figure}
 
-The operation of the active filter has some loss mainly due to the VSC switching devices, which reduces the capacitor voltage locate in the converter DC side. To avoid this voltage drop, a PI controller applied in the active filter defines a compensation strategy. This closed-loop error signal is processed by the compensator, managing the power flow in the VSC to hold the capacitor voltage within a specifically reference.
+The operation of the active filter has some loss mainly due to the VSC switching devices, which reduces the capacitor voltage, locate in the converter DC side. To avoid this voltage drop, a compensation strategy using a PI controller must be applied in the active filter. This closed-loop error signal is processed by the compensator, managing the power flow in the VSC to hold the capacitor voltage within a specifically reference.
