@@ -38,7 +38,7 @@
 \usepackage{amssymb} 
 %\usepackage{subfig}
 \usepackage{multirow}
-\usepackage{float}
+%\usepackage{float}
 \usepackage{comment}
 \usepackage{fixltx2e}
 \usepackage[textsize=tiny]{todonotes}
@@ -49,28 +49,31 @@
 \usepackage{titlesec}
 %\usepackage{enumerate}
 \usepackage[shortlabels]{enumitem}
-\usepackage[justification=centering]{caption}
+\usepackage[justification=centering,tableposition=top]{caption}
 \usepackage{graphicx}
 \usepackage[justification=centering]{subcaption}
 \usepackage{xfrac}
 %\usepackage{units}
 \usepackage{chngcntr}
-\counterwithout{figure}{chapter}
-\counterwithout{table}{chapter}
+%\counterwithout{figure}{chapter}
+%\counterwithout{table}{chapter}
 \usepackage{newunicodechar}
 \usepackage{siunitx}
 \usepackage{placeins}
 \usepackage{notoccite}
 \usepackage{breakurl} 
 \usepackage[breaklinks]{hyperref}
-%\usepackage{pdfpages}
-
+\usepackage{floatrow}
+\floatsetup[table]{capposition=top}
+\usepackage{pdfpages}
+\usepackage[nottoc,notlot,notlof]{tocbibind}
 {\renewcommand{\arraystretch}{1.5}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FORMATAÇÂO BIBLIOGRAFIA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \makeatletter
 \renewenvironment{thebibliography}[1]
 {\chapter*{\raggedright\refname}%
+	\addcontentsline{toc}{chapter}{\refname}
 	\@mkboth{\MakeUppercase\refname}{\MakeUppercase\refname}%
 	\begin{enumerate}[label={[\arabic{enumi}]\hspace{0.65cm}},align=right,labelwidth=1.25cm,leftmargin=1.5cm,itemindent=0cm,itemsep=2ex]
 		\raggedright
@@ -84,7 +87,22 @@
 		{\@latex@warning{Empty `thebibliography' environment}}%
 	\end{enumerate}}
 	\makeatother
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+%%%%%%%%%%%%%%EXCLUI LISTA DE FIGURAS E LISTA DE TALBELAS DO SUMARIO%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand*{\BeginNoToc}{%
+	\addtocontents{toc}{%
+		\edef\protect\SavedTocDepth{\protect\the\protect\value{tocdepth}}%
+	}%
+	\addtocontents{toc}{%
+		\protect\setcounter{tocdepth}{-10}%
+	}%
+}
+\newcommand*{\EndNoToc}{%
+	\addtocontents{toc}{%
+		\protect\setcounter{tocdepth}{\protect\SavedTocDepth}%
+	}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 % Identificacoes
@@ -173,6 +191,7 @@ Aos meu pais, Francisco e Luciana, pelo apoio incondicional dado não apenas na l
 % Keywords
 %\englishkeywords{De, Buk, Is, On, de, Teibou}
 
+\BeginNoToc
 % Sumario
 \tableofcontents
 
@@ -195,6 +214,8 @@ Aos meu pais, Francisco e Luciana, pelo apoio incondicional dado não apenas na l
 %%singlespacing Para um espaçamento simples
 %%onehalfspacing Para um espaçamento de 1,5
 %%doublespacing Para um espaçamento duplo
+
+\EndNoToc
 
 \mainmatter
 % Os capitulos comecam aqui
@@ -278,8 +299,8 @@ Aos meu pais, Francisco e Luciana, pelo apoio incondicional dado não apenas na l
 %\end{comment} %%%% Comentário de apendice e anexo
 
 % Glossario
-\itaglossary
-\printglossary
+%\itaglossary
+%\printglossary
 
 %% Folha de Registro do Documento
 %% Valores dos campos do formulario
@@ -297,7 +318,7 @@ Aos meu pais, Francisco e Luciana, pelo apoio incondicional dado não apenas na l
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Cria o formulario
 %\itaFRD
 
-%\includepdf{dp012_JoaoPaulodeSouzaOliveira.pdf}
+\includepdf{dp012_JoaoPaulodeSouzaOliveira.pdf}
 
 \end{document}
 % Fim do Documento. O massacre acabou!!! :-)
