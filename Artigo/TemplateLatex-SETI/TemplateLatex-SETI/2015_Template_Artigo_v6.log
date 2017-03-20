@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.23)  16 MAR 2017 16:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.23)  17 MAR 2017 08:41
 entering extended mode
 **2015_Template_Artigo_v6.tex
 
@@ -753,10 +753,6 @@ Package pdftex.def Info: Figures/diagrama_filtro.png used on input line 140.
 (pdftex.def)             Requested size: 341.43886pt x 233.82898pt.
  [5 <C:/Users/jpsoliv/Documents/João/Mestrado/Artigo/TemplateLatex-SETI/Templa
 teLatex-SETI/Figures/diagrama_filtro.png>]
-
-LaTeX Warning: Reference ` fig:diagrama_filtro.png ' on page 6 undefined on inp
-ut line 160.
-
 <Figures/PLL.png, id=32, 1139.75812pt x 368.87813pt>
 File: Figures/PLL.png Graphic file (type png)
  <use Figures/PLL.png>
@@ -969,37 +965,33 @@ AED: lastpage setting LastPage
 
 ]
 (C:\Users\jpsoliv\Documents\João\Mestrado\Artigo\TemplateLatex-SETI\TemplateLa
-tex-SETI\2015_Template_Artigo_v6.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+tex-SETI\2015_Template_Artigo_v6.aux) ) 
 Here is how much of TeX's memory you used:
- 5799 strings out of 493921
- 91978 string characters out of 3125104
+ 5798 strings out of 493921
+ 91951 string characters out of 3125104
  165970 words of memory out of 3000000
- 8932 multiletter control sequences out of 15000+200000
+ 8931 multiletter control sequences out of 15000+200000
  12134 words of font info for 43 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,15n,45p,1085b,489s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1/p
-ublic/amsfonts/cm/cmbx10.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Latex/M
-ikTexPortable/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jpsoliv/Docum
-ents/João/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmbxti1
-0.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/typ
-e1/public/amsfonts/cm/cmex10.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Lat
-ex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jpsoliv/D
-ocuments/João/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmm
-i8.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Lat
-ex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jpsoliv/Do
-cuments/João/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmr8
-.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Late
-x/MikTexPortable/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/jpsoliv/Do
-cuments/João/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmti
-12.pfb>
-Output written on 2015_Template_Artigo_v6.pdf (11 pages, 1000593 bytes).
+ 42i,15n,45p,1086b,489s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/jpsoliv/Documents/João/Mestra
+do/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jps
+oliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/f
+onts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/jpsoliv/Documents/João/Me
+strado/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users
+/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfo
+nts/cm/cmmi12.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortab
+le/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jpsoliv/Documents/João/M
+estrado/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users
+/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortabl
+e/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jpsoliv/Documents/João/Mes
+trado/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
+jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfon
+ts/cm/cmti10.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortabl
+e/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on 2015_Template_Artigo_v6.pdf (11 pages, 1000359 bytes).
 PDF statistics:
  171 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
