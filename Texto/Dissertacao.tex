@@ -68,6 +68,7 @@
 \usepackage{pdfpages}
 \usepackage[nottoc,notlot,notlof]{tocbibind}
 {\renewcommand{\arraystretch}{1.5}
+\usepackage{bookmark}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FORMATAÇÂO BIBLIOGRAFIA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \makeatletter
@@ -152,7 +153,14 @@
 \begin{document}
 % Folha de Rosto
 
-\maketitle
+%\maketitle							%Capa Escaneada com as assinaturas
+\pdfbookmark{Folha de Rosto}{Folha de Rosto}
+\includepdf{Capa.pdf}				%Capa Escaneada com as assinaturas
+\pdfbookmark{Verso da Folha de Rosto}{Verso da Folha de Rosto}
+\includepdf{Cessao_de_direitos.pdf}	%Capa Escaneada com as assinaturas
+\pdfbookmark{Folha da Banca}{Folha da Banca}
+\includepdf{Folha_banca.pdf}		%Capa Escaneada com as assinaturas
+
 %
 % Dedicatoria: Nao esqueca essa secao ... :-)
 \begin{itadedication}
