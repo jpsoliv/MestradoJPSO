@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.23)  21 MAR 2017 13:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.23)  24 MAR 2017 13:06
 entering extended mode
 **Dissertacao.tex
 (C:\Users\jpsoliv\Documents\João\Mestrado\texto\Dissertacao.tex
@@ -15,19 +15,15 @@ an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
 (C:\Users\jpsoliv\Documents\João\Mestrado\texto\ita.cls
 Document Class: ita 2006/03/10 v2.0 Classe de documento com padr�es do ITA
-
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\obe
-rdiek\ifpdf.sty
+(E:\Latex\MikTexPortable\tex\generic\oberdiek\ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
-) (C:\Users\jpsoliv\Documents\João\Mestrado\texto\defaults.def) (C:\Users\jpso
-liv\Documents\João\Mestrado\texto\msc.def)
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\base\
-book.cls
+)
+(C:\Users\jpsoliv\Documents\João\Mestrado\texto\defaults.def)
+(C:\Users\jpsoliv\Documents\João\Mestrado\texto\msc.def)
+(E:\Latex\MikTexPortable\tex\latex\base\book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\base\
-bk12.clo
+(E:\Latex\MikTexPortable\tex\latex\base\bk12.clo
 File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -43,8 +39,7 @@ File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\tools
-\calc.sty
+(E:\Latex\MikTexPortable\tex\latex\tools\calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count88
 \calc@Bcount=\count89
@@ -57,28 +52,22 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count90
 \calc@Cskip=\skip45
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\base\
-ifthen.sty
+(E:\Latex\MikTexPortable\tex\latex\base\ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\bab
-el\babel.sty
+(E:\Latex\MikTexPortable\tex\generic\babel\babel.sty
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\00mik
-tex\bblopts.cfg
+(E:\Latex\MikTexPortable\tex\latex\00miktex\bblopts.cfg
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\bab
-el\english.ldf
+(E:\Latex\MikTexPortable\tex\generic\babel\english.ldf
 Language: english 2005/03/30 v3.3o English support from the babel system
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\bab
-el\babel.def
+(E:\Latex\MikTexPortable\tex\generic\babel\babel.def
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count91
 \U@D=\dimen105
@@ -87,32 +76,27 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\bab
-el\portuges.ldf
+(E:\Latex\MikTexPortable\tex\generic\babel\portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 Package babel Info: Making " an active character on input line 145.
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\bab
-el\portuges.ldf
+(E:\Latex\MikTexPortable\tex\generic\babel\portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 \l@brazil = a dialect from \language\l@portuges 
-)) (C:\Users\jpsoliv\Documents\João\Mestrado\texto\itabr.babel)
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\base\
-inputenc.sty
+))
+(C:\Users\jpsoliv\Documents\João\Mestrado\texto\itabr.babel)
+(E:\Latex\MikTexPortable\tex\latex\base\inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\base\
-latin1.def
+(E:\Latex\MikTexPortable\tex\latex\base\latin1.def
 File: latin1.def 2008/03/30 v1.1d Input encoding file
 ))
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\setsp
-ace\setspace.sty
+(E:\Latex\MikTexPortable\tex\latex\setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\fancy
-hdr\fancyhdr.sty
+(E:\Latex\MikTexPortable\tex\latex\fancyhdr\fancyhdr.sty
 \fancy@headwidth=\skip46
 \f@ncyO@elh=\skip47
 \f@ncyO@erh=\skip48
@@ -123,8 +107,7 @@ hdr\fancyhdr.sty
 \f@ncyO@olf=\skip53
 \f@ncyO@orf=\skip54
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\amsfo
-nts\amsfonts.sty
+(E:\Latex\MikTexPortable\tex\latex\amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks16
 \symAMSa=\mathgroup4
@@ -132,29 +115,23 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\lastp
-age\lastpage.sty
+(E:\Latex\MikTexPortable\tex\latex\lastpage\lastpage.sty
 
 LaTeX Warning: You have requested release `2014/05/01' of LaTeX,
                but only release `2011/06/27' is available.
 
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
-)
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\tools
-\indentfirst.sty
+) (E:\Latex\MikTexPortable\tex\latex\tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\capti
-on\caption.sty
+(E:\Latex\MikTexPortable\tex\latex\caption\caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\capti
-on\caption3.sty
+(E:\Latex\MikTexPortable\tex\latex\caption\caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\graph
-ics\keyval.sty
+(E:\Latex\MikTexPortable\tex\latex\graphics\keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks17
 )
@@ -168,8 +145,7 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 )
 \c@ContinuedFloat=\count92
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\tools
-\longtable.sty
+(E:\Latex\MikTexPortable\tex\latex\tools\longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip55
 \LTright=\skip56
@@ -187,8 +163,7 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count97
 \LT@p@ftn=\toks18
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\tools
-\array.sty
+(E:\Latex\MikTexPortable\tex\latex\tools\array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen114
 \extrarowheight=\dimen115
@@ -196,8 +171,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip59
 \backup@length=\skip60
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\tools
-\tabularx.sty
+(E:\Latex\MikTexPortable\tex\latex\tools\tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 \TX@col@width=\dimen116
 \TX@old@table=\dimen117
@@ -207,8 +181,7 @@ Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 \TX@cols=\count98
 \TX@ftn=\toks20
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\title
-sec\titlesec.sty
+(E:\Latex\MikTexPortable\tex\latex\titlesec\titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box30
 \beforetitleunit=\skip61
@@ -219,55 +192,46 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidth=\dimen123
 \titlewidthlast=\dimen124
 \titlewidthfirst=\dimen125
-) (C:\Users\jpsoliv\Documents\João\Mestrado\texto\makeglo.sty
+)
+(C:\Users\jpsoliv\Documents\João\Mestrado\texto\makeglo.sty
 Package: makeglo 
 \glossentrylen=\skip63
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\graph
-ics\color.sty
+(E:\Latex\MikTexPortable\tex\latex\graphics\color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\00mik
-tex\color.cfg
+(E:\Latex\MikTexPortable\tex\latex\00miktex\color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\pdfte
-x-def\pdftex.def
+(E:\Latex\MikTexPortable\tex\latex\pdftex-def\pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\obe
-rdiek\infwarerr.sty
+(E:\Latex\MikTexPortable\tex\generic\oberdiek\infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\obe
-rdiek\ltxcmds.sty
+(E:\Latex\MikTexPortable\tex\generic\oberdiek\ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count99
 ))
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\hyphe
-nat\hyphenat.sty
+(E:\Latex\MikTexPortable\tex\latex\hyphenat\hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language69
 LaTeX Info: Redefining \_ on input line 43.
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\base\
-makeidx.sty
+(E:\Latex\MikTexPortable\tex\latex\base\makeidx.sty
 Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\hyper
-ref\hyperref.sty
+(E:\Latex\MikTexPortable\tex\latex\hyperref\hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\obe
-rdiek\hobsub-hyperref.sty
+(E:\Latex\MikTexPortable\tex\generic\oberdiek\hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\obe
-rdiek\hobsub-generic.sty
+(E:\Latex\MikTexPortable\tex\generic\oberdiek\hobsub-generic.sty
 Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -307,30 +271,25 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\ifx
-etex\ifxetex.sty
+(E:\Latex\MikTexPortable\tex\generic\ifxetex\ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\oberd
-iek\auxhook.sty
+(E:\Latex\MikTexPortable\tex\latex\oberdiek\auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\oberd
-iek\kvoptions.sty
+(E:\Latex\MikTexPortable\tex\latex\oberdiek\kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen126
 \Hy@linkcounter=\count100
 \Hy@pagecounter=\count101
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\hyper
-ref\pd1enc.def
+(E:\Latex\MikTexPortable\tex\latex\hyperref\pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count102
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\00mik
-tex\hyperref.cfg
+(E:\Latex\MikTexPortable\tex\latex\00miktex\hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `debug' set `true' on input line 4319.
@@ -353,9 +312,7 @@ Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count103
-
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\url\u
-rl.sty
+(E:\Latex\MikTexPortable\tex\latex\url\url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -380,54 +337,43 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\hyper
-ref\hpdftex.def
+(E:\Latex\MikTexPortable\tex\latex\hyperref\hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count108
 \c@bookmark@seq@number=\count109
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\oberd
-iek\rerunfilecheck.sty
+(E:\Latex\MikTexPortable\tex\latex\oberdiek\rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip64
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\ae\ae
-.sty
+(E:\Latex\MikTexPortable\tex\latex\ae\ae.sty
 Package: ae 2001/02/12 1.3 Almost European Computer Modern
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\base\
-fontenc.sty
+(E:\Latex\MikTexPortable\tex\latex\base\fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\base\
-t1enc.def
+(E:\Latex\MikTexPortable\tex\latex\base\t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 )
 LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\ae\t1
-aer.fd
+(E:\Latex\MikTexPortable\tex\latex\ae\t1aer.fd
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 )))
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\graph
-ics\graphicx.sty
+(E:\Latex\MikTexPortable\tex\latex\graphics\graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\graph
-ics\graphics.sty
+(E:\Latex\MikTexPortable\tex\latex\graphics\graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\graph
-ics\trig.sty
+(E:\Latex\MikTexPortable\tex\latex\graphics\trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\00mik
-tex\graphics.cfg
+(E:\Latex\MikTexPortable\tex\latex\00miktex\graphics.cfg
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
@@ -435,8 +381,7 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \Gin@req@height=\dimen130
 \Gin@req@width=\dimen131
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\geome
-try\geometry.sty
+(E:\Latex\MikTexPortable\tex\latex\geometry\geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count110
 \Gm@cntv=\count111
@@ -451,42 +396,34 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutvoffset=\dimen139
 \Gm@dimlist=\toks22
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\geome
-try\geometry.cfg))
+(E:\Latex\MikTexPortable\tex\latex\geometry\geometry.cfg))
 \c@mecounter=\count113
 \c@kwcipcounter=\count114
 \nohyphen=\language70
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\graph
-ics\epsfig.sty
+(E:\Latex\MikTexPortable\tex\latex\graphics\epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \epsfxsize=\dimen140
 \epsfysize=\dimen141
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\amsma
-th\amsmath.sty
+(E:\Latex\MikTexPortable\tex\latex\amsmath\amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip65
 
 For additional information on amsmath, use the `?' option.
-
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\amsma
-th\amstext.sty
+(E:\Latex\MikTexPortable\tex\latex\amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\amsma
-th\amsgen.sty
+(E:\Latex\MikTexPortable\tex\latex\amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks23
 \ex@=\dimen142
 ))
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\amsma
-th\amsbsy.sty
+(E:\Latex\MikTexPortable\tex\latex\amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen143
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\amsma
-th\amsopn.sty
+(E:\Latex\MikTexPortable\tex\latex\amsmath\amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count115
@@ -527,47 +464,39 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\amsfo
-nts\amssymb.sty
+(E:\Latex\MikTexPortable\tex\latex\amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\multi
-row\multirow.sty
+(E:\Latex\MikTexPortable\tex\latex\multirow\multirow.sty
 \bigstrutjot=\dimen151
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\comme
-nt\comment.sty
+(E:\Latex\MikTexPortable\tex\latex\comment\comment.sty
 \CommentStream=\write3
- Excluding comment 'comment')
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\base\
-fixltx2e.sty
+
+Excluding comment 'comment')
+(E:\Latex\MikTexPortable\tex\latex\base\fixltx2e.sty
 Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
 LaTeX Info: Redefining \em on input line 420.
 LaTeX Info: The control sequence `\[' is already robust on input line 471.
 LaTeX Info: The control sequence `\]' is already robust on input line 472.
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\todon
-otes\todonotes.sty
+(E:\Latex\MikTexPortable\tex\latex\todonotes\todonotes.sty
 Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
 Package: todonotes 2012/07/25
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\xkeyv
-al\xkeyval.sty
+(E:\Latex\MikTexPortable\tex\latex\xkeyval\xkeyval.sty
 Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\xke
-yval\xkeyval.tex
+(E:\Latex\MikTexPortable\tex\generic\xkeyval\xkeyval.tex
 \XKV@toks=\toks28
 \XKV@tempa@toks=\toks29
 \XKV@depth=\count127
 File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 ))
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\xcolo
-r\xcolor.sty
+(E:\Latex\MikTexPortable\tex\latex\xcolor\xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\00mik
-tex\color.cfg
+(E:\Latex\MikTexPortable\tex\latex\00miktex\color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -582,49 +511,36 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\pgf\f
-rontendlayer\tikz.sty
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\pgf\b
-asiclayer\pgf.sty
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\pgf\u
-tilities\pgfrcs.sty
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\utilities\pgfutil-common.tex
+(E:\Latex\MikTexPortable\tex\latex\pgf\frontendlayer\tikz.sty
+(E:\Latex\MikTexPortable\tex\latex\pgf\basiclayer\pgf.sty
+(E:\Latex\MikTexPortable\tex\latex\pgf\utilities\pgfrcs.sty
+(E:\Latex\MikTexPortable\tex\generic\pgf\utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks30
 \pgfutil@tempdima=\dimen152
 \pgfutil@tempdimb=\dimen153
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\utilities\pgfutil-common-lists.tex))
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\utilities\pgfutil-latex.def
+(E:\Latex\MikTexPortable\tex\generic\pgf\utilities\pgfutil-common-lists.tex))
+(E:\Latex\MikTexPortable\tex\generic\pgf\utilities\pgfutil-latex.def
 \pgfutil@abb=\box33
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\ms\ev
-eryshi.sty
+(E:\Latex\MikTexPortable\tex\latex\ms\everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\utilities\pgfrcs.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\utilities\pgfrcs.code.tex
 Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
 ))
 Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\pgf\b
-asiclayer\pgfcore.sty
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\pgf\s
-ystemlayer\pgfsys.sty
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\systemlayer\pgfsys.code.tex
+(E:\Latex\MikTexPortable\tex\latex\pgf\basiclayer\pgfcore.sty
+(E:\Latex\MikTexPortable\tex\latex\pgf\systemlayer\pgfsys.sty
+(E:\Latex\MikTexPortable\tex\generic\pgf\systemlayer\pgfsys.code.tex
 Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\utilities\pgfkeys.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks31
 \pgfkeys@temptoks=\toks32
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\utilities\pgfkeysfiltered.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks33
 ))
 \pgf@x=\dimen154
@@ -645,42 +561,32 @@ Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
 \t@pgf@tokb=\toks35
 \t@pgf@tokc=\toks36
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\systemlayer\pgf.cfg
+(E:\Latex\MikTexPortable\tex\generic\pgf\systemlayer\pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\systemlayer\pgfsys-pdftex.def
+(E:\Latex\MikTexPortable\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\systemlayer\pgfsys-common-pdf.def
+(E:\Latex\MikTexPortable\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\systemlayer\pgfsyssoftpath.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count132
 \pgfsyssoftpath@bigbuffer@items=\count133
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\systemlayer\pgfsysprotocol.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\basiclayer\pgfcore.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\basiclayer\pgfcore.code.tex
 Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\math\pgfmath.code.tex
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\math\pgfmathcalc.code.tex
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\math\pgfmathutil.code.tex)
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\math\pgfmathparser.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\math\pgfmath.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\math\pgfmathcalc.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\math\pgfmathutil.code.tex)
+(E:\Latex\MikTexPortable\tex\generic\pgf\math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen162
 \pgfmath@count=\count134
 \pgfmath@box=\box34
@@ -688,30 +594,23 @@ Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
 \pgfmath@stack@operand=\toks38
 \pgfmath@stack@operation=\toks39
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\math\pgfmathfunctions.code.tex
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\math\pgfmathfunctions.basic.code.tex)
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\math\pgfmathfunctions.trigonometric.code.tex)
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\math\pgfmathfunctions.random.code.tex)
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\math\pgfmathfunctions.comparison.code.tex)
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\math\pgfmathfunctions.base.code.tex)
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\math\pgfmathfunctions.round.code.tex)
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\math\pgfmathfunctions.misc.code.tex)
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\math\pgfmathfunctions.integerarithmetics.code.tex)))
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\math\pgfmathfloat.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\math\pgfmathfunctions.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex)
+(E:\Latex\MikTexPortable\tex\generic\pgf\math\pgfmathfunctions.trigonometric.co
+de.tex)
+(E:\Latex\MikTexPortable\tex\generic\pgf\math\pgfmathfunctions.random.code.tex)
+
+(E:\Latex\MikTexPortable\tex\generic\pgf\math\pgfmathfunctions.comparison.code.
+tex)
+(E:\Latex\MikTexPortable\tex\generic\pgf\math\pgfmathfunctions.base.code.tex)
+(E:\Latex\MikTexPortable\tex\generic\pgf\math\pgfmathfunctions.round.code.tex)
+(E:\Latex\MikTexPortable\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex)
+(E:\Latex\MikTexPortable\tex\generic\pgf\math\pgfmathfunctions.integerarithmeti
+cs.code.tex)))
+(E:\Latex\MikTexPortable\tex\generic\pgf\math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count135
 ))
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\basiclayer\pgfcorepoints.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen163
 \pgf@picmaxx=\dimen164
@@ -728,128 +627,99 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen175
 \pgf@zy=\dimen176
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\basiclayer\pgfcorepathconstruct.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.t
+ex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen177
 \pgf@path@lasty=\dimen178
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\basiclayer\pgfcorepathusage.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
 \pgf@shorten@end@additional=\dimen179
 \pgf@shorten@start@additional=\dimen180
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\basiclayer\pgfcorescopes.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
 \pgfpic=\box35
 \pgf@hbox=\box36
 \pgf@layerbox@main=\box37
 \pgf@picture@serial@count=\count136
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\basiclayer\pgfcoregraphicstate.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.te
+x
 File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
 \pgflinewidth=\dimen181
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\basiclayer\pgfcoretransformations.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\basiclayer\pgfcoretransformations.code
+.tex
 File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
 \pgf@pt@x=\dimen182
 \pgf@pt@y=\dimen183
 \pgf@pt@temp=\dimen184
-)
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\basiclayer\pgfcorequick.code.tex
+) (E:\Latex\MikTexPortable\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
-)
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\basiclayer\pgfcoreobjects.code.tex
+) (E:\Latex\MikTexPortable\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\basiclayer\pgfcorepathprocessing.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.
+tex
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
-)
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\basiclayer\pgfcorearrows.code.tex
+) (E:\Latex\MikTexPortable\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
 \pgfarrowsep=\dimen185
-)
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\basiclayer\pgfcoreshade.code.tex
+) (E:\Latex\MikTexPortable\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen186
 \pgf@sys@shading@range@num=\count137
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\basiclayer\pgfcoreimage.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\basiclayer\pgfcoreexternal.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
 \pgfexternal@startupbox=\box38
 ))
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\basiclayer\pgfcorelayers.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\basiclayer\pgfcoretransparency.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\basiclayer\pgfcoretransparency.code.te
+x
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
-)
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\basiclayer\pgfcorepatterns.code.tex
+) (E:\Latex\MikTexPortable\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
-)))
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\modules\pgfmoduleshapes.code.tex
+))) (E:\Latex\MikTexPortable\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
 \pgfnodeparttextbox=\box39
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\modules\pgfmoduleplot.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\pgf\c
-ompatibility\pgfcomp-version-0-65.sty
+(E:\Latex\MikTexPortable\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen187
 \pgf@nodesepend=\dimen188
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\pgf\c
-ompatibility\pgfcomp-version-1-18.sty
+(E:\Latex\MikTexPortable\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
-))
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\pgf\u
-tilities\pgffor.sty
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\pgf\u
-tilities\pgfkeys.sty
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\utilities\pgfkeys.code.tex))
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\pgf\m
-ath\pgfmath.sty
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\math\pgfmath.code.tex))
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\utilities\pgffor.code.tex
+)) (E:\Latex\MikTexPortable\tex\latex\pgf\utilities\pgffor.sty
+(E:\Latex\MikTexPortable\tex\latex\pgf\utilities\pgfkeys.sty
+(E:\Latex\MikTexPortable\tex\generic\pgf\utilities\pgfkeys.code.tex))
+(E:\Latex\MikTexPortable\tex\latex\pgf\math\pgfmath.sty
+(E:\Latex\MikTexPortable\tex\generic\pgf\math\pgfmath.code.tex))
+(E:\Latex\MikTexPortable\tex\generic\pgf\utilities\pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\math\pgfmath.code.tex)
+(E:\Latex\MikTexPortable\tex\generic\pgf\math\pgfmath.code.tex)
 \pgffor@iter=\dimen189
 \pgffor@skip=\dimen190
 \pgffor@stack=\toks40
 \pgffor@toks=\toks41
 ))
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\frontendlayer\tikz\tikz.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
 Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\libraries\pgflibraryplothandlers.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\libraries\pgflibraryplothandlers.code.
+tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \pgf@plot@mark@count=\count138
 \pgfplotmarksize=\dimen191
@@ -868,9 +738,7 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \tikznumberofchildren=\count140
 \tikznumberofcurrentchild=\count141
 \tikz@fig@count=\count142
-
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\modules\pgfmodulematrix.code.tex
+ (E:\Latex\MikTexPortable\tex\generic\pgf\modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count143
 \pgfmatrixcurrentcolumn=\count144
@@ -878,26 +746,23 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 )
 \tikz@expandcount=\count146
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibra
+rytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
 )))
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\pgf
-\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
+(E:\Latex\MikTexPortable\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibra
+rypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
 )
 \c@@todonotes@numberoftodonotes=\count147
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\oberd
-iek\epstopdf.sty
+(E:\Latex\MikTexPortable\tex\latex\oberdiek\epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\oberd
-iek\epstopdf-base.sty
+(E:\Latex\MikTexPortable\tex\latex\oberdiek\epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\oberd
-iek\grfext.sty
+(E:\Latex\MikTexPortable\tex\latex\oberdiek\grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
@@ -905,13 +770,11 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 ))
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\lipsu
-m\lipsum.sty
+(E:\Latex\MikTexPortable\tex\latex\lipsum\lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count148
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\enumi
-tem\enumitem.sty
+(E:\Latex\MikTexPortable\tex\latex\enumitem\enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip68
 \enit@outerparindent=\dimen198
@@ -919,25 +782,20 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box44
 \enitdp@description=\count149
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\capti
-on\subcaption.sty
+(E:\Latex\MikTexPortable\tex\latex\caption\subcaption.sty
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count150
 \c@subtable=\count151
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\l3pac
-kages\xfrac\xfrac.sty
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\l3ker
-nel\expl3.sty
+(E:\Latex\MikTexPortable\tex\latex\l3packages\xfrac\xfrac.sty
+(E:\Latex\MikTexPortable\tex\latex\l3kernel\expl3.sty
 Package: expl3 2016/05/18 v6512 L3 programming layer (loader) 
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\l3ker
-nel\expl3-code.tex
+(E:\Latex\MikTexPortable\tex\latex\l3kernel\expl3-code.tex
 Package: expl3 2016/05/18 v6512 L3 programming layer (code)
 L3 Module: l3bootstrap 2016/02/12 v6412 L3 Bootstrap code
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\misc\
-etex.sty
+(E:\Latex\MikTexPortable\tex\latex\misc\etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \et@xins=\count152
 )
@@ -1046,18 +904,15 @@ L3 Module: l3candidates 2016/05/13 v6484 L3 Experimental additions to l3kernel
 \l__coffin_scaled_width_dim=\dimen283
 L3 Module: l3luatex 2016/03/26 v6465 L3 Experimental LuaTeX-specific functions
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\l3ker
-nel\l3pdfmode.def
+(E:\Latex\MikTexPortable\tex\latex\l3kernel\l3pdfmode.def
 File: l3pdfmode.def 2016/03/26 v6465 L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count175
 \l__driver_tmp_box=\box60
 ))
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\l3pac
-kages\l3keys2e\l3keys2e.sty
+(E:\Latex\MikTexPortable\tex\latex\l3packages\l3keys2e\l3keys2e.sty
 Package: l3keys2e 2016/05/18 v6512 LaTeX2e option processing using LaTeX3 keys
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\base\
-textcomp.sty
+(E:\Latex\MikTexPortable\tex\latex\base\textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -1072,8 +927,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\base\
-ts1enc.def
+(E:\Latex\MikTexPortable\tex\latex\base\ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 266.
@@ -1139,8 +993,7 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\l3pac
-kages\xparse\xparse.sty
+(E:\Latex\MikTexPortable\tex\latex\l3packages\xparse\xparse.sty
 Package: xparse 2016/05/18 v6512 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count176
 \l__xparse_m_args_int=\count177
@@ -1148,8 +1001,7 @@ Package: xparse 2016/05/18 v6512 L3 Experimental document command parser
 \l__xparse_processor_int=\count179
 \l__xparse_v_nesting_int=\count180
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\l3pac
-kages\xtemplate\xtemplate.sty
+(E:\Latex\MikTexPortable\tex\latex\l3packages\xtemplate\xtemplate.sty
 Package: xtemplate 2016/05/18 v6512 L3 Experimental prototype document function
 s
 \l__xtemplate_tmp_dim=\dimen284
@@ -1178,12 +1030,10 @@ Package: xfrac 2016/05/18 v6512 L3 Experimental split-level fractions
 . Defining command \sfrac with sig. 'omom' on line 451.
 .................................................
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\chngc
-ntr\chngcntr.sty
+(E:\Latex\MikTexPortable\tex\latex\chngcntr\chngcntr.sty
 Package: chngcntr 2009/09/02 v1.0a change counter resetting
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\newun
-icodechar\newunicodechar.sty
+(E:\Latex\MikTexPortable\tex\latex\newunicodechar\newunicodechar.sty
 Package: newunicodechar 2012/11/12 v1.1 Defining Unicode characters
 
 
@@ -1191,9 +1041,7 @@ Package newunicodechar Warning: This package won't work without loading
 (newunicodechar)                `inputenc' or `inputenx' with the `utf8' option
 .
 
-)
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\siuni
-tx\siunitx.sty
+) (E:\Latex\MikTexPortable\tex\latex\siunitx\siunitx.sty
 Package: siunitx 2016/09/02 v2.6s A comprehensive (SI) units package
 \l__siunitx_tmp_box=\box63
 \l__siunitx_tmp_dim=\dimen290
@@ -1354,22 +1202,17 @@ Package: siunitx 2016/09/02 v2.6s A comprehensive (SI) units package
 .................................................
 \g__file_internal_ior=\read2
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\beame
-r\base\translator\translator.sty
+(E:\Latex\MikTexPortable\tex\latex\beamer\base\translator\translator.sty
 Package: translator 2010/06/12 ver 1.10
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\beame
-r\base\translator\translator-language-mappings.tex)))
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\place
-ins\placeins.sty
+(E:\Latex\MikTexPortable\tex\latex\beamer\base\translator\translator-language-m
+appings.tex))) (E:\Latex\MikTexPortable\tex\latex\placeins\placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\notoc
-cite\notoccite.sty
+(E:\Latex\MikTexPortable\tex\latex\notoccite\notoccite.sty
 Package: notoccite 2000/07/20
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\break
-url\breakurl.sty
+(E:\Latex\MikTexPortable\tex\latex\breakurl\breakurl.sty
 Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
 
 
@@ -1378,9 +1221,7 @@ Package breakurl Warning: You are using breakurl while processing via pdflatex.
 (breakurl)                \burl will be just a synonym of \url.
 (breakurl)                 on input line 48.
 
-)
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\float
-row\floatrow.sty
+) (E:\Latex\MikTexPortable\tex\latex\floatrow\floatrow.sty
 Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
 \c@float@type=\count199
 \float@exts=\toks43
@@ -1419,19 +1260,16 @@ Normal \count register pool exhausted, switching to extended pool.
 \LTright=\skip93
 \flrow@types=\toks45
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\pdfpa
-ges\pdfpages.sty
+(E:\Latex\MikTexPortable\tex\latex\pdfpages\pdfpages.sty
 Package: pdfpages 2017/01/14 v0.5h Insert pages of external PDF documents (AM)
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\eso-p
-ic\eso-pic.sty
+(E:\Latex\MikTexPortable\tex\latex\eso-pic\eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 )
 \AM@pagewidth=\dimen306
 \AM@pageheight=\dimen307
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\pdfpa
-ges\pppdftex.def
+(E:\Latex\MikTexPortable\tex\latex\pdfpages\pppdftex.def
 File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box73
@@ -1440,21 +1278,17 @@ File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count281
 \AM@templatesizebox=\box74
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\tocbi
-bind\tocbibind.sty
+(E:\Latex\MikTexPortable\tex\latex\tocbibind\tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-)
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\oberd
-iek\bookmark.sty
+) (E:\Latex\MikTexPortable\tex\latex\oberdiek\bookmark.sty
 Package: bookmark 2011/12/02 v1.24 PDF bookmarks (HO)
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\oberd
-iek\bkm-pdftex.def
+(E:\Latex\MikTexPortable\tex\latex\oberdiek\bkm-pdftex.def
 File: bkm-pdftex.def 2011/12/02 v1.24 bookmark driver for pdfTeX (HO)
 \BKM@id=\count282
 ))
@@ -1483,9 +1317,7 @@ LaTeX Font Info:    ... okay on input line 153.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 153.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 153.
 
-
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\base\
-ts1cmr.fd
+ (E:\Latex\MikTexPortable\tex\latex\base\ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 153.
@@ -1499,14 +1331,12 @@ Package caption Info: floatrow package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\capti
-on\ltcaption.sty
+(E:\Latex\MikTexPortable\tex\latex\caption\ltcaption.sty
 Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\context\bas
-e\supp-pdf.mkii
+(E:\Latex\MikTexPortable\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count283
 \scratchdimen=\dimen308
@@ -1522,13 +1352,10 @@ e\supp-pdf.mkii
 )
 \AtBeginShipoutBox=\box76
 Package hyperref Info: Link coloring OFF on input line 153.
-
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\hyper
-ref\nameref.sty
+ (E:\Latex\MikTexPortable\tex\latex\hyperref\nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\generic\obe
-rdiek\gettitlestring.sty
+(E:\Latex\MikTexPortable\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count289
@@ -1573,29 +1400,24 @@ Package hyperref Info: Anchor `Doc-Start' on input line 153.
 
 \c@butlastpage=\count290
 ABD: EveryShipout initializing macros
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\beame
-r\base\translator\dicts\translator-basic-dictionary\translator-basic-dictionary
--English.dict
+(E:\Latex\MikTexPortable\tex\latex\beamer\base\translator\dicts\translator-basi
+c-dictionary\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\siuni
-tx\siunitx-abbreviations.cfg
+(E:\Latex\MikTexPortable\tex\latex\siunitx\siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2016/09/02 v2.6s siunitx: Abbreviated units
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\float
-row\fr-longtable.sty
+(E:\Latex\MikTexPortable\tex\latex\floatrow\fr-longtable.sty
 Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 
 \flrow@LT@lasthead=\box77
 \flrow@LT@prelastfoot=\box78
 \c@FBLTpage=\count291
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\oberd
-iek\pdflscape.sty
+(E:\Latex\MikTexPortable\tex\latex\oberdiek\pdflscape.sty
 Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\graph
-ics\lscape.sty
+(E:\Latex\MikTexPortable\tex\latex\graphics\lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
@@ -1603,57 +1425,56 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 \c__siunitx_mathsf_int=\count292
 LaTeX Font Info:    Try loading font information for U+msa on input line 153.
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\amsfo
-nts\umsa.fd
+(E:\Latex\MikTexPortable\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 153.
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\amsfo
-nts\umsb.fd
+(E:\Latex\MikTexPortable\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count293
 Package hyperref Info: Anchor `Folha de Rosto.0' on input line 157.
- <Capa.pdf, id=6, 597.23125pt x 845.1575pt>
+
+<Capa.pdf, id=6, 597.23125pt x 845.1575pt>
 File: Capa.pdf Graphic file (type pdf)
  <use Capa.pdf>
 Package pdftex.def Info: Capa.pdf used on input line 158.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: Capa.pdf Graphic file (type pdf)
-
-<use Capa.pdf>
+ <use Capa.pdf>
 Package pdftex.def Info: Capa.pdf used on input line 158.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- <Capa.pdf, id=9, page=1, 597.23125pt x 845.1575pt>
-File: Capa.pdf Graphic file (type pdf)
 
-<use Capa.pdf, page 1>
+<Capa.pdf, id=9, page=1, 597.23125pt x 845.1575pt>
+File: Capa.pdf Graphic file (type pdf)
+ <use Capa.pdf, page 1>
 Package pdftex.def Info: Capa.pdf, page1 used on input line 158.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: Capa.pdf Graphic file (type pdf)
- <use Capa.pdf, page 1>
-Package pdftex.def Info: Capa.pdf, page1 used on input line 158.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
-File: Capa.pdf Graphic file (type pdf)
- <use Capa.pdf, page 1>
-Package pdftex.def Info: Capa.pdf, page1 used on input line 158.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
-File: Capa.pdf Graphic file (type pdf)
 
 <use Capa.pdf, page 1>
+Package pdftex.def Info: Capa.pdf, page1 used on input line 158.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: Capa.pdf Graphic file (type pdf)
+ <use Capa.pdf, page 1>
+Package pdftex.def Info: Capa.pdf, page1 used on input line 158.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: Capa.pdf Graphic file (type pdf)
+ <use Capa.pdf, page 1>
 Package pdftex.def Info: Capa.pdf, page1 used on input line 158.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 Package hyperref Info: Anchor `page.i' on input line 158.
 File: Capa.pdf Graphic file (type pdf)
- <use Capa.pdf, page 1>
+
+<use Capa.pdf, page 1>
 Package pdftex.def Info: Capa.pdf, page1 used on input line 158.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [1
 
 
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Capa.pdf{C:/Users/jpsoliv/Doc
-uments/João/Mestrado/Latex/MikTexPortable/pdftex/config/pdftex.map}>]
+ <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Capa.pdf{E:/Latex/MikTexPorta
+ble/pdftex/config/pdftex.map}>]
 Package hyperref Info: Anchor `Verso da Folha de Rosto.0' on input line 159.
 
 <Cessao_de_direitos.pdf, id=29, 597.23125pt x 845.1575pt>
@@ -1747,9 +1568,7 @@ Package hyperref Info: Anchor `page.v' on input line 173.
 Package hyperref Info: Anchor `epigrafe.0' on input line 177.
 LaTeX Font Info:    Try loading font information for T1+aess on input line 181.
 
-
-(C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortable\tex\latex\ae\t1
-aess.fd
+ (E:\Latex\MikTexPortable\tex\latex\ae\t1aess.fd
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 )
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <12> not available
@@ -6452,46 +6271,34 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 331.
 ### bottom level 
 Here is how much of TeX's memory you used:
  33409 strings out of 493921
- 676351 string characters out of 3125104
+ 660088 string characters out of 3125104
  798051 words of memory out of 3000000
  35401 multiletter control sequences out of 15000+200000
  65550 words of font info for 144 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  62i,18n,77p,10383b,3281s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\jpsoliv\Documents\João\Mestrado\Latex\MikTexPortabl
-e\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk> <C:\Users\jpsoliv\Documents\J
-oão\Mestrado\Latex\MikTexPortable\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.
-pk><C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1/
-public/amsfonts/cm/cmbx10.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Latex/
-MikTexPortable/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jpsoliv/Docu
-ments/João/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmbx8.
-pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1
-/public/amsfonts/cm/cmbxti10.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Lat
-ex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/jpsoliv/
-Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cm
-ex10.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/
-type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/jpsoliv/Documents/João/Mestr
-ado/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jp
-soliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfonts
-/cm/cmmi12.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/
-fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/jpsoliv/Documents/João/Mest
-rado/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jp
-soliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfonts
-/cm/cmr10.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/f
-onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jpsoliv/Documents/João/Mestr
-ado/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/jpso
-liv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfonts/c
-m/cmr8.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/font
-s/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/jpsoliv/Documents/João/Mestra
-do/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jps
-oliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfonts/
-cm/cmsy6.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/fo
-nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/jpsoliv/Documents/João/Mestra
-do/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/jps
-oliv/Documents/João/Mestrado/Latex/MikTexPortable/fonts/type1/public/amsfonts/
-cm/cmti12.pfb><C:/Users/jpsoliv/Documents/João/Mestrado/Latex/MikTexPortable/f
-onts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Dissertacao.pdf (131 pages, 5755518 bytes).
+ <E:\Latex\MikTexPortable\fonts\pk\ljfour\jknappen\ec\dpi600\tc
+rm1200.pk> <E:\Latex\MikTexPortable\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095
+.pk><E:/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/Late
+x/MikTexPortable/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/Latex/MikTexPort
+able/fonts/type1/public/amsfonts/cm/cmbx8.pfb><E:/Latex/MikTexPortable/fonts/ty
+pe1/public/amsfonts/cm/cmbxti10.pfb><E:/Latex/MikTexPortable/fonts/type1/public
+/amsfonts/cm/cmcsc10.pfb><E:/Latex/MikTexPortable/fonts/type1/public/amsfonts/c
+m/cmex10.pfb><E:/Latex/MikTexPortable/fonts/type1/public/amsfonts/cmextra/cmex8
+.pfb><E:/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/Lat
+ex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmmi12.pfb><E:/Latex/MikTexPor
+table/fonts/type1/public/amsfonts/cm/cmmi6.pfb><E:/Latex/MikTexPortable/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb><E:/Latex/MikTexPortable/fonts/type1/public/a
+msfonts/cm/cmr10.pfb><E:/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cm
+r12.pfb><E:/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmr6.pfb><E:/La
+tex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmr8.pfb><E:/Latex/MikTexPort
+able/fonts/type1/public/amsfonts/cm/cmssi12.pfb><E:/Latex/MikTexPortable/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><E:/Latex/MikTexPortable/fonts/type1/public
+/amsfonts/cm/cmsy6.pfb><E:/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/
+cmsy8.pfb><E:/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmti10.pfb><E
+:/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmti12.pfb><E:/Latex/MikT
+exPortable/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Dissertacao.pdf (131 pages, 5755517 bytes).
 PDF statistics:
  2780 PDF objects out of 2984 (max. 8388607)
  443 named destinations out of 1000 (max. 500000)
