@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.23)  24 MAR 2017 13:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.23)  28 MAR 2017 08:37
 entering extended mode
 **Dissertacao.tex
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Dissertacao.tex
+(C:\Users\jpsoliv\Documents\Mestrado\texto\Dissertacao.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,14 +13,14 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\ita.cls
+(C:\Users\jpsoliv\Documents\Mestrado\texto\ita.cls
 Document Class: ita 2006/03/10 v2.0 Classe de documento com padr�es do ITA
 (E:\Latex\MikTexPortable\tex\generic\oberdiek\ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\defaults.def)
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\msc.def)
+(C:\Users\jpsoliv\Documents\Mestrado\texto\defaults.def)
+(C:\Users\jpsoliv\Documents\Mestrado\texto\msc.def)
 (E:\Latex\MikTexPortable\tex\latex\base\book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
 (E:\Latex\MikTexPortable\tex\latex\base\bk12.clo
@@ -84,7 +84,7 @@ Package babel Info: Making " an active character on input line 145.
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 \l@brazil = a dialect from \language\l@portuges 
 ))
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\itabr.babel)
+(C:\Users\jpsoliv\Documents\Mestrado\texto\itabr.babel)
 (E:\Latex\MikTexPortable\tex\latex\base\inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
@@ -193,7 +193,7 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen124
 \titlewidthfirst=\dimen125
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\makeglo.sty
+(C:\Users\jpsoliv\Documents\Mestrado\texto\makeglo.sty
 Package: makeglo 
 \glossentrylen=\skip63
 )
@@ -1295,7 +1295,7 @@ File: bkm-pdftex.def 2011/12/02 v1.24 bookmark driver for pdfTeX (HO)
 \@glossaryfile=\write5
 
 Writing glossary file Dissertacao.glo 
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Dissertacao.aux
+(C:\Users\jpsoliv\Documents\Mestrado\texto\Dissertacao.aux
 
 LaTeX Warning: Label `eq:' multiply defined.
 
@@ -1436,48 +1436,46 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \c__siunitx_mathtt_int=\count293
 Package hyperref Info: Anchor `Folha de Rosto.0' on input line 157.
 
-<Capa.pdf, id=6, 597.23125pt x 845.1575pt>
+<Capa.pdf, id=6, 601.28638pt x 847.96799pt>
 File: Capa.pdf Graphic file (type pdf)
  <use Capa.pdf>
 Package pdftex.def Info: Capa.pdf used on input line 158.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+(pdftex.def)             Requested size: 601.2849pt x 847.96591pt.
 File: Capa.pdf Graphic file (type pdf)
  <use Capa.pdf>
 Package pdftex.def Info: Capa.pdf used on input line 158.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+(pdftex.def)             Requested size: 601.2849pt x 847.96591pt.
 
-<Capa.pdf, id=9, page=1, 597.23125pt x 845.1575pt>
+<Capa.pdf, id=9, page=1, 601.28638pt x 847.96799pt>
 File: Capa.pdf Graphic file (type pdf)
  <use Capa.pdf, page 1>
 Package pdftex.def Info: Capa.pdf, page1 used on input line 158.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+(pdftex.def)             Requested size: 601.2849pt x 847.96591pt.
 File: Capa.pdf Graphic file (type pdf)
 
 <use Capa.pdf, page 1>
 Package pdftex.def Info: Capa.pdf, page1 used on input line 158.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.78926pt x 843.03616pt.
 File: Capa.pdf Graphic file (type pdf)
  <use Capa.pdf, page 1>
 Package pdftex.def Info: Capa.pdf, page1 used on input line 158.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.78926pt x 843.03616pt.
 File: Capa.pdf Graphic file (type pdf)
  <use Capa.pdf, page 1>
 Package pdftex.def Info: Capa.pdf, page1 used on input line 158.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.78926pt x 843.03616pt.
 Package hyperref Info: Anchor `page.i' on input line 158.
 File: Capa.pdf Graphic file (type pdf)
 
 <use Capa.pdf, page 1>
 Package pdftex.def Info: Capa.pdf, page1 used on input line 158.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.78926pt x 843.03616pt.
  [1
 
 
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Capa.pdf{E:/Latex/MikTexPorta
-ble/pdftex/config/pdftex.map}>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Capa.pdf>]
 Package hyperref Info: Anchor `Verso da Folha de Rosto.0' on input line 159.
-
-<Cessao_de_direitos.pdf, id=29, 597.23125pt x 845.1575pt>
+<Cessao_de_direitos.pdf, id=23, 597.23125pt x 845.1575pt>
 File: Cessao_de_direitos.pdf Graphic file (type pdf)
 
 <use Cessao_de_direitos.pdf>
@@ -1488,7 +1486,7 @@ File: Cessao_de_direitos.pdf Graphic file (type pdf)
 Package pdftex.def Info: Cessao_de_direitos.pdf used on input line 160.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<Cessao_de_direitos.pdf, id=32, page=1, 597.23125pt x 845.1575pt>
+<Cessao_de_direitos.pdf, id=26, page=1, 597.23125pt x 845.1575pt>
 File: Cessao_de_direitos.pdf Graphic file (type pdf)
 
 <use Cessao_de_direitos.pdf, page 1>
@@ -1513,7 +1511,8 @@ File: Cessao_de_direitos.pdf Graphic file (type pdf)
 <use Cessao_de_direitos.pdf, page 1>
 Package pdftex.def Info: Cessao_de_direitos.pdf, page1 used on input line 160.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [2 <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cessao_de_direitos.pdf>]
+ [2 <C:/Users/jpsoliv/Documents/Mestrado/texto/Cessao_de_direitos.pdf{E:/Latex/
+MikTexPortable/pdftex/config/pdftex.map}>]
 Package hyperref Info: Anchor `Folha da Banca.0' on input line 161.
 
 <Folha_banca.pdf, id=62, 597.23125pt x 845.1575pt>
@@ -1552,17 +1551,17 @@ File: Folha_banca.pdf Graphic file (type pdf)
 <use Folha_banca.pdf, page 1>
 Package pdftex.def Info: Folha_banca.pdf, page1 used on input line 162.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [3 <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Folha_banca.pdf>]
+ [3 <C:/Users/jpsoliv/Documents/Mestrado/texto/Folha_banca.pdf>]
 Package hyperref Info: Anchor `dedication.0' on input line 166.
 Package hyperref Info: Anchor `page.iv' on input line 168.
  [4]
 Package hyperref Info: Anchor `chapter*.1' on input line 172.
 Package hyperref Info: Anchor `acknowledgment.0' on input line 172.
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Pre_Textuais/agradecimentos.te
-x)
+(C:\Users\jpsoliv\Documents\Mestrado\texto\Pre_Textuais/agradecimentos.tex)
 Package hyperref Info: Anchor `page.v' on input line 173.
- [5
+
+[5
 
 ]
 Package hyperref Info: Anchor `epigrafe.0' on input line 177.
@@ -1578,22 +1577,23 @@ Package hyperref Info: Anchor `page.vi' on input line 188.
 Package hyperref Info: Anchor `chapter*.2' on input line 188.
 Package hyperref Info: Anchor `resumo.0' on input line 188.
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Pre_Textuais/resumo.tex)
+(C:\Users\jpsoliv\Documents\Mestrado\texto\Pre_Textuais/resumo.tex)
 Package hyperref Info: Anchor `page.vii' on input line 196.
-
-[7
+ [7
 
 ]
 Package hyperref Info: Anchor `chapter*.3' on input line 196.
 Package hyperref Info: Anchor `abstract.0' on input line 196.
- (C:\Users\jpsoliv\Documents\João\Mestrado\texto\Pre_Textuais/abstract.tex)
+
+(C:\Users\jpsoliv\Documents\Mestrado\texto\Pre_Textuais/abstract.tex)
 Package hyperref Info: Anchor `page.viii' on input line 204.
-[8
+ [8
 
 ]
 Package hyperref Info: Anchor `chapter*.4' on input line 204.
 Package hyperref Info: Anchor `contents.0' on input line 204.
- (C:\Users\jpsoliv\Documents\João\Mestrado\texto\Dissertacao.toc
+
+(C:\Users\jpsoliv\Documents\Mestrado\texto\Dissertacao.toc
 Underfull \hbox (badness 10000) in paragraph at lines 8--8
  [][]  
  []
@@ -1749,7 +1749,7 @@ Package `hyperref' Info: End of reference (link) `chapter*.106', line 74.
 Package hyperref Info: Anchor `chapter*.5' on input line 207.
 
 pdftex: bookmark at 207: {0} {Lista de Figuras} {chapter*.5}{0}{toc}
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Dissertacao.lof
+(C:\Users\jpsoliv\Documents\Mestrado\texto\Dissertacao.lof
 Package hyperref Info: Reference (link) `figure.caption.8' on input line 4.
 Package hyperref Info: Reference (cite) `cite.Frost2008' on input line 4.
 Package hyperref Info: Reference (link) `figure.caption.9' on input line 5.
@@ -1895,8 +1895,7 @@ Package hyperref Info: Reference (link) `figure.caption.79' on input line 72.
 Package hyperref Info: Reference (link) `figure.caption.80' on input line 73.
 Package hyperref Info: Reference (link) `figure.caption.81' on input line 74.
 Package hyperref Info: Anchor `page.xiv' on input line 75.
-
-[14
+ [14
 Package `hyperref' Info: End of reference (link) `figure.caption.55', line 48.
 Package `hyperref' Info: End of reference (link) `figure.caption.56', line 49.
 Package `hyperref' Info: End of reference (link) `figure.caption.57', line 50.
@@ -1949,7 +1948,8 @@ Package hyperref Info: Reference (link) `figure.caption.101' on input line 94.
 Package hyperref Info: Reference (link) `figure.caption.102' on input line 95.
 Package hyperref Info: Reference (link) `figure.caption.103' on input line 96.
 Package hyperref Info: Anchor `page.xv' on input line 97.
- [15
+
+[15
 Package `hyperref' Info: End of reference (link) `figure.caption.81', line 74.
 Package `hyperref' Info: End of reference (link) `figure.caption.82', line 75.
 Package `hyperref' Info: End of reference (link) `figure.caption.83', line 76.
@@ -1992,7 +1992,7 @@ Package `hyperref' Info: End of reference (link) `figure.caption.105', line 98.
 Package hyperref Info: Anchor `chapter*.6' on input line 210.
 
 pdftex: bookmark at 210: {0} {Lista de Tabelas} {chapter*.6}{0}{toc}
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Dissertacao.lot
+(C:\Users\jpsoliv\Documents\Mestrado\texto\Dissertacao.lot
 Package hyperref Info: Reference (link) `table.caption.20' on input line 4.
 Package hyperref Info: Reference (cite) `cite.MILSTD' on input line 4.
 Package hyperref Info: Reference (link) `table.caption.22' on input line 5.
@@ -2025,11 +2025,10 @@ Package hyperref Info: Anchor `chapter*.7' on input line 213.
 
 pdftex: bookmark at 213: {0} {Lista de Abreviaturas e Siglas} {chapter*.7}{0}{t
 oc}
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Dissertacao.lof)
+(C:\Users\jpsoliv\Documents\Mestrado\texto\Dissertacao.lof)
 \tf@lof=\write9
 
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Pre_Textuais/listaabreviaturas
-.tex
+(C:\Users\jpsoliv\Documents\Mestrado\texto\Pre_Textuais/listaabreviaturas.tex
 Underfull \hbox (badness 10000) in alignment at lines 1--23
 [] [] []
  []
@@ -2052,8 +2051,7 @@ Package hyperref Info: Anchor `page.xviii' on input line 59.
 Package hyperref Info: Anchor `page.xix' on input line 59.
  [19])
 Package hyperref Info: Anchor `page.xx' on input line 228.
- [20]
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Cap1/Capitulo_1.tex
+ [20] (C:\Users\jpsoliv\Documents\Mestrado\texto\Cap1/Capitulo_1.tex
 Package hyperref Info: Anchor `chapter.1' on input line 1.
 
 Cap\'{\i }tulo 1.
@@ -2118,10 +2116,9 @@ Package `hyperref' Info: End of reference (link) `chapter.4', line 49.
 Package hyperref Info: Reference (link) `chapter.5' on input line 51.
 Package hyperref Info: Reference (link) `chapter.6' on input line 53.
 Package hyperref Info: Reference (link) `chapter.5' on input line 53.
-) (C:\Users\jpsoliv\Documents\João\Mestrado\texto\Cap2/Capitulo_2.tex
+) (C:\Users\jpsoliv\Documents\Mestrado\texto\Cap2/Capitulo_2.tex
 Package hyperref Info: Anchor `page.25' on input line 1.
-
-[25
+ [25
 Package `hyperref' Info: End of reference (link) `chapter.5', line 51.
 Package `hyperref' Info: End of reference (link) `chapter.6', line 53.
 Package `hyperref' Info: End of reference (link) `chapter.5', line 53.
@@ -2132,8 +2129,8 @@ Cap\'{\i }tulo 2.
 pdftex: bookmark at 1: {2} {\numberline{2}Qualidade de Energia em Aeronaves} {c
 hapter.2}{0}{toc}
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Cap2/Partes/Tendencia_de_Aumen
-to_da_Capacidade_de_Geracao_Eletrica_em_Aeronaves.tex
+(C:\Users\jpsoliv\Documents\Mestrado\texto\Cap2/Partes/Tendencia_de_Aumento_da_
+Capacidade_de_Geracao_Eletrica_em_Aeronaves.tex
 Package hyperref Info: Anchor `section.2.1' on input line 1.
 
 pdftex: bookmark at 1: {2.1} {\numberline{2.1}Tend\^encia de Aumento da Capacid
@@ -2155,11 +2152,11 @@ Package hyperref Info: Reference (cite) `cite.Frost2008' on input line 8.
 Package hyperref Info: Reference (cite) `cite.Frost2008' on input line 8.
 Package hyperref Info: Anchor `figure.caption.9' on input line 12.
 Package epstopdf Info: Source file: <Cap2/Figuras/trend_year.eps>
-(epstopdf)                    date: 2016-11-10 15:40:51
+(epstopdf)                    date: 2017-03-27 08:49:30
 (epstopdf)                    size: 12545 bytes
 (epstopdf)             Output file: <Cap2/Figuras/trend_year-eps-converted-to.p
 df>
-(epstopdf)                    date: 2016-11-10 15:40:51
+(epstopdf)                    date: 2017-03-27 08:49:30
 (epstopdf)                    size: 5812 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/trend_year-eps
 -converted-to.pdf Cap2/Figuras/trend_year.eps>
@@ -2209,11 +2206,10 @@ Package hyperref Info: Anchor `page.27' on input line 242.
 Package `hyperref' Info: End of reference (cite) `cite.Frost2008', line 8.
 Package `hyperref' Info: End of reference (link) `figure.caption.10', line 19.
 Package `hyperref' Info: End of reference (cite) `cite.Avery2007', line 30.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/trend.png> <C:/U
-sers/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/trend_year-eps-convert
-ed-to.pdf>]
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Cap2/Partes/Aumento_de_Cargas_
-Nao_Lineares_na_Rede_Eletrica_de_Aeronaves.tex
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/trend.png> <C:/Users/j
+psoliv/Documents/Mestrado/texto/Cap2/Figuras/trend_year-eps-converted-to.pdf>]
+(C:\Users\jpsoliv\Documents\Mestrado\texto\Cap2/Partes/Aumento_de_Cargas_Nao_Li
+neares_na_Rede_Eletrica_de_Aeronaves.tex
 Package hyperref Info: Anchor `section.2.2' on input line 1.
 
 pdftex: bookmark at 1: {2.2} {\numberline{2.2}Aumento de Cargas N\~ao Lineares 
@@ -2226,8 +2222,7 @@ Package `hyperref' Info: End of reference (cite) `cite.Boeing2007', line 24.
 Package `hyperref' Info: End of reference (cite) `cite.Zhao2014', line 30.
 Package `hyperref' Info: End of reference (cite) `cite.Zhao2014', line 30.
 Package `hyperref' Info: End of reference (cite) `cite.Avery2007', line 30.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/trend_future.png
->]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/trend_future.png>]
 Package hyperref Info: Anchor `subsection.2.2.1' on input line 5.
 
 pdftex: bookmark at 5: {2.2.1} {\numberline{2.2.1}Linearidade em Sistemas El\'e
@@ -2258,11 +2253,11 @@ Package pdftex.def Info: Cap2/Figuras/circuito_linear.png used on input line 13
 .
 (pdftex.def)             Requested size: 182.09486pt x 115.61597pt.
 Package epstopdf Info: Source file: <Cap2/Figuras/graph_linear.eps>
-(epstopdf)                    date: 2016-12-14 13:46:31
+(epstopdf)                    date: 2017-03-27 08:49:30
 (epstopdf)                    size: 280328 bytes
 (epstopdf)             Output file: <Cap2/Figuras/graph_linear-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2016-12-15 12:16:50
+(epstopdf)                    date: 2017-03-27 08:49:30
 (epstopdf)                    size: 42314 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/graph_linear-e
 ps-converted-to.pdf Cap2/Figuras/graph_linear.eps>
@@ -2289,11 +2284,11 @@ Package pdftex.def Info: Cap2/Figuras/circuito_nao_linear.png used on input lin
 e 32.
 (pdftex.def)             Requested size: 182.09486pt x 115.61597pt.
 Package epstopdf Info: Source file: <Cap2/Figuras/graph_nao_linear.eps>
-(epstopdf)                    date: 2016-12-14 13:46:54
+(epstopdf)                    date: 2017-03-27 08:49:30
 (epstopdf)                    size: 270747 bytes
 (epstopdf)             Output file: <Cap2/Figuras/graph_nao_linear-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2016-12-15 12:16:50
+(epstopdf)                    date: 2017-03-27 08:49:30
 (epstopdf)                    size: 28078 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/graph_nao_line
 ar-eps-converted-to.pdf Cap2/Figuras/graph_nao_linear.eps>
@@ -2322,11 +2317,11 @@ Package `hyperref' Info: End of reference (cite) `cite.Linear', line 7.
 Package `hyperref' Info: End of reference (link) `figure.caption.12', line 7.
 Package `hyperref' Info: End of reference (link) `figure.caption.12', line 7.
 Package `hyperref' Info: End of reference (link) `figure.caption.12', line 7.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/circuito_linear.
-png> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/graph_linear
--eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Fi
-guras/circuito_nao_linear.png> <C:/Users/jpsoliv/Documents/João/Mestrado/texto
-/Cap2/Figuras/graph_nao_linear-eps-converted-to.pdf>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/circuito_linear.png> <
+C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/graph_linear-eps-convert
+ed-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/circuito_nao
+_linear.png> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/graph_nao_
+linear-eps-converted-to.pdf>]
 Package hyperref Info: Reference (cite) `cite.Alexander2005' on input line 51.
 Package hyperref Info: Reference (link) `figure.caption.13' on input line 51.
 Package hyperref Info: Reference (link) `figure.caption.13' on input line 51.
@@ -2384,10 +2379,9 @@ Package `hyperref' Info: End of reference (link) `figure.caption.14', line 82.
 Package `hyperref' Info: End of reference (link) `equation.2.2.1', line 82.
 Package `hyperref' Info: End of reference (link) `equation.2.2.2', line 89.
 Package `hyperref' Info: End of reference (link) `equation.2.2.3', line 89.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/fonte_thevenin.p
-ng> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/LT_thevenin.p
-ng> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/real_line_tra
-nsmission.png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/fonte_thevenin.png> <C
+:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/LT_thevenin.png> <C:/User
+s/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/real_line_transmission.png>]
 Package hyperref Info: Reference (link) `equation.2.2.4' on input line 101.
 Package hyperref Info: Anchor `equation.2.2.4' on input line 103.
 Package hyperref Info: Reference (link) `equation.2.2.4' on input line 108.
@@ -2399,11 +2393,11 @@ Package hyperref Info: Reference (link) `figure.caption.14' on input line 114.
 Package hyperref Info: Reference (link) `figure.caption.15' on input line 114.
 Package hyperref Info: Anchor `figure.caption.15' on input line 116.
 Package epstopdf Info: Source file: <Cap2/Figuras/current_source.eps>
-(epstopdf)                    date: 2016-12-14 13:21:36
+(epstopdf)                    date: 2017-03-27 08:49:30
 (epstopdf)                    size: 228458 bytes
 (epstopdf)             Output file: <Cap2/Figuras/current_source-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2016-12-15 12:16:50
+(epstopdf)                    date: 2017-03-27 08:49:30
 (epstopdf)                    size: 21470 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/current_source
 -eps-converted-to.pdf Cap2/Figuras/current_source.eps>
@@ -2441,10 +2435,10 @@ Package `hyperref' Info: End of reference (link) `equation.2.2.3', line 123.
 ]
 Package hyperref Info: Anchor `figure.caption.16' on input line 125.
 Package epstopdf Info: Source file: <Cap2/Figuras/Vline.eps>
-(epstopdf)                    date: 2016-12-14 13:22:13
+(epstopdf)                    date: 2017-03-27 08:49:30
 (epstopdf)                    size: 228646 bytes
 (epstopdf)             Output file: <Cap2/Figuras/Vline-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-15 12:16:50
+(epstopdf)                    date: 2017-03-27 08:49:30
 (epstopdf)                    size: 22081 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/Vline-eps-conv
 erted-to.pdf Cap2/Figuras/Vline.eps>
@@ -2466,10 +2460,10 @@ Package hyperref Info: Reference (link) `figure.caption.16' on input line 132.
 Package hyperref Info: Reference (link) `figure.caption.17' on input line 132.
 Package hyperref Info: Anchor `figure.caption.17' on input line 134.
 Package epstopdf Info: Source file: <Cap2/Figuras/V_bar.eps>
-(epstopdf)                    date: 2016-12-14 13:22:25
+(epstopdf)                    date: 2017-03-27 08:49:30
 (epstopdf)                    size: 229195 bytes
 (epstopdf)             Output file: <Cap2/Figuras/V_bar-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-15 12:16:50
+(epstopdf)                    date: 2017-03-27 08:49:30
 (epstopdf)                    size: 21688 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/V_bar-eps-conv
 erted-to.pdf Cap2/Figuras/V_bar.eps>
@@ -2488,10 +2482,10 @@ pdftex: bookmark at 137: {2.10} {\numberline{2.10}{\ignorespaces Tens\~ao $v_B$
 Package hyperref Info: Reference (link) `figure.caption.18' on input line 141.
 Package hyperref Info: Anchor `figure.caption.18' on input line 143.
 Package epstopdf Info: Source file: <Cap2/Figuras/FFT.eps>
-(epstopdf)                    date: 2016-12-14 09:38:43
+(epstopdf)                    date: 2017-03-27 08:49:30
 (epstopdf)                    size: 120519 bytes
 (epstopdf)             Output file: <Cap2/Figuras/FFT-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-15 12:16:50
+(epstopdf)                    date: 2017-03-27 08:49:30
 (epstopdf)                    size: 8701 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/FFT-eps-conver
 ted-to.pdf Cap2/Figuras/FFT.eps>
@@ -2518,11 +2512,11 @@ Package `hyperref' Info: End of reference (link) `figure.caption.16', line 132.
 
 Package `hyperref' Info: End of reference (link) `figure.caption.17', line 132.
 
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/current_source-e
-ps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figu
-ras/Vline-eps-converted-to.pdf>])
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Cap2/Partes/Efeitos_da_Distorc
-ao_Harmonica_em_Equipamentos.tex
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/current_source-eps-con
+verted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/Vline-ep
+s-converted-to.pdf>])
+(C:\Users\jpsoliv\Documents\Mestrado\texto\Cap2/Partes/Efeitos_da_Distorcao_Har
+monica_em_Equipamentos.tex
 Package hyperref Info: Anchor `section.2.3' on input line 1.
 
 pdftex: bookmark at 1: {2.3} {\numberline{2.3}Efeitos da Distor\c c\~ao Harm\^o
@@ -2532,16 +2526,15 @@ Package hyperref Info: Anchor `page.35' on input line 4.
 [35
 Package `hyperref' Info: End of reference (link) `figure.caption.18', line 141.
 
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/V_bar-eps-conver
-ted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/FFT-e
-ps-converted-to.pdf>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/V_bar-eps-converted-to
+.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/FFT-eps-converted
+-to.pdf>]
 Package hyperref Info: Reference (cite) `cite.Wagner1993' on input line 7.
 Package hyperref Info: Reference (cite) `cite.Kassick2010' on input line 7.
 Package hyperref Info: Reference (link) `figure.caption.19' on input line 18.
 Package hyperref Info: Reference (cite) `cite.Wagner1993' on input line 18.
 Package hyperref Info: Anchor `figure.caption.19' on input line 20.
-
-<Cap2/Figuras/notch.png, id=747, 734.14275pt x 463.13025pt>
+ <Cap2/Figuras/notch.png, id=747, 734.14275pt x 463.13025pt>
 File: Cap2/Figuras/notch.png Graphic file (type png)
 
 <use Cap2/Figuras/notch.png>
@@ -2574,14 +2567,14 @@ Package `hyperref' Info: End of reference (cite) `cite.Wagner1993', line 29.
 Package `hyperref' Info: End of reference (cite) `cite.Kassick2010', line 29.
 Package `hyperref' Info: End of reference (cite) `cite.Wagner1993', line 33.
 Package `hyperref' Info: End of reference (cite) `cite.Kassick2010', line 33.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/notch.png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/notch.png>]
 Package hyperref Info: Reference (cite) `cite.Fitzgerald2006' on input line 41.
 
 Package hyperref Info: Reference (cite) `cite.Wagner1993' on input line 45.
 Package hyperref Info: Reference (cite) `cite.Kassick2010' on input line 45.
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Cap2/Partes/Guias_de_Recomenda
-cao.tex
+(C:\Users\jpsoliv\Documents\Mestrado\texto\Cap2/Partes/Guias_de_Recomendacao.te
+x
 Package hyperref Info: Anchor `section.2.4' on input line 1.
 
 pdftex: bookmark at 1: {2.4} {\numberline{2.4}Normas de Qualifica\c c\~ao de Pr
@@ -2619,11 +2612,11 @@ Package hyperref Info: Reference (cite) `cite.MILSTD' on input line 34.
 Package hyperref Info: Reference (cite) `cite.MILSTD' on input line 34.
 Package hyperref Info: Anchor `figure.caption.21' on input line 38.
 Package epstopdf Info: Source file: <Cap2/Figuras/MILSTD704_AC.eps>
-(epstopdf)                    date: 2017-03-10 08:50:00
+(epstopdf)                    date: 2017-03-27 08:49:30
 (epstopdf)                    size: 202453 bytes
 (epstopdf)             Output file: <Cap2/Figuras/MILSTD704_AC-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2017-03-13 07:32:53
+(epstopdf)                    date: 2017-03-27 08:49:30
 (epstopdf)                    size: 9896 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/MILSTD704_AC-e
 ps-converted-to.pdf Cap2/Figuras/MILSTD704_AC.eps>
@@ -2660,15 +2653,15 @@ Package `hyperref' Info: End of reference (link) `figure.caption.21', line 19.
 Package `hyperref' Info: End of reference (cite) `cite.MILSTD', line 19.
 Package `hyperref' Info: End of reference (cite) `cite.MILSTD', line 34.
 Package `hyperref' Info: End of reference (cite) `cite.MILSTD', line 41.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/MILSTD704_AC-eps
--converted-to.pdf>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/MILSTD704_AC-eps-conve
+rted-to.pdf>]
 Package hyperref Info: Anchor `figure.caption.23' on input line 58.
 Package epstopdf Info: Source file: <Cap2/Figuras/MILSTD704_DC.eps>
-(epstopdf)                    date: 2017-03-10 08:50:13
+(epstopdf)                    date: 2017-03-27 08:49:30
 (epstopdf)                    size: 201252 bytes
 (epstopdf)             Output file: <Cap2/Figuras/MILSTD704_DC-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2017-03-13 07:32:53
+(epstopdf)                    date: 2017-03-27 08:49:30
 (epstopdf)                    size: 9900 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/MILSTD704_DC-e
 ps-converted-to.pdf Cap2/Figuras/MILSTD704_DC.eps>
@@ -2702,8 +2695,8 @@ Package `hyperref' Info: End of reference (link) `figure.caption.23', line 45.
 Package `hyperref' Info: End of reference (cite) `cite.MILSTD', line 54.
 Package `hyperref' Info: End of reference (cite) `cite.MILSTD', line 61.
 Package `hyperref' Info: End of reference (cite) `cite.DO160', line 67.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/MILSTD704_DC-eps
--converted-to.pdf>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/MILSTD704_DC-eps-conve
+rted-to.pdf>]
 Package hyperref Info: Reference (link) `table.caption.24' on input line 71.
 Package hyperref Info: Reference (link) `table.caption.25' on input line 71.
 Package hyperref Info: Reference (cite) `cite.DO160' on input line 71.
@@ -2729,8 +2722,8 @@ Package `hyperref' Info: End of reference (link) `table.caption.25', line 71.
 Package `hyperref' Info: End of reference (cite) `cite.DO160', line 71.
 Package `hyperref' Info: End of reference (cite) `cite.DO160', line 82.
 ])
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Cap2/Partes/Metodos_de_Correca
-o_de_Fator_de_Potencia.tex
+(C:\Users\jpsoliv\Documents\Mestrado\texto\Cap2/Partes/Metodos_de_Correcao_de_F
+ator_de_Potencia.tex
 Package hyperref Info: Anchor `section.2.5' on input line 1.
 
 pdftex: bookmark at 1: {2.5} {\numberline{2.5}M\'etodos de Corre\c c\~ao de Fat
@@ -2818,16 +2811,15 @@ Package hyperref Info: Anchor `page.45' on input line 106.
 Package `hyperref' Info: End of reference (cite) `cite.Kassick2010', line 28.
 Package `hyperref' Info: End of reference (cite) `cite.Mussoi2004', line 28.
 Package `hyperref' Info: End of reference (link) `figure.caption.27', line 28.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/sch_filtro_passi
-vo.png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/sch_filtro_passivo.png
+>]
 Package hyperref Info: Reference (cite) `cite.Singh2008' on input line 107.
 Package hyperref Info: Reference (link) `figure.caption.28' on input line 107.
 Package hyperref Info: Reference (link) `figure.caption.29' on input line 107.
 Package hyperref Info: Reference (link) `figure.caption.30' on input line 107.
 Package hyperref Info: Reference (cite) `cite.Singh2008' on input line 107.
 Package hyperref Info: Anchor `figure.caption.28' on input line 109.
-
-<Cap2/Figuras/sch_multipulso.png, id=877, 521.69907pt x 424.58624pt>
+ <Cap2/Figuras/sch_multipulso.png, id=877, 521.69907pt x 424.58624pt>
 File: Cap2/Figuras/sch_multipulso.png Graphic file (type png)
 
 <use Cap2/Figuras/sch_multipulso.png>
@@ -2898,20 +2890,19 @@ Package `hyperref' Info: End of reference (link) `figure.caption.29', line 107.
 Package `hyperref' Info: End of reference (link) `figure.caption.30', line 107.
 
 Package `hyperref' Info: End of reference (cite) `cite.Singh2008', line 107.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/LP_filter_BW.png
->]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/LP_filter_BW.png>]
 Package hyperref Info: Anchor `page.47' on input line 159.
- [47
+
+[47
 Package `hyperref' Info: End of reference (cite) `cite.Singh2008', line 121.
 Package `hyperref' Info: End of reference (cite) `cite.Singh2008', line 128.
 Package `hyperref' Info: End of reference (cite) `cite.Singh2008', line 140.
 Package `hyperref' Info: End of reference (cite) `cite.Singh2008', line 147.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/sch_multipulso.p
-ng> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/12_pulse_rect
-ifier.png> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/12_pul
-se_wave.png> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/18_p
-ulse_rectifier.png> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figur
-as/18_pulse_wave.png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/sch_multipulso.png> <C
+:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/12_pulse_rectifier.png> <
+C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/12_pulse_wave.png> <C:/U
+sers/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/18_pulse_rectifier.png> <C:/
+Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/18_pulse_wave.png>]
 Package hyperref Info: Anchor `subsubsection.2.5.2.1' on input line 160.
 
 pdftex: bookmark at 160: {2.5.2.1} {\numberline{2.5.2.1}Conversores com Corre\c
@@ -2957,10 +2948,9 @@ Package `hyperref' Info: End of reference (link) `figure.caption.32', line 162.
 
 Package `hyperref' Info: End of reference (cite) `cite.Kolar2011', line 162.
 Package `hyperref' Info: End of reference (cite) `cite.Barbosa2002', line 162.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/rectifier_sch.pn
-g>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/rectifier_sch.png>]
 Package hyperref Info: Anchor `figure.caption.33' on input line 181.
- <Cap2/Figuras/PFC_converter.png, id=922, 816.80156pt x 454.69875pt>
+<Cap2/Figuras/PFC_converter.png, id=922, 816.80156pt x 454.69875pt>
 File: Cap2/Figuras/PFC_converter.png Graphic file (type png)
 
 <use Cap2/Figuras/PFC_converter.png>
@@ -2998,16 +2988,15 @@ Package `hyperref' Info: End of reference (link) `figure.caption.34', line 179.
 Package `hyperref' Info: End of reference (cite) `cite.Kolar2011', line 179.
 Package `hyperref' Info: End of reference (cite) `cite.Takeuchi2008', line 184.
 
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/3ph_rectifier.pn
-g> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/PFC_converter.
-png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/3ph_rectifier.png> <C:
+/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/PFC_converter.png>]
 Package hyperref Info: Anchor `figure.caption.35' on input line 216.
 Package epstopdf Info: Source file: <Cap2/Figuras/PFC_unfilt.eps>
-(epstopdf)                    date: 2016-12-14 09:54:43
+(epstopdf)                    date: 2017-03-27 08:49:30
 (epstopdf)                    size: 172539 bytes
 (epstopdf)             Output file: <Cap2/Figuras/PFC_unfilt-eps-converted-to.p
 df>
-(epstopdf)                    date: 2016-12-15 12:16:50
+(epstopdf)                    date: 2017-03-27 08:49:30
 (epstopdf)                    size: 29665 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/PFC_unfilt-eps
 -converted-to.pdf Cap2/Figuras/PFC_unfilt.eps>
@@ -3021,11 +3010,11 @@ Package pdftex.def Info: Cap2/Figuras/PFC_unfilt-eps-converted-to.pdf used on i
 nput line 220.
 (pdftex.def)             Requested size: 227.16357pt x 170.37347pt.
 Package epstopdf Info: Source file: <Cap2/Figuras/PFC_filt.eps>
-(epstopdf)                    date: 2016-12-14 09:54:57
+(epstopdf)                    date: 2017-03-27 08:49:30
 (epstopdf)                    size: 173553 bytes
 (epstopdf)             Output file: <Cap2/Figuras/PFC_filt-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2016-12-15 12:16:50
+(epstopdf)                    date: 2017-03-27 08:49:30
 (epstopdf)                    size: 34678 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap2/Figuras/PFC_filt-eps-c
 onverted-to.pdf Cap2/Figuras/PFC_filt.eps>
@@ -3063,18 +3052,17 @@ Package `hyperref' Info: End of reference (link) `figure.caption.35', line 214.
 
 Package `hyperref' Info: End of reference (link) `figure.caption.35', line 214.
 
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/sch_PFC.png> <C:
-/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/PFC_unfilt-eps-conve
-rted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/PFC_
-filt-eps-converted-to.pdf>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/sch_PFC.png> <C:/Users
+/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/PFC_unfilt-eps-converted-to.pdf>
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/PFC_filt-eps-converted
+-to.pdf>]
 Package hyperref Info: Reference (cite) `cite.Afonso2013' on input line 241.
 Package hyperref Info: Reference (link) `subsection.2.2.2' on input line 241.
 Package hyperref Info: Reference (link) `figure.caption.36' on input line 241.
 Package hyperref Info: Reference (cite) `cite.Afonso2013' on input line 241.
 Package hyperref Info: Reference (link) `figure.caption.37' on input line 241.
 Package hyperref Info: Anchor `figure.caption.36' on input line 243.
-
-<Cap2/Figuras/shunt.png, id=964, 925.4575pt x 858.20625pt>
+ <Cap2/Figuras/shunt.png, id=964, 925.4575pt x 858.20625pt>
 File: Cap2/Figuras/shunt.png Graphic file (type png)
 
 <use Cap2/Figuras/shunt.png>
@@ -3094,11 +3082,9 @@ Package pdftex.def Info: Cap2/Figuras/serie.png used on input line 252.
 pdftex: bookmark at 253: {2.26} {\numberline{2.26}{\ignorespaces Filtro ativo d
 o tipo s\'erie\relax }} {figure.caption.37}{0}{lof}
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Cap2/Partes/Caracteristicas_de
-_Dispositivos_de_Correcao_de_Fator_de_Potencia_em_Sistemas_Eletricos_de_Aeronav
-es.tex
+(C:\Users\jpsoliv\Documents\Mestrado\texto\Cap2/Partes/Caracteristicas_de_Dispo
+sitivos_de_Correcao_de_Fator_de_Potencia_em_Sistemas_Eletricos_de_Aeronaves.tex
 Package hyperref Info: Anchor `section.2.6' on input line 1.
-
 pdftex: bookmark at 1: {2.6} {\numberline{2.6}Caracter\IeC {\'\i }sticas de Dis
 positivos de Corre\c c\~ao de Fator de Pot\^encia em Sistemas El\'etricos de Ae
 ronaves} {section.2.6}{1}{toc}
@@ -3114,8 +3100,8 @@ Package `hyperref' Info: End of reference (link) `figure.caption.37', line 241.
 
 ]
 Package hyperref Info: Anchor `page.52' on input line 4.
- [52 <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/shunt.png> <
-C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap2/Figuras/serie.png>]
+ [52 <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/shunt.png> <C:/Use
+rs/jpsoliv/Documents/Mestrado/texto/Cap2/Figuras/serie.png>]
 Package hyperref Info: Reference (cite) `cite.Zhu2014' on input line 7.
 Package hyperref Info: Reference (cite) `cite.Barruel2004' on input line 7.
 Package hyperref Info: Reference (cite) `cite.Barruel2004' on input line 7.
@@ -3136,8 +3122,7 @@ Package hyperref Info: Reference (cite) `cite.Gong2003' on input line 11.
 Package hyperref Info: Reference (cite) `cite.Lobo2005' on input line 11.
 Package hyperref Info: Reference (cite) `cite.Zhu2014' on input line 11.
 Package hyperref Info: Anchor `page.53' on input line 12.
-
-[53
+ [53
 Package `hyperref' Info: End of reference (cite) `cite.Zhu2014', line 7.
 Package `hyperref' Info: End of reference (cite) `cite.Barruel2004', line 7.
 Package `hyperref' Info: End of reference (cite) `cite.Barruel2004', line 7.
@@ -3157,7 +3142,7 @@ Package hyperref Info: Reference (cite) `cite.Zhu2014' on input line 13.
 Package hyperref Info: Reference (cite) `cite.Chen2012novel' on input line 13.
 Package hyperref Info: Reference (cite) `cite.Akagi2006' on input line 13.
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Cap2/Partes/Conclusoes.tex
+(C:\Users\jpsoliv\Documents\Mestrado\texto\Cap2/Partes/Conclusoes.tex
 Package hyperref Info: Anchor `section.2.7' on input line 1.
 
 pdftex: bookmark at 1: {2.7} {\numberline{2.7}Conclus\~oes} {section.2.7}{1}{to
@@ -3185,10 +3170,9 @@ Package `hyperref' Info: End of reference (cite) `cite.Akagi2006', line 13.
 Package `hyperref' Info: End of reference (cite) `cite.Zhu2014', line 3.
 Package `hyperref' Info: End of reference (cite) `cite.Chen2012control', line 3
 .
-]) (C:\Users\jpsoliv\Documents\João\Mestrado\texto\Cap3/Capitulo_3.tex
+]) (C:\Users\jpsoliv\Documents\Mestrado\texto\Cap3/Capitulo_3.tex
 Package hyperref Info: Anchor `page.55' on input line 1.
-
-[55
+ [55
 Package `hyperref' Info: End of reference (cite) `cite.Karatzaferis2013', line 
 3.
 ]
@@ -3198,8 +3182,8 @@ Cap\'{\i }tulo 3.
 pdftex: bookmark at 1: {3} {\numberline{3}Filtros Ativos para Sistemas El\'etri
 cos} {chapter.3}{0}{toc}
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Cap3/Partes/Potencia_Ativa_Rea
-tiva_e_Fator_de_Potencia.tex
+(C:\Users\jpsoliv\Documents\Mestrado\texto\Cap3/Partes/Potencia_Ativa_Reativa_e
+_Fator_de_Potencia.tex
 Package hyperref Info: Anchor `section.3.1' on input line 1.
 
 pdftex: bookmark at 1: {3.1} {\numberline{3.1}Pot\^encia Ativa, Reativa e Fator
@@ -3267,15 +3251,13 @@ Package `hyperref' Info: End of reference (link) `equation.3.1.6', line 78.
 Package `hyperref' Info: End of reference (link) `equation.3.1.7', line 78.
 Package `hyperref' Info: End of reference (link) `equation.3.1.6', line 90.
 Package `hyperref' Info: End of reference (link) `equation.3.1.7', line 90.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap3/Figuras/circuito_linear.
-png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap3/Figuras/circuito_linear.png>]
 Package hyperref Info: Reference (link) `equation.3.1.7' on input line 92.
 Package hyperref Info: Reference (link) `figure.caption.39' on input line 94.
 Package hyperref Info: Reference (link) `equation.3.1.6' on input line 94.
 Package hyperref Info: Reference (link) `equation.3.1.7' on input line 94.
 Package hyperref Info: Anchor `figure.caption.39' on input line 96.
-
-<Cap3/Figuras/V_I_P_W_VAr_VA.png, id=1071, 759.58781pt x 369.63094pt>
+ <Cap3/Figuras/V_I_P_W_VAr_VA.png, id=1071, 759.58781pt x 369.63094pt>
 File: Cap3/Figuras/V_I_P_W_VAr_VA.png Graphic file (type png)
 
 <use Cap3/Figuras/V_I_P_W_VAr_VA.png>
@@ -3292,8 +3274,7 @@ Package `hyperref' Info: End of reference (link) `equation.3.1.7', line 92.
 Package `hyperref' Info: End of reference (link) `figure.caption.39', line 94.
 Package `hyperref' Info: End of reference (link) `equation.3.1.6', line 94.
 Package `hyperref' Info: End of reference (link) `equation.3.1.7', line 94.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap3/Figuras/V_I_P_W_VAr_VA.p
-ng>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap3/Figuras/V_I_P_W_VAr_VA.png>]
 Package hyperref Info: Anchor `equation.3.1.10' on input line 113.
 Package hyperref Info: Reference (link) `equation.3.1.8' on input line 118.
 Package hyperref Info: Reference (link) `equation.3.1.9' on input line 118.
@@ -3328,7 +3309,7 @@ Package `hyperref' Info: End of reference (link) `equation.3.1.9', line 118.
 Package `hyperref' Info: End of reference (link) `equation.3.1.11', line 118.
 Package `hyperref' Info: End of reference (link) `equation.3.1.12', line 129.
 Package `hyperref' Info: End of reference (link) `equation.3.1.11', line 136.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap3/Figuras/triangulo.png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap3/Figuras/triangulo.png>]
 Package hyperref Info: Anchor `equation.3.1.13' on input line 149.
 Package hyperref Info: Reference (link) `equation.3.1.13' on input line 154.
 Package hyperref Info: Reference (link) `equation.3.1.10' on input line 154.
@@ -3353,7 +3334,8 @@ Package hyperref Info: Reference (cite) `cite.Czarnecki1987' on input line 162.
 
 Package hyperref Info: Reference (cite) `cite.Paredes2012' on input line 162.
 Package hyperref Info: Anchor `page.61' on input line 163.
- [61
+
+[61
 Package `hyperref' Info: End of reference (cite) `cite.Paredes2012', line 147.
 Package `hyperref' Info: End of reference (cite) `cite.Czarnecki1997', line 147
 .
@@ -3472,8 +3454,8 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <4.19998> not available
 Package hyperref Info: Reference (cite) `cite.Kassick2010' on input line 271.
 Package hyperref Info: Anchor `equation.3.1.27' on input line 273.
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Cap3/Partes/Potencia_Instantan
-e_utilizando_a_teoria_PQ.tex
+(C:\Users\jpsoliv\Documents\Mestrado\texto\Cap3/Partes/Potencia_Instantane_util
+izando_a_teoria_PQ.tex
 Package hyperref Info: Anchor `section.3.2' on input line 1.
 
 pdftex: bookmark at 1: {3.2} {\numberline{3.2}Pot\^encia Instant\^anea Utilizan
@@ -3526,11 +3508,11 @@ Package hyperref Info: Reference (link) `figure.caption.41' on input line 105.
 Package hyperref Info: Reference (link) `figure.caption.42' on input line 105.
 Package hyperref Info: Anchor `figure.caption.41' on input line 107.
 Package epstopdf Info: Source file: <Cap3/Figuras/va_vb_vc.eps>
-(epstopdf)                    date: 2017-03-08 09:39:07
+(epstopdf)                    date: 2017-03-27 08:49:38
 (epstopdf)                    size: 232990 bytes
 (epstopdf)             Output file: <Cap3/Figuras/va_vb_vc-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2017-03-08 09:39:07
+(epstopdf)                    date: 2017-03-27 08:49:38
 (epstopdf)                    size: 26068 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap3/Figuras/va_vb_vc-eps-c
 onverted-to.pdf Cap3/Figuras/va_vb_vc.eps>
@@ -3557,11 +3539,11 @@ pdftex: bookmark at 122: {3.4} {\numberline{3.4}{\ignorespaces Sistema trif\'as
 ico referenciado em coordenadas $abc$\relax }} {figure.caption.41}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.42' on input line 126.
 Package epstopdf Info: Source file: <Cap3/Figuras/alpha_beta.eps>
-(epstopdf)                    date: 2017-03-08 09:39:07
+(epstopdf)                    date: 2017-03-27 08:49:37
 (epstopdf)                    size: 213832 bytes
 (epstopdf)             Output file: <Cap3/Figuras/alpha_beta-eps-converted-to.p
 df>
-(epstopdf)                    date: 2017-03-08 09:39:07
+(epstopdf)                    date: 2017-03-27 08:49:37
 (epstopdf)                    size: 20326 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap3/Figuras/alpha_beta-eps
 -converted-to.pdf Cap3/Figuras/alpha_beta.eps>
@@ -3621,11 +3603,11 @@ Package `hyperref' Info: End of reference (link) `figure.caption.41', line 105.
 
 Package `hyperref' Info: End of reference (link) `figure.caption.42', line 105.
 
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap3/Figuras/va_vb_vc-eps-con
-verted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap3/Figuras/va
-_vb_vc_fasor.png> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap3/Figuras
-/alpha_beta-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/te
-xto/Cap3/Figuras/valpha_vbeta_fasor.png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap3/Figuras/va_vb_vc-eps-converted
+-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap3/Figuras/va_vb_vc_fasor
+.png> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap3/Figuras/alpha_beta-eps-co
+nverted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap3/Figuras/valpha_
+vbeta_fasor.png>]
 Package hyperref Info: Anchor `equation.3.2.32' on input line 149.
 Package hyperref Info: Anchor `equation.3.2.33' on input line 160.
 Package hyperref Info: Reference (link) `equation.3.2.33' on input line 165.
@@ -3727,7 +3709,7 @@ Package `hyperref' Info: End of reference (link) `figure.caption.43', line 317.
 
 Package `hyperref' Info: End of reference (link) `equation.3.2.32', line 333.
 Package `hyperref' Info: End of reference (link) `equation.3.2.33', line 333.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap3/Figuras/Graetz.png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap3/Figuras/Graetz.png>]
 Package hyperref Info: Anchor `equation.3.2.45' on input line 340.
 Package hyperref Info: Reference (link) `equation.3.2.35' on input line 355.
 Package hyperref Info: Anchor `equation.3.2.46' on input line 357.
@@ -3793,10 +3775,10 @@ Package hyperref Info: Reference (link) `figure.caption.46' on input line 468.
 Package hyperref Info: Reference (link) `figure.caption.46' on input line 468.
 Package hyperref Info: Anchor `figure.caption.46' on input line 470.
 Package epstopdf Info: Source file: <Cap3/Figuras/p_bal.eps>
-(epstopdf)                    date: 2017-03-08 09:39:07
+(epstopdf)                    date: 2017-03-27 08:49:38
 (epstopdf)                    size: 207835 bytes
 (epstopdf)             Output file: <Cap3/Figuras/p_bal-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-08 09:39:07
+(epstopdf)                    date: 2017-03-27 08:49:38
 (epstopdf)                    size: 6059 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap3/Figuras/p_bal-eps-conv
 erted-to.pdf Cap3/Figuras/p_bal.eps>
@@ -3810,10 +3792,10 @@ Package pdftex.def Info: Cap3/Figuras/p_bal-eps-converted-to.pdf used on input
 line 474.
 (pdftex.def)             Requested size: 218.51521pt x 163.88931pt.
 Package epstopdf Info: Source file: <Cap3/Figuras/q_bal.eps>
-(epstopdf)                    date: 2017-03-08 09:39:07
+(epstopdf)                    date: 2017-03-27 08:49:38
 (epstopdf)                    size: 197867 bytes
 (epstopdf)             Output file: <Cap3/Figuras/q_bal-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-08 09:39:07
+(epstopdf)                    date: 2017-03-27 08:49:38
 (epstopdf)                    size: 13595 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap3/Figuras/q_bal-eps-conv
 erted-to.pdf Cap3/Figuras/q_bal.eps>
@@ -3842,14 +3824,14 @@ Package `hyperref' Info: End of reference (link) `figure.caption.46', line 468.
 
 Package `hyperref' Info: End of reference (link) `figure.caption.46', line 468.
 
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap3/Figuras/pqfisico.png> <C
-:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap3/Figuras/3ph_ex.png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap3/Figuras/pqfisico.png> <C:/User
+s/jpsoliv/Documents/Mestrado/texto/Cap3/Figuras/3ph_ex.png>]
 Package hyperref Info: Anchor `figure.caption.47' on input line 491.
 Package epstopdf Info: Source file: <Cap3/Figuras/p_desb.eps>
-(epstopdf)                    date: 2017-03-08 09:39:07
+(epstopdf)                    date: 2017-03-27 08:49:38
 (epstopdf)                    size: 197308 bytes
 (epstopdf)             Output file: <Cap3/Figuras/p_desb-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-08 09:39:07
+(epstopdf)                    date: 2017-03-27 08:49:38
 (epstopdf)                    size: 13245 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap3/Figuras/p_desb-eps-con
 verted-to.pdf Cap3/Figuras/p_desb.eps>
@@ -3864,10 +3846,10 @@ Package pdftex.def Info: Cap3/Figuras/p_desb-eps-converted-to.pdf used on input
  line 495.
 (pdftex.def)             Requested size: 218.51521pt x 163.88931pt.
 Package epstopdf Info: Source file: <Cap3/Figuras/q_desb.eps>
-(epstopdf)                    date: 2017-03-08 09:39:07
+(epstopdf)                    date: 2017-03-27 08:49:38
 (epstopdf)                    size: 197395 bytes
 (epstopdf)             Output file: <Cap3/Figuras/q_desb-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-08 09:39:07
+(epstopdf)                    date: 2017-03-27 08:49:38
 (epstopdf)                    size: 13682 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap3/Figuras/q_desb-eps-con
 verted-to.pdf Cap3/Figuras/q_desb.eps>
@@ -3885,9 +3867,9 @@ Package pdftex.def Info: Cap3/Figuras/q_desb-eps-converted-to.pdf used on input
 pdftex: bookmark at 506: {3.10} {\numberline{3.10}{\ignorespaces Pot\^encias in
 stant\^aneas considerando $C_1\not =C_2=C_3$\relax }} {figure.caption.47}{0}{lo
 f}
-)
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Cap3/Partes/Filtros_ativos.tex
+) (C:\Users\jpsoliv\Documents\Mestrado\texto\Cap3/Partes/Filtros_ativos.tex
 Package hyperref Info: Anchor `section.3.3' on input line 1.
+
 pdftex: bookmark at 1: {3.3} {\numberline{3.3}Filtros Ativos} {section.3.3}{1}{
 toc}
 Package hyperref Info: Reference (link) `subsubsection.2.5.2.2' on input line 3
@@ -3896,11 +3878,11 @@ Package hyperref Info: Anchor `page.77' on input line 4.
 [77
 Package `hyperref' Info: End of reference (link) `figure.caption.47', line 489.
 
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap3/Figuras/p_bal-eps-conver
-ted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap3/Figuras/q_bal
--eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap3/Fi
-guras/p_desb-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/t
-exto/Cap3/Figuras/q_desb-eps-converted-to.pdf>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap3/Figuras/p_bal-eps-converted-to
+.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap3/Figuras/q_bal-eps-convert
+ed-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap3/Figuras/p_desb-eps-c
+onverted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap3/Figuras/q_desb
+-eps-converted-to.pdf>]
 Package hyperref Info: Anchor `page.78' on input line 16.
  [78
 Package `hyperref' Info: End of reference (link) `subsubsection.2.5.2.2', line 
@@ -3967,19 +3949,18 @@ Package `hyperref' Info: End of reference (link) `figure.caption.48', line 67.
 Package `hyperref' Info: End of reference (link) `equation.3.3.53', line 67.
 Package `hyperref' Info: End of reference (link) `figure.caption.49', line 67.
 Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 72.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap3/Figuras/compensador.png>
-]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap3/Figuras/compensador.png>]
 Package hyperref Info: Reference (link) `equation.3.3.54' on input line 87.
 Package hyperref Info: Anchor `equation.3.3.54' on input line 89.
 Package hyperref Info: Reference (link) `subsection.3.2.5' on input line 97.
 Package hyperref Info: Reference (link) `equation.3.3.55' on input line 97.
 Package hyperref Info: Anchor `page.81' on input line 98.
- [81
+
+[81
 Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 79.
 Package `hyperref' Info: End of reference (link) `equation.3.3.54', line 87.
 Package `hyperref' Info: End of reference (link) `subsection.3.2.5', line 97.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap3/Figuras/metodo_controle.
-png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap3/Figuras/metodo_controle.png>]
 Package hyperref Info: Anchor `equation.3.3.55' on input line 99.
 Package hyperref Info: Reference (link) `equation.3.1.20' on input line 106.
 Package hyperref Info: Reference (link) `equation.3.3.55' on input line 106.
@@ -4018,8 +3999,7 @@ Package `hyperref' Info: End of reference (link) `figure.caption.50', line 114.
 Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 119.
 Package `hyperref' Info: End of reference (link) `subsubsection.3.3.1.1', line 
 123.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap3/Figuras/con_alto_nivel.p
-ng>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap3/Figuras/con_alto_nivel.png>]
 Package hyperref Info: Anchor `figure.caption.51' on input line 127.
  <Cap3/Figuras/diagrama_filtro.png, id=1446, 635.37375pt x 429.10312pt>
 File: Cap3/Figuras/diagrama_filtro.png Graphic file (type png)
@@ -4055,18 +4035,17 @@ Package `hyperref' Info: End of reference (link) `figure.caption.53', line 136.
 
 Package `hyperref' Info: End of reference (link) `figure.caption.54', line 138.
 
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap3/Figuras/diagrama_filtro.
-png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap3/Figuras/diagrama_filtro.png>]
 Package hyperref Info: Reference (link) `figure.caption.55' on input line 140.
 Package hyperref Info: Reference (link) `figure.caption.56' on input line 142.
 Package hyperref Info: Reference (link) `figure.caption.57' on input line 144.
 Package hyperref Info: Anchor `figure.caption.52' on input line 146.
 Package epstopdf Info: Source file: <Cap3/Figuras/onda_filtro_1.eps>
-(epstopdf)                    date: 2016-12-14 10:19:02
+(epstopdf)                    date: 2017-03-27 08:49:37
 (epstopdf)                    size: 270522 bytes
 (epstopdf)             Output file: <Cap3/Figuras/onda_filtro_1-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2016-12-15 12:16:51
+(epstopdf)                    date: 2017-03-27 08:49:37
 (epstopdf)                    size: 26644 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap3/Figuras/onda_filtro_1-
 eps-converted-to.pdf Cap3/Figuras/onda_filtro_1.eps>
@@ -4085,11 +4064,11 @@ pdftex: bookmark at 149: {3.15} {\numberline{3.15}{\ignorespaces Tens\~ao $v_a$
  e corrente $i_{La}$ na entrada da carga\relax }} {figure.caption.52}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.53' on input line 153.
 Package epstopdf Info: Source file: <Cap3/Figuras/onda_filtro_2.eps>
-(epstopdf)                    date: 2016-12-14 10:19:17
+(epstopdf)                    date: 2017-03-27 08:49:37
 (epstopdf)                    size: 275122 bytes
 (epstopdf)             Output file: <Cap3/Figuras/onda_filtro_2-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2016-12-15 12:16:51
+(epstopdf)                    date: 2017-03-27 08:49:37
 (epstopdf)                    size: 42452 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap3/Figuras/onda_filtro_2-
 eps-converted-to.pdf Cap3/Figuras/onda_filtro_2.eps>
@@ -4108,11 +4087,11 @@ pdftex: bookmark at 156: {3.16} {\numberline{3.16}{\ignorespaces Pot\^encias in
 stant\^aneas $p$ e $q$\relax }} {figure.caption.53}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.54' on input line 160.
 Package epstopdf Info: Source file: <Cap3/Figuras/onda_filtro_3.eps>
-(epstopdf)                    date: 2016-12-14 10:19:30
+(epstopdf)                    date: 2017-03-27 08:49:37
 (epstopdf)                    size: 336214 bytes
 (epstopdf)             Output file: <Cap3/Figuras/onda_filtro_3-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2016-12-15 12:16:51
+(epstopdf)                    date: 2017-03-27 08:49:37
 (epstopdf)                    size: 26352 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap3/Figuras/onda_filtro_3-
 eps-converted-to.pdf Cap3/Figuras/onda_filtro_3.eps>
@@ -4132,11 +4111,11 @@ stant\^aneas a serem compensadas $-\mathaccentV{tilde}07E{p}$ e $-q$\relax }} {
 figure.caption.54}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.55' on input line 167.
 Package epstopdf Info: Source file: <Cap3/Figuras/onda_filtro_4.eps>
-(epstopdf)                    date: 2016-12-14 10:19:43
+(epstopdf)                    date: 2017-03-27 08:49:37
 (epstopdf)                    size: 223638 bytes
 (epstopdf)             Output file: <Cap3/Figuras/onda_filtro_4-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2016-12-15 12:16:51
+(epstopdf)                    date: 2017-03-27 08:49:37
 (epstopdf)                    size: 15954 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap3/Figuras/onda_filtro_4-
 eps-converted-to.pdf Cap3/Figuras/onda_filtro_4.eps>
@@ -4156,11 +4135,11 @@ fer\^encia $i_{Ca}^*$ a ser aplicado no inversor\relax }} {figure.caption.55}{0
 }{lof}
 Package hyperref Info: Anchor `figure.caption.56' on input line 181.
 Package epstopdf Info: Source file: <Cap3/Figuras/onda_filtro_6.eps>
-(epstopdf)                    date: 2016-12-14 10:20:07
+(epstopdf)                    date: 2017-03-27 08:49:37
 (epstopdf)                    size: 273557 bytes
 (epstopdf)             Output file: <Cap3/Figuras/onda_filtro_6-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2016-12-15 12:16:51
+(epstopdf)                    date: 2017-03-27 08:49:37
 (epstopdf)                    size: 35974 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap3/Figuras/onda_filtro_6-
 eps-converted-to.pdf Cap3/Figuras/onda_filtro_6.eps>
@@ -4180,11 +4159,11 @@ pdftex: bookmark at 184: {3.19} {\numberline{3.19}{\ignorespaces Tens\~ao $v_a$
 {0}{lof}
 Package hyperref Info: Anchor `figure.caption.57' on input line 188.
 Package epstopdf Info: Source file: <Cap3/Figuras/onda_filtro_7.eps>
-(epstopdf)                    date: 2016-12-14 10:20:21
+(epstopdf)                    date: 2017-03-27 08:49:38
 (epstopdf)                    size: 286773 bytes
 (epstopdf)             Output file: <Cap3/Figuras/onda_filtro_7-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2016-12-15 12:16:51
+(epstopdf)                    date: 2017-03-27 08:49:38
 (epstopdf)                    size: 32834 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap3/Figuras/onda_filtro_7-
 eps-converted-to.pdf Cap3/Figuras/onda_filtro_7.eps>
@@ -4201,7 +4180,7 @@ n input line 190.
 
 pdftex: bookmark at 191: {3.20} {\numberline{3.20}{\ignorespaces Pot\^encia ent
 regue pela fonte\relax }} {figure.caption.57}{0}{lof}
-) (C:\Users\jpsoliv\Documents\João\Mestrado\texto\Cap4/Capitulo_4.tex
+) (C:\Users\jpsoliv\Documents\Mestrado\texto\Cap4/Capitulo_4.tex
 Package hyperref Info: Anchor `page.85' on input line 1.
  [85
 Package `hyperref' Info: End of reference (link) `figure.caption.55', line 140.
@@ -4210,26 +4189,23 @@ Package `hyperref' Info: End of reference (link) `figure.caption.56', line 142.
 
 Package `hyperref' Info: End of reference (link) `figure.caption.57', line 144.
 
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap3/Figuras/onda_filtro_1-ep
-s-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap3/Figur
-as/onda_filtro_2-eps-converted-to.pdf>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap3/Figuras/onda_filtro_1-eps-conv
+erted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap3/Figuras/onda_filt
+ro_2-eps-converted-to.pdf>]
 Package hyperref Info: Anchor `page.86' on input line 1.
- [86 <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap3/Figuras/onda_filtro_
-3-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap3/F
-iguras/onda_filtro_4-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Me
-strado/texto/Cap3/Figuras/onda_filtro_6-eps-converted-to.pdf> <C:/Users/jpsoliv
-/Documents/João/Mestrado/texto/Cap3/Figuras/onda_filtro_7-eps-converted-to.pdf
->]
+ [86 <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap3/Figuras/onda_filtro_3-eps-
+converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap3/Figuras/onda_
+filtro_4-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap3/
+Figuras/onda_filtro_6-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrad
+o/texto/Cap3/Figuras/onda_filtro_7-eps-converted-to.pdf>]
 Package hyperref Info: Anchor `chapter.4' on input line 1.
 
 Cap\'{\i }tulo 4.
 pdftex: bookmark at 1: {4} {\numberline{4}Caracter\IeC {\'\i }stica de Filtros 
 Ativos em Sistemas Reais} {chapter.4}{0}{toc}
 )
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Cap4/Partes/Inversores_Estatic
-os.tex
+(C:\Users\jpsoliv\Documents\Mestrado\texto\Cap4/Partes/Inversores_Estaticos.tex
 Package hyperref Info: Anchor `section.4.1' on input line 1.
-
 pdftex: bookmark at 1: {4.1} {\numberline{4.1}Inversores Est\'aticos} {section.
 4.1}{1}{toc}
 Package hyperref Info: Anchor `subsection.4.1.1' on input line 5.
@@ -4301,15 +4277,15 @@ Package `hyperref' Info: End of reference (cite) `cite.Trzynadlowski2015', line
 Package `hyperref' Info: End of reference (link) `figure.caption.59', line 32.
 Package `hyperref' Info: End of reference (cite) `cite.Thekkevalappil2005', lin
 e 32.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap4/Figuras/VSC.png> <C:/Use
-rs/jpsoliv/Documents/João/Mestrado/texto/Cap4/Figuras/CSC.png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap4/Figuras/VSC.png> <C:/Users/jps
+oliv/Documents/Mestrado/texto/Cap4/Figuras/CSC.png>]
 Package hyperref Info: Reference (link) `figure.caption.60' on input line 47.
 Package hyperref Info: Anchor `page.89' on input line 48.
  [89
 Package `hyperref' Info: End of reference (cite) `cite.Thekkevalappil2005', lin
 e 37.
 Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 41.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap4/Figuras/histerese.png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap4/Figuras/histerese.png>]
 Package hyperref Info: Anchor `figure.caption.60' on input line 49.
 
 <Cap4/Figuras/conversor.png, id=1567, 729.47531pt x 340.27126pt>
@@ -4337,9 +4313,10 @@ Package `hyperref' Info: End of reference (link) `chapter.3', line 58.
 Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 58.
 Package `hyperref' Info: End of reference (cite) `cite.Peng1996', line 58.
 Package `hyperref' Info: End of reference (cite) `cite.Watanabe1993', line 58.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap4/Figuras/conversor.png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap4/Figuras/conversor.png>]
 Package hyperref Info: Anchor `figure.caption.61' on input line 64.
- <Cap4/Figuras/controle_Cap.png, id=1579, 1210.5225pt x 665.48625pt>
+
+<Cap4/Figuras/controle_Cap.png, id=1579, 1210.5225pt x 665.48625pt>
 File: Cap4/Figuras/controle_Cap.png Graphic file (type png)
 
 <use Cap4/Figuras/controle_Cap.png>
@@ -4348,7 +4325,7 @@ Package pdftex.def Info: Cap4/Figuras/controle_Cap.png used on input line 66.
 
 pdftex: bookmark at 67: {4.4} {\numberline{4.4}{\ignorespaces Malha de controle
  da tens\~ao no capacitor\relax }} {figure.caption.61}{0}{lof}
-) (C:\Users\jpsoliv\Documents\João\Mestrado\texto\Cap4/Partes/Controlador.tex
+) (C:\Users\jpsoliv\Documents\Mestrado\texto\Cap4/Partes/Controlador.tex
 Package hyperref Info: Anchor `section.4.2' on input line 5.
 
 pdftex: bookmark at 5: {4.2} {\numberline{4.2}Tipos de Controle para Sistemas c
@@ -4363,8 +4340,7 @@ Package hyperref Info: Anchor `page.91' on input line 13.
 Package `hyperref' Info: End of reference (link) `figure.caption.61', line 62.
 Package `hyperref' Info: End of reference (link) `section.3.3', line 7.
 Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 7.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap4/Figuras/controle_Cap.png
->]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap4/Figuras/controle_Cap.png>]
 Package hyperref Info: Reference (link) `section.3.3' on input line 17.
 Package hyperref Info: Reference (link) `section.3.3' on input line 17.
 Package hyperref Info: Anchor `subsection.4.2.1' on input line 19.
@@ -4408,8 +4384,8 @@ Package hyperref Info: Anchor `page.93' on input line 45.
  [93
 Package `hyperref' Info: End of reference (link) `figure.caption.51', line 41.
 Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 41.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap4/Figuras/esquema_controle
-_senoidal.png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap4/Figuras/esquema_controle_senoi
+dal.png>]
 Package hyperref Info: Anchor `paragraph.4.2.1.1.1' on input line 45.
 
 pdftex: bookmark at 45: {4.2.1.1.1} {\numberline{4.2.1.1.1}Malha de Captura de 
@@ -4463,7 +4439,7 @@ Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 47.
 Package `hyperref' Info: End of reference (link) `figure.caption.63', line 49.
 Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 54.
 Package `hyperref' Info: End of reference (link) `figure.caption.64', line 62.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap4/Figuras/PLL.png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap4/Figuras/PLL.png>]
 Package hyperref Info: Anchor `equation.4.2.2' on input line 73.
 Package hyperref Info: Reference (link) `figure.caption.64' on input line 91.
 Package hyperref Info: Reference (link) `figure.caption.65' on input line 91.
@@ -4473,8 +4449,7 @@ Package hyperref Info: Reference (link) `figure.caption.66' on input line 91.
 Package hyperref Info: Reference (link) `figure.caption.65' on input line 91.
 Package hyperref Info: Reference (link) `figure.caption.66' on input line 91.
 Package hyperref Info: Anchor `page.95' on input line 92.
-
-[95
+ [95
 Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 67.
 Package `hyperref' Info: End of reference (cite) `cite.Akagi2007', line 71.
 Package `hyperref' Info: End of reference (link) `equation.4.2.2', line 71.
@@ -4483,15 +4458,14 @@ Package `hyperref' Info: End of reference (link) `figure.caption.65', line 91.
 Package `hyperref' Info: End of reference (link) `figure.caption.66', line 91.
 Package `hyperref' Info: End of reference (link) `figure.caption.65', line 91.
 Package `hyperref' Info: End of reference (link) `figure.caption.66', line 91.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap4/Figuras/detector_seq_pos
-.png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap4/Figuras/detector_seq_pos.png>]
 Package hyperref Info: Anchor `figure.caption.65' on input line 93.
 Package epstopdf Info: Source file: <Cap4/Figuras/detector_seq_pos.eps>
-(epstopdf)                    date: 2017-03-10 07:32:00
+(epstopdf)                    date: 2017-03-27 08:49:42
 (epstopdf)                    size: 314534 bytes
 (epstopdf)             Output file: <Cap4/Figuras/detector_seq_pos-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2017-03-10 07:32:00
+(epstopdf)                    date: 2017-03-27 08:49:42
 (epstopdf)                    size: 38801 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/detector_seq_p
 os-eps-converted-to.pdf Cap4/Figuras/detector_seq_pos.eps>
@@ -4512,11 +4486,11 @@ e tens\~ao do detector de sequ\^encia positiva\relax }} {figure.caption.65}{0}{
 lof}
 Package hyperref Info: Anchor `figure.caption.66' on input line 100.
 Package epstopdf Info: Source file: <Cap4/Figuras/detector_seq_pos_1.eps>
-(epstopdf)                    date: 2017-03-10 07:32:00
+(epstopdf)                    date: 2017-03-27 08:49:43
 (epstopdf)                    size: 288366 bytes
 (epstopdf)             Output file: <Cap4/Figuras/detector_seq_pos_1-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2017-03-10 07:32:00
+(epstopdf)                    date: 2017-03-27 08:49:43
 (epstopdf)                    size: 28807 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap4/Figuras/detector_seq_p
 os_1-eps-converted-to.pdf Cap4/Figuras/detector_seq_pos_1.eps>
@@ -4535,9 +4509,7 @@ sed on input line 102.
 pdftex: bookmark at 103: {4.9} {\numberline{4.9}{\ignorespaces $\mathaccentV{do
 t}05F{V}_{a_{+1}}$ da tens\~ao de fase e tens\~ao do detector de sequ\^encia po
 sitiva\relax }} {figure.caption.66}{0}{lof}
-)
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Cap4/Partes/Sistema_Completo.t
-ex
+) (C:\Users\jpsoliv\Documents\Mestrado\texto\Cap4/Partes/Sistema_Completo.tex
 Package hyperref Info: Anchor `section.4.3' on input line 1.
 
 pdftex: bookmark at 1: {4.3} {\numberline{4.3}Sistema Completo do Filtro Ativo}
@@ -4550,9 +4522,9 @@ Package `hyperref' Info: End of reference (link) `figure.caption.65', line 91.
 Package `hyperref' Info: End of reference (link) `figure.caption.66', line 91.
 Package `hyperref' Info: End of reference (link) `figure.caption.67', line 3.
 Package `hyperref' Info: End of reference (link) `figure.caption.67', line 5.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap4/Figuras/detector_seq_pos
--eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap4/Fi
-guras/detector_seq_pos_1-eps-converted-to.pdf>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap4/Figuras/detector_seq_pos-eps-c
+onverted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap4/Figuras/detect
+or_seq_pos_1-eps-converted-to.pdf>]
 Package hyperref Info: Anchor `figure.caption.67' on input line 7.
 
 <Cap4/Figuras/Tudao_lado_1.png, id=1680, 1062.97125pt x 1869.98625pt>
@@ -4567,19 +4539,17 @@ o\relax }} {figure.caption.67}{0}{lof}
 
 LaTeX Warning: Float too large for page by 10.44131pt on input line 12.
 
-) (C:\Users\jpsoliv\Documents\João\Mestrado\texto\Cap5/Capitulo_5.tex
+) (C:\Users\jpsoliv\Documents\Mestrado\texto\Cap5/Capitulo_5.tex
 Package hyperref Info: Anchor `page.97' on input line 1.
  [97]
 Package hyperref Info: Anchor `page.98' on input line 1.
-
-[98 <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap4/Figuras/Tudao_lado_1.
-png>]
+ [98 <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap4/Figuras/Tudao_lado_1.png>]
 Package hyperref Info: Anchor `chapter.5' on input line 1.
 
 Cap\'{\i }tulo 5.
 pdftex: bookmark at 1: {5} {\numberline{5}Simula\c c\~ao de Filtro Ativo \texti
 t {Shunt} Aplicado em um Sistema El\'etrico Aeron\'autico} {chapter.5}{0}{toc}
-) (C:\Users\jpsoliv\Documents\João\Mestrado\texto\Cap5/Partes/Simulacao.tex
+) (C:\Users\jpsoliv\Documents\Mestrado\texto\Cap5/Partes/Simulacao.tex
 Package hyperref Info: Anchor `section.5.1' on input line 1.
 
 pdftex: bookmark at 1: {5.1} {\numberline{5.1}Simula\c c\~ao} {section.5.1}{1}{
@@ -4611,7 +4581,7 @@ Package hyperref Info: Anchor `page.100' on input line 23.
 [100
 Package `hyperref' Info: End of reference (cite) `cite.Olivier', line 11.
 Package `hyperref' Info: End of reference (link) `figure.caption.68', line 13.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/GEN_GCU.png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/GEN_GCU.png>]
 Package hyperref Info: Reference (link) `table.caption.69' on input line 24.
 Package hyperref Info: Anchor `table.caption.69' on input line 26.
 
@@ -4658,7 +4628,7 @@ Package hyperref Info: Anchor `page.102' on input line 72.
 [102
 Package `hyperref' Info: End of reference (cite) `cite.Exner1953', line 51.
 Package `hyperref' Info: End of reference (link) `table.caption.71', line 51.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/dist.png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/dist.png>]
 Package hyperref Info: Anchor `figure.caption.72' on input line 73.
 
 <Cap5/Figuras/EHA_elec.png, id=1729, 795.72281pt x 381.67593pt>
@@ -4688,14 +4658,14 @@ Package `hyperref' Info: End of reference (cite) `cite.Dinca2014', line 71.
 Package `hyperref' Info: End of reference (link) `figure.caption.72', line 71.
 Package `hyperref' Info: End of reference (link) `figure.caption.72', line 71.
 Package `hyperref' Info: End of reference (link) `figure.caption.73', line 80.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/EHA_elec.png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/EHA_elec.png>]
 Package hyperref Info: Anchor `figure.caption.74' on input line 91.
 Package epstopdf Info: Source file: <Cap5/Figuras/corrente_controlada_EHA.eps>
-(epstopdf)                    date: 2017-03-10 07:32:43
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 116459 bytes
 (epstopdf)             Output file: <Cap5/Figuras/corrente_controlada_EHA-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2017-03-10 07:32:43
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 11709 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/corrente_contr
 olada_EHA-eps-converted-to.pdf Cap5/Figuras/corrente_controlada_EHA.eps>
@@ -4726,9 +4696,9 @@ Package hyperref Info: Anchor `page.104' on input line 107.
 Package `hyperref' Info: End of reference (link) `figure.caption.74', line 89.
 Package `hyperref' Info: End of reference (link) `chapter.3', line 102.
 Package `hyperref' Info: End of reference (link) `chapter.4', line 102.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/EHA.png> <C:/Use
-rs/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/corrente_controlada_EHA-
-eps-converted-to.pdf>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/EHA.png> <C:/Users/jps
+oliv/Documents/Mestrado/texto/Cap5/Figuras/corrente_controlada_EHA-eps-converte
+d-to.pdf>]
 Package hyperref Info: Reference (link) `figure.caption.75' on input line 108.
 Package hyperref Info: Reference (link) `figure.caption.75' on input line 110.
 Package hyperref Info: Reference (link) `section.4.2' on input line 110.
@@ -4755,10 +4725,10 @@ Package `hyperref' Info: End of reference (link) `figure.caption.75', line 110.
 
 Package `hyperref' Info: End of reference (link) `section.4.2', line 110.
 Package `hyperref' Info: End of reference (link) `chapter.3', line 110.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/controlador.png>
-]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/controlador.png>]
 Package hyperref Info: Anchor `figure.caption.76' on input line 123.
- <Cap5/Figuras/histerese_sim.png, id=1766, 1138.2525pt x 607.51968pt>
+
+<Cap5/Figuras/histerese_sim.png, id=1766, 1138.2525pt x 607.51968pt>
 File: Cap5/Figuras/histerese_sim.png Graphic file (type png)
 
 <use Cap5/Figuras/histerese_sim.png>
@@ -4794,8 +4764,7 @@ Package `hyperref' Info: End of reference (link) `figure.caption.77', line 130.
 
 Package `hyperref' Info: End of reference (link) `figure.caption.75', line 130.
 
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/histerese_sim.pn
-g>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/histerese_sim.png>]
 Package hyperref Info: Reference (link) `figure.caption.78' on input line 145.
 Package hyperref Info: Reference (link) `figure.caption.58' on input line 145.
 Package hyperref Info: Anchor `figure.caption.78' on input line 149.
@@ -4808,7 +4777,7 @@ Package pdftex.def Info: Cap5/Figuras/Inversor.png used on input line 151.
 
 pdftex: bookmark at 152: {5.9} {\numberline{5.9}{\ignorespaces Bloco do compens
 ador\relax }} {figure.caption.78}{0}{lof}
-) (C:\Users\jpsoliv\Documents\João\Mestrado\texto\Cap5/Partes/Resultados.tex
+) (C:\Users\jpsoliv\Documents\Mestrado\texto\Cap5/Partes/Resultados.tex
 Package hyperref Info: Anchor `section.5.2' on input line 1.
 
 pdftex: bookmark at 1: {5.2} {\numberline{5.2}Resultados} {section.5.2}{1}{toc}
@@ -4820,18 +4789,19 @@ Package `hyperref' Info: End of reference (link) `figure.caption.78', line 145.
 
 Package `hyperref' Info: End of reference (link) `figure.caption.58', line 145.
 
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/PI_sim.png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/PI_sim.png>]
 Package hyperref Info: Anchor `figure.caption.79' on input line 5.
 Package epstopdf Info: Source file: <Cap5/Figuras/perfil.eps>
-(epstopdf)                    date: 2017-03-10 07:32:43
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 33582 bytes
 (epstopdf)             Output file: <Cap5/Figuras/perfil-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-10 07:32:43
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 9995 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/perfil-eps-con
 verted-to.pdf Cap5/Figuras/perfil.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
+
 <Cap5/Figuras/perfil-eps-converted-to.pdf, id=1783, 843.15pt x 395.4775pt>
 File: Cap5/Figuras/perfil-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -4850,15 +4820,16 @@ Package hyperref Info: Anchor `Item.9' on input line 18.
 Package hyperref Info: Anchor `page.108' on input line 19.
 [108
 Package `hyperref' Info: End of reference (link) `figure.caption.79', line 3.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/Inversor.png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/Inversor.png>]
 Package hyperref Info: Reference (link) `section.2.6' on input line 21.
 Package hyperref Info: Reference (cite) `cite.MILSTD' on input line 23.
 Package hyperref Info: Anchor `page.109' on input line 26.
- [109
+
+[109
 Package `hyperref' Info: End of reference (link) `section.2.6', line 21.
 Package `hyperref' Info: End of reference (cite) `cite.MILSTD', line 23.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/perfil-eps-conve
-rted-to.pdf>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/perfil-eps-converted-t
+o.pdf>]
 Package hyperref Info: Anchor `subsection.5.2.1' on input line 27.
 
 pdftex: bookmark at 27: {5.2.1} {\numberline{5.2.1}EHA Inoperante} {subsection.
@@ -4884,11 +4855,11 @@ pdftex: bookmark at 38: {5.11} {\numberline{5.11}{\ignorespaces Per\IeC {\'\i }
 odo simulado com EHA Inoperante\relax }} {figure.caption.80}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.81' on input line 60.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_unfilt_2.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 204421 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_unfilt_2-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 35090 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_unf
 ilt_2-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_2.eps>
@@ -4904,11 +4875,11 @@ Package pdftex.def Info: Cap5/Figuras/resultados_unfilt_2-eps-converted-to.pdf
 used on input line 64.
 (pdftex.def)             Requested size: 218.51521pt x 151.56053pt.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_filt_2.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 304848 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_filt_2-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 69280 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_fil
 t_2-eps-converted-to.pdf Cap5/Figuras/resultados_filt_2.eps>
@@ -4929,11 +4900,11 @@ de tens\~ao e corrente em regime de EHA Inoperante\relax }} {figure.caption.81}
 {0}{lof}
 Package hyperref Info: Anchor `figure.caption.82' on input line 98.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_unfilt_4.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 324443 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_unfilt_4-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 47214 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_unf
 ilt_4-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_4.eps>
@@ -4949,11 +4920,11 @@ Package pdftex.def Info: Cap5/Figuras/resultados_unfilt_4-eps-converted-to.pdf
 used on input line 102.
 (pdftex.def)             Requested size: 213.96529pt x 158.99133pt.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_filt_4.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 456854 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_filt_4-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 93596 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_fil
 t_4-eps-converted-to.pdf Cap5/Figuras/resultados_filt_4.eps>
@@ -4974,11 +4945,11 @@ t\^encias instant\^aneas em regime de EHA Inoperante\relax }} {figure.caption.8
 2}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.83' on input line 117.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_unfilt_5.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 196187 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_unfilt_5-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 9549 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_unf
 ilt_5-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_5.eps>
@@ -4994,11 +4965,11 @@ Package pdftex.def Info: Cap5/Figuras/resultados_unfilt_5-eps-converted-to.pdf
 used on input line 121.
 (pdftex.def)             Requested size: 218.51521pt x 168.70045pt.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_filt_5.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 202563 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_filt_5-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 10516 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_fil
 t_5-eps-converted-to.pdf Cap5/Figuras/resultados_filt_5.eps>
@@ -5019,11 +4990,11 @@ equ\^encia da tens\~ao em regime de EHA Inoperante e delimita\c c\~ao definida
 pela norma MIL-STD 704F\relax }} {figure.caption.83}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.84' on input line 136.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_unfilt_6.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 187493 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_unfilt_6-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 8052 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_unf
 ilt_6-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_6.eps>
@@ -5039,11 +5010,11 @@ Package pdftex.def Info: Cap5/Figuras/resultados_unfilt_6-eps-converted-to.pdf
 used on input line 140.
 (pdftex.def)             Requested size: 218.51521pt x 167.64494pt.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_filt_6.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 187479 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_filt_6-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 8088 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_fil
 t_6-eps-converted-to.pdf Cap5/Figuras/resultados_filt_6.eps>
@@ -5072,20 +5043,20 @@ Package `hyperref' Info: End of reference (link) `figure.caption.82', line 31.
 Package `hyperref' Info: End of reference (link) `figure.caption.82', line 31.
 Package `hyperref' Info: End of reference (link) `figure.caption.83', line 33.
 Package `hyperref' Info: End of reference (link) `figure.caption.84', line 33.
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/perfil_inoperant
-e.png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/perfil_inoperante.png>
+]
 
 LaTeX Warning: Text page 111 contains only floats.
 
 Package hyperref Info: Anchor `page.111' on input line 155.
-[111 <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/resultados_u
-nfilt_2-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/
-Cap5/Figuras/resultados_filt_2-eps-converted-to.pdf> <C:/Users/jpsoliv/Document
-s/João/Mestrado/texto/Cap5/Figuras/resultados_unfilt_4-eps-converted-to.pdf> <
-C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/resultados_filt_4-
-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Fig
-uras/resultados_unfilt_5-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/Joã
-o/Mestrado/texto/Cap5/Figuras/resultados_filt_5-eps-converted-to.pdf>]
+[111 <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/resultados_unfilt_
+2-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras
+/resultados_filt_2-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/t
+exto/Cap5/Figuras/resultados_unfilt_4-eps-converted-to.pdf> <C:/Users/jpsoliv/D
+ocuments/Mestrado/texto/Cap5/Figuras/resultados_filt_4-eps-converted-to.pdf> <C
+:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/resultados_unfilt_5-eps-c
+onverted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/result
+ados_filt_5-eps-converted-to.pdf>]
 Package hyperref Info: Anchor `subsection.5.2.2' on input line 157.
 
 pdftex: bookmark at 157: {5.2.2} {\numberline{5.2.2}Corrente M\'axima} {subsect
@@ -5136,16 +5107,16 @@ Package `hyperref' Info: End of reference (link) `figure.caption.90', line 165.
 
 Package `hyperref' Info: End of reference (link) `figure.caption.91', line 165.
 
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/resultados_unfil
-t_6-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5
-/Figuras/resultados_filt_6-eps-converted-to.pdf>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/resultados_unfilt_6-ep
+s-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/res
+ultados_filt_6-eps-converted-to.pdf>]
 Package hyperref Info: Anchor `figure.caption.86' on input line 174.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_unfilt_7.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 236714 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_unfilt_7-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 51699 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_unf
 ilt_7-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_7.eps>
@@ -5161,11 +5132,11 @@ Package pdftex.def Info: Cap5/Figuras/resultados_unfilt_7-eps-converted-to.pdf
 used on input line 178.
 (pdftex.def)             Requested size: 218.51521pt x 154.58156pt.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_filt_7.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 301704 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_filt_7-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 70948 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_fil
 t_7-eps-converted-to.pdf Cap5/Figuras/resultados_filt_7.eps>
@@ -5186,11 +5157,11 @@ pdftex: bookmark at 189: {5.17} {\numberline{5.17}{\ignorespaces Formas de onda
 }
 Package hyperref Info: Anchor `figure.caption.87' on input line 193.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_unfilt_8.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 224562 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_unfilt_8-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 41592 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_unf
 ilt_8-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_8.eps>
@@ -5206,11 +5177,11 @@ Package pdftex.def Info: Cap5/Figuras/resultados_unfilt_8-eps-converted-to.pdf
 used on input line 197.
 (pdftex.def)             Requested size: 218.51521pt x 153.11766pt.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_filt_8.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 306613 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_filt_8-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 65536 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_fil
 t_8-eps-converted-to.pdf Cap5/Figuras/resultados_filt_8.eps>
@@ -5231,11 +5202,11 @@ pdftex: bookmark at 208: {5.18} {\numberline{5.18}{\ignorespaces Formas de onda
 .87}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.88' on input line 212.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_unfilt_9.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 500265 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_unfilt_9-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 100002 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_unf
 ilt_9-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_9.eps>
@@ -5251,11 +5222,11 @@ Package pdftex.def Info: Cap5/Figuras/resultados_unfilt_9-eps-converted-to.pdf
 used on input line 216.
 (pdftex.def)             Requested size: 213.96529pt x 174.69823pt.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_filt_9.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 602188 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_filt_9-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 129465 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_fil
 t_9-eps-converted-to.pdf Cap5/Figuras/resultados_filt_9.eps>
@@ -5276,11 +5247,11 @@ stant\^aneas em regime de Corrente M\'axima\relax }} {figure.caption.88}{0}{lof
 }
 Package hyperref Info: Anchor `figure.caption.89' on input line 231.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_unfilt_10.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 382809 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_unfilt_10-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 53865 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_unf
 ilt_10-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_10.eps>
@@ -5296,11 +5267,11 @@ Package pdftex.def Info: Cap5/Figuras/resultados_unfilt_10-eps-converted-to.pdf
  used on input line 235.
 (pdftex.def)             Requested size: 213.96529pt x 173.32053pt.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_filt_10.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 506511 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_filt_10-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 80138 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_fil
 t_10-eps-converted-to.pdf Cap5/Figuras/resultados_filt_10.eps>
@@ -5321,11 +5292,11 @@ t\^encias instant\^aneas em regime de Corrente M\'axima\relax }} {figure.captio
 n.89}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.90' on input line 250.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_unfilt_11.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 216976 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_unfilt_11-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 13542 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_unf
 ilt_11-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_11.eps>
@@ -5341,11 +5312,11 @@ Package pdftex.def Info: Cap5/Figuras/resultados_unfilt_11-eps-converted-to.pdf
  used on input line 254.
 (pdftex.def)             Requested size: 218.51521pt x 168.70045pt.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_filt_11.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 201652 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_filt_11-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 10485 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_fil
 t_11-eps-converted-to.pdf Cap5/Figuras/resultados_filt_11.eps>
@@ -5366,11 +5337,11 @@ equ\^encia da tens\~ao em regime de Corrente M\'axima e delimita\c c\~ao defini
 da pela norma MIL-STD 704F\relax }} {figure.caption.90}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.91' on input line 269.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_unfilt_12.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 188500 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_unfilt_12-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 8149 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_unf
 ilt_12-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_12.eps>
@@ -5386,11 +5357,11 @@ Package pdftex.def Info: Cap5/Figuras/resultados_unfilt_12-eps-converted-to.pdf
  used on input line 273.
 (pdftex.def)             Requested size: 218.51521pt x 167.24257pt.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_filt_12.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 188479 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_filt_12-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 8140 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_fil
 t_12-eps-converted-to.pdf Cap5/Figuras/resultados_filt_12.eps>
@@ -5410,26 +5381,26 @@ pdftex: bookmark at 284: {5.22} {\numberline{5.22}{\ignorespaces Amplitude das
 componentes harm\^onicas em regime de Corrente M\'axima\relax }} {figure.captio
 n.91}{0}{lof}
 Package hyperref Info: Anchor `page.113' on input line 288.
-[113 <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/perfil_maxim
-a.png> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/resultados
-_unfilt_7-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/text
-o/Cap5/Figuras/resultados_filt_7-eps-converted-to.pdf> <C:/Users/jpsoliv/Docume
-nts/João/Mestrado/texto/Cap5/Figuras/resultados_unfilt_8-eps-converted-to.pdf>
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/resultados_filt_
-8-eps-converted-to.pdf>]
+[113 <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/perfil_maxima.png>
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/resultados_unfilt_7-ep
+s-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/res
+ultados_filt_7-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto
+/Cap5/Figuras/resultados_unfilt_8-eps-converted-to.pdf> <C:/Users/jpsoliv/Docum
+ents/Mestrado/texto/Cap5/Figuras/resultados_filt_8-eps-converted-to.pdf>]
 Package hyperref Info: Anchor `page.114' on input line 288.
- [114 <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/resultados_
-unfilt_9-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/texto
-/Cap5/Figuras/resultados_filt_9-eps-converted-to.pdf> <C:/Users/jpsoliv/Documen
-ts/João/Mestrado/texto/Cap5/Figuras/resultados_unfilt_10-eps-converted-to.pdf>
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/resultados_filt_
-10-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/
-Figuras/resultados_unfilt_11-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/
-João/Mestrado/texto/Cap5/Figuras/resultados_filt_11-eps-converted-to.pdf>]
+
+[114 <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/resultados_unfilt_
+9-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras
+/resultados_filt_9-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/t
+exto/Cap5/Figuras/resultados_unfilt_10-eps-converted-to.pdf> <C:/Users/jpsoliv/
+Documents/Mestrado/texto/Cap5/Figuras/resultados_filt_10-eps-converted-to.pdf> 
+<C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/resultados_unfilt_11-ep
+s-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/res
+ultados_filt_11-eps-converted-to.pdf>]
 Package hyperref Info: Anchor `page.115' on input line 288.
- [115 <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/resultados_
-unfilt_12-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/text
-o/Cap5/Figuras/resultados_filt_12-eps-converted-to.pdf>]
+ [115 <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/resultados_unfilt
+_12-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figur
+as/resultados_filt_12-eps-converted-to.pdf>]
 Package hyperref Info: Anchor `subsection.5.2.3' on input line 290.
 
 pdftex: bookmark at 290: {5.2.3} {\numberline{5.2.3}Regime Transit\'orio} {subs
@@ -5457,11 +5428,11 @@ pdftex: bookmark at 303: {5.23} {\numberline{5.23}{\ignorespaces Per\IeC {\'\i
 of}
 Package hyperref Info: Anchor `figure.caption.93' on input line 307.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_unfilt_13.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 243666 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_unfilt_13-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 49300 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_unf
 ilt_13-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_13.eps>
@@ -5477,11 +5448,11 @@ Package pdftex.def Info: Cap5/Figuras/resultados_unfilt_13-eps-converted-to.pdf
  used on input line 311.
 (pdftex.def)             Requested size: 218.51521pt x 154.58156pt.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_filt_13.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 328223 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_filt_13-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 80651 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_fil
 t_13-eps-converted-to.pdf Cap5/Figuras/resultados_filt_13.eps>
@@ -5502,11 +5473,11 @@ pdftex: bookmark at 322: {5.24} {\numberline{5.24}{\ignorespaces Formas de onda
 }
 Package hyperref Info: Anchor `figure.caption.94' on input line 326.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_unfilt_14.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 203600 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_unfilt_14-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 34833 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_unf
 ilt_14-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_14.eps>
@@ -5522,11 +5493,11 @@ Package pdftex.def Info: Cap5/Figuras/resultados_unfilt_14-eps-converted-to.pdf
  used on input line 330.
 (pdftex.def)             Requested size: 218.51521pt x 153.48364pt.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_filt_14.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 303484 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_filt_14-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 64907 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_fil
 t_14-eps-converted-to.pdf Cap5/Figuras/resultados_filt_14.eps>
@@ -5547,11 +5518,11 @@ pdftex: bookmark at 341: {5.25} {\numberline{5.25}{\ignorespaces Formas de onda
 .94}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.95' on input line 345.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_unfilt_15.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 460690 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_unfilt_15-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 98459 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_unf
 ilt_15-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_15.eps>
@@ -5567,11 +5538,11 @@ Package pdftex.def Info: Cap5/Figuras/resultados_unfilt_15-eps-converted-to.pdf
  used on input line 349.
 (pdftex.def)             Requested size: 213.96529pt x 161.84685pt.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_filt_15.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 541807 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_filt_15-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 126815 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_fil
 t_15-eps-converted-to.pdf Cap5/Figuras/resultados_filt_15.eps>
@@ -5592,11 +5563,11 @@ stant\^aneas durante o Regime Transit\'orio\relax }} {figure.caption.95}{0}{lof
 }
 Package hyperref Info: Anchor `figure.caption.96' on input line 364.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_unfilt_16.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 320049 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_unfilt_16-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 49302 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_unf
 ilt_16-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_16.eps>
@@ -5612,11 +5583,11 @@ Package pdftex.def Info: Cap5/Figuras/resultados_unfilt_16-eps-converted-to.pdf
  used on input line 368.
 (pdftex.def)             Requested size: 213.96529pt x 161.4357pt.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_filt_16.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 455983 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_filt_16-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 80911 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_fil
 t_16-eps-converted-to.pdf Cap5/Figuras/resultados_filt_16.eps>
@@ -5637,11 +5608,11 @@ t\^encias instant\^aneas durante o Regime Transit\'orio\relax }} {figure.captio
 n.96}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.97' on input line 383.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_unfilt_17.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 202923 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_unfilt_17-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 10918 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_unf
 ilt_17-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_17.eps>
@@ -5657,11 +5628,11 @@ Package pdftex.def Info: Cap5/Figuras/resultados_unfilt_17-eps-converted-to.pdf
  used on input line 387.
 (pdftex.def)             Requested size: 218.51521pt x 168.70045pt.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_filt_17.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 197570 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_filt_17-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 9822 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_fil
 t_17-eps-converted-to.pdf Cap5/Figuras/resultados_filt_17.eps>
@@ -5682,11 +5653,11 @@ equ\^encia da tens\~ao durante o Regime Transit\'orio e delimita\c c\~ao defini
 da pela norma MIL-STD 704F\relax }} {figure.caption.97}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.98' on input line 402.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_unfilt_18.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 186877 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_unfilt_18-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 8053 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_unf
 ilt_18-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_18.eps>
@@ -5702,11 +5673,11 @@ Package pdftex.def Info: Cap5/Figuras/resultados_unfilt_18-eps-converted-to.pdf
  used on input line 406.
 (pdftex.def)             Requested size: 218.51521pt x 167.64494pt.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_filt_18.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 186866 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_filt_18-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 8041 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_fil
 t_18-eps-converted-to.pdf Cap5/Figuras/resultados_filt_18.eps>
@@ -5746,26 +5717,26 @@ Package `hyperref' Info: End of reference (link) `figure.caption.97', line 298.
 
 Package `hyperref' Info: End of reference (link) `figure.caption.98', line 298.
 
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/perfil_transitor
-io.png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/perfil_transitorio.png
+>]
 Package hyperref Info: Anchor `page.117' on input line 421.
- [117 <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/resultados_
-unfilt_13-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/text
-o/Cap5/Figuras/resultados_filt_13-eps-converted-to.pdf> <C:/Users/jpsoliv/Docum
-ents/João/Mestrado/texto/Cap5/Figuras/resultados_unfilt_14-eps-converted-to.pd
-f> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/resultados_fil
-t_14-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap
-5/Figuras/resultados_unfilt_15-eps-converted-to.pdf> <C:/Users/jpsoliv/Document
-s/João/Mestrado/texto/Cap5/Figuras/resultados_filt_15-eps-converted-to.pdf>]
+ [117 <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/resultados_unfilt
+_13-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figur
+as/resultados_filt_13-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrad
+o/texto/Cap5/Figuras/resultados_unfilt_14-eps-converted-to.pdf> <C:/Users/jpsol
+iv/Documents/Mestrado/texto/Cap5/Figuras/resultados_filt_14-eps-converted-to.pd
+f> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/resultados_unfilt_15
+-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/
+resultados_filt_15-eps-converted-to.pdf>]
 Package hyperref Info: Anchor `page.118' on input line 421.
- [118 <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/resultados_
-unfilt_16-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/text
-o/Cap5/Figuras/resultados_filt_16-eps-converted-to.pdf> <C:/Users/jpsoliv/Docum
-ents/João/Mestrado/texto/Cap5/Figuras/resultados_unfilt_17-eps-converted-to.pd
-f> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/resultados_fil
-t_17-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap
-5/Figuras/resultados_unfilt_18-eps-converted-to.pdf> <C:/Users/jpsoliv/Document
-s/João/Mestrado/texto/Cap5/Figuras/resultados_filt_18-eps-converted-to.pdf>]
+ [118 <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/resultados_unfilt
+_16-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figur
+as/resultados_filt_16-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrad
+o/texto/Cap5/Figuras/resultados_unfilt_17-eps-converted-to.pdf> <C:/Users/jpsol
+iv/Documents/Mestrado/texto/Cap5/Figuras/resultados_filt_17-eps-converted-to.pd
+f> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/resultados_unfilt_18
+-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/
+resultados_filt_18-eps-converted-to.pdf>]
 Package hyperref Info: Anchor `subsection.5.2.4' on input line 423.
 
 pdftex: bookmark at 423: {5.2.4} {\numberline{5.2.4}Regime Permanente} {subsect
@@ -5797,11 +5768,11 @@ pdftex: bookmark at 436: {5.30} {\numberline{5.30}{\ignorespaces Per\IeC {\'\i
 
 Package hyperref Info: Anchor `figure.caption.100' on input line 440.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_unfilt_19.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 231547 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_unfilt_19-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 46470 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_unf
 ilt_19-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_19.eps>
@@ -5817,11 +5788,11 @@ Package pdftex.def Info: Cap5/Figuras/resultados_unfilt_19-eps-converted-to.pdf
  used on input line 444.
 (pdftex.def)             Requested size: 218.51521pt x 153.48364pt.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_filt_19.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 333174 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_filt_19-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 86977 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_fil
 t_19-eps-converted-to.pdf Cap5/Figuras/resultados_filt_19.eps>
@@ -5841,11 +5812,11 @@ pdftex: bookmark at 455: {5.31} {\numberline{5.31}{\ignorespaces Formas de onda
  de corrente durante o Regime Permanente\relax }} {figure.caption.100}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.101' on input line 459.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_unfilt_20.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 200864 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_unfilt_20-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 32687 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_unf
 ilt_20-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_20.eps>
@@ -5861,11 +5832,11 @@ Package pdftex.def Info: Cap5/Figuras/resultados_unfilt_20-eps-converted-to.pdf
  used on input line 463.
 (pdftex.def)             Requested size: 218.51521pt x 153.48364pt.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_filt_20.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 297562 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_filt_20-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 64792 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_fil
 t_20-eps-converted-to.pdf Cap5/Figuras/resultados_filt_20.eps>
@@ -5886,11 +5857,11 @@ pdftex: bookmark at 474: {5.32} {\numberline{5.32}{\ignorespaces Formas de onda
 1}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.102' on input line 478.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_unfilt_21.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 412154 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_unfilt_21-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 86340 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_unf
 ilt_21-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_21.eps>
@@ -5906,11 +5877,11 @@ Package pdftex.def Info: Cap5/Figuras/resultados_unfilt_21-eps-converted-to.pdf
  used on input line 482.
 (pdftex.def)             Requested size: 213.96529pt x 160.20094pt.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_filt_21.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 541504 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_filt_21-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 135802 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_fil
 t_21-eps-converted-to.pdf Cap5/Figuras/resultados_filt_21.eps>
@@ -5930,11 +5901,11 @@ pdftex: bookmark at 493: {5.33} {\numberline{5.33}{\ignorespaces Pot\^encias in
 stant\^aneas durante o Regime Permanente\relax }} {figure.caption.102}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.103' on input line 497.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_unfilt_22.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 322555 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_unfilt_22-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 48802 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_unf
 ilt_22-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_22.eps>
@@ -5950,11 +5921,11 @@ Package pdftex.def Info: Cap5/Figuras/resultados_unfilt_22-eps-converted-to.pdf
  used on input line 501.
 (pdftex.def)             Requested size: 213.96529pt x 159.79398pt.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_filt_22.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 450039 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_filt_22-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 88123 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_fil
 t_22-eps-converted-to.pdf Cap5/Figuras/resultados_filt_22.eps>
@@ -5975,11 +5946,11 @@ t\^encias instant\^aneas durante o Regime Permanente\relax }} {figure.caption.1
 03}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.104' on input line 516.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_unfilt_23.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 200068 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_unfilt_23-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 10213 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_unf
 ilt_23-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_23.eps>
@@ -5995,11 +5966,11 @@ Package pdftex.def Info: Cap5/Figuras/resultados_unfilt_23-eps-converted-to.pdf
  used on input line 520.
 (pdftex.def)             Requested size: 218.51521pt x 168.70045pt.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_filt_23.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 198067 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_filt_23-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 9852 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_fil
 t_23-eps-converted-to.pdf Cap5/Figuras/resultados_filt_23.eps>
@@ -6020,11 +5991,11 @@ equ\^encia da tens\~ao durante o Regime Permanente e delimita\c c\~ao definida
 pela norma MIL-STD 704F\relax }} {figure.caption.104}{0}{lof}
 Package hyperref Info: Anchor `figure.caption.105' on input line 535.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_unfilt_24.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 187492 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_unfilt_24-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:13
 (epstopdf)                    size: 8086 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_unf
 ilt_24-eps-converted-to.pdf Cap5/Figuras/resultados_unfilt_24.eps>
@@ -6040,11 +6011,11 @@ Package pdftex.def Info: Cap5/Figuras/resultados_unfilt_24-eps-converted-to.pdf
  used on input line 539.
 (pdftex.def)             Requested size: 218.51521pt x 167.64494pt.
 Package epstopdf Info: Source file: <Cap5/Figuras/resultados_filt_24.eps>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 187490 bytes
 (epstopdf)             Output file: <Cap5/Figuras/resultados_filt_24-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2017-03-13 07:33:26
+(epstopdf)                    date: 2017-03-27 08:50:12
 (epstopdf)                    size: 8087 bytes
 (epstopdf)             Command: <epstopdf --outfile=Cap5/Figuras/resultados_fil
 t_24-eps-converted-to.pdf Cap5/Figuras/resultados_filt_24.eps>
@@ -6080,27 +6051,27 @@ Package `hyperref' Info: End of reference (link) `figure.caption.104', line 431
 .
 Package `hyperref' Info: End of reference (link) `figure.caption.105', line 431
 .
- <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/perfil_permanent
-e.png>]
+ <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/perfil_permanente.png>
+]
 Package hyperref Info: Anchor `page.120' on input line 554.
- [120 <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/resultados_
-unfilt_19-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/text
-o/Cap5/Figuras/resultados_filt_19-eps-converted-to.pdf> <C:/Users/jpsoliv/Docum
-ents/João/Mestrado/texto/Cap5/Figuras/resultados_unfilt_20-eps-converted-to.pd
-f> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/resultados_fil
-t_20-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap
-5/Figuras/resultados_unfilt_21-eps-converted-to.pdf> <C:/Users/jpsoliv/Document
-s/João/Mestrado/texto/Cap5/Figuras/resultados_filt_21-eps-converted-to.pdf>]
+ [120 <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/resultados_unfilt
+_19-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figur
+as/resultados_filt_19-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrad
+o/texto/Cap5/Figuras/resultados_unfilt_20-eps-converted-to.pdf> <C:/Users/jpsol
+iv/Documents/Mestrado/texto/Cap5/Figuras/resultados_filt_20-eps-converted-to.pd
+f> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/resultados_unfilt_21
+-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/
+resultados_filt_21-eps-converted-to.pdf>]
 Package hyperref Info: Anchor `page.121' on input line 554.
- [121 <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/resultados_
-unfilt_22-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/text
-o/Cap5/Figuras/resultados_filt_22-eps-converted-to.pdf> <C:/Users/jpsoliv/Docum
-ents/João/Mestrado/texto/Cap5/Figuras/resultados_unfilt_23-eps-converted-to.pd
-f> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap5/Figuras/resultados_fil
-t_23-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/João/Mestrado/texto/Cap
-5/Figuras/resultados_unfilt_24-eps-converted-to.pdf> <C:/Users/jpsoliv/Document
-s/João/Mestrado/texto/Cap5/Figuras/resultados_filt_24-eps-converted-to.pdf>]) 
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Cap6/Capitulo_6.tex
+ [121 <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/resultados_unfilt
+_22-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figur
+as/resultados_filt_22-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrad
+o/texto/Cap5/Figuras/resultados_unfilt_23-eps-converted-to.pdf> <C:/Users/jpsol
+iv/Documents/Mestrado/texto/Cap5/Figuras/resultados_filt_23-eps-converted-to.pd
+f> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/resultados_unfilt_24
+-eps-converted-to.pdf> <C:/Users/jpsoliv/Documents/Mestrado/texto/Cap5/Figuras/
+resultados_filt_24-eps-converted-to.pdf>]) (C:\Users\jpsoliv\Documents\Mestrado
+\texto\Cap6/Capitulo_6.tex
 Package hyperref Info: Anchor `chapter.6' on input line 1.
 
 Cap\'{\i }tulo 6.
@@ -6117,8 +6088,8 @@ pdftex: bookmark at 15: {6.1} {\numberline{6.1}Pr\'oximos Passos} {section.6.1}
 )
 Package hyperref Info: Anchor `page.123' on input line 286.
  [123]
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Referencias_Bibliograficas/Bib
-liografia_biblioteca.tex
+(C:\Users\jpsoliv\Documents\Mestrado\texto\Referencias_Bibliograficas/Bibliogra
+fia_biblioteca.tex
 Package hyperref Info: Anchor `page.124' on input line 3.
  [124]
 Package hyperref Info: Anchor `chapter*.106' on input line 3.
@@ -6243,13 +6214,13 @@ File: dp012_JoaoPaulodeSouzaOliveira.pdf Graphic file (type pdf)
 Package pdftex.def Info: dp012_JoaoPaulodeSouzaOliveira.pdf, page1 used on inpu
 t line 329.
 (pdftex.def)             Requested size: 597.93192pt x 845.66379pt.
- [131 <C:/Users/jpsoliv/Documents/João/Mestrado/texto/dp012_JoaoPaulodeSouzaOl
-iveira.pdf>]
+ [131 <C:/Users/jpsoliv/Documents/Mestrado/texto/dp012_JoaoPaulodeSouzaOliveira
+.pdf>]
 
 AED: lastpage setting LastPage
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 331.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 331.
-(C:\Users\jpsoliv\Documents\João\Mestrado\texto\Dissertacao.aux)
+(C:\Users\jpsoliv\Documents\Mestrado\texto\Dissertacao.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 331.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 331.
 
@@ -6271,8 +6242,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 331.
 ### bottom level 
 Here is how much of TeX's memory you used:
  33409 strings out of 493921
- 660088 string characters out of 3125104
- 798051 words of memory out of 3000000
+ 659554 string characters out of 3125104
+ 797801 words of memory out of 3000000
  35401 multiletter control sequences out of 15000+200000
  65550 words of font info for 144 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -6298,7 +6269,7 @@ type1/public/amsfonts/cm/cmsy10.pfb><E:/Latex/MikTexPortable/fonts/type1/public
 cmsy8.pfb><E:/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmti10.pfb><E
 :/Latex/MikTexPortable/fonts/type1/public/amsfonts/cm/cmti12.pfb><E:/Latex/MikT
 exPortable/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Dissertacao.pdf (131 pages, 5755517 bytes).
+Output written on Dissertacao.pdf (131 pages, 14678564 bytes).
 PDF statistics:
  2780 PDF objects out of 2984 (max. 8388607)
  443 named destinations out of 1000 (max. 500000)
